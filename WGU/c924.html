@@ -2,16 +2,19 @@
 title: Cloud Deployment and Operations
 description: c924
 published: true
-date: 2022-07-17T17:39:04.492Z
+date: 2022-07-17T17:47:43.293Z
 tags: 
 editor: ckeditor
 dateCreated: 2022-05-24T02:45:09.140Z
 -->
 
 <p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1>Metrics, Logs, Alarms and Tracking</h1>
+<h2>Cloudwatch</h2>
 <p>Amazon Cloudwatch</p>
 <ul>
-  <li>collect&nbsp;</li>
+  <li>collect</li>
   <li>monitor</li>
   <li>act</li>
   <li>visualize</li>
@@ -20,973 +23,576 @@ dateCreated: 2022-05-24T02:45:09.140Z
 </ul>
 <p>&nbsp;</p>
 <p>Amazon Cloudwatch Components</p>
-<p>Metrics</p>
-<p>Logs</p>
-<p>Alarms</p>
-<p>Service Lens</p>
-<p>Insights</p>
-<p>Synthetics</p>
+<ul>
+  <li>Metrics</li>
+  <li>Logs</li>
+  <li>Alarms</li>
+  <li>Service Lens</li>
+  <li>Insights</li>
+  <li>Synthetics</li>
+</ul>
 <p>&nbsp;</p>
 <p>Cloudwatch Data</p>
 <p>Metrics - Quantitative Assessments</p>
 <p>Logs - Records of events</p>
 <p>&nbsp;</p>
 <p>Amazon Cloudwatch EC2 Metrics - (Under the monitoring tab)</p>
+<p>Detailed monitor must be enabled if an alarm is to trigger under 5 mins.</p>
 <p>&nbsp;</p>
-<p>S3 Glacier Vault lock allows you to easily deply and enforce complicance controls for individual S3 glacier vaults with a vault lock policy.</p>
+<h1>Storage</h1>
+<p>&nbsp;</p>
+<p>S3 Glacier Vault lock allows you to easily deploy and enforce compliance controls for individual S3 glacier vaults with a vault lock policy.</p>
+<p>&nbsp;</p>
+<p>With Amazon ElesticCache Memcached engine you cannot modify the node type. the way to scale up is to create a new cluster and specify the new node type. you can update the endpoint config in your application to point to the new endpoint.</p>
 <p>&nbsp;</p>
 <p>AWSSupport-TroubleshootSSH installs the amazon EC2 Rescue tool and then checks for and corrects some issues that cause remote connection errors.</p>
 <p>&nbsp;</p>
+<p>When using a single shard with cluster mode disabled you can create up to 5 replicas and the replicas can be in separate AZ as this adds High Availabiltiy with auto failover.</p>
+<p>&nbsp;</p>
+<p>To restrict access to content in a S3 bucket whilst caching it globally cloudfront can be used with an OAI. The Origin Access Identity is a special user created in cloudfront that is allowed to access the bucket through bucket permissions.</p>
+<p>&nbsp;</p>
+<h1>Networking</h1>
+<p>&nbsp;</p>
 <p>Route 53 dosent charge for alias queries to aws resources</p>
-<p>With Amazon ElesticCache Memcached engine you cannot modify the node type. the way to scale up is to create a new cluster and specify the new node type. you can update the endpoint config in your application to point to the new endpoint.</p>
 <p>&nbsp;</p>
 <p>a stateful firewall allows return traffic automatically</p>
 <p>a stateless firewall checks for an allow rule for both connectipons (in and out)</p>
 <p>&nbsp;</p>
+<h1>Management</h1>
 <p>Permission sets define the level of access that users and groups have to an AWS account. Permission sets are stored in AWS SSO and provisioned to the AWS account as IAM roles</p>
 <p>&nbsp;</p>
 <p>In AWS Organizations service control policies (SCP) are a type of organization policy that you can use to manage permissions in your organizations. SCPs offer central control over the maximum available permissions for all accounts in your organization</p>
 <p>&nbsp;</p>
 <p>The SSM Agent must be installed on the instances you want to connect to through sessions a custom AMI may not have an SSM agent installed and an administrator may need to install it. By default ssm doesnt have permission to perform actions on your instances.</p>
 <p>&nbsp;</p>
-<p>The Rollback_Complete status indicates successful removal of one or more stacks after a failed stack creation</p>
-<p>&nbsp;</p>
-<p>When usinf a single shard with cluster mode disabled you can create up to 5 replacas and the replicas can be in seperate AZ as this adds High Availabiltiy with auto failover.</p>
-<p>&nbsp;</p>
-<p>Compute Savings plans should be used when lambda usage is required</p>
-<p>&nbsp;</p>
 <p>For a workflow to open AWS management console on behalf of a user AWS SSO endpoint is required instead of directly callling the AssumeRole with SAML API. The endpoint calls the API for the user and returns a URL that automatically redirects the users browser to the AWS management console.</p>
 <p>&nbsp;</p>
-<p>Detailed monitor must be enabled if an alarm is to trigger under 5 mins.</p>
+<h2>Cloudformation</h2>
+<p>The Rollback_Complete status indicates successful removal of one or more stacks after a failed stack creation</p>
 <p>&nbsp;</p>
-<p>To restrict access to content in a S3 bucket whilst caching it globally cloudfront can be used with an OAI. The Origin Access Identity is a special user created in cloudfront that is allowed to access the bucket through bucket permissions.</p>
+<p>&nbsp;</p>
+<h2>Budgets</h2>
+<p>Compute Savings plans should be used when lambda usage is required</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p><a href="https://expeditedsecurity.com/aws-in-plain-english/">https://expeditedsecurity.com/aws-in-plain-english/</a></p>
 <p>&nbsp;</p>
-<figure class="table" style="width:7.825in;">
-  <table style="border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;">
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2>Products in plain English - (<a href="https://expeditedsecurity.com/aws-in-plain-english/">https://expeditedsecurity.com/aws-in-plain-english/</a>)</h2>
+<figure class="table">
+  <table>
     <tbody>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8701in;">
-          <p><strong>Run an App Services</strong></p>
-          <p><strong>No matter what you do with AWS you'll probably end up using these services as everything else interacts with them.</strong></p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>EC2</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6333in;">&nbsp;</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>EC2</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Amazon Virtual Servers</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Use this to</strong><br>Host the bits of things you think of as a computer.</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>It's like</strong><br>It's handwavy, but EC2 instances are similar to the virtual private servers you'd get at Linode, DigitalOcean or Rackspace.</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Amazon Virtual Servers</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>IAM</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">
-          <p><strong>Use this to</strong></p>
-          <p>Host the bits of things you think of as a computer.</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.7354in;">
-          <p><strong>It's like</strong></p>
-          <p>It's handwavy, but EC2 instances are similar to the virtual private servers you'd get at Linode, DigitalOcean or Rackspace.</p>
-        </td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>IAM</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Users, Keys and Certs</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="2"><strong>Use this to</strong><br>Set up additional users, set up new AWS Keys and policies.</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Users, Keys and Certs</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>S3</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">
-          <p><strong>Use this to</strong></p>
-          <p>Set up additional users, set up new AWS Keys and policies.</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>S3</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Amazon Unlimited FTP Server</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="2">
+          <p><strong>Use this to</strong><br>Store images and other assets for websites. Keep backups and share files between services. Host static websites. Also, many of the other AWS services write and read from S3.</p>
+          <p style="text-align:right;"><a href="https://expeditedsecurity.com/aws-in-plain-english/s3">S3 IN PLAIN ENGLISH</a></p>
+        </td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Amazon Unlimited FTP Server</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">
-          <p><strong>Use this to</strong></p>
-          <p>Store images and other assets for websites. Keep backups and share files between services. Host static websites. Also, many of the other AWS services write and read from S3.</p>
-          <p><a href="https://expeditedsecurity.com/aws-in-plain-english/s3">S3 IN PLAIN ENGLISH</a></p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>VPC</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>VPC</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Amazon Virtual Colocated Rack</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Use this to</strong><br>Overcome objections that "all our stuff is on the internet!" by adding an additional layer of security. Makes it appear as if all of your AWS services are on the same little network instead of being small pieces in a much bigger network.</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>It's like</strong><br>If you're familar with networking: VLANs</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Amazon Virtual Colocated Rack</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>Lambda</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.0944in;">
-          <p><strong>Use this to</strong></p>
-          <p>Overcome objections that "all our stuff is on the internet!" by adding an additional layer of security. Makes it appear as if all of your AWS services are on the same little network instead of being small pieces in a much bigger network.</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6763in;">
-          <p><strong>It's like</strong></p>
-          <p>If you're familar with networking: VLANs</p>
-        </td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>Lambda</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>AWS App Scripts</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="2">
+          <p><strong>Use this to</strong><br>Run little self contained snippets of JS, Java or Python to do discrete tasks. Sort of a combination of a queue and execution in one. Used for storing and then executing changes to your AWS setup or responding to events in S3 or DynamoDB.</p>
+          <p style="text-align:right;"><a href="https://expeditedsecurity.com/aws-in-plain-english/lambda">LAMBDA IN PLAIN ENGLISH</a></p>
+        </td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>AWS App Scripts</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h2>Web Developer Services</h2>
+          <p>If you're setting up a web app, these are mostly what you'd end up using. These are similar to what you'd find in Heroku's Addon Marketplace.</p>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.0944in;">
-          <p><strong>Use this to</strong></p>
-          <p>Run little self contained snippets of JS, Java or Python to do discrete tasks. Sort of a combination of a queue and execution in one. Used for storing and then executing changes to your AWS setup or responding to events in S3 or DynamoDB.</p>
-          <p><a href="https://expeditedsecurity.com/aws-in-plain-english/lambda">LAMBDA IN PLAIN ENGLISH</a></p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6284in;">&nbsp;</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.875in;">
-          <p><strong>Web Developer Services</strong></p>
-          <p><strong>If you're setting up a web app, these are mostly what you'd end up using. These are similar to what you'd find in Heroku's Addon Marketplace.</strong></p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>API Gateway</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6284in;">&nbsp;</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>API Gateway</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>API Proxy</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Use this to</strong><br>Proxy your apps API through this so you can throttle bad client traffic, test new versions, and present methods more cleanly.</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>It's like</strong><br>3Scale</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>API Proxy</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">
-          <p><strong>Use this to</strong></p>
-          <p>Proxy your apps API through this so you can throttle bad client traffic, test new versions, and present methods more cleanly.</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>RDS</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">
-          <p><strong>It's like</strong></p>
-          <p>3Scale</p>
-        </td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>RDS</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Amazon SQL</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Use this to</strong><br>Be your app's Mysql, Postgres, and Oracle database.</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>It's like</strong><br>Heroku Postgres</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Amazon SQL</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">
-          <p><strong>Use this to</strong></p>
-          <p>Be your app's Mysql, Postgres, and Oracle database.</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>Route53</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6652in;">
-          <p><strong>It's like</strong></p>
-          <p>Heroku Postgres</p>
-        </td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>Route53</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Amazon DNS + Domains</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Use this to</strong><br>Buy a new domain and set up the DNS records for that domain.</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>It's like</strong><br>DNSimple, GoDaddy, Gandi</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Amazon DNS + Domains</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">
-          <p><strong>Use this to</strong></p>
-          <p>Buy a new domain and set up the DNS records for that domain.</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6763in;">
-          <p><strong>It's like</strong></p>
-          <p>DNSimple, GoDaddy, Gandi</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>SES</h3>
         </td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>SES</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Amazon Transactional Email</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Use this to</strong><br>Send one-off emails like password resets, notifications, etc. You could use it to send a newsletter if you wrote all the code, but that's not a great idea.</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>It's like</strong><br>SendGrid, Mandrill, Postmark</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Amazon Transactional Email</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>Cloudfront</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.077in;">
-          <p><strong>Use this to</strong></p>
-          <p>Send one-off emails like password resets, notifications, etc. You could use it to send a newsletter if you wrote all the code, but that's not a great idea.</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6763in;">
-          <p><strong>It's like</strong></p>
-          <p>SendGrid, Mandrill, Postmark</p>
-        </td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>Cloudfront</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Amazon CDN</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Use this to</strong><br>Make your websites load faster by spreading out static file delivery to be closer to where your users are.</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>It's like</strong><br>MaxCDN, Akamai</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Amazon CDN</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>CloudSearch</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">
-          <p><strong>Use this to</strong></p>
-          <p>Make your websites load faster by spreading out static file delivery to be closer to where your users are.</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6763in;">
-          <p><strong>It's like</strong></p>
-          <p>MaxCDN, Akamai</p>
-        </td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>CloudSearch</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Amazon Fulltext Search</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Use this to</strong><br>Pull in data on S3 or in RDS and then search it for every instance of 'Jimmy.'</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>It's like</strong><br>Sphinx, Solr, ElasticSearch</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Amazon Fulltext Search</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">
-          <p><strong>Use this to</strong></p>
-          <p>Pull in data on S3 or in RDS and then search it for every instance of 'Jimmy.'</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>DynamoDB</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6763in;">
-          <p><strong>It's like</strong></p>
-          <p>Sphinx, Solr, ElasticSearch</p>
-        </td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>DynamoDB</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Amazon NoSQL</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Use this to</strong><br>Be your app's massively scalable key valueish store.</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>It's like</strong><br>MongoLab</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Amazon NoSQL</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">
-          <p><strong>Use this to</strong></p>
-          <p>Be your app's massively scalable key valueish store.</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>Elasticache</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">
-          <p><strong>It's like</strong></p>
-          <p>MongoLab</p>
-        </td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>Elasticache</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Amazon Memcached</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Use this to</strong><br>Be your app's Memcached or Redis.</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>It's like</strong><br>Redis to Go, Memcachier</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Amazon Memcached</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">
-          <p><strong>Use this to</strong></p>
-          <p>Be your app's Memcached or Redis.</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6763in;">
-          <p><strong>It's like</strong></p>
-          <p>Redis to Go, Memcachier</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>Elastic Transcoder</h3>
         </td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>Elastic Transcoder</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Amazon Beginning Cut Pro</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="2"><strong>Use this to</strong><br>Deal with video weirdness (change formats, compress, etc.).</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Amazon Beginning Cut Pro</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>SQS</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">
-          <p><strong>Use this to</strong></p>
-          <p>Deal with video weirdness (change formats, compress, etc.).</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>SQS</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Amazon Queue</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Use this to</strong><br>Store data for future processing in a queue. The lingo for this is storing "messages" but it doesn't have anything to do with email or SMS. SQS doesn't have any logic, it's just a place to put things and take things out.</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>It's like</strong><br>RabbitMQ, Sidekiq</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Amazon Queue</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.0944in;">
-          <p><strong>Use this to</strong></p>
-          <p>Store data for future processing in a queue. The lingo for this is storing "messages" but it doesn't have anything to do with email or SMS. SQS doesn't have any logic, it's just a place to put things and take things out.</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>WAF</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6763in;">
-          <p><strong>It's like</strong></p>
-          <p>RabbitMQ, Sidekiq</p>
-        </td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>WAF</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>AWS Firewall</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Use this to</strong><br>Block bad requests to Cloudfront protected sites (aka stop people trying 10,000 passwords against /wp-admin)</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>It's like</strong><br>Sophos, Kapersky</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>AWS Firewall</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">
-          <p><strong>Use this to</strong></p>
-          <p>Block bad requests to Cloudfront protected sites (aka stop people trying 10,000 passwords against /wp-admin)</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6763in;">
-          <p><strong>It's like</strong></p>
-          <p>Sophos, Kapersky</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h2>Mobile App Developer Services</h2>
+          <p>These are the services that only work for mobile developers.</p>
         </td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.875in;">
-          <p><strong>Mobile App Developer Services</strong></p>
-          <p><strong>These are the services that only work for mobile developers.</strong></p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>Cognito</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6284in;">&nbsp;</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>Cognito</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Amazon OAuth as a Service</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Use this to</strong><br>Give end users - (non AWS) - the ability to log in with Google, Facebook, etc.</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>It's like</strong><br>OAuth.io</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Amazon OAuth as a Service</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>Device Farm</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">
-          <p><strong>Use this to</strong></p>
-          <p>Give end users - (non AWS) - the ability to log in with Google, Facebook, etc.</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">
-          <p><strong>It's like</strong></p>
-          <p>OAuth.io</p>
-        </td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>Device Farm</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Amazon Drawer of Old Android Devices</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Use this to</strong><br>Test your app on a bunch of different IOS and Android devices simultaneously.</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>It's like</strong><br>MobileTest, iOS emulator</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.875in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Amazon Drawer of Old Android Devices</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>Mobile Analytics</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">
-          <p><strong>Use this to</strong></p>
-          <p>Test your app on a bunch of different IOS and Android devices simultaneously.</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6763in;">
-          <p><strong>It's like</strong></p>
-          <p>MobileTest, iOS emulator</p>
-        </td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>Mobile Analytics</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Spot on Name, Amazon Product Managers take note</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Use this to</strong><br>Track what people are doing inside of your app.</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>It's like</strong><br>Flurry</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Spot on Name, Amazon Product Managers take note</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.0944in;">
-          <p><strong>Use this to</strong></p>
-          <p>Track what people are doing inside of your app.</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>SNS</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6284in;">
-          <p><strong>It's like</strong></p>
-          <p>Flurry</p>
-        </td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>SNS</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Amazon Messenger</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Use this to</strong><br>Send mobile notifications, emails and/or SMS messages</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>It's like</strong><br>UrbanAirship, Twilio</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Amazon Messenger</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">
-          <p><strong>Use this to</strong></p>
-          <p>Send mobile notifications, emails and/or SMS messages</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6763in;">
-          <p><strong>It's like</strong></p>
-          <p>UrbanAirship, Twilio</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h2>Ops and Code Deployment Services</h2>
+          <p>These are for automating how you manage and deploy your code onto other services.</p>
         </td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8645in;">
-          <p><strong>Ops and Code Deployment Services</strong></p>
-          <p><strong>These are for automating how you manage and deploy your code onto other services.</strong></p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>CodeCommit</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6388in;">&nbsp;</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>CodeCommit</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Amazon GitHub</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Use this to</strong><br>Version control your code - hosted Git.</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>It's like</strong><br>Github, BitBucket</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Amazon GitHub</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>Code Deploy</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">
-          <p><strong>Use this to</strong></p>
-          <p>Version control your code - hosted Git.</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6763in;">
-          <p><strong>It's like</strong></p>
-          <p>Github, BitBucket</p>
-        </td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>Code Deploy</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Not bad</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Use this to</strong><br>Get your code from your CodeCommit repo (or Github) onto a bunch of EC2 instances in a sane way.</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>It's like</strong><br>Heroku, Capistrano</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Not bad</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">
-          <p><strong>Use this to</strong></p>
-          <p>Get your code from your CodeCommit repo (or Github) onto a bunch of EC2 instances in a sane way.</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>CodePipeline</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6763in;">
-          <p><strong>It's like</strong></p>
-          <p>Heroku, Capistrano</p>
-        </td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>CodePipeline</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Amazon Continuous Integration</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Use this to</strong><br>Run automated tests on your code and then do stuff with it depending on if it passes those tests.</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>It's like</strong><br>CircleCI, Travis</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Amazon Continuous Integration</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">
-          <p><strong>Use this to</strong></p>
-          <p>Run automated tests on your code and then do stuff with it depending on if it passes those tests.</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>EC2 Container Service</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">
-          <p><strong>It's like</strong></p>
-          <p>CircleCI, Travis</p>
-        </td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>EC2 Container Service</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Amazon Docker as a Service</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="2"><strong>Use this to</strong><br>Put a Dockerfile into an EC2 instance so you can run a website.</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Amazon Docker as a Service</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>Elastic Beanstalk</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">
-          <p><strong>Use this to</strong></p>
-          <p>Put a Dockerfile into an EC2 instance so you can run a website.</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>Elastic Beanstalk</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Amazon Platform as a Service</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Use this to</strong><br>Move your app hosted on Heroku to AWS when it gets too expensive.</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>It's like</strong><br>Heroku, BlueMix, Modulus</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Amazon Platform as a Service</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">
-          <p><strong>Use this to</strong></p>
-          <p>Move your app hosted on Heroku to AWS when it gets too expensive.</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h2>Enterprise / Corporate Services</h2>
+          <p>Services for business and networks.</p>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6763in;">
-          <p><strong>It's like</strong></p>
-          <p>Heroku, BlueMix, Modulus</p>
-        </td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Enterprise / Corporate Services</strong></p>
-          <p><strong>Services for business and networks.</strong></p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>AppStream</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>AppStream</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Amazon Citrix</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Use this to</strong><br>Put a copy of a Windows application on a Windows machine that people get remote access to.</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>It's like</strong><br>Citrix, RDP</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Amazon Citrix</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.0944in;">
-          <p><strong>Use this to</strong></p>
-          <p>Put a copy of a Windows application on a Windows machine that people get remote access to.</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>Direct Connect</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6284in;">
-          <p><strong>It's like</strong></p>
-          <p>Citrix, RDP</p>
-        </td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>Direct Connect</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Pretty spot on actually</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Use this to</strong><br>Pay your Telco + AWS to get a dedicated leased line from your data center or network to AWS. Cheaper than Internet out for Data.</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>It's like</strong><br>A toll road turnpike bypassing the crowded side streets.</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Pretty spot on actually</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">
-          <p><strong>Use this to</strong></p>
-          <p>Pay your Telco + AWS to get a dedicated leased line from your data center or network to AWS. Cheaper than Internet out for Data.</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.7159in;">
-          <p><strong>It's like</strong></p>
-          <p>A toll road turnpike bypassing the crowded side streets.</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>Directory Service</h3>
         </td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>Directory Service</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Pretty spot on actually</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="2"><strong>Use this to</strong><br>Tie together other apps that need a Microsoft Active Directory to control them.</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Pretty spot on actually</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>WorkDocs</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">
-          <p><strong>Use this to</strong></p>
-          <p>Tie together other apps that need a Microsoft Active Directory to control them.</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>WorkDocs</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Amazon Unstructured Files</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Use this to</strong><br>Share Word Docs with your colleagues.</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>It's like</strong><br>Dropbox, DataAnywhere</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Amazon Unstructured Files</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">
-          <p><strong>Use this to</strong></p>
-          <p>Share Word Docs with your colleagues.</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>WorkMail</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.7798in;">
-          <p><strong>It's like</strong></p>
-          <p>Dropbox, DataAnywhere</p>
-        </td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>WorkMail</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Amazon Company Email</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Use this to</strong><br>Give everyone in your company the same email system and calendar.</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>It's like</strong><br>Google Apps for Domains</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Amazon Company Email</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">
-          <p><strong>Use this to</strong></p>
-          <p>Give everyone in your company the same email system and calendar.</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6763in;">
-          <p><strong>It's like</strong></p>
-          <p>Google Apps for Domains</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>Workspaces</h3>
         </td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>Workspaces</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Amazon Remote Computer</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="2"><strong>Use this to</strong><br>Gives you a standard windows desktop that you're remotely controlling.</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Amazon Remote Computer</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>Service Catalog</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">
-          <p><strong>Use this to</strong></p>
-          <p>Gives you a standard windows desktop that you're remotely controlling.</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>Service Catalog</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Amazon Setup Already</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="2"><strong>Use this to</strong><br>Give other AWS users in your group access to preset apps you've built so they don't have to read guides like this.</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Amazon Setup Already</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>Storage Gateway</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.0944in;">
-          <p><strong>Use this to</strong></p>
-          <p>Give other AWS users in your group access to preset apps you've built so they don't have to read guides like this.</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6284in;">&nbsp;</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>Storage Gateway</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>S3 pretending it's part of your corporate network</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="2"><strong>Use this to</strong><br>Stop buying more storage to keep Word Docs on. Make automating getting files into S3 from your corporate network easier.</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>S3 pretending it's part of your corporate network</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">
-          <p><strong>Use this to</strong></p>
-          <p>Stop buying more storage to keep Word Docs on. Make automating getting files into S3 from your corporate network easier.</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h2>Big Data Services</h2>
+          <p>Services to ingest, manipulate and massage data to do your will.</p>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Big Data Services</strong></p>
-          <p><strong>Services to ingest, manipulate and massage data to do your will.</strong></p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>Data Pipeline</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>Data Pipeline</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Amazon ETL</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="2"><strong>Use this to</strong><br>Extract, Transform and Load data from elsewhere in AWS. Schedule when it happens and get alerts when they fail.</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Amazon ETL</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>Elastic Map Reduce</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">
-          <p><strong>Use this to</strong></p>
-          <p>Extract, Transform and Load data from elsewhere in AWS. Schedule when it happens and get alerts when they fail.</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>Elastic Map Reduce</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Amazon Hadooper</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Use this to</strong><br>Iterate over massive text files of raw data that you're keeping in S3.</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>It's like</strong><br>Treasure Data</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Amazon Hadooper</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">
-          <p><strong>Use this to</strong></p>
-          <p>Iterate over massive text files of raw data that you're keeping in S3.</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">
-          <p><strong>It's like</strong></p>
-          <p>Treasure Data</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>Glacier</h3>
         </td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>Glacier</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Really slow Amazon S3</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="2"><strong>Use this to</strong><br>Make backups of your backups that you keep on S3. Also, beware the cost of getting data back out in a hurry. For long term archiving.</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Really slow Amazon S3</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>Kinesis</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">
-          <p><strong>Use this to</strong></p>
-          <p>Make backups of your backups that you keep on S3. Also, beware the cost of getting data back out in a hurry. For long term archiving.</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>Kinesis</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Amazon High Throughput</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Use this to</strong><br>Ingest lots of data very quickly (for things like analytics or people retweeting Kanye) that you then later use other AWS services to analyze.</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>It's like</strong><br>Kafka</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Amazon High Throughput</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.0944in;">
-          <p><strong>Use this to</strong></p>
-          <p>Ingest lots of data very quickly (for things like analytics or people retweeting Kanye) that you then later use other AWS services to analyze.</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>RedShift</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6284in;">
-          <p><strong>It's like</strong></p>
-          <p>Kafka</p>
-        </td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>RedShift</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Amazon Data Warehouse</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="2"><strong>Use this to</strong><br>Store a whole bunch of analytics data, do some processing, and dump it out.</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Amazon Data Warehouse</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>Machine Learning</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">
-          <p><strong>Use this to</strong></p>
-          <p>Store a whole bunch of analytics data, do some processing, and dump it out.</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>Machine Learning</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Skynet</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="2"><strong>Use this to</strong><br>Predict future behavior from existing data for problems like fraud detection or "people that bought x also bought y."</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Skynet</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.0784in;">
-          <p><strong>Use this to</strong></p>
-          <p>Predict future behavior from existing data for problems like fraud detection or "people that bought x also bought y."</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>SWF</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6444in;">&nbsp;</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>SWF</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Amazon EC2 Queue</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Use this to</strong><br>Build a service of "deciders" and "workers" on top of EC2 to accomplish a set task. Unlike SQS - logic is set up inside the service to determine how and what should happen.</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>It's like</strong><br>IronWorker</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Amazon EC2 Queue</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>Snowball</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.0944in;">
-          <p><strong>Use this to</strong></p>
-          <p>Build a service of "deciders" and "workers" on top of EC2 to accomplish a set task. Unlike SQS - logic is set up inside the service to determine how and what should happen.</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6284in;">
-          <p><strong>It's like</strong></p>
-          <p>IronWorker</p>
-        </td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>Snowball</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>AWS Big Old Portable Storage</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Use this to</strong><br>Get a bunch of hard drives you can attach to your network to make getting large amounts (Terabytes of Data) into and out of AWS</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>It's like</strong><br>Shipping a Network Attached Storage device to AWS</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>AWS Big Old Portable Storage</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h2>AWS Management Services</h2>
+          <p>AWS can get so difficult to manage that they invented a bunch of services to sell you to make it easier to manage.</p>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">
-          <p><strong>Use this to</strong></p>
-          <p>Get a bunch of hard drives you can attach to your network to make getting large amounts (Terabytes of Data) into and out of AWS</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.7798in;">
-          <p><strong>It's like</strong></p>
-          <p>Shipping a Network Attached Storage device to AWS</p>
-        </td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>AWS Management Services</strong></p>
-          <p><strong>AWS can get so difficult to manage that they invented a bunch of services to sell you to make it easier to manage.</strong></p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>CloudFormation</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>CloudFormation</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Amazon Services Setup</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="2"><strong>Use this to</strong><br>Set up a bunch of connected AWS services in one go.</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Amazon Services Setup</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.0944in;">
-          <p><strong>Use this to</strong></p>
-          <p>Set up a bunch of connected AWS services in one go.</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>CloudTrail</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6284in;">&nbsp;</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>CloudTrail</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Amazon Logging</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="2"><strong>Use this to</strong><br>Log who is doing what in your AWS stack (API calls).</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Amazon Logging</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>CloudWatch</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">
-          <p><strong>Use this to</strong></p>
-          <p>Log who is doing what in your AWS stack (API calls).</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>CloudWatch</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Amazon Status Pager</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Use this to</strong><br>Get alerts about AWS services messing up or disconnecting.</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>It's like</strong><br>PagerDuty, Statuspage</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Amazon Status Pager</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">
-          <p><strong>Use this to</strong></p>
-          <p>Get alerts about AWS services messing up or disconnecting.</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>Config</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6916in;">
-          <p><strong>It's like</strong></p>
-          <p>PagerDuty, Statuspage</p>
-        </td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>Config</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Amazon Configuration Management</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="2"><strong>Use this to</strong><br>Keep from going insane if you have a large AWS setup and changes are happening that you want to track.</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Amazon Configuration Management</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>OpsWorks</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.0944in;">
-          <p><strong>Use this to</strong></p>
-          <p>Keep from going insane if you have a large AWS setup and changes are happening that you want to track.</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6284in;">&nbsp;</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>OpsWorks</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Amazon Chef</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="2"><strong>Use this to</strong><br>Handle running your application with things like auto-scaling.</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Amazon Chef</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">
-          <p><strong>Use this to</strong></p>
-          <p>Handle running your application with things like auto-scaling.</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>Trusted Advisor</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>Trusted Advisor</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Amazon Pennypincher</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="2"><strong>Use this to</strong><br>Find out where you're paying too much in your AWS setup (unused EC2 instances, etc.).</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Amazon Pennypincher</p>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;" colspan="3">
+          <h3>Inspector</h3>
         </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">
-          <p><strong>Use this to</strong></p>
-          <p>Find out where you're paying too much in your AWS setup (unused EC2 instances, etc.).</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
-      </tr>
-      <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;"><strong>Inspector</strong></td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">&nbsp;</td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">&nbsp;</td>
       </tr>
       <tr>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:2.8555in;">
-          <p><strong>Should have been called</strong></p>
-          <p>Amazon Auditor</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:3.075in;">
-          <p><strong>Use this to</strong></p>
-          <p>Scans your AWS setup to determine if you've setup it up in an insecure way</p>
-        </td>
-        <td style="background-color:white;border-bottom:1pt solid #A3A3A3;border-left:1pt solid #A3A3A3;border-right:1pt solid #A3A3A3;border-top:1pt solid #A3A3A3;padding:2.0pt 3.0pt;vertical-align:top;width:1.6479in;">
-          <p><strong>It's like</strong></p>
-          <p>Alert Logic</p>
-        </td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Should have been called</strong><br>Amazon Auditor</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>Use this to</strong><br>Scans your AWS setup to determine if you've setup it up in an insecure way</td>
+        <td style="border-bottom:1px solid rgb(237, 244, 248);border-left:1px solid rgb(237, 244, 248);border-right:1px solid rgb(237, 244, 248);border-top:1px solid rgb(237, 244, 248);padding:0.75rem;vertical-align:top;"><strong>It's like</strong><br>Alert Logic</td>
       </tr>
     </tbody>
   </table>
 </figure>
-<p>&nbsp;</p>
-<p>From &lt;<a href="https://expeditedsecurity.com/aws-in-plain-english/">https://expeditedsecurity.com/aws-in-plain-english/</a>&gt;</p>
-<p>&nbsp;</p>
 <p>&nbsp;</p>
