@@ -2,7 +2,7 @@
 title: Cloud Deployment and Operations
 description: c924
 published: true
-date: 2022-07-17T03:07:01.327Z
+date: 2022-07-17T17:39:04.492Z
 tags: 
 editor: ckeditor
 dateCreated: 2022-05-24T02:45:09.140Z
@@ -33,7 +33,33 @@ dateCreated: 2022-05-24T02:45:09.140Z
 <p>&nbsp;</p>
 <p>Amazon Cloudwatch EC2 Metrics - (Under the monitoring tab)</p>
 <p>&nbsp;</p>
+<p>S3 Glacier Vault lock allows you to easily deply and enforce complicance controls for individual S3 glacier vaults with a vault lock policy.</p>
 <p>&nbsp;</p>
+<p>AWSSupport-TroubleshootSSH installs the amazon EC2 Rescue tool and then checks for and corrects some issues that cause remote connection errors.</p>
+<p>&nbsp;</p>
+<p>Route 53 dosent charge for alias queries to aws resources</p>
+<p>With Amazon ElesticCache Memcached engine you cannot modify the node type. the way to scale up is to create a new cluster and specify the new node type. you can update the endpoint config in your application to point to the new endpoint.</p>
+<p>&nbsp;</p>
+<p>a stateful firewall allows return traffic automatically</p>
+<p>a stateless firewall checks for an allow rule for both connectipons (in and out)</p>
+<p>&nbsp;</p>
+<p>Permission sets define the level of access that users and groups have to an AWS account. Permission sets are stored in AWS SSO and provisioned to the AWS account as IAM roles</p>
+<p>&nbsp;</p>
+<p>In AWS Organizations service control policies (SCP) are a type of organization policy that you can use to manage permissions in your organizations. SCPs offer central control over the maximum available permissions for all accounts in your organization</p>
+<p>&nbsp;</p>
+<p>The SSM Agent must be installed on the instances you want to connect to through sessions a custom AMI may not have an SSM agent installed and an administrator may need to install it. By default ssm doesnt have permission to perform actions on your instances.</p>
+<p>&nbsp;</p>
+<p>The Rollback_Complete status indicates successful removal of one or more stacks after a failed stack creation</p>
+<p>&nbsp;</p>
+<p>When usinf a single shard with cluster mode disabled you can create up to 5 replacas and the replicas can be in seperate AZ as this adds High Availabiltiy with auto failover.</p>
+<p>&nbsp;</p>
+<p>Compute Savings plans should be used when lambda usage is required</p>
+<p>&nbsp;</p>
+<p>For a workflow to open AWS management console on behalf of a user AWS SSO endpoint is required instead of directly callling the AssumeRole with SAML API. The endpoint calls the API for the user and returns a URL that automatically redirects the users browser to the AWS management console.</p>
+<p>&nbsp;</p>
+<p>Detailed monitor must be enabled if an alarm is to trigger under 5 mins.</p>
+<p>&nbsp;</p>
+<p>To restrict access to content in a S3 bucket whilst caching it globally cloudfront can be used with an OAI. The Origin Access Identity is a special user created in cloudfront that is allowed to access the bucket through bucket permissions.</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p><a href="https://expeditedsecurity.com/aws-in-plain-english/">https://expeditedsecurity.com/aws-in-plain-english/</a></p>
