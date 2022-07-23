@@ -2,7 +2,7 @@
 title: Cloud Deployment and Operations
 description: c924
 published: true
-date: 2022-07-23T20:16:57.563Z
+date: 2022-07-23T20:27:48.206Z
 tags: 
 editor: ckeditor
 dateCreated: 2022-05-24T02:45:09.140Z
@@ -35,9 +35,9 @@ dateCreated: 2022-05-24T02:45:09.140Z
 <p>Logs - Records of events</p>
 <p>&nbsp;</p>
 <p>Amazon Cloudwatch EC2 Metrics - (Under the monitoring tab)</p>
-<p>Detailed monitor must be enabled if an alarm is to trigger under 5 mins.</p>
+<p>A detailed monitor must be enabled if an alarm is to trigger in under 5 mins.</p>
 <p>&nbsp;</p>
-<p>Amazon Simple Notification Service (SNS) - &nbsp;provides a serverless publication/subscription platform for messaging</p>
+<p>Amazon Simple Notification Service (SNS) - provides a serverless publication/subscription platform for messaging</p>
 <p>&nbsp;</p>
 <p>Simple Notification Server (SNS) supports the following subscription protocols</p>
 <ul>
@@ -51,29 +51,29 @@ dateCreated: 2022-05-24T02:45:09.140Z
 </ul>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p>For a rate based rule, enter the max number of requests to allow in any 5 minute period from an IP that matches the rule condition</p>
+<p>For a rate-based rule, enter the max number of requests to allow in any 5 minutes from an IP that matches the rule condition</p>
 <p>&nbsp;</p>
 <p>A Cloudwatch alarm monitors a metric, and when defined thresholds are met or exceeded the alarm triggers an action.&nbsp;</p>
 <p>&nbsp;</p>
-<p>You can create a Cloudwatch dashboard to display custom metrics by adding a widget and choosing metrics from the custom name space.</p>
+<p>You can create a Cloudwatch dashboard to display custom metrics by adding a widget and choosing metrics from the custom namespace.</p>
 <p>&nbsp;</p>
 <p>Using Athena with cloudtrail logs is a powerful way to enhance your analysis of AWS service activity. for example you can use queries to identify trends and further isolate activity by attributes, such as source IP address or user.</p>
 <p>&nbsp;</p>
-<p>The Amazon inspector agent is an entity that collects installed package information and software configurations for an EC2 instance.</p>
+<p>The Amazon Inspector agent is an entity that collects installed package information and software configurations for an EC2 instance.</p>
 <p>&nbsp;</p>
 <p>to determine whether a log file was modified, deleted, or unchanged after cloudtrail delivered it you can use cloudtrail log files integrity validation</p>
 <p>&nbsp;</p>
 <p>Utilization data is not recorded in log files in Cloudwatch logs.</p>
 <p>&nbsp;</p>
-<p>To store logs of terminated instances you must configure unified Cloudwatch agent to stream the logs to Cloudwatch logs. this will ensure all logs are up to date at the point of termination.</p>
+<p>To store logs of terminated instances you must configure a unified Cloudwatch agent to stream the logs to Cloudwatch logs. this will ensure all logs are up to date at the point of termination.</p>
 <p>&nbsp;</p>
-<p>VPC flow logs can be enabled on either the NAT Gateway ENI or the VPC. Cloudwatch insights can then be used to filter data based off source IP</p>
+<p>VPC flow logs can be enabled on either the NAT Gateway ENI or the VPC. Cloudwatch insights can then be used to filter data based on source IP</p>
 <p>&nbsp;</p>
-<p>Server access logging provides detailed records for the requests that are made to a bucket. There the access logs should be recorded to a separate, dedicated bucket. Access logs include information such as requests, the remote IP and the Bucket being accessed.</p>
+<p>Server access logging provides detailed records for the requests that are made to a bucket. There the access logs should be recorded in a separate, dedicated bucket. Access logs include information such as requests, the remote IP, and the Bucket being accessed.</p>
 <p>the</p>
 <p>Amazon Athena is a serverless query service that makes it easy to analyze large amounts of data stored in an Amazon S3 Using standard SQL.</p>
 <p>&nbsp;</p>
-<p>For an alarm to go off when there is no healthy instances the “HealthyHostCount” metric is &lt; = 0</p>
+<p>For an alarm to go off when there are no healthy instances the “HealthyHostCount” metric is &lt; = 0</p>
 <p>&nbsp;</p>
 <h3>Cloudtrail Setup</h3>
 <p>Step 1 - Choose trail attributes</p>
@@ -97,9 +97,9 @@ dateCreated: 2022-05-24T02:45:09.140Z
 <p>&nbsp;</p>
 <p>“AWSSupport-TroubleshootSSH” installs the amazon EC2 Rescue tool and then checks for and corrects some issues that cause remote connection errors.</p>
 <p>&nbsp;</p>
-<p>When using a single shard with cluster mode disabled you can create up to 5 replicas and the replicas can be in separate AZ as this adds High Availability with auto failover.</p>
+<p>When using a single shard with cluster mode disabled you can create up to 5 replicas and the replicas can be in separate AZ as this adds High Availability with auto-failover.</p>
 <p>&nbsp;</p>
-<p>To restrict access to content in a S3 bucket whilst caching it globally Cloudfront can be used with an OAI. The Origin Access Identity is a special user created in cloudfront that is allowed to access the bucket through bucket permissions.</p>
+<p>To restrict access to content in an S3 bucket whilst caching it globally Cloudfront can be used with an OAI. The Origin Access Identity is a special user created in CloudFront that is allowed to access the bucket through bucket permissions.</p>
 <p>&nbsp;</p>
 <p>EC2 Status checks do not tell you the status of an EBS volume</p>
 <p>&nbsp;</p>
@@ -112,7 +112,7 @@ dateCreated: 2022-05-24T02:45:09.140Z
   <li>a manual failover of the DB instance was initiated using “Reboot with Failover”</li>
 </ul>
 <p>&nbsp;</p>
-<p>RDS service includes backups, patching. failover detection and recovery</p>
+<p>RDS service includes backups, patching, failover detection, and recovery</p>
 <p>&nbsp;</p>
 <p>RDS Multi-AZ Failover occurs in the following situations</p>
 <ul>
@@ -120,42 +120,42 @@ dateCreated: 2022-05-24T02:45:09.140Z
   <li>The primary DB instance fails</li>
   <li>The DB instance type is changed</li>
   <li>the OS of the DB instance is undergoing patching</li>
-  <li>A Manual failover of the DB instance was initiated using reboot</li>
+  <li>A Manual failover of the DB instance was initiated using a reboot</li>
 </ul>
 <p>&nbsp;</p>
-<p>The Amazon Elastic File System (EFS) provides a filesystem interface to connect multiple AZ to a single filesystem using NFS protocol</p>
+<p>The Amazon Elastic File System (EFS) provides a filesystem interface to connect multiple AZ to a single filesystem using the NFS protocol</p>
 <p>&nbsp;</p>
-<p>After creating a cluster, you can immediately run queries by using the query editor on amazon redshift console. One of the limitations of the cluster query editor is that you cannot us it with enhanced VPC routing</p>
+<p>After creating a cluster, you can immediately run queries by using the query editor on the amazon redshift console. One of the limitations of the cluster query editor is that you cannot use it with enhanced VPC routing</p>
 <p>&nbsp;</p>
-<p>The Following are a few reason why an instance might immediately terminate</p>
+<p>The Following are a few reasons why an instance might immediately terminate</p>
 <ul>
-  <li>You've reached you EBS Volume limit</li>
-  <li>AN EBS snapshot is corrupt</li>
-  <li>The root EBS volume is encrypted and you don't have permissions to access the key</li>
-  <li>The instance store backed AMI that you used to launch the instance is missing a required part.</li>
+  <li>You've reached your EBS Volume limit</li>
+  <li>An EBS snapshot is corrupt</li>
+  <li>The root EBS volume is encrypted and you don't have permission to access the key</li>
+  <li>The instance store-backed AMI that you used to launch the instance is missing a required part.</li>
 </ul>
 <p>&nbsp;</p>
-<p>There are two ways to scale a database when you need capacity to serve reads.</p>
+<p>There are two ways to scale a database when you need the capacity to serve reads.</p>
 <ol>
   <li>Use a read replica</li>
   <li>Modify the RDS instance type to a larger instance.</li>
 </ol>
 <p>&nbsp;</p>
-<p>The AWS config encrypted-volumes rule checks weather the EBS volumes that are in an attached state are encrypted</p>
+<p>The AWS config encrypted-volumes rule checks whether the EBS volumes that are in an attached state are encrypted</p>
 <p>&nbsp;</p>
-<p>You can run volume gateways in two modes Cached and Stored. With cached volumes, the storage gateway service stores full volume in its S3 service bucket and a portion of the volume (recently accessed) in the gateways local cache</p>
+<p>You can run volume gateways in two modes Cached and Stored. With cached volumes, the storage gateway service stores full volume in its S3 service bucket and a portion of the volume (recently accessed) in the gateway local cache</p>
 <p>&nbsp;</p>
-<p>You can scale Elasticcache and memcached clusters horizontally or vertically.</p>
+<p>You can scale Elasticcache and Memcached clusters horizontally or vertically.</p>
 <p>&nbsp;</p>
 <p>Amazon S3 inventory provides CSV output files that list your objects and their corresponding metadata on a daily or weekly basis for an S3 bucket or a shared prefix. The inventory reports will provide a definitive answer to the admin for how many objects are in a bucket.</p>
 <p>&nbsp;</p>
 <p>To add HA to an existing RDS instance go into the console and enable multi-AZ</p>
 <p>&nbsp;</p>
-<p>to share a snapshot with another account you must create a manual RDS snapshot with the create-db-snapshot command and share it to the destioned account. then they create a copy to their account.</p>
+<p>to share a snapshot with another account you must create a manual RDS snapshot with the create-db-snapshot command and share it to the destined account. then they create a copy of their account.</p>
 <p>&nbsp;</p>
 <p>Amazon RDS creates and saves automated backups of your Database instances during the backup window of your instance.</p>
 <p>&nbsp;</p>
-<p>Amazon RDS provides metrics in real time for the OS that your DB instance runs on. you can view the metric for your DB instance using the console. Enhanced monitoring JSON output from Cloudwatch logs in a monitoring system of your choice.</p>
+<p>Amazon RDS provides metrics in real-time for the OS that your DB instance runs on. you can view the metric for your DB instance using the console. Enhanced monitoring JSON output from Cloudwatch logs in a monitoring system of your choice.</p>
 <p>&nbsp;</p>
 <p>Troubleshooting EC2 Instances</p>
 <ul>
@@ -165,18 +165,18 @@ dateCreated: 2022-05-24T02:45:09.140Z
 </ul>
 <h1>Networking</h1>
 <p>&nbsp;</p>
-<p>Route 53 doesn't charge for alias queries to aws resources</p>
+<p>Route 53 doesn't charge for alias queries to AWS resources</p>
 <p>&nbsp;</p>
 <p>a stateful firewall allows return traffic automatically</p>
 <p>a stateless firewall checks for an allow rule for both connections (in and out)</p>
 <p>&nbsp;</p>
-<p>Amazon cloudfront can be used to cache static content from the S3 Bucket. this helps improve performance for delivery of static content. Adding an auto scaling group to the solution will enable the web servers to scale based on demand</p>
+<p>Amazon CloudFront can be used to cache static content from the S3 Bucket. this helps improve performance for the delivery of static content. Adding an auto-scaling group to the solution will enable the web servers to scale based on demand</p>
 <p>&nbsp;</p>
-<p>Inter-Region VPC peering provides a simple and cost effective way to share resources between regions or replicate data for geographic redundancy.</p>
+<p>Inter-Region VPC peering provides a simple and cost-effective way to share resources between regions or replicate data for geographic redundancy.</p>
 <p>&nbsp;</p>
 <p>A 503 service unavailable error is most likely caused by too many requests in a short period of time.</p>
 <p>&nbsp;</p>
-<p>AWS config restricted-common-ports check is used to check weather security groups in use do not allow unrestricted TCP traffic to specific ports</p>
+<p>AWS config restricted-common-ports check is used to check whether security groups in use do not allow unrestricted TCP traffic to specific ports</p>
 <p>&nbsp;</p>
 <p>Elastic Load Balancing (ELB) provides access logs that capture detailed info about requests to your load balancer</p>
 <p>&nbsp;</p>
@@ -184,21 +184,21 @@ dateCreated: 2022-05-24T02:45:09.140Z
 <p>&nbsp;</p>
 <p>NAT gateways provide outbound internet connectivity it does not provide inbound access.</p>
 <p>&nbsp;</p>
-<p>You need to shutdown your VM for maintenance but before you do you must stop the gateway then reboot/shutdown</p>
+<p>You need to shutdown your VM for maintenance but before you do you must stop the gateway and then reboot/shutdown</p>
 <p>&nbsp;</p>
-<p>By default you can only have up to 5 nondefault VPCs per AWS account</p>
+<p>By default, you can only have up to 5 non-default VPCs per AWS account</p>
 <p>&nbsp;</p>
-<p>An egress-only internet gateway is a horizontally scaled, redundant and highly available VPC component that allows outbound communication over IPv6 from your VPC</p>
+<p>An egress-only internet gateway is a horizontally scaled, redundant, and highly available VPC component that allows outbound communication over IPv6 from your VPC</p>
 <p>&nbsp;</p>
-<p>A NAT Gateway provides internet connectivity to instances in private subnets. It performs Network address translation so that the source ip is translated to an internet routable ip address.</p>
+<p>A NAT Gateway provides internet connectivity to instances in private subnets. It performs Network address translation so that the source IP is translated to an internet routable IP address.</p>
 <h1>Management</h1>
 <p>Permission sets define the level of access that users and groups have to an AWS account. Permission sets are stored in AWS SSO and provisioned to the AWS account as IAM roles</p>
 <p>&nbsp;</p>
-<p>In AWS Organizations service control policies (SCP) are a type of organization policy that you can use to manage permissions in your organizations. SCPs offer central control over the maximum available permissions for all accounts in your organization</p>
+<p>In AWS Organizations service control policies (SCP) are a type of organization policy that you can use to manage permissions in your organization. SCPs offer central control over the maximum available permissions for all accounts in your organization</p>
 <p>&nbsp;</p>
-<p>The SSM Agent must be installed on the instances you want to connect to through sessions a custom AMI may not have an SSM agent installed and an administrator may need to install it. By default SSM doesn't have permission to perform actions on your instances.</p>
+<p>The SSM Agent must be installed on the instances you want to connect to through sessions a custom AMI may not have an SSM agent installed and an administrator may need to install it. By default, SSM doesn't have permission to perform actions on your instances.</p>
 <p>&nbsp;</p>
-<p>For a workflow to open AWS management console on behalf of a user AWS SSO endpoint is required instead of directly calling the AssumeRole with SAML API. The endpoint calls the API for the user and returns a URL that automatically redirects the users browser to the AWS management console.</p>
+<p>For a workflow to open the AWS management console on behalf of a user AWS SSO endpoint is required instead of directly calling the AssumeRole with SAML API. The endpoint calls the API for the user and returns a URL that automatically redirects the users browser to the AWS management console.</p>
 <p>&nbsp;</p>
 <p>AD Connector is designed to give you an easy way to establish a trust relationship between your active directory and AWS.</p>
 <p>&nbsp;</p>
@@ -277,9 +277,9 @@ dateCreated: 2022-05-24T02:45:09.140Z
 <p>&nbsp;</p>
 <h2>Keys, Crypto</h2>
 <p>&nbsp;</p>
-<p>Evictions occur when memory is overfilled or greater than max memory setting in the cache resulting in the engine selecting keys to evict in order to manage memory</p>
+<p>Evictions occur when memory is overfilled or greater than the max memory setting in the cache resulting in the engine selecting keys to evict to manage memory</p>
 <p>&nbsp;</p>
-<p>AWS config rules can be implemented to identify noncompliant keys</p>
+<p>AWS config rules can be implemented to identify non-compliant keys</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <h2>AWS OpsWorks</h2>
@@ -290,7 +290,7 @@ dateCreated: 2022-05-24T02:45:09.140Z
     </ul>
   </li>
   <li>Instance stuck in “booting” Status<ul>
-      <li>Check VPC configuration to ensure instances are able to connect to all required services</li>
+      <li>Check VPC configuration to ensure instances can connect to all required services</li>
     </ul>
   </li>
   <li>Instances wont boot after chef run<ul>
