@@ -2,7 +2,7 @@
 title: Cloud Deployment and Operations
 description: c924
 published: true
-date: 2022-07-23T17:47:08.610Z
+date: 2022-07-23T20:04:58.139Z
 tags: 
 editor: ckeditor
 dateCreated: 2022-05-24T02:45:09.140Z
@@ -157,6 +157,12 @@ dateCreated: 2022-05-24T02:45:09.140Z
 <p>&nbsp;</p>
 <p>Amazon RDS provides metrics in real time for the OS that your DB instance runs on. you can view the metric for your DB instance using the console. Enhanced monitoring JSON output from Cloudwatch logs in a monitoring system of your choice.</p>
 <p>&nbsp;</p>
+<p>Troubleshooting EC2 Instances</p>
+<ul>
+  <li>CodeDeploy agent is installed and running on the instance</li>
+  <li>Correct IAM instance profile is attached to the instance</li>
+  <li>tags are not properly set</li>
+</ul>
 <h1>Networking</h1>
 <p>&nbsp;</p>
 <p>Route 53 doesn't charge for alias queries to aws resources</p>
@@ -234,6 +240,22 @@ dateCreated: 2022-05-24T02:45:09.140Z
   </li>
 </ul>
 <p>&nbsp;</p>
+<p>Delete Stack fails</p>
+<ul>
+  <li>Some resources must be empty before deleting I.E. S3 buckets</li>
+  <li>Missing permissions to delete</li>
+  <li>Termination protection may be enabled on the stack<ul>
+      <li>For nested stacks, the root stack has protection enabled</li>
+    </ul>
+  </li>
+</ul>
+<p>Rollback Failed</p>
+<ul>
+  <li>Changes were made to resources outside of cloudformation</li>
+  <li>insufficient permissions</li>
+  <li>limitation error</li>
+</ul>
+<p>&nbsp;</p>
 <h2>Budgets</h2>
 <p>Compute Savings plans should be used when lambda usage is required</p>
 <p>&nbsp;</p>
@@ -244,7 +266,22 @@ dateCreated: 2022-05-24T02:45:09.140Z
 <p>AWS config rules can be implemented to identify noncompliant keys</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p>&nbsp;</p>
+<h2>AWS OpsWorks</h2>
+<p>Deployment issues troubleshooting</p>
+<ul>
+  <li>Unable to manage instance<ul>
+      <li>usually occurs if a dependent resource was edited or deleted</li>
+    </ul>
+  </li>
+  <li>Instance stuck in “booting” Status<ul>
+      <li>Check VPC configuration to ensure instances are able to connect to all required services</li>
+    </ul>
+  </li>
+  <li>Instances wont boot after chef run<ul>
+      <li>Check that your version of chef is supported by the cookbook</li>
+    </ul>
+  </li>
+</ul>
 <p>&nbsp;</p>
 <h2>Products in plain English - (<a href="https://expeditedsecurity.com/aws-in-plain-english/">https://expeditedsecurity.com/aws-in-plain-english/</a>)</h2>
 <figure class="table">
@@ -758,3 +795,5 @@ dateCreated: 2022-05-24T02:45:09.140Z
   </table>
 </figure>
 <p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2>Questions</h2>
