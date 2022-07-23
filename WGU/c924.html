@@ -2,7 +2,7 @@
 title: Cloud Deployment and Operations
 description: c924
 published: true
-date: 2022-07-23T17:29:56.904Z
+date: 2022-07-23T17:47:08.610Z
 tags: 
 editor: ckeditor
 dateCreated: 2022-05-24T02:45:09.140Z
@@ -218,6 +218,21 @@ dateCreated: 2022-05-24T02:45:09.140Z
 <p>Change Set - Preview how proposed changes will impact running resources</p>
 <p>stackset - Create, Update, delete stacks across multiple accounts and regions</p>
 <p>Nested Stacks- stacks created as part of other stacks</p>
+<p>&nbsp;</p>
+<p>Options for Sequencing and Dependencies</p>
+<ul>
+  <li>DependsOn<ul>
+      <li>Used to Specify that the creation of one resource follows another</li>
+      <li>Controls the order in which your resources are created</li>
+      <li>Does &nbsp;not wait for signals of success or failure before moving on</li>
+    </ul>
+  </li>
+  <li>Wait Conditions<ul>
+      <li>Pauses execution of a cloudformation template and waits for a success signal before continuing template execution</li>
+      <li>Waits for success signals before resuming execution of CloudFormation template</li>
+    </ul>
+  </li>
+</ul>
 <p>&nbsp;</p>
 <h2>Budgets</h2>
 <p>Compute Savings plans should be used when lambda usage is required</p>
