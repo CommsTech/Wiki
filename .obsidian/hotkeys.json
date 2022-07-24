@@ -1,12 +1,4 @@
 {
-  "obsidian-git:open-git-view": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "1"
-    }
-  ],
   "obsidian-git:commit": [
     {
       "modifiers": [
@@ -14,6 +6,15 @@
         "Shift"
       ],
       "key": "1"
+    }
+  ],
+  "obsidian-git:pull": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "2"
     }
   ]
 }
