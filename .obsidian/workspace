@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 100
+    "width": 380
   },
   "right": {
     "id": "08ae70875a72a413",
@@ -130,13 +130,14 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "4e92921a99ced926",
+  "active": "73ee420029073090",
   "lastOpenFiles": [
     "WGU/c924.md"
   ]
