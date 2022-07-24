@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 100
   },
   "right": {
     "id": "08ae70875a72a413",
@@ -120,14 +120,24 @@
                 "file": "WGU/c924.md"
               }
             }
+          },
+          {
+            "id": "1f1849bc08755a4f",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "4e92921a99ced926",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "WGU/c924.md"
+  ]
 }
