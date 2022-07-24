@@ -1,0 +1,133 @@
+{
+  "main": {
+    "id": "63bc7acd45db0105",
+    "type": "split",
+    "children": [
+      {
+        "id": "4e92921a99ced926",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "WGU/c924.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "74a2ff0c4c100771",
+    "type": "split",
+    "children": [
+      {
+        "id": "f697ed695b32d586",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "73ee420029073090",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "44984e271aedb61f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5c92a37a8bfe8b47",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "08ae70875a72a413",
+    "type": "split",
+    "children": [
+      {
+        "id": "cda4f2218b4c51de",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f228a4da06b1099a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "WGU/c924.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c8ff60ff80bbd5f7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "WGU/c924.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "aa85c3ada5275e88",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "64512f26d32fb7fa",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "WGU/c924.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "4e92921a99ced926",
+  "lastOpenFiles": []
+}
