@@ -1,0 +1,413 @@
+<!--
+title: Cloud Deployment and Operations
+description: wgu class c924 AWS Sysops associate
+published: true
+date: 2022-07-24T16:31:39.705Z
+tags: 
+editor: ckeditor
+dateCreated: 2022-07-24T15:57:19.702Z
+-->
+
+<p>Metrics, Logs, Alarms, and Tracking</p>
+<p>Cloudwatch</p>
+<p>Amazon Cloudwatch</p>
+<p>collect<br>
+monitor<br>
+act<br>
+visualize<br>
+explore<br>
+analyze</p>
+<p>Amazon Cloudwatch Components</p>
+<p>Metrics<br>
+Logs<br>
+Alarms<br>
+Service Lens<br>
+Insights<br>
+Synthetics</p>
+<p>Cloudwatch Data</p>
+<p>Metrics - Quantitative Assessments</p>
+<p>Logs - Records of events</p>
+<p>Amazon Cloudwatch EC2 Metrics - (Under the monitoring tab)</p>
+<p>A detailed monitor must be enabled if an alarm is to trigger in under 5 mins.</p>
+<p>Amazon Simple Notification Service (SNS) - provides a serverless publication/subscription platform for messaging</p>
+<p>Simple Notification Server (SNS) supports the following subscription protocols</p>
+<p>Kinesis Firehose<br>
+Amazon SQS (simple queuing service)<br>
+Aws Lambda<br>
+Email<br>
+HTTP(S) endpoints<br>
+Platform application endpoints<br>
+SMS (simple messaging service)</p>
+<p>For a rate-based rule, enter the max number of requests to allow in any 5 minutes from an IP that matches the rule condition</p>
+<p>A Cloudwatch alarm monitors a metric, and when defined thresholds are met or exceeded the alarm triggers an action.</p>
+<p>You can create a Cloudwatch dashboard to display custom metrics by adding a widget and choosing metrics from the custom namespace.</p>
+<p>Using Athena with cloudtrail logs is a powerful way to enhance your analysis of AWS service activity. for example you can use queries to identify trends and further isolate activity by attributes, such as source IP address or user.</p>
+<p>The Amazon Inspector agent is an entity that collects installed package information and software configurations for an EC2 instance.</p>
+<p>to determine whether a log file was modified, deleted, or unchanged after cloudtrail delivered it you can use cloudtrail log files integrity validation</p>
+<p>Utilization data is not recorded in log files in Cloudwatch logs.</p>
+<p>To store logs of terminated instances you must configure a unified Cloudwatch agent to stream the logs to Cloudwatch logs. this will ensure all logs are up to date at the point of termination.</p>
+<p>VPC flow logs can be enabled on either the NAT Gateway ENI or the VPC. Cloudwatch insights can then be used to filter data based on source IP</p>
+<p>Server access logging provides detailed records for the requests that are made to a bucket. There the access logs should be recorded in a separate, dedicated bucket. Access logs include information such as requests, the remote IP, and the Bucket being accessed.</p>
+<p>the</p>
+<p>Amazon Athena is a serverless query service that makes it easy to analyze large amounts of data stored in an Amazon S3 Using standard SQL.</p>
+<p>For an alarm to go off when there are no healthy instances the “HealthyHostCount” metric is &lt; = 0</p>
+<p>Cloudtrail Setup</p>
+<p>Step 1 - Choose trail attributes</p>
+<p>Step 2 - Choose the Log Events</p>
+<p>Note Click “Exclude AWS KMS events” to exclude KMS events. without this clicked it can be a bit noisy in the logs</p>
+<p>Step 3 - Review and Create</p>
+<p>Memcached is fast, multi-threaded, and designed for simplicity</p>
+<p>Redis Supports snapshots, replication, and transactions</p>
+<p>Storage</p>
+<p>S3 Glacier Vault lock allows you to easily deploy and enforce compliance controls for individual S3 glacier vaults with a vault lock policy.</p>
+<p>With Amazon ElasticCache Memcached engine you cannot modify the node type. the way to scale up is to create a new cluster and specify the new node type. you can update the endpoint config in your application to point to the new endpoint.</p>
+<p>“AWSSupport-TroubleshootSSH” installs the amazon EC2 Rescue tool and then checks for and corrects some issues that cause remote connection errors.</p>
+<p>When using a single shard with cluster mode disabled you can create up to 5 replicas and the replicas can be in separate AZ as this adds High Availability with auto-failover.</p>
+<p>To restrict access to content in an S3 bucket whilst caching it globally Cloudfront can be used with an OAI. The Origin Access Identity is a special user created in CloudFront that is allowed to access the bucket through bucket permissions.</p>
+<p>EC2 Status checks do not tell you the status of an EBS volume</p>
+<p>RDS handles failovers automatically. the primary DB will automatically switch to the standby replica if any of the following occur</p>
+<p>An AZ Outage<br>
+The Primary DB instance Fails<br>
+The DB instances server type is changed<br>
+The OS of the DB instance is undergoing patching<br>
+a manual failover of the DB instance was initiated using “Reboot with Failover”</p>
+<p>RDS service includes backups, patching, failover detection, and recovery</p>
+<p>RDS Multi-AZ Failover occurs in the following situations</p>
+<p>An Availability zone outage<br>
+The primary DB instance fails<br>
+The DB instance type is changed<br>
+the OS of the DB instance is undergoing patching<br>
+A Manual failover of the DB instance was initiated using a reboot</p>
+<p>The Amazon Elastic File System (EFS) provides a filesystem interface to connect multiple AZ to a single filesystem using the NFS protocol</p>
+<p>After creating a cluster, you can immediately run queries by using the query editor on the amazon redshift console. One of the limitations of the cluster query editor is that you cannot use it with enhanced VPC routing</p>
+<p>The Following are a few reasons why an instance might immediately terminate</p>
+<p>You’ve reached your EBS Volume limit<br>
+An EBS snapshot is corrupt<br>
+The root EBS volume is encrypted and you don’t have permission to access the key<br>
+The instance store-backed AMI that you used to launch the instance is missing a required part.</p>
+<p>There are two ways to scale a database when you need the capacity to serve reads.</p>
+<p>Use a read replica<br>
+Modify the RDS instance type to a larger instance.</p>
+<p>The AWS config encrypted-volumes rule checks whether the EBS volumes that are in an attached state are encrypted</p>
+<p>You can run volume gateways in two modes Cached and Stored. With cached volumes, the storage gateway service stores full volume in its S3 service bucket and a portion of the volume (recently accessed) in the gateway local cache</p>
+<p>You can scale Elasticcache and Memcached clusters horizontally or vertically.</p>
+<p>Amazon S3 inventory provides CSV output files that list your objects and their corresponding metadata on a daily or weekly basis for an S3 bucket or a shared prefix. The inventory reports will provide a definitive answer to the admin for how many objects are in a bucket.</p>
+<p>To add HA to an existing RDS instance go into the console and enable multi-AZ</p>
+<p>to share a snapshot with another account you must create a manual RDS snapshot with the create-db-snapshot command and share it to the destined account. then they create a copy of their account.</p>
+<p>Amazon RDS creates and saves automated backups of your Database instances during the backup window of your instance.</p>
+<p>Amazon RDS provides metrics in real-time for the OS that your DB instance runs on. you can view the metric for your DB instance using the console. Enhanced monitoring JSON output from Cloudwatch logs in a monitoring system of your choice.</p>
+<p>Troubleshooting EC2 Instances</p>
+<p>CodeDeploy agent is installed and running on the instance<br>
+Correct IAM instance profile is attached to the instance<br>
+tags are not properly set</p>
+<p>Backup and Restore Strategies</p>
+<p>RPO - Recovery point Objective (Data Loss)</p>
+<p>RTO - Recovery Time Objective (Down Time)</p>
+<p>Networking</p>
+<p>Route 53 doesn’t charge for alias queries to AWS resources</p>
+<p>a stateful firewall allows return traffic automatically</p>
+<p>a stateless firewall checks for an allow rule for both connections (in and out)</p>
+<p>Amazon CloudFront can be used to cache static content from the S3 Bucket. this helps improve performance for the delivery of static content. Adding an auto-scaling group to the solution will enable the web servers to scale based on demand</p>
+<p>Inter-Region VPC peering provides a simple and cost-effective way to share resources between regions or replicate data for geographic redundancy.</p>
+<p>A 503 service unavailable error is most likely caused by too many requests in a short period of time.</p>
+<p>AWS config restricted-common-ports check is used to check whether security groups in use do not allow unrestricted TCP traffic to specific ports</p>
+<p>Elastic Load Balancing (ELB) provides access logs that capture detailed info about requests to your load balancer</p>
+<p>An Application load balancer will block malformed requests that do not meet the HTTP specification with a 400 bad request error</p>
+<p>NAT gateways provide outbound internet connectivity it does not provide inbound access.</p>
+<p>You need to shutdown your VM for maintenance but before you do you must stop the gateway and then reboot/shutdown</p>
+<p>By default, you can only have up to 5 non-default VPCs per AWS account</p>
+<p>An egress-only internet gateway is a horizontally scaled, redundant, and highly available VPC component that allows outbound communication over IPv6 from your VPC</p>
+<p>A NAT Gateway provides internet connectivity to instances in private subnets. It performs Network address translation so that the source IP is translated to an internet routable IP address.</p>
+<p>AWS GuardDuty</p>
+<p>Provides continuous security monitoring services</p>
+<p>AWS version of a managed IDS</p>
+<p>Analyzes and processes a variety of data sources</p>
+<p>Leverages intelligent feeds to proactively identify and alert</p>
+<p>Monitors both AWS resources and AWS accounts</p>
+<p>Amazon Inspector</p>
+<p>Network accessibility analyzer for ec2 instances</p>
+<p>analyzes applications for exposure and vulnerabilities</p>
+<p>provides detailed reports of findings based on severity level</p>
+<p>Management</p>
+<p>Permission sets define the level of access that users and groups have to an AWS account. Permission sets are stored in AWS SSO and provisioned to the AWS account as IAM roles</p>
+<p>AWS Organizations</p>
+<p>AWS Organization features</p>
+<p>AWS Organization provides account consolidation and management service<br>
+Hierarchical groupings of your aws accounts<br>
+Provides consolidated billing: root member account pays for the member accounts<br>
+Enable services and features across the organization<br>
+Service Control Policys (SCPs) allow granular allows/denies of api actions</p>
+<p>In AWS Organizations service control policies (SCP) are a type of organization policy that you can use to manage permissions in your organization. SCPs offer central control over the maximum available permissions for all accounts in your organization</p>
+<p>The SSM Agent must be installed on the instances you want to connect to through sessions a custom AMI may not have an SSM agent installed and an administrator may need to install it. By default, SSM doesn’t have permission to perform actions on your instances.</p>
+<p>For a workflow to open the AWS management console on behalf of a user AWS SSO endpoint is required instead of directly calling the AssumeRole with SAML API. The endpoint calls the API for the user and returns a URL that automatically redirects the users browser to the AWS management console.</p>
+<p>AD Connector is designed to give you an easy way to establish a trust relationship between your active directory and AWS.</p>
+<p>The “AMI ID does not exist” indicates that the AMI might have been deleted after creating the launch config. As it is not possible to update the launch configs, a new config must be created with a valid AMI.</p>
+<p>AWS system manager parameter store provides secure, hierarchical storage for configuration data management and secrets management</p>
+<p>IAM - Identity and access manager</p>
+<p>IAM is a web service that helps you control access to your cloud resources</p>
+<p>The first user created is a root user, which should not be used</p>
+<p>Allows Granular control for both access and authorization</p>
+<p>IAM users are global users and user accounts can be used globally</p>
+<p>IAM Best Practices</p>
+<p>Enable MFA<br>
+Set Password policies<br>
+User roles over IAM users. Roles provide a more temporary access<br>
+implement least privilege<br>
+Validate IAM Policies Regularly<br>
+Always use roles for resources</p>
+<p>AWS Trusted Advisor</p>
+<p>Collections of best practices from aws</p>
+<p>checks accounts for best practices and reports back</p>
+<p>Basic or developer support plans</p>
+<p>All Security service limit checks<br>
+Up to Six Security Checks<br>
+Business or enterprise support plans</p>
+<p>All checks are allowed</p>
+<p>AWS Config</p>
+<p>Provides detailed view of the configurations of AWS resources</p>
+<p>Configurations are recorded and related to rules</p>
+<p>works with most aws resources and services</p>
+<p>Region Specific (requires you to enable it in every region you want to use it in)</p>
+<p>config managed rules and custom rules for defining the desired status</p>
+<p>AWS Control Tower</p>
+<p>Orchestration Layer for multi-account creation within an organization</p>
+<p>Facilitates account deployment, provisioning and configuration.</p>
+<p>Leverages Account factory, landing zones, and guardrails</p>
+<p>Guardrails - Basically rules that provide ongoing governance for your aws account. There are two different types of guardrails</p>
+<p>Preventative</p>
+<p>Prevents tings from happening much like SCP<br>
+Detective</p>
+<p>Alerts when action or configurations occur</p>
+<p>Cloudformation</p>
+<p>The “Rollback_Complete” status indicates successful removal of one or more stacks after a failed stack creation</p>
+<p>A “Stack Set” lets you create stacks in AWS accounts across regions by using a single cloud formation template</p>
+<p>You can use the optional parameters section to customize your templates. Parameters enable you to input custom values to your templates each time you create or update a stack.</p>
+<p>Cloudformation change sets allows you to preview how proposed changes to a stack might impact your currently running resources.</p>
+<p>Stack- A collection of resources to deploy as a group</p>
+<p>template - A JSON or YAML File that describes the stack</p>
+<p>Change Set - Preview how proposed changes will impact running resources</p>
+<p>stackset - Create, Update, delete stacks across multiple accounts and regions</p>
+<p>Nested Stacks- stacks created as part of other stacks</p>
+<p>Options for Sequencing and Dependencies</p>
+<p>DependsOn</p>
+<p>Used to Specify that the creation of one resource follows another<br>
+Controls the order in which your resources are created<br>
+Does  not wait for signals of success or failure before moving on<br>
+Wait Conditions</p>
+<p>Pauses execution of a cloudformation template and waits for a success signal before continuing template execution<br>
+Waits for success signals before resuming execution of CloudFormation template</p>
+<p>Delete Stack fails</p>
+<p>Some resources must be empty before deleting I.E. S3 buckets<br>
+Missing permissions to delete<br>
+Termination protection may be enabled on the stack</p>
+<p>For nested stacks, the root stack has protection enabled</p>
+<p>Rollback Failed</p>
+<p>Changes were made to resources outside of cloudformation<br>
+insufficient permissions<br>
+limitation error</p>
+<p>Budgets</p>
+<p>Compute Savings plans should be used when lambda usage is required</p>
+<p>Keys, Crypto</p>
+<p>Evictions occur when memory is overfilled or greater than the max memory setting in the cache resulting in the engine selecting keys to evict to manage memory</p>
+<p>AWS config rules can be implemented to identify non-compliant keys</p>
+<p>AWS OpsWorks</p>
+<p>Deployment issues troubleshooting</p>
+<p>Unable to manage instance</p>
+<p>usually occurs if a dependent resource was edited or deleted<br>
+Instance stuck in “booting” Status</p>
+<p>Check VPC configuration to ensure instances can connect to all required services<br>
+Instances wont boot after chef run</p>
+<p>Check that your version of chef is supported by the cookbook</p>
+<p>Products in plain English - (<a rel="noreferrer" target="_blank" class="is-external-link" href="https://expeditedsecurity.com/aws-in-plain-english/">https://expeditedsecurity.com/aws-in-plain-english/</a>)</p>
+<p>EC2</p>
+<p>Should have been calledAmazon Virtual Servers</p>
+<p>Use this toHost the bits of things you think of as a computer.</p>
+<p>It’s likeIt’s handwavy, but EC2 instances are similar to the virtual private servers you’d get at Linode, DigitalOcean or Rackspace.</p>
+<p>IAM</p>
+<p>Should have been calledUsers, Keys and Certs</p>
+<p>Use this toSet up additional users, set up new AWS Keys and policies.</p>
+<p>S3</p>
+<p>Should have been calledAmazon Unlimited FTP Server</p>
+<p>Use this toStore images and other assets for websites. Keep backups and share files between services. Host static websites. Also, many of the other AWS services write and read from S3.</p>
+<p>S3 IN PLAIN ENGLISH</p>
+<p>VPC</p>
+<p>Should have been calledAmazon Virtual Colocated Rack</p>
+<p>Use this toOvercome objections that “all our stuff is on the internet!” by adding an additional layer of security. Makes it appear as if all of your AWS services are on the same little network instead of being small pieces in a much bigger network.</p>
+<p>It’s likeIf you’re familar with networking: VLANs</p>
+<p>Lambda</p>
+<p>Should have been calledAWS App Scripts</p>
+<p>Use this toRun little self contained snippets of JS, Java or Python to do discrete tasks. Sort of a combination of a queue and execution in one. Used for storing and then executing changes to your AWS setup or responding to events in S3 or DynamoDB.</p>
+<p>LAMBDA IN PLAIN ENGLISH</p>
+<p>Web Developer Services</p>
+<p>If you’re setting up a web app, these are mostly what you’d end up using. These are similar to what you’d find in Heroku’s Addon Marketplace.</p>
+<p>API Gateway</p>
+<p>Should have been calledAPI Proxy</p>
+<p>Use this toProxy your apps API through this so you can throttle bad client traffic, test new versions, and present methods more cleanly.</p>
+<p>It’s like3Scale</p>
+<p>RDS</p>
+<p>Should have been calledAmazon SQL</p>
+<p>Use this toBe your app’s Mysql, Postgres, and Oracle database.</p>
+<p>It’s likeHeroku Postgres</p>
+<p>Route53</p>
+<p>Should have been calledAmazon DNS + Domains</p>
+<p>Use this toBuy a new domain and set up the DNS records for that domain.</p>
+<p>It’s likeDNSimple, GoDaddy, Gandi</p>
+<p>SES</p>
+<p>Should have been calledAmazon Transactional Email</p>
+<p>Use this toSend one-off emails like password resets, notifications, etc. You could use it to send a newsletter if you wrote all the code, but that’s not a great idea.</p>
+<p>It’s likeSendGrid, Mandrill, Postmark</p>
+<p>Cloudfront</p>
+<p>Should have been calledAmazon CDN</p>
+<p>Use this toMake your websites load faster by spreading out static file delivery to be closer to where your users are.</p>
+<p>It’s likeMaxCDN, Akamai</p>
+<p>CloudSearch</p>
+<p>Should have been calledAmazon Fulltext Search</p>
+<p>Use this toPull in data on S3 or in RDS and then search it for every instance of ‘Jimmy.’</p>
+<p>It’s likeSphinx, Solr, ElasticSearch</p>
+<p>DynamoDB</p>
+<p>Should have been calledAmazon NoSQL</p>
+<p>Use this toBe your app’s massively scalable key valueish store.</p>
+<p>It’s likeMongoLab</p>
+<p>Elasticache</p>
+<p>Should have been calledAmazon Memcached</p>
+<p>Use this toBe your app’s Memcached or Redis.</p>
+<p>It’s likeRedis to Go, Memcachier</p>
+<p>Elastic Transcoder</p>
+<p>Should have been calledAmazon Beginning Cut Pro</p>
+<p>Use this toDeal with video weirdness (change formats, compress, etc.).</p>
+<p>SQS</p>
+<p>Should have been calledAmazon Queue</p>
+<p>Use this toStore data for future processing in a queue. The lingo for this is storing “messages” but it doesn’t have anything to do with email or SMS. SQS doesn’t have any logic, it’s just a place to put things and take things out.</p>
+<p>It’s likeRabbitMQ, Sidekiq</p>
+<p>WAF</p>
+<p>Should have been calledAWS Firewall</p>
+<p>Use this toBlock bad requests to Cloudfront protected sites (aka stop people trying 10,000 passwords against /wp-admin)</p>
+<p>It’s likeSophos, Kapersky</p>
+<p>Mobile App Developer Services</p>
+<p>These are the services that only work for mobile developers.</p>
+<p>Cognito</p>
+<p>Should have been calledAmazon OAuth as a Service</p>
+<p>Use this toGive end users - (non AWS) - the ability to log in with Google, Facebook, etc.</p>
+<p>It’s <a rel="noreferrer" target="_blank" class="is-external-link" href="http://likeOAuth.io">likeOAuth.io</a></p>
+<p>Device Farm</p>
+<p>Should have been calledAmazon Drawer of Old Android Devices</p>
+<p>Use this toTest your app on a bunch of different IOS and Android devices simultaneously.</p>
+<p>It’s likeMobileTest, iOS emulator</p>
+<p>Mobile Analytics</p>
+<p>Should have been calledSpot on Name, Amazon Product Managers take note</p>
+<p>Use this toTrack what people are doing inside of your app.</p>
+<p>It’s likeFlurry</p>
+<p>SNS</p>
+<p>Should have been calledAmazon Messenger</p>
+<p>Use this toSend mobile notifications, emails and/or SMS messages</p>
+<p>It’s likeUrbanAirship, Twilio</p>
+<p>Ops and Code Deployment Services</p>
+<p>These are for automating how you manage and deploy your code onto other services.</p>
+<p>CodeCommit</p>
+<p>Should have been calledAmazon GitHub</p>
+<p>Use this toVersion control your code - hosted Git.</p>
+<p>It’s likeGithub, BitBucket</p>
+<p>Code Deploy</p>
+<p>Should have been calledNot bad</p>
+<p>Use this toGet your code from your CodeCommit repo (or Github) onto a bunch of EC2 instances in a sane way.</p>
+<p>It’s likeHeroku, Capistrano</p>
+<p>CodePipeline</p>
+<p>Should have been calledAmazon Continuous Integration</p>
+<p>Use this toRun automated tests on your code and then do stuff with it depending on if it passes those tests.</p>
+<p>It’s likeCircleCI, Travis</p>
+<p>EC2 Container Service</p>
+<p>Should have been calledAmazon Docker as a Service</p>
+<p>Use this toPut a Dockerfile into an EC2 instance so you can run a website.</p>
+<p>Elastic Beanstalk</p>
+<p>Should have been calledAmazon Platform as a Service</p>
+<p>Use this toMove your app hosted on Heroku to AWS when it gets too expensive.</p>
+<p>It’s likeHeroku, BlueMix, Modulus</p>
+<p>Enterprise / Corporate Services</p>
+<p>Services for business and networks.</p>
+<p>AppStream</p>
+<p>Should have been calledAmazon Citrix</p>
+<p>Use this toPut a copy of a Windows application on a Windows machine that people get remote access to.</p>
+<p>It’s likeCitrix, RDP</p>
+<p>Direct Connect</p>
+<p>Should have been calledPretty spot on actually</p>
+<p>Use this toPay your Telco + AWS to get a dedicated leased line from your data center or network to AWS. Cheaper than Internet out for Data.</p>
+<p>It’s likeA toll road turnpike bypassing the crowded side streets.</p>
+<p>Directory Service</p>
+<p>Should have been calledPretty spot on actually</p>
+<p>Use this toTie together other apps that need a Microsoft Active Directory to control them.</p>
+<p>WorkDocs</p>
+<p>Should have been calledAmazon Unstructured Files</p>
+<p>Use this toShare Word Docs with your colleagues.</p>
+<p>It’s likeDropbox, DataAnywhere</p>
+<p>WorkMail</p>
+<p>Should have been calledAmazon Company Email</p>
+<p>Use this toGive everyone in your company the same email system and calendar.</p>
+<p>It’s likeGoogle Apps for Domains</p>
+<p>Workspaces</p>
+<p>Should have been calledAmazon Remote Computer</p>
+<p>Use this toGives you a standard windows desktop that you’re remotely controlling.</p>
+<p>Service Catalog</p>
+<p>Should have been calledAmazon Setup Already</p>
+<p>Use this toGive other AWS users in your group access to preset apps you’ve built so they don’t have to read guides like this.</p>
+<p>Storage Gateway</p>
+<p>Should have been calledS3 pretending it’s part of your corporate network</p>
+<p>Use this toStop buying more storage to keep Word Docs on. Make automating getting files into S3 from your corporate network easier.</p>
+<p>Big Data Services</p>
+<p>Services to ingest, manipulate and massage data to do your will.</p>
+<p>Data Pipeline</p>
+<p>Should have been calledAmazon ETL</p>
+<p>Use this toExtract, Transform and Load data from elsewhere in AWS. Schedule when it happens and get alerts when they fail.</p>
+<p>Elastic Map Reduce</p>
+<p>Should have been calledAmazon Hadooper</p>
+<p>Use this toIterate over massive text files of raw data that you’re keeping in S3.</p>
+<p>It’s likeTreasure Data</p>
+<p>Glacier</p>
+<p>Should have been calledReally slow Amazon S3</p>
+<p>Use this toMake backups of your backups that you keep on S3. Also, beware the cost of getting data back out in a hurry. For long term archiving.</p>
+<p>Kinesis</p>
+<p>Should have been calledAmazon High Throughput</p>
+<p>Use this toIngest lots of data very quickly (for things like analytics or people retweeting Kanye) that you then later use other AWS services to analyze.</p>
+<p>It’s likeKafka</p>
+<p>RedShift</p>
+<p>Should have been calledAmazon Data Warehouse</p>
+<p>Use this toStore a whole bunch of analytics data, do some processing, and dump it out.</p>
+<p>Machine Learning</p>
+<p>Should have been calledSkynet</p>
+<p>Use this toPredict future behavior from existing data for problems like fraud detection or “people that bought x also bought y.”</p>
+<p>SWF</p>
+<p>Should have been calledAmazon EC2 Queue</p>
+<p>Use this toBuild a service of “deciders” and “workers” on top of EC2 to accomplish a set task. Unlike SQS - logic is set up inside the service to determine how and what should happen.</p>
+<p>It’s likeIronWorker</p>
+<p>Snowball</p>
+<p>Should have been calledAWS Big Old Portable Storage</p>
+<p>Use this toGet a bunch of hard drives you can attach to your network to make getting large amounts (Terabytes of Data) into and out of AWS</p>
+<p>It’s likeShipping a Network Attached Storage device to AWS</p>
+<p>AWS Management Services</p>
+<p>AWS can get so difficult to manage that they invented a bunch of services to sell you to make it easier to manage.</p>
+<p>CloudFormation</p>
+<p>Should have been calledAmazon Services Setup</p>
+<p>Use this toSet up a bunch of connected AWS services in one go.</p>
+<p>CloudTrail</p>
+<p>Should have been calledAmazon Logging</p>
+<p>Use this toLog who is doing what in your AWS stack (API calls).</p>
+<p>CloudWatch</p>
+<p>Should have been calledAmazon Status Pager</p>
+<p>Use this toGet alerts about AWS services messing up or disconnecting.</p>
+<p>It’s likePagerDuty, Statuspage</p>
+<p>Config</p>
+<p>Should have been calledAmazon Configuration Management</p>
+<p>Use this toKeep from going insane if you have a large AWS setup and changes are happening that you want to track.</p>
+<p>OpsWorks</p>
+<p>Should have been calledAmazon Chef</p>
+<p>Use this toHandle running your application with things like auto-scaling.</p>
+<p>Trusted Advisor</p>
+<p>Should have been calledAmazon Pennypincher</p>
+<p>Use this toFind out where you’re paying too much in your AWS setup (unused EC2 instances, etc.).</p>
+<p>Inspector</p>
+<p>Should have been calledAmazon Auditor</p>
+<p>Use this toScans your AWS setup to determine if you’ve setup it up in an insecure way</p>
+<p>It’s likeAlert Logic</p>
+<p>Questions</p>
+<p>Resources</p>
+<p><a rel="noreferrer" target="_blank" class="is-external-link" href="https://www.aws.training/certification">https://www.aws.training/certification</a></p>
+<p><a rel="noreferrer" target="_blank" class="is-external-link" href="https://aws.amazon.com/certification/certified-sysops-admin-associate/">https://aws.amazon.com/certification/certified-sysops-admin-associate/</a></p>
