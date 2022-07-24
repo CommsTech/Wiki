@@ -2,7 +2,7 @@
 title: Cloud Deployment and Operations
 description: c924
 published: true
-date: 2022-07-24T14:52:28.808Z
+date: 2022-07-24T14:54:28.245Z
 tags: 
 editor: ckeditor
 dateCreated: 2022-05-24T02:45:09.140Z
@@ -214,7 +214,7 @@ dateCreated: 2022-05-24T02:45:09.140Z
   <li>AWS Organization provides account consolidation and management service</li>
   <li>Hierarchical groupings of your aws accounts</li>
   <li>Provides consolidated billing: root member account pays for the member accounts</li>
-  <li>Enable services and features across the organiztion</li>
+  <li>Enable services and features across the organization</li>
   <li>Service Control Policys (SCPs) allow granular allows/denies of api actions</li>
 </ul>
 <p>&nbsp;</p>
@@ -270,6 +270,21 @@ dateCreated: 2022-05-24T02:45:09.140Z
 <p>Region Specific (requires you to enable it in every region you want to use it in)</p>
 <p>config managed rules and custom rules for defining the desired status</p>
 <p>&nbsp;</p>
+<h3>AWS Control Tower</h3>
+<p>Orchestration Layer for multi-account creation within an organization</p>
+<p>Facilitates account deployment, provisioning and configuration.</p>
+<p>Leverages Account factory, landing zones, and guardrails</p>
+<p>Guardrails - Basically rules that provide ongoing governance for your aws account. There are two different types of guardrails</p>
+<ol>
+  <li>Preventative<ol>
+      <li>Prevents tings from happening much like SCP&nbsp;</li>
+    </ol>
+  </li>
+  <li>Detective<ol>
+      <li>Alerts when action or configurations occur</li>
+    </ol>
+  </li>
+</ol>
 <p>&nbsp;</p>
 <h2>Cloudformation</h2>
 <p>The “Rollback_Complete” status indicates successful removal of one or more stacks after a failed stack creation</p>
@@ -858,3 +873,8 @@ dateCreated: 2022-05-24T02:45:09.140Z
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <h2>Questions</h2>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2>Resources</h2>
+<p>https://www.aws.training/certification</p>
+<p>https://aws.amazon.com/certification/certified-sysops-admin-associate/</p>
