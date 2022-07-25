@@ -38,7 +38,7 @@ Black Box - Outsider without any information
 
 
 Git:
-![[Pasted image 20220724213508.png]]
+![[GIT_Commands.png]]
 
 TERMS:
 
