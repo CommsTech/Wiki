@@ -5,5 +5,6 @@
   "obsidian-dictionary-plugin",
   "obsidian-outliner",
   "dataview",
-  "table-editor-obsidian"
+  "table-editor-obsidian",
+  "obsidian-dynamic-toc"
 ]
