@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "WGU/c838.md",
+            "file": "Certifications/comptia/Cloud+.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WGU/c838.md",
+                "file": "Certifications/comptia/Cloud+.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WGU/c838.md",
+                "file": "Certifications/comptia/Cloud+.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WGU/c838.md"
+                "file": "Certifications/comptia/Cloud+.md"
               }
             }
           },
@@ -136,13 +136,13 @@
     "direction": "horizontal",
     "width": 314
   },
-  "active": "4e92921a99ced926",
+  "active": "73ee420029073090",
   "lastOpenFiles": [
+    "WGU/c838.md",
     "WGU/c859.md",
     "WGU/c924.md",
     "Others/cryptomining.md",
     "Assets/security-guidance-v4-final-feb27-18.pdf",
-    "Assets/rpovrto.png",
-    "WGU/c838.md"
+    "Assets/rpovrto.png"
   ]
 }
