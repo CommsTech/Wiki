@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "WGU/home.md",
+            "file": "WGU/c924.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WGU/home.md",
+                "file": "WGU/c924.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WGU/home.md",
+                "file": "WGU/c924.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WGU/home.md"
+                "file": "WGU/c924.md"
               }
             }
           },
@@ -138,6 +138,7 @@
   },
   "active": "4e92921a99ced926",
   "lastOpenFiles": [
+    "WGU/home.md",
     "2022-07-25.md",
     "WGU/c924.md",
     "WGU/c768.md",
@@ -146,7 +147,6 @@
     "WGU/c955.md",
     "WGU/c851.md",
     "WGU/c859.md",
-    "WGU/c849.md",
-    "WGU/c846.md"
+    "WGU/c849.md"
   ]
 }
