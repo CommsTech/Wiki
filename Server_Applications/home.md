@@ -2,13 +2,14 @@
 title: Server Applications
 description: All the Server/ Docker / K8 Info
 published: true
-date: 2022-05-26T18:25:56.795Z
+date: 2022-07-25T13:13:18.198Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-21T15:26:38.051Z
 ---
 
 Heres a few tools that I utilize to make prepare my media collection for streaming High quility low bandwidth.
+- Wiki.js
 
 - Plexinator
 	- https://github.com/CommsTech/Plexinator
