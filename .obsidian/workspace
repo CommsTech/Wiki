@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "WGU/c924.md",
+            "file": "WGU/c838.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WGU/c924.md",
+                "file": "WGU/c838.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WGU/c924.md",
+                "file": "WGU/c838.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WGU/c924.md"
+                "file": "WGU/c838.md"
               }
             }
           },
@@ -138,10 +138,11 @@
   },
   "active": "4e92921a99ced926",
   "lastOpenFiles": [
+    "WGU/c859.md",
+    "WGU/c924.md",
+    "Others/cryptomining.md",
     "Assets/security-guidance-v4-final-feb27-18.pdf",
     "Assets/rpovrto.png",
-    "WGU/c924.md",
-    "WGU/c838.md",
-    "WGU/c859.md"
+    "WGU/c838.md"
   ]
 }
