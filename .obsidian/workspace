@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "WGU/c924.md",
+            "file": "WGU/home.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WGU/c924.md",
+                "file": "WGU/home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WGU/c924.md",
+                "file": "WGU/home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WGU/c924.md"
+                "file": "WGU/home.md"
               }
             }
           },
@@ -138,6 +138,7 @@
   },
   "active": "4e92921a99ced926",
   "lastOpenFiles": [
+    "WGU/c924.md",
     "Assets/Images/buildspec_yml_example.png",
     "Assets/Images/GIT_Commands.png",
     "Assets/Images/Disaster_Recovery_Options.png",
@@ -146,7 +147,6 @@
     "WGU/c779.md",
     "WGU/c394.md",
     "WGU/c393.md",
-    "WGU/c182.md",
-    "WGU/c176.md"
+    "WGU/c182.md"
   ]
 }
