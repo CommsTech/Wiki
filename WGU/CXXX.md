@@ -2,12 +2,13 @@
 title: Applied Probability and Statistics
 description: CXXX
 published: true
-date: 2022-07-25T13:20:34.428Z
+date: 2022-07-25T13:21:06.461Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-09T13:41:59.982Z
 ---
 
+# Applied Probability and Statistics
 A whole number\* is a number that we are familiar with from grade school. These numbers are:
 
 0,1,2,3,4,5,6,7,8,9,...0,1,2,3,4,5,6,7,8,9,...
