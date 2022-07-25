@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "WGU/c924.md",
+            "file": "Networking/Troubleshooting.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WGU/c924.md",
+                "file": "Networking/Troubleshooting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WGU/c924.md",
+                "file": "Networking/Troubleshooting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WGU/c924.md"
+                "file": "Networking/Troubleshooting.md"
               }
             }
           },
@@ -138,13 +138,13 @@
   },
   "active": "4e92921a99ced926",
   "lastOpenFiles": [
+    "WGU/c924.md",
     "Privacy/osint.md",
     "Certifications/comptia/Cloudplus.md",
     "Certifications/comptia/Cloud+.md",
     "Assets/Cloud+ CV0-002 objectives.pdf",
     "WGU/c838.md",
     "WGU/c859.md",
-    "WGU/c924.md",
     "Others/cryptomining.md",
     "Assets/security-guidance-v4-final-feb27-18.pdf",
     "Assets/rpovrto.png"
