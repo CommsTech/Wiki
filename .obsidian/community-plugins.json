@@ -6,5 +6,7 @@
   "readwise-official",
   "obsidian-outliner",
   "dataview",
-  "obsidian-indent-lines"
+  "obsidian-indent-lines",
+  "table-editor-obsidian",
+  "obsidian-dynamic-toc"
 ]
