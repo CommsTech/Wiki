@@ -1,6 +1,6 @@
 {
-  "commitMessage": "vault backup: {{hostname}} {{date}}",
-  "autoCommitMessage": "vault backup: {{hostname}} {{date}}",
+  "commitMessage": "vault autocommit: {{hostname}} {{date}}",
+  "autoCommitMessage": "vault autocommit: {{hostname}} {{date}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
   "autoSaveInterval": 5,
   "autoPushInterval": 5,
@@ -14,7 +14,7 @@
   "updateSubmodules": false,
   "syncMethod": "merge",
   "gitPath": "",
-  "customMessageOnAutoBackup": true,
+  "customMessageOnAutoBackup": false,
   "autoBackupAfterFileChange": true,
   "treeStructure": true,
   "refreshSourceControl": true,
