@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "WGU/home.md",
+            "file": "WGU/c924.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#define",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +57,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -77,14 +78,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WGU/home.md",
+                "file": "WGU/c924.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -94,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WGU/home.md",
+                "file": "WGU/c924.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WGU/home.md"
+                "file": "WGU/c924.md"
               }
             }
           },
@@ -134,19 +135,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314
+    "width": 317
   },
-  "active": "4e92921a99ced926",
+  "active": "64512f26d32fb7fa",
   "lastOpenFiles": [
-    "WGU/c924.md",
-    "assets/images/Amazon_EventBridge.png",
-    "WGU/c955.md",
-    "Operating_Systems/Home.md",
-    "WGU/c963.md",
-    "WGU/home.md",
+    "assets/images/cloudtrail_step1_2.png",
+    "assets/images/cloudtrail_step1_1.png",
+    "assets/images/cloudtrail_step1.png",
     "assets/images/buildspec_yml_example.png",
-    "assets/images/GIT_Commands.png",
-    "assets/images/Disaster_Recovery_Options.png",
-    "assets/images/Amazon_S3_Storage_Classes.png"
+    "assets/images/backup_features_of_aws.png",
+    "assets/images/aws_shared_responsibility_model.png",
+    "assets/images/Amazon_S3_Storage_Classes.png",
+    "assets/images/Amazon_EventBridge.png",
+    "assets/documents/security-guidance-v4-final-feb27-18.pdf",
+    "assets/documents/Cloud+ CV0-002 objectives.pdf"
   ]
 }
