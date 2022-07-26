@@ -128,15 +128,23 @@
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "ab9bd1d66eeb9fd1",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
     "width": 317
   },
-  "active": "4e92921a99ced926",
+  "active": "ab9bd1d66eeb9fd1",
   "lastOpenFiles": [
     "WGU/c165.md",
     "WGU/c100.md",
