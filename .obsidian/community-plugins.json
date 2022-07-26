@@ -5,7 +5,7 @@
   "obsidian-dictionary-plugin",
   "dataview",
   "table-editor-obsidian",
-  "obsidian-dynamic-toc",
   "vantage-obsidian",
-  "note-refactor-obsidian"
+  "note-refactor-obsidian",
+  "obsidian-plugin-toc"
 ]

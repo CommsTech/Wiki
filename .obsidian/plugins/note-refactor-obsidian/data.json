@@ -5,7 +5,7 @@
   "newFileLocation": 1,
   "customFolder": "",
   "fileNamePrefix": "",
-  "transcludeByDefault": false,
+  "transcludeByDefault": true,
   "noteLinkTemplate": "",
   "refactoredNoteTemplate": ""
 }
