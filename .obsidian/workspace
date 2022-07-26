@@ -136,17 +136,17 @@
     "direction": "horizontal",
     "width": 314
   },
-  "active": "4e92921a99ced926",
+  "active": "73ee420029073090",
   "lastOpenFiles": [
-    "Assets/Images/Amazon_EventBridge.png",
+    "assets/images/Amazon_EventBridge.png",
     "WGU/c924.md",
     "WGU/c955.md",
     "Operating_Systems/Home.md",
     "WGU/c963.md",
     "WGU/home.md",
-    "Assets/Images/buildspec_yml_example.png",
-    "Assets/Images/GIT_Commands.png",
-    "Assets/Images/Disaster_Recovery_Options.png",
-    "Assets/Images/Amazon_S3_Storage_Classes.png"
+    "assets/images/buildspec_yml_example.png",
+    "assets/images/GIT_Commands.png",
+    "assets/images/Disaster_Recovery_Options.png",
+    "assets/images/Amazon_S3_Storage_Classes.png"
   ]
 }
