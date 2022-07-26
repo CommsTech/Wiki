@@ -11,6 +11,7 @@
           "state": {
             "file": "WGU/c175.md",
             "mode": "source",
+            "backlinks": true,
             "source": false
           }
         }
