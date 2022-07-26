@@ -138,15 +138,15 @@
   },
   "active": "4e92921a99ced926",
   "lastOpenFiles": [
-    "WGU/c955.md",
-    "WGU/c924.md",
     "WGU/c859.md",
+    "WGU/c851.md",
+    "WGU/c924.md",
+    "WGU/c955.md",
     "WGU/c165.md",
     "Networking/pfSense.md",
     "assets/images/cloudtrail_step1_2.png",
     "assets/images/cloudtrail_step1_1.png",
     "assets/images/cloudtrail_step1.png",
-    "assets/images/buildspec_yml_example.png",
-    "assets/images/backup_features_of_aws.png"
+    "assets/images/buildspec_yml_example.png"
   ]
 }
