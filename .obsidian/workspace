@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Privacy/home.md",
+            "file": "WGU/c924.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Privacy/home.md",
+                "file": "WGU/c924.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Privacy/home.md",
+                "file": "WGU/c924.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Privacy/home.md"
+                "file": "WGU/c924.md"
               }
             }
           },
@@ -147,6 +147,7 @@
   },
   "active": "4e92921a99ced926",
   "lastOpenFiles": [
+    "Privacy/home.md",
     "WGU/c924.md",
     "WGU/c955.md",
     "README.md",
@@ -155,7 +156,6 @@
     "WGU/c100.md",
     "WGU/c176.md",
     "WGU/c182.md",
-    "WGU/c393.md",
-    "WGU/c394.md"
+    "WGU/c393.md"
   ]
 }
