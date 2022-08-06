@@ -7,12 +7,9 @@
         "id": "4e92921a99ced926",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "image",
           "state": {
-            "file": "WGU/c924.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
+            "file": "assets/images/aws_shared_responsibility_model.png"
           }
         }
       }
@@ -78,7 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WGU/c924.md",
+                "file": "assets/images/aws_shared_responsibility_model.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +92,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WGU/c924.md",
+                "file": "assets/images/aws_shared_responsibility_model.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WGU/c924.md"
+                "file": "assets/images/aws_shared_responsibility_model.png"
               }
             }
           },
@@ -147,8 +144,8 @@
   },
   "active": "4e92921a99ced926",
   "lastOpenFiles": [
-    "Privacy/home.md",
     "WGU/c924.md",
+    "Privacy/home.md",
     "WGU/c955.md",
     "README.md",
     "WGU/c175.md",
