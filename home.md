@@ -2,13 +2,13 @@
 title: Home
 description: Home
 published: true
-date: 2022-08-15T14:39:11.365Z
+date: 2022-08-15T14:39:26.091Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-01T14:20:56.278Z
 ---
 
-\# Commsnet Wiki
+# Commsnet Wiki
 
 Welcome to Commsnet Wiki! your one stop shop for all things technical
 
