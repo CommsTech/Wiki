@@ -11,6 +11,16 @@ dateCreated: 2022-05-21T15:26:38.051Z
 Heres a few tools that I utilize to make prepare my media collection for streaming High quility low bandwidth.
 - Wiki.js
 
+## Applications on TrueNAS Scale
+- ![Home Assistant ](https://wiki.commsnet.org/en/Server_Applications/Home_Assistant)
+- 
+
+
+## Applications FOR TrueNAS Scale
+- ![Heavy Script]()
+
+## Other Server Applications
+
 - Plexinator
 	- https://github.com/CommsTech/Plexinator
 	- This is a little project i started awhile back that will go through your media collection and make it compatable H264 and Optimized for streaming.
@@ -49,3 +59,4 @@ Heres a few tools that I utilize to make prepare my media collection for streami
 
 	- 2 GPU Docker Linux Setup
 	https://dabbler.dev/posts/2021/05/03/
+
