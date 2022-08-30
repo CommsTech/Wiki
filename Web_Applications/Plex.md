@@ -2,7 +2,7 @@
 title: Plex
 description: Plex Client Settings
 published: true
-date: 2022-08-30T04:27:17.152Z
+date: 2022-08-30T04:28:19.198Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-30T04:27:17.152Z
@@ -32,4 +32,4 @@ Mobile apps are treated differently, while up until now most of your apps you us
 Android Mobile
 Apple IOS
 
-Special Thanks to https://mediaclients.wiki
+Special Thanks to https://mediaclients.wiki/Plex for putting this whole thing together
