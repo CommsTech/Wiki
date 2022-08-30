@@ -3,7 +3,7 @@ title: FOSS
 description: FOSS
 published: true
 date: 2022-07-25T13:17:46.729Z
-tags: 
+tags: Open-Source
 editor: markdown
 dateCreated: 2022-05-09T13:59:04.460Z
 ---
