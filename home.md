@@ -35,12 +35,14 @@ This Wiki is built on Obsidian Note Taking software as the backend. Gittea syncs
 Networking
 - [Uptime-Kuma](https://status.commsnet.org)
 - [librespeed](https://speedtest.commsnet.org)
+- [Unifi-Controller]()
 
 File Storage and Collaberation
 - [Nextcloud](https://nextcloud.commsnet.org)
 - [gittea](https://git.commsnet.org)
 - [wiki.js](https://wikijs.commsnet.org)
 - [Resilio Sync](https://resilio.commsnet.org)
+- [commento](https://commento.commsnet.org)
 
 Games
 - [EmulatorJS](https://games.commsnet.org)
@@ -66,6 +68,9 @@ Analytics
 Security
 - [AlienVault]()
 - [SecurityOnion]()
+
+Home Automations
+- [HomeAssistant (Docker)]()
 
 ## PRIVACY NOTICE
 This page has [Matomo](https://matomo.org/) analytics code built in. The information tracked is anam 

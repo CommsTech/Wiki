@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Applications/Web_Applications/Search Engines.md",
+            "file": "home.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Web_Applications/Search Engines.md",
+                "file": "home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Web_Applications/Search Engines.md",
+                "file": "home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Web_Applications/Search Engines.md"
+                "file": "home.md"
               }
             }
           },
@@ -147,6 +147,7 @@
   },
   "active": "4e92921a99ced926",
   "lastOpenFiles": [
+    "Applications/Web_Applications/Search Engines.md",
     "home.md",
     "assets/images/Pasted image 20220830104020.png",
     "FOSS.md",
@@ -155,7 +156,6 @@
     "Operating_Systems/Home.md",
     "Privacy/home.md",
     "TV_Streaming_Devices/home.md",
-    "Applications/Web_Applications/home.md",
-    "Applications/Server_Applications/home.md"
+    "Applications/Web_Applications/home.md"
   ]
 }
