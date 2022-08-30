@@ -1,5 +1,8 @@
 # Xbox Console
 
+
+## Plex Settings
+
 ### In order to change the Plex video quality settings on the Microsoft Xbox Console, simply find the settings menu hidden under your username in the home screen in Plex.
 
 ![](https://mediaclients.wiki/client%20screen%20shots/xbox/xboxmenu.png)

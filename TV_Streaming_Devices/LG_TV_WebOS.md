@@ -10,6 +10,8 @@ dateCreated: 2022-08-30T04:44:28.207Z
 
 # LG Television / WebOS
 
+## Plex Settings
+
 ### In order to change the Plex video quality settings on your LG / WebOS TV, simply find the settings menu hidden under your username in the home screen in Plex.
 
 ![](https://mediaclients.wiki/client%20screen%20shots/xbox/xboxmenu.png)

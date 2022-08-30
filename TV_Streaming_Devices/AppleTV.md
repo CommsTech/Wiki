@@ -8,7 +8,9 @@ editor: markdown
 dateCreated: 2022-08-30T04:43:08.741Z
 ---
 
-# AppleTV Plex Settings
+# AppleTV 
+
+## Plex Settings
 
 ### In order to change the Plex video quality settings on your AppleTV device, simply find the **“Settings”** menu option at the bottom of the home screen in Plex.
 
