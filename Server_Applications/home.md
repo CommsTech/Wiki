@@ -12,14 +12,55 @@ Heres a few tools that I utilize to make prepare my media collection for streami
 - Wiki.js
 
 ## Applications on TrueNAS Scale
-- ![Home Assistant ](https://wiki.commsnet.org/en/Server_Applications/Home_Assistant)
-- 
+- [Home Assistant](https://wiki.commsnet.org/en/Server_Applications/Home_Assistant)
+- [Authelia and LDAP](https://wiki.commsnet.org/en/Server_Applications/Authelia_Ldap)
+- [Icinga](https://wiki.commsnet.org/en/Server_Applications/Icinga)
+- [Plex]()
+- Resilio-sync
+- Readarr
+- Lidarr
+- Organizr
+- EmulatorJS
+- Minecraft-BedRock
+- Whoogle
+- qbittorrent
+- clamav
+- Radarr
+- Tautulli
+- Sonarr
+- Gaps
+- Ombi
+- Sabnzbd
+- Wiki.JS
+- Jellyfin
+- Prowlarr
+- Commento-Plusplus
+- Matomo
+- traefik
+- flaresolverr
+- netdata
+- portainer
+- librespeed
+- uptime-kuma
+- firefox
+- ipfs
+- phpldapadmin
+- openldap
+- authelia
+- healthchecks
+- unifi
+- tdarr-node
+- gittea
+- synapse
+- cloudflared
 
 
 ## Applications FOR TrueNAS Scale
-- ![Heavy Script]()
+- [Heavy Script]()
 
 ## Other Server Applications
+
+
 
 - Plexinator
 	- https://github.com/CommsTech/Plexinator
