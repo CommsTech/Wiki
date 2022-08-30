@@ -16,5 +16,15 @@
       ],
       "key": "2"
     }
+  ],
+  "obsidian-wikipedia:wikipedia-get-active-note-title": [],
+  "obsidian-wikipedia:wikipedia-get-search-term": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "3"
+    }
   ]
 }

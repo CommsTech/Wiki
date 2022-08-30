@@ -12,24 +12,6 @@ dateCreated: 2022-05-09T13:59:04.460Z
 ##### Original Source Https://cryptpad.fr/pad/#/2/pad/view/LCPzkPZYgqUYgB3wRXd4vcER6ExZy1Fpm-WLOfSIyZM/   Thank you for all the hard work!
 
 
-Everything on this list is free/$0.00, not all of it is open source, and for some of them you might need to pay a little bit/donate a certain amount to get more functionality or the ability to use them for commercial work  
-Y’all can leave comments! Please recommend any other $0.00 and/or open source software that can be used for creative projects!  
-Notes:  
-
-*   Anything on this list can be $0.00, Open Source, or both  
-    
-*   Make sure to check the sites from time to time, since you may not know when the developers have released a new version of an app  
-    
-*   I added paid courses from Udemy along with what free tutorials I could find, however, Udemy has steeply discounted sales decently often, so you could pick up a $200 course for $10  
-    
-*   To access the links, right click on each entry and select "Open Link In New Tab"
-*   If you're on mobile, press and hold a link till you see the optoins including "Open Link In New Tab"  
-    
-*   I've given everyone who views this doc permission to edit it, so feel free to suggest any $0.00/OS apps that y'all know about  
-    
-*   **Even if a lot of the open source software is free to use, these projects need funds to maintain development, so please donate to them if you have the means so that everyone can keep using them!**  
-    
-
 ## Version Control (Can Be Used For Non-Programming Projects)
 
 [Git](https://git-scm.com)
@@ -41,14 +23,6 @@ Notes:
 [Mercuri ital](https://www.mercurial-scm.org/)  
 
 [Github](https://github.com) ([Tutorial](https://www.youtube.com/watch?v=RvnM6EEwp1I), [Tutorial 2](https://www.youtube.com/watch?v=nhNq2kIvi9s), [$Tutorial](https://www.udemy.com/course/git-and-github-masterclass/))
-
-## Web Browsers
-
-
-- ![Tor Browser logo](assets/img/browsers/tor.svg){ .twemoji } [Tor Browser](https://www.torproject.org/)
-- ![Firefox logo](assets/img/browsers/firefox.svg){ .twemoji } [Firefox (Desktop)](https://firefox.com/)
-- ![Bromite logo](assets/img/browsers/bromite.svg){ .twemoji } [Bromite (Android)](https://www.bromite.org/)
-- ![Safari logo](assets/img/browsers/safari.svg){ .twemoji } [Safari (iOS)](https://www.apple.com/safari/)
 
 
 ## Planning/ Brainstorming
@@ -115,17 +89,6 @@ Notes:
 
 [Stretchly](https://hovancik.net/stretchly/)  
 
-#### Notes
-
-[Joplin](https://joplinapp.org)
-
-[StandardNotes](https://standardnotes.org)
-
-[Zettlr](https://www.zettlr.com/)  
-
-[SimpleNote](https://simplenote.com)
-
-[Evernote](https://evernote.com)  
 
 #### To Do Lists
 
@@ -183,13 +146,13 @@ Notes:
 
 [Tox Chat](https://tox.chat)  
 
+
 ## E-Mail
 
 [Tutanota](https://tutanota.com)
 
-[Posteo](https://posteo.de/)  
-
 [ProtonMail](https://protonmail.com/)  
+
 [Thunderbird](https://www.thunderbird.net/en-US/)
 
   
@@ -212,12 +175,6 @@ Notes:
 ## Online Storage
 
 [NextCloud](https://nextcloud.com/)  
-
-[OwnCloud](https://owncloud.org/features/)
-
-[SeaFile](https://www.seafile.com/en/home/)  
-
-[Pydio](https://pydio.com/en/)  
 
   
 
@@ -1220,55 +1177,3 @@ http://lwjgl.org
 [Arduino](https://www.arduino.cc/)
 
 [Open Source Mask](https://www.opensourcemask.com/en/)
-
-  
-
-## Hardware Components (Not $0.00/Free or Software)
-
-[SparkFun](https://www.sparkfun.com)  
-
-[TinyCircuits](https://tinycircuits.com)  
-
-[SeeedStudio](https://www.seeedstudio.com)
-
-[Store.Arduino.CC](https://store.arduino.cc/usa/)
-
-[RaspberryPi Products](https://www.raspberrypi.org/products/)
-
-[AdaFruit](https://www.adafruit.com)
-
-[Parallax](https://www.parallax.com) 
-
-[Solarbotics](https://solarbotics.com)
-
-[Pololu](https://www.pololu.com)
-
-[AllElectronics](https://www.allelectronics.com)
-
-[Jameco](https://www.jameco.com)
-
-[DigiKey](https://www.digikey.com)
-
-[Mouser](https://www.mouser.com)
-
-[Newark](https://www.newark.com)
-
-[Microchip](https://www.microchip.com)
-
-[BitsBox.Co.UK](https://www.bitsbox.co.uk)
-
-[Spiratronics](http://spiratronics.com)
-
-[RapidOnline](https://www.rapidonline.com)
-
-[QuasarElectronics.Co.UK](https://www.quasarelectronics.co.uk)
-
-[Jaycar.Com.Au](https://www.jaycar.com.au)
-
-[ProtoStack.Com.Au](https://protostack.com.au)
-
-[TaydaelEctronics](https://www.taydaelectronics.com)
-
-[Farnell](https://www.farnell.com)
-
-[ST](https://www.st.com/content/st_com/en.html)
