@@ -27,6 +27,7 @@ This Wiki is built on [Obsidian Note Taking software]() as the backend. Gittea s
 	- [Web Applications](https://wiki.commsnet.org/en/Web_Applications/home)
 	- [Desktop Applications](https://wiki.commsnet.org/en/Desktop_Applications/Home)
 	- [Mobile Applications](https://wiki.commsnet.org/en/Mobile_Applications/home)
+- [Virtual Infrastructure]()
 - [Privacy](https://wiki.commsnet.org/en/Privacy/home)
 - [Others](https://wiki.commsnet.org/en/FOSS)
 
@@ -79,5 +80,5 @@ This page has [Matomo](https://matomo.org/) analytics code built in. The informa
 Logs are regularly deleted every two weeks
 ![[Pasted image 20220830104157.png]]
 
-I use this information to see if its worth keeping the site active
+I use this information to see if its worth keeping this site active
 

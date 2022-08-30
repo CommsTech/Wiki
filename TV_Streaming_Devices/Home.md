@@ -1,4 +1,6 @@
-# TV and Streaming Devices Table of Contents
+# TV and Streaming Devices 
+
+## Table of Contents
 
 - [Amazon FireTV](https://wiki.commsnet.org/en/TV_Streaming_Devices/Amazon_FireTV)
 - [AppleTV](https://wiki.commsnet.org/en/TV_Streaming_Devices/AppleTV)
