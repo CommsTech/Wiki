@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Server_Applications/home.md",
+            "file": "Server_Applications/Nextcloud.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Server_Applications/home.md",
+                "file": "Server_Applications/Nextcloud.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Server_Applications/home.md",
+                "file": "Server_Applications/Nextcloud.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Server_Applications/home.md"
+                "file": "Server_Applications/Nextcloud.md"
               }
             }
           },
@@ -147,15 +147,15 @@
   },
   "active": "4e92921a99ced926",
   "lastOpenFiles": [
-    "Server_Applications/HeavyScript.md",
+    "Desktop_Applications/Browsers/Brave.md",
+    "().md",
+    "Desktop_Applications/Browsers/Home.md",
+    "Desktop_Applications/Browsers.md",
+    "Server_Applications/Plex_Meta_Manager.md",
+    "Server_Applications/vcenter.md",
+    "Server_Applications/Tdarr.md",
     "Server_Applications/home.md",
-    "Server_Applications/Icinga.md",
-    "TV_Streaming_Devices/Home.md",
-    "Desktop_Applications/Home.md",
-    "TV_Streaming_Devices/Amazon_FireTV.md",
-    "Desktop_Applications/notepadplusplus.md",
-    "Desktop_Applications/Windows_Mac_Plex_Settings.md",
-    "Web_Applications/Plex.md",
-    "TV_Streaming_Devices/Xbox.md"
+    "Server_Applications/HeavyScript.md",
+    "Server_Applications/Icinga.md"
   ]
 }
