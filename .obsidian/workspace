@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "WGU/c924.md",
+            "file": "Desktop_Applications/Home.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WGU/c924.md",
+                "file": "Desktop_Applications/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WGU/c924.md",
+                "file": "Desktop_Applications/Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WGU/c924.md"
+                "file": "Desktop_Applications/Home.md"
               }
             }
           },
@@ -147,15 +147,15 @@
   },
   "active": "4e92921a99ced926",
   "lastOpenFiles": [
-    "README.md",
+    "Desktop_Applications/notepadplusplus.md",
+    "Desktop_Applications/Windows_Mac_Plex_Settings.md",
+    "Web_Applications/Plex.md",
+    "TV_Streaming_Devices/Xbox.md",
+    "TV_Streaming_Devices/Amazon_FireTV.md",
     "WGU/c924.md",
+    "README.md",
     "Privacy/home.md",
     "WGU/c955.md",
-    "WGU/c175.md",
-    "WGU/c165.md",
-    "WGU/c100.md",
-    "WGU/c176.md",
-    "WGU/c182.md",
-    "WGU/c393.md"
+    "WGU/c175.md"
   ]
 }
