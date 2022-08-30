@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Applications/Mobile_Applications/home.md",
+            "file": "home.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Mobile_Applications/home.md",
+                "file": "home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Mobile_Applications/home.md",
+                "file": "home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Mobile_Applications/home.md"
+                "file": "home.md"
               }
             }
           },
@@ -147,6 +147,7 @@
   },
   "active": "4e92921a99ced926",
   "lastOpenFiles": [
+    "Applications/Mobile_Applications/home.md",
     "Applications/Desktop_Applications/home.md",
     "Applications/Desktop_Applications/Browsers/Home.md",
     "Applications/home.md",
@@ -155,7 +156,6 @@
     "Applications/Web_Applications/Search Engines.md",
     "assets/images/Pasted image 20220830104020.png",
     "FOSS.md",
-    "Networking/home.md",
-    "Networking/MPTCP.md"
+    "Networking/home.md"
   ]
 }
