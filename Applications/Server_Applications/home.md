@@ -106,3 +106,11 @@ Heres a few tools that I utilize to make prepare my media collection for streami
 	- 2 GPU Docker Linux Setup
 	https://dabbler.dev/posts/2021/05/03/
 
+
+
+
+##### Navigation Information
+`Label: Server Applications`
+`Icon: mdi-server
+`Target Type: Page`
+`Target: /en/Applications/Server_Applications/home`

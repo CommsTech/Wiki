@@ -12,3 +12,11 @@ dateCreated: 2022-05-21T15:22:36.583Z
 
 ![Notepad++](https://wiki.commsnet.org/en/Desktop_Applications/notepadplusplus)
 ![Plex]()
+
+
+
+##### Navigation Information
+`Label: Desktop Applications`
+`Icon: mdi-desktop-mac
+`Target Type: Page`
+`Target: /en/Applications/Desktop_Applications/home`

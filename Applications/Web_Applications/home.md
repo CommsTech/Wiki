@@ -10,3 +10,17 @@ dateCreated: 2022-05-21T15:24:58.960Z
 
 # Web Applications Table of Contents
 for guides on  Sonarr/Radarr/Bazarr/Plex  https://trash-guides.info/
+
+
+
+
+
+
+
+
+
+##### Navigation Information
+`Label: Web Applications`
+`Icon: mdi-earth
+`Target Type: Page`
+`Target: /en/Applications/Web_Applications/home`
