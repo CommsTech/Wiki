@@ -15,6 +15,19 @@
             "source": false
           }
         }
+      },
+      {
+        "id": "563eaba9cab47378",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "conflict-files-obsidian-git.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -78,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "home.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "home.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "home.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -145,17 +158,17 @@
     "direction": "horizontal",
     "width": 317
   },
-  "active": "4e92921a99ced926",
+  "active": "563eaba9cab47378",
   "lastOpenFiles": [
-    "Others/home.md",
-    "Others/FOSS.md",
     "home.md",
+    "Others/FOSS.md",
+    "conflict-files-obsidian-git.md",
+    "Others/home.md",
     "TV_Streaming_Devices/home.md",
     "TV_Streaming_Devices/AppleTV.md",
     "TV_Streaming_Devices/Amazon_FireTV.md",
     "Privacy/home.md",
     "Privacy/Guide_to_Online_Anonymity.md",
-    "Networking/Subnetting.md",
-    "Applications/Desktop_Applications/Note_Taking/home.md"
+    "Networking/Subnetting.md"
   ]
 }
