@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Server_Applications/Nextcloud.md",
+            "file": "WGU/home.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Server_Applications/Nextcloud.md",
+                "file": "WGU/home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Server_Applications/Nextcloud.md",
+                "file": "WGU/home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Server_Applications/Nextcloud.md"
+                "file": "WGU/home.md"
               }
             }
           },
@@ -147,15 +147,15 @@
   },
   "active": "4e92921a99ced926",
   "lastOpenFiles": [
+    "Certifications/Amazon/Cloud Practitioner.md",
+    "WGU/home.md",
+    "Certifications/Amazon/AWS_Sysops_Associate.md",
+    "Server_Applications/Nextcloud.md",
     "Desktop_Applications/Browsers/Brave.md",
     "().md",
     "Desktop_Applications/Browsers/Home.md",
     "Desktop_Applications/Browsers.md",
     "Server_Applications/Plex_Meta_Manager.md",
-    "Server_Applications/vcenter.md",
-    "Server_Applications/Tdarr.md",
-    "Server_Applications/home.md",
-    "Server_Applications/HeavyScript.md",
-    "Server_Applications/Icinga.md"
+    "Server_Applications/vcenter.md"
   ]
 }
