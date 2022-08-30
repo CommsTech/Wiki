@@ -3,7 +3,7 @@ title: Hacking Resources
 description: 
 published: true
 date: 2022-05-26T18:21:15.030Z
-tags: 
+tags: Penetration Testing, Hacking
 editor: markdown
 dateCreated: 2022-05-26T18:21:15.030Z
 ---

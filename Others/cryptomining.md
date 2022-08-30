@@ -3,7 +3,7 @@ title: Crypto Mining
 description: 
 published: true
 date: 2022-07-25T00:03:04.585Z
-tags: 
+tags: Mining, Crypto
 editor: markdown
 dateCreated: 2022-07-25T00:03:04.585Z
 ---

@@ -701,7 +701,7 @@ http://lwjgl.org
 
 [Winyl](https://winyl-player.github.io/) (Windows Only)[](https://winyl-player.github.io/)  
 
-[Plex](https://www.plex.tv/)
+[Plex](https://plex.tv)
 
   
 

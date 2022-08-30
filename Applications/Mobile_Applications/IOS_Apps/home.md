@@ -1,19 +1,10 @@
----
-title: IOS Apps
-description: 
-published: true
-date: 2022-07-25T13:16:45.385Z
-tags: 
-editor: markdown
-dateCreated: 2022-05-26T18:25:00.369Z
----
-
  # IOS Applications and Settings
  
  ## Settings to turn off
 	- https://shareably.net/iphone-settings-to-turn-off/
 	- https://www.itpro.com/mobile/battery-life/356946/how-to-turn-off-battery-throttling-on-iphone
 	- https://medium.com/swlh/iphone-settings-you-need-to-turn-off-now-5b66b9556df1
+
  ## Apps you should have
 	Private Transactions
 	- Privacy.com https://apps.apple.com/us/app/privacy-com/id1040298266
