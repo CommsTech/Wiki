@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "home.md",
+            "file": "Applications/Desktop_Applications/home.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "home.md",
+                "file": "Applications/Desktop_Applications/home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "home.md",
+                "file": "Applications/Desktop_Applications/home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "home.md"
+                "file": "Applications/Desktop_Applications/home.md"
               }
             }
           },
@@ -147,12 +147,12 @@
   },
   "active": "4e92921a99ced926",
   "lastOpenFiles": [
+    "home.md",
     "Applications/Mobile_Applications/home.md",
     "Applications/Desktop_Applications/home.md",
     "Applications/Desktop_Applications/Browsers/Home.md",
     "Applications/home.md",
     "Applications/Web_Applications/home.md",
-    "home.md",
     "Applications/Web_Applications/Search Engines.md",
     "assets/images/Pasted image 20220830104020.png",
     "FOSS.md",

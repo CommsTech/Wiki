@@ -12,7 +12,7 @@ dateCreated: 2022-08-30T17:27:40.994Z
 
 Welcome to Commsnet Wiki! your one stop shop for all things technical
 
-This Wiki is built on Obsidian Note Taking software as the backend. Gittea syncs that information from obsidian to a git repository. It is then translated by Wiki.JS so you can view it in a web format. Please explore and add content/comments were needed. thank you
+This Wiki is built on [Obsidian Note Taking software]() as the backend. Gittea syncs that information from obsidian to a git repository. It is then translated by [Wiki.JS]() so you can view it in a web format. Please explore and add content/comments were needed. thank you
 
 ## Table Of Contents
 
