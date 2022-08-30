@@ -58,6 +58,11 @@ Heres a few tools that I utilize to make prepare my media collection for streami
 ## Applications FOR TrueNAS Scale
 - [Heavy Script]()
 
+
+## Running on Portainer
+- 
+
+
 ## Other Server Applications
 
 
