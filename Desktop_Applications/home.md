@@ -2,7 +2,7 @@
 title: Desktop_Applications/home
 description: 
 published: true
-date: 2022-08-30T18:02:32.215Z
+date: 2022-08-30T18:02:54.700Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-30T17:26:24.454Z
