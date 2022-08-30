@@ -3,7 +3,7 @@ title: AppleTV
 description: 
 published: true
 date: 2022-08-30T04:43:23.812Z
-tags: 
+tags: Plex, Apple, Media
 editor: markdown
 dateCreated: 2022-08-30T04:43:08.741Z
 ---
