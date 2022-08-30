@@ -2,7 +2,7 @@
 title: Amazon FireTV Devices
 description: Collection of the varied Amazon FireTV OS Devices.
 published: true
-date: 2022-08-30T04:42:06.633Z
+date: 2022-08-30T04:42:11.663Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-30T04:41:50.009Z
