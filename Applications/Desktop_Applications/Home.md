@@ -10,8 +10,8 @@ dateCreated: 2022-05-21T15:22:36.583Z
 
 # Desktop Applications Table of Contents
 
-![Notepad++](https://wiki.commsnet.org/en/Desktop_Applications/notepadplusplus)
-![Plex]()
+- [Notepad++](https://wiki.commsnet.org/en/Desktop_Applications/notepadplusplus)
+- [Plex]()
 
 
 
