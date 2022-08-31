@@ -1094,7 +1094,7 @@ http://lwjgl.org
 
 [Gladys](https://gladysassistant.com/en/)  
 
-[Home-Assistant](https://www.home-assistant.io)[](https://openassistant.org)  
+[[[Home]]-Assistant](https://www.home-assistant.io)[](https://openassistant.org)  
 
 [OpenAssistant](https://openassistant.org)
 
