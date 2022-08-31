@@ -69,6 +69,7 @@ Analytics
 Security
 - [AlienVault]()
 - [SecurityOnion]()
+- [CyberChef](https://cyberchef.commsnet.org)
 
 Home Automations
 - [HomeAssistant (Docker)]()
