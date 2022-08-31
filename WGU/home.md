@@ -31,5 +31,5 @@ dateCreated: 2022-05-09T04:33:51.250Z
 - [C955 - Applied Probability and Statistics](https://wiki.commsnet.org/en/WGU/c955)
 - [C963 - American Politics and U.S. Constitution](https://wiki.commsnet.org/en/WGU/c963)
 
-###### Special thanks to Back to School YouTube channel for all the assistance 
+###### Special thanks to Back to School YouTube channel for all the assistance his videos have provided me.
 https://www.youtube.com/channel/UCz79AQnKRsLMix8wmkAAYmg/featured

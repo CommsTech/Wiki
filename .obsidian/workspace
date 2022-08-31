@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "4e92921a99ced926",
+        "id": "563eaba9cab47378",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -14,14 +14,6 @@
             "backlinks": true,
             "source": false
           }
-        }
-      },
-      {
-        "id": "563eaba9cab47378",
-        "type": "leaf",
-        "state": {
-          "type": "empty",
-          "state": {}
         }
       }
     ],
@@ -86,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,6 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +117,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "home.md"
+              }
             }
           },
           {
@@ -151,15 +147,15 @@
   },
   "active": "563eaba9cab47378",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "WGU/home.md",
     "home.md",
+    "Virtual_Infrastructure/AWS/home.md",
+    "conflict-files-obsidian-git.md",
     "Others/FOSS.md",
     "Others/home.md",
     "TV_Streaming_Devices/home.md",
     "TV_Streaming_Devices/AppleTV.md",
     "TV_Streaming_Devices/Amazon_FireTV.md",
-    "Privacy/home.md",
-    "Privacy/Guide_to_Online_Anonymity.md",
-    "Networking/Subnetting.md"
+    "Privacy/home.md"
   ]
 }
