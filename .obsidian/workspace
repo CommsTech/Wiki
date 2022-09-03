@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "WGU/c165.md",
+            "file": "Virtual_Infrastructure/AWS/home.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WGU/c165.md",
+                "file": "Virtual_Infrastructure/AWS/home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WGU/c165.md",
+                "file": "Virtual_Infrastructure/AWS/home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WGU/c165.md"
+                "file": "Virtual_Infrastructure/AWS/home.md"
               }
             }
           },
@@ -147,6 +147,8 @@
   },
   "active": "563eaba9cab47378",
   "lastOpenFiles": [
+    "Virtual_Infrastructure/AWS/AWS_Services.md",
+    "WGU/c165.md",
     "WGU/c100.md",
     "WGU/c924.md",
     "Certifications/Amazon/Cloud Practitioner.md",
@@ -154,8 +156,6 @@
     "WGU/c955.md",
     "Applications/Server_Applications/TvHeadend.md",
     "Raspberry_Pi_Power_Monitor.md",
-    "Virtual_Infrastructure/AWS/home.md",
-    "Virtual_Infrastructure/AWS/AWS_Services.md",
-    "Virtual_Infrastructure/AWS/opensearch.md"
+    "Virtual_Infrastructure/AWS/home.md"
   ]
 }
