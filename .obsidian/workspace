@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "4e92921a99ced926",
+        "id": "563eaba9cab47378",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -62,7 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306
+    "width": 326
   },
   "right": {
     "id": "08ae70875a72a413",
@@ -138,24 +138,23 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 317
   },
-  "active": "4e92921a99ced926",
+  "active": "563eaba9cab47378",
   "lastOpenFiles": [
-    "README.md",
-    "WGU/c924.md",
-    "Privacy/home.md",
     "WGU/c955.md",
-    "WGU/c175.md",
-    "WGU/c165.md",
-    "WGU/c100.md",
-    "WGU/c176.md",
-    "WGU/c182.md",
-    "WGU/c393.md"
+    "Applications/Server_Applications/TvHeadend.md",
+    "WGU/c924.md",
+    "Raspberry_Pi_Power_Monitor.md",
+    "Virtual_Infrastructure/AWS/home.md",
+    "Virtual_Infrastructure/AWS/AWS_Services.md",
+    "Virtual_Infrastructure/AWS/opensearch.md",
+    "Applications/Web_Applications/pdftomd.md",
+    "home.md",
+    "WGU/home.md"
   ]
 }
