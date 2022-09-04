@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Certifications/Amazon/home.md",
+            "file": "Applications/Server_Applications/Whoogle.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Certifications/Amazon/home.md",
+                "file": "Applications/Server_Applications/Whoogle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Certifications/Amazon/home.md",
+                "file": "Applications/Server_Applications/Whoogle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Certifications/Amazon/home.md"
+                "file": "Applications/Server_Applications/Whoogle.md"
               }
             }
           },
@@ -147,6 +147,8 @@
   },
   "active": "563eaba9cab47378",
   "lastOpenFiles": [
+    "Applications/Web_Applications/Search_Engines.md",
+    "Certifications/Amazon/home.md",
     "Certifications/Amazon/Cloud Practitioner.md",
     "Applications/Server_Applications/unifi.md",
     "Networking/unifi.md",
@@ -154,8 +156,6 @@
     "Networking/Subnetting.md",
     "Networking/Riverbed.md",
     "Networking/pfSense.md",
-    "Networking/MPTCP.md",
-    "Networking/home.md",
-    "Applications/Server_Applications/Home_Assistant.md"
+    "Networking/MPTCP.md"
   ]
 }
