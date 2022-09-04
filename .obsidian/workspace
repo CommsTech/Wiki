@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Applications/Server_Applications/Plex.md",
+            "file": "Applications/Server_Applications/SecurityOnion.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/Plex.md",
+                "file": "Applications/Server_Applications/SecurityOnion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/Plex.md",
+                "file": "Applications/Server_Applications/SecurityOnion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/Plex.md"
+                "file": "Applications/Server_Applications/SecurityOnion.md"
               }
             }
           },
@@ -147,15 +147,15 @@
   },
   "active": "563eaba9cab47378",
   "lastOpenFiles": [
+    "Applications/Server_Applications/Plex.md",
+    "Applications/Server_Applications/SecurityOnion.md",
     "Applications/Server_Applications/Sonarr.md",
     "Applications/Server_Applications/Radarr.md",
-    "Applications/Server_Applications/SecurityOnion.md",
     "Applications/Server_Applications/Whoogle.md",
     "Applications/Web_Applications/Search_Engines.md",
     "Certifications/Amazon/home.md",
     "Certifications/Amazon/Cloud Practitioner.md",
     "Applications/Server_Applications/unifi.md",
-    "Networking/unifi.md",
-    "Networking/Troubleshooting.md"
+    "Networking/unifi.md"
   ]
 }
