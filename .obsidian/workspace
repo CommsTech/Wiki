@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Applications/Server_Applications/SecurityOnion.md",
+            "file": "Applications/Server_Applications/Jellyfin.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/SecurityOnion.md",
+                "file": "Applications/Server_Applications/Jellyfin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/SecurityOnion.md",
+                "file": "Applications/Server_Applications/Jellyfin.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/SecurityOnion.md"
+                "file": "Applications/Server_Applications/Jellyfin.md"
               }
             }
           },
@@ -147,8 +147,8 @@
   },
   "active": "563eaba9cab47378",
   "lastOpenFiles": [
-    "Applications/Server_Applications/Plex.md",
     "Applications/Server_Applications/SecurityOnion.md",
+    "Applications/Server_Applications/Plex.md",
     "Applications/Server_Applications/Sonarr.md",
     "Applications/Server_Applications/Radarr.md",
     "Applications/Server_Applications/Whoogle.md",
