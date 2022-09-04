@@ -2,6 +2,76 @@
 
 
 
+## Netflow to Security Onion
+[youtube Video](https://www.youtube.com/watch?v=ew5gtVjAs7g)
+
+STEP 1
+Update Minion File
+`sudo su`
+`cd /opt/so/saltstack/local/pillar/minions`
+`ls` find your /*.filebeat./*.sls mine is named seconion_standalone.sls
+`vi seconion_standalone.sls`
+press insert
+```
+filebeat:
+  third_party_filebeat:
+    modules:
+      netflow:
+        log:
+          enabled: true
+          var.netflow_host: 0.0.0.0
+          var.netflow_port: 2055
+```
+press esc and type `:wq`
+*Note* if you only want a specific host to push netflow from change 0.0.0.0 (all) to that ip example 192.168.255.254 also if you run a port different than the default netflow port make sure to change 2055 to that no-default port number
+
+Step 2
+Update Docker Config
+run the below command and see the container location and ports
+`docker ps | grep filebeat`
+*Note* By default the filebeat container is not open to port 2055 so we will have to change that
+cd into the local salt stack directory
+`cd /opt/so/saltstack/local/salt/filebeat`
+Copy the default directory to the local directory as changes done in default are not persistant
+`cp /opt/so/saltstack/default/salt/filebeat/init.sls ./`
+Change the owner of init.sls to socore
+`chown socore:socore init.sls`
+Edit the init.sls file
+`vi init.sls`
+press insert
+look for the following
+```
+    126    - port_bindings:
+    127         - 0.0.0.0:514:514/udp
+    128         - 0.0.0.0:514:514/tcp
+    129         - 0.0.0.0:5066:5066/tcp
+```
+around line 129
+add ` - 0.0.0.0:2055:2055/udp`
+your port mappings should look somewhat like this now
+```
+    126     - port_bindings:
+    127         - 0.0.0.0:514:514/udp
+    128         - 0.0.0.0:514:514/tcp
+    129         - 0.0.0.0:2055:2055/udp
+    130         - 0.0.0.0:5066:5066/tcp
+```
+press ESC
+type `:wq`
+press enter
+Now we need to tell salt to update the filebeat mappings
+`salt-call state.apply filebeat`
+After complete veifiy the container is accepting connections on port 2055
+`docker ps | grep 2055`
+
+Step 3
+Update Firewall Config
+
+
+Step 4
+Update the Logstash pipeline
+
+
 ## Link Security Onion to Alienvault
 # [AlienVault-OTX](https://docs.securityonion.net/en/2.3/alienvault-otx.html#alienvault-otx "Permalink to this headline")
 

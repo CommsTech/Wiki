@@ -7,3 +7,6 @@ I currently run my plex server in a TrueNas Scale application with GPU passthrou
 
 	- 2 GPU Docker Linux Setup
 	https://dabbler.dev/posts/2021/05/03/
+
+
+Additional Guides provided by [TRaSH Guides - Highly Recommended](https://trash-guides.info/Plex/)
