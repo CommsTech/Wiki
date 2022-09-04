@@ -9,9 +9,9 @@ HeavyScript is a script created by me, with the idea of being modular, it includ
 
 Some other scripts are derived from this one, a lot of my logic, a lot of my regex etc.
 
-So I do not see the point in using someone elses script when you can get the latest and greatest straight from the source
+So I do not see the point in using someone else's script when you can get the latest and greatest straight from the source
 
-> However, it would be unfair to say that I came up with this all on my own, I did not, some of the ideas were taken from other projects, I just would like to _think_ I implemented them better, but I guess thats up to you to decide
+> However, it would be unfair to say that I came up with this all on my own, I did not, some of the ideas were taken from other projects, I just would like to _think_ I implemented them better, but I guess that's up to you to decide
 
 <br >
 
