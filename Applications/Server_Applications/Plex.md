@@ -14,4 +14,4 @@ I currently run my plex server in a TrueNas Scale application with GPU passthrou
 
 Additional Guides 
 - [TRaSH Guides - Highly Recommended](https://trash-guides.info/Plex/)
-- [MediaClients.wiki - Great tips to tune your plex settings](https://mediaclients.wiki/en/Plex)
+- [MediaClients.wiki - Great tips to tune your plex settings for optimal playback and server load](https://mediaclients.wiki/en/Plex)
