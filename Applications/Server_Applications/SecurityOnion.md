@@ -33,9 +33,9 @@ run the below command and see the container location and ports
 cd into the local salt stack directory
 `cd /opt/so/saltstack/local/salt/filebeat`
 Copy the default directory to the local directory as changes done in default are not persistant
-`cp /opt/so/saltstack/default/salt/filebeat/init.sls ./`
+`sudo cp /opt/so/saltstack/default/salt/filebeat/init.sls /opt/so/saltstack/local/salt/filebeat/init.sls`
 Change the owner of init.sls to socore
-`chown socore:socore init.sls`
+`sudo chown socore:socore /opt/so/saltstack/local/salt/filebeat/init.sls`
 Edit the init.sls file
 `vi init.sls`
 press insert
