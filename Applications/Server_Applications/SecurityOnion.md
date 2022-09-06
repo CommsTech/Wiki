@@ -67,9 +67,53 @@ After complete veifiy the container is accepting connections on port 2055
 Step 3
 Update Firewall Config
 
+Add the hostgroup
+`so-firewall addhostgroup netflow`
+
+add the portgroup
+`so-firewall addportgroup netflow`
+
+add the hosts allowed to send netflow
+`so-firewall includehost netflow 192.168.0.0/16`
+
+add netflow port
+`so-firewall addport netflow udp 2055`
+
+update firewall config 
+`cd /opt/so/saltstack/local/pillar/minions`
+
+`vi **yourminionfile.sls` mine is called seconion_standalone.sls
+
+	go to the end of the file and press `insert` and ctrl+c/v the following`
+
+```
+firewall:
+  assigned_hostgroups:
+    chain:
+      DOCKER-USER:
+        hostgroups:
+          netflow:
+            portgroups:
+              - portgroups.netflow
+      INPUT:
+        hostgroups:
+          netflow:
+            portgroups:
+              - portgroups.netflow
+```
+
+press `Esc` then type `:wq`
+
+now time to apply the rules
+`salt-call state.apply firewall`
 
 Step 4
 Update the Logstash pipeline
+now apply the logstash config file to filebeats
+`docker exec -i so-filebeat filebeat setup modules -pipelines -modules netflow -c /usr/share/filebeat/module-setup.yml`
+
+then restart the container
+`so-filebeat-restart`
 
 
 ## Link Security Onion to Alienvault
