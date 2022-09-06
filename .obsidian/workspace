@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "WGU/c924.md",
+            "file": "Applications/Server_Applications/SecurityOnion.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WGU/c924.md",
+                "file": "Applications/Server_Applications/SecurityOnion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WGU/c924.md",
+                "file": "Applications/Server_Applications/SecurityOnion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WGU/c924.md"
+                "file": "Applications/Server_Applications/SecurityOnion.md"
               }
             }
           },
@@ -147,9 +147,9 @@
   },
   "active": "563eaba9cab47378",
   "lastOpenFiles": [
+    "WGU/c924.md",
     "WGU/c955.md",
     "Applications/Desktop_Applications/Obsidian.md",
-    "WGU/c924.md",
     "Applications/Server_Applications/SecurityOnion.md",
     "Operating_Systems/Linux/NIX.md",
     "Operating_Systems/Linux/Home.md",
