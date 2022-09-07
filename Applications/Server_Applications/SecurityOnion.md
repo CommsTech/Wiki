@@ -60,8 +60,8 @@ press ESC
 type `:wq`
 press enter
 Now we need to tell salt to update the filebeat mappings
-`salt-call state.apply filebeat`
-After complete veifiy the container is accepting connections on port 2055
+`sudo salt-call state.apply filebeat`
+After complete verify the container is accepting connections on port 2055
 `docker ps | grep 2055`
 
 Step 3
@@ -84,7 +84,7 @@ update firewall config
 
 `vi **yourminionfile.sls` mine is called seconion_standalone.sls
 
-	go to the end of the file and press `insert` and ctrl+c/v the following`
+go to the end of the file and press `insert` and ctrl+c/v the following
 
 ```
 firewall:
@@ -105,15 +105,15 @@ firewall:
 press `Esc` then type `:wq`
 
 now time to apply the rules
-`salt-call state.apply firewall`
+`sudo salt-call state.apply firewall`
 
 Step 4
 Update the Logstash pipeline
 now apply the logstash config file to filebeats
-`docker exec -i so-filebeat filebeat setup modules -pipelines -modules netflow -c /usr/share/filebeat/module-setup.yml`
+`sudo docker exec -i so-filebeat filebeat setup modules -pipelines -modules netflow -c /usr/share/filebeat/module-setup.yml`
 
 then restart the container
-`so-filebeat-restart`
+`sudo so-filebeat-restart`
 
 
 ## Link Security Onion to Alienvault
