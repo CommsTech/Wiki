@@ -107,6 +107,9 @@ press `Esc` then type `:wq`
 now time to apply the rules
 `sudo salt-call state.apply firewall`
 
+confirm with
+`iptables --list -n | grep 2055`
+
 Step 4
 Update the Logstash pipeline
 now apply the logstash config file to filebeats
