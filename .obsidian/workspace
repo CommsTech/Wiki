@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Operating_Systems/Linux/NIX.md",
+            "file": "Networking/unifi.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating_Systems/Linux/NIX.md",
+                "file": "Networking/unifi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating_Systems/Linux/NIX.md",
+                "file": "Networking/unifi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating_Systems/Linux/NIX.md"
+                "file": "Networking/unifi.md"
               }
             }
           },
@@ -147,6 +147,7 @@
   },
   "active": "563eaba9cab47378",
   "lastOpenFiles": [
+    "Operating_Systems/Linux/NIX.md",
     "Applications/Server_Applications/Wazuh.md",
     "Applications/Server_Applications/SecurityOnion.md",
     "WGU/c924.md",
@@ -155,7 +156,6 @@
     "WGU/c859.md",
     "WGU/c955.md",
     "Applications/Desktop_Applications/Obsidian.md",
-    "Operating_Systems/Linux/NIX.md",
     "Operating_Systems/Linux/Home.md"
   ]
 }
