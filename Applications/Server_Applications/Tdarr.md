@@ -3,7 +3,11 @@
 **Tdarr is a conditional based transcoding application for automating media library transcode/remux management**
 
 
-![Tdarr Website](https://tdarr.io/)
+[Tdarr Website](https://tdarr.io/)
+
+- Tdarr
+	- https://tdarr.io/
+	- This project came out and has a ton more options than my little batch script. (I run both)
 
 Docker Compose (Server Only):
 version: '3.4'

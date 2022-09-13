@@ -15,6 +15,19 @@
             "source": false
           }
         }
+      },
+      {
+        "id": "0042e2c81cea1fa0",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "conflict-files-obsidian-git.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -78,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating_Systems/Linux/Kali.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating_Systems/Linux/Kali.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating_Systems/Linux/Kali.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -146,8 +159,9 @@
     "width": 317,
     "collapsed": true
   },
-  "active": "4e92921a99ced926",
+  "active": "0042e2c81cea1fa0",
   "lastOpenFiles": [
+    "Operating_Systems/Linux/Kali.md",
     "Operating_Systems/Home.md",
     "WGU/c924.md",
     "README.md",
@@ -156,7 +170,6 @@
     "WGU/c175.md",
     "WGU/c165.md",
     "WGU/c100.md",
-    "WGU/c176.md",
-    "WGU/c182.md"
+    "WGU/c176.md"
   ]
 }
