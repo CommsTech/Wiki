@@ -4,24 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4e92921a99ced926",
+        "id": "563eaba9cab47378",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Operating_Systems/Linux/Kali.md",
+            "file": "WGU/c769.md",
             "mode": "source",
             "backlinks": true,
             "source": false
           }
-        }
-      },
-      {
-        "id": "0042e2c81cea1fa0",
-        "type": "leaf",
-        "state": {
-          "type": "empty",
-          "state": {}
         }
       }
     ],
@@ -70,7 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306
+    "width": 326
   },
   "right": {
     "id": "08ae70875a72a413",
@@ -86,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "WGU/c769.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,6 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "WGU/c769.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +117,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "WGU/c769.md"
+              }
             }
           },
           {
@@ -142,25 +138,24 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 317,
     "collapsed": true
   },
-  "active": "0042e2c81cea1fa0",
+  "active": "563eaba9cab47378",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "Operating_Systems/Linux/Kali.md",
-    "Operating_Systems/Home.md",
+    "Networking/unifi.md",
+    "Operating_Systems/Linux/NIX.md",
+    "Applications/Server_Applications/Wazuh.md",
+    "Applications/Server_Applications/SecurityOnion.md",
     "WGU/c924.md",
-    "README.md",
-    "Privacy/home.md",
+    "Others/Cryptocurrency/Polygon.md",
+    "Others/Cryptocurrency/cryptomining.md",
+    "WGU/c859.md",
     "WGU/c955.md",
-    "WGU/c175.md",
-    "WGU/c165.md",
-    "WGU/c100.md"
+    "Applications/Desktop_Applications/Obsidian.md"
   ]
 }
