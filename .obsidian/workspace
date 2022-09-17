@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Applications/Desktop_Applications/Obsidian.md",
+            "file": "Applications/Desktop_Applications/Note_Taking/Obsidian.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Desktop_Applications/Obsidian.md",
+                "file": "Applications/Desktop_Applications/Note_Taking/Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Desktop_Applications/Obsidian.md",
+                "file": "Applications/Desktop_Applications/Note_Taking/Obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Desktop_Applications/Obsidian.md"
+                "file": "Applications/Desktop_Applications/Note_Taking/Obsidian.md"
               }
             }
           },
@@ -145,10 +145,10 @@
     "width": 317,
     "collapsed": true
   },
-  "active": "563eaba9cab47378",
+  "active": "73ee420029073090",
   "lastOpenFiles": [
     "Applications/Desktop_Applications/FreeTube.md",
-    "Applications/Desktop_Applications/Obsidian.md",
+    "Applications/Desktop_Applications/Note_Taking/Obsidian.md",
     "Applications/Desktop_Applications/Browsers/Tor_Browser.md",
     "Applications/Desktop_Applications/Browsers/Brave.md",
     "Applications/Desktop_Applications/Browsers/Firefox.md",
