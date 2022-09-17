@@ -1,3 +1,12 @@
+---
+title: Xbox
+description: All things Xbox
+published: true
+date: 2022-07-25T13:15:54.706Z
+tags: Xbox, Streaming, Plex
+editor: markdown
+dateCreated: 2022-05-21T15:28:21.146Z
+---
 # Xbox Console
 
 
