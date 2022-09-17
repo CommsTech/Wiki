@@ -147,6 +147,8 @@
   },
   "active": "563eaba9cab47378",
   "lastOpenFiles": [
+    "Applications/Server_Applications/Commento-Plusplus.md",
+    "Applications/Server_Applications/cloudflared.md",
     "Applications/Server_Applications/clamav.md",
     "Applications/Server_Applications/Authelia.md",
     "Applications/Raspberry_pi_Applications/Raspberry_Pi_Power_Monitor.md",
@@ -154,8 +156,6 @@
     "Applications/Mobile_Applications/IOS_Apps/Plex.md",
     "Applications/Mobile_Applications/IOS_Apps/home.md",
     "Applications/Mobile_Applications/IOS_Apps/Basic_Settings.md",
-    "Applications/Desktop_Applications/Wireshark.md",
-    "Applications/Desktop_Applications/WinSCP.md",
-    "Applications/Desktop_Applications/Windows_Mac_Plex_Settings.md"
+    "Applications/Desktop_Applications/Wireshark.md"
   ]
 }
