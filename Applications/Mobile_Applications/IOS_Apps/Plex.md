@@ -7,7 +7,6 @@ tags: Plex, IOS
 editor: markdown
 dateCreated: 2022-08-30T04:35:01.472Z
 ---
-
 # Apple IOS Devices
 
 ### In order to change  the Plex video quality settings on Apple IOS devices (iphones, ipads & ipods).  From the home screen hit the "hamburger menu" button in the upper left hand corner.

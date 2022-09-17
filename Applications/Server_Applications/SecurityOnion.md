@@ -1,3 +1,12 @@
+---
+title: Security Onion
+description: Security Onion
+published: true
+date: 2022-08-30T04:38:46.749Z
+tags: Server, SEIM
+editor: markdown
+dateCreated: 2022-08-30T04:27:17.152Z
+---
 # [Security Onion](https://securityonionsolutions.com/)
 
 

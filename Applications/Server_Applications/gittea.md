@@ -1,5 +1,13 @@
+---
+title: GitTea
+description: host your own git server with gittea
+published: true
+date: 2022-08-30T04:38:46.749Z
+tags: Server, Git
+editor: markdown
+dateCreated: 2022-08-30T04:27:17.152Z
+---
 # gittea
-
 
 
 # Configuration Cheat Sheet

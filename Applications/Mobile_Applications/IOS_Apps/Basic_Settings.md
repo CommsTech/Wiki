@@ -7,7 +7,7 @@ tags: apple, Applications, IOS
 editor: markdown
 dateCreated: 2022-05-09T14:14:37.574Z
 ---
- # IOS Applications and Settings
+# IOS Applications and Settings
  
  ## Settings to turn off
 	- https://shareably.net/iphone-settings-to-turn-off/
