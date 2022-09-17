@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Applications/Server_Applications/home.md",
+            "file": "Operating_Systems/Linux/NIX.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/home.md",
+                "file": "Operating_Systems/Linux/NIX.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/home.md",
+                "file": "Operating_Systems/Linux/NIX.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/home.md"
+                "file": "Operating_Systems/Linux/NIX.md"
               }
             }
           },
@@ -147,15 +147,15 @@
   },
   "active": "563eaba9cab47378",
   "lastOpenFiles": [
+    "Operating_Systems/Linux/Kali.md",
+    "Operating_Systems/Linux/Home.md",
+    "Applications/Mobile_Applications/home.md",
+    "Certifications/Amazon/Cloud Practitioner.md",
+    "Applications/home.md",
+    "Applications/Server_Applications/home.md",
     "Applications/Server_Applications/idrac_6.md",
     "Applications/Server_Applications/cloudflared.md",
     "Applications/Server_Applications/Commento-Plusplus.md",
-    "Applications/Server_Applications/clamav.md",
-    "Applications/Server_Applications/Authelia.md",
-    "Applications/Raspberry_pi_Applications/Raspberry_Pi_Power_Monitor.md",
-    "Applications/Mobile_Applications/home.md",
-    "Applications/Mobile_Applications/IOS_Apps/Plex.md",
-    "Applications/Mobile_Applications/IOS_Apps/home.md",
-    "Applications/Mobile_Applications/IOS_Apps/Basic_Settings.md"
+    "Applications/Server_Applications/clamav.md"
   ]
 }
