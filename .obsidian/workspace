@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Applications/Desktop_Applications/Note_Taking/Obsidian.md",
+            "file": "Virtual_Infrastructure/AWS/AWS_Services.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Desktop_Applications/Note_Taking/Obsidian.md",
+                "file": "Virtual_Infrastructure/AWS/AWS_Services.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Desktop_Applications/Note_Taking/Obsidian.md",
+                "file": "Virtual_Infrastructure/AWS/AWS_Services.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Desktop_Applications/Note_Taking/Obsidian.md"
+                "file": "Virtual_Infrastructure/AWS/AWS_Services.md"
               }
             }
           },
@@ -145,7 +145,7 @@
     "width": 317,
     "collapsed": true
   },
-  "active": "73ee420029073090",
+  "active": "563eaba9cab47378",
   "lastOpenFiles": [
     "Applications/Desktop_Applications/FreeTube.md",
     "Applications/Desktop_Applications/Note_Taking/Obsidian.md",
