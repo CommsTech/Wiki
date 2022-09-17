@@ -1,4 +1,13 @@
-# Search Engine
+---
+title: Search Engines
+description: Search Engine settings and information
+published: true
+date: 2022-08-30T04:38:46.749Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-30T04:27:17.152Z
+---
+# Search Engines
 
 ## Changing your Search Engine
 
