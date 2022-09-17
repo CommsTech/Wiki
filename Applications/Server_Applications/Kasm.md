@@ -3,7 +3,7 @@ title: Kasm
 description: 
 published: true
 date: 2022-05-26T18:23:12.715Z
-tags: 
+tags: Server, Docker
 editor: markdown
 dateCreated: 2022-05-26T18:23:12.715Z
 ---

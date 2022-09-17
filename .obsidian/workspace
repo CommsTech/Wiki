@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Applications/Server_Applications/idrac_6.md",
+            "file": "Applications/Server_Applications/TvHeadend.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/idrac_6.md",
+                "file": "Applications/Server_Applications/TvHeadend.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/idrac_6.md",
+                "file": "Applications/Server_Applications/TvHeadend.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/idrac_6.md"
+                "file": "Applications/Server_Applications/TvHeadend.md"
               }
             }
           },
@@ -147,15 +147,15 @@
   },
   "active": "563eaba9cab47378",
   "lastOpenFiles": [
-    "Applications/Server_Applications/Plex_Meta_Manager.md",
-    "WGU/c859.md",
-    "WGU/c838.md",
-    "WGU/c839.md",
-    "WGU/c846.md",
-    "WGU/c849.md",
-    "WGU/c851.md",
-    "WGU/c963.md",
-    "WGU/c955.md",
-    "WGU/c924.md"
+    "Applications/Server_Applications/unifi.md",
+    "Applications/Server_Applications/uptime-kuma.md",
+    "Applications/Server_Applications/vcenter.md",
+    "Applications/Server_Applications/Wazuh.md",
+    "Applications/Server_Applications/Whoogle.md",
+    "About Me.md",
+    "README.md",
+    "home.md",
+    "Applications/Server_Applications/Jellyfin.md",
+    "Applications/Server_Applications/Lidarr.md"
   ]
 }
