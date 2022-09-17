@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "About Me.md",
+            "file": "Applications/Desktop_Applications/Obsidian.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "About Me.md",
+                "file": "Applications/Desktop_Applications/Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "About Me.md",
+                "file": "Applications/Desktop_Applications/Obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "About Me.md"
+                "file": "Applications/Desktop_Applications/Obsidian.md"
               }
             }
           },
@@ -147,15 +147,15 @@
   },
   "active": "563eaba9cab47378",
   "lastOpenFiles": [
-    "README.md",
+    "Applications/Desktop_Applications/FreeTube.md",
+    "Applications/Desktop_Applications/Obsidian.md",
+    "Applications/Desktop_Applications/Browsers/Tor_Browser.md",
+    "Applications/Desktop_Applications/Browsers/Brave.md",
+    "Applications/Desktop_Applications/Browsers/Firefox.md",
     "home.md",
+    "About Me.md",
+    "README.md",
     "Certifications/Amazon/home.md",
-    "Certifications/Amazon/Cloud Practitioner.md",
-    "Hardware/home.md",
-    "Networking/Troubleshooting.md",
-    "Networking/unifi.md",
-    "Networking/pfSense.md",
-    "Networking/MPTCP.md",
-    "Networking/Subnetting.md"
+    "Certifications/Amazon/Cloud Practitioner.md"
   ]
 }
