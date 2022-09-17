@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Applications/Server_Applications/gittea.md",
+            "file": "WGU/c859.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/gittea.md",
+                "file": "WGU/c859.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/gittea.md",
+                "file": "WGU/c859.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/gittea.md"
+                "file": "WGU/c859.md"
               }
             }
           },
@@ -147,15 +147,15 @@
   },
   "active": "563eaba9cab47378",
   "lastOpenFiles": [
+    "WGU/c851.md",
     "WGU/c859.md",
-    "WGU/c769.md",
-    "Networking/unifi.md",
-    "Operating_Systems/Linux/NIX.md",
-    "Applications/Server_Applications/Wazuh.md",
-    "Applications/Server_Applications/SecurityOnion.md",
     "WGU/c924.md",
-    "Others/Cryptocurrency/Polygon.md",
-    "Others/Cryptocurrency/cryptomining.md",
-    "WGU/c955.md"
+    "WGU/c955.md",
+    "WGU/c779.md",
+    "WGU/c769.md",
+    "WGU/c768.md",
+    "Applications/Server_Applications/gittea.md",
+    "Networking/unifi.md",
+    "Operating_Systems/Linux/NIX.md"
   ]
 }
