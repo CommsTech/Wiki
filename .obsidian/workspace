@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Applications/Web_Applications/home.md",
+            "file": "Others/Hacking_Resources.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Web_Applications/home.md",
+                "file": "Others/Hacking_Resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Web_Applications/home.md",
+                "file": "Others/Hacking_Resources.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Web_Applications/home.md"
+                "file": "Others/Hacking_Resources.md"
               }
             }
           },
@@ -147,6 +147,8 @@
   },
   "active": "563eaba9cab47378",
   "lastOpenFiles": [
+    "Applications/Web_Applications/HTTPVersions.md",
+    "Applications/Web_Applications/home.md",
     "Applications/Server_Applications/Wiki_JS.md",
     "Applications/Server_Applications/Whoogle.md",
     "Applications/Server_Applications/Wazuh.md",
@@ -154,8 +156,6 @@
     "Applications/Server_Applications/uptime-kuma.md",
     "Applications/Server_Applications/unifi.md",
     "Applications/Server_Applications/TvHeadend.md",
-    "Applications/Server_Applications/traefik.md",
-    "Applications/Server_Applications/Tdarr.md",
-    "Applications/Server_Applications/Tautulli.md"
+    "Applications/Server_Applications/traefik.md"
   ]
 }
