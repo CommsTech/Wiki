@@ -3,7 +3,7 @@ title: Troubleshooting
 description: information on network troubleshooting
 published: true
 date: 2022-05-26T18:27:33.428Z
-tags: 
+tags: networking
 editor: markdown
 dateCreated: 2022-05-26T18:27:33.428Z
 ---

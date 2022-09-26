@@ -1,3 +1,12 @@
+---
+title: Sonarr
+description: Sonarr
+published: true
+date: 2022-08-30T04:38:46.749Z
+tags: Server, Docker, Media Management, TV Shows
+editor: markdown
+dateCreated: 2022-08-30T04:27:17.152Z
+---
 # Sonarr
 
 - Sonarr

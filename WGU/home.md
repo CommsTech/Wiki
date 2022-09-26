@@ -20,6 +20,7 @@ dateCreated: 2022-05-09T04:33:51.250Z
 - [C393 - IT Foundations](https://wiki.commsnet.org/en/WGU/C393)
 - [C394 - IT Applications](https://wiki.commsnet.org/en/WGU/C394)
 - [C768 - Technical Communications](https://wiki.commsnet.org/en/WGU/c768)
+- [C769 - IT Capstone Written Project](https://wiki.commsnet.org/en/WGU/c769)
 - [C779 - Web Dev Foundations](https://wiki.commsnet.org/en/WGU/C779)
 - [C838 - Managing Cloud Security](https://wiki.commsnet.org/en/WGU/C838)
 - [C839 - Intro to Cryptography](https://wiki.commsnet.org/en/WGU/c839)

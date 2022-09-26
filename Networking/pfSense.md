@@ -3,7 +3,7 @@ title: pfSense
 description: pfsense
 published: true
 date: 2022-07-25T13:08:39.586Z
-tags: pfsense, networking, firewalls
+tags: pfsense, networking, firewall
 editor: markdown
 dateCreated: 2022-05-16T14:33:14.193Z
 ---

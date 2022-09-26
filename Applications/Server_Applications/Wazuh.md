@@ -1,3 +1,12 @@
+---
+title: Wazuh
+description: Wazuh Security Agents and servers
+published: true
+date: 2022-07-18T02:41:39.777Z
+tags: networking, Security, Server, Monitoring
+editor: markdown
+dateCreated: 2022-07-18T02:41:39.777Z
+---
 # Wazuh
 
 # [Deploying Wazuh agents on Linux systems](https://documentation.wazuh.com/current/installation-guide/wazuh-agent/wazuh-agent-package-linux.html#deploying-wazuh-agents-on-linux-systems "Permalink to this headline")

@@ -7,7 +7,6 @@ tags: Notes
 editor: markdown
 dateCreated: 2022-05-09T14:14:37.574Z
 ---
-
 # Notepad ++
 
 ##### Remove Duplicate Lines
