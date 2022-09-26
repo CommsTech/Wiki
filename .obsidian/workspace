@@ -15,14 +15,6 @@
             "source": false
           }
         }
-      },
-      {
-        "id": "1c0314e99016af0f",
-        "type": "leaf",
-        "state": {
-          "type": "empty",
-          "state": {}
-        }
       }
     ],
     "direction": "vertical"
@@ -156,8 +148,8 @@
   },
   "active": "0042e2c81cea1fa0",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "WGU/C859.md",
+    "conflict-files-obsidian-git.md",
     "WGU/c924.md",
     "Operating_Systems/Linux/Kali.md",
     "WGU/c955.md",
