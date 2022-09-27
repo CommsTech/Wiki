@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "0042e2c81cea1fa0",
+        "id": "563eaba9cab47378",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -62,7 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306
+    "width": 326
   },
   "right": {
     "id": "08ae70875a72a413",
@@ -138,25 +138,24 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 317,
     "collapsed": true
   },
-  "active": "0042e2c81cea1fa0",
+  "active": "563eaba9cab47378",
   "lastOpenFiles": [
-    "WGU/C859.md",
-    "conflict-files-obsidian-git.md",
     "WGU/c924.md",
-    "Operating_Systems/Linux/Kali.md",
     "WGU/c955.md",
-    "WGU/c963.md",
-    "Operating_Systems/Home.md",
-    "README.md",
-    "Privacy/home.md",
-    "WGU/c175.md"
+    "WGU/c859.md",
+    "Applications/Web_Applications/home.md",
+    "Others/Hacking_Resources.md",
+    "Applications/Web_Applications/HTTPVersions.md",
+    "Applications/Server_Applications/Wiki_JS.md",
+    "Applications/Server_Applications/Whoogle.md",
+    "Applications/Server_Applications/Wazuh.md",
+    "Applications/Server_Applications/vcenter.md"
   ]
 }
