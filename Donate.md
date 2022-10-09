@@ -13,5 +13,7 @@ dateCreated: 2022-05-09T13:37:26.768Z
 
 BTC: 
 
+
+donate to the developers of the Software used below: 
 [Organizr]()
 [SearxNG](https://docs.searxng.org/donate.html)
