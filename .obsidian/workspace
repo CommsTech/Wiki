@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Certifications/Cisco/CCNA.md",
+            "file": "Applications/Server_Applications/Plex.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Certifications/Cisco/CCNA.md",
+                "file": "Applications/Server_Applications/Plex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Certifications/Cisco/CCNA.md",
+                "file": "Applications/Server_Applications/Plex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Certifications/Cisco/CCNA.md"
+                "file": "Applications/Server_Applications/Plex.md"
               }
             }
           },
@@ -147,8 +147,8 @@
   },
   "active": "563eaba9cab47378",
   "lastOpenFiles": [
-    "assets/documents/CCNA Notes.pdf",
     "Certifications/Cisco/CCNA.md",
+    "assets/documents/CCNA Notes.pdf",
     "Certifications/Cisco/home.md",
     "WGU/C859.md",
     "WGU/c924.md",

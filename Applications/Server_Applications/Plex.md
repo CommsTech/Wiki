@@ -21,6 +21,8 @@ I currently run my plex server in a TrueNas Scale application with GPU passthrou
 	https://dabbler.dev/posts/2021/05/03/
 
 
+[Plex transcoding GPU selection chart](https://www.elpamsoft.com/?p=Plex-Hardware-Transcoding)
+
 Additional Guides 
 - [TRaSH Guides - Highly Recommended](https://trash-guides.info/Plex/)
 - [MediaClients.wiki - Great tips to tune your plex settings for optimal playback and server load](https://mediaclients.wiki/en/Plex)
