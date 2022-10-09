@@ -10,10 +10,11 @@ dateCreated: 2022-05-09T13:37:26.768Z
 
 # Donate
 
-
+[Paypal - Link shared with my sons twitch](https://www.paypal.com/paypalme/KoopaTroopa12?country.x=US&locale.x=en_US)
 BTC: 
 
 
 donate to the developers of the Software used below: 
-[Organizr]()
+[Organizr](https://github.com/sponsors/causefx)
 [SearxNG](https://docs.searxng.org/donate.html)
+[Ombi](https://www.paypal.com/paypalme/PlexRequestsNet)
