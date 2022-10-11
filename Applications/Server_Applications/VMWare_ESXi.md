@@ -2,9 +2,7 @@
 
 ## Patching a Standalone ESXi Host
 
- January 14, 2018   2 minute read
-
-I have a standalone ESXi host at work just now to spin up some VM’s before the new production hardware arrives.
+ I have a standalone ESXi host at work just now to spin up some VM’s before the new production hardware arrives.
 
 ![HPE Image](https://www.vgemba.net/assets/images/Build-Number-01.png)
 
