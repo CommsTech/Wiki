@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Applications/Server_Applications/VMWare_ESXi.md",
+            "file": "Operating_Systems/Linux/Ubuntu.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/VMWare_ESXi.md",
+                "file": "Operating_Systems/Linux/Ubuntu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/VMWare_ESXi.md",
+                "file": "Operating_Systems/Linux/Ubuntu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/VMWare_ESXi.md"
+                "file": "Operating_Systems/Linux/Ubuntu.md"
               }
             }
           },
@@ -147,6 +147,7 @@
   },
   "active": "73ee420029073090",
   "lastOpenFiles": [
+    "Applications/Server_Applications/VMWare_ESXi.md",
     "Applications/Server_Applications/OpenVPN.md",
     "Donate.md",
     "WGU/c100.md",
@@ -155,7 +156,6 @@
     "assets/documents/CCNA Notes.pdf",
     "Certifications/Cisco/home.md",
     "WGU/C859.md",
-    "WGU/c924.md",
-    "WGU/c955.md"
+    "WGU/c924.md"
   ]
 }
