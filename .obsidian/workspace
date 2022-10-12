@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Networking/pfSense/pfBlockerNG/home.md",
+            "file": "Networking/pfSense/pfBlockerNG/DNSBL/Whitelist/Crypto_Products_Whitelist.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/pfSense/pfBlockerNG/home.md",
+                "file": "Networking/pfSense/pfBlockerNG/DNSBL/Whitelist/Crypto_Products_Whitelist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/pfSense/pfBlockerNG/home.md",
+                "file": "Networking/pfSense/pfBlockerNG/DNSBL/Whitelist/Crypto_Products_Whitelist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/pfSense/pfBlockerNG/home.md"
+                "file": "Networking/pfSense/pfBlockerNG/DNSBL/Whitelist/Crypto_Products_Whitelist.md"
               }
             }
           },
@@ -147,15 +147,15 @@
   },
   "active": "563eaba9cab47378",
   "lastOpenFiles": [
+    "Networking/pfSense/pfBlockerNG/DNSBL/Whitelist/Education_Products_Whitelist.md",
+    "Networking/pfSense/pfBlockerNG/DNSBL/Whitelist/Facebook_Products_Whitelist.md",
+    "Networking/pfSense/pfBlockerNG/DNSBL/Whitelist/Financial_Whitelist.md",
+    "Networking/pfSense/pfBlockerNG/DNSBL/Whitelist/Google_Products_Whitelist.md",
+    "Networking/pfSense/pfBlockerNG/DNSBL/Whitelist/home.md",
+    "Networking/pfSense/pfBlockerNG/home.md",
     "Networking/pfSense/home.md",
     "Networking/pfSense/pfBlockerNG/DNSBL/Blacklists/Untitled 3.md",
     "Networking/pfSense/pfBlockerNG/DNSBL/Blacklists/Untitled 4.md",
-    "Networking/pfSense/pfBlockerNG/DNSBL/Blacklists/Untitled 2.md",
-    "Networking/pfSense/pfBlockerNG/DNSBL/Blacklists/Untitled 1.md",
-    "Networking/pfSense/pfBlockerNG/DNSBL/Blacklists/Ads_Blacklist.md",
-    "Networking/pfSense/pfBlockerNG/DNSBL/Blacklists/Untitled.md",
-    "Networking/pfSense/pfBlockerNG/DNSBL/Blacklists/home.md",
-    "Networking/pfSense/pfBlockerNG/home.md",
-    "Applications/Server_Applications/Squid-pfSense.md"
+    "Networking/pfSense/pfBlockerNG/DNSBL/Blacklists/Untitled 2.md"
   ]
 }
