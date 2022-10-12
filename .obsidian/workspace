@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Applications/Server_Applications/clamav.md",
+            "file": "Applications/Server_Applications/Squid-pfSense.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/clamav.md",
+                "file": "Applications/Server_Applications/Squid-pfSense.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/clamav.md",
+                "file": "Applications/Server_Applications/Squid-pfSense.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/clamav.md"
+                "file": "Applications/Server_Applications/Squid-pfSense.md"
               }
             }
           },
@@ -147,6 +147,7 @@
   },
   "active": "563eaba9cab47378",
   "lastOpenFiles": [
+    "Applications/Server_Applications/clamav.md",
     "Operating_Systems/Linux/Ubuntu.md",
     "Applications/Server_Applications/VMWare_ESXi.md",
     "Applications/Server_Applications/OpenVPN.md",
@@ -155,7 +156,6 @@
     "Applications/Server_Applications/Plex.md",
     "Certifications/Cisco/CCNA.md",
     "assets/documents/CCNA Notes.pdf",
-    "Certifications/Cisco/home.md",
-    "WGU/C859.md"
+    "Certifications/Cisco/home.md"
   ]
 }

@@ -1,0 +1,467 @@
+# Squid (pfsense version)
+
+## How I Cache dynamic content
+
+my dynamic_cache file
+```
+# 1 year = 525600 mins, 1 month = 43800 mins, 1 week = 10080 min, 1 day = 1440 min
+# https://github.com/mmd123/squid-cache-dynamic_refresh-list/blob/master/pfsense%20squid%20refresh%20patterns
+# https://wiki.squid-cache.org/ConfigExamples/DynamicContent/Coordinator
+
+#Mail
+refresh_pattern ^http://*.aol.*/.* 720 100% 4320
+refresh_pattern ^http://*.hotmail.*/.* 720 100% 4320
+refresh_pattern ^http://*.live.*/.* 720 100% 4320
+refresh_pattern ^http://*.icloud.com/mail* 720 100% 4320
+
+#YAHOO
+refresh_pattern ^http://mail.yahoo.com/.* 720 100% 4320 # YAHOO MAIL
+refresh_pattern ^http://*.yahoo.*/.* 720 100% 4320 # YAHOO ITSELF
+refresh_pattern ^http://*.yimg.*/.* 720 100% 4320 # YAHOO IMAGES
+
+#GOOGLE STUFF
+refresh_pattern ^http://*.gmail.*/.* 720 100% 4320
+refresh_pattern ^http://*.google.*/.* 720 100% 4320
+refresh_pattern ^http://*.googlemail.*/.* 720 100% 4320
+refresh_pattern ^http://*.googlesyndication.*/.* 720 100% 4320
+
+#Gaming / CDNs
+refresh_pattern -i \.llnwd.net 525600 100% 525600 reload-into-ims ignore-reload override-expire override-lastmod ignore-no-store ignore-private 
+refresh_pattern -i \.cs.steampowered.com 525600 100% 525600 reload-into-ims ignore-reload override-expire override-lastmod ignore-no-store ignore-private 
+refresh_pattern -i \.(cdn) 10800 100% 43800 override-expire override-lastmod reload-into-ims ignore-reload  ignore-private
+refresh_pattern -i (cdn)   10800 100% 43800 override-expire override-lastmod reload-into-ims ignore-reload  ignore-private
+
+#Apple / Mac
+refresh_pattern -i cdn\-apple\.com.*\.(ipsw|ipd|ipcc|pkg|dmg) 86400 100% 86400 ignore-reload ignore-no-store override-expire override-lastmod
+refresh_pattern -i swcdn\.apple\.com.*\.(ipsw|ipd|ipcc|pkg|dmg) 86400 100% 86400 ignore-reload ignore-no-store override-expire override-lastmod
+refresh_pattern -i apple.com/..(cab|exe|msi|msu|msf|asf|wmv|wma|dat|zip|dist)$ 0 80% 43200  refresh-ims
+refresh_pattern -i (download|adcdownload).apple.com/.*\.(pkg|dmg) 4320 100% 43200 
+refresh_pattern -i appldnld\.apple\.com 129600 100% 129600     
+refresh_pattern -i phobos\.apple\.com 129600 100% 129600     
+refresh_pattern -i iosapps\.itunes\.apple\.com 129600 100% 129600    
+
+#Microsoft and Windows Updates 
+refresh_pattern -i microsoft.com/..(cab|exe|msi|msu|msf|asf|wma|dat|zip)$ 4320 80% 43200  refresh-ims
+refresh_pattern -i windowsupdate.com/..(cab|exe|msi|msu|msf|asf|wma|wmv)|dat|zip)$ 4320 80% 43200  refresh-ims
+refresh_pattern -i windows.com/..(cab|exe|msi|msu|msf|asf|wmv|wma|dat|zip)$ 4320 80% 43200  refresh-ims
+refresh_pattern -i microsoft.com/.*\.(cab|exe|ms[i|u|f]|[ap]sf|wm[v|a]|dat|zip) 4320 80% 43200 
+refresh_pattern -i windowsupdate.com/.*\.(cab|exe|ms[i|u|f]|[ap]sf|wm[v|a]|dat|zip) 4320 80% 43200 
+refresh_pattern -i windows.com/.*\.(cab|exe|ms[i|u|f]|[ap]sf|wm[v|a]|dat|zip) 4320 80% 43200 
+refresh_pattern -i .*windowsupdate.com/.*\.(cab|exe)                     259200 100% 259200   
+refresh_pattern -i .*update.microsoft.com/.*\.(cab|exe|dll|msi|psf)                  259200 100% 259200   
+refresh_pattern windowsupdate.com/.*\.(cab|exe|dll|msi|psf) 10080 100% 43200 
+refresh_pattern download.microsoft.com/.*\.(cab|exe|dll|msi|psf) 10080 100% 43200 
+refresh_pattern www.microsoft.com/.*\.(cab|exe|dll|msi|psf) 10080 100% 43200 
+refresh_pattern au.download.windowsupdate.com/.*\.(cab|exe|dll|msi|psf) 4320 100% 43200 
+refresh_pattern bg.v4.pr.dl.ws.microsoft.com/.*\.(cab|exe|dll|msi|psf) 4320 100% 43200
+refresh_pattern update.microsoft.com/.*\.(cab|exe)                  43200 100% 129600    
+refresh_pattern ([^.]+\.)?(download|(windows)?update)\.(microsoft\.)?com/.*\.(cab|exe|msi|msp|psf) 4320 100% 43200  
+refresh_pattern update.microsoft.com/.*\.(cab|exe|dll|msi|psf) 10080 100% 43200 
+refresh_pattern -i \.update.microsoft.com/.*\.(cab|exe|ms[i|u|f]|[ap]sf|wm[v|a]|dat|zip) 525600 100% 525600       
+refresh_pattern -i \.windowsupdate.com/.*\.(cab|exe|ms[i|u|f]|[ap]sf|wm[v|a]|dat|zip) 525600 100% 525600       
+refresh_pattern -i \.download.microsoft.com/.*\.(cab|exe|ms[i|u|f]|[ap]sf|wm[v|a]|dat|zip) 525600 100% 525600       
+refresh_pattern -i \.ws.microsoft.com/.*\.(cab|exe|ms[i|u|f]|[ap]sf|wm[v|a]|dat|zip) 525600 100% 525600       
+refresh_pattern -i \.ws.microsoft.com/.*\.(cab|exe|ms[i|u|f]|[ap]sf|wm[v|a]|dat|zip) 525600 100% 525600     
+refresh_pattern -i deploy.akamaitechnologies.com/.*\.(cab|exe|ms[i|u|f|p]|[ap]sf|wm[v|a]|dat|zip|psf) 43200 80% 129600 reload-into-ims  
+refresh_pattern -i microsoft.com.akadns.net/.*\.(cab|exe|ms[i|u|f|p]|[ap]sf|wm[v|a]|dat|zip|psf) 43200 80% 129600 reload-into-ims
+refresh_pattern -i microsoft.com/.*\.(cab|exe|ms[i|u|f|p]|[ap]sf|wm[v|a]|dat|zip|psf) 43200 80% 129600 reload-into-ims
+refresh_pattern -i windows.com/.*\.(cab|exe|ms[i|u|f|p]|[ap]sf|wm[v|a]|dat|zip|psf) 43200 80% 129600 reload-into-ims
+refresh_pattern -i windowsupdate.com/.*\.(cab|exe|ms[i|u|f|p]|[ap]sf|wm[v|a]|dat|zip|psf) 43200 80% 129600 reload-into-ims
+refresh_pattern www.microsoft.com/.*\.(cab|exe|dll|msi|psf) 10080 100% 43200
+acl windowsupdate dstdomain windowsupdate.microsoft.com
+acl windowsupdate dstdomain .update.microsoft.com
+acl windowsupdate dstdomain download.windowsupdate.com
+acl windowsupdate dstdomain www.download.windowsupdate.com
+acl windowsupdate dstdomain au.download.windowsupdate.com
+acl windowsupdate dstdomain bg.v4.pr.dl.ws.microsoft.com
+acl Windows_Update dstdomain windowsupdate.microsoft.com
+acl Windows_Update dstdomain .update.microsoft.com
+acl Windows_Update dstdomain download.windowsupdate.com
+acl Windows_Update dstdomain www.download.windowsupdate.com
+acl Windows_Update dstdomain au.download.windowsupdate.com
+acl Windows_Update dstdomain bg.v4.pr.dl.ws.microsoft.com
+range_offset_limit 200 MB windowsupdate
+maximum_object_size 200 MB
+quick_abort_min -1
+# DONT MODIFY THESE LINES https://wiki.squid-cache.org/SquidFaq/WindowsUpdate
+refresh_pattern \^ftp:           1440    20%     10080
+refresh_pattern \^gopher:        1440    0%      1440
+refresh_pattern -i (/cgi-bin/|\?) 0     0%      0
+refresh_pattern .               0       20%     4320 
+
+#dont cache wordpress admin panel
+refresh_pattern (wp-admin)  0 0% 0
+
+# TWITCH
+refresh_pattern -i (live_user) 30 60% 300  
+
+#MISC FILE CACHING HERE
+refresh_pattern (Release|Packages(.gz)*)$    0   20%  2880
+refresh_pattern -i (.|-)(docx?|xlsx?|pptx?|rtf|xml|pdf|tiff?|txt) 43200 100% 432000            
+refresh_pattern -i (.|-)(exe|bin|(n|t)ar|acv|(r|j)ar|t?gz|(g|b)z(ip)?2?|7?z(ip)?|wm[v|a]|patch|diff|mar|vpu|inc|r(a|p)m|kom|iso|sys|[ap]sf|ms[i|u|f]|dat|msi|cab|psf|dvr-ms|ace|asx|qt|xt|esd) 43200 100% 432000        
+refresh_pattern -i (.|-)(ico(.)?|pn[pg]|css|(g|t)iff?|jpe?g(2|3|4)?|psd|c(d|b)r|cad|bmp|img) 43200 100% 432000        
+refresh_pattern -i (.|-)(mp3|m4a|aa?c3?|wm?av?|og(x|v|a|g)|ape|mka|au|aiff|zip|flac|m4(b|r)|m1v|m2(v|p)|mo(d|v)|arj|appx|lha|lzh|on2) 43200 100% 432000        
+refresh_pattern -i (.|-)(webm|(x-)?swf|mp(eg)?(3|4)|mpe?g(av)?|(x-)?f(l|4)v|divx?|rmvb?|mov|trp|ts|avi|m38u|wmv|wmp|m4v|mkv|asf|dv|vob|3gp?2?) 43200 100% 432000        
+refresh_pattern -i (\.|-)(docx?|xlsx?|pptx?|rtf|xml|pdf|tiff?|txt)(\?.*)?$ 43200 100% 432000        
+refresh_pattern -i (\.|-)(exe|bin|(n|t)ar|acv|(r|j)ar|t?gz|(g|b)z(ip)?2?|7?z(ip)?|wm[v|a]|patch|diff|mar|vpu|inc|r(a|p)m|kom|iso|sys|[ap]sf|ms[i|u|f]|dat|msi|cab|psf|dvr-ms|ace|asx|qt|xt|esd)(\?.*)?$ 43200 100% 432000        
+refresh_pattern -i (\.|-)(ico(.*)?|pn[pg]|css|(g|t)iff?|jpe?g(2|3|4)?|psd|c(d|b)r|cad|bmp|img)(\?.*)?$ 43200 100% 432000        
+refresh_pattern -i (\.|-)(ini|def|sig|upt|mid|midi|mpg|mpeg|ram|cav|acc|alz|apk|at3|bke|arc|ass|ba|big|bik|bkf|bld|c4|cals|clipflair|cpt|daa|dmg|ddz|dpe|egg|egt|ecab|ess|esd|gho|ghs|gz|ipg|jar|lbr|lqr|lha|lz|lzo|lzma|lzx|mbw|mc.meta|mpq|nth|osz|pak|par|par2|paf|pyk|pk3|pk4|rag|sen|sitx|skb|tb|tib|uha|uue|viv|vsa|z|zoo|nrg|adf|adz|dms|dsk|d64|sdi|mds|mdx|cdi|cue|cif|c2d|daa|b6t)(\?.*)?$ 43200 100% 432000        
+refresh_pattern -i (\.|-)(mid|midi|mpg|mpeg|ram|cav|acc|alz|apk|at3|bke|arc|ass|ba|big|bik|bkf|bld|c4|cals|clipflair|cpt|daa|dmg|ddz|dpe|egg|egt|ecab|ess|gho|ghs|gz|ipg|jar|lbr|lqr|lha|lz|lzo|lzma|lzx|mbw|mc.meta|mpq|nth|osz|pak|par|par2|paf|pyk|pk3|pk4|rag|sen|sitx|skb|tb|tib|uha|uue|viv|vsa|z|zoo|nrg|adf|adz|dms|dsk|d64|sdi|mds|mdx|cdi|cue|cif|c2d|daa|b6t)(\?.*)?$ 43200 100% 432000        
+refresh_pattern -i (\.|-)(mp3|m4a|aa?c3?|wm?av?|og(x|v|a|g)|ape|mka|au|aiff|zip|flac|m4(b|r)|m1v|m2(v|p)|mo(d|v)|arj|appx|lha|lzh|on2)(\?.*)?$ 43200 100% 432000        
+refresh_pattern -i (\.|-)(webm|(x-)?swf|mp(eg)?(3|4)|mpe?g(av)?|(x-)?f(l|4)v|divx?|rmvb?|mov|trp|ts|avi|m38u|wmv|wmp|m4v|mkv|asf|dv|vob|3gp?2?)(\?.*)?$ 43200 100% 432000        
+refresh_pattern -i \.(3gp|7z|ace|asx|avi|bin|cab|dat|deb|rpm|divx|dvr-ms)(\?|$) 43800 100% 129600        # 3GP | 7Z | ACE | ASX | AVI | BIN | CAB | DAT | DEB | RPM | DIVX | DVR-MS
+refresh_pattern -i \.(rar|jar|gz|tgz|tar|bz2|iso)(\?|$)                         43800 100% 129600        # RAR | JAR | GZ | TGZ | TAR | BZ2 | ISO
+refresh_pattern -i \.(m1v|M2V|M2P|MOD|MOV|FLV)(\?|$)                       43800 100% 129600        # M1V | M2V | M2P | MOD | MOV | FLV
+refresh_pattern -i \.(jp(e?g|e|2)|gif|pn[pg]|bm?|tiff?|ico|swf|css|js)(\?|$)           43800 100% 129600        # JPG | JPEG | JPE | JP2 | GIF | PNG | BMP | TIFF | ICO | SWF
+refresh_pattern -i \.(mp(e?g|a|e|1|2|3|4)|mk(a|v)|ms(i|u|p))(\?|$)              43800 100% 129600        # MPEG STYLE CACHING, VIDEO AND MUSIC | MPG MPEG | MP1-2-3-4 | MK-A/V | MS-I-U-P
+refresh_pattern -i \.(og(x|v|a|g)|rar|rm|r(a|p)m|snd|vob|wav)(\?|$)             43800 100% 129600        # OGX | OGV | OGA | OGG | RAR | RM | RAM | RPM | SND | VOB | WAV
+refresh_pattern -i \.(pp(s|t)|wax|wm(a|v)|wmx|wpl|zip|cb(r|z|t))(\?|$)          43800 100% 129600        # PPS | PPT | WAX | WMA | WMV | WMX | WPL | ZIP | CBR | CBZ | CBT
+refresh_pattern -i \.(woff|txt|exe|dmg|webm)(\?|$)                              43800 100% 129600        # WOFF | TXT | EXE | DMG | WEBM
+refresh_pattern -i \.(css)(\?|$)                                                10080  60% 43800         # CSS
+refresh_pattern -i \.(js)(\?|$)                                                 10080  60% 10080         # JS
+refresh_pattern -i \.(doc|pdf)(\?|$)  10080 90% 43200      # DOC | PDF
+refresh_pattern -i \.(html|htm)(\?|$) 1440  60% 10080      # HTML | HTM
+refresh_pattern -i .(iso|avi|wav|mp3|mp4|mpeg|swf|flv|x-flv)$ 43200 90% 432000     #THIS SHOULD BE DOCUMENTED/DONE ABOVE, BUT LEAVING HERE JUST IN CASE
+refresh_pattern -i .(deb|rpm|exe|zip|tar|tgz|ram|rar|bin|ppt|doc|docx|tiff)$ 10080 90% 43200     # DEB | RPM | EXE | ZIP | TAR | TGZ | RAM | RAR | BIN | PPT | DOC | TIFF | DOCX
+refresh_pattern -i .(html|htm|css|js)$ 1440 40% 40320     
+refresh_pattern -i .index.(html|htm)$ 0 40% 10080     
+refresh_pattern -i .(ppt|pptx|doc|docx|docm|docb|dot|pdf|pub|ps)$ 100000 90% 200000     refresh-ims
+refresh_pattern -i .(xls|xlsx|xlt|xlm|xlsm|xltm|xlw|csv|txt)$ 100000 90% 200000     refresh-ims
+refresh_pattern -i .(app|bin|deb|rpm|drpm|exe|zip|zipx|tar|tgz|tbz2|tlz|iso|arj|cfs|dar|jar)$ 100000 90% 200000     refresh-ims
+refresh_pattern -i .(bz|bz2|ipa|ram|rar|uxx|gz|msi|dll|lz|lzma|7z|s7z|Z|z|zz|sz)$ 100000 90% 200000     refresh-ims
+refresh_pattern -i .(exe|msi)$ 0 90% 200000 refresh-ims
+refresh_pattern -i .(cab|psf|vidt|apk|wtex|hz|ova|ovf)$ 100000 90% 200000     refresh-ims
+refresh_pattern -i .(xml|flow|asp|aspx)$ 0 90% 200000 refresh-ims
+refresh_pattern -i .(json)$ 0 90% 200000 refresh-ims
+refresh_pattern -i .(asx|mp2|mp3|mp4|mp5|wmv|flv|mts|f4v|f4|pls|midi|mid)$ 100000 90% 200000     refresh-ims
+refresh_pattern -i .(mpa|m2a|mpe|avi|mov|mpg|mpeg|mpg3|mpg4|mpg5)$ 100000 90% 200000     refresh-ims
+refresh_pattern -i .(m1s|mp2v|m2v|m2s|m2ts|mp2t|wmx|rm|rmvb|3pg|3gpp|omg|ogm|asf|war)$ 100000 90% 200000     refresh-ims
+refresh_pattern -i .(swf|js|ejs)$ 100000 90% 200000     refresh-ims
+refresh_pattern -i .(wav|css|class|dat|zsci|ver|advcs)$ 100000 90% 200000     refresh-ims
+refresh_pattern -i .(gif|png|ico|jpg|jpeg|jp2|webp)$ 100000 90% 200000     refresh-ims
+refresh_pattern -i .(jpx|j2k|j2c|fpx|bmp|tif|tiff|bif)$ 100000 90% 20000     refresh-ims
+refresh_pattern -i .(pcd|pict|rif|exif|hdr|bpg|img|jif|jfif)$ 100000 90% 200000     refresh-ims
+refresh_pattern -i .(woff|woff2|eps|ttf|otf|svg|svgi|svgz|ps|ps1|acsm|eot)$ 100000 90% 200000     refresh-ims
+refresh_pattern -i \.(rar|jar|gz|tgz|tar|bz2|iso|m1v|m2(v|p)|mo(d|v)|flv) 129600 100% 129600                            
+refresh_pattern (Release|Packages(.gz)*)$    0   20%  2880																																												
+refresh_pattern -i download.iobit.com/.*\.* 720 100% 10800 														  
+refresh_pattern -i \.(3gp|7z|ace|asx|avi|bin|cab|dat|deb|rpm|divx|dvr-ms)(\?|$) 43800 100% 129600  ignore-no-store ignore-private override-expire override-lastmod reload-into-ims ignore-reload # 3GP | 7Z | ACE | ASX | AVI | BIN | CAB | DAT | DEB | RPM | DIVX | DVR-MS
+refresh_pattern -i \.(css)(\?|$)                                                10080  60% 43800   ignore-no-store ignore-private override-expire override-lastmod reload-into-ims ignore-reload # CSS
+refresh_pattern -i \.(doc|pdf)(\?|$)  10080 90% 43200  ignore-no-store ignore-private override-expire reload-into-ims # DOC | PDF
+refresh_pattern -i \.(html|htm)(\?|$) 1440  60% 10080  ignore-no-store ignore-private override-expire reload-into-ims # HTML | HTM
+refresh_pattern -i \.(jp(e?g|e|2)|gif|pn[pg]|bm?|tiff?|ico|swf|css|js)(\?|$)           43800 100% 129600  ignore-no-store ignore-private override-expire override-lastmod reload-into-ims ignore-reload # JPG | JPEG | JPE | JP2 | GIF | PNG | BMP | TIFF | ICO | SWF
+refresh_pattern -i \.(js)(\?|$)                                                 10080  60% 10080   ignore-no-store ignore-private override-expire override-lastmod reload-into-ims ignore-reload # JS
+refresh_pattern -i \.(m1v|M2V|M2P|MOD|MOV|FLV)(\?|$)                    	    43800 100% 129600        # M1V | M2V | M2P | MOD | MOV | FLV
+refresh_pattern -i \.(mp(e?g|a|e|1|2|3|4)|mk(a|v)|ms(i|u|p))(\?|$)              43800 100% 129600  ignore-no-store ignore-private override-expire override-lastmod reload-into-ims ignore-reload # MPEG STYLE CACHING, VIDEO AND MUSIC | MPG MPEG | MP1-2-3-4 | MK-A/V | MS-I-U-P
+refresh_pattern -i \.(og(x|v|a|g)|rar|rm|r(a|p)m|snd|vob|wav)(\?|$)             43800 100% 129600  ignore-no-store ignore-private override-expire override-lastmod reload-into-ims ignore-reload # OGX | OGV | OGA | OGG | RAR | RM | RAM | RPM | SND | VOB | WAV
+refresh_pattern -i \.(pp(s|t)|wax|wm(a|v)|wmx|wpl|zip|cb(r|z|t))(\?|$)          43800 100% 129600  ignore-no-store ignore-private override-expire override-lastmod reload-into-ims ignore-reload # PPS | PPT | WAX | WMA | WMV | WMX | WPL | ZIP | CBR | CBZ | CBT
+refresh_pattern -i \.(rar|jar|gz|tgz|tar|bz2|iso|m1v|m2(v|p)|mo(d|v)|flv)       43800 100% 129600  ignore-no-store ignore-private override-expire override-lastmod reload-into-ims ignore-reload # RAR | JAR | GZ | TGZ | TAR | BZ2 | ISO
+refresh_pattern -i \.(woff|txt|exe|dmg|webm)(\?|$)                              43800 100% 129600  ignore-no-store ignore-private override-expire override-lastmod reload-into-ims ignore-reload # WOFF | TXT | EXE | DMG | WEBM
+refresh_pattern \.ytimg\? 10800 90% 10800 override-expire ignore-reload 
+refresh_pattern ^http://*.kaskus.*/.* 720 100% 4320
+refresh_pattern ^http://*.plasa.*/.* 720 100% 4320
+refresh_pattern ^http://*.telkom.*/.* 720 100% 4320
+refresh_pattern ^http://*.yimg.*/.* 720 100% 4320
+
+# GENERIC CACHING BELOW
+refresh_pattern -i \.(cdn) 10800 100% 43800       # CDN CACHING
+refresh_pattern -i (cdn)   10800 100% 43800       # CDN CACHING															   
+refresh_pattern -i (.|-)(xml|js|jsp|txt|css)?$ 360 40% 1440        
+refresh_pattern (get_video\?|videoplayback\?|videodownload\?|\.flv?) 129600 100% 129600      
+refresh_pattern (get_video\?|videoplayback\?id|videoplayback.*id|videodownload\?|\.flv?) 129600 100% 129600      
+refresh_pattern ^.*(utm\.gif|ads\?|rmxads\.com|ad\.z5x\.net|bh\.contextweb\.com|bstats\.adbrite\.com|a1\.interclick\.com|ad\.trafficmp\.com|ads\.cubics\.com|ad\.xtendmedia\.com|\.googlesyndication\.com|advertising\.com|yieldmanager|game-advertising\.com|pixel\.quantserve\.com|adperium\.com|doubleclick\.net|adserving\.cpxinteractive\.com|syndication\.com|media.fastclick.net).* 129600 20% 129600       
+refresh_pattern ^.*safebrowsing.*google                                  129600 100% 129600      
+refresh_pattern ^http://((cbk|mt|khm|mlt)[0-9]?)\.google\.co(m|\.uk)     129600 100% 129600   
+refresh_pattern ytimg\.com.*\.jpg                                        129600 100% 129600  
+refresh_pattern images\.friendster\.com.*\.(png|gif)                     129600 100% 129600  
+refresh_pattern garena\.com                                              129600 100% 129600  
+refresh_pattern ^http:\/\/www.onemanga.com.*\/                           129600 100% 129600 
+    
+# ANTI VIRUS
+refresh_pattern guru.avg.com/.*\.(bin)                              43200 100% 43200     
+refresh_pattern (avgate|avira).*(idx|gz)$                           43200 100% 43200     
+refresh_pattern kaspersky.*\.avc$                                   43200 100% 43200     
+refresh_pattern kaspersky                                           43200 100% 43200     
+refresh_pattern update.nai.com/.*\.(gem|zip|mcs)                    43200 100% 43200     
+refresh_pattern ^http:\/\/liveupdate.symantecliveupdate.com.*\(zip) 43200 100% 43200     
+refresh_pattern -i symantecliveupdate.com/.*\.(zip|exe)             43200 100% 43200 
+refresh_pattern -i avast.com/.*\.(vpu|vpaa) 4320 100% 43200 
+refresh_pattern -i avira-update.com/.*\.* 720 100% 10800 
+refresh_pattern -i (mbamupdates.com) 1440 60% 10080  # for malwarebytes update checking
+refresh_pattern -i download.iobit.com/.*\.* 720 100% 10800 
+
+#YOUTUBE
+refresh_pattern \.ytimg\? 10800 90% 10800    #YOUTUBE IMAGE SERVER
+refresh_pattern -i (yimg|twimg).com.*        1440 100% 129600   
+refresh_pattern -i (ytimg|ggpht).com.*        1440 80% 129600     
+refresh_pattern -i (get_video?|videoplayback?|videodownload?|.mp4|.webm|.flv|((audio|video)/(webm|mp4))) 241920 100% 241920        store-stale
+refresh_pattern -i ^https?://..googlevideo.com/videoplayback.    10080 99% 43200        store-stale
+refresh_pattern -i ^https?://..googlevideo.com/videoplayback.$    241920 100% 241920        store-stale
+
+#FACEBOOK
+refresh_pattern ^http://*.facebook.com/* 720 100% 4320 #REGULAR FACEBOOK STUFF
+#FACEBOOK IMAGES  
+refresh_pattern -i pixel.facebook.com..(jpg|png|gif|ico|css|js) 241920 80% 241920    
+refresh_pattern -i .akamaihd.net..(jpg|png|gif|ico|css|js) 241920 80% 241920    
+refresh_pattern -i ((facebook.com)|(85.131.151.39)).(jpg|png|gif) 241920 99% 241920    store-stale   
+refresh_pattern static.(xx|ak).fbcdn.net.(jpg|gif|png) 241920 99% 241920   
+refresh_pattern ^https?://profile.ak.fbcdn.net*.(jpg|gif|png) 241920 99% 241920
+#FACEBOOK VIDEO
+refresh_pattern -i .video.ak.fbcdn.net.*.(mp4|flv|mp3|amf)                    10080 80% 43200      
+refresh_pattern (audio|video)/(webm|mp4) 129600 99% 129600         store-stale
+refresh_pattern -i ^http://.squid.internal.  241920 100% 241920        store-stale
+
+#banner IIX
+refresh_pattern ^http:\/\/openx.*\.(jp(e?g|e|2)|gif|pn[pg]|swf|ico|css|tiff?) 129600 100% 129600     
+refresh_pattern ^http:\/\/ads(1|2|3).kompas.com.*\/                           43200  100% 129600     
+refresh_pattern ^http:\/\/img.ads.kompas.com.*\/                              43200  100% 129600     
+refresh_pattern .kompasimages.com.*\.(jpg|gif|png|swf)                        43200  100% 129600     
+refresh_pattern ^http:\/\/openx.kompas.com.*\/                                43200  100% 129600     
+refresh_pattern kaskus.\us.*\.(jp(e?g|e|2)|gif|png|swf)                       43200  100% 129600     
+refresh_pattern ^http:\/\/img.kaskus.us.*\.(jpg|gif|png|swf)                  43200  100% 129600     
+
+#IIX DOWNLOAD
+refresh_pattern ^http:\/\/\.www[0-9][0-9]\.indowebster\.com\/(.*)(mp3|rar|zip|flv|wmv|3gp|mp(4|3)|exe|msi|zip) 43200 100% 129600  
+      
+#HULU
+refresh_pattern -i hulu.com/.* 10080 90% 43200 #ATTEMPTED HULU CACHING
+
+#nvidia updates 
+refresh_pattern -i download.nvidia.com/.*\.(cab|exe|ms[i|u|f]|[ap]sf|wm[v|a]|dat|zip)   43200  100% 129600     
+refresh_pattern -i international-gfe.download.nvidia.com/.*\.(cab|exe|ms[i|u|f]|[ap]sf|wm[v|a]|dat|zip)   43200  100% 129600     
+refresh_pattern -i international-gfe.download.nvidia.com.global.ogslb.com/.*\.(cab|exe|ms[i|u|f]|[ap]sf|wm[v|a]|dat|zip)   43200  100% 129600  
+         
+#GENERIC SITES/PROTOCOLS												
+refresh_pattern ^ftp: 1440 20% 10080 																		  
+refresh_pattern ^gopher:  1440  0%  1440
+refresh_pattern -i (/cgi-bin/\?) 0 0% 0
+
+#Website
+refresh_pattern -i (\.|-)(xml|js|jsp|txt|css)(\?.*)?$ 360 40% 1440        
+refresh_pattern . 30 25% 1440
+refresh_pattern -i (/cgi-bin/|\?)         0      0%      0
+refresh_pattern \.(ico|video-stats)$ 129600 100% 129600        
+
+#photobucket
+refresh_pattern photobucket.*\.(jp(e?g|e|2)|tiff?|bmp|gif|png)           129600 100% 129600
+
+#dailymotion
+refresh_pattern vid\.akm\.dailymotion\.com.*\.on2\?                      129600 100% 129600
+   
+#mediafire
+refresh_pattern mediafire.com\/images.*\.(jp(e?g|e|2)|tiff?|bmp|gif|png) 129600 100% 129600   
+#generic image subdomain sites
+refresh_pattern ^http:\/\/images|pics|thumbs[0-9]\.                      129600 100% 129600
+     
+#IMEEM
+refresh_pattern imeem.*\.flv$                           0     0%         0  
+
+#RAPIDSHARE
+refresh_pattern \.rapidshare.*\/[0-9]*\/.*\/[^\/]* 161280    90%    161280
+
+#Games#
+#Areanet
+refresh_pattern -i assetcdn.101.arenanetworks.com 525600 100% 525600
+refresh_pattern -i assetcdn.102.arenanetworks.com 525600 100% 525600
+refresh_pattern -i assetcdn.103.arenanetworks.com 525600 100% 525600
+
+#Blizzard
+refresh_pattern -i lancache-blizzard 525600 100% 525600
+refresh_pattern -i dist.blizzard.com.edgesuite.net 525600 100% 525600
+refresh_pattern -i llnw.blizzard.com 525600 100% 525600
+refresh_pattern -i dist.blizzard.com 525600 100% 525600
+refresh_pattern -i blizzard.vo.llnwd.net 525600 100% 525600
+refresh_pattern -i blzddist1-a.akamaihd.net 525600 100% 525600
+refresh_pattern -i blzddist2-a.akamaihd.net 525600 100% 525600
+refresh_pattern -i blzddist3-a.akamaihd.net 525600 100% 525600
+refresh_pattern -i level3.blizzard.com 525600 100% 525600
+refresh_pattern -i nydus.battle.net 525600 100% 525600
+refresh_pattern -i edge.blizzard.top.comcast.net 525600 100% 525600
+refresh_pattern -i cdn.blizzard.com 525600 100% 525600
+refresh_pattern -i \.cdn.blizzard.com 525600 100% 525600
+
+#BSG
+refresh_pattern -i cdn-11.eft-store.com 525600 100% 525600
+refresh_pattern -i cl-453343cd.gcdn.co 525600 100% 525600
+
+#City of Heros
+refresh_pattern -i cdn-na1.homecomingservers.com 525600 100% 525600
+refresh_pattern -i cdn-na2.homecomingservers.com 525600 100% 525600
+refresh_pattern -i cdn-na3.homecomingservers.com 525600 100% 525600
+refresh_pattern -i cdn-eu1.homecomingservers.com 525600 100% 525600
+
+#daybreak
+refresh_pattern -i pls.patch.daybreakgames.com 525600 100% 525600
+
+#EPIC GAMES
+refresh_pattern -i epicgames-download1.akamaized.net 525600 100% 525600
+refresh_pattern -i cdn1.epicgames.com 525600 100% 525600
+refresh_pattern -i cdn.unrealengine.com 525600 100% 525600
+refresh_pattern -i cdn1.unrealengine.com 525600 100% 525600
+refresh_pattern -i cdn2.unrealengine.com 525600 100% 525600
+refresh_pattern -i cdn3.unrealengine.com 525600 100% 525600
+refresh_pattern -i download.epicgames.com 525600 100% 525600
+refresh_pattern -i download2.epicgames.com 525600 100% 525600
+refresh_pattern -i download3.epicgames.com 525600 100% 525600
+refresh_pattern -i download4.epicgames.com 525600 100% 525600
+refresh_pattern -i fastly-download.epicgames.com 525600 100% 525600
+
+#frontier
+refresh_pattern -i cdn.zaonce.net 525600 100% 525600
+
+# hirez
+refresh_pattern -i lancache-hirez 525600 100% 525600
+refresh_pattern -i hirez.http.internapcdn.net 525600 100% 525600
+
+#neverwriter
+refresh_pattern -i level3.nwhttppatch.crypticstudios.com 525600 100% 525600
+
+#Nexusmods
+refresh_pattern -i filedelivery.nexusmods.com 525600 100% 525600
+
+#Nintendo
+refresh_pattern -i ccs.cdn.wup.shop.nintendo.net 525600 100% 525600
+refresh_pattern -i ccs.cdn.wup.shop.nintendo.net.edgesuite.net 525600 100% 525600
+refresh_pattern -i geisha-wup.cdn.nintendo.net 525600 100% 525600
+refresh_pattern -i geisha-wup.cdn.nintendo.net.edgekey.net 525600 100% 525600
+refresh_pattern -i idbe-wup.cdn.nintendo.net 525600 100% 525600
+refresh_pattern -i idbe-wup.cdn.nintendo.net.edgekey.net 525600 100% 525600
+refresh_pattern -i ecs-lp1.hac.shop.nintendo.net 525600 100% 525600
+refresh_pattern -i receive-lp1.dg.srv.nintendo.net 525600 100% 525600
+refresh_pattern -i \.wup.shop.nintendo.net 525600 100% 525600
+refresh_pattern -i \.wup.eshop.nintendo.net 525600 100% 525600
+refresh_pattern -i \.hac.lp1.d4c.nintendo.net 525600 100% 525600
+refresh_pattern -i \.hac.lp1.eshop.nintendo.net 525600 100% 525600
+
+# origin
+refresh_pattern -i lancache-origin 525600 100% 525600
+refresh_pattern -i akamai.cdn.ea.com 525600 100% 525600
+refresh_pattern -i lvlt.cdn.ea.com 525600 100% 525600
+refresh_pattern -i origin-a.akamaihd.net 525600 100% 525600
+refresh_pattern -i cdn-patch.swtor.com 525600 100% 525600
+
+#pathofexile
+refresh_pattern -i patchcdn.pathofexile.com 525600 100% 525600
+
+#renegadex
+refresh_pattern -i us-chi2.cncirc.net 525600 100% 525600
+refresh_pattern -i us-lv2.cncirc.net 525600 100% 525600
+refresh_pattern -i us-nj.shockhosting.ctgamehosts.uk 525600 100% 525600
+refresh_pattern -i us-va.ovh.ctgamehosts.uk 525600 100% 525600
+refresh_pattern -i rxp-de1.ts3-server.ch 525600 100% 525600
+refresh_pattern -i us-la.cncfps.com 525600 100% 525600
+refresh_pattern -i us-lv.buyvm.ren-x.com 525600 100% 525600
+refresh_pattern -i us-ny.buyvm.ren-x.com 525600 100% 525600
+refresh_pattern -i eu-lux.buyvm.ren-x.com 525600 100% 525600
+refresh_pattern -i apac-tyo.nexusbytes.ren-x.com 525600 100% 525600
+refresh_pattern -i apac-sg.nexusbytes.ren-x.com 525600 100% 525600
+refresh_pattern -i eu-nl.nexusbytes.ren-x.com 525600 100% 525600
+refresh_pattern -i eu-uk.nexusbytes.ren-x.com 525600 100% 525600
+refresh_pattern -i us-mia.buyvm.ren-x.com 525600 100% 525600
+refresh_pattern -i us-phx.speedy.ren-x.com 525600 100% 525600
+refresh_pattern -i us-dal.boomerhost.ren-x.com 525600 100% 525600
+refresh_pattern -i us-chi.racknerd.ren-x.com 525600 100% 525600
+
+# riot
+refresh_pattern -i lancache-riot 525600 100% 525600
+refresh_pattern -i l3cdn.riotgames.com 525600 100% 525600
+refresh_pattern -i worldwide.l3cdn.riotgames.com 525600 100% 525600
+refresh_pattern -i riotgamespatcher-a.akamaihd.net 525600 100% 525600
+refresh_pattern -i riotgamespatcher-a.akamaihd.net.edgesuite.net 525600 100% 525600
+refresh_pattern -i \.dyn.riotcdn.net 525600 100% 525600
+
+#rockstar
+refresh_pattern -i patches.rockstargames.com 525600 100% 525600
+
+# sony
+refresh_pattern -i lancache-sony 525600 100% 525600
+refresh_pattern -i pls.patch.station.sony.com 525600 100% 525600
+refresh_pattern -i gs2.ww.prod.dl.playstation.net 525600 100% 525600
+refresh_pattern -i \.gs2.ww.prod.dl.playstation.net 525600 100% 525600
+refresh_pattern -i \.gs2.sonycoment.loris-e.llnwd.net 525600 100% 525600
+refresh_pattern -i gs2-ww-prod.psn.akadns.net 525600 100% 525600
+refresh_pattern -i \.gs2-ww-prod.psn.akadns.net 525600 100% 525600
+refresh_pattern -i gs2.ww.prod.dl.playstation.net.edgesuite.net 525600 100% 525600
+refresh_pattern -i \.gs2.ww.prod.dl.playstation.net.edgesuite.net 525600 100% 525600
+refresh_pattern -i playstation4.sony.akadns.net 525600 100% 525600
+refresh_pattern -i theia.dl.playstation.net 525600 100% 525600
+refresh_pattern -i tmdb.np.dl.playstation.net 525600 100% 525600
+refresh_pattern -i gs-sec.ww.np.dl.playstation.net 525600 100% 525600
+
+#square
+refresh_pattern -i patch-dl.ffxiv.com 525600 100% 525600
+
+#STEAM
+refresh_pattern -i \.cs.steampowered.com 525600 100% 525600
+refresh_pattern -i cs.steampowered.com 525600 100% 525600
+refresh_pattern -i content1.steampowered.com 525600 100% 525600
+refresh_pattern -i content2.steampowered.com 525600 100% 525600 
+refresh_pattern -i content3.steampowered.com 525600 100% 525600 
+refresh_pattern -i content4.steampowered.com 525600 100% 525600
+refresh_pattern -i content5.steampowered.com 525600 100% 525600 
+refresh_pattern -i content6.steampowered.com 525600 100% 525600 
+refresh_pattern -i content7.steampowered.com 525600 100% 525600
+refresh_pattern -i content8.steampowered.com 525600 100% 525600 
+refresh_pattern -i \.hsar.steampowered.com.edgesuite.net 525600 100% 525600
+refresh_pattern -i \.akamai.steamstatic.com 525600 100% 525600 
+refresh_pattern -i content-origin.steampowered.com 525600 100% 525600
+refresh_pattern -i client-download.steampowered.com 525600 100% 525600 
+refresh_pattern -i \.steamcontent.com 525600 100% 525600
+refresh_pattern -i steamcontent.com 525600 100% 525600
+refresh_pattern -i \.edgecast.steamstatic.com 525600 100% 525600 
+refresh_pattern -i \.steampipe.akamaized.net 525600 100% 525600
+refresh_pattern -i steam.cdn.on.net 525600 100% 525600
+refresh_pattern -i lancache.steamcontent.com 525600 100% 525600
+
+#teso
+refresh_pattern -i live.patcher.elderscrollsonline.com 525600 100% 525600
+
+# turbine
+refresh_pattern -i lancache-turbine 525600 100% 525600
+refresh_pattern -i download.ic.akamai.turbine.com 525600 100% 525600
+refresh_pattern -i launcher.infinitecrisis.com 525600 100% 525600
+
+#uplay
+refresh_pattern -i \.cdn.ubi.com 525600 100% 525600
+
+#warframe
+refresh_pattern -i content.warframe.com 525600 100% 525600
+
+#wargaming.net
+refresh_pattern -i dl2.wargaming.net 525600 100% 525600
+refresh_pattern -i wg.gcdn.co 525600 100% 525600
+refresh_pattern -i wgus-wotasia.wargaming.net 525600 100% 525600
+refresh_pattern -i dl-wot-ak.wargaming.net 525600 100% 525600
+refresh_pattern -i dl-wot-gc.wargaming.net 525600 100% 525600
+refresh_pattern -i dl-wot-se.wargaming.net 525600 100% 525600
+refresh_pattern -i dl-wot-cdx.wargaming.net 525600 100% 525600
+refresh_pattern -i dl-wows-ak.wargaming.net 525600 100% 525600
+refresh_pattern -i dl-wows-gc.wargaming.net 525600 100% 525600
+refresh_pattern -i dl-wows-se.wargaming.net 525600 100% 525600
+refresh_pattern -i dl-wows-cdx.wargaming.net 525600 100% 525600
+refresh_pattern -i dl-wowp-ak.wargaming.net 525600 100% 525600
+refresh_pattern -i dl-wowp-gc.wargaming.net 525600 100% 525600
+refresh_pattern -i dl-wowp-se.wargaming.net 525600 100% 525600
+refresh_pattern -i dl-wowp-cdx.wargaming.net 525600 100% 525600
+refresh_pattern -i wgus-woteu.wargaming.net 525600 100% 525600
+
+# XboxLive_Microsoft Games
+refresh_pattern -i lancache-microsoft 525600 100% 525600
+refresh_pattern -i \.download.windowsupdate.com 525600 100% 525600
+refresh_pattern -i download.windowsupdate.com 525600 100% 525600
+refresh_pattern -i dlassets.xboxlive.com 525600 100% 525600
+refresh_pattern -i \.xboxone.loris.llnwd.net 525600 100% 525600
+refresh_pattern -i xboxone.vo.llnwd.net 525600 100% 525600
+refresh_pattern -i images-eds.xboxlive.com 525600 100% 525600
+refresh_pattern -i xbox-mbr.xboxlive.com 525600 100% 525600
+refresh_pattern -i assets1.xboxlive.com.nsatc.net 525600 100% 525600
+refresh_pattern -i assets1.xboxlive.com 525600 100% 525600
+refresh_pattern -i assets2.xboxlive.com 525600 100% 525600
+refresh_pattern -i xvcf1.xboxlive.com 525600 100% 525600
+refresh_pattern -i xvcf2.xboxlive.com 525600 100% 525600
+refresh_pattern -i d1.xboxlive.com  525600 100% 525600
+
+#catch all
+refresh_pattern . 180   95% 43200
+```
+
