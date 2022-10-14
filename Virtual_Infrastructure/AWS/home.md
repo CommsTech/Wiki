@@ -1,3 +1,12 @@
+---
+title: Amazon Web Services
+description: Amazon Web Services
+published: true
+date: 2022-07-25T13:37:12.115Z
+tags: AWS
+editor: markdown
+dateCreated: 2022-09-09T04:44:01.149Z
+---
 # Amazon Web Services (AWS)
 
 Amazon Web Services offers reliable, scalable, and inexpensive cloud computing services. Free to join, pay only for what you use.

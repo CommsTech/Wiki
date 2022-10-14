@@ -7,7 +7,6 @@ tags: networking, amazon
 editor: markdown
 dateCreated: 2022-05-16T14:22:22.830Z
 ---
-
 # AWS CloudFront
 >
 > CloudFront has servers located in Europe (United Kingdom, Ireland, The Netherlands, Germany, Spain), Asia (Hong Kong, Singapore, Japan, Taiwan and India), Australia, South America, Africa, and several major cities in the United States. In July 2020, the service operated from 205 edge locations on six continents.CloudFront operates on a pay-as-you-go basis.

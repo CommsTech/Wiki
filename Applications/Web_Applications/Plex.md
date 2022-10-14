@@ -7,7 +7,6 @@ tags: Plex, Streaming, Client
 editor: markdown
 dateCreated: 2022-08-30T04:27:17.152Z
 ---
-
 # Plex Web Player
 
 ### Plex offers the convenience of accessing the same Plex content you are use to in their Plex Web Player direct from any supported browser. (FireFox, Brave, Chrome, Safari etc). Open your browser of choice and go to [Plex.tv](https://www.plex.tv/)  and sign into your Plex account. Once signed in, the "OPEN PLEX" button will appear. Click it to launch Plex in your current browser.

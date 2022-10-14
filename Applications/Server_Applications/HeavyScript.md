@@ -7,7 +7,7 @@ tags: Server, Media Management, Script, Truenas
 editor: markdown
 dateCreated: 2022-08-30T04:27:17.152Z
 ---
-## HeavyScript
+# HeavyScript
 
 HeavyScript is a script created by Heavy, with the idea of being modular, it includes many options and cool features.
 

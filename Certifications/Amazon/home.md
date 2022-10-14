@@ -7,7 +7,6 @@ tags: networking, amazon
 editor: markdown
 dateCreated: 2022-05-16T14:22:22.830Z
 ---
-
 # Amazon Certifications
 
 ## Table of Contents

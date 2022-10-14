@@ -7,7 +7,6 @@ tags: networking, proxy, Server, IPMI
 editor: markdown
 dateCreated: 2022-07-18T02:41:39.777Z
 ---
-
 # IDRAC 6
 
 if you get the following error message. watch [this](https://www.youtube.com/watch?v=drhSo9Xl9M0) video for the solution

@@ -7,7 +7,6 @@ tags: LG, Plex, Media
 editor: markdown
 dateCreated: 2022-08-30T04:44:28.207Z
 ---
-
 # LG Television / WebOS
 
 ## Plex Settings

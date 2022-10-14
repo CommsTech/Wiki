@@ -1,3 +1,12 @@
+---
+title: Squid pfSense
+description: pfSense version of squid
+published: true
+date: 2022-08-30T04:38:46.749Z
+tags: Proxsy, pfsense
+editor: markdown
+dateCreated: 2022-08-30T04:27:17.152Z
+---
 # Squid (pfsense version)
 
 ## How I Cache dynamic content

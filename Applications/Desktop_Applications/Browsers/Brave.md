@@ -7,7 +7,7 @@ tags: Browser, Software
 editor: markdown
 dateCreated: 2022-09-09T04:44:01.149Z
 ---
-## Brave
+# Brave
 ### The best privacy online
 
 Browse privately. Search privately. And ditch Big Tech.

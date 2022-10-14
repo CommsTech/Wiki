@@ -1,3 +1,13 @@
+---
+title: Cisco_3850_Running_Config
+description: Cisco 3850 running config
+published: true
+date: 2022-07-25T13:37:12.115Z
+tags: Cisco, IT, Config
+editor: markdown
+dateCreated: 2022-09-09T04:44:01.149Z
+---
+# Running Config Follows
 version 16.12
 no service pad
 service tcp-keepalives-in

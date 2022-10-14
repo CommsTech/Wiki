@@ -7,7 +7,6 @@ tags: Tech, networking, college
 editor: markdown
 dateCreated: 2022-08-30T17:27:40.994Z
 ---
-
 # Commsnet Wiki
 
 Welcome to Commsnet Wiki! your one stop shop for all things technical

@@ -7,7 +7,6 @@ tags: Penetration Testing, Hacking
 editor: markdown
 dateCreated: 2022-05-26T18:21:15.030Z
 ---
-
 # Awesome Hacking Resources 
 A collection of hacking / penetration testing resources to make you better!
 ** THIS IS A COPY OF https://github.com/samyk/Awesome-Hacking-Resources **

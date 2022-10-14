@@ -7,7 +7,7 @@ tags: Open-Source
 editor: markdown
 dateCreated: 2022-05-09T13:59:04.460Z
 ---
-
+# FOSS
 # $0.00 or Open Source Creative Software
 ##### Original Source Https://cryptpad.fr/pad/#/2/pad/view/LCPzkPZYgqUYgB3wRXd4vcER6ExZy1Fpm-WLOfSIyZM/   Thank you for all the hard work!
 

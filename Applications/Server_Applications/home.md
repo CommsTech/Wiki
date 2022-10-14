@@ -1,17 +1,13 @@
 ---
 title: Server Applications
-description: All the Server/ Docker / K8 Info
+description: All the Server/ Docker / K8 Info Heres a few tools that I utilize to make prepare my media collection for streaming High quility low bandwidth.
 published: true
 date: 2022-07-25T13:13:18.198Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-21T15:26:38.051Z
 ---
-
-Heres a few tools that I utilize to make prepare my media collection for streaming High quility low bandwidth.
-- Wiki.js
-
-## Server Applications
+# Server Applications
 ### Management
 - [vCenter](https://wiki.commsnet.org/en/Applications/Server_Applications/vcenter)
 

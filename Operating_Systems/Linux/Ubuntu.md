@@ -1,3 +1,12 @@
+---
+title: Ubuntu
+description: Ubuntu Home
+published: true
+date: 2022-07-25T13:37:12.115Z
+tags: Ubuntu, Linux
+editor: markdown
+dateCreated: 2022-09-09T04:44:01.149Z
+---
 # Ubuntu
 
 Ubuntu is one of the most popular and widely used Linux-based operating systems. It is often considered the most preferred operating system among first-time users. In this particular post, we are going to show you the steps to solve the issue “Lock /var/lib/apt/lists/lock Error” while using Ubuntu. It is really frustrating sometimes when you are doing something and you are stuck.

@@ -7,7 +7,6 @@ tags: controller, networking, routing
 editor: markdown
 dateCreated: 2022-05-16T14:46:52.356Z
 ---
-
 # UNIFI
 ##### Associate UniFi devices
 `set-inform http://192.168.5.110:8080/inform` where 192.168.5.110 is your unifi controller IP

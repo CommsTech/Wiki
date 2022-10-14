@@ -7,7 +7,6 @@ tags: Plex, FireTV, Amazon, Media
 editor: markdown
 dateCreated: 2022-08-30T04:41:50.009Z
 ---
-
 # Amazon FireTV Devices
 
 
