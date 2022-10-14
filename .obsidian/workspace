@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Networking/pfSense/pfBlockerNG/Schedules.md",
+            "file": "Networking/pfSense/Squid-pfSense.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/pfSense/pfBlockerNG/Schedules.md",
+                "file": "Networking/pfSense/Squid-pfSense.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/pfSense/pfBlockerNG/Schedules.md",
+                "file": "Networking/pfSense/Squid-pfSense.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/pfSense/pfBlockerNG/Schedules.md"
+                "file": "Networking/pfSense/Squid-pfSense.md"
               }
             }
           },
@@ -147,6 +147,8 @@
   },
   "active": "563eaba9cab47378",
   "lastOpenFiles": [
+    "Networking/pfSense/home.md",
+    "Networking/pfSense/pfBlockerNG/Schedules.md",
     "Networking/pfSense/pfBlockerNG/home.md",
     "Networking/pfSense/pfBlockerNG/DNSBL/home.md",
     "README.md",
@@ -154,8 +156,6 @@
     "Donate.md",
     "ArmyLinks.md",
     "About Me.md",
-    "WGU/home.md",
-    "WGU/c963.md",
-    "WGU/c955.md"
+    "WGU/home.md"
   ]
 }
