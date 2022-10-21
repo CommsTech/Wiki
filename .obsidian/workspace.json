@@ -13,25 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/pfSense/Squid-pfSense.md",
+                "file": "Privacy/osint.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
-          },
-          {
-            "id": "fe6cc61b8ea361fc",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.0.0"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/pfSense/Squid-pfSense.md",
+                "file": "Privacy/osint.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/pfSense/Squid-pfSense.md",
+                "file": "Privacy/osint.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/pfSense/Squid-pfSense.md"
+                "file": "Privacy/osint.md"
               }
             }
           },
@@ -167,17 +156,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "fe6cc61b8ea361fc",
+  "active": "563eaba9cab47378",
   "lastOpenFiles": [
+    "Networking/Unifi/home.md",
+    "Networking/pfSense/pfBlockerNG/DNSBL/DNSBL_Regex_list.md",
+    "Networking/pfSense/pfBlockerNG/DNSBL/Blacklists/Ads_Blacklist.md",
+    "Networking/pfSense/Squid-pfSense.md",
     "Networking/pfSense/home.md",
     "Networking/pfSense/pfBlockerNG/Schedules.md",
     "Networking/pfSense/pfBlockerNG/home.md",
     "Networking/pfSense/pfBlockerNG/DNSBL/home.md",
     "README.md",
-    "home.md",
-    "Donate.md",
-    "ArmyLinks.md",
-    "About Me.md",
-    "WGU/home.md"
+    "home.md"
   ]
 }
