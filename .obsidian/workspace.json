@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "802ff39f540fc4be",
+        "id": "1321542c49822b9a",
         "type": "tabs",
         "children": [
           {
-            "id": "563eaba9cab47378",
+            "id": "da96018dabab2284",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Privacy/osint.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -49,8 +44,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#define",
-                "matchingCase": false,
+                "query": "section:()",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Privacy/osint.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Privacy/osint.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Privacy/osint.md"
-              }
+              "state": {}
             }
           },
           {
@@ -146,27 +137,27 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 317,
-    "collapsed": true
+    "width": 317
   },
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "563eaba9cab47378",
+  "active": "da96018dabab2284",
   "lastOpenFiles": [
+    "WGU/c483.md",
+    "WGU/c394.md",
+    "WGU/c100.md",
+    "home.md",
+    "ArmyLinks.md",
+    "About Me.md",
+    "Privacy/osint.md",
+    "Applications/Server_Applications/Plex.md",
     "Networking/Unifi/home.md",
-    "Networking/pfSense/pfBlockerNG/DNSBL/DNSBL_Regex_list.md",
-    "Networking/pfSense/pfBlockerNG/DNSBL/Blacklists/Ads_Blacklist.md",
-    "Networking/pfSense/Squid-pfSense.md",
-    "Networking/pfSense/home.md",
-    "Networking/pfSense/pfBlockerNG/Schedules.md",
-    "Networking/pfSense/pfBlockerNG/home.md",
-    "Networking/pfSense/pfBlockerNG/DNSBL/home.md",
-    "README.md",
-    "home.md"
+    "Networking/pfSense/pfBlockerNG/DNSBL/DNSBL_Regex_list.md"
   ]
 }
