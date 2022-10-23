@@ -26,7 +26,72 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "How to Markdown.md",
+                "file": "Applications/Desktop_Applications/Browsers/Brave.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "12950cd7c4beb4ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Applications/Desktop_Applications/Excel/DAX.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "92b5b54451c4e887",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Applications/Desktop_Applications/Excel/DAX.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e9baec6cb7537d80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Applications/Desktop_Applications/Excel/Excel_Cheat_Sheet.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b2de2ee6fd7e5d59",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Applications/Desktop_Applications/Excel/Excel_Formulas_Cheat_Sheet.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9818f68a4c80f6c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Donate.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -100,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "How to Markdown.md",
+                "file": "Donate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "How to Markdown.md",
+                "file": "Donate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "How to Markdown.md"
+                "file": "Donate.md"
               }
             }
           },
@@ -170,17 +235,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "75e3f67d341523ee",
+  "active": "9818f68a4c80f6c1",
   "lastOpenFiles": [
-    "home.md",
+    "Home.md",
     "How to Markdown.md",
+    "README.md",
     "Donate.md",
-    "WGU/c483.md",
-    "WGU/c394.md",
-    "WGU/c100.md",
-    "ArmyLinks.md",
-    "About Me.md",
-    "Privacy/osint.md",
-    "Applications/Server_Applications/Plex.md"
+    "Applications/Desktop_Applications/Excel/Home.md",
+    "Applications/Desktop_Applications/Excel/Pivot_Table.md",
+    "Applications/Desktop_Applications/Excel/Excel_Formulas_Cheat_Sheet.md",
+    "Applications/Desktop_Applications/Excel/Excel_Cheat_Sheet.md",
+    "Applications/Desktop_Applications/Excel/DAX.md",
+    "Applications/Desktop_Applications/Browsers/Brave.md"
   ]
 }

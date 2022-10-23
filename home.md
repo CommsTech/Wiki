@@ -1,5 +1,5 @@
 ---
-title: home
+title: Home
 description: Landing Page
 published: true
 date: 2022-08-30T17:27:40.994Z
@@ -74,11 +74,5 @@ Home Automations
 - [HomeAssistant (Docker)]()
 
 ## PRIVACY NOTICE
-This page has [Matomo](https://matomo.org/) analytics code built in. The information tracked is anam 
-![[Pasted image 20220830104020.png]]
-
-Logs are regularly deleted every two weeks
-![[Pasted image 20220830104157.png]]
-
-I use this information to see if its worth keeping this site active
+There are no analytics collected on this site by me. if you are seeing some please let me know as I will force disable them on the server end if possible.
 
