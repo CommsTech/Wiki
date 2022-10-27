@@ -11,8 +11,13 @@
             "id": "487ab96c5a9225ad",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Networking/pfSense/pfBlockerNG/DNSBL/Blacklists/Ads_Blacklist.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Networking/pfSense/pfBlockerNG/DNSBL/Blacklists/Ads_Blacklist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Networking/pfSense/pfBlockerNG/DNSBL/Blacklists/Ads_Blacklist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Networking/pfSense/pfBlockerNG/DNSBL/Blacklists/Ads_Blacklist.md"
+              }
             }
           },
           {
@@ -149,15 +158,15 @@
   },
   "active": "487ab96c5a9225ad",
   "lastOpenFiles": [
+    "ArmyLinks.md",
+    "Home.md",
     "Applications/Desktop_Applications/Excel/Excel_Formulas_Cheat_Sheet.md",
     "Applications/Desktop_Applications/Excel/Excel_Cheat_Sheet.md",
     "Applications/Desktop_Applications/Excel/DAX.md",
     "Applications/Desktop_Applications/Browsers/Brave.md",
     "Donate.md",
-    "Home.md",
     "How to Markdown.md",
     "README.md",
-    "Applications/Desktop_Applications/Excel/Home.md",
-    "Applications/Desktop_Applications/Excel/Pivot_Table.md"
+    "Applications/Desktop_Applications/Excel/Home.md"
   ]
 }
