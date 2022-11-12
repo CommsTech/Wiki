@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "46bbe982558620d9",
+        "id": "c91740e291972300",
         "type": "tabs",
         "children": [
           {
-            "id": "487ab96c5a9225ad",
+            "id": "6fa1f26e9a73a4ae",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,8 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a3a2cf3d8a3c0227",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.0.3"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -153,11 +164,10 @@
     "direction": "horizontal",
     "width": 317
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "487ab96c5a9225ad",
+  "active": "a3a2cf3d8a3c0227",
   "lastOpenFiles": [
+    "Networking/pfSense/pfBlockerNG/DNSBL/Blacklists/Tracking_and_Telemetry_Blacklist.md",
+    "Networking/pfSense/pfBlockerNG/DNSBL/Blacklists/Ads_Blacklist.md",
     "ArmyLinks.md",
     "Home.md",
     "Applications/Desktop_Applications/Excel/Excel_Formulas_Cheat_Sheet.md",
@@ -165,8 +175,6 @@
     "Applications/Desktop_Applications/Excel/DAX.md",
     "Applications/Desktop_Applications/Browsers/Brave.md",
     "Donate.md",
-    "How to Markdown.md",
-    "README.md",
-    "Applications/Desktop_Applications/Excel/Home.md"
+    "How to Markdown.md"
   ]
 }
