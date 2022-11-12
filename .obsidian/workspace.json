@@ -24,9 +24,12 @@
             "id": "a3a2cf3d8a3c0227",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.0.3"
+                "file": "Applications/Server_Applications/qbittorrent.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -97,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/pfSense/pfBlockerNG/DNSBL/Blacklists/Ads_Blacklist.md",
+                "file": "Applications/Server_Applications/qbittorrent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/pfSense/pfBlockerNG/DNSBL/Blacklists/Ads_Blacklist.md",
+                "file": "Applications/Server_Applications/qbittorrent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/pfSense/pfBlockerNG/DNSBL/Blacklists/Ads_Blacklist.md"
+                "file": "Applications/Server_Applications/qbittorrent.md"
               }
             }
           },
