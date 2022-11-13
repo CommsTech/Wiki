@@ -169,6 +169,8 @@
   },
   "active": "a3a2cf3d8a3c0227",
   "lastOpenFiles": [
+    "Applications/Server_Applications/iterm2.md",
+    "Applications/Server_Applications/qbittorrent.md",
     "Networking/pfSense/pfBlockerNG/DNSBL/Blacklists/Tracking_and_Telemetry_Blacklist.md",
     "Networking/pfSense/pfBlockerNG/DNSBL/Blacklists/Ads_Blacklist.md",
     "ArmyLinks.md",
@@ -176,8 +178,6 @@
     "Applications/Desktop_Applications/Excel/Excel_Formulas_Cheat_Sheet.md",
     "Applications/Desktop_Applications/Excel/Excel_Cheat_Sheet.md",
     "Applications/Desktop_Applications/Excel/DAX.md",
-    "Applications/Desktop_Applications/Browsers/Brave.md",
-    "Donate.md",
-    "How to Markdown.md"
+    "Applications/Desktop_Applications/Browsers/Brave.md"
   ]
 }
