@@ -13,3 +13,4 @@ dateCreated: 2022-05-19T01:12:58.089Z
 
 - [Guide to Online Anonymity]()
 - [Osint Tools]()
+- [Intel Techniques by Michael Bazzel](https://inteltechniques.com/)
