@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/pfSense/pfBlockerNG/DNSBL/Blacklists/Ads_Blacklist.md",
+                "file": "Applications/Server_Applications/Kasm.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -30,8 +30,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/pfSense/pfBlockerNG/DNSBL/Blacklists/Ads_Blacklist.md",
+                "file": "Applications/Server_Applications/Kasm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/pfSense/pfBlockerNG/DNSBL/Blacklists/Ads_Blacklist.md",
+                "file": "Applications/Server_Applications/Kasm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/pfSense/pfBlockerNG/DNSBL/Blacklists/Ads_Blacklist.md"
+                "file": "Applications/Server_Applications/Kasm.md"
               }
             }
           },
@@ -164,13 +163,13 @@
     "direction": "horizontal",
     "width": 317
   },
-  "active": "73ee420029073090",
+  "active": "6fa1f26e9a73a4ae",
   "lastOpenFiles": [
+    "Networking/pfSense/pfBlockerNG/DNSBL/Blacklists/Ads_Blacklist.md",
     "Privacy/home.md",
     "Applications/Server_Applications/qbittorrent.md",
     "Applications/Server_Applications/iterm2.md",
     "Networking/pfSense/pfBlockerNG/DNSBL/Blacklists/Tracking_and_Telemetry_Blacklist.md",
-    "Networking/pfSense/pfBlockerNG/DNSBL/Blacklists/Ads_Blacklist.md",
     "ArmyLinks.md",
     "Home.md",
     "Applications/Desktop_Applications/Excel/Excel_Formulas_Cheat_Sheet.md",
