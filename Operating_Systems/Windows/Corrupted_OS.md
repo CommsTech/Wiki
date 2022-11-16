@@ -1,9 +1,5 @@
 Using SFC and DISM is often done in haste and incorrectly. If you need to fix a corrupted install, then a special DISM command MUST BE issued.
 
-> Do you know how to restore corrupt windows features using DISM and source the files from a windows ISO?
-> 
-> — Chris Titus Tech (@christitustech) [November 2, 2022](https://twitter.com/christitustech/status/1587911136879542273?ref_src=twsrc%5Etfw)
-
 ## The Commands
 
 ### Basic Online Command
