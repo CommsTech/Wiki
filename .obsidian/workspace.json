@@ -13,20 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/Kasm.md",
+                "file": "Applications/Server_Applications/qbittorrent.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "a3a2cf3d8a3c0227",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "assets/images/Pasted image 20221112082118.png"
               }
             }
           }
@@ -96,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/Kasm.md",
+                "file": "Applications/Server_Applications/qbittorrent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/Kasm.md",
+                "file": "Applications/Server_Applications/qbittorrent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/Kasm.md"
+                "file": "Applications/Server_Applications/qbittorrent.md"
               }
             }
           },
@@ -165,15 +155,15 @@
   },
   "active": "6fa1f26e9a73a4ae",
   "lastOpenFiles": [
+    "assets/images/Pasted image 20221112082118.png",
+    "Applications/Server_Applications/qbittorrent.md",
+    "Applications/Server_Applications/Kasm.md",
     "Networking/pfSense/pfBlockerNG/DNSBL/Blacklists/Ads_Blacklist.md",
     "Privacy/home.md",
-    "Applications/Server_Applications/qbittorrent.md",
     "Applications/Server_Applications/iterm2.md",
     "Networking/pfSense/pfBlockerNG/DNSBL/Blacklists/Tracking_and_Telemetry_Blacklist.md",
     "ArmyLinks.md",
     "Home.md",
-    "Applications/Desktop_Applications/Excel/Excel_Formulas_Cheat_Sheet.md",
-    "Applications/Desktop_Applications/Excel/Excel_Cheat_Sheet.md",
-    "Applications/Desktop_Applications/Excel/DAX.md"
+    "Applications/Desktop_Applications/Excel/Excel_Formulas_Cheat_Sheet.md"
   ]
 }
