@@ -32,9 +32,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c226cead1d3b8c7f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Networking/pfSense/HAProxy.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating_Systems/Windows/Corrupted_OS.md",
+                "file": "Networking/pfSense/HAProxy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating_Systems/Windows/Corrupted_OS.md",
+                "file": "Networking/pfSense/HAProxy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating_Systems/Windows/Corrupted_OS.md"
+                "file": "Networking/pfSense/HAProxy.md"
               }
             }
           },
@@ -167,8 +180,9 @@
     "direction": "horizontal",
     "width": 317
   },
-  "active": "48128de076c46753",
+  "active": "c226cead1d3b8c7f",
   "lastOpenFiles": [
+    "Operating_Systems/Windows/Corrupted_OS.md",
     "Applications/Server_Applications/qbittorrent.md",
     "assets/images/Pasted image 20221112082118.png",
     "Applications/Server_Applications/Kasm.md",
@@ -177,7 +191,6 @@
     "Applications/Server_Applications/iterm2.md",
     "Networking/pfSense/pfBlockerNG/DNSBL/Blacklists/Tracking_and_Telemetry_Blacklist.md",
     "ArmyLinks.md",
-    "Home.md",
-    "Applications/Desktop_Applications/Excel/Excel_Formulas_Cheat_Sheet.md"
+    "Home.md"
   ]
 }
