@@ -8,59 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6fa1f26e9a73a4ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Applications/Server_Applications/qbittorrent.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "48128de076c46753",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Operating_Systems/Windows/Corrupted_OS.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c226cead1d3b8c7f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Operating_Systems/Home.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "321d161c67de8ba9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating_Systems/Truenas_Scale/Multiuse_drives.md",
+                "file": "Applications/Server_Applications/Home_Assistant.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating_Systems/Truenas_Scale/Multiuse_drives.md",
+                "file": "Applications/Server_Applications/Home_Assistant.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating_Systems/Truenas_Scale/Multiuse_drives.md",
+                "file": "Applications/Server_Applications/Home_Assistant.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating_Systems/Truenas_Scale/Multiuse_drives.md"
+                "file": "Applications/Server_Applications/Home_Assistant.md"
               }
             }
           },
@@ -195,15 +155,15 @@
   },
   "active": "321d161c67de8ba9",
   "lastOpenFiles": [
-    "Operating_Systems/Truenas_Scale/Home.md",
-    "Operating_Systems/Truenas_Scale/Multiuse_drives.md",
-    "Operating_Systems/Home.md",
-    "Networking/pfSense/HAProxy.md",
-    "Operating_Systems/Windows/Corrupted_OS.md",
     "Applications/Server_Applications/qbittorrent.md",
+    "Operating_Systems/Windows/Corrupted_OS.md",
+    "Operating_Systems/Home.md",
+    "Applications/Server_Applications/Home_Assistant.md",
+    "Operating_Systems/Truenas_Scale/Multiuse_drives.md",
+    "Operating_Systems/Truenas_Scale/Home.md",
+    "Networking/pfSense/HAProxy.md",
     "assets/images/Pasted image 20221112082118.png",
     "Applications/Server_Applications/Kasm.md",
-    "Networking/pfSense/pfBlockerNG/DNSBL/Blacklists/Ads_Blacklist.md",
-    "Privacy/home.md"
+    "Networking/pfSense/pfBlockerNG/DNSBL/Blacklists/Ads_Blacklist.md"
   ]
 }
