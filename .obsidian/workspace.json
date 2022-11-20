@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8be3537b19242c8d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Networking/pfSense/Xbox_NAT.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/Home_Assistant.md",
+                "file": "Networking/pfSense/Xbox_NAT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/Home_Assistant.md",
+                "file": "Networking/pfSense/Xbox_NAT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/Home_Assistant.md"
+                "file": "Networking/pfSense/Xbox_NAT.md"
               }
             }
           },
@@ -153,12 +167,12 @@
     "direction": "horizontal",
     "width": 317
   },
-  "active": "321d161c67de8ba9",
+  "active": "8be3537b19242c8d",
   "lastOpenFiles": [
+    "Applications/Server_Applications/Home_Assistant.md",
     "Applications/Server_Applications/qbittorrent.md",
     "Operating_Systems/Windows/Corrupted_OS.md",
     "Operating_Systems/Home.md",
-    "Applications/Server_Applications/Home_Assistant.md",
     "Operating_Systems/Truenas_Scale/Multiuse_drives.md",
     "Operating_Systems/Truenas_Scale/Home.md",
     "Networking/pfSense/HAProxy.md",
