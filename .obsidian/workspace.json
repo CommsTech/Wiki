@@ -32,9 +32,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "47988f959ea7d60c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hardware/Amazon_Fire_Tablet.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/pfSense/Xbox_NAT.md",
+                "file": "Hardware/Amazon_Fire_Tablet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/pfSense/Xbox_NAT.md",
+                "file": "Hardware/Amazon_Fire_Tablet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/pfSense/Xbox_NAT.md"
+                "file": "Hardware/Amazon_Fire_Tablet.md"
               }
             }
           },
@@ -167,8 +180,9 @@
     "direction": "horizontal",
     "width": 317
   },
-  "active": "8be3537b19242c8d",
+  "active": "47988f959ea7d60c",
   "lastOpenFiles": [
+    "Networking/pfSense/Xbox_NAT.md",
     "Applications/Server_Applications/Home_Assistant.md",
     "Applications/Server_Applications/qbittorrent.md",
     "Operating_Systems/Windows/Corrupted_OS.md",
@@ -177,7 +191,6 @@
     "Operating_Systems/Truenas_Scale/Home.md",
     "Networking/pfSense/HAProxy.md",
     "assets/images/Pasted image 20221112082118.png",
-    "Applications/Server_Applications/Kasm.md",
-    "Networking/pfSense/pfBlockerNG/DNSBL/Blacklists/Ads_Blacklist.md"
+    "Applications/Server_Applications/Kasm.md"
   ]
 }
