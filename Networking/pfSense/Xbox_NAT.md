@@ -12,9 +12,8 @@ My preferred method is by setting the appropriate rules and only allow and open 
 
 The following method should work for the XBox One to get rid of **STRICT NAT** and end up with an **OPEN NAT**, and can be applied for multiple XBox One devices.  
 Unfortunately, I do not have other consoles like the Play Station 4 or the Nintendo Switch (nasty thing with money – you can spend only once).  
-From what I have seen; this most likely works with other consoles as well. Your milage may vary.
+From what I have seen; this most likely works with other consoles as well. Your mileage may vary.
 
-#### Not a Firewall Expert 
 
 Just a warning: I’m most certainly **not** a firewall or a pfSense expert.  
 Everything presented here is from what I have read and tested on my own setup.  
@@ -25,7 +24,7 @@ Suggestions, and improvements are most welcome.
 
 We are going to be adding some rules to the pfSense firewall. To make sure these rules apply to the right devices, we must have a known IP address for our XBox One device(s).
 
-This can be done it two ways: either you assign a static IP address to your XBox One or you reserver the IP address for you XBox One in the [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol) of your [pfSense](https://www.pfsense.org/) setup.
+This can be done it two ways: either you assign a static IP address to your XBox One or you reserved the IP address for you XBox One in the [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol) of your [pfSense](https://www.pfsense.org/) setup.
 
 Since I use DHCP for my network, I decided to use the most obvious: tell my DHCP to use a fixed IP address for my XBox One. You can apply this to all your XBox One devices in case you have multiple.
 
