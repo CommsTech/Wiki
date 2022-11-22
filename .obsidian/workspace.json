@@ -4,63 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "c91740e291972300",
+        "id": "a48431720eb65faa",
         "type": "tabs",
         "children": [
           {
-            "id": "321d161c67de8ba9",
+            "id": "bad312762fc435ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/Home_Assistant.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8be3537b19242c8d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/pfSense/Xbox_NAT.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "47988f959ea7d60c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hardware/Amazon_Fire_Tablet.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3695d786e8280e19",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Operating_Systems/Linux/Clearing out Orphaned Shadow Copies.md",
+                "file": "Privacy/Data_Removal_Guide.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating_Systems/Linux/Clearing out Orphaned Shadow Copies.md",
+                "file": "Privacy/Data_Removal_Guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating_Systems/Linux/Clearing out Orphaned Shadow Copies.md",
+                "file": "Privacy/Data_Removal_Guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating_Systems/Linux/Clearing out Orphaned Shadow Copies.md"
+                "file": "Privacy/Data_Removal_Guide.md"
               }
             }
           },
@@ -185,6 +145,14 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "1e5de7405cc58046",
+            "type": "leaf",
+            "state": {
+              "type": "RSS_FEED",
+              "state": {}
+            }
           }
         ],
         "currentTab": 3
@@ -193,8 +161,10 @@
     "direction": "horizontal",
     "width": 317
   },
-  "active": "3695d786e8280e19",
+  "active": "bad312762fc435ab",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Operating_Systems/Linux/Clearing out Orphaned Shadow Copies.md",
     "Hardware/Amazon_Fire_Tablet.md",
     "Networking/pfSense/Xbox_NAT.md",
     "Applications/Server_Applications/Home_Assistant.md",
@@ -202,8 +172,6 @@
     "Operating_Systems/Windows/Corrupted_OS.md",
     "Operating_Systems/Home.md",
     "Operating_Systems/Truenas_Scale/Multiuse_drives.md",
-    "Operating_Systems/Truenas_Scale/Home.md",
-    "Networking/pfSense/HAProxy.md",
-    "assets/images/Pasted image 20221112082118.png"
+    "Operating_Systems/Truenas_Scale/Home.md"
   ]
 }
