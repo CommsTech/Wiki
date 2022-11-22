@@ -45,9 +45,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3695d786e8280e19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Operating_Systems/Linux/Clearing out Orphaned Shadow Copies.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -113,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hardware/Amazon_Fire_Tablet.md",
+                "file": "Operating_Systems/Linux/Clearing out Orphaned Shadow Copies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hardware/Amazon_Fire_Tablet.md",
+                "file": "Operating_Systems/Linux/Clearing out Orphaned Shadow Copies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hardware/Amazon_Fire_Tablet.md"
+                "file": "Operating_Systems/Linux/Clearing out Orphaned Shadow Copies.md"
               }
             }
           },
@@ -180,8 +193,9 @@
     "direction": "horizontal",
     "width": 317
   },
-  "active": "47988f959ea7d60c",
+  "active": "3695d786e8280e19",
   "lastOpenFiles": [
+    "Hardware/Amazon_Fire_Tablet.md",
     "Networking/pfSense/Xbox_NAT.md",
     "Applications/Server_Applications/Home_Assistant.md",
     "Applications/Server_Applications/qbittorrent.md",
@@ -190,7 +204,6 @@
     "Operating_Systems/Truenas_Scale/Multiuse_drives.md",
     "Operating_Systems/Truenas_Scale/Home.md",
     "Networking/pfSense/HAProxy.md",
-    "assets/images/Pasted image 20221112082118.png",
-    "Applications/Server_Applications/Kasm.md"
+    "assets/images/Pasted image 20221112082118.png"
   ]
 }
