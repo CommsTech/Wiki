@@ -26,5 +26,14 @@
       ],
       "key": "3"
     }
+  ],
+  "rss-reader:rss-refresh": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "4"
+    }
   ]
 }

@@ -13,14 +13,41 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Privacy/Data_Removal_Guide.md",
+                "file": "Hardware/Amazon_Fire_Tablet.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a648f03d680a914e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hardware/Laptops/Laptop_Power_Management.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "04ff1fb630258ca6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Applications/Server_Applications/IDRAC.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -86,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Privacy/Data_Removal_Guide.md",
+                "file": "Applications/Server_Applications/IDRAC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Privacy/Data_Removal_Guide.md",
+                "file": "Applications/Server_Applications/IDRAC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Privacy/Data_Removal_Guide.md"
+                "file": "Applications/Server_Applications/IDRAC.md"
               }
             }
           },
@@ -161,17 +188,17 @@
     "direction": "horizontal",
     "width": 317
   },
-  "active": "bad312762fc435ab",
+  "active": "04ff1fb630258ca6",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Operating_Systems/Linux/Clearing out Orphaned Shadow Copies.md",
+    "Applications/Server_Applications/idrac_6.md",
+    "Applications/Server_Applications/IDRAC.md",
+    "Hardware/Laptops/Laptop_Power_Management.md",
     "Hardware/Amazon_Fire_Tablet.md",
-    "Networking/pfSense/Xbox_NAT.md",
-    "Applications/Server_Applications/Home_Assistant.md",
-    "Applications/Server_Applications/qbittorrent.md",
     "Operating_Systems/Windows/Corrupted_OS.md",
-    "Operating_Systems/Home.md",
-    "Operating_Systems/Truenas_Scale/Multiuse_drives.md",
-    "Operating_Systems/Truenas_Scale/Home.md"
+    "How to Markdown.md",
+    "2022-11-22.md",
+    "Privacy/Data_Removal_Guide.md",
+    "Untitled.md",
+    "Operating_Systems/Linux/Clearing out Orphaned Shadow Copies.md"
   ]
 }
