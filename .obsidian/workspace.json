@@ -11,8 +11,13 @@
             "id": "11398fe18e58b0e6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Hardware/Amazon_Fire_Tablet.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Desktop_Applications/GIMP.md",
+                "file": "Hardware/Amazon_Fire_Tablet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Desktop_Applications/GIMP.md",
+                "file": "Hardware/Amazon_Fire_Tablet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Desktop_Applications/GIMP.md"
+                "file": "Hardware/Amazon_Fire_Tablet.md"
               }
             }
           },
@@ -156,8 +161,10 @@
     "direction": "horizontal",
     "width": 317
   },
-  "active": "73ee420029073090",
+  "active": "11398fe18e58b0e6",
   "lastOpenFiles": [
+    "Untitled.md",
+    "README.md",
     "Operating_Systems/Xen_Server/Xen_Orchestra_Installation.md",
     "Operating_Systems/Windows/UNEXPECTED_STORE_EXCEPTION.md",
     "Operating_Systems/Apple_IOS/Change_AppleID_and_Password.md",
@@ -165,8 +172,6 @@
     "Hardware/Laptops/Laptop_Power_Management.md",
     "Applications/Server_Applications/IDRAC.md",
     "Applications/Server_Applications/idrac_6.md",
-    "Operating_Systems/Windows/Corrupted_OS.md",
-    "How to Markdown.md",
-    "2022-11-22.md"
+    "Operating_Systems/Windows/Corrupted_OS.md"
   ]
 }
