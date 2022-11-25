@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hardware/Amazon_Fire_Tablet.md",
+                "file": "Applications/Server_Applications/EmulatorJS.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hardware/Amazon_Fire_Tablet.md",
+                "file": "Applications/Server_Applications/EmulatorJS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hardware/Amazon_Fire_Tablet.md",
+                "file": "Applications/Server_Applications/EmulatorJS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hardware/Amazon_Fire_Tablet.md"
+                "file": "Applications/Server_Applications/EmulatorJS.md"
               }
             }
           },
@@ -161,14 +161,14 @@
     "direction": "horizontal",
     "width": 317
   },
-  "active": "11398fe18e58b0e6",
+  "active": "73ee420029073090",
   "lastOpenFiles": [
+    "Hardware/Amazon_Fire_Tablet.md",
     "Untitled.md",
     "README.md",
     "Operating_Systems/Xen_Server/Xen_Orchestra_Installation.md",
     "Operating_Systems/Windows/UNEXPECTED_STORE_EXCEPTION.md",
     "Operating_Systems/Apple_IOS/Change_AppleID_and_Password.md",
-    "Hardware/Amazon_Fire_Tablet.md",
     "Hardware/Laptops/Laptop_Power_Management.md",
     "Applications/Server_Applications/IDRAC.md",
     "Applications/Server_Applications/idrac_6.md",
