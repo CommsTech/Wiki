@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a48fbfcbacc3bb9e",
+        "id": "239b55ded98d77e2",
         "type": "tabs",
         "children": [
           {
-            "id": "11398fe18e58b0e6",
+            "id": "ec78ef8ca87caa26",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/EmulatorJS.md",
+                "file": "Applications/Server_Applications/wireguard.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,8 +49,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "section:()",
-                "matchingCase": true,
+                "query": "",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/EmulatorJS.md",
+                "file": "Applications/Server_Applications/wireguard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/EmulatorJS.md",
+                "file": "Applications/Server_Applications/wireguard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/EmulatorJS.md"
+                "file": "Applications/Server_Applications/wireguard.md"
               }
             }
           },
@@ -155,14 +155,15 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
     "width": 317
   },
-  "active": "73ee420029073090",
+  "active": "ec78ef8ca87caa26",
   "lastOpenFiles": [
+    "Applications/Server_Applications/EmulatorJS.md",
     "Hardware/Amazon_Fire_Tablet.md",
     "Untitled.md",
     "README.md",
@@ -171,7 +172,6 @@
     "Operating_Systems/Apple_IOS/Change_AppleID_and_Password.md",
     "Hardware/Laptops/Laptop_Power_Management.md",
     "Applications/Server_Applications/IDRAC.md",
-    "Applications/Server_Applications/idrac_6.md",
-    "Operating_Systems/Windows/Corrupted_OS.md"
+    "Applications/Server_Applications/idrac_6.md"
   ]
 }
