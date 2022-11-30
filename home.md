@@ -41,7 +41,6 @@ File Storage and Collaboration
 - [Nextcloud](https://nextcloud.commsnet.org)
 - [gittea](https://git.commsnet.org)
 - [wiki.js](https://wiki.commsnet.org)
-- [Resilio Sync](https://resilio.commsnet.org)
 - [commento](https://commento.commsnet.org)
 
 Games
@@ -63,7 +62,7 @@ Support
 - [MeshCentral](https://support.commsnet.org)
 
 Analytics
-- [Matomo](https://matomo.commsnet.org)
+- NONE
 
 Security
 - [AlienVault]()
