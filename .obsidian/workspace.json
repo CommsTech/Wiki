@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Donate.md",
+                "file": "Home.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Donate.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Donate.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Donate.md"
+                "file": "Home.md"
               }
             }
           },
@@ -163,6 +163,7 @@
   },
   "active": "ec78ef8ca87caa26",
   "lastOpenFiles": [
+    "Donate.md",
     "Applications/Server_Applications/wireguard.md",
     "Applications/Server_Applications/EmulatorJS.md",
     "Hardware/Amazon_Fire_Tablet.md",
@@ -171,7 +172,6 @@
     "Operating_Systems/Xen_Server/Xen_Orchestra_Installation.md",
     "Operating_Systems/Windows/UNEXPECTED_STORE_EXCEPTION.md",
     "Operating_Systems/Apple_IOS/Change_AppleID_and_Password.md",
-    "Hardware/Laptops/Laptop_Power_Management.md",
-    "Applications/Server_Applications/IDRAC.md"
+    "Hardware/Laptops/Laptop_Power_Management.md"
   ]
 }

@@ -37,10 +37,10 @@ Networking
 - [librespeed](https://speedtest.commsnet.org)
 - [Unifi-Controller]()
 
-File Storage and Collaberation
+File Storage and Collaboration
 - [Nextcloud](https://nextcloud.commsnet.org)
 - [gittea](https://git.commsnet.org)
-- [wiki.js](https://wikijs.commsnet.org)
+- [wiki.js](https://wiki.commsnet.org)
 - [Resilio Sync](https://resilio.commsnet.org)
 - [commento](https://commento.commsnet.org)
 
