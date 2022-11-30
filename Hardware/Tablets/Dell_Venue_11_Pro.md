@@ -1,6 +1,6 @@
 ---
-title: Hardware/dell
-description: All the dell stuff in one place
+title: Dell Venue 11 Pro
+description: All the Dell_Venue_11_Pro stuff in one place
 published: true
 date: 2022-11-30T12:56:37.752Z
 tags: 
@@ -8,9 +8,8 @@ editor: markdown
 dateCreated: 2022-05-16T14:19:22.595Z
 ---
 
-# Dell
+# Dell Venue 11 Pro
 
-### Venue 11 Pro
 
 Original Article located at https://www.dell.com/community/Tablets-Mobile-Devices/Venue-11-pro-i5-4300y-Throttling/m-p/4404025#M24903
 
