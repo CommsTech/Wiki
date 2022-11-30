@@ -3,7 +3,7 @@ title: Dell Venue 11 Pro
 description: All the Dell_Venue_11_Pro stuff in one place
 published: true
 date: 2022-11-30T12:56:37.752Z
-tags: 
+tags: Dell, Tablet
 editor: markdown
 dateCreated: 2022-05-16T14:19:22.595Z
 ---
