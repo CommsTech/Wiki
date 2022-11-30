@@ -1,5 +1,16 @@
-Cyber Awareness Challenge Complete Questions and Answers
-October 18, 2019
+---
+title: Cyber Awareness Training
+description: Cyber Awareness Training
+published: true
+date: 2022-11-25T13:37:12.115Z
+tags: Army, Cyber, Training
+editor: markdown
+dateCreated: 2022-09-09T04:44:01.149Z
+---
+# [Cyber Awareness Challenge Complete Questions and Answers](https://www.ihatecbts.com/cbts/2019/10/18/cyber-awareness-challenge-complete-questions-and-answers)
+
+October 18, 2022
+
 This article will provide you with all the questions and answers for Cyber Awareness Challenge.
 
 ActiveX is a type of this?
@@ -374,10 +385,10 @@ You receive an email from a company you have an account with. The email states y
 
 -Notify security
 
-Which of these is true of unclassified data?
-
--Its classification level may rise when aggregated. (Correct)
-
+Which of these is true of unclassified data?  
+  
+-Its classification level may rise when aggregated. (Correct)  
+  
 
 Which type of information includes personal, payroll, medical, and operational information?
 
@@ -407,7 +418,7 @@ New interest in learning another language?
 
 A colleague has visited several foreign countries recently, has adequate work quality, speaks openly of unhappiness with U.S. foreign policy, and recently had his car repossessed. How many indicators does this employee display?
 
-03 
+03
 
 Which of the following is NOT considered a potential insider threat indicator?
 
@@ -469,424 +480,424 @@ How can you protect your information when using wireless technology?
 
 -Avoid using non-Bluetooth-paired or unencrypted wireless computer peripherals.
 
-Which of the following is NOT true of traveling overseas with a mobile phone
-
+Which of the following is NOT true of traveling overseas with a mobile phone  
+  
 Physical security of mobile phones carried overseas is not a major issue
 
-*SPILLAGE*
+*SPILLAGE*  
 Which of the following may be helpful to prevent spillage?
 
 Be aware of classification markings and all handling caveats.
 
-*SPILLAGE*
+*SPILLAGE*  
 Which of the following may be helpful to prevent spillage?
 
 Label all files, removable media, and subject headers with appropriate classification markings.
 
-* CLASSIFIED DATA*
+* CLASSIFIED DATA*  
 Which type of information could reasonably be expected to cause serious damage to national security if disclosed without authorization?
 
 Secret
 
-*CLASSIFIED DATA*
+*CLASSIFIED DATA*  
 What is a good practice to protect classified information?
 
 Ensure proper labeling by appropriately marking all classified material and, when required, sensitive material.
 
-*INSIDER THREAT*
+*INSIDER THREAT*  
 Based on the description below how many potential insider threat indicators are present? A colleague often makes others uneasy by being persistent in trying to obtain information about classified projects to which he has no access, is boisterous about his wife putting them in credit card debt, and often complains about anxiety and exhaustion display?
 
 3 or more indicators
 
-*INSIDER THREAT*
+*INSIDER THREAT*  
 What threat do insiders with authorized access to information or information systems pose?
 
 They may wittingly or unwittingly use their authorized access to perform actions that result in the loss or degradation of resources or capabilities.
 
-*INSIDER THREAT*
+*INSIDER THREAT*  
 Which of the following is NOT considered a potential insider threat indicator?
 
 New interest in learning a foregin language.
 
-*SOCIAL NETWORKING*
+*SOCIAL NETWORKING*  
 When may you be subject to criminal, disciplinary, and/or administrative action due to online misconduct?
 
 If you participate in or condone it at any time.
 
-*SOCIAL NETWORKING*
+*SOCIAL NETWORKING*  
 When is the safest time to post details of your vacation activities on your social networking profile?
 
 After you have returned home following the vacation.
 
-*SOCIAL NETWORKING*
+*SOCIAL NETWORKING*  
 Which of the following is a security best practice when using social networking sites?
 
 Understanding and using the available privacy settings.
 
-*UNCONTROLLED CLASSIFIED INFORMATION*
+*UNCONTROLLED CLASSIFIED INFORMATION*  
 Which of the following is NOT an example of CUI?
 
 Press release data
 
-*UNCONTROLLED CLASSIFIED INFORMATION*
-Which of the following is NOT a correct way to protect CUI?
+*UNCONTROLLED CLASSIFIED INFORMATION*  
+[Which of the following is NOT a correct way to protect CUI?](https://quizzma.com/which-of-the-following-is-not-a-correct-way-to-protect-cui-2/)
 
 CUI may be stored on any password-protected system.
 
 Select the information on the data sheet that is personally identifiable information (PII) But not protected health information (PHI)
 
-Jane Jones
+Jane Jones  
 Social security number: 123-45-6789
 
 Select the information on the data sheet that is protected health information (PHI)
 
 Jane has been Dr…ect patient..ect.
 
-*PHYSICAL SECURITY*
+*PHYSICAL SECURITY*  
 At which Cyberspace Protection Condition (CPCON) is the priority focus on critical and essential functions?
 
 Answer: CPCON 2
 
-*PHYSICAL SECURITY*
+*PHYSICAL SECURITY*  
 Within a secure area, you see an individual who you do not know and is not wearing a visible badge
 
 Ask the individual to see an identification badge.
 
-*IDENTITY MANAGEMENT*
+*IDENTITY MANAGEMENT*  
 What certificates does the Common Access Card (CAC) or Personal Identity Verification (PIV) card contain?
 
 Identification, encryption, and digital signature
 
-*IDENTITY MANAGEMENT*
+*IDENTITY MANAGEMENT*  
 Which of the following is an example of a strong password?
 
 eA1xy2!P
 
-*SENSITIVE COMPARTMENTED INFORMATION*
+*SENSITIVE COMPARTMENTED INFORMATION*  
 When faxing Sensitive Compartmented Information (SCI), what actions should you take?
 
 Mark SCI documents appropriately and use an approved SCI fax machine.
 
-*SENSITIVE COMPARTMENTED INFORMATION*
+*SENSITIVE COMPARTMENTED INFORMATION*  
 When is it appropriate to have your security badge visible within a sensitive compartmented information facility (SCIF)?
 
 At all times while in the facility.
 
-*REMOVABLE MEDIA IN A SCIF*
+*REMOVABLE MEDIA IN A SCIF*  
 What action should you take when using removable media in a Sensitive Compartmented Information Facility (SCIF)?
 
 Identify and disclose it with local Configuration/Change Management Control and Property Management authorities
 
-*MALICIOUS CODE*
+*MALICIOUS CODE*  
 Which of the following is NOT a way malicious code spreads?
 
 Legitimate software updates
 
-*WEBSITE USE*
+*WEBSITE USE*  
 Which of the following statements is true of cookies?
 
 You should only accept cookies from reputable, trusted websites.
 
-*SOCIAL ENGINEERING*
+*SOCIAL ENGINEERING*  
 How can you protect yourself from internet hoaxes?
 
 Use online sites to confirm or expose potential hoaxes
 
-*SOCIAL ENGINEERING*
+*SOCIAL ENGINEERING*  
 How can you protect yourself from social engineering?
 
 Follow instructions given only by verified personnel
 
-*SOCIAL ENGINEERING*
+*SOCIAL ENGINEERING*  
 What action should you take with an e-mail from a friend containing a compressed Uniform Resource Locator (URL)?
 
 Investigate the link’s actual destination using the preview feature
 
-*TRAVEL*
+*TRAVEL*  
 Which of the following is a concern when using your Government-issued laptop in public?
 
 Others may be able to view your screen.
 
-*USE OF GFE*
+*USE OF GFE*  
 What is a critical consideration on using cloud-based file sharing and storage applications on your Government-furnished equipment (GFE)?
 
 Determine if the software or service is authorized
 
-*MOBILE DEVICES*
+*MOBILE DEVICES*  
 Which of the following is an example of near field communication (NFC)?
 
 A smartphone that transmits credit card payment information when held in proximity to a credit card reader.
 
-*MOBILE DEVICES*
+*MOBILE DEVICES*  
 Which of the following is an example of removable media?
 
 Flash Drive
 
-*HOME COMPUTER SECURITY*
+*HOME COMPUTER SECURITY*  
 Which of the following is a best practice for securing your home computer?
 
 Create separate accounts for each user.
 
-*Spillage
+*Spillage  
 After reading an online story about a new security project being developed on the military installation where you work, your neighbor asks you to comment about the article. You know this project is classified. What should be your response?
 
 Attempt to change the subject to something non-work related, but neither confirm nor deny the article’s authenticity.
 
-*Spillage
+*Spillage  
 Which of the following may help prevent inadvertent spillage?
 
 Label all files, removable media, and subject headers with appropriate classification markings.
 
-*Spillage
+*Spillage  
 A user writes down details marked as Secret from a report stored on a classified system and uses those details to draft a briefing on an unclassified system without authorization. What is the best choice to describe what has occurred?
 
 Spillage because classified data was moved to a lower classification level system without authorization.
 
-*Spillage
+*Spillage  
 What should you do when you are working on an unclassified system and receive an email with a classified attachment?
 
 Call your security point of contact immediately
 
-*Spillage
+*Spillage  
 What should you do if a reporter asks you about potentially classified information on the web?
 
 Ask for information about the website, including the URL.
 
-*Spillage
+*Spillage  
 .What should you do if a reporter asks you about potentially classified information on the web?
 
 Refer the reporter to your organization’s public affairs office.
 
-*Spillage
+*Spillage  
 What is a proper response if spillage occurs?
 
 ~Immediately notify your security POC.
 
-*Spillage
+*Spillage  
 Which of the following is a good practice to aid in preventing spillage?
 
 Be aware of classification markings and all handling caveats.
 
-**Classified Data
+**Classified Data  
 When classified data is not in use, how can you protect it?
 
 Store classified data appropriately in a GSA-approved vault/container.
 
-**Classified Data
+**Classified Data  
 What is required for an individual to access classified data?
 
 Appropriate clearance, a signed and approved non-disclosure agreement, and need-to-know
 
-**Classified Data
+**Classified Data  
 Which classification level is given to information that could reasonably be expected to cause serious damage to national security?
 
 Secret
 
-**Classified Data
+**Classified Data  
 What is a good practice to protect classified information?
 
 Ensure proper labeling by appropriately marking all classified material and, when required, sensitive material.
 
-**Classified Data
+**Classified Data  
 Which of the following is true of protecting classified data?
 
 Classified material must be appropriately marked.
 
-**Classified Data
+**Classified Data  
 Which of the following can an unauthorized disclosure of information classified as Confidential reasonably be expected to cause?
 
 Damage to national security
 
-**Insider Threat
+**Insider Threat  
 Which of the following is NOT considered a potential insider threat indicator?
 
 New interest in learning a foreign language
 
-**Insider Threat
+**Insider Threat  
 A colleague has visited several foreign countries recently, has adequate work quality, speaks openly of unhappiness with U.S. foreign policy, and recently had his car repossessed. How many potential insider threat indicators does this employee display?
 
-1 Indicator(wrong)
+1 Indicator(wrong)  
 ~3 or more indicators
 
-**Insider Threat
+**Insider Threat  
 A colleague vacations at the beach every year, is married and a father of four, his work quality is sometimes poor, and he is pleasant to work with. How many potential insider threat indicators does this employee display?
 
 0 indicators
 
-**Insider Threat
+**Insider Threat  
 How many potential insider threat indicators does a coworker who often makes others uneasy by being persistent in trying to obtain information about classified projects to which he has no access, is boisterous about his wife putting them in credit card debt, and often complains about anxiety and exhaustion display?
 
 3 or more indicators
 
-**Insider Threat
+**Insider Threat  
 How many potential insider threat indicators does a person who is playful and charming, consistently wins performance awards, but is occasionally aggressive in trying to access sensitive information display?
 
 1 indicator
 
-**Insider Threat
+**Insider Threat  
 What advantages do “insider threats” have over others that allows them to cause damage to their organizations more easily?
 
 Insiders are given a level of trust and have authorized access to Government information systems
 
-**Insider Threat
+**Insider Threat  
 What type of activity or behavior should be reported as a potential insider threat?
 
 Coworker making consistent statements indicative of hostility or anger toward the United States in its policies.
 
-**Insider Threat
+**Insider Threat  
 Which of the following should be reported as a potential security incident?
 
 A coworker removes sensitive information without authorization
 
-**Insider Threat
+**Insider Threat  
 Which of the following should be reported as a potential security incident (in accordance with you Agency’s insider threat policy)?
 
 ~A coworker brings a personal electronic device into a prohibited area.
 
-**Social Networking
+**Social Networking  
 When is the safest time to post details of your vacation activities on your social networking website?
 
 When vacation is over, after you have returned home
 
-**Social Networking
+**Social Networking  
 What should you do if you receive a game application request that includes permission to access your friends, profile information, cookies, and sires visited?
 
 Decline the request
 
-*Sensitive Information
+*Sensitive Information  
 Under which circumstances is it permitted to share an unclassified draft document with a non-DoD professional discussion group?
 
 As long as the document is cleared for public release, you may share it outside of DoD.
 
-*Sensitive Information
+*Sensitive Information  
 What is the best example of Personally Identifiable Information (PII)?
 
 Date and place of birth
 
-*Sensitive Information
+*Sensitive Information  
 Which of the following is the best example of Personally Identifiable Information (PII)?
 
 Passport number
 
-*Sensitive Information
+*Sensitive Information  
 Which of the following is an example of Protected Health Information (PHI)?
 
 Medical test results
 
-*Sensitive Information
+*Sensitive Information  
 What type of unclassified material should always be marked with a special handling caveat?
 
 For Official Use Only (FOUO)
 
-*Sensitive Information
+*Sensitive Information  
 Under what circumstances could classified information be considered a threat to national security?
 
 If aggregated, the information could become classified.
 
-**Physical Security
+**Physical Security  
 What is a good practice for physical security?
 
 Challenge people without proper badges.
 
-**Physical Security
+**Physical Security  
 At which Cyberspace Protection Condition (CPCON) is the priority focus on critical functions only?
 
 CPCON 1
 
-**Identity Management
+**Identity Management  
 Your DoD Common Access Card (CAC) has a Public Key Infrastructure (PKI) token approved for access to the NIPRNet. In which situation below are you permitted to use your PKI token?
 
 On a NIPRNet system while using it for a PKI-required task
 
-**Identity Management
+**Identity Management  
 Which of the following is the nest description of two-factor authentication?
 
 Something you possess, like a CAC, and something you know, like a PIN or password
 
-**Identity management
+**Identity management  
 Which is NOT a sufficient way to protect your identity?
 
 Use a common password for all your system and application logons.
 
-**Identity management
+**Identity management  
 What is the best way to protect your Common Access Card (CAC)?
 
 Maintain possession of it at all times.
 
-*Sensitive Compartmented Information
+*Sensitive Compartmented Information  
 What is a Sensitive Compartmented Information (SCI) program?
 
 A program that segregates various type of classified information into distinct compartments for added protection and dissemination for distribution control.
 
-*Sensitive Compartmented Information
+*Sensitive Compartmented Information  
 Which of the following best describes the compromise of Sensitive Compartmented Information (SCI)?
 
 A person who does not have the required clearance or assess caveats comes into possession of SCI in any manner.
 
-*Sensitive Compartmented Information
+*Sensitive Compartmented Information  
 When should documents be marked within a Sensitive Compartmented Information Facility (SCIF)
 
-~All documents should be appropriately marked, regardless of format, sensitivity, or classification.
-Unclassified documents do not need to be marked as a SCIF.
-Only paper documents that are in open storage need to be marked.
+~All documents should be appropriately marked, regardless of format, sensitivity, or classification.  
+Unclassified documents do not need to be marked as a SCIF.  
+Only paper documents that are in open storage need to be marked.  
 Only documents that are classified Secret, Top Secret, or SCI require marking. (Wrong)
 
-*Sensitive Compartmented Information
+*Sensitive Compartmented Information  
 Which must be approved and signed by a cognizant Original Classification Authority (OCA)?
 
 Security Classification Guide (SCG)
 
-**Removable Media in a SCIF
+**Removable Media in a SCIF  
 What must users ensure when using removable media such as compact disk (CD)?
 
 It displays a label showing maximum classification, date of creation, point of contact, and Change Management 9CM) Control Number.
 
-*Malicious Code
+*Malicious Code  
 What are some examples of malicious code?
 
 Viruses, Trojan horses, or worms
 
-**Website Use
+**Website Use  
 While you are registering for a conference, you arrive at the website http://www.dcsecurityconference.org/registration/. The website requires a credit card for registration. What should you do?
 
 Since the URL does not start with “https,” do not provide you credit card information.
 
-**Social Engineering
+**Social Engineering  
 Which of the following is a practice that helps to prevent the download of viruses and other malicious code when checking your email?
 
 Do not access links or hyperlinked media such as buttons and graphics in email messages.
 
-**Social Engineering
+**Social Engineering  
 What is TRUE of a phishing attack?
 
 Phishing can be an email with a hyperlink as bait.
 
-**Social Engineering
+**Social Engineering  
 Which of the following is a way to protect against social engineering?
 
 Follow instructions given only by verified personnel.
 
-**Travel
+**Travel  
 What is a best practice while traveling with mobile computing devices?
 
 Maintain possession of your laptop and other government-furnished equipment (GFE) at all times.
 
-**Use of GFE
+**Use of GFE  
 Under what circumstances is it acceptable to use your Government-furnished computer to check personal e-mail and do other non-work-related activities?
 
 If allowed by organizational policy
 
-**Mobile Devices
+**Mobile Devices  
 Which is a rule for removable media, other portable electronic devices (PEDs), and mobile computing devices to protect Government systems?
 
 Do not use any personally owned/non-organizational removable media on your organization’s systems.
 
-**Mobile Devices
+**Mobile Devices  
 Which of the following helps protect data on your personal mobile devices?
 
 Secure personal mobile devices to the same level as Government-issued systems.
 
-**Home Computer Security
+**Home Computer Security  
 How can you protect your information when using wireless technology?
 
 Avoid using non-Bluetooth-paired or unencrypted wireless computer peripherals.
@@ -1193,823 +1204,26 @@ Which of the following is NOT a best practice to protect data on your mobile com
 
 Lock your device screen when not in use and require a password to reactivate.
 
-When checking in at the airline counter for a business trip, you are asked if you would like to check your laptop bag. This bag contains your government-issued laptop. What should you do?
+> When checking in at the airline counter for a business trip, you are asked if you would like to check your laptop bag. This bag contains your government-issued laptop. What should you do?
+> 
+> I’ve tried all the answers and it still tells me off, part 2. Decline So That You Maintain Physical Control of Your Government-Issued Laptop.
 
-I’ve tried all the answers and it still tells me off, part 2. Decline So That You Maintain Physical Control of Your Government-Issued Laptop.
+> How can you protect your information when using wireless technology?
+> 
+> Avoid using non-Bluetooth-paired or unencrypted wireless computer peripherals.
 
-How can you protect your information when using wireless technology?
+not an example of cui
 
-Avoid using non-Bluetooth-paired or unencrypted wireless computer peripherals.
+-      Press Release Data
 
-not   an example of cui
+which is not an example of cui
 
--      Press Release Data
+-      Press Release Data
 
-which   is not an example of cui
+what is not an example of cui
 
--      Press Release Data
+-      Press Release Data
 
-what   is not an example of cui
+example of cui cyber awareness
 
--      Press Release Data
-
-example   of cui cyber awareness
-
--      CUI is   an umbrella term that encompasses many different markings to identify   information that is not classified but which should be protected. Some   examples you may be familiar with: Personally Identifiable   Information (PII) Sensitive Personally Identifiable Information   (SPII)
-
-cui   examples
-
-examples   of cui
-
-examples   of cui include
-
-what   are examples of cui
-
-what   is not an example of cui cyber awareness
-
-which   is not an example of cui cyber awareness
-
-cui   example
-
-example   of cui
-
-examples   of controlled unclassified information include
-
-examples   of controlled unclassified information includes
-
-what   are examples of controlled unclassified information
-
-what   is considered cui
-
-controlled   unclassified information examples
-
-correct   way to protect cui
-
-cui   cyber awareness
-
-cui   protection
-
-examples   of controlled unclassified information
-
-how   to protect cui cyber awareness
-
-is   pii controlled unclassified information
-
-not   a correct way to store cui
-
-what   is considered cui data
-
-what   is controlled unclassified information basic
-
-what   is cui data
-
-what   is not a correct way to protect cui
-
-a   cui
-
-controlled   classified information
-
-controlled   unclassified information
-
-cui   controlled unclassified information
-
-cui   cyber security
-
-cui   data classification
-
-cui   documents
-
-cui   security
-
-cui   security classification
-
-cui   vs unclassified
-
-cyber   awareness cui
-
-define   controlled unclassified information
-
-examples   of controlled unclassified information cui include
-
-is   pii cui
-
-is   press release data cui
-
-protecting   cui
-
-what   cui basic
-
-what   is a controlled unclassified information
-
-what   is a cui
-
-what   is considered controlled unclassified information
-
-what   is controlled unclassified information
-
-what   is controlled unclassified information cui
-
-what   is cui cyber awareness
-
-what   is the correct way to protect cui
-
-who   is responsible for protecting cui markings and dissemination instructions
-
-army   cui
-
-classification   cui
-
-controlled   technical information
-
-controlled   unclassified info
-
-controlled   unclassified information categories
-
-controlled   unclassified information cui
-
-controlled   unclassified information marking
-
-controlled   unclassified information markings
-
-controlled   unclassified information registry
-
-cui   basic
-
-cui   classification
-
-cui   defined
-
-cui   distribution
-
-cui   documents must be reviewed
-
-cui   guidance
-
-cui   guide
-
-cui   markings
-
-cui   means
-
-cui   pii
-
-cui   registry
-
-cui   requirements
-
-cui   security classification guide
-
-cui   specified
-
-cui   transmission
-
-define   cui
-
-definition   of controlled unclassified information
-
-how   to protect cui
-
-how   to store cui
-
-in   order to obtain access to cui
-
-information   may be cui in accordance with
-
-marking   controlled unclassified information
-
-protect   cui
-
-protecting   cui includes which steps
-
-security   cui
-
-types   of cui
-
-unclassified   cui
-
-unclassified   information
-
-what   cui
-
-what   is controlled unclassified information specified
-
-what   is cui basic
-
-what   is cui dod
-
-what   is cui information
-
-what   is cui specific
-
-what   level of system and network is required for cui
-
-when   destroying or disposing of classified information you must
-
-32   cfr part 2002
-
-air   force cui
-
-army   controlled unclassified information training
-
-at   the time of creation of cui
-
-can   cui
-
-can   cui be stored in a locked desk
-
-can   cui be stored on any password protected system
-
-controlled   unclassified information cover sheet
-
-controlled   unclassified information cui awareness training
-
-controlled   unclassified information meaning
-
-controlled   unclassified information training
-
-controlled   unclassified information training army
-
-correct   banner marking for unclassified documents with cui
-
-cui
-
-cui   acronym
-
-cui   army
-
-cui   basic definition
-
-cui   categories
-
-cui   category
-
-cui   classification marking
-
-cui   data
-
-cui   definition
-
-cui   distribution statement
-
-cui   distribution statements
-
-cui   dod
-
-cui   government
-
-cui   includes information traditionally marked as
-
-cui   information
-
-cui   labeling
-
-cui   marking examples
-
-cui   marking handbook
-
-cui   markings dod
-
-cui   meaning
-
-cui   navy
-
-cui   specified definition
-
-cui   stands for
-
-cui.
-
-definition   of cui
-
-dod   cui instruction
-
-dod   cui marking examples
-
-dod   cui markings
-
-is   proprietary data cui
-
-it   is mandatory to include a banner
-
-it   is mandatory to include a banner marking
-
-level   of system and network configuration is required for cui
-
-navy   cui
-
-sensitive   unclassified information
-
-the   correct banner for unclassified documents with cui is
-
-the   correct banner marking for unclassified documents with cui is
-
-understanding   that protection of sensitive unclassified information is
-
-understanding   that protection of sensitive unclassified information is:
-
-what   dod instructions implements the dod cui program
-
-what   does cui mean
-
-what   is basic cui
-
-what   is cui specified
-
-what   is the goal of destroying cui
-
-which   of the following individuals can access classified data
-
-who   can control cui
-
-who   is responsible for applying cui markings
-
-who   is responsible for protecting cui
-
-32   cfr 2002
-
-army   controlled unclassified information
-
-army   cui training
-
-army   unclassified
-
-at   the time of creation of cui material
-
-at   the time of creation of cui material the authorized
-
-can   cui be emailed if encrypted
-
-cmmc   cui
-
-controlled   unclassified information army
-
-controlled   unclassified information dod
-
-cui   army training
-
-cui   banner
-
-cui   banner marking
-
-cui   category markings
-
-cui   cdi
-
-cui   cmmc
-
-cui   date
-
-cui   designation indicator
-
-cui   documents must be reviewed according to which
-
-cui   documents must be reviewed according to which procedures
-
-cui   documents must be reviewed to which procedures before destruction
-
-cui   email
-
-cui   email marking
-
-cui   fouo
-
-cui   marking
-
-cui   marking guidance
-
-cui   marking guide
-
-cui   stand for
-
-cui   training
-
-cui   training air force
-
-cui   vs fouo
-
-cui's
-
-dod   controlled unclassified information
-
-dod   controlled unclassified information training
-
-dod   cui guidance
-
-dod   cui program instruction
-
-dod   instruction cui program
-
-dod   instruction implements the dod cui program
-
-dod   mandatory controlled unclassified information
-
-eo   13556
-
-executive   order 13556
-
-fouo   vs cui
-
-how   long is your nda applicable
-
-how   should you protect a printed classified document
-
-is   financial information cui
-
-isoo   cui
-
-isoo   cui registry
-
-isoo   registry
-
-marking   cui
-
-proprietary   data cui
-
-unclasified
-
-unclassifed
-
-unclassified
-
-under   what circumstances could unclassified information be considered a threat
-
-under   which circumstances is it permitted to share an unclassified
-
-what   dod instruction implements cui
-
-what   dod instruction implements cui program
-
-what   dod instruction implements dod cui program
-
-what   dod instruction implements the cui program
-
-what   dod instruction implements the dod cui
-
-what   dod instruction implements the dod cui program
-
-what   does cui stand for
-
-what   is cui
-
-what   is fouo
-
-what   is purpose of isoo cui registry
-
-what   is sensitive unclassified information
-
-what   is the purpose of the isoo cui registry
-
-what   level of system is required for cui
-
-what   marking banner and footer
-
-which   of the following is true about markings
-
-which   of the following is true about unclassified data
-
-which   of the following may help to prevent inadvertent spillage
-
-who   can decontrol cui
-
-who   is responsible for applying cui markings and dissemination
-
-why   is cui important
-
-2002   date
-
-2002   h
-
-200squared
-
-2022   cyber awareness challenge
-
-32   2002
-
-32   cfr 2002 controlled unclassified information
-
-32   cfr part 2002 controlled unclassified information
-
-32   part
-
-access   to classified information
-
-access   to sensitive or restricted information is controlled describes which
-
-adversaries   mc
-
-af   cyber awareness challenge
-
-air   force cyber awareness challenge
-
-air   force fouo cover sheet
-
-all   classified
-
-application   sensitive but unclassified sbu
-
-army   cyber awareness 2022
-
-army   jko cyber awareness
-
-army   privacy act cover sheet
-
-army   sipr email address format
-
-army   unclassified powerpoint template
-
-banner   markings identify the
-
-c   ui
-
-can   2002
-
-cbt   cyber security
-
-compressed   url cyber awareness
-
-controlled   government
-
-critical   unclassified information is sometimes
-
-ctp   requirements
-
-cui   can
-
-cui   cbt
-
-cui   certification
-
-cui   compliance
-
-cui   cover sheet
-
-cui   cti
-
-cui   cui
-
-cui   dfars
-
-cui   fedcon
-
-cui   itar
-
-cui   label
-
-cui   labels
-
-cui   propin
-
-cui   training army
-
-cui.me
-
-cui//sp-cti
-
-cyber   awareness cbt
-
-cyber   awareness challenge 2022
-
-cyber   awareness challenge 2022 cheat code
-
-cyber   awareness challenge insider threat
-
-cyber   awareness challenge jko
-
-cyber   awareness how can you protect yourself from internet hoaxes
-
-cyber   awareness jko
-
-cyber   awareness training 2022
-
-cyber   awarness 2022
-
-cyber   security cbt
-
-define   counterintelligence
-
-dfars   cui
-
-disclosure   con
-
-dod   5200.48
-
-dod   cui training
-
-dod   cyber awareness challenge 2022
-
-dod   instruction 5200.48
-
-dod   mandatory controlled unclassified information cui training
-
-dod   mandatory controlled unclassified information training
-
-dod   mandatory cui training
-
-dodi   5200.48
-
-email   marking
-
-example   of near field communication cyber awareness
-
-good   practice to prevent spillage
-
-how   can you avoid downloading malicious code cyber awareness challenge
-
-how   can you protect yourself from internet hoaxes
-
-how   can you protect yourself from internet hoaxes cyber awareness
-
-how   can you protect yourself from social engineering cyber awareness
-
-how   long is your non disclosure agreement applicable
-
-how   long is your non-disclosure agreement applicable
-
-how   many insider threat indicators does alex
-
-how   many insider threat indicators does alex demonstrate
-
-how   should you respond to the theft of your identity
-
-how   to prevent spillage cyber awareness
-
-how   to protect yourself from internet hoaxes
-
-i   hate cbts cyber awareness
-
-identify   the correct and incorrect statements about executive orders.
-
-if   you are a military personnel and you knowingly leaked
-
-ihatecbts   cyber awareness 2022
-
-inadvertent   spillage
-
-information   may be cui in accordance with executive order 13526
-
-intentional   unauthorized disclosure of classified information
-
-internet   hoaxes cyber awareness
-
-is   it permitted to share an unclassified draft document
-
-is   press release data sensitive information
-
-is   whistleblowing the same as reporting an unauthorized disclosure
-
-isoo   cui registry purpose
-
-isso   cui registry
-
-itar   cui
-
-itar   vs cui
-
-jko   cyber awareness
-
-jko   cyber awareness 2022 answers
-
-jko   cyber security
-
-malicious   code cyber awareness
-
-mc   requirements
-
-near   field communication cyber awareness
-
-near   field communication cyber awareness 2022
-
-network   configuration for cui
-
-non   federal systems
-
-opsec   is a dissemination control category
-
-opsec   is a dissemination control category within the cui program
-
-penalties   for unauthorized disclosure of classified information
-
-portion   mark
-
-portion   markings
-
-possible   effect of malicious code
-
-prevent   spillage
-
-purpose   of isoo cui registry
-
-relates   to reporting of gross mismanagement and/or abuse of authority
-
-requirements   to access classified information
-
-sensitive   but unclassified
-
-spillage   definition cyber awareness
-
-the   act of publicly documenting and sharing information is called
-
-the   whistleblower protection enhancement act relates to reporting
-
-transfer   email from nipr to sipr
-
-unauthorized   disclosure of classified
-
-unauthorized   disclosure of classified information
-
-unauthorized   disclosure of classified information for dod and industry
-
-unauthorized   disclosure of information classified as confidential
-
-unclassified   banner
-
-unclassified   cover sheet
-
-unclassified   resume
-
-unnpi
-
-what   can malicious code do cyber awareness challenge
-
-what   dod instruction implements the dod program
-
-what   is a possible effect of malicious code
-
-what   is a possible effect of malicious code cyber awareness
-
-what   is a protection against internet hoaxes
-
-what   is a protection against internet hoaxes cyber awareness
-
-what   is controlled
-
-what   is possible effect of malicious code
-
-what   is protection against internet hoaxes
-
-what   is purpose of the isoo cui registry
-
-what   is required for an individual to access classified data
-
-what   is sensitive compartmented information cyber awareness 2022
-
-what   is spillage cyber awareness
-
-what   is spillage in cyber awareness
-
-what   is the possible effect of malicious code
-
-what   is the purpose of isoo cui registry
-
-what   is the purpose of the isoo registry
-
-what   level of damage can the unauthorized disclosure of information
-
-what   security risk does a public wi-fi connection pose
-
-what   should the owner of this printed sci do differently
-
-what   should you do if you suspect spillage has occurred
-
-what   threat do insiders with authorized
-
-what   threat do insiders with authorized access to information
-
-what   threat do insiders with authorized access to information pose
-
-when   can you check personal email on your gfe
-
-when   using social networking services the penalties for ignoring requirements
-
-which   of the following individuals can access classified data 2022
-
-which   of the following is an
-
-which   of the following is an example of nfc
-
-which   of the following is good practice to prevent spillage
-
-which   of the following is not an
-
-which   of the following is true about protecting classified data
-
-which   of the following is true of protecting classified data
-
-which   of the following may help prevent spillage
-
-which   of the following may help to prevent spillage
-
-which   of the following represents a good physical security practice
-
-which   of these is true of unclassified data
-
-whistleblowing   should be used to report which of the following
-
-who   is responsible for applying cui markings and dissemination instructions
-
-working   papers must be remarked within
-
- 
-
-Which of the following is an example of malicious code? Software that install itself without the user's knowledge.
-
+-      CUI is an umbrella term that encompasses many different markings to identify information that is not classified but which should be protected. Some examples you may be familiar with: **Personally Identifiable Information (PII)** **Sensitive Personally Identifiable Information (SPII)**

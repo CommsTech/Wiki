@@ -21,16 +21,6 @@
             }
           },
           {
-            "id": "ae267e1d24011175",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.0.3"
-              }
-            }
-          },
-          {
             "id": "4116647bae03905e",
             "type": "leaf",
             "state": {
@@ -44,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,15 +178,15 @@
   },
   "active": "4116647bae03905e",
   "lastOpenFiles": [
+    "Hardware/Tablets/Dell_Venue_11_Pro.md",
+    "Untitled.md",
+    "README.md",
     "Hardware/home.md",
     "Hardware/Laptops/Laptop_Power_Management.md",
     "Hardware/Tablets/Amazon_Fire_Tablet.md",
     "Home.md",
     "Applications/home.md",
     "Certifications/Cisco/CCNA.md",
-    "Applications/Server_Applications/SecurityOnion.md",
-    "Applications/Server_Applications/searxng.md",
-    "Applications/Server_Applications/Whoogle.md",
-    "Applications/Server_Applications/netdata.md"
+    "Applications/Server_Applications/SecurityOnion.md"
   ]
 }
