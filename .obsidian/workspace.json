@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5e70644127376f6d",
+        "id": "239b55ded98d77e2",
         "type": "tabs",
         "children": [
           {
-            "id": "67e32cb7254535f9",
+            "id": "3445c8f3f75dd145",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -162,17 +162,17 @@
     "width": 317,
     "collapsed": true
   },
-  "active": "67e32cb7254535f9",
+  "active": "3445c8f3f75dd145",
   "lastOpenFiles": [
-    "Home.md",
-    "Army/Cyber Awareness Training.md",
     "Hardware/Tablets/Dell_Venue_11_Pro.md",
-    "README.md",
     "Hardware/home.md",
     "Hardware/Laptops/Laptop_Power_Management.md",
     "Hardware/Tablets/Amazon_Fire_Tablet.md",
+    "Home.md",
     "Applications/home.md",
     "Certifications/Cisco/CCNA.md",
-    "Applications/Server_Applications/SecurityOnion.md"
+    "Applications/Server_Applications/SecurityOnion.md",
+    "Applications/Server_Applications/searxng.md",
+    "Applications/Server_Applications/Whoogle.md"
   ]
 }
