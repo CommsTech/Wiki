@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Army/ArmyLinks.md",
+                "file": "Applications/Desktop_Applications/Note_Taking/Home.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Army/ArmyLinks.md",
+                "file": "Applications/Desktop_Applications/Note_Taking/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Army/ArmyLinks.md",
+                "file": "Applications/Desktop_Applications/Note_Taking/Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Army/ArmyLinks.md"
+                "file": "Applications/Desktop_Applications/Note_Taking/Home.md"
               }
             }
           },
@@ -177,15 +177,15 @@
   },
   "active": "67e32cb7254535f9",
   "lastOpenFiles": [
-    "Operating_Systems/Windows/environment-variables.md",
-    "Operating_Systems/Windows/Corrupted_OS.md",
-    "Applications/Server_Applications/kubernetes/kubectl.md",
-    "Operating_Systems/Windows/chocolatey.md",
-    "Operating_Systems/Xen_Server/Xen_Orchestra_Installation.md",
-    "Applications/Web_Applications/Search_Engines.md",
-    "Applications/Desktop_Applications/Home.md",
-    "Applications/Desktop_Applications/notepadplusplus.md",
-    "Applications/Desktop_Applications/Portmaster.md",
-    "Applications/Web_Applications/Home.md"
+    "Applications/Desktop_Applications/Ventoy.md",
+    "Applications/Server_Applications/Authelia.md",
+    "Applications/Server_Applications/clamav.md",
+    "Applications/Server_Applications/cloudflared.md",
+    "Applications/Server_Applications/flaresolverr.md",
+    "Applications/Server_Applications/Home_Assistant.md",
+    "Applications/Server_Applications/Home.md",
+    "Applications/Desktop_Applications/FreeTube.md",
+    "Operating_Systems/Apple_IOS/Change_AppleID_and_Password.md",
+    "Applications/Home.md"
   ]
 }
