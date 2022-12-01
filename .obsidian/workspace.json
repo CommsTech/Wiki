@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Donate.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Donate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Donate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Donate.md"
               }
             }
           },
@@ -164,6 +164,7 @@
   },
   "active": "3445c8f3f75dd145",
   "lastOpenFiles": [
+    "Home.md",
     "Hardware/Home.md",
     "Applications/Home.md",
     "assets/images/Pasted image 20221130163035.png",
@@ -171,7 +172,6 @@
     "Hardware/Tablets/Dell_Venue_11_Pro.md",
     "Hardware/Laptops/Laptop_Power_Management.md",
     "Hardware/Tablets/Amazon_Fire_Tablet.md",
-    "Home.md",
     "Certifications/Cisco/CCNA.md",
     "Applications/Server_Applications/SecurityOnion.md"
   ]
