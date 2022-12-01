@@ -13,20 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Desktop_Applications/Note_Taking/Home.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0536e8e6fadac71e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Operating_Systems/Windows/environment-variables.md",
+                "file": "Applications/Desktop_Applications/GIMP.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Desktop_Applications/Note_Taking/Home.md",
+                "file": "Applications/Desktop_Applications/GIMP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Desktop_Applications/Note_Taking/Home.md",
+                "file": "Applications/Desktop_Applications/GIMP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Desktop_Applications/Note_Taking/Home.md"
+                "file": "Applications/Desktop_Applications/GIMP.md"
               }
             }
           },
@@ -177,15 +164,15 @@
   },
   "active": "67e32cb7254535f9",
   "lastOpenFiles": [
+    "Applications/Desktop_Applications/FreeTube.md",
+    "Applications/Desktop_Applications/GIMP.md",
+    "Applications/Desktop_Applications/Note_Taking/Obsidian.md",
+    "Applications/Desktop_Applications/Note_Taking/Home.md",
+    "Operating_Systems/Windows/environment-variables.md",
     "Applications/Desktop_Applications/Ventoy.md",
     "Applications/Server_Applications/Authelia.md",
     "Applications/Server_Applications/clamav.md",
     "Applications/Server_Applications/cloudflared.md",
-    "Applications/Server_Applications/flaresolverr.md",
-    "Applications/Server_Applications/Home_Assistant.md",
-    "Applications/Server_Applications/Home.md",
-    "Applications/Desktop_Applications/FreeTube.md",
-    "Operating_Systems/Apple_IOS/Change_AppleID_and_Password.md",
-    "Applications/Home.md"
+    "Applications/Server_Applications/flaresolverr.md"
   ]
 }
