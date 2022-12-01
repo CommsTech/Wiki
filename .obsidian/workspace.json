@@ -26,15 +26,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating_Systems/Xen_Server/Xen_Orchestra_Installation.md",
+                "file": "Operating_Systems/Windows/environment-variables.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating_Systems/Xen_Server/Xen_Orchestra_Installation.md",
+                "file": "Army/ArmyLinks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating_Systems/Xen_Server/Xen_Orchestra_Installation.md",
+                "file": "Army/ArmyLinks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating_Systems/Xen_Server/Xen_Orchestra_Installation.md"
+                "file": "Army/ArmyLinks.md"
               }
             }
           },
@@ -176,17 +175,17 @@
     "width": 317,
     "collapsed": true
   },
-  "active": "0536e8e6fadac71e",
+  "active": "67e32cb7254535f9",
   "lastOpenFiles": [
-    "Applications/Web_Applications/Search_Engines.md",
+    "Operating_Systems/Windows/environment-variables.md",
+    "Operating_Systems/Windows/Corrupted_OS.md",
+    "Applications/Server_Applications/kubernetes/kubectl.md",
+    "Operating_Systems/Windows/chocolatey.md",
     "Operating_Systems/Xen_Server/Xen_Orchestra_Installation.md",
+    "Applications/Web_Applications/Search_Engines.md",
     "Applications/Desktop_Applications/Home.md",
     "Applications/Desktop_Applications/notepadplusplus.md",
     "Applications/Desktop_Applications/Portmaster.md",
-    "Applications/Web_Applications/Home.md",
-    "Applications/Web_Applications/HTMLtoMD.md",
-    "Army/ArmyLinks.md",
-    "Army/Cyber Awareness Training.md",
-    "Donate.md"
+    "Applications/Web_Applications/Home.md"
   ]
 }
