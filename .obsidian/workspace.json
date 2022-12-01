@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Desktop_Applications/Portmaster.md",
+                "file": "Operating_Systems/Xen_Server/Xen_Orchestra_Installation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Desktop_Applications/Portmaster.md",
+                "file": "Operating_Systems/Xen_Server/Xen_Orchestra_Installation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Desktop_Applications/Portmaster.md",
+                "file": "Operating_Systems/Xen_Server/Xen_Orchestra_Installation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Desktop_Applications/Portmaster.md"
+                "file": "Operating_Systems/Xen_Server/Xen_Orchestra_Installation.md"
               }
             }
           },
@@ -178,15 +178,15 @@
   },
   "active": "0536e8e6fadac71e",
   "lastOpenFiles": [
+    "Applications/Web_Applications/Search_Engines.md",
+    "Operating_Systems/Xen_Server/Xen_Orchestra_Installation.md",
+    "Applications/Desktop_Applications/Home.md",
+    "Applications/Desktop_Applications/notepadplusplus.md",
+    "Applications/Desktop_Applications/Portmaster.md",
     "Applications/Web_Applications/Home.md",
     "Applications/Web_Applications/HTMLtoMD.md",
     "Army/ArmyLinks.md",
     "Army/Cyber Awareness Training.md",
-    "Donate.md",
-    "Home.md",
-    "Hardware/Tablets/Dell_Venue_11_Pro.md",
-    "README.md",
-    "Hardware/home.md",
-    "Hardware/Laptops/Laptop_Power_Management.md"
+    "Donate.md"
   ]
 }
