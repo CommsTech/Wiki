@@ -117,6 +117,32 @@ http-response set-header X-Cache-Status MISS if { srv_id -m found }
 
 HAProxy will set the _X-Cache-Status_ header to _HIT_ if the item was found in the cache, or to _MISS_ otherwise.
 
+## *PFSENSE*
+To verify if cache is working try running on a ssh/console this command:
+
+```
+/usr/local/pkg/haproxy/haproxy_socket.sh show cache
+```
+
+Don't edit haproxy.inc.
+
+Add the cache section to the 'Global Advanced pass thru' textbox.
+
+```
+cache MyCache
+  total-max-size 10
+  max-age 60
+```
+
+and add some cache items to the backend 'Backend pass thru':
+
+```
+http-request cache-use MyCache if TRUE
+http-response cache-store MyCache if TRUE
+```
+
+For a basic test that is.. For actual usage you should think about what acl's to apply before trying to use the cache for everything..
+
 ## Conclusion
 
 HAProxy’s cache helps boost the speed of your API services, resulting in a more responsive website. Define how long responses should be cached using the `max-age` directive, which you can override with a Cache-Control header. If there are certain responses that should not be cached at all, you can use an _if_ statement to filter them out or you can set your Cache-Control header to _no-store_. The HAProxy Runtime API will show you how long items will live in the cache and HAProxy’s Prometheus metrics endpoint exposes counters for lookups and cache hits. Now go and enjoy the benefits of proxy caching!
