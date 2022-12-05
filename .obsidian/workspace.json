@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a367dcb88e19eb12",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Applications/Web_Applications/Instagram.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "haproxy",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,8 +80,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/pfSense/HAProxy.md",
+                "file": "Applications/Web_Applications/Instagram.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/pfSense/HAProxy.md",
+                "file": "Applications/Web_Applications/Instagram.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/pfSense/HAProxy.md"
+                "file": "Applications/Web_Applications/Instagram.md"
               }
             }
           },
@@ -163,8 +176,9 @@
     "width": 317,
     "collapsed": true
   },
-  "active": "07b450e3270e0a88",
+  "active": "a367dcb88e19eb12",
   "lastOpenFiles": [
+    "Networking/pfSense/HAProxy.md",
     "Donate.md",
     "Applications/Server_Applications/idrac7 Upgrade.md",
     "conflict-files-obsidian-git.md",
@@ -173,7 +187,6 @@
     "assets/images/Pasted image 20221130163035.png",
     "Applications/Web_Applications/Plex.md",
     "Home.md",
-    "Hardware/Home.md",
-    "Applications/Home.md"
+    "Hardware/Home.md"
   ]
 }
