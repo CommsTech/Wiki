@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Web_Applications/home.md",
+                "file": "Privacy/osint.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Web_Applications/home.md",
+                "file": "Privacy/osint.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Web_Applications/home.md",
+                "file": "Privacy/osint.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Web_Applications/home.md"
+                "file": "Privacy/osint.md"
               }
             }
           },
@@ -178,6 +178,7 @@
   },
   "active": "a367dcb88e19eb12",
   "lastOpenFiles": [
+    "Applications/Web_Applications/home.md",
     "Applications/Web_Applications/Instagram.md",
     "Networking/pfSense/HAProxy.md",
     "Donate.md",
@@ -186,7 +187,6 @@
     "Applications/Server_Applications/IDRAC.md",
     "Army/ArmyLinks.md",
     "assets/images/Pasted image 20221130163035.png",
-    "Applications/Web_Applications/Plex.md",
-    "Home.md"
+    "Applications/Web_Applications/Plex.md"
   ]
 }
