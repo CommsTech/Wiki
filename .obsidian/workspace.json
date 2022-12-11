@@ -19,22 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "a367dcb88e19eb12",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Applications/Server_Applications/Nextcloud.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "webdav",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -101,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/pfSense/HAProxy.md",
+                "file": "assets/images/Pasted image 20220904093335.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/pfSense/HAProxy.md",
+                "file": "assets/images/Pasted image 20220904093335.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/pfSense/HAProxy.md"
+                "file": "assets/images/Pasted image 20220904093335.png"
               }
             }
           },
@@ -177,17 +162,17 @@
     "width": 317,
     "collapsed": true
   },
-  "active": "44984e271aedb61f",
+  "active": "73ee420029073090",
   "lastOpenFiles": [
+    "assets/images/Matomo_Delete_data.png",
+    "assets/images/matomo_tracking_Data.png",
+    "assets/images/Pasted image 20221211075045.png",
+    "assets/images/Pasted image 20221211074924.png",
+    "Applications/Web_Applications/Driftnet.md",
+    "Networking/pfSense/HAProxy.md",
     "Applications/Server_Applications/gittea.md",
     "Privacy/osint.md",
     "Applications/Web_Applications/home.md",
-    "Applications/Web_Applications/Instagram.md",
-    "Networking/pfSense/HAProxy.md",
-    "Donate.md",
-    "Applications/Server_Applications/idrac7 Upgrade.md",
-    "conflict-files-obsidian-git.md",
-    "Applications/Server_Applications/IDRAC.md",
-    "Army/ArmyLinks.md"
+    "Applications/Web_Applications/Instagram.md"
   ]
 }
