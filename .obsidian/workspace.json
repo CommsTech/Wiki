@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "webdav",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,7 +80,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -100,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/Nextcloud.md",
+                "file": "Networking/pfSense/HAProxy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/Nextcloud.md",
+                "file": "Networking/pfSense/HAProxy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/Nextcloud.md"
+                "file": "Networking/pfSense/HAProxy.md"
               }
             }
           },
@@ -176,7 +177,7 @@
     "width": 317,
     "collapsed": true
   },
-  "active": "a367dcb88e19eb12",
+  "active": "44984e271aedb61f",
   "lastOpenFiles": [
     "Applications/Server_Applications/gittea.md",
     "Privacy/osint.md",
