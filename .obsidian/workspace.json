@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/wireguard.md",
+                "file": "Applications/Server_Applications/Plex.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/wireguard.md",
+                "file": "Applications/Server_Applications/Plex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/wireguard.md",
+                "file": "Applications/Server_Applications/Plex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/wireguard.md"
+                "file": "Applications/Server_Applications/Plex.md"
               }
             }
           },
@@ -163,6 +163,7 @@
   },
   "active": "ec78ef8ca87caa26",
   "lastOpenFiles": [
+    "Applications/Server_Applications/wireguard.md",
     "Applications/Server_Applications/EmulatorJS.md",
     "Hardware/Amazon_Fire_Tablet.md",
     "Untitled.md",
@@ -171,7 +172,6 @@
     "Operating_Systems/Windows/UNEXPECTED_STORE_EXCEPTION.md",
     "Operating_Systems/Apple_IOS/Change_AppleID_and_Password.md",
     "Hardware/Laptops/Laptop_Power_Management.md",
-    "Applications/Server_Applications/IDRAC.md",
-    "Applications/Server_Applications/idrac_6.md"
+    "Applications/Server_Applications/IDRAC.md"
   ]
 }

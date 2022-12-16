@@ -26,3 +26,8 @@ I currently run my plex server in a TrueNas Scale application with GPU passthrou
 Additional Guides 
 - [TRaSH Guides - Highly Recommended](https://trash-guides.info/Plex/)
 - [MediaClients.wiki - Great tips to tune your plex settings for optimal playback and server load](https://mediaclients.wiki/en/Plex)
+
+
+## Baseline Plex on TrueNAS Scale
+
+![[Pasted image 20221216062935.png]]![[Pasted image 20221216062958.png]]![[Pasted image 20221216063013.png]]![[Pasted image 20221216063027.png]]
