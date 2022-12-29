@@ -30,4 +30,4 @@ Additional Guides
 
 ## Baseline Plex on TrueNAS Scale
 
-![[Pasted image 20221216062935.png]]![[Pasted image 20221216062958.png]]![[Pasted image 20221216063013.png]]![[Pasted image 20221216063027.png]]
+![[Plex_truenas_scale_Chart_1.png]]![[Plex_truenas_scale_Chart_2.png]]![[Plex_truenas_scale_Chart_3.png]]![[Plex_truenas_scale_Chart_4.png]]
