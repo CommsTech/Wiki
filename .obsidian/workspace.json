@@ -39,9 +39,22 @@
                 "currentVersion": "1.1.9"
               }
             }
+          },
+          {
+            "id": "a075ddd777b579f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -107,6 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,6 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +159,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md"
+              }
             }
           },
           {
@@ -191,7 +208,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dfeb9d8043ce252c",
+  "active": "a075ddd777b579f7",
   "lastOpenFiles": [
     "Home.md",
     "Home (conflicted copy 2022-11-29 201405).md",
