@@ -29,9 +29,19 @@
                 "currentVersion": "1.1.8"
               }
             }
+          },
+          {
+            "id": "dfeb9d8043ce252c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.9"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -181,7 +191,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "73ee420029073090",
+  "active": "dfeb9d8043ce252c",
   "lastOpenFiles": [
     "Home.md",
     "Home (conflicted copy 2022-11-29 201405).md",
