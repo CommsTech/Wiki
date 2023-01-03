@@ -21,9 +21,12 @@
             "id": "84cf765d64bc29d1",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "assets/images/gitea_server_settings_screenshot.png"
+                "file": "Applications/Server_Applications/Nextcloud.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -94,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/images/gitea_server_settings_screenshot.png",
+                "file": "Applications/Server_Applications/Nextcloud.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "assets/images/gitea_server_settings_screenshot.png",
+                "file": "Applications/Server_Applications/Nextcloud.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "assets/images/gitea_server_settings_screenshot.png"
+                "file": "Applications/Server_Applications/Nextcloud.md"
               }
             }
           },
@@ -184,15 +187,15 @@
   },
   "active": "84cf765d64bc29d1",
   "lastOpenFiles": [
-    "assets/images/htttp_Versions.png",
-    "assets/images/Qrcode.png",
-    "assets/images/gitea_server_settings_screenshot.png",
-    "assets/images/driftnet_screenshot.png",
-    "assets/images/Internet-Measurement.com_Screenshot.png",
-    "assets/images/Alienvault_SecurityOnion_Setup_1.png",
-    "assets/images/SecurityOnion-Screenshot_setup_Alienvault.png",
-    "assets/images/Idrac_security_application_error_idrac6.png",
-    "assets/images/qbittorrent_settings_snapshot_9.png",
-    "assets/images/qbittorrent_settings_snapshot_8.png"
+    "Applications/Server_Applications/Nextcloud.md",
+    "Applications/Server_Applications/Nextcloud.md",
+    "Applications/Server_Applications/home.md",
+    "Applications/Server_Applications/gittea.md",
+    "Applications/Server_Applications/Commento-Plusplus.md",
+    "Applications/Server_Applications/cloudflared.md",
+    "Applications/Server_Applications/clamav.md",
+    "Applications/Desktop_Applications/WinSCP.md",
+    "Applications/Desktop_Applications/Ventoy.md",
+    "Applications/Desktop_Applications/portmaster.md"
   ]
 }
