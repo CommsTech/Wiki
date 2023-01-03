@@ -35,5 +35,14 @@
       ],
       "key": "4"
     }
+  ],
+  "obsidian-git:push2": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "9"
+    }
   ]
 }
