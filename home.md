@@ -37,10 +37,11 @@ Networking
 - [librespeed](https://speedtest.commsnet.org)
 - [Unifi-Controller]()
 
-File Storage and Collaboration
+File Storage and Collaberation
 - [Nextcloud](https://nextcloud.commsnet.org)
 - [gittea](https://git.commsnet.org)
-- [wiki.js](https://wiki.commsnet.org)
+- [wiki.js](https://wikijs.commsnet.org)
+- [Resilio Sync](https://resilio.commsnet.org)
 - [commento](https://commento.commsnet.org)
 
 Games
@@ -62,7 +63,7 @@ Support
 - [MeshCentral](https://support.commsnet.org)
 
 Analytics
-- NONE
+- [Matomo](https://matomo.commsnet.org)
 
 Security
 - [AlienVault]()

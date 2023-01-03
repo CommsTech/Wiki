@@ -17,7 +17,7 @@ Your ROOT_URL in app.ini is http://192.168.255.25/ but you are visiting https://
 ```
 ![[Capture.png]]
 You have to make the following change
-![[Pasted image 20221210082522.png]]
+![[gitea_server_settings_screenshot.png]]
 
 
 # Configuration Cheat Sheet
