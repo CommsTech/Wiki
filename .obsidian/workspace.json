@@ -4,50 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "5b8fddeccbda4d95",
+        "id": "5b075b2a9ebd4f72",
         "type": "tabs",
         "children": [
           {
-            "id": "6cb90eed20f4414b",
+            "id": "391818ccce3fc4ec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Desktop_Applications/Browsers/Brave.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "17a09404a357d6f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Operating_Systems/Quickemu.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dac51bb6da536267",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Applications/Server_Applications/docker/docker-Cleanup.md",
+                "file": "Applications/Desktop_Applications/Browsers/Browser_addons_to_Bypass_Paywalls.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/docker/docker-Cleanup.md",
+                "file": "Applications/Desktop_Applications/Browsers/Browser_addons_to_Bypass_Paywalls.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/docker/docker-Cleanup.md",
+                "file": "Applications/Desktop_Applications/Browsers/Browser_addons_to_Bypass_Paywalls.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/docker/docker-Cleanup.md"
+                "file": "Applications/Desktop_Applications/Browsers/Browser_addons_to_Bypass_Paywalls.md"
               }
             }
           },
@@ -201,17 +174,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dac51bb6da536267",
+  "active": "391818ccce3fc4ec",
   "lastOpenFiles": [
-    "Operating_Systems/Quickemu.md",
     "Applications/Desktop_Applications/Browsers/Brave.md",
+    "Operating_Systems/Quickemu.md",
+    "Applications/Server_Applications/docker/docker-quick-commands.md",
+    "Applications/Server_Applications/docker/docker.md",
+    "Applications/Server_Applications/VM_Filetypes.md",
+    "Applications/Server_Applications/docker/docker-Cleanup.md",
     "Applications/Server_Applications/idrac7 Upgrade.md",
     "Networking/Unifi/home.md",
     "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
-    "Home.md",
-    "Home (conflicted copy 2022-11-29 201405).md",
-    "Donate (conflicted copy 2022-11-30 203814).md",
-    "Donate.md",
-    "assets/images/Plex_truenas_scale_Chart_1.png"
+    "Home.md"
   ]
 }
