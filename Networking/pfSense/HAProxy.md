@@ -1,3 +1,12 @@
+---
+title: HAProxy
+description: HAProxy
+published: true
+date: 2022-07-25T13:08:39.586Z
+tags: pfsense, networking, Reverse Proxy, Loadbalacing
+editor: markdown
+dateCreated: 2022-05-16T14:33:14.193Z
+---
 # Accelerate Your APIs by Using the HAProxy Cache
 
 [Nick Ramirez](https://www.haproxy.com/blog/author/nramirez/ "Posts by Nick Ramirez") | Oct 26, 2020 | [MICROSERVICES](https://www.haproxy.com/blog/category/microservices/), [PERFORMANCE](https://www.haproxy.com/blog/category/performance/) | [3 comments](https://www.haproxy.com/blog/accelerate-your-apis-by-using-the-haproxy-cache/#respond)
@@ -116,6 +125,32 @@ http-response set-header X-Cache-Status MISS if { srv_id -m found }
 [view raw](https://gist.github.com/haproxytechblog/c36b02678c5449b9f0876af3d15c4774/raw/93b6537c17e23f44ec4fdb6606baefb765eaa302/blog20201021-05.cfg)[](https://gist.github.com/haproxytechblog/c36b02678c5449b9f0876af3d15c4774#file-blog20201021-05-cfg)[](https://github.com/)
 
 HAProxy will set the _X-Cache-Status_ header to _HIT_ if the item was found in the cache, or to _MISS_ otherwise.
+
+## *PFSENSE*
+To verify if cache is working try running on a ssh/console this command:
+
+```
+/usr/local/pkg/haproxy/haproxy_socket.sh show cache
+```
+
+Don't edit haproxy.inc.
+
+Add the cache section to the 'Global Advanced pass thru' textbox.
+
+```
+cache MyCache
+  total-max-size 10
+  max-age 60
+```
+
+and add some cache items to the backend 'Backend pass thru':
+
+```
+http-request cache-use MyCache if TRUE
+http-response cache-store MyCache if TRUE
+```
+
+For a basic test that is.. For actual usage you should think about what acl's to apply before trying to use the cache for everything..
 
 ## Conclusion
 
