@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/pfSense/HAProxy.md",
+                "file": "Operating_Systems/Xen_Server/Xen_Orchestra_Installation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/pfSense/HAProxy.md",
+                "file": "Operating_Systems/Xen_Server/Xen_Orchestra_Installation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/pfSense/HAProxy.md",
+                "file": "Operating_Systems/Xen_Server/Xen_Orchestra_Installation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/pfSense/HAProxy.md"
+                "file": "Operating_Systems/Xen_Server/Xen_Orchestra_Installation.md"
               }
             }
           },
@@ -187,15 +187,15 @@
   },
   "active": "84cf765d64bc29d1",
   "lastOpenFiles": [
+    "Operating_Systems/Xen_Server/Xen_Orchestra_Installation.md",
+    "Operating_Systems/Xen_Server/Xen_Orchestra_Installation.md",
     "Networking/pfSense/HAProxy.md",
     "Networking/pfSense/home.md",
-    "Networking/pfSense/HAProxy.md",
     "images/background.jpg",
     "Applications/Web_Applications/home.md",
     "Applications/Server_Applications/Nextcloud.md",
     "Applications/Server_Applications/home.md",
     "Applications/Server_Applications/gittea.md",
-    "Applications/Server_Applications/Commento-Plusplus.md",
-    "Applications/Server_Applications/cloudflared.md"
+    "Applications/Server_Applications/Commento-Plusplus.md"
   ]
 }
