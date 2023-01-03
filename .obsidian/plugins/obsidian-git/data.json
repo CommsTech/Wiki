@@ -1,6 +1,6 @@
 {
   "commitMessage": "vault autocommit: {{hostname}} {{date}}",
-  "autoCommitMessage": "vault autocommit: {{hostname}} {{date}}",
+  "autoCommitMessage": "autocommit : {{hostname}} {{date}} {{numFiles}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
   "autoSaveInterval": 5,
   "autoPushInterval": 5,
