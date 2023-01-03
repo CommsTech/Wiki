@@ -20,6 +20,27 @@ Browse privately. Search privately. And ditch Big Tech.
 ![Download Link](https://laptop-updates.brave.com/latest/winx64)
 
 
+### Brave Default settings to change for security and privacy
+-   Appearance: Show autocomplete in address bar: disabled
+-   Appearance: Always show full URLs: enabled (1)
+-   Social media blocking: disable all
+-   Privacy and security: Allow privacy-preserving product analytics (P3A): disabled
+-   Privacy and security: Automatically send daily usage ping to Brave: disabled
+- ![[Brave_privacy_and_Security_snapshot.png]]
+-   Privacy and security: Clear browsing data: On exit: check all (2) (I like to keep my history but that's my threat model)
+- ![[Brave_on_exit_settings_snapshot.png]]
+-   Privacy and security: Cookies and other site data: Clear cookies and site data when you close all windows: enabled (3)
+-   Privacy and security: Security: Always use secure connections: enabled
+- ![[Brave_Security_settings_Snapshot.png]]
+-   **(Skip this setting if using a [VPN](https://thenewoil.org/vpns.html).)** Privacy and security: Security: Use Secure DNS: With a DNS provider from [this list](https://www.privacyguides.org/dns/).
+-   Extensions: Hangouts: disabled
+- ![[Brave_Extensions_settings_snapshot.png]]
+-   Extensions: Private window with Tor: disabled
+-   Additional settings: Autofill: disable all (2)
+
+_1: This allows you to see the full URL and help defend against phishing attacks.  
+2: There is malware capable of swiping data stored in your browser, including history and saved passwords, credit cards, and even multi-factor authentication cookies. You can choose to leave cookies and other sign-in data and history if you want, but know that it is a security risk.  
+3: This will sign you out of everything and reset any settings. See Note 2 for more information._
 
 ## Addons
 Chromium addons (good for both chrome and brave.... but use brave!

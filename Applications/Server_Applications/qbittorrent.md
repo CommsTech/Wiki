@@ -10,19 +10,19 @@ dateCreated: 2022-08-30T04:27:17.152Z
 # qbittorrent
 
 ### Settings
-![[Pasted image 20221112082118.png]]
+![[qbittorrent_settings_snapshot_9.png]]
 
-![[Pasted image 20221112082139.png]]
-![[Pasted image 20221112082158.png]]
+![[Qbittorrent_Settings_snapshot_2.png]]
+![[Qittorrent_settings_snapshot_4.png]]
 
 
-![[Pasted image 20221112082217.png]]
+![[Qbittorrent_Settings_Snapshot_3.png]]
 
-![[Pasted image 20221112082241.png]]
+![[qbittorrent_settings_Snapshot.png]]
 
-![[Pasted image 20221112082307.png]]
-![[Pasted image 20221112082331.png]]
-![[Pasted image 20221112082351.png]]
-![[Pasted image 20221112082537.png]]
+![[qbittorrent_settings_snapshot_8.png]]
+![[Qbittorrent_settings_snapshot_5.png]]
+![[qbittorrent_settings_snapshot_7.png]]
+![[qbittorrent_settings_snapshot_6.png]]
 
 

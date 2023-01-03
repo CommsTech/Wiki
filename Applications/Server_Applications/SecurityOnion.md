@@ -150,14 +150,14 @@ Download the installation script:
 
 `wget https://raw.githubusercontent.com/weslambert/securityonion-otx/master/securityonion-otx`
 
-![[Pasted image 20220904093335.png]]
+![[SecurityOnion_Alienvault_Screenshot_Setup.png]]
 Run the script:
 
 `sudo bash securityonion-otx`
 **Note** You will need your OTX API code for this step
 
-![[Pasted image 20220904093735.png]]
-![[Pasted image 20220904093755.png]]
+![[SecurityOnion-Screenshot_setup_Alienvault.png]]
+![[Alienvault_SecurityOnion_Setup_1.png]]
 I recieved an error for Zeek not starting. I did a restart and It came right up. The error message indicated to check `/nsm/zeek/logs/current/reporter.log` for clues
 
 I did this by `cat /nsm/zeek/logs/current/reporter.log`

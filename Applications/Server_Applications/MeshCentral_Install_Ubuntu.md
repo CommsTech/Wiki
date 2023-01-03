@@ -1,5 +1,5 @@
 Install Ubuntu Server
-![[Pasted image 20221230075550.png]]
+![[Ubuntu_server_22.04_Installing_snapshot.png]]
 
 Reboot the system
 

@@ -8,4 +8,4 @@ editor: markdown
 dateCreated: 2022-08-30T17:27:35.492Z
 ---
 # HTTP Versions
-![[Pasted image 20220919064617.png]]
+![[htttp_Versions.png]]

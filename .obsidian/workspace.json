@@ -11,16 +11,24 @@
             "id": "391818ccce3fc4ec",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Applications/Desktop_Applications/Browsers/Browser_addons_to_Bypass_Paywalls.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "assets/images/Ubuntu_server_22.04_Installing_snapshot.png"
+              }
+            }
+          },
+          {
+            "id": "84cf765d64bc29d1",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "assets/images/gitea_server_settings_screenshot.png"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Desktop_Applications/Browsers/Browser_addons_to_Bypass_Paywalls.md",
+                "file": "assets/images/gitea_server_settings_screenshot.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Desktop_Applications/Browsers/Browser_addons_to_Bypass_Paywalls.md",
+                "file": "assets/images/gitea_server_settings_screenshot.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Desktop_Applications/Browsers/Browser_addons_to_Bypass_Paywalls.md"
+                "file": "assets/images/gitea_server_settings_screenshot.png"
               }
             }
           },
@@ -174,17 +182,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "391818ccce3fc4ec",
+  "active": "84cf765d64bc29d1",
   "lastOpenFiles": [
-    "Applications/Desktop_Applications/Browsers/Brave.md",
-    "Operating_Systems/Quickemu.md",
-    "Applications/Server_Applications/docker/docker-quick-commands.md",
-    "Applications/Server_Applications/docker/docker.md",
-    "Applications/Server_Applications/VM_Filetypes.md",
-    "Applications/Server_Applications/docker/docker-Cleanup.md",
-    "Applications/Server_Applications/idrac7 Upgrade.md",
-    "Networking/Unifi/home.md",
-    "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
-    "Home.md"
+    "assets/images/htttp_Versions.png",
+    "assets/images/Qrcode.png",
+    "assets/images/gitea_server_settings_screenshot.png",
+    "assets/images/driftnet_screenshot.png",
+    "assets/images/Internet-Measurement.com_Screenshot.png",
+    "assets/images/Alienvault_SecurityOnion_Setup_1.png",
+    "assets/images/SecurityOnion-Screenshot_setup_Alienvault.png",
+    "assets/images/Idrac_security_application_error_idrac6.png",
+    "assets/images/qbittorrent_settings_snapshot_9.png",
+    "assets/images/qbittorrent_settings_snapshot_8.png"
   ]
 }

@@ -10,7 +10,7 @@ dateCreated: 2022-07-18T02:41:39.777Z
 # IDRAC 6
 
 if you get the following error message. watch [this](https://www.youtube.com/watch?v=drhSo9Xl9M0) video for the solution
-![[Pasted image 20220916204921.png]]
+![[Idrac_security_application_error_idrac6.png]]
 
 Here is an example of a modified java file for idrac access on windows 10
 File is located @ C:\Program Files\Java\jre1.8.0_331\lib\security
