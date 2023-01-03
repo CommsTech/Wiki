@@ -19,8 +19,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "17a09404a357d6f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Operating_Systems/Quickemu.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dac51bb6da536267",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Applications/Server_Applications/docker/docker-Cleanup.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -86,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Desktop_Applications/Browsers/Brave.md",
+                "file": "Applications/Server_Applications/docker/docker-Cleanup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Desktop_Applications/Browsers/Brave.md",
+                "file": "Applications/Server_Applications/docker/docker-Cleanup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Desktop_Applications/Browsers/Brave.md"
+                "file": "Applications/Server_Applications/docker/docker-Cleanup.md"
               }
             }
           },
@@ -174,8 +201,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6cb90eed20f4414b",
+  "active": "dac51bb6da536267",
   "lastOpenFiles": [
+    "Operating_Systems/Quickemu.md",
+    "Applications/Desktop_Applications/Browsers/Brave.md",
     "Applications/Server_Applications/idrac7 Upgrade.md",
     "Networking/Unifi/home.md",
     "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
@@ -183,8 +212,6 @@
     "Home (conflicted copy 2022-11-29 201405).md",
     "Donate (conflicted copy 2022-11-30 203814).md",
     "Donate.md",
-    "assets/images/Plex_truenas_scale_Chart_1.png",
-    "assets/images/Plex_truenas_scale_Chart_4.png",
-    "assets/images/Plex_truenas_scale_Chart_3.png"
+    "assets/images/Plex_truenas_scale_Chart_1.png"
   ]
 }
