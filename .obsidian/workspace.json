@@ -45,9 +45,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0c64a6065d441757",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Networking/Palo-Alto.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -113,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/SecurityOnion.md",
+                "file": "Networking/Palo-Alto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/SecurityOnion.md",
+                "file": "Networking/Palo-Alto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/SecurityOnion.md"
+                "file": "Networking/Palo-Alto.md"
               }
             }
           },
@@ -202,8 +215,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8681b9d1a17f6ccb",
+  "active": "0c64a6065d441757",
   "lastOpenFiles": [
+    "Applications/Server_Applications/SecurityOnion.md",
     "Applications/Desktop_Applications/Browsers/i2p_Extenstion_chrome.md",
     "Applications/Desktop_Applications/Browsers/Brave.md",
     "ArmyLinks.md",
@@ -212,7 +226,6 @@
     "Assets/images/Matomo_Delete_data.png",
     "Assets/images/matomo_tracking_Data.png",
     "Assets/images/Pasted image 20221211075045.png",
-    "Assets/images/Pasted image 20221211074924.png",
-    "Applications/Web_Applications/Driftnet.md"
+    "Assets/images/Pasted image 20221211074924.png"
   ]
 }
