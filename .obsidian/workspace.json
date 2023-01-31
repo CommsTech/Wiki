@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Desktop_Applications/Browsers/i2p_Extenstion_chrome.md",
+                "file": "Applications/Server_Applications/SecurityOnion.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Desktop_Applications/Browsers/i2p_Extenstion_chrome.md",
+                "file": "Applications/Server_Applications/SecurityOnion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Desktop_Applications/Browsers/i2p_Extenstion_chrome.md",
+                "file": "Applications/Server_Applications/SecurityOnion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Desktop_Applications/Browsers/i2p_Extenstion_chrome.md"
+                "file": "Applications/Server_Applications/SecurityOnion.md"
               }
             }
           },
@@ -202,8 +202,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "73ee420029073090",
+  "active": "8681b9d1a17f6ccb",
   "lastOpenFiles": [
+    "Applications/Desktop_Applications/Browsers/i2p_Extenstion_chrome.md",
     "Applications/Desktop_Applications/Browsers/Brave.md",
     "ArmyLinks.md",
     "Donate.md",
@@ -212,7 +213,6 @@
     "Assets/images/matomo_tracking_Data.png",
     "Assets/images/Pasted image 20221211075045.png",
     "Assets/images/Pasted image 20221211074924.png",
-    "Applications/Web_Applications/Driftnet.md",
-    "Applications/Server_Applications/gittea.md"
+    "Applications/Web_Applications/Driftnet.md"
   ]
 }
