@@ -4,63 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "a9e04ce2ddb17f04",
+        "id": "ce788ba5e3f19cca",
         "type": "tabs",
         "children": [
           {
-            "id": "07b450e3270e0a88",
+            "id": "e8462aa6ee4ad69c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Desktop_Applications/Browsers/Brave.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8c754549118e3492",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Applications/Desktop_Applications/Browsers/Brave.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8681b9d1a17f6ccb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Applications/Server_Applications/SecurityOnion.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0c64a6065d441757",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Palo-Alto.md",
+                "file": "Networking/pfSense/Squid-pfSense.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Palo-Alto.md",
+                "file": "Networking/pfSense/Squid-pfSense.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Palo-Alto.md",
+                "file": "Networking/pfSense/Squid-pfSense.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Palo-Alto.md"
+                "file": "Networking/pfSense/Squid-pfSense.md"
               }
             }
           },
@@ -215,17 +175,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0c64a6065d441757",
+  "active": "e8462aa6ee4ad69c",
   "lastOpenFiles": [
-    "Applications/Server_Applications/SecurityOnion.md",
-    "Applications/Desktop_Applications/Browsers/i2p_Extenstion_chrome.md",
     "Applications/Desktop_Applications/Browsers/Brave.md",
+    "Applications/Server_Applications/SecurityOnion.md",
+    "Networking/Palo-Alto.md",
+    "Applications/Desktop_Applications/Browsers/i2p_Extenstion_chrome.md",
     "ArmyLinks.md",
     "Donate.md",
     "Networking/pfSense/HAProxy.md",
     "Assets/images/Matomo_Delete_data.png",
     "Assets/images/matomo_tracking_Data.png",
-    "Assets/images/Pasted image 20221211075045.png",
-    "Assets/images/Pasted image 20221211074924.png"
+    "Assets/images/Pasted image 20221211075045.png"
   ]
 }
