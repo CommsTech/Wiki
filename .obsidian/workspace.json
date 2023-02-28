@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/pfSense/Squid-pfSense.md",
+                "file": "Privacy/osint.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/pfSense/Squid-pfSense.md",
+                "file": "Privacy/osint.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/pfSense/Squid-pfSense.md",
+                "file": "Privacy/osint.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/pfSense/Squid-pfSense.md"
+                "file": "Privacy/osint.md"
               }
             }
           },
@@ -177,6 +177,7 @@
   },
   "active": "e8462aa6ee4ad69c",
   "lastOpenFiles": [
+    "Networking/pfSense/Squid-pfSense.md",
     "Applications/Desktop_Applications/Browsers/Brave.md",
     "Applications/Server_Applications/SecurityOnion.md",
     "Networking/Palo-Alto.md",
@@ -185,7 +186,6 @@
     "Donate.md",
     "Networking/pfSense/HAProxy.md",
     "Assets/images/Matomo_Delete_data.png",
-    "Assets/images/matomo_tracking_Data.png",
-    "Assets/images/Pasted image 20221211075045.png"
+    "Assets/images/matomo_tracking_Data.png"
   ]
 }
