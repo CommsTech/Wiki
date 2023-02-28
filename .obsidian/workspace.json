@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Privacy/osint.md",
+                "file": "WGU/C393.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Privacy/osint.md",
+                "file": "WGU/C393.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Privacy/osint.md",
+                "file": "WGU/C393.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Privacy/osint.md"
+                "file": "WGU/C393.md"
               }
             }
           },
@@ -177,6 +177,7 @@
   },
   "active": "e8462aa6ee4ad69c",
   "lastOpenFiles": [
+    "Privacy/osint.md",
     "Networking/pfSense/Squid-pfSense.md",
     "Applications/Desktop_Applications/Browsers/Brave.md",
     "Applications/Server_Applications/SecurityOnion.md",
@@ -185,7 +186,6 @@
     "ArmyLinks.md",
     "Donate.md",
     "Networking/pfSense/HAProxy.md",
-    "Assets/images/Matomo_Delete_data.png",
-    "Assets/images/matomo_tracking_Data.png"
+    "Assets/images/Matomo_Delete_data.png"
   ]
 }
