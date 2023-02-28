@@ -1,3 +1,7 @@
+
+Full YouTube Walkthrough located @ https://youtu.be/VlRNsZbM6j0
+
+
 Install Ubuntu Server
 ![[Ubuntu_server_22.04_Installing_snapshot.png]]
 

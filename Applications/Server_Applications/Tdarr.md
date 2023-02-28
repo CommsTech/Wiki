@@ -43,3 +43,8 @@ services:
     deploy:
       restart_policy:
         condition: on-failure
+
+
+## Tdarr-node setup on TrueNAS Scale
+
+Walkthrough video located @ https://youtu.be/mDaApZ7ijmc
