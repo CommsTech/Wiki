@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WGU/c963.md",
+                "file": "WGU/home.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WGU/c963.md",
+                "file": "WGU/home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WGU/c963.md",
+                "file": "WGU/home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WGU/c963.md"
+                "file": "WGU/home.md"
               }
             }
           },
@@ -191,6 +191,7 @@
   },
   "active": "77cab63dba30b5a6",
   "lastOpenFiles": [
+    "WGU/C963.md",
     "WGU/C955.md",
     "WGU/C924.md",
     "WGU/C859.md",
@@ -199,7 +200,6 @@
     "WGU/C846.md",
     "WGU/C839.md",
     "WGU/C779.md",
-    "WGU/C769.md",
-    "WGU/C768.md"
+    "WGU/C769.md"
   ]
 }
