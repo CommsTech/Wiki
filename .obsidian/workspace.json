@@ -4,50 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "ce788ba5e3f19cca",
+        "id": "6947da706be47528",
         "type": "tabs",
         "children": [
           {
-            "id": "e8462aa6ee4ad69c",
+            "id": "7974e471848addab",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Applications/Server_Applications/Tdarr.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "77cab63dba30b5a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Applications/Server_Applications/EmulatorJS.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9d0ff79713a905c9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Applications/Home.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Applications/Home.md"
-              }
+              "state": {}
             }
           },
           {
@@ -202,8 +166,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9d0ff79713a905c9",
+  "active": "7974e471848addab",
   "lastOpenFiles": [
+    "Applications/Server_Applications/EmulatorJS.md",
+    "Applications/Server_Applications/Searxng.md",
+    "Applications/Server_Applications/Tailscale.md",
+    "Applications/Server_Applications/Synapse.md",
+    "Home.md",
+    "Virtual_Infrastructure/Home.md",
+    "Privacy/OSINT.md",
+    "Privacy/Home.md",
+    "Privacy/Guide_to_Online_Anonymity.md",
+    "Privacy/Data_Removal_Guide.md",
+    "Others/Cryptocurrency/Polygon.md",
+    "Others/Cryptocurrency/Cryptomining.md",
+    "Applications/Server_Applications/WSL.md",
+    "Applications/Home.md",
     "Applications/Server_Applications/Home.md",
     "Applications/Mobile_Applications/Home.md",
     "Applications/Mobile_Applications/IOS_Apps/Home.md",
@@ -215,12 +193,6 @@
     "WGU/home.md",
     "WGU/C963.md",
     "WGU/C955.md",
-    "WGU/C924.md",
-    "WGU/C859.md",
-    "WGU/C851.md",
-    "WGU/C849.md",
-    "WGU/C846.md",
-    "WGU/C839.md",
-    "WGU/C779.md"
+    "WGU/C924.md"
   ]
 }
