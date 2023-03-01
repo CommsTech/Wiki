@@ -26,15 +26,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WGU/home.md",
+                "file": "Applications/Server_Applications/EmulatorJS.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
+          },
+          {
+            "id": "9d0ff79713a905c9",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.15"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WGU/home.md",
+                "file": "Applications/Server_Applications/EmulatorJS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WGU/home.md",
+                "file": "Applications/Server_Applications/EmulatorJS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WGU/home.md"
+                "file": "Applications/Server_Applications/EmulatorJS.md"
               }
             }
           },
@@ -189,8 +199,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "77cab63dba30b5a6",
+  "active": "9d0ff79713a905c9",
   "lastOpenFiles": [
+    "WGU/home.md",
     "WGU/C963.md",
     "WGU/C955.md",
     "WGU/C924.md",
@@ -199,7 +210,6 @@
     "WGU/C849.md",
     "WGU/C846.md",
     "WGU/C839.md",
-    "WGU/C779.md",
-    "WGU/C769.md"
+    "WGU/C779.md"
   ]
 }
