@@ -37,9 +37,12 @@
             "id": "9d0ff79713a905c9",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.1.15"
+                "file": "Applications/Home.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -110,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/EmulatorJS.md",
+                "file": "Applications/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/EmulatorJS.md",
+                "file": "Applications/Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/EmulatorJS.md"
+                "file": "Applications/Home.md"
               }
             }
           },
@@ -201,6 +204,14 @@
   },
   "active": "9d0ff79713a905c9",
   "lastOpenFiles": [
+    "Applications/Server_Applications/Home.md",
+    "Applications/Mobile_Applications/Home.md",
+    "Applications/Mobile_Applications/IOS_Apps/Home.md",
+    "Applications/Mobile_Applications/IOS_Apps/Basic_Settings.md",
+    "Applications/Desktop_Applications/Windows_Mac_Plex_Settings.md",
+    "Applications/Desktop_Applications/FreeTube.md",
+    "Applications/Desktop_Applications/Excel/Pivot_Table.md",
+    "Applications/Desktop_Applications/Excel/Home.md",
     "WGU/home.md",
     "WGU/C963.md",
     "WGU/C955.md",
