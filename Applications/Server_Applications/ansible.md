@@ -221,3 +221,16 @@ lets run another command to ensure that our host file is properly linked
 now that we are linked properly lets run the gather facts module to inventory these systems
 
 ` ansible all -m gather_facts `
+
+that was a big output.... we can reduce the number of devices pulled by running 
+` ansible all -m gather_facts --limit 192.168.255.7`
+
+**Checkout https://watch.thekitty.zone/watch?v=FPU9_KDTa8A for more info
+
+lets try and run some privilege escalated commands
+` ansible all -m apt -a update_cache=true `
+
+it failed,
+maybe ill try
+` ansible all -m apt -a update_cache=true --become --ask-become-pass `
+
