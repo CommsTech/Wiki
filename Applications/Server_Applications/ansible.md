@@ -117,7 +117,6 @@ Logged in perfectly !!!
 
 ` mkdir .ansible `
 ` cd .ansible `
-` mkdir playbooks `
 ` sudo nano inventory `
 hosts being the name of my inventory file
 
@@ -248,7 +247,6 @@ we can update a individual package with the following command replacing "snapd" 
 `ansible all -m apt -a "upgrade=dist" --become --ask-become-pass`
 
 ### Writing our first playbook
-`cd playbook`
 `nano install_apache.yml`
 
 ```
@@ -265,3 +263,31 @@ we can update a individual package with the following command replacing "snapd" 
 
 lets run the play
 `ansible-playbook --ask-become-pass install_apache.yml`
+
+or we could setup a maintenance playbook for our ubuntu group
+`nano maintenance.yml`
+
+```
+---
+
+- hosts: ubuntu[0]
+  become: true
+  tasks:
+
+    - name: package update and upgrade
+      apt:
+        update_cache: yes
+        upgrade: 'yes'
+
+```
+**note that hosts: ubuntu[0] ubuntu being the name of the group and 0 being the number to exclude (see chart below)
+
+webservers[0]       # == cobweb
+webservers[-1]      # == weber
+webservers[0:2]     # == webservers[0],webservers[1]
+                    # == cobweb,webbing
+webservers[1:]      # == webbing,weber
+webservers[:3]      # == cobweb,webbing,weber
+
+run the maintenance play
+`ansible-playbook --ask-become-pass maintenance.yml`
