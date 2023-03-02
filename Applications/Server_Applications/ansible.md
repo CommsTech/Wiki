@@ -291,3 +291,6 @@ webservers[:3]      # == cobweb,webbing,weber
 
 run the maintenance play
 `ansible-playbook --ask-become-pass maintenance.yml`
+
+### Conditional statements "when"
+Follow along with learn linux tv @ https://watch.thekitty.zone/watch?v=BF7vIk9no14
