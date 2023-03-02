@@ -234,3 +234,34 @@ it failed,
 maybe ill try
 ` ansible all -m apt -a update_cache=true --become --ask-become-pass `
 
+now we can install a package on all our servers
+how about vim
+` ansible all -m apt -a name=vim-nox --become --ask-become-pass `
+
+now lets install a terminal emulator with tabs
+` ansible all -m apt -a name=tmux --become --ask-become-pass `
+
+we can update a individual package with the following command replacing "snapd" with the package you want to update
+`ansible all -m apt -a "name=snapd state=latest" --become --ask-become-pass `
+
+ but we can update all the packages with the following command
+`ansible all -m apt -a "upgrade=dist" --become --ask-become-pass`
+
+### Writing our first playbook
+`cd playbook`
+`nano install_apache.yml`
+
+```
+---
+
+- hosts: ubuntu
+  become: true
+  tasks:
+
+  - name: install apache2 package
+    apt:
+      name: apache2
+```
+
+lets run the play
+`ansible-playbook --ask-become-pass install_apache.yml`
