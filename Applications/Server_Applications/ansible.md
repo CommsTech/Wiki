@@ -117,10 +117,8 @@ Logged in perfectly !!!
 
 ` mkdir .ansible `
 ` cd .ansible `
-` mkdir inventory `
 ` mkdir playbooks `
-` cd inventory `
-` sudo nano hosts `
+` sudo nano inventory `
 hosts being the name of my inventory file
 
 add ips 1 per line (you can also use FQDN) mark categories with ` [] `
