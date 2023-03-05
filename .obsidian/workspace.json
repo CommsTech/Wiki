@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/idrac7_Upgrade.md",
+                "file": "WGU/C165.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/idrac7_Upgrade.md",
+                "file": "WGU/C165.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/idrac7_Upgrade.md",
+                "file": "WGU/C165.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/idrac7_Upgrade.md"
+                "file": "WGU/C165.md"
               }
             }
           },
@@ -177,32 +177,32 @@
   },
   "active": "7974e471848addab",
   "lastOpenFiles": [
+    "WGU/C963.md",
+    "WGU/C955.md",
+    "WGU/C859.md",
+    "WGU/C924.md",
+    "WGU/C851.md",
+    "WGU/C849.md",
+    "WGU/C846.md",
+    "WGU/C839.md",
+    "WGU/C838.md",
+    "WGU/C779.md",
+    "WGU/C769.md",
+    "WGU/C768.md",
+    "WGU/C483.md",
+    "WGU/C394.md",
+    "WGU/C393.md",
+    "WGU/C182.md",
+    "WGU/C176.md",
+    "WGU/C175.md",
+    "WGU/C165.md",
+    "WGU/C100.md",
+    "WGU/Home.md",
+    "Applications/Server_Applications/idrac7_Upgrade.md",
     "Army/Cyber_Awareness_Training.md",
     "Certifications/Amazon/Cloud_Practitioner.md",
     "Operating_Systems/Linux/Clearing_out_Orphaned_Shadow_Copies.md",
     "Others/Cryptocurrency/Cryptomining.md",
-    "Others/Cryptocurrency/Polygon.md",
-    "Others/FOSS.md",
-    "Others/Hacking_Resources.md",
-    "Others/Home.md",
-    "Home.md",
-    "About_Me.md",
-    "How_to_Markdown.md",
-    "Networking/SMTP.md",
-    "Networking/tcp-vs-udp.md",
-    "Certifications/SANS/Home.md",
-    "README.md",
-    "WGU/C100.md",
-    "Virtual_Infrastructure/Home.md",
-    "Virtual_Infrastructure/AWS/OpenSearch.md",
-    "Virtual_Infrastructure/AWS/Home.md",
-    "Virtual_Infrastructure/AWS/AWS_Services.md",
-    "Virtual_Infrastructure/AWS/CloudFront.md",
-    "TV_Streaming_Devices/Xbox.md",
-    "TV_Streaming_Devices/LG_TV_WebOS.md",
-    "TV_Streaming_Devices/Home.md",
-    "TV_Streaming_Devices/AppleTV.md",
-    "TV_Streaming_Devices/Amazon_FireTV.md",
     "Assets/images/background.jpg"
   ]
 }
