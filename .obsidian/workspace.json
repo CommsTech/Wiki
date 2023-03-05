@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Web_Applications/Home.md",
+                "file": "Applications/Web_Applications/Search_Engines.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Web_Applications/Home.md",
+                "file": "Applications/Web_Applications/Search_Engines.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Web_Applications/Home.md",
+                "file": "Applications/Web_Applications/Search_Engines.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Web_Applications/Home.md"
+                "file": "Applications/Web_Applications/Search_Engines.md"
               }
             }
           },
@@ -177,6 +177,7 @@
   },
   "active": "7974e471848addab",
   "lastOpenFiles": [
+    "Applications/Web_Applications/Home.md",
     "Applications/Home.md",
     "Applications/Server_Applications/Home.md",
     "Applications/Mobile_Applications/IOS_Apps/Basic_Settings.md",
@@ -202,7 +203,6 @@
     "WGU/C483.md",
     "WGU/C394.md",
     "WGU/C393.md",
-    "WGU/C182.md",
     "Assets/images/background.jpg"
   ]
 }
