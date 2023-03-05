@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating_Systems/Apple_IOS/Change_AppleID_and_Password.md",
+                "file": "Army/Cyber_Awareness_Training.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating_Systems/Apple_IOS/Change_AppleID_and_Password.md",
+                "file": "Army/Cyber_Awareness_Training.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating_Systems/Apple_IOS/Change_AppleID_and_Password.md",
+                "file": "Army/Cyber_Awareness_Training.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating_Systems/Apple_IOS/Change_AppleID_and_Password.md"
+                "file": "Army/Cyber_Awareness_Training.md"
               }
             }
           },
@@ -230,8 +230,11 @@
   },
   "active": "bab61cdbe37f432d",
   "lastOpenFiles": [
-    "Operating_Systems/Apple_IOS/Home.md",
+    "How_to_Markdown.md",
+    "Home.md",
+    "Applications/Home.md",
     "Operating_Systems/Apple_IOS/Change_AppleID_and_Password.md",
+    "Operating_Systems/Apple_IOS/Home.md",
     "Operating_Systems/Truenas_Scale/Multiuse_drives.md",
     "Operating_Systems/Home.md",
     "Operating_Systems/Xen_Server/Home.md",
@@ -253,9 +256,6 @@
     "Networking/Cisco/Home.md",
     "Certifications/Cisco/Home.md",
     "Certifications/Cisco/CCNA.md",
-    "Applications/Web_Applications/Search_Engines.md",
-    "Applications/Web_Applications/Home.md",
-    "Applications/Home.md",
     "Assets/images/background.jpg"
   ]
 }

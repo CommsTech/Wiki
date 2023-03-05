@@ -3,7 +3,7 @@ title: Change your AppleID and Password
 description: 
 published: true
 date: 2022-07-25T13:12:21.756Z
-tags: 
+tags: IOS, Apple
 editor: markdown
 dateCreated: 2022-05-21T16:04:56.036Z
 ---
