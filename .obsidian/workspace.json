@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "README.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "README.md"
               }
             }
           },
@@ -177,6 +177,7 @@
   },
   "active": "7974e471848addab",
   "lastOpenFiles": [
+    "Home.md",
     "About Me.md",
     "WGU/C100.md",
     "Virtual_Infrastructure/Home.md",
@@ -202,7 +203,6 @@
     "Operating_Systems/Windows/windows-updates.md",
     "Operating_Systems/Windows/windows-terminal.md",
     "Operating_Systems/Windows/windows-dns-server.md",
-    "Operating_Systems/Windows/UNEXPECTED_STORE_EXCEPTION.md",
     "Assets/images/background.jpg"
   ]
 }

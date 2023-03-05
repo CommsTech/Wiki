@@ -3,7 +3,7 @@ title: Home
 description: Landing Page
 published: true
 date: 2022-08-30T17:27:40.994Z
-tags: Tech, networking, college
+tags: Tech, Networking, College
 editor: markdown
 dateCreated: 2022-08-30T17:27:40.994Z
 ---
