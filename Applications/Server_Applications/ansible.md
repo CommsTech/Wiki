@@ -1,5 +1,10 @@
-# Ansible Cheat-Sheet
-## Install Ansible on Ubuntu
+
+# Ansible
+Ansible is an open source community project sponsored by Red Hat, it's the simplest way to automate IT. Ansible is the only automation language that can be used across entire IT teams from systems and network administrators to developers and managers
+
+
+## Ansible Cheat-Sheet
+### Install Ansible on Ubuntu
 1. Install PIP
 ```bash
 sudo apt install python3-pip

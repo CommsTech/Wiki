@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/Home.md",
+                "file": "Applications/Server_Applications/ansible.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/Home.md",
+                "file": "Applications/Server_Applications/ansible.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/Home.md",
+                "file": "Applications/Server_Applications/ansible.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/Home.md"
+                "file": "Applications/Server_Applications/ansible.md"
               }
             }
           },
@@ -177,6 +177,7 @@
   },
   "active": "7974e471848addab",
   "lastOpenFiles": [
+    "Applications/Server_Applications/Home.md",
     "Applications/Mobile_Applications/IOS_Apps/Home.md",
     "Applications/Desktop_Applications/Home.md",
     "Applications/Mobile_Applications/IOS_Apps/Basic_Settings.md",
@@ -201,7 +202,6 @@
     "Privacy/Guide_to_Online_Anonymity.md",
     "Privacy/Data_Removal_Guide.md",
     "Others/Cryptocurrency/Polygon.md",
-    "Others/Cryptocurrency/Cryptomining.md",
-    "Applications/Server_Applications/WSL.md"
+    "Others/Cryptocurrency/Cryptomining.md"
   ]
 }
