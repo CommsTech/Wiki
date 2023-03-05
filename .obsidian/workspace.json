@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "How_to_Markdown.md",
+                "file": "Certifications/PMI/pmi_acp.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "How_to_Markdown.md",
+                "file": "Certifications/PMI/pmi_acp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "How_to_Markdown.md",
+                "file": "Certifications/PMI/pmi_acp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "How_to_Markdown.md"
+                "file": "Certifications/PMI/pmi_acp.md"
               }
             }
           },
@@ -230,7 +230,9 @@
   },
   "active": "bab61cdbe37f432d",
   "lastOpenFiles": [
+    "Donate.md",
     "Home.md",
+    "README.md",
     "How_to_Markdown.md",
     "Army/Cyber_Awareness_Training.md",
     "Applications/Home.md",
@@ -254,8 +256,6 @@
     "WGU/Home.md",
     "Networking/Cloudflare/Home.md",
     "Networking/Cisco/3850_Running_Config.md",
-    "Networking/Cisco/Home.md",
-    "Certifications/Cisco/Home.md",
     "Assets/images/background.jpg"
   ]
 }
