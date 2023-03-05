@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Desktop_Applications/WinSCP.md",
+                "file": "Applications/Server_Applications/Home.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Desktop_Applications/WinSCP.md",
+                "file": "Applications/Server_Applications/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Desktop_Applications/WinSCP.md",
+                "file": "Applications/Server_Applications/Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Desktop_Applications/WinSCP.md"
+                "file": "Applications/Server_Applications/Home.md"
               }
             }
           },
@@ -177,12 +177,16 @@
   },
   "active": "7974e471848addab",
   "lastOpenFiles": [
+    "Applications/Mobile_Applications/IOS_Apps/Home.md",
+    "Applications/Desktop_Applications/Home.md",
+    "Applications/Mobile_Applications/IOS_Apps/Basic_Settings.md",
+    "Applications/Desktop_Applications/Wireshark.md",
+    "Applications/Desktop_Applications/WinSCP.md",
     "Applications/Desktop_Applications/Windows_Mac_Plex_Settings.md",
     "Applications/Desktop_Applications/Ventoy.md",
     "Applications/Desktop_Applications/PrivaZer.md",
     "Applications/Desktop_Applications/portmaster.md",
     "Applications/Desktop_Applications/notepadplusplus.md",
-    "Applications/Desktop_Applications/Home.md",
     "Applications/Desktop_Applications/GIMP.md",
     "Applications/Desktop_Applications/FreeTube.md",
     "Home.md",
@@ -198,10 +202,6 @@
     "Privacy/Data_Removal_Guide.md",
     "Others/Cryptocurrency/Polygon.md",
     "Others/Cryptocurrency/Cryptomining.md",
-    "Applications/Server_Applications/WSL.md",
-    "Applications/Home.md",
-    "Applications/Server_Applications/Home.md",
-    "Applications/Mobile_Applications/Home.md",
-    "Applications/Mobile_Applications/IOS_Apps/Home.md"
+    "Applications/Server_Applications/WSL.md"
   ]
 }
