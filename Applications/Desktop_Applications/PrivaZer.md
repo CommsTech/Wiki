@@ -9,6 +9,7 @@ dateCreated: 2022-05-09T14:14:37.574Z
 ---
 # [PrivaZer](https://privazer.com/en/)
 ## Free PC cleaner & Privacy tool
+Not Opensource
 
 
 

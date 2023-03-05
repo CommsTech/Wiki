@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Desktop_Applications/GIMP.md",
+                "file": "Applications/Desktop_Applications/WinSCP.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Desktop_Applications/GIMP.md",
+                "file": "Applications/Desktop_Applications/WinSCP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Desktop_Applications/GIMP.md",
+                "file": "Applications/Desktop_Applications/WinSCP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Desktop_Applications/GIMP.md"
+                "file": "Applications/Desktop_Applications/WinSCP.md"
               }
             }
           },
@@ -177,8 +177,14 @@
   },
   "active": "7974e471848addab",
   "lastOpenFiles": [
-    "Applications/Desktop_Applications/FreeTube.md",
+    "Applications/Desktop_Applications/Windows_Mac_Plex_Settings.md",
+    "Applications/Desktop_Applications/Ventoy.md",
+    "Applications/Desktop_Applications/PrivaZer.md",
+    "Applications/Desktop_Applications/portmaster.md",
+    "Applications/Desktop_Applications/notepadplusplus.md",
     "Applications/Desktop_Applications/Home.md",
+    "Applications/Desktop_Applications/GIMP.md",
+    "Applications/Desktop_Applications/FreeTube.md",
     "Home.md",
     "ArmyLinks.md",
     "Applications/Server_Applications/EmulatorJS.md",
@@ -196,12 +202,6 @@
     "Applications/Home.md",
     "Applications/Server_Applications/Home.md",
     "Applications/Mobile_Applications/Home.md",
-    "Applications/Mobile_Applications/IOS_Apps/Home.md",
-    "Applications/Mobile_Applications/IOS_Apps/Basic_Settings.md",
-    "Applications/Desktop_Applications/Windows_Mac_Plex_Settings.md",
-    "Applications/Desktop_Applications/Excel/Pivot_Table.md",
-    "Applications/Desktop_Applications/Excel/Home.md",
-    "WGU/home.md",
-    "WGU/C963.md"
+    "Applications/Mobile_Applications/IOS_Apps/Home.md"
   ]
 }
