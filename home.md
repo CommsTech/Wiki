@@ -38,7 +38,7 @@ Networking
 - [librespeed](https://speedtest.commsnet.org)
 - [Unifi-Controller]()
 
-File Storage and Collaberation
+File Storage and Collaboration
 - [Nextcloud](https://nextcloud.commsnet.org)
 - [gittea](https://git.commsnet.org)
 - [wiki.js](https://wikijs.commsnet.org)
@@ -47,7 +47,7 @@ File Storage and Collaberation
 
 Games
 - [EmulatorJS](https://games.commsnet.org)
-- [Minecraft Server (Bedrock)](tcp:minecraft.commsnet.org:19132)
+- [Minecraft Server (Bedrock)](myst.commsnet.org:19132)
 
 Search Engine
 - [whoogle](!https://whoogle.commsnet.org)- Discontinued in favor of SearXNG ([Guide to setup as default Search Engine])
@@ -70,7 +70,7 @@ Analytics
 Security
 - [AlienVault]()
 - [SecurityOnion]()
-- [CyberChef](https://cyberchef.commsnet.org)
+- [CyberChef](https://cyberchef.commsnet.org) - Discontinued as no one ever used it
 
 Home Automations
 - [HomeAssistant (Docker)]()
