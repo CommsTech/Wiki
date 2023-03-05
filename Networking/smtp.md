@@ -1,4 +1,4 @@
-# SMTP
+# Simple Mail Transport Protocol
 
 
 ## Troubleshooting
