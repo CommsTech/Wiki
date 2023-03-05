@@ -19,8 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "335335d3b1f45411",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.16"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -175,7 +186,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7974e471848addab",
+  "active": "335335d3b1f45411",
   "lastOpenFiles": [
     "Applications/Server_Applications/EmulatorJS.md",
     "Applications/Server_Applications/Searxng.md",
