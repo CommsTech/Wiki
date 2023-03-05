@@ -13,14 +13,67 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/cloudflared.md",
+                "file": "Operating_Systems/Home.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "27f488e6c1988e49",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Operating_Systems/Home.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d7fbbdb1e34de2ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Operating_Systems/Truenas_Scale/Home.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "209eac53604e448b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Operating_Systems/Windows/Home.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bab61cdbe37f432d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Operating_Systems/Home.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -86,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/cloudflared.md",
+                "file": "Operating_Systems/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/cloudflared.md",
+                "file": "Operating_Systems/Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/cloudflared.md"
+                "file": "Operating_Systems/Home.md"
               }
             }
           },
@@ -175,8 +228,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7974e471848addab",
+  "active": "bab61cdbe37f432d",
   "lastOpenFiles": [
+    "Operating_Systems/Xen_Server/Home.md",
+    "Operating_Systems/Windows/Home.md",
+    "Operating_Systems/Xen_Server/Xen_Orchestra_Installation.md",
+    "Operating_Systems/Home.md",
+    "Operating_Systems/Truenas_Scale/Home.md",
+    "Operating_Systems/MacOS/Home.md",
+    "Operating_Systems/Apple_IOS/Home.md",
+    "Operating_Systems/Linux/Home.md",
+    "Privacy/Home.md",
+    "Privacy/Guide_to_Online_Anonymity.md",
+    "Privacy/OSINT.md",
+    "Applications/Server_Applications/cloudflared.md",
     "Applications/Desktop_Applications/FreeTube.md",
     "Applications/Server_Applications/Icinga.md",
     "Applications/Desktop_Applications/Wireshark.md",
@@ -191,18 +256,6 @@
     "Applications/Home.md",
     "Applications/Server_Applications/Home.md",
     "Applications/Mobile_Applications/IOS_Apps/Basic_Settings.md",
-    "Applications/Mobile_Applications/IOS_Apps/Plex.md",
-    "Applications/Mobile_Applications/IOS_Apps/Home.md",
-    "Hardware/Tablets/Dell_Venue_11_Pro.md",
-    "Certifications/Home.md",
-    "home.md",
-    "WGU/C165.md",
-    "WGU/C963.md",
-    "WGU/C955.md",
-    "WGU/C859.md",
-    "WGU/C924.md",
-    "WGU/C851.md",
-    "WGU/C849.md",
     "Assets/images/background.jpg"
   ]
 }
