@@ -2,11 +2,12 @@
 title: Home
 description: Landing Page
 published: true
-date: 2022-08-30T17:27:40.994Z
-tags: Tech, Networking, College
+date: 2023-03-05T15:20:31.689Z
+tags: networking, college, tech
 editor: markdown
 dateCreated: 2022-08-30T17:27:40.994Z
 ---
+
 # Commsnet Wiki
 
 Welcome to Commsnet Wiki! your one stop shop for all things technical
@@ -74,5 +75,5 @@ Home Automations
 - [HomeAssistant (Docker)]()
 
 ## PRIVACY NOTICE
-There are no analytics collected on this site by me. if you are seeing some please let me know as I will force disable them on the server end if possible.
+There are no analytics collected on this site by me. If you are seeing some trackers, loggers, or anything other than the wiki pages, please let me know as I will force disable them on the server end if possible.
 
