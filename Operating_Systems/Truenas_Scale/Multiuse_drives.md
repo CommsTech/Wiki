@@ -5,22 +5,6 @@ How to use a single NVMe as boot, cache and slog device
 
 ​
 
-Video
-
-Useful Links
-
-Related Videos
-
-Credits
-
-​
-
-**Please read our disclaimer** [**https://docs.ibracorp.io/#disclaimer**](https://docs.ibracorp.io/#disclaimer)**.**
-
-**​**
-
-## 
-
 Caution[](https://docs.ibracorp.io/truenas-scale#caution)
 
 The method described below will allow you to use a single drive as TrueNAS Scale boot device, ZFS cache device and zfs write intent log (slog).

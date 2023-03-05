@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating_Systems/Home.md",
+                "file": "Operating_Systems/Apple_IOS/Change_AppleID_and_Password.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating_Systems/Home.md",
+                "file": "Operating_Systems/Apple_IOS/Change_AppleID_and_Password.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating_Systems/Home.md",
+                "file": "Operating_Systems/Apple_IOS/Change_AppleID_and_Password.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating_Systems/Home.md"
+                "file": "Operating_Systems/Apple_IOS/Change_AppleID_and_Password.md"
               }
             }
           },
@@ -230,13 +230,15 @@
   },
   "active": "bab61cdbe37f432d",
   "lastOpenFiles": [
+    "Operating_Systems/Apple_IOS/Home.md",
+    "Operating_Systems/Apple_IOS/Change_AppleID_and_Password.md",
+    "Operating_Systems/Truenas_Scale/Multiuse_drives.md",
+    "Operating_Systems/Home.md",
     "Operating_Systems/Xen_Server/Home.md",
     "Operating_Systems/Windows/Home.md",
     "Operating_Systems/Xen_Server/Xen_Orchestra_Installation.md",
-    "Operating_Systems/Home.md",
     "Operating_Systems/Truenas_Scale/Home.md",
     "Operating_Systems/MacOS/Home.md",
-    "Operating_Systems/Apple_IOS/Home.md",
     "Operating_Systems/Linux/Home.md",
     "Privacy/Home.md",
     "Privacy/Guide_to_Online_Anonymity.md",
@@ -254,8 +256,6 @@
     "Applications/Web_Applications/Search_Engines.md",
     "Applications/Web_Applications/Home.md",
     "Applications/Home.md",
-    "Applications/Server_Applications/Home.md",
-    "Applications/Mobile_Applications/IOS_Apps/Basic_Settings.md",
     "Assets/images/background.jpg"
   ]
 }

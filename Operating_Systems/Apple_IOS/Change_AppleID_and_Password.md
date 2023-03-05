@@ -1,4 +1,15 @@
-## How to Change Your Apple ID on iOS or iPadOS
+---
+title: Change your AppleID and Password
+description: 
+published: true
+date: 2022-07-25T13:12:21.756Z
+tags: 
+editor: markdown
+dateCreated: 2022-05-21T16:04:56.036Z
+---
+
+# How to change your Apple ID on various platforms
+## Change Your Apple ID on iOS or iPadOS
 
 Follow these instructions to change the email address you use to sign in to your Apple ID from iOS or iPadOS:
 
@@ -35,7 +46,7 @@ Follow these instructions to change the email address you use to sign in to your
 
 10.  Enter the verification code sent to your new Apple ID to confirm the change.
 
-## How to Change Your Apple ID Password on iOS or iPadOS
+## Change Your Apple ID Password on iOS or iPadOS
 
 Follow the steps below to change your Apple ID password on iOS or iPadOS.
 
@@ -64,7 +75,7 @@ Follow the steps below to change your Apple ID password on iOS or iPadOS.
 
 **Tip**: want to [view a saved password in iCloud Keychain](https://www.maketecheasier.com/view-saved-passwords-keychain-osx/)? It’s easy.
 
-## How to Change Your Apple ID on a Computer
+## Change Your Apple ID on a Computer
 
 On a computer, you can change your Apple ID email only from the Web.
 
@@ -85,7 +96,7 @@ On a computer, you can change your Apple ID email only from the Web.
 
 If you use a Mac, you can change your Apple ID password from your Mac’s System Settings app (System Preferences, if you haven’t upgraded to macOS Ventura).
 
-### How to Change Your Apple ID Password on macOS
+### Change Your Apple ID Password on macOS
 
 1.  Launch “System Settings.”
 
@@ -101,7 +112,7 @@ If you use a Mac, you can change your Apple ID password from your Mac’s System
 
 5.  Enter and verify your new Apple ID password.
 
-### How to Change Your Apple ID Password on a Non-Apple Computer
+### Change Your Apple ID Password on a Non-Apple Computer
 
 If you use a Windows or Linux PC, you’ll need to fall back on Apple’s web portal to change your Apple ID password.
 
