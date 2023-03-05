@@ -1,3 +1,12 @@
+---
+title: How to Markdown
+description: Landing Page
+published: true
+date: 2023-03-05T15:20:31.689Z
+tags:
+editor: markdown
+dateCreated: 2022-08-30T17:27:40.994Z
+---
 # Markdown
 
 Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML).

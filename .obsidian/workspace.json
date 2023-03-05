@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Army/Cyber_Awareness_Training.md",
+                "file": "How_to_Markdown.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Army/Cyber_Awareness_Training.md",
+                "file": "How_to_Markdown.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Army/Cyber_Awareness_Training.md",
+                "file": "How_to_Markdown.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Army/Cyber_Awareness_Training.md"
+                "file": "How_to_Markdown.md"
               }
             }
           },
@@ -230,8 +230,9 @@
   },
   "active": "bab61cdbe37f432d",
   "lastOpenFiles": [
-    "How_to_Markdown.md",
     "Home.md",
+    "How_to_Markdown.md",
+    "Army/Cyber_Awareness_Training.md",
     "Applications/Home.md",
     "Operating_Systems/Apple_IOS/Change_AppleID_and_Password.md",
     "Operating_Systems/Apple_IOS/Home.md",
@@ -255,7 +256,6 @@
     "Networking/Cisco/3850_Running_Config.md",
     "Networking/Cisco/Home.md",
     "Certifications/Cisco/Home.md",
-    "Certifications/Cisco/CCNA.md",
     "Assets/images/background.jpg"
   ]
 }
