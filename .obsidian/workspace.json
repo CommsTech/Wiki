@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Certifications/PMI/pmi_acp.md",
+                "file": "Home.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Certifications/PMI/pmi_acp.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Certifications/PMI/pmi_acp.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Certifications/PMI/pmi_acp.md"
+                "file": "Home.md"
               }
             }
           },
@@ -230,6 +230,7 @@
   },
   "active": "bab61cdbe37f432d",
   "lastOpenFiles": [
+    "Certifications/PMI/pmi_acp.md",
     "Donate.md",
     "Home.md",
     "README.md",
@@ -255,7 +256,6 @@
     "Applications/Desktop_Applications/Wireshark.md",
     "WGU/Home.md",
     "Networking/Cloudflare/Home.md",
-    "Networking/Cisco/3850_Running_Config.md",
     "Assets/images/background.jpg"
   ]
 }

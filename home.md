@@ -50,10 +50,11 @@ Games
 - [Minecraft Server (Bedrock)](tcp:minecraft.commsnet.org:19132)
 
 Search Engine
-- [whoogle](https://whoogle.commsnet.org) ([Guide to setup as default Search Engine])
+- [whoogle](!https://whoogle.commsnet.org)- Discontinued in favor of SearXNG ([Guide to setup as default Search Engine])
+- [SearXNG](https://search.commsnet.org)
 
 Dashboard
-- [Organizr](https://organizr.commsnet.org)
+- [Organizr](!https://organizr.commsnet.org) - Discontinued use 
 
 Media
 - [Ombi](https://ombi.commsnet.org)
@@ -64,7 +65,7 @@ Support
 - [MeshCentral](https://support.commsnet.org)
 
 Analytics
-- [Matomo](https://matomo.commsnet.org)
+- [Matomo](!https://matomo.commsnet.org) -Discontinued use as the Analytics gathered were not useful
 
 Security
 - [AlienVault]()
