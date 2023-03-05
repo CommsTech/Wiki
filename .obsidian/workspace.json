@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Others/Home.md",
+                "file": "Applications/Server_Applications/idrac7_Upgrade.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Others/Home.md",
+                "file": "Applications/Server_Applications/idrac7_Upgrade.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Others/Home.md",
+                "file": "Applications/Server_Applications/idrac7_Upgrade.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Others/Home.md"
+                "file": "Applications/Server_Applications/idrac7_Upgrade.md"
               }
             }
           },
@@ -177,12 +177,21 @@
   },
   "active": "7974e471848addab",
   "lastOpenFiles": [
+    "Army/Cyber_Awareness_Training.md",
+    "Certifications/Amazon/Cloud_Practitioner.md",
+    "Operating_Systems/Linux/Clearing_out_Orphaned_Shadow_Copies.md",
+    "Others/Cryptocurrency/Cryptomining.md",
+    "Others/Cryptocurrency/Polygon.md",
+    "Others/FOSS.md",
+    "Others/Hacking_Resources.md",
+    "Others/Home.md",
+    "Home.md",
+    "About_Me.md",
+    "How_to_Markdown.md",
     "Networking/SMTP.md",
     "Networking/tcp-vs-udp.md",
     "Certifications/SANS/Home.md",
     "README.md",
-    "Home.md",
-    "About Me.md",
     "WGU/C100.md",
     "Virtual_Infrastructure/Home.md",
     "Virtual_Infrastructure/AWS/OpenSearch.md",
@@ -194,15 +203,6 @@
     "TV_Streaming_Devices/Home.md",
     "TV_Streaming_Devices/AppleTV.md",
     "TV_Streaming_Devices/Amazon_FireTV.md",
-    "Privacy/OSINT.md",
-    "Privacy/Home.md",
-    "Others/Home.md",
-    "Others/Hacking_Resources.md",
-    "Others/FOSS.md",
-    "Others/Cryptocurrency/Polygon.md",
-    "Others/Cryptocurrency/Cryptomining.md",
-    "Operating_Systems/Quickemu.md",
-    "Operating_Systems/Home.md",
     "Assets/images/background.jpg"
   ]
 }
