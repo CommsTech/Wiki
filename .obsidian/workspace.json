@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WGU/C165.md",
+                "file": "WGU/Home.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WGU/C165.md",
+                "file": "WGU/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WGU/C165.md",
+                "file": "WGU/Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WGU/C165.md"
+                "file": "WGU/Home.md"
               }
             }
           },
@@ -177,6 +177,8 @@
   },
   "active": "7974e471848addab",
   "lastOpenFiles": [
+    "WGU/C165.md",
+    "WGU/Home.md",
     "WGU/C963.md",
     "WGU/C955.md",
     "WGU/C859.md",
@@ -195,9 +197,7 @@
     "WGU/C182.md",
     "WGU/C176.md",
     "WGU/C175.md",
-    "WGU/C165.md",
     "WGU/C100.md",
-    "WGU/Home.md",
     "Applications/Server_Applications/idrac7_Upgrade.md",
     "Army/Cyber_Awareness_Training.md",
     "Certifications/Amazon/Cloud_Practitioner.md",
