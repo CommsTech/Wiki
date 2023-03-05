@@ -4,76 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "6947da706be47528",
+        "id": "7e2ea504f5354204",
         "type": "tabs",
         "children": [
           {
-            "id": "7974e471848addab",
+            "id": "a6a90685606f683a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Operating_Systems/Home.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "27f488e6c1988e49",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Operating_Systems/Home.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d7fbbdb1e34de2ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Operating_Systems/Truenas_Scale/Home.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "209eac53604e448b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Operating_Systems/Windows/Home.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bab61cdbe37f432d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -139,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Home.md"
-              }
+              "state": {}
             }
           },
           {
@@ -228,11 +166,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bab61cdbe37f432d",
+  "active": "a6a90685606f683a",
   "lastOpenFiles": [
+    "Operating_Systems/Home.md",
+    "Operating_Systems/Truenas_Scale/Home.md",
+    "Operating_Systems/Windows/Home.md",
+    "Home.md",
     "Certifications/PMI/pmi_acp.md",
     "Donate.md",
-    "Home.md",
     "README.md",
     "How_to_Markdown.md",
     "Army/Cyber_Awareness_Training.md",
@@ -240,11 +181,8 @@
     "Operating_Systems/Apple_IOS/Change_AppleID_and_Password.md",
     "Operating_Systems/Apple_IOS/Home.md",
     "Operating_Systems/Truenas_Scale/Multiuse_drives.md",
-    "Operating_Systems/Home.md",
     "Operating_Systems/Xen_Server/Home.md",
-    "Operating_Systems/Windows/Home.md",
     "Operating_Systems/Xen_Server/Xen_Orchestra_Installation.md",
-    "Operating_Systems/Truenas_Scale/Home.md",
     "Operating_Systems/MacOS/Home.md",
     "Operating_Systems/Linux/Home.md",
     "Privacy/Home.md",
