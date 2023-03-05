@@ -3,7 +3,7 @@ title: Wireshark
 description: network packet capture and analyzer
 published: true
 date: 2022-07-25T13:15:14.635Z
-tags: network, analyzer, troubleshooting
+tags: Networking, Analyzer, Troubleshooting
 editor: markdown
 dateCreated: 2022-05-09T14:14:37.574Z
 ---

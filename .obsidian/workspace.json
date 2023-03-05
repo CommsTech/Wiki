@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Web_Applications/Search_Engines.md",
+                "file": "Applications/Desktop_Applications/FreeTube.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Web_Applications/Search_Engines.md",
+                "file": "Applications/Desktop_Applications/FreeTube.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Web_Applications/Search_Engines.md",
+                "file": "Applications/Desktop_Applications/FreeTube.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Web_Applications/Search_Engines.md"
+                "file": "Applications/Desktop_Applications/FreeTube.md"
               }
             }
           },
@@ -177,6 +177,15 @@
   },
   "active": "7974e471848addab",
   "lastOpenFiles": [
+    "Applications/Server_Applications/Icinga.md",
+    "Applications/Desktop_Applications/Wireshark.md",
+    "WGU/Home.md",
+    "Networking/Cloudflare/Home.md",
+    "Networking/Cisco/3850_Running_Config.md",
+    "Networking/Cisco/Home.md",
+    "Certifications/Cisco/Home.md",
+    "Certifications/Cisco/CCNA.md",
+    "Applications/Web_Applications/Search_Engines.md",
     "Applications/Web_Applications/Home.md",
     "Applications/Home.md",
     "Applications/Server_Applications/Home.md",
@@ -185,7 +194,6 @@
     "Applications/Mobile_Applications/IOS_Apps/Home.md",
     "Hardware/Tablets/Dell_Venue_11_Pro.md",
     "Certifications/Home.md",
-    "WGU/Home.md",
     "home.md",
     "WGU/C165.md",
     "WGU/C963.md",
@@ -195,14 +203,6 @@
     "WGU/C851.md",
     "WGU/C849.md",
     "WGU/C846.md",
-    "WGU/C839.md",
-    "WGU/C838.md",
-    "WGU/C779.md",
-    "WGU/C769.md",
-    "WGU/C768.md",
-    "WGU/C483.md",
-    "WGU/C394.md",
-    "WGU/C393.md",
     "Assets/images/background.jpg"
   ]
 }
