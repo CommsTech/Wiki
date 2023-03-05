@@ -1,3 +1,12 @@
+---
+title: DNS Record Mailserver
+description: 
+published: true
+date: 2022-07-25T13:15:54.706Z
+tags: 
+editor: markdown
+dateCreated: 2022-05-21T15:28:21.146Z
+---
 # Mail Server DNS Records Cheat-Sheet
 If you want to run a mail server on the public internet, you need to set up your DNS records correctly. While some DNS Records ([[dns-record-types]]) are necessary to send and receive emails, others are recommended to build a good reputation.
 

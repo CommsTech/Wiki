@@ -1,3 +1,12 @@
+---
+title: Windows DNS Server
+description: 
+published: true
+date: 2022-07-25T13:15:54.706Z
+tags: 
+editor: markdown
+dateCreated: 2022-05-21T15:28:21.146Z
+---
 # Windows DNS Server
 
 In Windows Server, DNS is a server role that you can install by using Server Manager or Windows PowerShell commands. If you are installing a new Active Directory forest and domain, DNS is automatically installed with Active Directory as the Global Catalogue server for the forest and domain.

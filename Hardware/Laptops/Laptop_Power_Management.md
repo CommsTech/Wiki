@@ -1,3 +1,12 @@
+---
+title: Laptop Power Management
+description: 
+published: true
+date: 2022-07-25T13:15:54.706Z
+tags: 
+editor: markdown
+dateCreated: 2022-05-21T15:28:21.146Z
+---
 # [Laptop Power Management](https://christitus.com/laptop-power-management/ "See on original website")
 
 [![✇](https://freshrss.commsnet.org/f.php?5564140e)Windows on Chris Titus Tech | Tech Content Creator](https://freshrss.commsnet.org/i/?get=f_10 "Filter") 

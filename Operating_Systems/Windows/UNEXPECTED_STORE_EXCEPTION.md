@@ -1,3 +1,13 @@
+---
+title: Unexpected Store Exception
+description: 
+published: true
+date: 2022-07-25T13:15:54.706Z
+tags: 
+editor: markdown
+dateCreated: 2022-05-21T15:28:21.146Z
+---
+# Unexpected Store Exception
 ## What Is the “Unexpected Store Exception” Error in Windows?
 
 The “Unexpected Store Exception” error is caused by various hardware and file integrity issues associated with the kernel memory module. The bug is also known as _UNEXPECTED_STORE___EXCEPTION an_d has a value of 0x00000154, which refers to a “stop code,” a special category of blue screen errors.

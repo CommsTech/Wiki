@@ -1,3 +1,12 @@
+---
+title: DNS-Encryption
+description: 
+published: true
+date: 2022-07-25T13:15:54.706Z
+tags: 
+editor: markdown
+dateCreated: 2022-05-21T15:28:21.146Z
+---
 # DNS Encryption
 Ever since DNS was created in 1987, it has been largely unencrypted. Everyone between your device and the resolver is able to snoop on or even modify your DNS queries and responses.
 

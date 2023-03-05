@@ -7,7 +7,9 @@ tags: networking, Subnetting
 editor: markdown
 dateCreated: 2022-05-16T14:22:22.830Z
 ---
-# Table of Contents
+# Subnetting
+
+## Table of Contents
 
 Subnetting–What Is It and Why Learn It?
 Your Subnetting Journey

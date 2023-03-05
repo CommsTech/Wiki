@@ -1,3 +1,14 @@
+---
+title: Corrupted OS Repair
+description: 
+published: true
+date: 2022-07-25T13:15:54.706Z
+tags: 
+editor: markdown
+dateCreated: 2022-05-21T15:28:21.146Z
+---
+# Corrupted OS (Windows Repair)
+
 Using SFC and DISM is often done in haste and incorrectly. If you need to fix a corrupted install, then a special DISM command MUST BE issued.
 
 ## The Commands

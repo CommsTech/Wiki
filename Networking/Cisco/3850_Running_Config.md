@@ -7,6 +7,8 @@ tags: Cisco, IT, Config
 editor: markdown
 dateCreated: 2022-09-09T04:44:01.149Z
 ---
+# Cisco 3850 Running Config
+
 # Running Config Follows
 version 16.12
 no service pad

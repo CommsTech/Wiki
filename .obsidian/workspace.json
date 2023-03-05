@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/ansible.md",
+                "file": "Home.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/ansible.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/ansible.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/ansible.md"
+                "file": "Home.md"
               }
             }
           },
@@ -177,31 +177,32 @@
   },
   "active": "7974e471848addab",
   "lastOpenFiles": [
-    "Applications/Server_Applications/Home.md",
-    "Applications/Mobile_Applications/IOS_Apps/Home.md",
-    "Applications/Desktop_Applications/Home.md",
-    "Applications/Mobile_Applications/IOS_Apps/Basic_Settings.md",
-    "Applications/Desktop_Applications/Wireshark.md",
-    "Applications/Desktop_Applications/WinSCP.md",
-    "Applications/Desktop_Applications/Windows_Mac_Plex_Settings.md",
-    "Applications/Desktop_Applications/Ventoy.md",
-    "Applications/Desktop_Applications/PrivaZer.md",
-    "Applications/Desktop_Applications/portmaster.md",
-    "Applications/Desktop_Applications/notepadplusplus.md",
-    "Applications/Desktop_Applications/GIMP.md",
-    "Applications/Desktop_Applications/FreeTube.md",
-    "Home.md",
-    "ArmyLinks.md",
-    "Applications/Server_Applications/EmulatorJS.md",
-    "Applications/Server_Applications/Searxng.md",
-    "Applications/Server_Applications/Tailscale.md",
-    "Applications/Server_Applications/Synapse.md",
+    "About Me.md",
+    "WGU/C100.md",
     "Virtual_Infrastructure/Home.md",
+    "Virtual_Infrastructure/AWS/OpenSearch.md",
+    "Virtual_Infrastructure/AWS/Home.md",
+    "Virtual_Infrastructure/AWS/AWS_Services.md",
+    "Virtual_Infrastructure/AWS/CloudFront.md",
+    "TV_Streaming_Devices/Xbox.md",
+    "TV_Streaming_Devices/LG_TV_WebOS.md",
+    "TV_Streaming_Devices/Home.md",
+    "TV_Streaming_Devices/AppleTV.md",
+    "TV_Streaming_Devices/Amazon_FireTV.md",
     "Privacy/OSINT.md",
     "Privacy/Home.md",
-    "Privacy/Guide_to_Online_Anonymity.md",
-    "Privacy/Data_Removal_Guide.md",
+    "Others/Home.md",
+    "Others/Hacking_Resources.md",
+    "Others/FOSS.md",
     "Others/Cryptocurrency/Polygon.md",
-    "Others/Cryptocurrency/Cryptomining.md"
+    "Others/Cryptocurrency/Cryptomining.md",
+    "Operating_Systems/Quickemu.md",
+    "Operating_Systems/Home.md",
+    "Operating_Systems/Xen_Server/Xen_Orchestra_Installation.md",
+    "Operating_Systems/Windows/windows-updates.md",
+    "Operating_Systems/Windows/windows-terminal.md",
+    "Operating_Systems/Windows/windows-dns-server.md",
+    "Operating_Systems/Windows/UNEXPECTED_STORE_EXCEPTION.md",
+    "Assets/images/background.jpg"
   ]
 }
