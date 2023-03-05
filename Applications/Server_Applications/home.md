@@ -3,7 +3,7 @@ title: Server Applications Home
 description: All the Server/ Docker / K8 Info Heres a few tools that I utilize to make prepare my media collection for streaming High quility low bandwidth.
 published: true
 date: 2022-07-25T13:13:18.198Z
-tags: Servers, Applications
+tags: Server, Application
 editor: markdown
 dateCreated: 2022-05-21T15:26:38.051Z
 ---

@@ -3,7 +3,7 @@ title: Web Applications
 description: 
 published: true
 date: 2022-09-03T14:01:16.921Z
-tags: Web, Applications
+tags: Web, Application
 editor: markdown
 dateCreated: 2022-08-30T17:27:35.492Z
 ---

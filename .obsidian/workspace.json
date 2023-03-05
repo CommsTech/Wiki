@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Certifications/Home.md",
+                "file": "Applications/Web_Applications/Home.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Certifications/Home.md",
+                "file": "Applications/Web_Applications/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Certifications/Home.md",
+                "file": "Applications/Web_Applications/Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Certifications/Home.md"
+                "file": "Applications/Web_Applications/Home.md"
               }
             }
           },
@@ -177,6 +177,13 @@
   },
   "active": "7974e471848addab",
   "lastOpenFiles": [
+    "Applications/Home.md",
+    "Applications/Server_Applications/Home.md",
+    "Applications/Mobile_Applications/IOS_Apps/Basic_Settings.md",
+    "Applications/Mobile_Applications/IOS_Apps/Plex.md",
+    "Applications/Mobile_Applications/IOS_Apps/Home.md",
+    "Hardware/Tablets/Dell_Venue_11_Pro.md",
+    "Certifications/Home.md",
     "WGU/Home.md",
     "home.md",
     "WGU/C165.md",
@@ -196,13 +203,6 @@
     "WGU/C394.md",
     "WGU/C393.md",
     "WGU/C182.md",
-    "WGU/C176.md",
-    "WGU/C175.md",
-    "WGU/C100.md",
-    "Applications/Server_Applications/idrac7_Upgrade.md",
-    "Army/Cyber_Awareness_Training.md",
-    "Certifications/Amazon/Cloud_Practitioner.md",
-    "Operating_Systems/Linux/Clearing_out_Orphaned_Shadow_Copies.md",
     "Assets/images/background.jpg"
   ]
 }

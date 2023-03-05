@@ -3,7 +3,7 @@ title: IOS OS Basic Settings
 description: IOS Settings to improve privacy and security
 published: true
 date: 2022-07-25T13:15:14.635Z
-tags: apple, Applications, IOS
+tags: Apple, Application, IOS
 editor: markdown
 dateCreated: 2022-05-09T14:14:37.574Z
 ---
