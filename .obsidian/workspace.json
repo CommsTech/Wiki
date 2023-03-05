@@ -13,25 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/ansible.md",
+                "file": "Home.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
-          },
-          {
-            "id": "335335d3b1f45411",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.16"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/ansible.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/ansible.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/ansible.md"
+                "file": "Home.md"
               }
             }
           },
@@ -186,8 +175,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "335335d3b1f45411",
+  "active": "7974e471848addab",
   "lastOpenFiles": [
+    "ArmyLinks.md",
     "Applications/Server_Applications/EmulatorJS.md",
     "Applications/Server_Applications/Searxng.md",
     "Applications/Server_Applications/Tailscale.md",
@@ -212,7 +202,6 @@
     "Applications/Desktop_Applications/Excel/Home.md",
     "WGU/home.md",
     "WGU/C963.md",
-    "WGU/C955.md",
-    "WGU/C924.md"
+    "WGU/C955.md"
   ]
 }
