@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WGU/Home.md",
+                "file": "Certifications/Home.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WGU/Home.md",
+                "file": "Certifications/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WGU/Home.md",
+                "file": "Certifications/Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WGU/Home.md"
+                "file": "Certifications/Home.md"
               }
             }
           },
@@ -177,9 +177,9 @@
   },
   "active": "7974e471848addab",
   "lastOpenFiles": [
+    "WGU/Home.md",
     "home.md",
     "WGU/C165.md",
-    "WGU/Home.md",
     "WGU/C963.md",
     "WGU/C955.md",
     "WGU/C859.md",
