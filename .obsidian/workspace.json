@@ -11,8 +11,13 @@
             "id": "a6a90685606f683a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Home.md"
+              }
             }
           },
           {
@@ -168,10 +177,11 @@
   },
   "active": "a6a90685606f683a",
   "lastOpenFiles": [
+    "TV_Streaming_Devices/Home.md",
+    "Home.md",
     "Operating_Systems/Home.md",
     "Operating_Systems/Truenas_Scale/Home.md",
     "Operating_Systems/Windows/Home.md",
-    "Home.md",
     "Certifications/PMI/pmi_acp.md",
     "Donate.md",
     "README.md",
@@ -193,7 +203,6 @@
     "Applications/Server_Applications/Icinga.md",
     "Applications/Desktop_Applications/Wireshark.md",
     "WGU/Home.md",
-    "Networking/Cloudflare/Home.md",
     "Assets/images/background.jpg"
   ]
 }

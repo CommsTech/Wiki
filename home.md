@@ -20,7 +20,7 @@ This Wiki is built on [Obsidian Note Taking software]() as the backend. Gittea s
 - [Certifications](https://wiki.commsnet.org/en/Certifications/home)
 - [Networking](https://wiki.commsnet.org/en/Networking/home)
 - [Hardware](https://wiki.commsnet.org/en/Hardware/home)
-- [TV and Streaming Devices](https://wiki.commsnet.org/en/TV_Streaming_Devices)
+- [TV and Streaming Devices](https://wiki.commsnet.org/en/TV_Streaming_Devices/Home)
 - [Operating Systems](https://wiki.commsnet.org/en/Operating_Systems/Home)
 - [Applications]()
 	- [Server Applications](https://wiki.commsnet.org/en/Server_Applications/home)
