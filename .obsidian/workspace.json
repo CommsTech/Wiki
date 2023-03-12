@@ -32,9 +32,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a6650e71211d2b17",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Red_Team/Home.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating_Systems/Truenas_Scale/Drive_Replacment.md",
+                "file": "Red_Team/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating_Systems/Truenas_Scale/Drive_Replacment.md",
+                "file": "Red_Team/Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating_Systems/Truenas_Scale/Drive_Replacment.md"
+                "file": "Red_Team/Home.md"
               }
             }
           },
@@ -189,10 +202,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3a3decaf59b0afb1",
+  "active": "a6650e71211d2b17",
   "lastOpenFiles": [
-    "Operating_Systems/Truenas_Scale/Home.md",
+    "Red_Team/Spoofing_365.md",
+    "Red_Team/Home.md",
     "Operating_Systems/Truenas_Scale/Drive_Replacment.md",
+    "Red_Team",
+    "Operating_Systems/Truenas_Scale/Home.md",
     "Applications/Server_Applications/Home.md",
     "Home.md",
     "TV_Streaming_Devices/Home.md",
@@ -215,8 +231,6 @@
     "Privacy/Guide_to_Online_Anonymity.md",
     "Privacy/OSINT.md",
     "Applications/Server_Applications/cloudflared.md",
-    "Applications/Desktop_Applications/FreeTube.md",
-    "Applications/Server_Applications/Icinga.md",
     "Assets/images/background.jpg"
   ]
 }
