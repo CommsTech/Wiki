@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating_Systems/Linux/nfs.md",
+                "file": "Networking/Unifi/Home.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -76,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nfs mount",
+                "query": "unifi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -211,6 +211,8 @@
   },
   "active": "73ee420029073090",
   "lastOpenFiles": [
+    "Applications/Server_Applications/OpenVPN.md",
+    "Applications/Server_Applications/Wiki_JS.md",
     "Applications/Server_Applications/idrac_6.md",
     "Applications/Server_Applications/IDRAC.md",
     "Applications/Server_Applications/idrac7_Upgrade.md",
@@ -236,8 +238,6 @@
     "Operating_Systems/Apple_IOS/Change_AppleID_and_Password.md",
     "Operating_Systems/Apple_IOS/Home.md",
     "Operating_Systems/Truenas_Scale/Multiuse_drives.md",
-    "Operating_Systems/Xen_Server/Home.md",
-    "Operating_Systems/Xen_Server/Xen_Orchestra_Installation.md",
     "Assets/images/background.jpg"
   ]
 }
