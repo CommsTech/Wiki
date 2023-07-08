@@ -245,7 +245,9 @@ SNMP status is _running_ now. You can also open VMware Host Client, go to **H
 
 Test current SNMP configuration.
 
-**esxcli system snmp test**
+```
+esxcli system snmp test
+```
 
 [![Testing VMware ESXi SNMP configuration](https://www.nakivo.com/blog/wp-content/uploads/2021/11/Testing-VMware-ESXi-SNMP-configuration.png)](https://www.nakivo.com/blog/wp-content/uploads/2021/11/Testing-VMware-ESXi-SNMP-configuration.png)
 
