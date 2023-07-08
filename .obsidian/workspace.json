@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Unifi/Home.md",
+                "file": "Applications/Server_Applications/idrac_6.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -100,8 +100,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -121,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Unifi/Home.md",
+                "file": "Applications/Server_Applications/idrac_6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Unifi/Home.md",
+                "file": "Applications/Server_Applications/idrac_6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Unifi/Home.md"
+                "file": "Applications/Server_Applications/idrac_6.md"
               }
             }
           },
@@ -211,6 +210,7 @@
   },
   "active": "a6650e71211d2b17",
   "lastOpenFiles": [
+    "Networking/Unifi/Home.md",
     "Networking/pfSense/pfBlockerNG/DNSBL/Whitelist/Additional_Sites_Whitelist.md",
     "Applications/Server_Applications/gluetun.md",
     "Applications/Server_Applications/grafana.md",
@@ -237,7 +237,6 @@
     "README.md",
     "How_to_Markdown.md",
     "Army/Cyber_Awareness_Training.md",
-    "Applications/Home.md",
     "Assets/images/background.jpg"
   ]
 }
