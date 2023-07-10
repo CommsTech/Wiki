@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/Nextcloud.md",
+                "file": "Applications/Server_Applications/VMWare_ESXi.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/Nextcloud.md",
+                "file": "Applications/Server_Applications/VMWare_ESXi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/Nextcloud.md",
+                "file": "Applications/Server_Applications/VMWare_ESXi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/Nextcloud.md"
+                "file": "Applications/Server_Applications/VMWare_ESXi.md"
               }
             }
           },
@@ -184,10 +184,10 @@
   },
   "active": "a6650e71211d2b17",
   "lastOpenFiles": [
+    "Applications/Server_Applications/idrac_6.md",
+    "Applications/Server_Applications/Nextcloud.md",
     "Applications/Server_Applications/idrac7_Upgrade.md",
     "Applications/Server_Applications/gluetun.md",
-    "Applications/Server_Applications/Nextcloud.md",
-    "Applications/Server_Applications/idrac_6.md",
     "Networking/Unifi/Home.md",
     "Networking/pfSense/pfBlockerNG/DNSBL/Whitelist/Additional_Sites_Whitelist.md",
     "Applications/Server_Applications/grafana.md",
