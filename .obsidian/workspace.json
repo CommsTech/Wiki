@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/VMWare_ESXi.md",
+                "file": "Networking/pfSense/pfBlockerNG/Home.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/VMWare_ESXi.md",
+                "file": "Networking/pfSense/pfBlockerNG/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/VMWare_ESXi.md",
+                "file": "Networking/pfSense/pfBlockerNG/Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/VMWare_ESXi.md"
+                "file": "Networking/pfSense/pfBlockerNG/Home.md"
               }
             }
           },
@@ -184,6 +184,7 @@
   },
   "active": "a6650e71211d2b17",
   "lastOpenFiles": [
+    "Applications/Server_Applications/VMWare_ESXi.md",
     "Applications/Server_Applications/idrac_6.md",
     "Applications/Server_Applications/Nextcloud.md",
     "Applications/Server_Applications/idrac7_Upgrade.md",
@@ -210,7 +211,6 @@
     "Certifications/PMI/pmi_acp.md",
     "Donate.md",
     "README.md",
-    "How_to_Markdown.md",
     "Assets/images/background.jpg"
   ]
 }
