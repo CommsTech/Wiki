@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/pfSense/pfBlockerNG/Home.md",
+                "file": "Networking/Unifi/Home.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/pfSense/pfBlockerNG/Home.md",
+                "file": "Networking/Unifi/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/pfSense/pfBlockerNG/Home.md",
+                "file": "Networking/Unifi/Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/pfSense/pfBlockerNG/Home.md"
+                "file": "Networking/Unifi/Home.md"
               }
             }
           },
@@ -182,8 +182,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a6650e71211d2b17",
+  "active": "73ee420029073090",
   "lastOpenFiles": [
+    "Networking/pfSense/pfBlockerNG/Home.md",
     "Applications/Server_Applications/VMWare_ESXi.md",
     "Applications/Server_Applications/idrac_6.md",
     "Applications/Server_Applications/Nextcloud.md",
@@ -210,7 +211,6 @@
     "Operating_Systems/Windows/Home.md",
     "Certifications/PMI/pmi_acp.md",
     "Donate.md",
-    "README.md",
     "Assets/images/background.jpg"
   ]
 }
