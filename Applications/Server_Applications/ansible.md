@@ -421,3 +421,4 @@ Remember to stay informed about relevant government regulations such as the [NI
 - [Github - simeononsecurity/ansible_windows_update](https://github.com/simeononsecurity/ansible_windows_update)
 - [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
 - [ISO/IEC 27001 - Information Security](https://www.iso.org/isoiec-27001-information-security.html)
+- [automate windows patching and updates with ansible](https://simeononsecurity.ch/guides/automate-windows-patching-and-updates-with-ansible/)
