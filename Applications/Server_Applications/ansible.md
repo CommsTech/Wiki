@@ -307,3 +307,117 @@ run the maintenance play
 
 ### Conditional statements "when"
 Follow along with learn linux tv @ https://watch.thekitty.zone/watch?v=BF7vIk9no14
+
+
+
+
+## Setting Up Ansible Credentials and Host Files [](https://simeononsecurity.ch/guides/automate-windows-patching-and-updates-with-ansible/#setting-up-ansible-credentials-and-host-files)
+
+Before we dive into automating Windows updates, let’s first set up the necessary credentials and host files in Ansible.
+
+1. **Installing Ansible**: If you haven’t already, start by installing Ansible on your linux based ansible controller. You can follow the official Ansible documentation for detailed installation instructions: [Ansible Installation](https://docs.ansible.com/ansible/latest/installation_guide/index.html)
+    
+2. **Configuring Ansible Credentials**: To automate updates on Windows systems, Ansible requires the appropriate credentials. Ensure that you have the necessary administrative credentials for each target system. You can store these credentials securely using Ansible’s Vault or a password manager of your choice.
+    
+3. **Creating the Ansible Hosts File**: The Ansible hosts file defines the inventory of systems you want to manage. Create a text file called `hosts` and specify the target systems using their IP addresses or hostnames. For example:
+    
+
+```ini
+[windows]
+192.168.1.101
+192.168.1.102
+```
+
+Copy
+
+4. **Defining Ansible Variables**: To make the automation process more flexible, you can define variables in Ansible. For Windows updates, you might want to specify the desired update schedule or any additional configurations. Variables can be defined in the `hosts` file or separate variable files.
+
+---
+
+## Automating Windows Updates Using Ansible [](https://simeononsecurity.ch/guides/automate-windows-patching-and-updates-with-ansible/#automating-windows-updates-using-ansible)
+
+With the basic setup in place, let’s now explore how to automate Windows updates using Ansible.
+
+See the role and files:
+
+- [Ansible Galaxy - windows_update](https://galaxy.ansible.com/simeononsecurity/windows_update)
+- [Github - simeononsecurity/ansible_windows_update](https://github.com/simeononsecurity/ansible_windows_update)
+
+1. **Creating the Ansible Playbook**: Ansible playbooks are YAML files that define a series of tasks to be executed on target systems. Create a new YAML file called `update_windows.yml` and define the necessary tasks.
+
+```yaml
+---
+- name: Install Security Patches for Windows
+  hosts: windows
+  gather_facts: false
+
+  tasks:
+    - name: Check for available updates
+      win_updates:
+        category_names:
+          - SecurityUpdates
+        state: searched
+      register: win_updates_result
+
+    - name: Install security updates
+      win_updates:
+        category_names:
+          - SecurityUpdates
+        state: installed
+      when: win_updates_result.updates | length > 0
+```
+
+Copy
+
+Save it in a file named install_security_patches.yml
+
+This playbook first checks for available security updates using the `win_updates` module with the `SecurityUpdates` category. The result is registered in the `win_updates_result` variable. Then, the playbook proceeds to install the security updates if there are any available.
+
+2. **Using Ansible Modules**: Ansible provides various modules to interact with Windows systems. The `win_updates` module is specifically designed for managing Windows updates. Within your playbook, use this module to install updates, check for available updates, or reboot systems if required. Refer to the official Ansible documentation for detailed information on using the `win_updates` module: [Ansible Windows Modules](https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_updates_module.html)
+    
+3. **Running the Ansible Playbook**: Once you have defined the tasks in your playbook, run it using the `ansible-playbook` command, specifying the playbook file and the target hosts. For example:
+    
+
+```shell
+ansible-playbook -i hosts install_security_patches.yml
+```
+
+Copy
+
+4. **Schedule Regular Execution**: To ensure that updates are applied consistently, you can schedule the execution of the Ansible playbook at regular intervals. Tools like cron (on Linux) or Task Scheduler (on Windows) can be used to automate this process. You should use cron to for this specifically as the playbook is launched from an linux based ansible controller.
+
+Open crontab
+
+```bash
+   crontab -e
+```
+
+Copy
+
+Add the following line after you modify it
+
+```text
+0 3 * * * ansible-playbook -i /path/to/hosts /path/to/playbook.yml
+```
+
+Copy
+
+---
+
+## Conclusion [](https://simeononsecurity.ch/guides/automate-windows-patching-and-updates-with-ansible/#conclusion)
+
+Automating Windows updates with Ansible can greatly simplify the management of updates across your infrastructure. By following the steps outlined in this article, you can set up Ansible credentials, define host files, and create playbooks to automate the update process. Embracing automation not only saves time but also ensures that your Windows systems are up to date, secure, and operating at their best.
+
+Remember to stay informed about relevant government regulations such as the [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework) or [ISO/IEC 27001](https://www.iso.org/isoiec-27001-information-security.html) , which provide guidelines and best practices for maintaining a secure and compliant environment.
+
+---
+
+## References [](https://simeononsecurity.ch/guides/automate-windows-patching-and-updates-with-ansible/#references)
+
+- [Ansible Documentation](https://docs.ansible.com/ansible/latest/index.html)
+- [Ansible Installation Guide](https://docs.ansible.com/ansible/latest/installation_guide/index.html)
+- [Ansible Windows Modules](https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_updates_module.html)
+- [Ansible Galaxy - windows_update](https://galaxy.ansible.com/simeononsecurity/windows_update)
+- [Github - simeononsecurity/ansible_windows_update](https://github.com/simeononsecurity/ansible_windows_update)
+- [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
+- [ISO/IEC 27001 - Information Security](https://www.iso.org/isoiec-27001-information-security.html)
