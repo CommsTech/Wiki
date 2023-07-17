@@ -182,8 +182,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b833773e5d67127b",
+  "active": "73ee420029073090",
   "lastOpenFiles": [
+    "_redirects",
+    "New Text Document.txt",
+    "New folder",
     "Applications/Server_Applications/databases/mariadb.md",
     "Applications/Server_Applications/ansible.md",
     "Networking/Unifi/Home.md",
@@ -210,7 +213,6 @@
     "Home.md",
     "TV_Streaming_Devices/Home.md",
     "Operating_Systems/Home.md",
-    "Operating_Systems/Windows/Home.md",
     "Assets/images/background.jpg"
   ]
 }
