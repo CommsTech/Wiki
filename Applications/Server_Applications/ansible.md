@@ -57,7 +57,7 @@ The _inventory file_ contains information about the hosts you’ll manage with
 To edit the contents of your default Ansible inventory, open the `/etc/ansible/hosts` file using your text editor of choice, on your Ansible control node:
 
 ```
-sudo nano /etc/ansible/hosts
+	sudo nano /etc/ansible/hosts
 ```
 
 Copy
