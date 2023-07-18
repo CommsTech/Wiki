@@ -108,7 +108,7 @@ db Name (default semaphore):
 
 db Name (default semaphore): 
 
-Playbook path (default /tmp/semaphore): /etc/ansible/playbooks
+Playbook path (default /tmp/semaphore): 
 
 Web root URL (optional, see https://github.com/ansible-semaphore/semaphore/wiki/Web-root-URL): 
 
@@ -120,7 +120,7 @@ Enable slack alerts? (yes/no) (default no): no
 
 Enable LDAP authentication? (yes/no) (default no): no
 
-Config output directory (default /home/commstech): /etc/ansible/output
+Config output directory (default /home/commstech):
 
 Near the end of the prompt, you’ll also be asked to create a new admin user for the web UI.
 
