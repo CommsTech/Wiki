@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/Ansible Gui Semaphore.md",
+                "file": "Applications/Server_Applications/ansible.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/Ansible Gui Semaphore.md",
+                "file": "Applications/Server_Applications/ansible.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/Ansible Gui Semaphore.md",
+                "file": "Applications/Server_Applications/ansible.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/Ansible Gui Semaphore.md"
+                "file": "Applications/Server_Applications/ansible.md"
               }
             }
           },
@@ -184,8 +184,8 @@
   },
   "active": "b833773e5d67127b",
   "lastOpenFiles": [
-    "Applications/Server_Applications/ansible.md",
     "Applications/Server_Applications/Ansible Gui Semaphore.md",
+    "Applications/Server_Applications/ansible.md",
     "Applications/Server_Applications/ansible-playbook.md",
     "_redirects",
     "New Text Document.txt",
