@@ -30,12 +30,20 @@ With MariaDB installed, secure it with the command:
 sudo mariadb-secure-installation
 ```
   
-Answer n to the first question and y to the remaining. You’ll also be prompted to create and verify a root user password.
+**Answer n to the first question**
+Switch to unix_socket authentication [Y/n] n
+**and y to the remaining**
+Change the root password? [Y/n] y ( You’ll also be prompted to create and verify a root user password.)
+Remove anonymous users? [Y/n] y
+Disallow root login remotely? [Y/n] y
+Remove test database and access to it? [Y/n] y
+Reload privilege tables now? [Y/n] y
+
 
 With the database installed, it’s time to add Semaphore. We’ll first set a variable for the version with the command:  
 
 ```
-VER=$(curl -s https://api.github.com/repos/ansible-semaphore/semaphore/releases/latest\|grep tag_name \| cut -d '"' -f 4\|sed 's/v//g')
+VER=$(curl -s https://api.github.com/repos/ansible-semaphore/semaphore/releases/latest|grep tag_name | cut -d '"' -f 4|sed 's/v//g')
 ```
   
 We can now use that variable to download the correct version with the command:  
@@ -60,7 +68,7 @@ You don’t just edit a configuration file because none exists yet. To generate 
 sudo semaphore setup
 ```
   
-The first section of the configuration looks like this:  (Select MySQL)
+The first section of the configuration looks like this:  (Select 1 (MySQL))
 
 ```
 |Hello! You will now be guided through a setup to:
@@ -89,6 +97,16 @@ http://ANSIBLE:3000
 
   
 Where ANSIBLE is the IP address of your hosting server.
+
+Example : db Hostname (default 127.0.0.1:3306): http://192.168.255.10:3000
+
+db User (default root): root
+
+db Password: SUPERSECRETPASSWORD
+
+db Name (default semaphore): 
+
+Playbook path (default /tmp/semaphore): 
 
 Near the end of the prompt, you’ll also be asked to create a new admin user for the web UI.
 
