@@ -106,7 +106,21 @@ db Password: SUPERSECRETPASSWORD
 
 db Name (default semaphore): 
 
-Playbook path (default /tmp/semaphore): 
+db Name (default semaphore): 
+
+Playbook path (default /tmp/semaphore): /etc/ansible/playbooks
+
+Web root URL (optional, see https://github.com/ansible-semaphore/semaphore/wiki/Web-root-URL): 
+
+Enable email alerts? (yes/no) (default no): no
+
+Enable telegram alerts? (yes/no) (default no): no 
+
+Enable slack alerts? (yes/no) (default no): no
+
+Enable LDAP authentication? (yes/no) (default no): no
+
+Config output directory (default /home/commstech): /etc/ansible/output
 
 Near the end of the prompt, you’ll also be asked to create a new admin user for the web UI.
 
@@ -114,32 +128,56 @@ Near the end of the prompt, you’ll also be asked to create a new admin user fo
 
 Next, we need to create a systemd file so the Semaphore service can be controlled. Create the file with the command:  
 
-|   |   |
-|---|---|
-|1|sudo nano /etc/systemd/system/semaphore.service|
+```
+sudo nano /etc/systemd/system/semaphore.service
+```
 
   
 In that file, paste the following:  
 
-|   |   |
-|---|---|
-|1<br><br>2<br><br>3<br><br>4<br><br>5<br><br>6<br><br>7<br><br>8<br><br>9<br><br>10<br><br>11<br><br>12<br><br>13<br><br>14<br><br>15|[Unit]<br><br>Description=Semaphore Ansible UI<br><br>Documentation=https://github.com/ansible-semaphore/semaphore<br><br>Wants=network-online.target<br><br>After=network-online.target<br><br>[Service]<br><br>Type=simple<br><br>ExecReload=/bin/kill -HUP $MAINPID<br><br>ExecStart=/usr/bin/semaphore server --config /etc/semaphore/config.json<br><br>SyslogIdentifier=semaphore<br><br>Restart=always<br><br>[Install]<br><br>WantedBy=multi-user.target|
+```
+[Unit]
+
+Description=Semaphore Ansible UI
+
+Documentation=https://github.com/ansible-semaphore/semaphore
+
+Wants=network-online.target
+
+After=network-online.target
+
+[Service]
+
+Type=simple
+
+ExecReload=/bin/kill -HUP $MAINPID
+
+ExecStart=/usr/bin/semaphore server --config /etc/semaphore/config.json
+
+SyslogIdentifier=semaphore
+
+Restart=always
+
+[Install]
+
+WantedBy=multi-user.target
+```
 
   
-Save and close the file.
+Save and close the file. (CTL + O then CTL + X)
 
 Reload the systemd daemon with:  
 
-|   |   |
-|---|---|
-|1|sudo systemctl daemon-reload|
+```
+sudo systemctl daemon-reload
+```
 
   
 Start and enable the Semaphore service with:  
 
-|   |   |
-|---|---|
-|1|sudo systemctl enable --now semaphore|
+```
+sudo systemctl enable --now semaphore
+```
 
 ## Accessing the Semaphore Web UI
 
