@@ -14,47 +14,41 @@ Although you can easily install Semaphore with Snap, we’re going to go a diffe
 
 The first thing to do is install a database server.  We’re going to go with MariaDB. To install MariaDB on Ubuntu, you must add the repository with the command:  
 
-|   |   |
-|---|---|
-|1|curl -LsS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup \| sudo bash -s —|
-
+```
+curl -LsS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | sudo bash -s —
+```
   
 After that command finishes, install both the server and client with:  
 
-|   |   |
-|---|---|
-|1|sudo apt install mariadb-server mariadb-client|
-
+```
+sudo apt install mariadb-server mariadb-client -y
+```
   
 With MariaDB installed, secure it with the command:  
 
-|   |   |
-|---|---|
-|1|sudo mariadb-secure-installation|
-
+```
+sudo mariadb-secure-installation
+```
   
 Answer n to the first question and y to the remaining. You’ll also be prompted to create and verify a root user password.
 
 With the database installed, it’s time to add Semaphore. We’ll first set a variable for the version with the command:  
 
-|   |   |
-|---|---|
-|1|VER=$(curl -s https://api.github.com/repos/ansible-semaphore/semaphore/releases/latest\|grep tag_name \| cut -d '"' -f 4\|sed 's/v//g')|
-
+```
+VER=$(curl -s https://api.github.com/repos/ansible-semaphore/semaphore/releases/latest\|grep tag_name \| cut -d '"' -f 4\|sed 's/v//g')
+```
   
 We can now use that variable to download the correct version with the command:  
 
-|   |   |
-|---|---|
-|1|wget https://github.com/ansible-semaphore/semaphore/releases/download/v${VER}/semaphore_${VER}_linux_amd64.deb|
-
+```
+wget https://github.com/ansible-semaphore/semaphore/releases/download/v${VER}/semaphore_${VER}_linux_amd64.deb
+```
   
 Install Semaphore with:  
 
-|   |   |
-|---|---|
-|1|sudo apt install ./semaphore_${VER}_linux_amd64.deb|
-
+```
+sudo apt install ./semaphore_${VER}_linux_amd64.deb
+```
   
 Boom! Semaphore is installed and ready to be configured.
 
@@ -62,28 +56,39 @@ Boom! Semaphore is installed and ready to be configured.
 
 You don’t just edit a configuration file because none exists yet. To generate the configure file, run semaphore such that it will prompt you to configure everything. The command for this is:  
 
-|   |   |
-|---|---|
-|1|sudo semaphore setup|
-
+```
+sudo semaphore setup
+```
   
-The first section of the configuration looks like this:  
+The first section of the configuration looks like this:  (Select MySQL)
 
-|   |   |
-|---|---|
-|1<br><br>2<br><br>3<br><br>4<br><br>5<br><br>6<br><br>7<br><br>8<br><br>9<br><br>10<br><br>11<br><br>12<br><br>13|Hello! You will now be guided through a setup to:<br><br>1. Set up configuration for a MySQL/MariaDB database<br><br>2. Set up a path for your playbooks (auto-created)<br><br>3. Run database Migrations<br><br>4. Set up initial semaphore user &amp; password<br><br>What database to use:<br><br>1 - MySQL<br><br>2 - BoltDB<br><br>3 - PostgreSQL<br><br>(default 1):|
+```
+|Hello! You will now be guided through a setup to:
+1. Set up configuration for a MySQL/MariaDB database
+2. Set up a path for your playbooks (auto-created)
+3. Run database Migrations
+4. Set up initial semaphore user &amp; password
+
+What database to use:<
+
+1 - MySQL
+2 - BoltDB
+3 - PostgreSQL
+(default 1):
+```
+
 
   
 Make sure to select MySQL for your database and then configure it accordingly. You can accept the default for everything, but you will have to type the MariaDB root user password you created earlier.
 
 When you get to the Hostname section (which looks like db Hostname (default 127.0.0.1:3306):), make sure to type it in the form:  
 
-|   |   |
-|---|---|
-|1|http://SERVER:3000|
+```
+http://ANSIBLE:3000
+```
 
   
-Where SERVER is the IP address of your hosting server.
+Where ANSIBLE is the IP address of your hosting server.
 
 Near the end of the prompt, you’ll also be asked to create a new admin user for the web UI.
 
