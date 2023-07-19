@@ -170,6 +170,7 @@ Reload the systemd daemon with:
 
 ```
 sudo systemctl daemon-reload
+sudo systemctl start semaphore
 ```
 
   
