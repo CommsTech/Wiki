@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/Ansible Gui Semaphore.md",
+                "file": "Networking/Unifi/Home.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/Ansible Gui Semaphore.md",
+                "file": "Networking/Unifi/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/Ansible Gui Semaphore.md",
+                "file": "Networking/Unifi/Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/Ansible Gui Semaphore.md"
+                "file": "Networking/Unifi/Home.md"
               }
             }
           },
@@ -182,10 +182,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "73ee420029073090",
+  "active": "b833773e5d67127b",
   "lastOpenFiles": [
-    "Applications/Server_Applications/ansible.md",
+    "Applications/Server_Applications/unifi.md",
+    "Networking/pfSense/pfBlockerNG/DNSBL/Whitelist/Additional_Sites_Whitelist.md",
     "Applications/Server_Applications/Ansible Gui Semaphore.md",
+    "Applications/Server_Applications/ansible.md",
     "Applications/Server_Applications/ansible-playbook.md",
     "_redirects",
     "New Text Document.txt",
@@ -198,7 +200,6 @@
     "Applications/Server_Applications/Nextcloud.md",
     "Applications/Server_Applications/idrac7_Upgrade.md",
     "Applications/Server_Applications/gluetun.md",
-    "Networking/pfSense/pfBlockerNG/DNSBL/Whitelist/Additional_Sites_Whitelist.md",
     "Applications/Server_Applications/grafana.md",
     "Applications/Server_Applications/Wiki_JS.md",
     "Applications/Server_Applications/OpenVPN.md",
@@ -213,7 +214,6 @@
     "Red_Team",
     "Operating_Systems/Truenas_Scale/Home.md",
     "Home.md",
-    "TV_Streaming_Devices/Home.md",
     "Assets/images/background.jpg"
   ]
 }
