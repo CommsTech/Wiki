@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Unifi/Home.md",
+                "file": "Applications/Server_Applications/Openfire.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Unifi/Home.md",
+                "file": "Applications/Server_Applications/Openfire.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Unifi/Home.md",
+                "file": "Applications/Server_Applications/Openfire.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Unifi/Home.md"
+                "file": "Applications/Server_Applications/Openfire.md"
               }
             }
           },
@@ -184,6 +184,10 @@
   },
   "active": "b833773e5d67127b",
   "lastOpenFiles": [
+    "Networking/Microsoft/NPS.md",
+    "Applications/Server_Applications/Openfire.md",
+    "Networking/Unifi/Home.md",
+    "Networking/Microsoft",
     "Applications/Server_Applications/unifi.md",
     "Networking/pfSense/pfBlockerNG/DNSBL/Whitelist/Additional_Sites_Whitelist.md",
     "Applications/Server_Applications/Ansible Gui Semaphore.md",
@@ -193,7 +197,6 @@
     "New Text Document.txt",
     "New folder",
     "Applications/Server_Applications/databases/mariadb.md",
-    "Networking/Unifi/Home.md",
     "Networking/pfSense/pfBlockerNG/Home.md",
     "Applications/Server_Applications/VMWare_ESXi.md",
     "Applications/Server_Applications/idrac_6.md",
@@ -212,8 +215,6 @@
     "Operating_Systems/Truenas_Scale/Drive_Replacment.md",
     "Red_Team/Spoofing_365.md",
     "Red_Team",
-    "Operating_Systems/Truenas_Scale/Home.md",
-    "Home.md",
     "Assets/images/background.jpg"
   ]
 }
