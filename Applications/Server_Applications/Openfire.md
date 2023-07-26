@@ -1,4 +1,14 @@
+Openfire is a powerful instant messaging (IM) and chat server that implements the XMPP protocol. This document will guide you through installing Openfire. For a full list of features and more information, please visit the Openfire website: [http://www.igniterealtime.org/projects/openfire/](http://www.igniterealtime.org/projects/openfire/)
 
+## Installation
+
+### Windows
+
+Select Openfire installer that is better suiting you (with or without Java JRE, x86 or x64). Run the installer. The application will be installed to C:\Program Files\Openfire by default.
+
+**Note:** On Windows systems we suggest using a service to run Openfire (read the Windows Service section below). When using Openfire Launcher on Windows Vista or newer with UAC protection enabled, it has to be run with Run as administrator option, to be able to write changes to config and embedded database (if used) stored in C:\Program files\Openfire\ folder. If Openfire is running via launcher without Run as administrator option from Program files, it can't get proper permissions to write changes. It shows errors (in red) when running the launcher and during the setup will require the current password for the administrator account (although this is a new installation and normally it doesn't ask for it). This is an effect of missing permissions and Openfire not being able to initialize the database and other resources.
+
+**Since 4.1.5 Openfire installs and runs the service automatically (also opens the browser and loads the web setup page). The launcher (if you want to use it) is also made to run in elevated mode, you don't need to run it as administrator manually. But you shouldn't use the launcher, if the service is running. Because this will create a conflict.**
 
 ## pade plugin
 # Pade Readme
