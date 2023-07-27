@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
+                "file": "Applications/Server_Applications/Microsoft NPS.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
+                "file": "Applications/Server_Applications/Microsoft NPS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
+                "file": "Applications/Server_Applications/Microsoft NPS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md"
+                "file": "Applications/Server_Applications/Microsoft NPS.md"
               }
             }
           },
@@ -184,7 +184,10 @@
   },
   "active": "b833773e5d67127b",
   "lastOpenFiles": [
+    "Applications/Server_Applications/Matomo.md",
     "Applications/Server_Applications/Microsoft NPS.md",
+    "Applications/Server_Applications/Kasm.md",
+    "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
     "Applications/Server_Applications/Openfire.md",
     "Networking/Unifi/Home.md",
     "Networking/Microsoft",
@@ -211,9 +214,6 @@
     "Applications/Server_Applications/iterm2.md",
     "Applications/Server_Applications/Jellyfin.md",
     "Applications/Server_Applications/Home.md",
-    "Red_Team/Home.md",
-    "Operating_Systems/Truenas_Scale/Drive_Replacment.md",
-    "Red_Team/Spoofing_365.md",
     "Red_Team",
     "Assets/images/background.jpg"
   ]

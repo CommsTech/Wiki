@@ -1,3 +1,12 @@
+---
+title: Microsoft NPS
+description: 
+published: true
+date: 2023-07-26T18:23:12.715Z
+tags: Server, Radius, Networking, Microsoft
+editor: markdown
+dateCreated: 2023-05-22T18:23:12.715Z
+---
 # Configuring Microsoft NPS for MAC-Based RADIUS - MS Switches
 
 1. Last updated
