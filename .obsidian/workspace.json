@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/Microsoft NPS.md",
+                "file": "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/Microsoft NPS.md",
+                "file": "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/Microsoft NPS.md",
+                "file": "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/Microsoft NPS.md"
+                "file": "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md"
               }
             }
           },
@@ -182,10 +182,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "73ee420029073090",
+  "active": "b833773e5d67127b",
   "lastOpenFiles": [
-    "Applications/Server_Applications/Openfire.md",
     "Applications/Server_Applications/Microsoft NPS.md",
+    "Applications/Server_Applications/Openfire.md",
     "Networking/Unifi/Home.md",
     "Networking/Microsoft",
     "Applications/Server_Applications/unifi.md",
