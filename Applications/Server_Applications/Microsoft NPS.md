@@ -1,4 +1,4 @@
----
+                                                        1---
 title: Microsoft NPS
 description: 
 published: true
@@ -9,7 +9,7 @@ dateCreated: 2023-05-22T18:23:12.715Z
 ---
 # Configuring Microsoft NPS for MAC-Based RADIUS - MS Switches
 
-1. Last updated8
+*-1. Last updated8
     
     Oct 5, 2020
     
