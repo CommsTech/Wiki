@@ -11,8 +11,13 @@
             "id": "fd3341baaf78d45c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Applications/Server_Applications/Zabbix.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "unifi",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Applications/Server_Applications/Zabbix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Applications/Server_Applications/Zabbix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Applications/Server_Applications/Zabbix.md"
+              }
             }
           },
           {
@@ -175,17 +184,24 @@
   },
   "active": "fd3341baaf78d45c",
   "lastOpenFiles": [
+    "Pasted image 20230729162412.png",
+    "Applications/Server_Applications/bitwarden.md",
+    "Applications/Server_Applications/ansible.md",
+    "Applications/Server_Applications/Zabbix.md",
+    "Networking/Unifi/Home.md",
+    "Applications/Server_Applications/Untitled",
+    "Networking/Home.md",
+    "Home.md",
+    "Applications/Server_Applications/Home.md",
     "Applications/Server_Applications/Microsoft NPS.md",
     "Applications/Server_Applications/Matomo.md",
     "Applications/Server_Applications/Kasm.md",
     "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
     "Applications/Server_Applications/Openfire.md",
-    "Networking/Unifi/Home.md",
     "Networking/Microsoft",
     "Applications/Server_Applications/unifi.md",
     "Networking/pfSense/pfBlockerNG/DNSBL/Whitelist/Additional_Sites_Whitelist.md",
     "Applications/Server_Applications/Ansible Gui Semaphore.md",
-    "Applications/Server_Applications/ansible.md",
     "Applications/Server_Applications/ansible-playbook.md",
     "_redirects",
     "New Text Document.txt",
@@ -199,12 +215,6 @@
     "Applications/Server_Applications/gluetun.md",
     "Applications/Server_Applications/grafana.md",
     "Applications/Server_Applications/Wiki_JS.md",
-    "Applications/Server_Applications/OpenVPN.md",
-    "Applications/Server_Applications/IDRAC.md",
-    "Applications/Server_Applications/HeavyScript.md",
-    "Applications/Server_Applications/iterm2.md",
-    "Applications/Server_Applications/Jellyfin.md",
-    "Applications/Server_Applications/Home.md",
     "Red_Team",
     "Assets/images/background.jpg"
   ]
