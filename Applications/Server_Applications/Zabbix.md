@@ -159,3 +159,22 @@ After few minutes, monitoring data will start flowing in, to check host graphs g
 ##### Some of my screenshots
 
 ![[Pasted image 20230729162412.png]]
+
+
+mysql -uroot -p
+asdasHJGGJ687i_hkjHG^
+create database zabbix character set utf8mb4 collate utf8mb4_bin;
+create user zabbix@commsnet.org identified by 'asdasHJGGJ687i_hkjHG^';
+grant all privileges on zabbix.* to zabbix@commsnet.org;
+set global log_bin_trust_function_creators = 1;
+quit;
+
+
+create database zabbix character set utf8mb4 collate utf8mb4_bin;
+create user zabbix@localhost identified by 'asdasHJGGJ687i_hkjHG^';
+grant all privileges on zabbix.* to zabbix@localhost;
+set global log_bin_trust_function_creators = 1;
+quit;
+
+
+mysqldump -h localhost -u'root' -p'asdasHJGGJ687i_hkjHG^' --single-transaction 'zabbix' | gzip > /opt/zabbix_backup/db_files/zabbix_backup.sql.gz
