@@ -83,7 +83,7 @@ add the portgroup
 `so-firewall addportgroup netflow`
 
 add the hosts allowed to send netflow
-`so-firewall includehost netflow 192.168.0.0/16`
+`so-firewall includehost netflow 0.0.0.0/0`
 
 add netflow port
 `so-firewall addport netflow udp 2055`
@@ -122,10 +122,26 @@ confirm with
 Step 4
 Update the Logstash pipeline
 now apply the logstash config file to filebeats
+
+(OLD VERSION)
 `sudo docker exec -i so-filebeat filebeat setup modules -pipelines -modules netflow -c /usr/share/filebeat/module-setup.yml`
+
+(2.3 and Newer) [see this link for details](https://github.com/Security-Onion-Solutions/securityonion/discussions/8745)
+`sudo docker exec -it so-filebeat filebeat setup modules --pipelines --modules netflow -M "netflow.log.enabled=true" -c /usr/share/filebeat/module-setup.yml`
+
+OR add the configuration to the piller
+`
+third_party_filebeat:
+  modules:
+    netflow:
+      log:
+        enabled: true
+`
+then run `salt-call state.apply common` and run `so-filebeat-module-setup`
 
 then restart the container
 `sudo so-filebeat-restart`
+
 
 
 ## Link Security Onion to Alienvault

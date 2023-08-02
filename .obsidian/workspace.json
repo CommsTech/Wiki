@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/Zabbix.md",
+                "file": "Applications/Server_Applications/SecurityOnion.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/Zabbix.md",
+                "file": "Applications/Server_Applications/SecurityOnion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/Zabbix.md",
+                "file": "Applications/Server_Applications/SecurityOnion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/Zabbix.md"
+                "file": "Applications/Server_Applications/SecurityOnion.md"
               }
             }
           },
@@ -182,12 +182,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fd3341baaf78d45c",
+  "active": "73ee420029073090",
   "lastOpenFiles": [
+    "Applications/Server_Applications/Zabbix.md",
     "Pasted image 20230729162412.png",
     "Applications/Server_Applications/bitwarden.md",
     "Applications/Server_Applications/ansible.md",
-    "Applications/Server_Applications/Zabbix.md",
     "Networking/Unifi/Home.md",
     "Applications/Server_Applications/Untitled",
     "Networking/Home.md",
