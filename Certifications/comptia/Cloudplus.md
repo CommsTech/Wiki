@@ -127,4 +127,4 @@ GaaS - Graphics as a Service
 DaaS - Desktop as a Service
 
 
-![[Cloud+ CV0-002 objectives.pdf]]
+![[Cloud+_CV0-002_objectives.pdf]]

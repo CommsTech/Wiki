@@ -158,7 +158,7 @@ After few minutes, monitoring data will start flowing in, to check host graphs g
 
 ##### Some of my screenshots
 
-![[Pasted image 20230729162412.png]]
+![[Pasted_image_20230729162412.png]]
 
 
 mysql -uroot -p

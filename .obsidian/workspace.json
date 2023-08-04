@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/Nextcloud.md",
+                "file": "Certifications/EC_Council/Home.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/Nextcloud.md",
+                "file": "Certifications/EC_Council/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/Nextcloud.md",
+                "file": "Certifications/EC_Council/Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/Nextcloud.md"
+                "file": "Certifications/EC_Council/Home.md"
               }
             }
           },
@@ -184,13 +184,22 @@
   },
   "active": "fd3341baaf78d45c",
   "lastOpenFiles": [
-    "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
+    "Assets/documents/Cloud+_CV0-002_objectives.pdf",
+    "Assets/images/Idrac_security_application_error_idrac6.png",
+    "Assets/images/Pasted_image_20221211074924.png",
+    "Assets/images/Pasted_image_20221130163035.png",
+    "Assets/images/Pasted_image_20221112082158.png",
+    "Assets/images/Pasted_image_20221112082139.png",
+    "Assets/images/Pasted_image_20220919064617.png",
+    "Assets/images/Pasted_image_20220904093755.png",
+    "Assets/images/Pasted_image_20220904093335.png",
+    "Assets/images/Pasted_image_20230729162412.png",
     "Applications/Server_Applications/Nextcloud.md",
+    "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
     "Applications/Server_Applications/SecurityOnion.md",
     "Applications/Server_Applications/Microsoft_NPS.md",
     "Applications/Server_Applications/Ansible_Gui_Semaphore.md",
     "Applications/Server_Applications/Zabbix.md",
-    "Pasted image 20230729162412.png",
     "Applications/Server_Applications/bitwarden.md",
     "Applications/Server_Applications/ansible.md",
     "Networking/Unifi/Home.md",
@@ -215,7 +224,6 @@
     "Applications/Server_Applications/VMWare_ESXi.md",
     "Applications/Server_Applications/idrac_6.md",
     "Applications/Server_Applications/idrac7_Upgrade.md",
-    "Applications/Server_Applications/gluetun.md",
     "Red_Team",
     "Assets/images/background.jpg"
   ]
