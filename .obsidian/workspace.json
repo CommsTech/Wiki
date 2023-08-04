@@ -19,8 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7fda91dabc574b88",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.7"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -182,7 +193,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fd3341baaf78d45c",
+  "active": "7fda91dabc574b88",
   "lastOpenFiles": [
     "Applications/Server_Applications/Home.md",
     "Applications/Desktop_Applications/Home.md",
