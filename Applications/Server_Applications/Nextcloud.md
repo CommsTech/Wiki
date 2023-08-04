@@ -114,6 +114,49 @@ To map a drive using the Microsoft Windows Explorer:
 |---|---|
 |[11]|If configuration OK, it's possbile to login to NextCloud with LDAP users like follows.|
 
-|   |
-|---|
-||
+### Fixing the Chuck upload issues
+### Fix:
+
+ I found simply setting the maximum chunk size to 50 MB (half of Cloudflare's 100 MB upload size limit) worked to resolve this issue.
+
+I put together a short guide to fix this issue with the latest stable release ([3.4.4](https://github.com/nextcloud/desktop/releases/tag/v3.4.4), but should work on any client v3.4+). I tried to make it as accessible as possible to follow.
+
+### Windows Fix
+
+Press `Win+R` on your keyboard to open the `Run` application. Past the following in the dialog box:
+
+`%APPDATA%\Nextcloud\nextcloud.cfg`
+
+This will either ask you to pick an application to open `nextcloud.cfg` or will open in your default text editor (unless you have something else set to open .cfg files). If it asks you to pick an application, feel free to use Notepad or any other editor.
+
+Add the following line under the `[General]` section:
+
+`maxChunkSize=50000000`
+
+Save the file, quit Nextcloud desktop, and start it again.
+
+### MacOS Fix
+
+Open a Finder window and press `Command+Shift+G` on your keyboard. This will bring up a 'Go to folder' window. Paste the following in the dialog box:
+
+`$HOME/Library/Preferences/Nextcloud`
+
+Open the `nextcloud.cfg` file. If you do not have a default editor for .cfg files, feel free to open the file with TextEdit.
+
+Add the following line under the `[General]` section:
+
+`maxChunkSize=50000000`
+
+Save the file, quit Nextcloud desktop, and start it again.
+
+### Linux Fix
+
+Open a terminal window and edit the following file:
+
+`nano $HOME/.config/Nextcloud/nextcloud.cfg`
+
+Add the following line under the `[General]` section:
+
+`maxChunkSize=50000000`
+
+Save the file (`Ctl+o`, `Ctl+x`), then quit Nextcloud desktop, and start it again.

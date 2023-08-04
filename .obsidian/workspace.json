@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/SecurityOnion.md",
+                "file": "Applications/Server_Applications/Nextcloud.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/SecurityOnion.md",
+                "file": "Applications/Server_Applications/Nextcloud.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/SecurityOnion.md",
+                "file": "Applications/Server_Applications/Nextcloud.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/SecurityOnion.md"
+                "file": "Applications/Server_Applications/Nextcloud.md"
               }
             }
           },
@@ -182,8 +182,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "73ee420029073090",
+  "active": "fd3341baaf78d45c",
   "lastOpenFiles": [
+    "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
+    "Applications/Server_Applications/Nextcloud.md",
+    "Applications/Server_Applications/SecurityOnion.md",
+    "Applications/Server_Applications/Microsoft_NPS.md",
+    "Applications/Server_Applications/Ansible_Gui_Semaphore.md",
     "Applications/Server_Applications/Zabbix.md",
     "Pasted image 20230729162412.png",
     "Applications/Server_Applications/bitwarden.md",
@@ -196,7 +201,6 @@
     "Applications/Server_Applications/Microsoft NPS.md",
     "Applications/Server_Applications/Matomo.md",
     "Applications/Server_Applications/Kasm.md",
-    "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
     "Applications/Server_Applications/Openfire.md",
     "Networking/Microsoft",
     "Applications/Server_Applications/unifi.md",
@@ -210,11 +214,8 @@
     "Networking/pfSense/pfBlockerNG/Home.md",
     "Applications/Server_Applications/VMWare_ESXi.md",
     "Applications/Server_Applications/idrac_6.md",
-    "Applications/Server_Applications/Nextcloud.md",
     "Applications/Server_Applications/idrac7_Upgrade.md",
     "Applications/Server_Applications/gluetun.md",
-    "Applications/Server_Applications/grafana.md",
-    "Applications/Server_Applications/Wiki_JS.md",
     "Red_Team",
     "Assets/images/background.jpg"
   ]
