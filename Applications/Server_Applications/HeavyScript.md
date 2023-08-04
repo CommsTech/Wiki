@@ -13,6 +13,8 @@ HeavyScript is a script created by Heavy, with the idea of being modular, it inc
 
 [github Repo](https://github.com/Heavybullets8/heavy_script)
 
+**DISCLAIMER TrueCharts now recommends the TRUETOOL script instead of the HeavyScript tool
+
 
 ### Why This Script?
 

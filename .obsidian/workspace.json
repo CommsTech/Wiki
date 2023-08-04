@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/Home.md",
+                "file": "Applications/Server_Applications/HeavyScript.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/Home.md",
+                "file": "Applications/Server_Applications/HeavyScript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/Home.md",
+                "file": "Applications/Server_Applications/HeavyScript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/Home.md"
+                "file": "Applications/Server_Applications/HeavyScript.md"
               }
             }
           },
@@ -182,10 +182,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "73ee420029073090",
+  "active": "fd3341baaf78d45c",
   "lastOpenFiles": [
-    "Applications/Server_Applications/Home_Assistant.md",
     "Applications/Server_Applications/Home.md",
+    "Applications/Server_Applications/Home_Assistant.md",
+    "Applications/Server_Applications/HeavyScript.md",
     "Certifications/PMI/Home.md",
     "Networking/pfSense/pfBlockerNG/Home.md",
     "Home.md",
@@ -224,7 +225,6 @@
     "New Text Document.txt",
     "New folder",
     "Applications/Server_Applications/databases/mariadb.md",
-    "Applications/Server_Applications/VMWare_ESXi.md",
     "Red_Team",
     "Assets/images/background.jpg"
   ]
