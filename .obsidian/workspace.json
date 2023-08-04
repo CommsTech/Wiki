@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/HeavyScript.md",
+                "file": "Applications/Server_Applications/Home.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/HeavyScript.md",
+                "file": "Applications/Server_Applications/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/HeavyScript.md",
+                "file": "Applications/Server_Applications/Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/HeavyScript.md"
+                "file": "Applications/Server_Applications/Home.md"
               }
             }
           },
@@ -184,9 +184,10 @@
   },
   "active": "fd3341baaf78d45c",
   "lastOpenFiles": [
+    "Applications/Desktop_Applications/Home.md",
     "Applications/Server_Applications/Home.md",
-    "Applications/Server_Applications/Home_Assistant.md",
     "Applications/Server_Applications/HeavyScript.md",
+    "Applications/Server_Applications/Home_Assistant.md",
     "Certifications/PMI/Home.md",
     "Networking/pfSense/pfBlockerNG/Home.md",
     "Home.md",
@@ -224,7 +225,6 @@
     "_redirects",
     "New Text Document.txt",
     "New folder",
-    "Applications/Server_Applications/databases/mariadb.md",
     "Red_Team",
     "Assets/images/background.jpg"
   ]
