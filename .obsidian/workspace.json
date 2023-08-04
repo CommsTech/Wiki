@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Certifications/EC_Council/Home.md",
+                "file": "Applications/Server_Applications/Home.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Certifications/EC_Council/Home.md",
+                "file": "Applications/Server_Applications/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Certifications/EC_Council/Home.md",
+                "file": "Applications/Server_Applications/Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Certifications/EC_Council/Home.md"
+                "file": "Applications/Server_Applications/Home.md"
               }
             }
           },
@@ -184,6 +184,11 @@
   },
   "active": "fd3341baaf78d45c",
   "lastOpenFiles": [
+    "Certifications/PMI/Home.md",
+    "Applications/Server_Applications/Home.md",
+    "Networking/pfSense/pfBlockerNG/Home.md",
+    "Home.md",
+    "Certifications/EC_Council/Home.md",
     "Assets/documents/Cloud+_CV0-002_objectives.pdf",
     "Assets/images/Idrac_security_application_error_idrac6.png",
     "Assets/images/Pasted_image_20221211074924.png",
@@ -205,8 +210,6 @@
     "Networking/Unifi/Home.md",
     "Applications/Server_Applications/Untitled",
     "Networking/Home.md",
-    "Home.md",
-    "Applications/Server_Applications/Home.md",
     "Applications/Server_Applications/Microsoft NPS.md",
     "Applications/Server_Applications/Matomo.md",
     "Applications/Server_Applications/Kasm.md",
@@ -220,10 +223,8 @@
     "New Text Document.txt",
     "New folder",
     "Applications/Server_Applications/databases/mariadb.md",
-    "Networking/pfSense/pfBlockerNG/Home.md",
     "Applications/Server_Applications/VMWare_ESXi.md",
     "Applications/Server_Applications/idrac_6.md",
-    "Applications/Server_Applications/idrac7_Upgrade.md",
     "Red_Team",
     "Assets/images/background.jpg"
   ]

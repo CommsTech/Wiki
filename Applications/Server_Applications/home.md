@@ -96,11 +96,3 @@ dateCreated: 2022-05-21T15:26:38.051Z
 ### Security
 - [Security Onion - SIEM Solution](https://wiki.commsnet.org/en/Applications/Server_Applications/SecurityOnion)
 - [AlienVault - SIEM/ Vulnerability Scanner]
-
-
-
-##### Navigation Information
-`Label: Server Applications`
-`Icon: mdi-server
-`Target Type: Page`
-`Target: /en/Applications/Server_Applications/home`
