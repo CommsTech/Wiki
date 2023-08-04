@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/Home.md",
+                "file": "Home.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/Home.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/Home.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/Home.md"
+                "file": "Home.md"
               }
             }
           },
@@ -184,8 +184,8 @@
   },
   "active": "fd3341baaf78d45c",
   "lastOpenFiles": [
-    "Applications/Desktop_Applications/Home.md",
     "Applications/Server_Applications/Home.md",
+    "Applications/Desktop_Applications/Home.md",
     "Applications/Server_Applications/HeavyScript.md",
     "Applications/Server_Applications/Home_Assistant.md",
     "Certifications/PMI/Home.md",
