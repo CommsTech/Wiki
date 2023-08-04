@@ -182,10 +182,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fd3341baaf78d45c",
+  "active": "73ee420029073090",
   "lastOpenFiles": [
-    "Certifications/PMI/Home.md",
+    "Applications/Server_Applications/Home_Assistant.md",
     "Applications/Server_Applications/Home.md",
+    "Certifications/PMI/Home.md",
     "Networking/pfSense/pfBlockerNG/Home.md",
     "Home.md",
     "Certifications/EC_Council/Home.md",
@@ -224,7 +225,6 @@
     "New folder",
     "Applications/Server_Applications/databases/mariadb.md",
     "Applications/Server_Applications/VMWare_ESXi.md",
-    "Applications/Server_Applications/idrac_6.md",
     "Red_Team",
     "Assets/images/background.jpg"
   ]
