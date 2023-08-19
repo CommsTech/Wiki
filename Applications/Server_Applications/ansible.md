@@ -720,6 +720,180 @@ ansible [core 2.15.2]
 ```
 
 
+Video 3
+mkdir /etc/ansible/playbooks
+
+cd /etc/ansible/playbooks
+
+sudo nano gather_facts.yml
+
+```
+sudo nano gather_facts.yml
+[sudo] password for commstech: 
+  GNU nano 6.2                                                                                  gather_facts.yml                                                                                            
+---
+  - name: Gather Some Facts
+    hosts: ios               
+    gather_facts: no
+
+    tasks:
+    - name: Gather IOS Facts
+      cisco.ios.ios_facts:
+
+    - name: View Facts
+      debug:
+        var: ansible_facts
+```
+
+
+ctl + O
+
+ctl +X
+
+run the play with
+```
+ansible-playbook gather_facts.yml
+```
+
+note if your output looks like this
+```
+commstech@clustermgr:/etc/ansible/playbooks$ ansible-playbook gather_facts.yml 
+
+PLAY [Gather Some Facts] ***********************************************************************************************************************************************************************************
+
+TASK [Gather IOS Facts] ************************************************************************************************************************************************************************************
+[WARNING]: ansible-pylibssh not installed, falling back to paramiko
+fatal: [Home_Switch]: FAILED! => {"changed": false, "msg": "[Errno None] Unable to connect to port 22 on 192.168.15.60"}
+
+PLAY RECAP *************************************************************************************************************************************************************************************************
+Home_Switch                : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+```
+
+youll need to run
+```
+pip install --user ansible-pylibssh
+```
+
+if it looks like this 
+
+```
+commstech@clustermgr:/etc/ansible/playbooks$ pip install --user ansible-pylibssh
+Collecting ansible-pylibssh
+  Downloading ansible_pylibssh-1.1.0-cp310-cp310-manylinux_2_24_x86_64.whl (2.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.3/2.3 MB 8.4 MB/s eta 0:00:00
+Installing collected packages: ansible-pylibssh
+Successfully installed ansible-pylibssh-1.1.0
+commstech@clustermgr:/etc/ansible/playbooks$ ansible-playbook gather_facts.yml  
+
+PLAY [Gather Some Facts] ***********************************************************************************************************************************************************************************
+
+TASK [Gather IOS Facts] ************************************************************************************************************************************************************************************
+fatal: [Home_Switch]: FAILED! => {"changed": false, "msg": "ssh connection failed: ssh connect failed: Connection refused"}
+
+PLAY RECAP *************************************************************************************************************************************************************************************************
+Home_Switch                : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+```
+
+youll need to check your switch SSH ACL and ensure that your ansible server is allowed
+
+```
+line vty 0 4
+ session-timeout 10 
+ access-class 10 in
+ exec-timeout 9 59
+ logging synchronous
+ vacant-message ^CTerminal Disconnected^C
+ transport preferred ssh
+ transport input ssh
+ transport output none
+line vty 5 15
+ session-timeout 10 
+ access-class 10 in
+ exec-timeout 9 59
+ logging synchronous
+ vacant-message ^CTerminal Disconnected^C
+ transport preferred ssh
+ transport input ssh
+ transport output none
+Home_Switch#sh access
+Home_Switch#sh access-li
+Home_Switch#sh access-lists 10
+Standard IP access list 10
+    30 permit 192.168.255.25 log (201978 matches)
+    40 permit 192.168.255.121
+    10 permit 192.168.2.0, wildcard bits 0.0.0.127 (42 matches)
+    20 permit 192.168.15.0, wildcard bits 0.0.0.127 (26 matches)
+Home_Switch#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Home_Switch(config)#access
+Home_Switch(config)#access-li
+Home_Switch(config)#access-list 10
+% Incomplete command.
+
+Home_Switch(config)#access-list 10 ?
+  <1-2147483647>  Sequence Number
+  deny            Specify packets to reject
+  permit          Specify packets to forward
+  remark          Access list entry comment
+
+Home_Switch(config)#access-list 10 25 per
+Home_Switch(config)#access-list 10 25 permit 192.168.255.10 ?
+  A.B.C.D  Wildcard bits
+  log      Log matches against this entry
+  <cr>     <cr>
+
+Home_Switch(config)#access-list 10 25 permit 192.168.255.10 log
+Home_Switch(config)#exit
+Home_Switch#wr mem
+```
+
+
+a sucessful connection will result in some facts like the following
+
+```
+commstech@clustermgr:/etc/ansible/playbooks$ ansible-playbook gather_facts.yml 
+
+PLAY [Gather Some Facts] ***********************************************************************************************************************************************************************************
+
+TASK [Gather IOS Facts] ************************************************************************************************************************************************************************************
+ok: [Home_Switch]
+
+TASK [View Facts] ******************************************************************************************************************************************************************************************
+ok: [Home_Switch] => {
+    "ansible_facts": {
+        "net_api": "cliconf",
+        "net_gather_network_resources": [],
+        "net_gather_subset": [
+            "default"
+        ],
+        "net_hostname": "Home_Switch",
+        "net_image": "flash:packages.conf",
+        "net_iostype": "IOS-XE",
+        "net_model": "WS-C3850-48P",
+        "net_operatingmode": "controller",
+        "net_python_version": "3.10.12",
+        "net_serialnum": "FOC2XXXXXXXXXX",
+        "net_stacked_models": [
+            "WS-C3850-48P"
+        ],
+        "net_stacked_serialnums": [
+            "FOC2XXXXXXXXXXXXX"
+        ],
+        "net_system": "ios",
+        "net_version": "16.12.09",
+        "net_virtual_switch": "STACK",
+        "network_resources": {}
+    }
+}
+```
+
+
+
+
+
+
+
+
 
 ---
 
