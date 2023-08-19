@@ -530,6 +530,36 @@ Add the following line after you modify it
 
 Copy
 
+
+# Attempt 2 to learn Ansible 
+Install ansible... see previous notes
+step 2 (following along with https://invidious.commsnet.org/watch?v=NFDNPqSy2ZQ)
+
+```
+ansible --version
+```
+
+the output will look similar to this
+
+```
+commstech@clustermgr:~$ ansible --version
+ansible [core 2.15.2]
+  config file = None
+  configured module search path = ['/home/commstech/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python3/dist-packages/ansible
+  ansible collection location = /home/commstech/.ansible/collections:/usr/share/ansible/collections
+  executable location = /usr/bin/ansible
+  python version = 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0] (/usr/bin/python3)
+  jinja version = 3.0.3
+  libyaml = True
+commstech@clustermgr:~$ 
+```
+
+
+
+
+
+
 ---
 
 ## Conclusion [](https://simeononsecurity.ch/guides/automate-windows-patching-and-updates-with-ansible/#conclusion)

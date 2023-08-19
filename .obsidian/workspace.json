@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/ntopNG.md",
+                "file": "Applications/Server_Applications/ansible.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ansible",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -94,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/ntopNG.md",
+                "file": "Applications/Server_Applications/ansible.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/ntopNG.md",
+                "file": "Applications/Server_Applications/ansible.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/ntopNG.md"
+                "file": "Applications/Server_Applications/ansible.md"
               }
             }
           },
@@ -184,8 +185,10 @@
   },
   "active": "fd3341baaf78d45c",
   "lastOpenFiles": [
-    "Home.md",
+    "Networking/Unifi/Home.md",
+    "Networking/pfSense/pfBlockerNG/DNSBL/Whitelist/Additional_Sites_Whitelist.md",
     "Applications/Server_Applications/ntopNG.md",
+    "Home.md",
     "Applications/Server_Applications/Home.md",
     "Applications/Desktop_Applications/Home.md",
     "Applications/Server_Applications/HeavyScript.md",
@@ -211,7 +214,6 @@
     "Applications/Server_Applications/Zabbix.md",
     "Applications/Server_Applications/bitwarden.md",
     "Applications/Server_Applications/ansible.md",
-    "Networking/Unifi/Home.md",
     "Applications/Server_Applications/Untitled",
     "Networking/Home.md",
     "Applications/Server_Applications/Microsoft NPS.md",
@@ -220,7 +222,6 @@
     "Applications/Server_Applications/Openfire.md",
     "Networking/Microsoft",
     "Applications/Server_Applications/unifi.md",
-    "Networking/pfSense/pfBlockerNG/DNSBL/Whitelist/Additional_Sites_Whitelist.md",
     "Applications/Server_Applications/Ansible Gui Semaphore.md",
     "_redirects",
     "New Text Document.txt",
