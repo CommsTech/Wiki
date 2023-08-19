@@ -556,7 +556,168 @@ commstech@clustermgr:~$
 ```
 
 
+cd into /etc/ansible
 
+touch /etc/ansible.cfg
+
+nano /etc/ansible.cfg
+```
+[defaults]
+inventory=/etc/ansible/hosts
+private_key_file = ~/.ssh/ansible
+```
+touch /etc/hosts
+
+nano /etc/hosts
+
+```
+commstech@clustermgr:/etc/ansible$ sudo nano hosts            
+  GNU nano 6.2                                                                                        hosts                                                                                                 
+[ubuntu]
+RemoteSupport ansible_host=192.168.255.20
+192.168.255.15
+ClusterMGR ansible_host=192.168.255.10
+Nextcloud ansible_host=192.168.255.7
+PXEServer ansible_host=192.168.15.40
+Fireball_ubuntu ansible_host=192.168.4.110
+PeachTea_ubuntu ansible_host=192.168.5.110
+#
+[truenas]
+192.168.15.2
+192.168.15.3
+192.168.15.4
+192.168.15.50
+192.168.15.53
+#
+[ios]
+Home_Switch ansible_host=192.168.15.60
+[ios:vars]
+ansible_ssh_pass=cisco
+ansible_user=cisco
+ansible_network_os=ios
+ansible_connection=network_cli
+ansible_password=cisco
+auth_pass=cisco
+#
+[macs]
+192.168.2.77
+#
+[pfsense]
+192.168.15.126
+192.168.4.126
+192.168.5.126
+#
+[pis]
+192.168.255.21
+192.168.255.22
+192.168.255.23
+192.168.255.24
+#
+[windows]
+192.168.2.58
+192.168.2.56
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+commstech@clustermgr:/etc/ansible$ ansible -m ping Home_Switch
+[WARNING]: ansible-pylibssh not installed, falling back to paramiko
+Home_Switch | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+commstech@clustermgr:/etc/ansible$ ansible -m ping PXEServer
+PXEServer | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+commstech@clustermgr:/etc/ansible$ ansible -m ping ios
+[WARNING]: ansible-pylibssh not installed, falling back to paramiko
+Home_Switch | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+commstech@clustermgr:/etc/ansible$ ansible -m ping ubuntu
+PXEServer | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+ClusterMGR | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+RemoteSupport | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+192.168.255.15 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.255.15 port 22: No route to host",
+    "unreachable": true
+}
+Nextcloud | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+Fireball_ubuntu | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.4.110 port 22: Connection timed out",
+    "unreachable": true
+}
+PeachTea_ubuntu | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.5.110 port 22: Connection timed out",
+    "unreachable": true
+}
+
+```
+
+```
+commstech@clustermgr:/etc/ansible$ ansible --version
+ansible [core 2.15.2]
+  config file = /etc/ansible/ansible.cfg
+  configured module search path = ['/home/commstech/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python3/dist-packages/ansible
+  ansible collection location = /home/commstech/.ansible/collections:/usr/share/ansible/collections
+  executable location = /usr/bin/ansible
+  python version = 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0] (/usr/bin/python3)
+  jinja version = 3.0.3
+  libyaml = True
+```
 
 
 
