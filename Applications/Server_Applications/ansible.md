@@ -887,7 +887,25 @@ ok: [Home_Switch] => {
 }
 ```
 
+you can set conditions based by the following
 
+```
+commstech@clustermgr:/etc/ansible/playbooks$ sudo nano gather_facts.yml        
+  GNU nano 6.2                                                                                  gather_facts.yml                                                                                            
+---
+  - name: Gather Some Facts
+    hosts: ios  
+    gather_facts: no
+
+    tasks:
+    - name: Gather IOS Facts
+      cisco.ios.ios_facts:
+      when: ansible_network_os == 'ios'
+
+    - name: View Facts
+      debug:
+        var: ansible_facts
+```
 
 
 
