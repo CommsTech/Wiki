@@ -47,6 +47,7 @@ defaults
 
 # default settings
 
+```
 cache mycache
 
 total-max-size 4095 # MB
@@ -54,7 +55,7 @@ total-max-size 4095 # MB
 max-object-size 10000 # bytes
 
 max-age 30 # seconds
-
+```
 [view raw](https://gist.github.com/haproxytechblog/c36b02678c5449b9f0876af3d15c4774/raw/93b6537c17e23f44ec4fdb6606baefb765eaa302/blog20201021-01.cfg)[](https://gist.github.com/haproxytechblog/c36b02678c5449b9f0876af3d15c4774#file-blog20201021-01-cfg)[](https://github.com/)
 
 The `total-max-size` directive sets the total amount of memory that this cache can consume; It has a maximum value of 4095 megabytes. The `max-object-size` directive sets the largest size of a single item you can store in the cache, and it can only be half of the `total-max-size` value. In this example, I’ve set it to 10,000 bytes, which is 10 kilobytes. If a response is larger, it simply won’t be cached. The last directive, `max-age`, sets the time-to-live (TTL) in seconds for an item in the cache. After the TTL expires, the item will be removed from memory.
@@ -152,6 +153,23 @@ http-response cache-store MyCache if TRUE
 
 For a basic test that is.. For actual usage you should think about what acl's to apply before trying to use the cache for everything..
 
+## Additional Tuning
+we can tune things like window size. SSL ciphers cache size etc. here is an example of a working HAProxy Global Advanced Pass thru config on pfsense
+```
+tune.ssl.cachesize 100000
+tune.ssl.lifetime 600
+tune.ssl.maxrecord 1460
+tune.h2.initial-window-size 1048576
+tune.ssl.default-dh-param 2048
+ssl-default-bind-ciphers ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-RSA-CHACHA20-POLY1305:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-SHA384:ECDHE-RSA-AES256-SHA384:ECDHE-ECDSA-AES128-SHA256:ECDHE-RSA-AES128-SHA256
+ssl-default-bind-options no-sslv3 no-tlsv10 no-tlsv11 no-tls-tickets
+ssl-default-server-ciphers ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-RSA-CHACHA20-POLY1305:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-SHA384:ECDHE-RSA-AES256-SHA384:ECDHE-ECDSA-AES128-SHA256:ECDHE-RSA-AES128-SHA256
+ssl-default-server-options no-sslv3 no-tlsv10 no-tlsv11 no-tls-tickets
+cache MyCache
+    total-max-size 4095   # MB
+    max-object-size 10000 # bytes
+    max-age 60            # seconds
+```
 ## Conclusion
 
 HAProxy’s cache helps boost the speed of your API services, resulting in a more responsive website. Define how long responses should be cached using the `max-age` directive, which you can override with a Cache-Control header. If there are certain responses that should not be cached at all, you can use an _if_ statement to filter them out or you can set your Cache-Control header to _no-store_. The HAProxy Runtime API will show you how long items will live in the cache and HAProxy’s Prometheus metrics endpoint exposes counters for lookups and cache hits. Now go and enjoy the benefits of proxy caching!
