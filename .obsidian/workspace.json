@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/pfSense/HAProxy.md",
+                "file": "Others/Hacking_Resources.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "haproxy",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/pfSense/HAProxy.md",
+                "file": "Others/Hacking_Resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/pfSense/HAProxy.md",
+                "file": "Others/Hacking_Resources.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/pfSense/HAProxy.md"
+                "file": "Others/Hacking_Resources.md"
               }
             }
           },
@@ -183,8 +182,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fd3341baaf78d45c",
+  "active": "73ee420029073090",
   "lastOpenFiles": [
+    "Networking/pfSense/HAProxy.md",
     "Applications/Server_Applications/ansible.md",
     "Networking/Unifi/Home.md",
     "Networking/pfSense/pfBlockerNG/DNSBL/Whitelist/Additional_Sites_Whitelist.md",
@@ -222,7 +222,6 @@
     "Applications/Server_Applications/Openfire.md",
     "Networking/Microsoft",
     "Applications/Server_Applications/unifi.md",
-    "Applications/Server_Applications/Ansible Gui Semaphore.md",
     "_redirects",
     "New Text Document.txt",
     "New folder",

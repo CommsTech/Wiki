@@ -144,3 +144,4 @@ Archived Security Conference Videos
 Online Communities
 --
 * [Hack+](http://t.me/hacking_group_channel)
+* [Ducky Payloads github](https://github.com/hak5/usbrubberducky-payloads)
