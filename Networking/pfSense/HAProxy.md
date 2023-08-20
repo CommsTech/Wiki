@@ -180,3 +180,8 @@ cache MyCache
 ## Conclusion
 
 HAProxy’s cache helps boost the speed of your API services, resulting in a more responsive website. Define how long responses should be cached using the `max-age` directive, which you can override with a Cache-Control header. If there are certain responses that should not be cached at all, you can use an _if_ statement to filter them out or you can set your Cache-Control header to _no-store_. The HAProxy Runtime API will show you how long items will live in the cache and HAProxy’s Prometheus metrics endpoint exposes counters for lookups and cache hits. Now go and enjoy the benefits of proxy caching!
+
+
+#### Sites to check your security after config
+https://www.ssllabs.com/ssltest/
+https://httpstatus.io/
