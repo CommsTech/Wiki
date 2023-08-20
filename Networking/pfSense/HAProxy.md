@@ -151,6 +151,13 @@ http-request cache-use MyCache if TRUE
 http-response cache-store MyCache if TRUE
 ```
 
+or we can set it conditionally by
+
+```
+http-request cache-use MyCache if { path_beg /api/ }
+http-response cache-store MyCache
+```
+
 For a basic test that is.. For actual usage you should think about what acl's to apply before trying to use the cache for everything..
 
 ## Additional Tuning
