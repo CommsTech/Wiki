@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Others/Hacking_Resources.md",
+                "file": "Certifications/Cisco/Cisco/Secure_Cloud_and _Network_Analytics.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Others/Hacking_Resources.md",
+                "file": "Certifications/Cisco/Cisco/Secure_Cloud_and _Network_Analytics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Others/Hacking_Resources.md",
+                "file": "Certifications/Cisco/Cisco/Secure_Cloud_and _Network_Analytics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Others/Hacking_Resources.md"
+                "file": "Certifications/Cisco/Cisco/Secure_Cloud_and _Network_Analytics.md"
               }
             }
           },
@@ -182,8 +182,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "73ee420029073090",
+  "active": "fd3341baaf78d45c",
   "lastOpenFiles": [
+    "Pasted image 20230821211119.png",
+    "Others/Hacking_Resources.md",
+    "Certifications/Cisco/Cisco/Secure_Cloud_and _Network_Analytics.md",
+    "Certifications/Cisco/Cisco",
     "Networking/pfSense/HAProxy.md",
     "Applications/Server_Applications/ansible.md",
     "Networking/Unifi/Home.md",
@@ -218,10 +222,7 @@
     "Networking/Home.md",
     "Applications/Server_Applications/Microsoft NPS.md",
     "Applications/Server_Applications/Matomo.md",
-    "Applications/Server_Applications/Kasm.md",
-    "Applications/Server_Applications/Openfire.md",
     "Networking/Microsoft",
-    "Applications/Server_Applications/unifi.md",
     "_redirects",
     "New Text Document.txt",
     "New folder",
