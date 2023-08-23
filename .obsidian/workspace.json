@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Certifications/Cisco/Cisco/Secure_Cloud_and _Network_Analytics.md",
+                "file": "Home.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Certifications/Cisco/Cisco/Secure_Cloud_and _Network_Analytics.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Certifications/Cisco/Cisco/Secure_Cloud_and _Network_Analytics.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Certifications/Cisco/Cisco/Secure_Cloud_and _Network_Analytics.md"
+                "file": "Home.md"
               }
             }
           },
@@ -161,9 +161,17 @@
               "type": "RSS_FEED",
               "state": {}
             }
+          },
+          {
+            "id": "5cffb7b47bb036de",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -179,11 +187,14 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "copilot:Copilot Chat": false
     }
   },
-  "active": "fd3341baaf78d45c",
+  "active": "5cffb7b47bb036de",
   "lastOpenFiles": [
+    "Certifications/Cisco/Cisco/CCNA.md",
+    "Certifications/Cisco/Cisco/Secure_Cloud_and _Network_Analytics.md",
     "Pasted image 20230821220127.png",
     "Pasted image 20230821215836.png",
     "Pasted image 20230821215621.png",
@@ -194,7 +205,6 @@
     "Pasted image 20230821214933.png",
     "Pasted image 20230821211119.png",
     "Others/Hacking_Resources.md",
-    "Certifications/Cisco/Cisco/Secure_Cloud_and _Network_Analytics.md",
     "Certifications/Cisco/Cisco",
     "Networking/pfSense/HAProxy.md",
     "Applications/Server_Applications/ansible.md",
@@ -211,7 +221,6 @@
     "Certifications/EC_Council/Home.md",
     "Assets/documents/Cloud+_CV0-002_objectives.pdf",
     "Assets/images/Idrac_security_application_error_idrac6.png",
-    "Assets/images/Pasted_image_20221211074924.png",
     "Applications/Server_Applications/Nextcloud.md",
     "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
     "Applications/Server_Applications/SecurityOnion.md",

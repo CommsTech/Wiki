@@ -75,6 +75,7 @@ Security
 Home Automations
 - [HomeAssistant (Docker)]()
 
-## PRIVACY NOTICE
-There are no analytics collected on this site by me. If you are seeing some trackers, loggers, or anything other than the wiki pages, please let me know as I will force disable them on the server end if possible.
+### Privacy Notice
+Rest assured, no analytics are collected on this site. If you notice any trackers or unwanted elements, please let us know so we can address them promptly. We're excited to have you on board and look forward to your contributions and engagement!
 
+[Join our Community](#) | [Contribute](#) | [Contact Us](#)
