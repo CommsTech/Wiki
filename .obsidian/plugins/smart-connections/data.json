@@ -1,5 +1,5 @@
 {
-  "api_key": "",
+  "api_key": "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",
   "chat_open": true,
   "file_exclusions": "",
   "folder_exclusions": "",
@@ -13,8 +13,13 @@
   "log_render_files": false,
   "recently_sent_retry_notice": false,
   "skip_sections": false,
-  "smart_chat_model": "gpt-3.5-turbo-16k",
+  "smart_chat_model": "gpt-3.5-turbo",
   "view_open": true,
   "version": "1.6.34",
-  "failed_files": []
+  "failed_files": [
+    "Networking/pfSense/pfBlockerNG/Home.md",
+    "WGU/C100.md",
+    "WGU/C839.md",
+    "WGU/C849.md"
+  ]
 }

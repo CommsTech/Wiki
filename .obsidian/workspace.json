@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Applications/Mobile_Applications/IOS_Apps/Home.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Applications/Mobile_Applications/IOS_Apps/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Applications/Mobile_Applications/IOS_Apps/Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Applications/Mobile_Applications/IOS_Apps/Home.md"
               }
             }
           },
@@ -163,10 +163,18 @@
             }
           },
           {
-            "id": "5cffb7b47bb036de",
+            "id": "16f33fa156e15f5e",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "1c85f5988fcfdee7",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
               "state": {}
             }
           }
@@ -187,12 +195,25 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "copilot:Copilot Chat": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "5cffb7b47bb036de",
+  "active": "16f33fa156e15f5e",
   "lastOpenFiles": [
+    "Applications/Mobile_Applications/Home.md",
+    "Applications/Home.md",
+    "Applications/Desktop_Applications/Home.md",
+    "Applications/Desktop_Applications/GIMP.md",
+    "Applications/Server_Applications/nmap.md",
+    "Applications/Desktop_Applications/Wireshark.md",
+    "Applications/Web_Applications/Plex.md",
+    "Applications/Desktop_Applications/Windows_Mac_Plex_Settings.md",
+    "Applications/Desktop_Applications/Ventoy.md",
+    "Applications/Desktop_Applications/PrivaZer.md",
+    "Applications/Desktop_Applications/portmaster.md",
+    "Applications/Desktop_Applications/notepadplusplus.md",
+    "Applications/Desktop_Applications/FreeTube.md",
+    "Home.md",
     "Certifications/Cisco/Cisco/CCNA.md",
     "Certifications/Cisco/Cisco/Secure_Cloud_and _Network_Analytics.md",
     "Pasted image 20230821220127.png",
@@ -211,27 +232,13 @@
     "Networking/Unifi/Home.md",
     "Networking/pfSense/pfBlockerNG/DNSBL/Whitelist/Additional_Sites_Whitelist.md",
     "Applications/Server_Applications/ntopNG.md",
-    "Home.md",
     "Applications/Server_Applications/Home.md",
-    "Applications/Desktop_Applications/Home.md",
     "Applications/Server_Applications/HeavyScript.md",
     "Applications/Server_Applications/Home_Assistant.md",
     "Certifications/PMI/Home.md",
-    "Networking/pfSense/pfBlockerNG/Home.md",
-    "Certifications/EC_Council/Home.md",
     "Assets/documents/Cloud+_CV0-002_objectives.pdf",
     "Assets/images/Idrac_security_application_error_idrac6.png",
-    "Applications/Server_Applications/Nextcloud.md",
-    "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
-    "Applications/Server_Applications/SecurityOnion.md",
-    "Applications/Server_Applications/Microsoft_NPS.md",
-    "Applications/Server_Applications/Ansible_Gui_Semaphore.md",
-    "Applications/Server_Applications/Zabbix.md",
-    "Applications/Server_Applications/bitwarden.md",
     "Applications/Server_Applications/Untitled",
-    "Networking/Home.md",
-    "Applications/Server_Applications/Microsoft NPS.md",
-    "Applications/Server_Applications/Matomo.md",
     "Networking/Microsoft",
     "_redirects",
     "New Text Document.txt",
