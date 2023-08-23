@@ -94,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Mobile_Applications/IOS_Apps/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Mobile_Applications/IOS_Apps/Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Applications/Mobile_Applications/IOS_Apps/Home.md"
-              }
+              "state": {}
             }
           },
           {
@@ -163,14 +159,6 @@
             }
           },
           {
-            "id": "16f33fa156e15f5e",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {}
-            }
-          },
-          {
             "id": "1c85f5988fcfdee7",
             "type": "leaf",
             "state": {
@@ -179,7 +167,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -198,8 +186,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "16f33fa156e15f5e",
+  "active": "1f1849bc08755a4f",
   "lastOpenFiles": [
+    "Applications/Mobile_Applications/IOS_Apps/Home.md",
     "Applications/Mobile_Applications/Home.md",
     "Applications/Home.md",
     "Applications/Desktop_Applications/Home.md",
@@ -235,7 +224,6 @@
     "Applications/Server_Applications/Home.md",
     "Applications/Server_Applications/HeavyScript.md",
     "Applications/Server_Applications/Home_Assistant.md",
-    "Certifications/PMI/Home.md",
     "Assets/documents/Cloud+_CV0-002_objectives.pdf",
     "Assets/images/Idrac_security_application_error_idrac6.png",
     "Applications/Server_Applications/Untitled",
