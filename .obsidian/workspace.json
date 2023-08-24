@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Home.md",
+                "file": "Uncategorized/How to setup FlareSolverr - TRaSH Guides.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Home.md",
+                "file": "Uncategorized/How to setup FlareSolverr - TRaSH Guides.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Home.md",
+                "file": "Uncategorized/How to setup FlareSolverr - TRaSH Guides.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Home.md"
+                "file": "Uncategorized/How to setup FlareSolverr - TRaSH Guides.md"
               }
             }
           },
@@ -193,8 +193,10 @@
   },
   "active": "fd3341baaf78d45c",
   "lastOpenFiles": [
-    "Uncategorized/LibreSpeed Speedtest.md",
     "Applications/Home.md",
+    "Uncategorized/How to setup FlareSolverr - TRaSH Guides.md",
+    "Uncategorized/Obsidian Web Clipper Test Note.md",
+    "Uncategorized/LibreSpeed Speedtest.md",
     "Uncategorized",
     "Applications/Desktop_Applications/FreeTube.md",
     "About_Me.md",
@@ -218,8 +220,6 @@
     "TV_Streaming_Devices/Xbox.md",
     "Virtual_Infrastructure/AWS/AWS_Services.md",
     "Virtual_Infrastructure/AWS/CloudFront.md",
-    "Virtual_Infrastructure/AWS/Home.md",
-    "Virtual_Infrastructure/Home.md",
     "Assets/images/Pasted image 20230821211119.png",
     "Assets/images/Pasted image 20230821220127.png",
     "Assets/images/Pasted image 20230821215836.png",
