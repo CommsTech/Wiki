@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uncategorized/How to setup FlareSolverr - TRaSH Guides.md",
+                "file": "Networking/pfSense/Integrating_Security_Onion_with_Pfsense.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uncategorized/How to setup FlareSolverr - TRaSH Guides.md",
+                "file": "Networking/pfSense/Integrating_Security_Onion_with_Pfsense.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uncategorized/How to setup FlareSolverr - TRaSH Guides.md",
+                "file": "Networking/pfSense/Integrating_Security_Onion_with_Pfsense.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uncategorized/How to setup FlareSolverr - TRaSH Guides.md"
+                "file": "Networking/pfSense/Integrating_Security_Onion_with_Pfsense.md"
               }
             }
           },
@@ -161,17 +161,9 @@
               "type": "RSS_FEED",
               "state": {}
             }
-          },
-          {
-            "id": "1c85f5988fcfdee7",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -193,8 +185,9 @@
   },
   "active": "fd3341baaf78d45c",
   "lastOpenFiles": [
-    "Applications/Home.md",
     "Uncategorized/How to setup FlareSolverr - TRaSH Guides.md",
+    "Networking/pfSense/Integrating_Security_Onion_with_Pfsense.md",
+    "Applications/Home.md",
     "Uncategorized/Obsidian Web Clipper Test Note.md",
     "Uncategorized/LibreSpeed Speedtest.md",
     "Uncategorized",
@@ -219,7 +212,6 @@
     "Privacy/OSINT.md",
     "TV_Streaming_Devices/Xbox.md",
     "Virtual_Infrastructure/AWS/AWS_Services.md",
-    "Virtual_Infrastructure/AWS/CloudFront.md",
     "Assets/images/Pasted image 20230821211119.png",
     "Assets/images/Pasted image 20230821220127.png",
     "Assets/images/Pasted image 20230821215836.png",
