@@ -10,6 +10,8 @@ The goal is to have pfsense still running IDS where it can actively block threat
 - Enter the Security Onion local IP into the field "Remote log servers" with port 514 (eg 192.168.2.8:514)
 - Under "Remote Syslog Contents" check "Everything"
 
+*The root cause of most issues was using the Syslog format PFsense logs instead of the default BSD format. *
+
 **Suritcata-in pfsense settings see** [https://i.imgur.com/oRWxJOh.png](https://i.imgur.com/oRWxJOh.png)
 
 - Interfaces: For each interface you have configured, edit and repeat steps for each interface
