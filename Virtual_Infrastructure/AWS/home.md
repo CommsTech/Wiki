@@ -13,9 +13,9 @@ Amazon Web Services offers reliable, scalable, and inexpensive cloud computing s
 
 ## Table Of Contents
 
-[AWS Services]()
-[AWS Cloudfront]()
-[Amazon OpenSearch]()
+[AWS Services](https://wiki.commsnet.org/en/Virtual_Infrastructure/AWS/AWS_Services)
+[AWS Cloudfront](https://wiki.commsnet.org/en/Virtual_Infrastructure/AWS/CloudFront)
+[Amazon OpenSearch](https://wiki.commsnet.org/en/Virtual_Infrastructure/AWS/opensearch)
 
 
 

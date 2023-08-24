@@ -10,6 +10,8 @@ dateCreated: 2022-05-09T04:33:51.250Z
 # WGU Table of Contents
 ## Class Notes for Bachelor of Science, Network Operations and Security for WGU
 
+I took these classes in 2021-2022. I graduated in 2022. Please feel free to add classes and notes to assist other students in achieving their goals.
+
 
 - [C100 - Introduction to Humanities](https://wiki.commsnet.org/en/WGU/C100)
 - [C165 - Integrated Physical Sciences](https://wiki.commsnet.org/en/WGU/c165)

@@ -42,7 +42,8 @@ File Storage and Collaboration
 - [Nextcloud](https://nextcloud.commsnet.org)
 - [gittea](https://git.commsnet.org)
 - [wiki.js](https://wikijs.commsnet.org)
-- [Resilio Sync](https://resilio.commsnet.org)
+- [Resilio Sync](https://resilio.commsnet.org) - Discontinued in favor of syncthing
+- [Syncthing]()
 - [commento](https://commento.commsnet.org)
 
 Games
@@ -62,7 +63,7 @@ Media
 - [Jellyfin](https://jellyfin.commsnet.org)
 
 Support
-- [MeshCentral](https://support.commsnet.org)
+- [MeshCentral]()
 
 Analytics
 - [Matomo](!https://matomo.commsnet.org) -Discontinued use as the Analytics gathered were not useful
@@ -78,4 +79,4 @@ Home Automations
 ### Privacy Notice
 Rest assured, no analytics are collected on this site. If you notice any trackers or unwanted elements, please let us know so we can address them promptly. We're excited to have you on board and look forward to your contributions and engagement!
 
-[Join our Community](#) | [Contribute](#) | [Contact Us](#)
+[Join our Community](https://wiki.commsnet.org/register) | [Contribute](https://wiki.commsnet.org/en/Donate) | [Contact Us](#)
