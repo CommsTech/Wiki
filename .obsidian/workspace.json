@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "About_Me.md",
+                "file": "Applications/Home.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "About_Me.md",
+                "file": "Applications/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "About_Me.md",
+                "file": "Applications/Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "About_Me.md"
+                "file": "Applications/Home.md"
               }
             }
           },
@@ -169,17 +169,9 @@
               "type": "copilot-chat-view",
               "state": {}
             }
-          },
-          {
-            "id": "75a855d4893fb46d",
-            "type": "leaf",
-            "state": {
-              "type": "ava.write.sidebar",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -196,13 +188,13 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "ava:Ava": false,
-      "ava:Ava - Show Links": false,
-      "ava:Ava - Open Rewrite Playground": false
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "fd3341baaf78d45c",
   "lastOpenFiles": [
+    "Applications/Desktop_Applications/FreeTube.md",
+    "About_Me.md",
     "Applications/Desktop_Applications/Wireshark.md",
     "Certifications/Amazon/Cloud_Practitioner.md",
     "Certifications/Cisco/Cisco/CCNA.md",
@@ -225,10 +217,8 @@
     "Virtual_Infrastructure/AWS/CloudFront.md",
     "Virtual_Infrastructure/AWS/Home.md",
     "Virtual_Infrastructure/Home.md",
-    "About_Me.md",
     "WGU/Home.md",
     "WGU/C963.md",
-    "WGU/C955.md",
     "Assets/images/Pasted image 20230821211119.png",
     "Assets/images/Pasted image 20230821220127.png",
     "Assets/images/Pasted image 20230821215836.png",
