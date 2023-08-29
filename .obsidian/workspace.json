@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Unifi/Home.md",
+                "file": "Applications/Server_Applications/Nextcloud.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Unifi/Home.md",
+                "file": "Applications/Server_Applications/Nextcloud.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Unifi/Home.md",
+                "file": "Applications/Server_Applications/Nextcloud.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Unifi/Home.md"
+                "file": "Applications/Server_Applications/Nextcloud.md"
               }
             }
           },
@@ -183,8 +183,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "73ee420029073090",
+  "active": "fd3341baaf78d45c",
   "lastOpenFiles": [
+    "Networking/Unifi/Home.md",
     "Networking/Home.md",
     "Networking/pfSense/pfBlockerNG/DNSBL/Whitelist/Additional_Sites_Whitelist.md",
     "Networking/pfSense/Integrating_Security_Onion_with_Pfsense.md",
@@ -211,7 +212,6 @@
     "Privacy/Data_Removal_Guide.md",
     "Privacy/Guide_to_Online_Anonymity.md",
     "Privacy/Home.md",
-    "Privacy/OSINT.md",
     "Assets/images/Pasted image 20230821211119.png",
     "Assets/images/Pasted image 20230821220127.png",
     "Assets/images/Pasted image 20230821215836.png",
