@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/pfSense/Integrating_Security_Onion_with_Pfsense.md",
+                "file": "Networking/Unifi/Home.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "unifi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/pfSense/Integrating_Security_Onion_with_Pfsense.md",
+                "file": "Networking/Unifi/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/pfSense/Integrating_Security_Onion_with_Pfsense.md",
+                "file": "Networking/Unifi/Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/pfSense/Integrating_Security_Onion_with_Pfsense.md"
+                "file": "Networking/Unifi/Home.md"
               }
             }
           },
@@ -183,10 +183,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "fd3341baaf78d45c",
+  "active": "73ee420029073090",
   "lastOpenFiles": [
-    "Uncategorized/How to setup FlareSolverr - TRaSH Guides.md",
+    "Networking/Home.md",
+    "Networking/pfSense/pfBlockerNG/DNSBL/Whitelist/Additional_Sites_Whitelist.md",
     "Networking/pfSense/Integrating_Security_Onion_with_Pfsense.md",
+    "Uncategorized/How to setup FlareSolverr - TRaSH Guides.md",
     "Applications/Home.md",
     "Uncategorized/Obsidian Web Clipper Test Note.md",
     "Uncategorized/LibreSpeed Speedtest.md",
@@ -210,8 +212,6 @@
     "Privacy/Guide_to_Online_Anonymity.md",
     "Privacy/Home.md",
     "Privacy/OSINT.md",
-    "TV_Streaming_Devices/Xbox.md",
-    "Virtual_Infrastructure/AWS/AWS_Services.md",
     "Assets/images/Pasted image 20230821211119.png",
     "Assets/images/Pasted image 20230821220127.png",
     "Assets/images/Pasted image 20230821215836.png",
