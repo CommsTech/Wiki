@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/Nextcloud.md",
+                "file": "Applications/Server_Applications/ntfy.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/Nextcloud.md",
+                "file": "Applications/Server_Applications/ntfy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/Nextcloud.md",
+                "file": "Applications/Server_Applications/ntfy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/Nextcloud.md"
+                "file": "Applications/Server_Applications/ntfy.md"
               }
             }
           },
@@ -185,6 +185,8 @@
   },
   "active": "fd3341baaf78d45c",
   "lastOpenFiles": [
+    "Applications/Server_Applications/Nextcloud.md",
+    "Applications/Server_Applications/ntfy.md",
     "Networking/Unifi/Home.md",
     "Networking/Home.md",
     "Networking/pfSense/pfBlockerNG/DNSBL/Whitelist/Additional_Sites_Whitelist.md",
@@ -210,8 +212,6 @@
     "Others/Hacking_Resources.md",
     "Others/FOSS.md",
     "Privacy/Data_Removal_Guide.md",
-    "Privacy/Guide_to_Online_Anonymity.md",
-    "Privacy/Home.md",
     "Assets/images/Pasted image 20230821211119.png",
     "Assets/images/Pasted image 20230821220127.png",
     "Assets/images/Pasted image 20230821215836.png",
