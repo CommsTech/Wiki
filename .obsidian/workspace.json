@@ -183,10 +183,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "fd3341baaf78d45c",
+  "active": "73ee420029073090",
   "lastOpenFiles": [
-    "Applications/Server_Applications/Nextcloud.md",
+    "Applications/Server_Applications/nmap.md",
     "Applications/Server_Applications/ntfy.md",
+    "Applications/Server_Applications/Nextcloud.md",
     "Networking/Unifi/Home.md",
     "Networking/Home.md",
     "Networking/pfSense/pfBlockerNG/DNSBL/Whitelist/Additional_Sites_Whitelist.md",
@@ -211,7 +212,6 @@
     "Others/Home.md",
     "Others/Hacking_Resources.md",
     "Others/FOSS.md",
-    "Privacy/Data_Removal_Guide.md",
     "Assets/images/Pasted image 20230821211119.png",
     "Assets/images/Pasted image 20230821220127.png",
     "Assets/images/Pasted image 20230821215836.png",
