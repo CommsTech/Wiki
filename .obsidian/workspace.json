@@ -19,8 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3265ae294dba2ade",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.5"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -183,7 +194,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "73ee420029073090",
+  "active": "3265ae294dba2ade",
   "lastOpenFiles": [
     "Applications/Server_Applications/nmap.md",
     "Applications/Server_Applications/ntfy.md",
