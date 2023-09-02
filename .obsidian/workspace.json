@@ -24,9 +24,12 @@
             "id": "3265ae294dba2ade",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.4.5"
+                "file": "Virtual_Infrastructure/XCP-NG.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -105,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/ntfy.md",
+                "file": "Virtual_Infrastructure/XCP-NG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/ntfy.md",
+                "file": "Virtual_Infrastructure/XCP-NG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/ntfy.md"
+                "file": "Virtual_Infrastructure/XCP-NG.md"
               }
             }
           },
@@ -196,6 +199,8 @@
   },
   "active": "3265ae294dba2ade",
   "lastOpenFiles": [
+    "Virtual_Infrastructure/XCP-NG_on_ESXi.md",
+    "Virtual_Infrastructure/XCP-NG.md",
     "Applications/Server_Applications/nmap.md",
     "Applications/Server_Applications/ntfy.md",
     "Applications/Server_Applications/Nextcloud.md",
@@ -221,8 +226,6 @@
     "Operating_Systems/Apple_IOS/Home.md",
     "Operating_Systems/Apple_IOS/Change_AppleID_and_Password.md",
     "Others/Home.md",
-    "Others/Hacking_Resources.md",
-    "Others/FOSS.md",
     "Assets/images/Pasted image 20230821211119.png",
     "Assets/images/Pasted image 20230821220127.png",
     "Assets/images/Pasted image 20230821215836.png",
