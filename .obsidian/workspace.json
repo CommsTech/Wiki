@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/authentik.md",
+                "file": "Virtual_Infrastructure/XCP-ng_VM_Tools.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/authentik.md",
+                "file": "Virtual_Infrastructure/XCP-ng_VM_Tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/authentik.md",
+                "file": "Virtual_Infrastructure/XCP-ng_VM_Tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/authentik.md"
+                "file": "Virtual_Infrastructure/XCP-ng_VM_Tools.md"
               }
             }
           },
@@ -200,6 +200,7 @@
   "active": "3265ae294dba2ade",
   "lastOpenFiles": [
     "Virtual_Infrastructure/XCP-NG.md",
+    "Virtual_Infrastructure/XCP-ng_VM_Tools.md",
     "Applications/Server_Applications/authentik.md",
     "Virtual_Infrastructure/XCP-NG_on_ESXi.md",
     "Applications/Server_Applications/nmap.md",
@@ -225,7 +226,6 @@
     "Operating_Systems/Linux/Clearing_out_Orphaned_Shadow_Copies.md",
     "Operating_Systems/Linux/awk.md",
     "Operating_Systems/Apple_IOS/Home.md",
-    "Operating_Systems/Apple_IOS/Change_AppleID_and_Password.md",
     "Assets/images/Pasted image 20230821211119.png",
     "Assets/images/Pasted image 20230821220127.png",
     "Assets/images/Pasted image 20230821215836.png",
