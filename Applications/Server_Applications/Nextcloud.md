@@ -578,3 +578,16 @@ When in doubt, [make a backup](https://rair.dev/nextcloud-backup-pt-1/) and de
 Viruses and malware are most commonly distributed via emails and unsolicited links. But occasionally we may receive a file from a friend who unknowingly is passing around an infected file (insert your favorite COVID reference here). Integrating it into Nextcloud is relatively painless and if you have a bit of RAM to spare, can be useful for some added protection.
 
 The ClamAV program is not a full fledged antivirus suite, but does a great job in detecting many threats to our digital lives. It might not be as intuitive as the big names like McAfee, BitDefender, Avira, Malwarebytes, etc. But at least it won’t be pushing you to upgrade to ‘Premium’ constantly.
+
+
+## Troubleshooting
+There are some warnings regarding your setup.
+
+- The PHP module "imagick" is not enabled although the theming app is. For favicon generation to work correctly, you need to install and enable this module.
+***does not work
+```
+sudo apt-get install php-imagick
+sudo snap restart nextcloud
+```
+
+*** temp solution is just disable theming app in nextcloud
