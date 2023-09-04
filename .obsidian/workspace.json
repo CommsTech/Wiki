@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/Jellyfin.md",
+                "file": "Applications/Server_Applications/Nextcloud.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/Jellyfin.md",
+                "file": "Applications/Server_Applications/Nextcloud.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/Jellyfin.md",
+                "file": "Applications/Server_Applications/Nextcloud.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/Jellyfin.md"
+                "file": "Applications/Server_Applications/Nextcloud.md"
               }
             }
           },
@@ -199,6 +199,7 @@
   },
   "active": "3265ae294dba2ade",
   "lastOpenFiles": [
+    "Applications/Server_Applications/Jellyfin.md",
     "Virtual_Infrastructure/esxi7_to_xcp-ng.md",
     "Virtual_Infrastructure/XCP-ng_VM_Tools.md",
     "Virtual_Infrastructure/XCP-NG.md",
@@ -225,7 +226,6 @@
     "Networking/Cisco/Home.md",
     "Networking/Cisco/3850_Running_Config.md",
     "Operating_Systems/Linux/Clearing_out_Orphaned_Shadow_Copies.md",
-    "Operating_Systems/Linux/awk.md",
     "Assets/images/Pasted image 20230821211119.png",
     "Assets/images/Pasted image 20230821220127.png",
     "Assets/images/Pasted image 20230821215836.png",
