@@ -921,10 +921,15 @@ set a good password
 add the ansible user to the administrator group
 
 open a powershell prompt as admin
-run the following commands
 
+Validate if you have both ssh client and server
 ```
 Get-WindowsCapability -Online | Where-Object Name -like 'OpenSSH*' 
+```
+
+install the missing application with
+
+```
 Add-WindowsCapability -Online -Name OpenSSH.Client~~~~0.0.1.0
 Add-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0
 
