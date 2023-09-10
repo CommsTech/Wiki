@@ -13,19 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/ntfy.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3265ae294dba2ade",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Applications/Server_Applications/SecurityOnion.md",
                 "mode": "source",
                 "backlinks": true,
@@ -33,8 +20,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -197,8 +183,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3265ae294dba2ade",
+  "active": "fd3341baaf78d45c",
   "lastOpenFiles": [
+    "Networking/pfSense/pfSense_as_a_VM.md",
+    "Applications/Server_Applications/ntfy.md",
+    "Virtual_Infrastructure/Xen_Server/Untitled.md",
+    "Uncategorized/DOXXING_Article.md",
+    "Applications/Server_Applications/SecurityOnion.md",
     "Applications/Server_Applications/Nextcloud.md",
     "Applications/Server_Applications/Jellyfin.md",
     "Virtual_Infrastructure/esxi7_to_xcp-ng.md",
@@ -207,7 +198,6 @@
     "Applications/Server_Applications/authentik.md",
     "Virtual_Infrastructure/XCP-NG_on_ESXi.md",
     "Applications/Server_Applications/nmap.md",
-    "Applications/Server_Applications/ntfy.md",
     "Networking/Unifi/Home.md",
     "Networking/Home.md",
     "Networking/pfSense/pfBlockerNG/DNSBL/Whitelist/Additional_Sites_Whitelist.md",
@@ -222,10 +212,6 @@
     "Applications/Desktop_Applications/Wireshark.md",
     "Certifications/Amazon/Cloud_Practitioner.md",
     "Certifications/Cisco/Cisco/CCNA.md",
-    "Hardware/Laptops/Laptop_Power_Management.md",
-    "Networking/Cisco/Home.md",
-    "Networking/Cisco/3850_Running_Config.md",
-    "Operating_Systems/Linux/Clearing_out_Orphaned_Shadow_Copies.md",
     "Assets/images/Pasted image 20230821211119.png",
     "Assets/images/Pasted image 20230821220127.png",
     "Assets/images/Pasted image 20230821215836.png",
