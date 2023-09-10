@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/Nextcloud.md",
+                "file": "Applications/Server_Applications/SecurityOnion.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/Nextcloud.md",
+                "file": "Applications/Server_Applications/SecurityOnion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/Nextcloud.md",
+                "file": "Applications/Server_Applications/SecurityOnion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/Nextcloud.md"
+                "file": "Applications/Server_Applications/SecurityOnion.md"
               }
             }
           },
@@ -199,6 +199,7 @@
   },
   "active": "3265ae294dba2ade",
   "lastOpenFiles": [
+    "Applications/Server_Applications/Nextcloud.md",
     "Applications/Server_Applications/Jellyfin.md",
     "Virtual_Infrastructure/esxi7_to_xcp-ng.md",
     "Virtual_Infrastructure/XCP-ng_VM_Tools.md",
@@ -207,7 +208,6 @@
     "Virtual_Infrastructure/XCP-NG_on_ESXi.md",
     "Applications/Server_Applications/nmap.md",
     "Applications/Server_Applications/ntfy.md",
-    "Applications/Server_Applications/Nextcloud.md",
     "Networking/Unifi/Home.md",
     "Networking/Home.md",
     "Networking/pfSense/pfBlockerNG/DNSBL/Whitelist/Additional_Sites_Whitelist.md",
