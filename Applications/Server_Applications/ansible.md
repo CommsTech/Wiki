@@ -920,6 +920,12 @@ on the windows computer add an ansible user
 set a good password
 add the ansible user to the administrator group
 
+**note windows Home does not have local users and groups in computer management... youll have to run the following command to add a local admin. win + R
+
+```
+netplwiz
+```
+
 open a powershell prompt as admin
 
 Validate if you have both ssh client and server
@@ -938,6 +944,11 @@ Set-Service -Name sshd -StartupType 'Automatic'
 
 ```
 
+add some firewall rules in windows
+
+```
+
+```
 
 Modify your ansible hosts file for the windows client and ansible user
 
@@ -953,6 +964,7 @@ ansible_shell_type=cmd
 ansible_ssh_common_args=-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null
 ansible_ssh_retries=3 ansible_become_method=runas
 ```
+
 
 validate you can ssh into the windows server
 ```
