@@ -913,6 +913,57 @@ commstech@clustermgr:/etc/ansible/playbooks$ sudo nano gather_facts.yml
 
 
 
+
+
+## Adding Windows Clients
+on the windows computer add an ansible user
+set a good password
+add the ansible user to the administrator group
+
+open a powershell prompt as admin
+run the following commands
+
+```
+Get-WindowsCapability -Online | Where-Object Name -like 'OpenSSH*' 
+Add-WindowsCapability -Online -Name OpenSSH.Client~~~~0.0.1.0
+Add-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0
+
+Start-Service sshd
+Set-Service -Name sshd -StartupType 'Automatic'
+
+```
+
+
+Modify your ansible hosts file for the windows client and ansible user
+
+```
+[win]
+IP_ADDRESS
+
+[win:vars]
+ansible_user=Administrator
+ansible_password=
+ansible_connection=ssh
+ansible_shell_type=cmd
+ansible_ssh_common_args=-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null
+ansible_ssh_retries=3 ansible_become_method=runas
+```
+
+validate you can ssh into the windows server
+```
+commstech@clustermgr:/etc/ansible$ ssh ansible@192.168.2.56
+ansible@192.168.2.56's password: 
+```
+
+should look like this if you were sucessful
+```
+Microsoft Windows [Version 10.0.22621.2134]
+(c) Microsoft Corporation. All rights reserved.
+
+ansible@TRAVELBOOK C:\Users\ansible>
+```
+
+
 ---
 
 ## Conclusion [](https://simeononsecurity.ch/guides/automate-windows-patching-and-updates-with-ansible/#conclusion)
