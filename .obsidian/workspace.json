@@ -24,9 +24,12 @@
             "id": "748de667946a1030",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.4.11"
+                "file": "Applications/Server_Applications/SecurityOnion.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -60,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ansible",
+                "query": "securityonion",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/ansible.md",
+                "file": "Applications/Server_Applications/SecurityOnion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/ansible.md",
+                "file": "Applications/Server_Applications/SecurityOnion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/ansible.md"
+                "file": "Applications/Server_Applications/SecurityOnion.md"
               }
             }
           },
@@ -207,6 +210,8 @@
   },
   "active": "748de667946a1030",
   "lastOpenFiles": [
+    "Red_Team/Home (conflicted copy 2023-03-12 105245).md",
+    "Home.md",
     "Operating_Systems/Linux/SSH_Keys.md",
     "Operating_Systems/Windows/unlocking_a_windows_home_account.md",
     "Applications/Server_Applications/ansible.md",
@@ -232,8 +237,6 @@
     "Uncategorized/Obsidian Web Clipper Test Note.md",
     "Uncategorized/LibreSpeed Speedtest.md",
     "Uncategorized",
-    "Applications/Desktop_Applications/FreeTube.md",
-    "About_Me.md",
     "Assets/images/Pasted image 20230821211119.png",
     "Assets/images/Pasted image 20230821220127.png",
     "Assets/images/Pasted image 20230821215836.png",
