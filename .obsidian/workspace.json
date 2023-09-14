@@ -37,9 +37,12 @@
             "id": "b60f5325096d5572",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.4.12"
+                "file": "Applications/Server_Applications/kubernetes/Docker.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -98,8 +101,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -119,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/SecurityOnion.md",
+                "file": "Applications/Server_Applications/kubernetes/Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/SecurityOnion.md",
+                "file": "Applications/Server_Applications/kubernetes/Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/SecurityOnion.md"
+                "file": "Applications/Server_Applications/kubernetes/Docker.md"
               }
             }
           },
@@ -220,6 +222,8 @@
   },
   "active": "b60f5325096d5572",
   "lastOpenFiles": [
+    "Applications/Server_Applications/NodeJS.md",
+    "Applications/Server_Applications/kubernetes/Docker.md",
     "Red_Team/Home (conflicted copy 2023-03-12 105245).md",
     "Home.md",
     "Operating_Systems/Linux/SSH_Keys.md",
@@ -244,8 +248,6 @@
     "Networking/pfSense/Integrating_Security_Onion_with_Pfsense.md",
     "Uncategorized/How to setup FlareSolverr - TRaSH Guides.md",
     "Applications/Home.md",
-    "Uncategorized/Obsidian Web Clipper Test Note.md",
-    "Uncategorized/LibreSpeed Speedtest.md",
     "Uncategorized",
     "Assets/images/Pasted image 20230821211119.png",
     "Assets/images/Pasted image 20230821220127.png",
