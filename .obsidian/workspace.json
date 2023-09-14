@@ -32,9 +32,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b60f5325096d5572",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.12"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -208,7 +218,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "748de667946a1030",
+  "active": "b60f5325096d5572",
   "lastOpenFiles": [
     "Red_Team/Home (conflicted copy 2023-03-12 105245).md",
     "Home.md",
