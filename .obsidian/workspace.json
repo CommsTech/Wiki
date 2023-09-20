@@ -39,15 +39,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/ucaresystem-core.md",
+                "file": "Applications/Server_Applications/SecurityOnion.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
+          },
+          {
+            "id": "f782e5c47057012a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.13"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -121,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/ucaresystem-core.md",
+                "file": "Applications/Server_Applications/SecurityOnion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/ucaresystem-core.md",
+                "file": "Applications/Server_Applications/SecurityOnion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/ucaresystem-core.md"
+                "file": "Applications/Server_Applications/SecurityOnion.md"
               }
             }
           },
@@ -220,10 +230,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b60f5325096d5572",
+  "active": "f782e5c47057012a",
   "lastOpenFiles": [
-    "Applications/Server_Applications/kubernetes/Docker.md",
     "Applications/Server_Applications/ucaresystem-core.md",
+    "Applications/Server_Applications/kubernetes/Docker.md",
     "Applications/Server_Applications/NodeJS.md",
     "Red_Team/Home (conflicted copy 2023-03-12 105245).md",
     "Home.md",
