@@ -15,3 +15,5 @@ Its features include the following:
 - **Live migration** – This is probably what drew most of us to virtualization and got us hooked to begin with – [live migration](https://www.virtualizationhowto.com/2020/12/vmware-vcenter-server-7-update-1-advanced-cross-vcenter-vmotion/). XCP-NG offers the ability to move running virtual machines between hosts.
 - **Scalability** – You can grow and scale your infrastructure as needed. Simply add a host to your XCP-NG environment
 - **Security** – With XCP-NG, you can run your own private data center without the concerns of shared public cloud infrastructure.
+
+

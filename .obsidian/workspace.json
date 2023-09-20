@@ -50,9 +50,12 @@
             "id": "f782e5c47057012a",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.4.13"
+                "file": "Virtual_Infrastructure/Xen_Server/XCP-NG_OS_UBUNTU_Disks.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -131,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/SecurityOnion.md",
+                "file": "Virtual_Infrastructure/Xen_Server/XCP-NG_OS_UBUNTU_Disks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/SecurityOnion.md",
+                "file": "Virtual_Infrastructure/Xen_Server/XCP-NG_OS_UBUNTU_Disks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/SecurityOnion.md"
+                "file": "Virtual_Infrastructure/Xen_Server/XCP-NG_OS_UBUNTU_Disks.md"
               }
             }
           },
@@ -232,6 +235,8 @@
   },
   "active": "f782e5c47057012a",
   "lastOpenFiles": [
+    "Virtual_Infrastructure/XCP-NG.md",
+    "Virtual_Infrastructure/Xen_Server/XCP-NG_OS_UBUNTU_Disks.md",
     "Applications/Server_Applications/ucaresystem-core.md",
     "Applications/Server_Applications/kubernetes/Docker.md",
     "Applications/Server_Applications/NodeJS.md",
@@ -250,14 +255,12 @@
     "Applications/Server_Applications/Jellyfin.md",
     "Virtual_Infrastructure/esxi7_to_xcp-ng.md",
     "Virtual_Infrastructure/XCP-ng_VM_Tools.md",
-    "Virtual_Infrastructure/XCP-NG.md",
     "Applications/Server_Applications/authentik.md",
     "Virtual_Infrastructure/XCP-NG_on_ESXi.md",
     "Applications/Server_Applications/nmap.md",
     "Networking/Home.md",
     "Networking/pfSense/pfBlockerNG/DNSBL/Whitelist/Additional_Sites_Whitelist.md",
     "Networking/pfSense/Integrating_Security_Onion_with_Pfsense.md",
-    "Uncategorized/How to setup FlareSolverr - TRaSH Guides.md",
     "Uncategorized",
     "Assets/images/Pasted image 20230821211119.png",
     "Assets/images/Pasted image 20230821220127.png",
