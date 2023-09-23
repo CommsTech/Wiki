@@ -7,18 +7,20 @@ tags: Penetration Testing, Hacking
 editor: markdown
 dateCreated: 2022-05-26T18:21:15.030Z
 ---
-# Awesome Hacking Resources 
+
+# Awesome Hacking Resources
+
 A collection of hacking / penetration testing resources to make you better!
-** THIS IS A COPY OF https://github.com/samyk/Awesome-Hacking-Resources **
-** Check out SAMYK Github repos they are AMAZING!!! **
-** https://github.com/samyk?tab=repositories **
+\*\* THIS IS A COPY OF https://github.com/samyk/Awesome-Hacking-Resources \*\*
+\*\* Check out SAMYK Github repos they are AMAZING!!! \*\*
+\*\* https://github.com/samyk?tab=repositories \*\*
 
 **lets make it the biggest resource repository for our community**
 
 **You are welcome to fork and contribute.**
 
-Learning the Skills
---
+## Learning the Skills
+
 * [Learning Exploitation with Offensive Computer Security 2.0](http://howto.hackallthethings.com/2016/07/learning-exploitation-with-offensive.html)
 * [Cybrary](https://www.cybrary.it/)
 * [OffensiveComputerSecurity](https://www.cs.fsu.edu/~redwood/OffensiveComputerSecurity/lectures.html)
@@ -28,8 +30,8 @@ Learning the Skills
 * [Seed Labs](http://www.cis.syr.edu/~wedu/seed/labs.html)
 * [Hak5](https://www.hak5.org/)
 
-YouTube channels
---
+## YouTube channels
+
 * [OWASP](https://www.youtube.com/user/OWASPGLOBAL)
 * [Hak5](https://www.youtube.com/user/Hak5Darren)
 * [BlackHat](https://www.youtube.com/channel/UCJ6q9Ie29ajGqKApbLqfBOg)
@@ -57,8 +59,8 @@ YouTube channels
 * [Waleed Jutt](https://www.youtube.com/channel/UCeN7cOELsyMHrzfMsJUgv3Q)
 * [webpwnized](https://www.youtube.com/channel/UCPeJcqbi8v46Adk59plaaXg)
 
-Sharpening Your Skills
---
+## Sharpening Your Skills
+
 * [OWASP Security Shepherd](https://security-shepherd.ctf365.com/login.jsp)
 * [CTF365](https://ctf365.com/)
 * [Pentestit](https://lab.pentestit.ru/)
@@ -79,8 +81,8 @@ Sharpening Your Skills
 * [Shellter Labs](https://shellterlabs.com/en/)
 * [Stripe CTF 2.0](https://github.com/stripe-ctf/stripe-ctf-2.0)
 
-Reverse Engineering, Buffer overflow and Exploit development
---
+## Reverse Engineering, Buffer overflow and Exploit development
+
 * [Shell storm](http://shell-storm.org/)
 * [Buffer Overflow Exploitation Megaprimer for Linux](http://www.securitytube.net/groups?operation=view&groupId=4)
 * [Reverse Engineering Malware 101](https://securedorg.github.io/RE101/)
@@ -96,8 +98,8 @@ Reverse Engineering, Buffer overflow and Exploit development
 * [Reverse engineering reading list](https://github.com/onethawt/reverseengineering-reading-list/blob/master/README.md)
 * [Reverse Engineering challenges](https://challenges.re/)
 
-Privileged escalation
---
+## Privileged escalation
+
 * [Reach the root](https://hackmag.com/security/reach-the-root/)
 * [Basic linux privilege escalation](https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/)
 * [Windows Privilege Escalation](http://www.bhafsec.com/wiki/index.php/Windows_Privilege_Escalation)
@@ -114,13 +116,13 @@ Privileged escalation
 * [Local Linux Enumeration & Privilege Escalation Cheatsheet](https://www.rebootuser.com/?p=1623)
 * [4 Ways get linux privilege escalation](http://www.hackingarticles.in/4-ways-get-linux-privilege-escalation/)
 
-Malware analysis
---
+## Malware analysis
+
 * [Malware traffic analysis](http://www.malware-traffic-analysis.net/)
 * [Malware Analysis - CSCI 4976](https://github.com/RPISEC/Malware/blob/master/README.md)
 
-Vulnerable Web Application
---
+## Vulnerable Web Application
+
 * [OWASP Hackademic Challenges project](https://github.com/Hackademic/hackademic/)
 * [bWAPP](http://www.itsecgames.com/)
 * [Damn Vulnerable Web Application (DVWA)](http://www.dvwa.co.uk/)
@@ -130,18 +132,17 @@ Vulnerable Web Application
 * [OWASP Juice Shop](https://github.com/bkimminich/juice-shop)
 * [OWASP Broken Web Applications Project](https://github.com/chuckfw/owaspbwa/)
 
+## Forums
 
-Forums
---
 * [Greysec](https://greysec.net)
 * [Hackforums](https://hackforums.net/)
 * [0x00sec](https://0x00sec.org/)
 
-Archived Security Conference Videos
---
+## Archived Security Conference Videos
+
 * [InfoCon.org](https://infocon.org/cons/)
 
-Online Communities
---
+## Online Communities
+
 * [Hack+](http://t.me/hacking_group_channel)
 * [Ducky Payloads github](https://github.com/hak5/usbrubberducky-payloads)
