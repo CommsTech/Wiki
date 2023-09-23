@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Virtual_Infrastructure/Xen_Server/XCP-NG_OS_UBUNTU_Disks.md",
+                "file": "Applications/Server_Applications/HAProxy_Authentik.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Virtual_Infrastructure/Xen_Server/XCP-NG_OS_UBUNTU_Disks.md",
+                "file": "Applications/Server_Applications/HAProxy_Authentik.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Virtual_Infrastructure/Xen_Server/XCP-NG_OS_UBUNTU_Disks.md",
+                "file": "Applications/Server_Applications/HAProxy_Authentik.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Virtual_Infrastructure/Xen_Server/XCP-NG_OS_UBUNTU_Disks.md"
+                "file": "Applications/Server_Applications/HAProxy_Authentik.md"
               }
             }
           },
@@ -235,8 +235,11 @@
   },
   "active": "f782e5c47057012a",
   "lastOpenFiles": [
-    "Virtual_Infrastructure/XCP-NG.md",
+    "Pasted image 20230923143931.png",
+    "Pasted image 20230923143719.png",
     "Virtual_Infrastructure/Xen_Server/XCP-NG_OS_UBUNTU_Disks.md",
+    "Applications/Server_Applications/HAProxy_Authentik.md",
+    "Virtual_Infrastructure/XCP-NG.md",
     "Applications/Server_Applications/ucaresystem-core.md",
     "Applications/Server_Applications/kubernetes/Docker.md",
     "Applications/Server_Applications/NodeJS.md",
@@ -259,8 +262,6 @@
     "Virtual_Infrastructure/XCP-NG_on_ESXi.md",
     "Applications/Server_Applications/nmap.md",
     "Networking/Home.md",
-    "Networking/pfSense/pfBlockerNG/DNSBL/Whitelist/Additional_Sites_Whitelist.md",
-    "Networking/pfSense/Integrating_Security_Onion_with_Pfsense.md",
     "Uncategorized",
     "Assets/images/Pasted image 20230821211119.png",
     "Assets/images/Pasted image 20230821220127.png",
@@ -273,7 +274,6 @@
     "Assets/images/Pasted image 20230821214933.png",
     "Certifications/Cisco/Cisco",
     "Assets/documents/Cloud+_CV0-002_objectives.pdf",
-    "Assets/images/Idrac_security_application_error_idrac6.png",
     "Applications/Server_Applications/Untitled",
     "Networking/Microsoft",
     "_redirects",
