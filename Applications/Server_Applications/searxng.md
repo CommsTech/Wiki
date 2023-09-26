@@ -15,5 +15,6 @@ Privacy-respecting, hackable [metasearch engine](https://en.wikipedia.org/wiki/
 
 [Github Repo](https://github.com/searxng/searxng)
 
+[DOCs SearxNG](https://docs.searxng.org/)
 
 [Set Searxng as your default search engine](https://wiki.commsnet.org/en/Applications/Web_Applications/Search_Engines)

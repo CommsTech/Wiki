@@ -8,59 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fd3341baaf78d45c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Applications/Server_Applications/ansible.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "748de667946a1030",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Applications/Server_Applications/SecurityOnion.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b60f5325096d5572",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Applications/Server_Applications/SecurityOnion.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f782e5c47057012a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/HAProxy_Authentik.md",
+                "file": "Applications/Server_Applications/Searxng.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/HAProxy_Authentik.md",
+                "file": "Applications/Server_Applications/Searxng.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/HAProxy_Authentik.md",
+                "file": "Applications/Server_Applications/Searxng.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/HAProxy_Authentik.md"
+                "file": "Applications/Server_Applications/Searxng.md"
               }
             }
           },
@@ -235,11 +195,14 @@
   },
   "active": "f782e5c47057012a",
   "lastOpenFiles": [
+    "Applications/Server_Applications/ansible.md",
+    "Applications/Server_Applications/SecurityOnion.md",
+    "Applications/Server_Applications/Searxng.md",
+    "Applications/Server_Applications/HAProxy_Authentik.md",
     "note.md",
     "Pasted image 20230923143931.png",
     "Pasted image 20230923143719.png",
     "Virtual_Infrastructure/Xen_Server/XCP-NG_OS_UBUNTU_Disks.md",
-    "Applications/Server_Applications/HAProxy_Authentik.md",
     "Virtual_Infrastructure/XCP-NG.md",
     "Applications/Server_Applications/ucaresystem-core.md",
     "Applications/Server_Applications/kubernetes/Docker.md",
@@ -248,9 +211,7 @@
     "Home.md",
     "Operating_Systems/Linux/SSH_Keys.md",
     "Operating_Systems/Windows/unlocking_a_windows_home_account.md",
-    "Applications/Server_Applications/ansible.md",
     "Networking/Unifi/Home.md",
-    "Applications/Server_Applications/SecurityOnion.md",
     "Networking/pfSense/pfSense_as_a_VM.md",
     "Applications/Server_Applications/ntfy.md",
     "Virtual_Infrastructure/Xen_Server/Untitled.md",
@@ -262,7 +223,6 @@
     "Applications/Server_Applications/authentik.md",
     "Virtual_Infrastructure/XCP-NG_on_ESXi.md",
     "Applications/Server_Applications/nmap.md",
-    "Networking/Home.md",
     "Uncategorized",
     "Assets/images/Pasted image 20230821211119.png",
     "Assets/images/Pasted image 20230821220127.png",
