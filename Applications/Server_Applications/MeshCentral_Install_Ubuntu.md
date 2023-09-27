@@ -100,3 +100,6 @@ verify there were no errors with the auto start with
 sudo systemctl status meshcentral.service
 ```
 
+
+
+[MeshCentral Sample Config.json](https://github.com/Ylianst/MeshCentral/blob/master/sample-config-advanced.json)
