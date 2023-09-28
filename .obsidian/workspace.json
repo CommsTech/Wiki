@@ -24,9 +24,12 @@
             "id": "df0de8a58b10c566",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.4.14"
+                "file": "Applications/Server_Applications/ElasticSearch.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -105,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
+                "file": "Applications/Server_Applications/ElasticSearch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
+                "file": "Applications/Server_Applications/ElasticSearch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md"
+                "file": "Applications/Server_Applications/ElasticSearch.md"
               }
             }
           },
@@ -206,6 +209,7 @@
   },
   "active": "df0de8a58b10c566",
   "lastOpenFiles": [
+    "Applications/Server_Applications/ElasticSearch.md",
     "Applications/Server_Applications/Searxng.md",
     "Applications/Server_Applications/ansible.md",
     "Applications/Server_Applications/SecurityOnion.md",
@@ -233,7 +237,6 @@
     "Virtual_Infrastructure/XCP-ng_VM_Tools.md",
     "Applications/Server_Applications/authentik.md",
     "Virtual_Infrastructure/XCP-NG_on_ESXi.md",
-    "Applications/Server_Applications/nmap.md",
     "Uncategorized",
     "Assets/images/Pasted image 20230821211119.png",
     "Assets/images/Pasted image 20230821220127.png",
