@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "securityonion",
+                "query": "kasm",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +88,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -207,7 +208,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "df0de8a58b10c566",
+  "active": "44984e271aedb61f",
   "lastOpenFiles": [
     "Applications/Server_Applications/ElasticSearch.md",
     "Applications/Server_Applications/Searxng.md",
