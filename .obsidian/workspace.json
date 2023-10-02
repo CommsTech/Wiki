@@ -186,9 +186,17 @@
                 "sortOrder": "frequency"
               }
             }
+          },
+          {
+            "id": "40a8723adb1fd7ec",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -205,10 +213,11 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "copilot:Copilot Chat": false
     }
   },
-  "active": "44984e271aedb61f",
+  "active": "40a8723adb1fd7ec",
   "lastOpenFiles": [
     "Others/Home.md",
     "Others/Cryptocurrency/Cryptomining.md",
