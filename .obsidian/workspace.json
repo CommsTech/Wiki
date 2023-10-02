@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/Kasm.md",
+                "file": "Others/Cryptocurrency/Cryptomining.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "kasm",
+                "query": "cir",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/Kasm.md",
+                "file": "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/Kasm.md",
+                "file": "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/Kasm.md"
+                "file": "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md"
               }
             }
           },
@@ -208,8 +208,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "df0de8a58b10c566",
+  "active": "44984e271aedb61f",
   "lastOpenFiles": [
+    "Others/Home.md",
+    "Others/Cryptocurrency/Cryptomining.md",
+    "Applications/Server_Applications/Kasm.md",
     "Applications/Server_Applications/ElasticSearch.md",
     "Applications/Server_Applications/Searxng.md",
     "Applications/Server_Applications/ansible.md",
@@ -235,9 +238,6 @@
     "Applications/Server_Applications/Nextcloud.md",
     "Applications/Server_Applications/Jellyfin.md",
     "Virtual_Infrastructure/esxi7_to_xcp-ng.md",
-    "Virtual_Infrastructure/XCP-ng_VM_Tools.md",
-    "Applications/Server_Applications/authentik.md",
-    "Virtual_Infrastructure/XCP-NG_on_ESXi.md",
     "Uncategorized",
     "Assets/images/Pasted image 20230821211119.png",
     "Assets/images/Pasted image 20230821220127.png",
