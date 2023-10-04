@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/Local-AI.md",
+                "file": "Networking/modsecurity-crs_WAF.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/Local-AI.md",
+                "file": "Networking/modsecurity-crs_WAF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/Local-AI.md",
+                "file": "Networking/modsecurity-crs_WAF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/Local-AI.md"
+                "file": "Networking/modsecurity-crs_WAF.md"
               }
             }
           },
@@ -218,8 +218,9 @@
   },
   "active": "df0de8a58b10c566",
   "lastOpenFiles": [
-    "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
     "Applications/Server_Applications/Local-AI.md",
+    "Networking/modsecurity-crs_WAF.md",
+    "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
     "Privacy/Awesome Privacy's Tools.md",
     "Privacy/privacy opt out tools.md",
     "Others/Home.md",
@@ -245,7 +246,6 @@
     "Networking/Unifi/Home.md",
     "Networking/pfSense/pfSense_as_a_VM.md",
     "Applications/Server_Applications/ntfy.md",
-    "Virtual_Infrastructure/Xen_Server/Untitled.md",
     "Uncategorized",
     "Assets/images/Pasted image 20230821211119.png",
     "Assets/images/Pasted image 20230821220127.png",
