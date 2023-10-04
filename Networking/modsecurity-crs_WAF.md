@@ -30,3 +30,10 @@ If you would like to implement a kill switch the following changes will be requi
 The following changes were made which results in a 403 error protecting the backend application if the WAF container is not running.
 
 [![963b85c5-b8a9-48af-b0be-e37a02dbf526-image.png](https://forum.netgate.com/assets/uploads/files/1631615854530-963b85c5-b8a9-48af-b0be-e37a02dbf526-image.png)](https://forum.netgate.com/assets/uploads/files/1631615854530-963b85c5-b8a9-48af-b0be-e37a02dbf526-image.png)
+
+Additional Resources 
+https://www.netnea.com/cms/apache-tutorial-6_embedding-modsecurity/
+https://hub.docker.com/r/owasp/modsecurity-crs/
+https://coreruleset.org/videos/
+https://forum.netgate.com/topic/164410/haproxy-with-an-external-modsecurity-filter/8
+https://owasp.org/www-project-modsecurity-core-rule-set/
