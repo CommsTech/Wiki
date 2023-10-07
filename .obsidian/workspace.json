@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/Zabbix.md",
+                "file": "Applications/Server_Applications/ucaresystem-core.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cir",
+                "query": "ucaresystem",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +88,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -108,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/Zabbix.md",
+                "file": "Applications/Server_Applications/ucaresystem-core.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/Zabbix.md",
+                "file": "Applications/Server_Applications/ucaresystem-core.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/Zabbix.md"
+                "file": "Applications/Server_Applications/ucaresystem-core.md"
               }
             }
           },
@@ -218,6 +219,7 @@
   },
   "active": "df0de8a58b10c566",
   "lastOpenFiles": [
+    "Applications/Server_Applications/Zabbix.md",
     "Networking/modsecurity-crs_WAF.md",
     "Applications/Server_Applications/Local-AI.md",
     "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
@@ -245,7 +247,6 @@
     "Operating_Systems/Windows/unlocking_a_windows_home_account.md",
     "Networking/Unifi/Home.md",
     "Networking/pfSense/pfSense_as_a_VM.md",
-    "Applications/Server_Applications/ntfy.md",
     "Uncategorized",
     "Assets/images/Pasted image 20230821211119.png",
     "Assets/images/Pasted image 20230821220127.png",
