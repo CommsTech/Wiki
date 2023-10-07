@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/modsecurity-crs_WAF.md",
+                "file": "Applications/Server_Applications/Zabbix.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/modsecurity-crs_WAF.md",
+                "file": "Applications/Server_Applications/Zabbix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/modsecurity-crs_WAF.md",
+                "file": "Applications/Server_Applications/Zabbix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/modsecurity-crs_WAF.md"
+                "file": "Applications/Server_Applications/Zabbix.md"
               }
             }
           },
@@ -218,8 +218,8 @@
   },
   "active": "df0de8a58b10c566",
   "lastOpenFiles": [
-    "Applications/Server_Applications/Local-AI.md",
     "Networking/modsecurity-crs_WAF.md",
+    "Applications/Server_Applications/Local-AI.md",
     "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
     "Privacy/Awesome Privacy's Tools.md",
     "Privacy/privacy opt out tools.md",
