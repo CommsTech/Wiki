@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ucaresystem",
+                "query": "exp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -217,7 +217,7 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "df0de8a58b10c566",
+  "active": "44984e271aedb61f",
   "lastOpenFiles": [
     "Applications/Server_Applications/Zabbix.md",
     "Networking/modsecurity-crs_WAF.md",
