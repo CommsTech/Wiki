@@ -32,9 +32,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7144a62680524014",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -63,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "exp",
+                "query": "expand lvm ubuntu",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -217,7 +227,7 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "44984e271aedb61f",
+  "active": "7144a62680524014",
   "lastOpenFiles": [
     "Applications/Server_Applications/Zabbix.md",
     "Networking/modsecurity-crs_WAF.md",
