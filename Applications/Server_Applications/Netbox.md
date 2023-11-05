@@ -172,7 +172,7 @@ $ sudo apt update
 
 Issue the following command to install the Redis server.
 
-$ sudo apt install redis
+$ sudo apt install -y redis-server
 
 Confirm the Redis version.
 
