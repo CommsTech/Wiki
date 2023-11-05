@@ -37,9 +37,12 @@
             "id": "7144a62680524014",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.4.16"
+                "file": "Applications/Server_Applications/Netbox.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -98,8 +101,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -119,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/ucaresystem-core.md",
+                "file": "Applications/Server_Applications/Netbox.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/ucaresystem-core.md",
+                "file": "Applications/Server_Applications/Netbox.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/ucaresystem-core.md"
+                "file": "Applications/Server_Applications/Netbox.md"
               }
             }
           },
@@ -229,6 +231,7 @@
   },
   "active": "7144a62680524014",
   "lastOpenFiles": [
+    "Applications/Server_Applications/Netbox.md",
     "Applications/Server_Applications/Zabbix.md",
     "Networking/modsecurity-crs_WAF.md",
     "Applications/Server_Applications/Local-AI.md",
@@ -256,7 +259,6 @@
     "Operating_Systems/Linux/SSH_Keys.md",
     "Operating_Systems/Windows/unlocking_a_windows_home_account.md",
     "Networking/Unifi/Home.md",
-    "Networking/pfSense/pfSense_as_a_VM.md",
     "Uncategorized",
     "Assets/images/Pasted image 20230821211119.png",
     "Assets/images/Pasted image 20230821220127.png",
