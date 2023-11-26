@@ -37,8 +37,13 @@
             "id": "7144a62680524014",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Networking/pfSense/Surricata/ET_Catagory_Descriptions.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ],
@@ -116,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
+                "file": "Networking/pfSense/Surricata/ET_Catagory_Descriptions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
+                "file": "Networking/pfSense/Surricata/ET_Catagory_Descriptions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md"
+                "file": "Networking/pfSense/Surricata/ET_Catagory_Descriptions.md"
               }
             }
           },
@@ -211,12 +216,14 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "7144a62680524014",
   "lastOpenFiles": [
+    "Networking/pfSense/Surricata/ET_Catagory_Descriptions.md",
+    "Networking/pfSense/Surricata",
     "Privacy/Data_Removal_Guide.md",
     "Applications/Server_Applications/Netbox.md",
     "Applications/Server_Applications/Zabbix.md",
@@ -244,7 +251,6 @@
     "Red_Team/Home (conflicted copy 2023-03-12 105245).md",
     "Home.md",
     "Operating_Systems/Linux/SSH_Keys.md",
-    "Operating_Systems/Windows/unlocking_a_windows_home_account.md",
     "Uncategorized",
     "Assets/images/Pasted image 20230821211119.png",
     "Assets/images/Pasted image 20230821220127.png",
