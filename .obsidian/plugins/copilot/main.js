@@ -58464,6 +58464,7 @@ var OPENAI_MODELS = /* @__PURE__ */ new Set([
   "GPT-3.5" /* GPT_35_TURBO */,
   "GPT-3.5 16K" /* GPT_35_TURBO_16K */,
   "GPT-4" /* GPT_4 */,
+  "GPT-4 TURBO" /* GPT_4_TURBO */,
   "GPT-4 32K" /* GPT_4_32K */,
   "LocalAI" /* LOCAL_AI */
 ]);
@@ -58483,6 +58484,7 @@ var DISPLAY_NAME_TO_MODEL = {
   ["GPT-3.5" /* GPT_35_TURBO */]: "gpt-3.5-turbo" /* GPT_35_TURBO */,
   ["GPT-3.5 16K" /* GPT_35_TURBO_16K */]: "gpt-3.5-turbo-16k" /* GPT_35_TURBO_16K */,
   ["GPT-4" /* GPT_4 */]: "gpt-4" /* GPT_4 */,
+  ["GPT-4 TURBO" /* GPT_4_TURBO */]: "gpt-4-1106-preview" /* GPT_4_TURBO */,
   ["GPT-4 32K" /* GPT_4_32K */]: "gpt-4-32k" /* GPT_4_32K */,
   ["CLAUDE-1" /* CLAUDE_1 */]: "claude-1" /* CLAUDE_1 */,
   ["CLAUDE-1-100K" /* CLAUDE_1_100K */]: "claude-1-100k" /* CLAUDE_1_100K */,
@@ -61285,6 +61287,7 @@ var ChatIcons = ({
     /* @__PURE__ */ import_react4.default.createElement("option", { value: "GPT-3.5" /* GPT_35_TURBO */ }, "GPT-3.5" /* GPT_35_TURBO */),
     /* @__PURE__ */ import_react4.default.createElement("option", { value: "GPT-3.5 16K" /* GPT_35_TURBO_16K */ }, "GPT-3.5 16K" /* GPT_35_TURBO_16K */),
     /* @__PURE__ */ import_react4.default.createElement("option", { value: "GPT-4" /* GPT_4 */ }, "GPT-4" /* GPT_4 */),
+    /* @__PURE__ */ import_react4.default.createElement("option", { value: "GPT-4 TURBO" /* GPT_4_TURBO */ }, "GPT-4 TURBO" /* GPT_4_TURBO */),
     /* @__PURE__ */ import_react4.default.createElement("option", { value: "GPT-4 32K" /* GPT_4_32K */ }, "GPT-4 32K" /* GPT_4_32K */),
     /* @__PURE__ */ import_react4.default.createElement("option", { value: "AZURE GPT-3.5" /* AZURE_GPT_35_TURBO */ }, "AZURE GPT-3.5" /* AZURE_GPT_35_TURBO */),
     /* @__PURE__ */ import_react4.default.createElement("option", { value: "AZURE GPT-3.5-16K" /* AZURE_GPT_35_TURBO_16K */ }, "AZURE GPT-3.5-16K" /* AZURE_GPT_35_TURBO_16K */),
@@ -70465,6 +70468,7 @@ var CopilotSettingTab = class extends import_obsidian10.PluginSettingTab {
       "GPT-3.5" /* GPT_35_TURBO */,
       "GPT-3.5 16K" /* GPT_35_TURBO_16K */,
       "GPT-4" /* GPT_4 */,
+      "GPT-4 TURBO" /* GPT_4_TURBO */,
       "GPT-4 32K" /* GPT_4_32K */,
       // ChatModelDisplayNames.CLAUDE_1,
       // ChatModelDisplayNames.CLAUDE_1_100K,
@@ -70473,7 +70477,8 @@ var CopilotSettingTab = class extends import_obsidian10.PluginSettingTab {
       "AZURE GPT-3.5" /* AZURE_GPT_35_TURBO */,
       "AZURE GPT-3.5-16K" /* AZURE_GPT_35_TURBO_16K */,
       "AZURE GPT-4" /* AZURE_GPT_4 */,
-      "AZURE GPT-4 32K" /* AZURE_GPT_4_32K */
+      "AZURE GPT-4 32K" /* AZURE_GPT_4_32K */,
+      "LocalAI" /* LOCAL_AI */
     ];
     new import_obsidian10.Setting(containerEl).setName("Default Model").setDesc(
       createFragment((frag) => {
@@ -70502,8 +70507,8 @@ var CopilotSettingTab = class extends import_obsidian10.PluginSettingTab {
       createFragment((frag) => {
         frag.appendText("You can find your API key at ");
         frag.createEl("a", {
-          text: "https://beta.openai.com/account/api-keys",
-          href: "https://beta.openai.com/account/api-keys"
+          text: "https://platform.openai.com/api-keys",
+          href: "https://platform.openai.com/api-keys"
         });
         frag.createEl("br");
         frag.appendText(
