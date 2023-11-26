@@ -51,3 +51,6 @@
 51. Web Server – This category is for signatures to detect attacks against web server infrastructure such as APACHE, TOMCAT, NGINX, Microsoft Internet Information Services (IIS) and other web server software.
 52. Web Specific Apps – This category is for signatures to detect attacks and vulnerabilities in specific web applications. 
 53. WORM – This category is for signatures to detect malicious activity that automatically attempts to spread across the internet or within a network by exploiting a vulnerability are classified as the WORM category. While the actual exploit itself will typically be identified in the Exploit or given protocol category, an additional entry in this category may be made if the actual malware engaging in worm-like propagation can be identified as well
+
+Sources
+[proofpoint - ET Category Descriptions](https://tools.emergingthreats.net/docs/ETPro%20Rule%20Categories.pdf)
