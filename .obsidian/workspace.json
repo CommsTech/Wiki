@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/pfSense/Surricata/ET_Catagory_Descriptions.md",
+                "file": "Networking/Meshtastic/Web_gui_over_Bluetooth.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/pfSense/Surricata/ET_Catagory_Descriptions.md",
+                "file": "Networking/Meshtastic/Web_gui_over_Bluetooth.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/pfSense/Surricata/ET_Catagory_Descriptions.md",
+                "file": "Networking/Meshtastic/Web_gui_over_Bluetooth.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/pfSense/Surricata/ET_Catagory_Descriptions.md"
+                "file": "Networking/Meshtastic/Web_gui_over_Bluetooth.md"
               }
             }
           },
@@ -220,10 +220,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "73ee420029073090",
+  "active": "7144a62680524014",
   "lastOpenFiles": [
-    "Networking/Untitled",
+    "Pasted image 20231130184644.png",
     "Networking/pfSense/Surricata/ET_Catagory_Descriptions.md",
+    "Networking/Meshtastic/Web_gui_over_Bluetooth.md",
+    "Networking/Meshtastic",
     "Networking/pfSense/Surricata",
     "Privacy/Data_Removal_Guide.md",
     "Applications/Server_Applications/Netbox.md",
@@ -250,7 +252,6 @@
     "Applications/Server_Applications/kubernetes/Docker.md",
     "Applications/Server_Applications/NodeJS.md",
     "Red_Team/Home (conflicted copy 2023-03-12 105245).md",
-    "Home.md",
     "Uncategorized",
     "Assets/images/Pasted image 20230821211119.png",
     "Assets/images/Pasted image 20230821220127.png",
@@ -266,7 +267,6 @@
     "Networking/Microsoft",
     "_redirects",
     "New Text Document.txt",
-    "New folder",
-    "Red_Team"
+    "New folder"
   ]
 }
