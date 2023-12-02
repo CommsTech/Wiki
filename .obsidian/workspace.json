@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Meshtastic/Web_gui_over_Bluetooth.md",
+                "file": "Hardware/Servers/nvidia_Server_Drivers_K80.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Meshtastic/Web_gui_over_Bluetooth.md",
+                "file": "Hardware/Servers/nvidia_Server_Drivers_K80.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Meshtastic/Web_gui_over_Bluetooth.md",
+                "file": "Hardware/Servers/nvidia_Server_Drivers_K80.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Meshtastic/Web_gui_over_Bluetooth.md"
+                "file": "Hardware/Servers/nvidia_Server_Drivers_K80.md"
               }
             }
           },
@@ -222,9 +222,11 @@
   },
   "active": "7144a62680524014",
   "lastOpenFiles": [
+    "Networking/Meshtastic/Web_gui_over_Bluetooth.md",
+    "Hardware/Servers/nvidia_Server_Drivers_K80.md",
+    "Hardware/Servers",
     "Networking/Meshtastic/SSH_Over_Meshtastic.md",
     "Networking/Meshtastic/Configuration_Tips.md",
-    "Networking/Meshtastic/Web_gui_over_Bluetooth.md",
     "Pasted image 20231130184644.png",
     "Networking/pfSense/Surricata/ET_Catagory_Descriptions.md",
     "Networking/Meshtastic",
@@ -252,7 +254,6 @@
     "Virtual_Infrastructure/XCP-NG.md",
     "Applications/Server_Applications/ucaresystem-core.md",
     "Applications/Server_Applications/kubernetes/Docker.md",
-    "Applications/Server_Applications/NodeJS.md",
     "Uncategorized",
     "Assets/images/Pasted image 20230821211119.png",
     "Assets/images/Pasted image 20230821220127.png",
@@ -266,7 +267,6 @@
     "Applications/Server_Applications/Untitled",
     "Networking/Microsoft",
     "_redirects",
-    "New Text Document.txt",
-    "New folder"
+    "New Text Document.txt"
   ]
 }
