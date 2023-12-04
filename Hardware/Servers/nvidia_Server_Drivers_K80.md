@@ -24,6 +24,24 @@ Then, download the driver:
   
 `cd ~ && _wget https://us.download.nvidia.com/tesla/460.106.00/NVIDIA-Linux-x86_64-460.106.00.run_`
 
+Then,
+if you, for some reasons need to install the drivers from nvidia's page you should make sure you had blacklisted nouveau drivers first:
+
+```
+sudo vim /etc/modprobe.d/blacklist.conf
+```
+
+Add the following lines:
+
+```
+blacklist amd76x_edac 
+blacklist vga16fb
+blacklist nouveau
+blacklist rivafb
+blacklist nvidiafb
+blacklist rivatv
+```
+
 Lastly, install the driver and follow the wizard:
 
 _`chmod +x NVIDIA-Linux-x86_64-460.106.00.run && sudo ./NVIDIA-Linux-x86_64-460.106.00.run`_

@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/Ansible/Ansible_for_network_devices.md",
+                "file": "Hardware/Servers/nvidia_Server_Drivers_K80.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/Ansible/Ansible_for_network_devices.md",
+                "file": "Hardware/Servers/nvidia_Server_Drivers_K80.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/Ansible/Ansible_for_network_devices.md",
+                "file": "Hardware/Servers/nvidia_Server_Drivers_K80.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/Ansible/Ansible_for_network_devices.md"
+                "file": "Hardware/Servers/nvidia_Server_Drivers_K80.md"
               }
             }
           },
@@ -222,8 +222,8 @@
   },
   "active": "7144a62680524014",
   "lastOpenFiles": [
-    "Applications/Server_Applications/Ansible/ansible.md",
     "Applications/Server_Applications/Ansible/Ansible_for_network_devices.md",
+    "Applications/Server_Applications/Ansible/ansible.md",
     "Applications/Server_Applications/Ansible",
     "Hardware/Servers/nvidia_Server_Drivers_K80.md",
     "Networking/Meshtastic/Web_gui_over_Bluetooth.md",
