@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Working_with_GO.md",
+                "file": "Programming/Powershell/Mastering_Automation_with_Powershell.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -160,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Working_with_GO.md",
+                "file": "Programming/Powershell/Mastering_Automation_with_Powershell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Working_with_GO.md",
+                "file": "Programming/Powershell/Mastering_Automation_with_Powershell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Working_with_GO.md"
+                "file": "Programming/Powershell/Mastering_Automation_with_Powershell.md"
               }
             }
           },
@@ -259,10 +259,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5aca0948eda3555f",
+  "active": "73ee420029073090",
   "lastOpenFiles": [
+    "note.md",
+    "Programming/Powershell/Mastering_Automation_with_Powershell.md",
+    "Programming/Golang/Working_with_GO.md",
+    "Programming/Powershell",
     "Programming/Java/Mastering_Java.md",
-    "Working_with_GO.md",
     "Programming/Golang",
     "Programming/Rust/Unleashing_Rust.md",
     "Programming/Java",
@@ -295,11 +298,8 @@
     "Others/Cryptocurrency/Cryptomining.md",
     "Applications/Server_Applications/Kasm.md",
     "Applications/Server_Applications/ElasticSearch.md",
-    "Applications/Server_Applications/Searxng.md",
-    "Applications/Server_Applications/SecurityOnion.md",
     "Pasted image 20230923143931.png",
     "Pasted image 20230923143719.png",
-    "Uncategorized",
     "Assets/images/Pasted image 20230821211119.png",
     "Assets/images/Pasted image 20230821220127.png",
     "Assets/images/Pasted image 20230821215836.png",
