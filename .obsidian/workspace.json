@@ -45,9 +45,48 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "55f423afa28c4743",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming/Python/Unlocking_Python.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7bb81f570b191695",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming/Java/Mastering_Java.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5aca0948eda3555f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Working_with_GO.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -101,8 +140,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -122,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hardware/Servers/nvidia_Server_Drivers_K80.md",
+                "file": "Working_with_GO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hardware/Servers/nvidia_Server_Drivers_K80.md",
+                "file": "Working_with_GO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hardware/Servers/nvidia_Server_Drivers_K80.md"
+                "file": "Working_with_GO.md"
               }
             }
           },
@@ -221,10 +259,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7144a62680524014",
+  "active": "5aca0948eda3555f",
   "lastOpenFiles": [
-    "Applications/Server_Applications/ucaresystem-core.md",
+    "Programming/Java/Mastering_Java.md",
+    "Working_with_GO.md",
+    "Programming/Golang",
+    "Programming/Rust/Unleashing_Rust.md",
+    "Programming/Java",
+    "Programming/Python/Unlocking_Python.md",
+    "Programming/Rust",
+    "Programming/Python",
     "Hardware/Servers/nvidia_Server_Drivers_K80.md",
+    "Programming",
+    "Applications/Server_Applications/ucaresystem-core.md",
     "Applications/Server_Applications/Ansible/Ansible_for_network_devices.md",
     "Applications/Server_Applications/Ansible/ansible.md",
     "Applications/Server_Applications/Ansible",
@@ -250,12 +297,8 @@
     "Applications/Server_Applications/ElasticSearch.md",
     "Applications/Server_Applications/Searxng.md",
     "Applications/Server_Applications/SecurityOnion.md",
-    "Applications/Server_Applications/HAProxy_Authentik.md",
-    "note.md",
     "Pasted image 20230923143931.png",
     "Pasted image 20230923143719.png",
-    "Virtual_Infrastructure/Xen_Server/XCP-NG_OS_UBUNTU_Disks.md",
-    "Virtual_Infrastructure/XCP-NG.md",
     "Uncategorized",
     "Assets/images/Pasted image 20230821211119.png",
     "Assets/images/Pasted image 20230821220127.png",
@@ -263,11 +306,6 @@
     "Assets/images/Pasted image 20230821215621.png",
     "Assets/images/Pasted image 20230821215450.png",
     "Assets/images/Pasted image 20230821215410.png",
-    "Assets/images/Pasted image 20230821215209.png",
-    "Certifications/Cisco/Cisco",
-    "Assets/documents/Cloud+_CV0-002_objectives.pdf",
-    "Networking/Microsoft",
-    "_redirects",
-    "New Text Document.txt"
+    "Assets/images/Pasted image 20230821215209.png"
   ]
 }
