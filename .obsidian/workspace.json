@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/ucaresystem-core.md",
+                "file": "Hardware/Servers/nvidia_Server_Drivers_K80.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -76,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "k80",
+                "query": "nvidia",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/ucaresystem-core.md",
+                "file": "Hardware/Servers/nvidia_Server_Drivers_K80.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/ucaresystem-core.md",
+                "file": "Hardware/Servers/nvidia_Server_Drivers_K80.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/ucaresystem-core.md"
+                "file": "Hardware/Servers/nvidia_Server_Drivers_K80.md"
               }
             }
           },
@@ -221,8 +221,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "44984e271aedb61f",
+  "active": "7144a62680524014",
   "lastOpenFiles": [
+    "Applications/Server_Applications/ucaresystem-core.md",
     "Hardware/Servers/nvidia_Server_Drivers_K80.md",
     "Applications/Server_Applications/Ansible/Ansible_for_network_devices.md",
     "Applications/Server_Applications/Ansible/ansible.md",
@@ -255,7 +256,6 @@
     "Pasted image 20230923143719.png",
     "Virtual_Infrastructure/Xen_Server/XCP-NG_OS_UBUNTU_Disks.md",
     "Virtual_Infrastructure/XCP-NG.md",
-    "Applications/Server_Applications/ucaresystem-core.md",
     "Uncategorized",
     "Assets/images/Pasted image 20230821211119.png",
     "Assets/images/Pasted image 20230821220127.png",
