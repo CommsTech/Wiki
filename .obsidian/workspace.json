@@ -84,9 +84,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4ed39a4361cfb125",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ansible_for_windows.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -160,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Powershell/Mastering_Automation_with_Powershell.md",
+                "file": "Ansible_for_windows.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Powershell/Mastering_Automation_with_Powershell.md",
+                "file": "Ansible_for_windows.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/Powershell/Mastering_Automation_with_Powershell.md"
+                "file": "Ansible_for_windows.md"
               }
             }
           },
@@ -259,10 +272,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "73ee420029073090",
+  "active": "4ed39a4361cfb125",
   "lastOpenFiles": [
-    "note.md",
     "Programming/Powershell/Mastering_Automation_with_Powershell.md",
+    "Ansible_for_windows.md",
+    "note.md",
     "Programming/Golang/Working_with_GO.md",
     "Programming/Powershell",
     "Programming/Java/Mastering_Java.md",
@@ -297,7 +311,6 @@
     "Others/Home.md",
     "Others/Cryptocurrency/Cryptomining.md",
     "Applications/Server_Applications/Kasm.md",
-    "Applications/Server_Applications/ElasticSearch.md",
     "Pasted image 20230923143931.png",
     "Pasted image 20230923143719.png",
     "Assets/images/Pasted image 20230821211119.png",
