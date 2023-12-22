@@ -22,7 +22,7 @@ Install the pre-requisites for the GPU driver:
 `_sudo apt update -y && sudo apt install make gcc wget -y   _`  
 Then, download the driver:  
   
-`cd ~ && _wget https://us.download.nvidia.com/tesla/460.106.00/NVIDIA-Linux-x86_64-460.106.00.run_`
+`cd ~ && https://us.download.nvidia.com/tesla/470.223.02/NVIDIA-Linux-x86_64-470.223.02.run
 
 Then,
 if you, for some reasons need to install the drivers from nvidia's page you should make sure you had blacklisted nouveau drivers first:
@@ -44,7 +44,7 @@ blacklist rivatv
 
 Lastly, install the driver and follow the wizard:
 
-_`chmod +x NVIDIA-Linux-x86_64-460.106.00.run && sudo ./NVIDIA-Linux-x86_64-460.106.00.run`_
+_`chmod +x NVIDIA-Linux-x86_64-470.223.02.run && sudo ./NVIDIA-Linux-x86_64-470.223.02.run`_
 
 At the end your nvidia-smi output should look like this:  
 
