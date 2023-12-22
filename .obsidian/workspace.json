@@ -26,20 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/ucaresystem-core.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7144a62680524014",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hardware/Servers/Nvidia_Cuda_11_4_2_Ubuntu.md",
+                "file": "Operating_Systems/Linux/Extend_LVM_Ubuntu.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -173,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hardware/Servers/Nvidia_Cuda_11_4_2_Ubuntu.md",
+                "file": "Operating_Systems/Linux/Extend_LVM_Ubuntu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hardware/Servers/Nvidia_Cuda_11_4_2_Ubuntu.md",
+                "file": "Operating_Systems/Linux/Extend_LVM_Ubuntu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hardware/Servers/Nvidia_Cuda_11_4_2_Ubuntu.md"
+                "file": "Operating_Systems/Linux/Extend_LVM_Ubuntu.md"
               }
             }
           },
@@ -272,10 +259,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7144a62680524014",
+  "active": "df0de8a58b10c566",
   "lastOpenFiles": [
-    "Hardware/Servers/nvidia_Server_Drivers_K80.md",
+    "Applications/Server_Applications/ucaresystem-core.md",
+    "Operating_Systems/Linux/Extend_LVM_Ubuntu.md",
     "Hardware/Servers/Nvidia_Cuda_11_4_2_Ubuntu.md",
+    "Hardware/Servers/nvidia_Server_Drivers_K80.md",
     "Ansible_for_windows.md",
     "Programming/Powershell/Mastering_Automation_with_Powershell.md",
     "note.md",
@@ -289,7 +278,6 @@
     "Programming/Rust",
     "Programming/Python",
     "Programming",
-    "Applications/Server_Applications/ucaresystem-core.md",
     "Applications/Server_Applications/Ansible/Ansible_for_network_devices.md",
     "Applications/Server_Applications/Ansible/ansible.md",
     "Applications/Server_Applications/Ansible",
@@ -310,7 +298,6 @@
     "Privacy/Awesome Privacy's Tools.md",
     "Privacy/privacy opt out tools.md",
     "Others/Home.md",
-    "Others/Cryptocurrency/Cryptomining.md",
     "Pasted image 20230923143931.png",
     "Pasted image 20230923143719.png",
     "Assets/images/Pasted image 20230821211119.png",
