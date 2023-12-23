@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating_Systems/Linux/Extend_LVM_Ubuntu.md",
+                "file": "Life/Nutrition/Honey.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -160,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating_Systems/Linux/Extend_LVM_Ubuntu.md",
+                "file": "Life/Nutrition/Honey.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating_Systems/Linux/Extend_LVM_Ubuntu.md",
+                "file": "Life/Nutrition/Honey.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating_Systems/Linux/Extend_LVM_Ubuntu.md"
+                "file": "Life/Nutrition/Honey.md"
               }
             }
           },
@@ -261,8 +261,11 @@
   },
   "active": "df0de8a58b10c566",
   "lastOpenFiles": [
-    "Applications/Server_Applications/ucaresystem-core.md",
     "Operating_Systems/Linux/Extend_LVM_Ubuntu.md",
+    "Life/Nutrition/Honey.md",
+    "Life/Nutrition",
+    "Life",
+    "Applications/Server_Applications/ucaresystem-core.md",
     "Hardware/Servers/Nvidia_Cuda_11_4_2_Ubuntu.md",
     "Hardware/Servers/nvidia_Server_Drivers_K80.md",
     "Ansible_for_windows.md",
@@ -287,8 +290,6 @@
     "Networking/Meshtastic/Configuration_Tips.md",
     "Pasted image 20231130184644.png",
     "Networking/pfSense/Surricata/ET_Catagory_Descriptions.md",
-    "Networking/Meshtastic",
-    "Networking/pfSense/Surricata",
     "Privacy/Data_Removal_Guide.md",
     "Applications/Server_Applications/Netbox.md",
     "Applications/Server_Applications/Zabbix.md",
@@ -297,7 +298,6 @@
     "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
     "Privacy/Awesome Privacy's Tools.md",
     "Privacy/privacy opt out tools.md",
-    "Others/Home.md",
     "Pasted image 20230923143931.png",
     "Pasted image 20230923143719.png",
     "Assets/images/Pasted image 20230821211119.png",
