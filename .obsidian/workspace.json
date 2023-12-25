@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Life/Nutrition/Honey.md",
+                "file": "Privacy/Awesome Privacy's Tools.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -115,7 +115,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nvidia",
+                "query": "ubuntu",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -160,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Life/Nutrition/Honey.md",
+                "file": "Privacy/Awesome Privacy's Tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Life/Nutrition/Honey.md",
+                "file": "Privacy/Awesome Privacy's Tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Life/Nutrition/Honey.md"
+                "file": "Privacy/Awesome Privacy's Tools.md"
               }
             }
           },
@@ -261,6 +261,12 @@
   },
   "active": "df0de8a58b10c566",
   "lastOpenFiles": [
+    "Privacy/Guide_to_Online_Anonymity.md",
+    "Privacy/osint.md",
+    "Privacy/privacy opt out tools.md",
+    "Privacy/home.md",
+    "Privacy/Data_Removal_Guide.md",
+    "Privacy/Awesome Privacy's Tools.md",
     "Operating_Systems/Linux/Extend_LVM_Ubuntu.md",
     "Life/Nutrition/Honey.md",
     "Life/Nutrition",
@@ -290,14 +296,8 @@
     "Networking/Meshtastic/Configuration_Tips.md",
     "Pasted image 20231130184644.png",
     "Networking/pfSense/Surricata/ET_Catagory_Descriptions.md",
-    "Privacy/Data_Removal_Guide.md",
     "Applications/Server_Applications/Netbox.md",
     "Applications/Server_Applications/Zabbix.md",
-    "Networking/modsecurity-crs_WAF.md",
-    "Applications/Server_Applications/Local-AI.md",
-    "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
-    "Privacy/Awesome Privacy's Tools.md",
-    "Privacy/privacy opt out tools.md",
     "Pasted image 20230923143931.png",
     "Pasted image 20230923143719.png",
     "Assets/images/Pasted image 20230821211119.png",

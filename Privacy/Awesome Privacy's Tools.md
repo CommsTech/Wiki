@@ -102,6 +102,7 @@ Awesome Privacy's Tools
 * [Qwant](https://www.qwant.com) – A search engine that respects your privacy.
 * [YaCy](https://yacy.net) – A free, open source and decentralized search engine.
 * [Swisscows](https://swisscows.com) – A private search engine made in Switzerland.
+* [Blacklight](https://themarkup.org/blacklight) - Not technically a search engine but can be used to see privacy issues with searched sites.
 
 ## Web browsers
 
