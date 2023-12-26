@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Privacy/Awesome Privacy's Tools.md",
+                "file": "Hardware/Servers/Nvidia_Cuda_11_4_2_Ubuntu.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -115,7 +115,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ubuntu",
+                "query": "cuda",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -140,7 +140,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -160,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Privacy/Awesome Privacy's Tools.md",
+                "file": "Hardware/Servers/Nvidia_Cuda_11_4_2_Ubuntu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Privacy/Awesome Privacy's Tools.md",
+                "file": "Hardware/Servers/Nvidia_Cuda_11_4_2_Ubuntu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Privacy/Awesome Privacy's Tools.md"
+                "file": "Hardware/Servers/Nvidia_Cuda_11_4_2_Ubuntu.md"
               }
             }
           },
@@ -261,12 +262,12 @@
   },
   "active": "df0de8a58b10c566",
   "lastOpenFiles": [
+    "Privacy/Awesome Privacy's Tools.md",
     "Privacy/Guide_to_Online_Anonymity.md",
     "Privacy/osint.md",
     "Privacy/privacy opt out tools.md",
     "Privacy/home.md",
     "Privacy/Data_Removal_Guide.md",
-    "Privacy/Awesome Privacy's Tools.md",
     "Operating_Systems/Linux/Extend_LVM_Ubuntu.md",
     "Life/Nutrition/Honey.md",
     "Life/Nutrition",

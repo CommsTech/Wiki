@@ -161,9 +161,8 @@ Copy
 
 Regenerate the kernel initramfs
 
-|   |   |
-|---|---|
-|```<br>1<br>```|```bash<br>sudo update-initramfs -u<br>```|
+|```bash 
+sudo update-initramfs -u```|
 
 Copy
 
