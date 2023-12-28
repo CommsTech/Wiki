@@ -254,7 +254,7 @@
             }
           },
           {
-            "id": "d39421a68afa941d",
+            "id": "a780b8a198b47882",
             "type": "leaf",
             "state": {
               "type": "copilot-chat-view",
@@ -282,7 +282,7 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "2a9e699e8d12268d",
+  "active": "a780b8a198b47882",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2023-12-28 15.01.10.excalidraw.md",
     "Excalidraw/Drawing 2023-12-28 15.01.05.excalidraw.md",
