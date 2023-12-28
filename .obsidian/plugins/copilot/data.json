@@ -1,0 +1,23 @@
+{
+  "openAIApiKey": "",
+  "huggingfaceApiKey": "",
+  "cohereApiKey": "",
+  "anthropicApiKey": "",
+  "azureOpenAIApiKey": "",
+  "azureOpenAIApiInstanceName": "",
+  "azureOpenAIApiDeploymentName": "",
+  "azureOpenAIApiVersion": "",
+  "azureOpenAIApiEmbeddingDeploymentName": "",
+  "defaultModelDisplayName": "LocalAI",
+  "temperature": 0.7,
+  "maxTokens": 1000,
+  "contextTurns": 3,
+  "userSystemPrompt": "",
+  "openAIProxyBaseUrl": "http://192.168.255.11:8001",
+  "localAIModel": "Mistralai_mistral-7b-instruct-v0.2",
+  "ttlDays": 30,
+  "stream": true,
+  "embeddingProvider": "localai",
+  "defaultSaveFolder": "copilot-conversations",
+  "debug": true
+}

@@ -102,10 +102,8 @@
             "id": "2a9e699e8d12268d",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.3"
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -183,7 +181,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Desktop_Applications/gpt4all_finetuning.md",
+                "file": "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Desktop_Applications/gpt4all_finetuning.md",
+                "file": "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,7 +221,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Desktop_Applications/gpt4all_finetuning.md"
+                "file": "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md"
               }
             }
           },
@@ -256,7 +254,7 @@
             }
           },
           {
-            "id": "40a8723adb1fd7ec",
+            "id": "d39421a68afa941d",
             "type": "leaf",
             "state": {
               "type": "copilot-chat-view",
@@ -281,11 +279,14 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "copilot:Copilot Chat": false
     }
   },
   "active": "2a9e699e8d12268d",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2023-12-28 15.01.10.excalidraw.md",
+    "Excalidraw/Drawing 2023-12-28 15.01.05.excalidraw.md",
+    "Excalidraw",
     "Hardware/Servers/Nvidia_Cuda_11_4_2_Ubuntu.md",
     "Applications/Desktop_Applications/gpt4all_finetuning.md",
     "Privacy/Awesome Privacy's Tools.md",
@@ -317,12 +318,9 @@
     "Applications/Server_Applications/Ansible/ansible.md",
     "Applications/Server_Applications/Ansible",
     "Networking/Meshtastic/Web_gui_over_Bluetooth.md",
-    "Hardware/Servers",
     "Networking/Meshtastic/SSH_Over_Meshtastic.md",
     "Networking/Meshtastic/Configuration_Tips.md",
     "Pasted image 20231130184644.png",
-    "Networking/pfSense/Surricata/ET_Catagory_Descriptions.md",
-    "Applications/Server_Applications/Netbox.md",
     "Pasted image 20230923143931.png",
     "Pasted image 20230923143719.png",
     "Assets/images/Pasted image 20230821211119.png",
