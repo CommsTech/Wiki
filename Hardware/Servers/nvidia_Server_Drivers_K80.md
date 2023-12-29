@@ -51,7 +51,7 @@ Lastly, install the driver and follow the wizard:
 chmod +x NVIDIA-Linux-x86_64-470.223.02.run && sudo ./NVIDIA-Linux-x86_64-470.223.02.run
 ```
 
-At the end your nvidia-smi output should look like this:  
+At the end your nvidia-smi output should look like this... but with the newest driver:  
 
 ![](https://www.zb-c.tech/wp-content/uploads/2022/12/image-3.png)
 

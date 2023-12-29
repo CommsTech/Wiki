@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating_Systems/Linux/Extend_LVM_Ubuntu.md",
+                "file": "Hardware/Servers/nvidia_Server_Drivers_K80.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "expandi",
+                "query": "k80",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating_Systems/Linux/Extend_LVM_Ubuntu.md",
+                "file": "Hardware/Servers/nvidia_Server_Drivers_K80.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating_Systems/Linux/Extend_LVM_Ubuntu.md",
+                "file": "Hardware/Servers/nvidia_Server_Drivers_K80.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating_Systems/Linux/Extend_LVM_Ubuntu.md"
+                "file": "Hardware/Servers/nvidia_Server_Drivers_K80.md"
               }
             }
           },
@@ -213,6 +213,7 @@
   },
   "active": "df0de8a58b10c566",
   "lastOpenFiles": [
+    "Operating_Systems/Linux/Extend_LVM_Ubuntu.md",
     "Hardware/Servers/nvidia_Server_Drivers_K80.md",
     "Hardware/Servers/Nvidia_Cuda_11_4_2_Ubuntu.md",
     "Programming/Python/Unlocking_Python.md",
@@ -227,7 +228,6 @@
     "Privacy/privacy opt out tools.md",
     "Privacy/home.md",
     "Privacy/Data_Removal_Guide.md",
-    "Operating_Systems/Linux/Extend_LVM_Ubuntu.md",
     "Life/Nutrition/Honey.md",
     "Life/Nutrition",
     "Life",
