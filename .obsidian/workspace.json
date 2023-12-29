@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hardware/Servers/nvidia_Server_Drivers_K80.md",
+                "file": "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hardware/Servers/nvidia_Server_Drivers_K80.md",
+                "file": "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hardware/Servers/nvidia_Server_Drivers_K80.md"
+                "file": "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md"
               }
             }
           },
@@ -182,7 +182,7 @@
             }
           },
           {
-            "id": "7cab01da6bbbbc10",
+            "id": "cfe544edb4d776f9",
             "type": "leaf",
             "state": {
               "type": "copilot-chat-view",
@@ -211,7 +211,7 @@
       "chat-cbt:ChatCBT": false
     }
   },
-  "active": "df0de8a58b10c566",
+  "active": "cfe544edb4d776f9",
   "lastOpenFiles": [
     "Operating_Systems/Linux/Extend_LVM_Ubuntu.md",
     "Hardware/Servers/nvidia_Server_Drivers_K80.md",
