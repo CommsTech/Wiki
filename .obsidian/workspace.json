@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hardware/Servers/nvidia_Server_Drivers_K80.md",
+                "file": "Operating_Systems/Linux/Extend_LVM_Ubuntu.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "k80",
+                "query": "expandi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hardware/Servers/nvidia_Server_Drivers_K80.md",
+                "file": "Operating_Systems/Linux/Extend_LVM_Ubuntu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hardware/Servers/nvidia_Server_Drivers_K80.md",
+                "file": "Operating_Systems/Linux/Extend_LVM_Ubuntu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hardware/Servers/nvidia_Server_Drivers_K80.md"
+                "file": "Operating_Systems/Linux/Extend_LVM_Ubuntu.md"
               }
             }
           },
@@ -213,6 +213,7 @@
   },
   "active": "df0de8a58b10c566",
   "lastOpenFiles": [
+    "Hardware/Servers/nvidia_Server_Drivers_K80.md",
     "Hardware/Servers/Nvidia_Cuda_11_4_2_Ubuntu.md",
     "Programming/Python/Unlocking_Python.md",
     "Applications/Desktop_Applications/gpt4all_finetuning.md",
@@ -231,7 +232,6 @@
     "Life/Nutrition",
     "Life",
     "Applications/Server_Applications/ucaresystem-core.md",
-    "Hardware/Servers/nvidia_Server_Drivers_K80.md",
     "Ansible_for_windows.md",
     "Programming/Powershell/Mastering_Automation_with_Powershell.md",
     "note.md",
