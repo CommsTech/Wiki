@@ -8,16 +8,17 @@
   "azureOpenAIApiDeploymentName": "",
   "azureOpenAIApiVersion": "",
   "azureOpenAIApiEmbeddingDeploymentName": "",
+  "defaultModel": "gpt-3.5-turbo-16k",
   "defaultModelDisplayName": "LocalAI",
   "temperature": 0.7,
   "maxTokens": 1000,
   "contextTurns": 3,
   "userSystemPrompt": "",
-  "openAIProxyBaseUrl": "http://192.168.255.11:8001/",
-  "localAIModel": "Mistralai_mistral-7b-instruct-v0.2",
+  "openAIProxyBaseUrl": "http://192.168.255.11:8001",
+  "localAIModel": "mistral-7b-instruct-v0.2.Q4_K_M.gguf",
   "ttlDays": 30,
   "stream": true,
   "embeddingProvider": "localai",
   "defaultSaveFolder": "copilot-conversations",
-  "debug": true
+  "debug": false
 }

@@ -26,88 +26,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hardware/Servers/Nvidia_Cuda_11_4_2_Ubuntu.md",
+                "file": "Hardware/Servers/nvidia_Server_Drivers_K80.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
-            }
-          },
-          {
-            "id": "b4bda3e4be38185a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Applications/Desktop_Applications/gpt4all_finetuning.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "55f423afa28c4743",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming/Python/Unlocking_Python.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7bb81f570b191695",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming/Java/Mastering_Java.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5aca0948eda3555f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming/Powershell/Mastering_Automation_with_Powershell.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4ed39a4361cfb125",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ansible_for_windows.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2a9e699e8d12268d",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -136,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cuda",
+                "query": "k80",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -161,7 +88,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -181,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
+                "file": "Hardware/Servers/nvidia_Server_Drivers_K80.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
+                "file": "Hardware/Servers/nvidia_Server_Drivers_K80.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md"
+                "file": "Hardware/Servers/nvidia_Server_Drivers_K80.md"
               }
             }
           },
@@ -254,7 +182,7 @@
             }
           },
           {
-            "id": "a780b8a198b47882",
+            "id": "7cab01da6bbbbc10",
             "type": "leaf",
             "state": {
               "type": "copilot-chat-view",
@@ -279,16 +207,19 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "copilot:Copilot Chat": false
+      "copilot:Copilot Chat": false,
+      "chat-cbt:ChatCBT": false
     }
   },
-  "active": "a780b8a198b47882",
+  "active": "df0de8a58b10c566",
   "lastOpenFiles": [
+    "Hardware/Servers/Nvidia_Cuda_11_4_2_Ubuntu.md",
+    "Programming/Python/Unlocking_Python.md",
+    "Applications/Desktop_Applications/gpt4all_finetuning.md",
+    "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
     "Excalidraw/Drawing 2023-12-28 15.01.10.excalidraw.md",
     "Excalidraw/Drawing 2023-12-28 15.01.05.excalidraw.md",
     "Excalidraw",
-    "Hardware/Servers/Nvidia_Cuda_11_4_2_Ubuntu.md",
-    "Applications/Desktop_Applications/gpt4all_finetuning.md",
     "Privacy/Awesome Privacy's Tools.md",
     "Privacy/Guide_to_Online_Anonymity.md",
     "Privacy/osint.md",
@@ -310,7 +241,6 @@
     "Programming/Golang",
     "Programming/Rust/Unleashing_Rust.md",
     "Programming/Java",
-    "Programming/Python/Unlocking_Python.md",
     "Programming/Rust",
     "Programming/Python",
     "Programming",
@@ -319,7 +249,6 @@
     "Applications/Server_Applications/Ansible",
     "Networking/Meshtastic/Web_gui_over_Bluetooth.md",
     "Networking/Meshtastic/SSH_Over_Meshtastic.md",
-    "Networking/Meshtastic/Configuration_Tips.md",
     "Pasted image 20231130184644.png",
     "Pasted image 20230923143931.png",
     "Pasted image 20230923143719.png",

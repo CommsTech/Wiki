@@ -2,5 +2,8 @@
   "theme": "obsidian",
   "cssTheme": "Kanagawa",
   "baseFontSize": 21,
-  "accentColor": ""
+  "accentColor": "",
+  "enabledCssSnippets": [
+    "awesome-brain-manager"
+  ]
 }
