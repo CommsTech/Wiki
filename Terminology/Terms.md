@@ -3,7 +3,7 @@
 
 20. 
 21. 
-22. Policy and Control (PnC)
+22. 
 23. Quality of Service (QoS)
 24. Resource Public Key Infrastructure (RPKI)
 25. Routing Information Protocol (RIP)
