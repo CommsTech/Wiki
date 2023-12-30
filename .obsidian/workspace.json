@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Terminology/Virtual_Private_Network_VPN.md",
+                "file": "Networking/Terminology/Multicast_VPN_MVPN.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Terminology/Virtual_Private_Network_VPN.md",
+                "file": "Networking/Terminology/Multicast_VPN_MVPN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Terminology/Virtual_Private_Network_VPN.md",
+                "file": "Networking/Terminology/Multicast_VPN_MVPN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Terminology/Virtual_Private_Network_VPN.md"
+                "file": "Networking/Terminology/Multicast_VPN_MVPN.md"
               }
             }
           },
@@ -201,12 +201,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "aafb5e77799119d1",
+  "active": "73ee420029073090",
   "lastOpenFiles": [
-    "Networking/Terminology/Weighted_Fair_Queueing_WFQ.md",
+    "Networking/Terminology/Label_Distribution_Protocol_LDP.md",
     "Networking/Terminology/Terms.md",
-    "Networking/Terminology/Traffic_Engineering_TE.md",
+    "Networking/Terminology/Border_Gateway_Protocol_BGP.md",
+    "Networking/Terminology/Multicast_VPN_MVPN.md",
+    "Networking/Terminology/Weighted_Random_Early_Detection_WRED.md",
+    "Networking/Terminology/Weighted_Fair_Queueing_WFQ.md",
     "Networking/Terminology/Virtual_Private_Network_VPN.md",
+    "Networking/Terminology/Traffic_Engineering_TE.md",
     "Networking/Terminology/Shortest_Path_First_SPF.md",
     "assets/template.md",
     "Networking/Terminology/Service_Provider_Routing_SPR.md",
@@ -225,10 +229,6 @@
     "Networking/Terminology/Carrier_Ethernet.md",
     "Networking/Terminology/Best_Path_Selection_BPS.md",
     "Networking/Terminology/Bandwidth_Broker.md",
-    "Networking/Terminology/Automatic_Route_Convergence_Damping_ARC.md",
-    "Networking/Terminology/Access_Point_Name_APN.md",
-    "Networking/Terminology/Layer_2_Tunneling_Protocol_L2TP.md",
-    "Networking/Terminology/Lightweight_Extensible_Markup_Language_XLM.md",
     "Electronics_Repair",
     "Networking/Terminology",
     "Excalidraw",
