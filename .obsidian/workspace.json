@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uncategorized/DOXXING_Article.md",
+                "file": "Networking/Cisco/Cisco_IOS_Upgrades.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uncategorized/DOXXING_Article.md",
+                "file": "Networking/Cisco/Cisco_IOS_Upgrades.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Uncategorized/DOXXING_Article.md",
+                "file": "Networking/Cisco/Cisco_IOS_Upgrades.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uncategorized/DOXXING_Article.md"
+                "file": "Networking/Cisco/Cisco_IOS_Upgrades.md"
               }
             }
           },
@@ -197,6 +197,8 @@
   },
   "active": "b044faeaf4d67745",
   "lastOpenFiles": [
+    "Uncategorized/DOXXING_Article.md",
+    "Networking/Cisco/Cisco_IOS_Upgrades.md",
     "How_to_Markdown.md",
     "Applications/Desktop_Applications/Browsers/Brave.md",
     "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
@@ -230,8 +232,6 @@
     "Programming/Rust",
     "Programming/Python",
     "Programming",
-    "Applications/Server_Applications/Ansible/Ansible_for_network_devices.md",
-    "Applications/Server_Applications/Ansible/ansible.md",
     "Applications/Server_Applications/Ansible",
     "Pasted image 20231130184644.png",
     "Pasted image 20230923143931.png",
