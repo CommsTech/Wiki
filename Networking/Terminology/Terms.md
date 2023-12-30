@@ -4,7 +4,7 @@
 
 
 30. 
-31. Weighted Fair Queueing (WFQ)
+31. 
 32. Weighted Random Early Detection (WRED)
 33. Border Gateway Protocol (BGP)
 34. Multicast VPN (MVPN)
