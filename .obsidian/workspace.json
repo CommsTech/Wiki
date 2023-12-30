@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Subnetting.md",
+                "file": "Terminology/CIR.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Subnetting.md",
+                "file": "Terminology/CIR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Subnetting.md",
+                "file": "Terminology/CIR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Subnetting.md"
+                "file": "Terminology/CIR.md"
               }
             }
           },
@@ -197,6 +197,9 @@
   },
   "active": "b044faeaf4d67745",
   "lastOpenFiles": [
+    "Networking/Subnetting.md",
+    "Terminology/CIR.md",
+    "Terminology",
     "Networking/Cisco/home.md",
     "Networking/Cisco/3850_Running_Config.md",
     "Networking/Cisco/Cisco_IOS_Upgrades.md",
@@ -224,15 +227,12 @@
     "Applications/Server_Applications/ucaresystem-core.md",
     "Ansible_for_windows.md",
     "Programming/Powershell/Mastering_Automation_with_Powershell.md",
-    "note.md",
-    "Programming/Golang/Working_with_GO.md",
     "Programming/Powershell",
     "Programming/Golang",
     "Programming/Java",
     "Programming/Rust",
     "Programming/Python",
     "Programming",
-    "Applications/Server_Applications/Ansible",
     "Pasted image 20231130184644.png",
     "Pasted image 20230923143931.png",
     "Pasted image 20230923143719.png",
