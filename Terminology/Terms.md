@@ -1,12 +1,8 @@
 
 
 
-20. 
-21. 
-22. 
-23. Quality of Service (QoS)
-24. Resource Public Key Infrastructure (RPKI)
-25. Routing Information Protocol (RIP)
+
+25. 
 26. Service Provider Firewall (SPF)
 27. Service Provider Routing (SPR)
 28. Shortest Path First (SPF)

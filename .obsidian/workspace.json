@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terminology/Policy_and_Control_PnC.md",
+                "file": "Terminology/Routing_Information_Protocol_RIP.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Terminology/Policy_and_Control_PnC.md",
+                "file": "Terminology/Routing_Information_Protocol_RIP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Terminology/Policy_and_Control_PnC.md",
+                "file": "Terminology/Routing_Information_Protocol_RIP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Terminology/Policy_and_Control_PnC.md"
+                "file": "Terminology/Routing_Information_Protocol_RIP.md"
               }
             }
           },
@@ -204,13 +204,14 @@
   "active": "aafb5e77799119d1",
   "lastOpenFiles": [
     "Terminology/Terms.md",
+    "Terminology/Routing_Information_Protocol_RIP.md",
+    "Terminology/Quality_of_Service_QoS.md",
+    "Terminology/Resource_Public_Key_Infrastructure_RPKI.md",
     "Terminology/Policy_and_Control_PnC.md",
-    "Terminology/Open_Shortest_Path_First_OSPF.md",
+    "Electronics_Repair/Capacitors.md",
+    "Electronics_Repair/Diodes.md",
     "Terminology/Overlay_Transport_Virtual_Circuit_OTVC.md",
-    "Terminology/Multiprotocol_Label_Switching_MPLS.md",
-    "Terminology/Lightweight_Extensible_Markup_Language_XLM.md",
-    "Lightweight_Extensible_Markup_Language_XLM.md",
-    "Terminology/Link_State_Update_LSUpdate.md",
+    "Terminology/Excess_Burst_Size_Be.md",
     "Terminology/Congestion_Avoidance.md",
     "Terminology/Committed_Information_Rate_CIR.md",
     "Terminology/CISCO_SPCORE.md",
@@ -220,15 +221,15 @@
     "Terminology/Automatic_Route_Convergence_Damping_ARC.md",
     "Terminology/Access_Point_Name_APN.md",
     "Terminology/Layer_2_Tunneling_Protocol_L2TP.md",
+    "Terminology/Lightweight_Extensible_Markup_Language_XLM.md",
+    "Electronics_Repair",
+    "Terminology/Open_Shortest_Path_First_OSPF.md",
+    "Terminology/Multiprotocol_Label_Switching_MPLS.md",
+    "Lightweight_Extensible_Markup_Language_XLM.md",
+    "Terminology/Link_State_Update_LSUpdate.md",
     "Terminology/Link_State_Database_LSDB.md",
     "Terminology/Label_Switched_Path_LSP.md",
     "Terminology/IP_Multicast.md",
-    "Terminology/Internet_Engineering_Task_Force_IETF.md",
-    "About_Me.md",
-    "Terminology/High-Level_Signaling_Protocol_HLSP.md",
-    "Terminology/Global_System_for_Mobile_Communications_GSM.md",
-    "Terminology/Traffic_Policing.md",
-    "Terminology/Modular_Design.md",
     "Terminology",
     "Excalidraw",
     "Life/Nutrition",
@@ -238,7 +239,6 @@
     "Programming/Java",
     "Programming/Rust",
     "Programming/Python",
-    "Programming",
     "Pasted image 20231130184644.png",
     "Pasted image 20230923143931.png",
     "Pasted image 20230923143719.png",
