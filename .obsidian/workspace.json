@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terminology/Terms.md",
+                "file": "Terminology/Access_Point_Name_APN.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Terminology/Terms.md",
+                "file": "Terminology/Access_Point_Name_APN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Terminology/Terms.md",
+                "file": "Terminology/Access_Point_Name_APN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Terminology/Terms.md"
+                "file": "Terminology/Access_Point_Name_APN.md"
               }
             }
           },
@@ -197,8 +197,12 @@
   },
   "active": "b044faeaf4d67745",
   "lastOpenFiles": [
-    "Terminology/Best_Path_Selection_BPS.md",
+    "Networking/create-dkim-keypair.md",
     "Terminology/Terms.md",
+    "Terminology/Congestion_Avoidance.md",
+    "assets/template.md",
+    "Terminology/Carrier_Ethernet.md",
+    "Terminology/Best_Path_Selection_BPS.md",
     "Terminology/Bandwidth_Broker.md",
     "Terminology/Automatic_Route_Convergence_Damping_ARC.md",
     "Terminology/Access_Point_Name_APN.md",
@@ -220,10 +224,6 @@
     "Operating_Systems/Linux/Extend_LVM_Ubuntu.md",
     "Hardware/Servers/nvidia_Server_Drivers_K80.md",
     "Hardware/Servers/Nvidia_Cuda_11_4_2_Ubuntu.md",
-    "Programming/Python/Unlocking_Python.md",
-    "Applications/Desktop_Applications/gpt4all_finetuning.md",
-    "Excalidraw/Drawing 2023-12-28 15.01.10.excalidraw.md",
-    "Excalidraw/Drawing 2023-12-28 15.01.05.excalidraw.md",
     "Excalidraw",
     "Life/Nutrition",
     "Life",

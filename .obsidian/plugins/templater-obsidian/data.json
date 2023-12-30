@@ -25,7 +25,7 @@
     ""
   ],
   "startup_templates": [
-    ""
+    "assets/template.md"
   ],
   "enable_ribbon_icon": true
 }

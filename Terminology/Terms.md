@@ -1,8 +1,6 @@
 
-5. Carrier Ethernet
-6. Committed Information Rate (CIR)
-7. Congestion Avoidance
-8. Excess Burst Size (Be)
+
+
 9. Forwarding Information Base (FIB)
 10. Global System for Mobile Communications (GSM)
 11. High-Level Signaling Protocol (HLSP)
