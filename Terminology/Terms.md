@@ -1,11 +1,8 @@
 
 
-16. 
-17. 
-18. 
-19. Multiprotocol Label Switching (MPLS)
-20. Open Shortest Path First (OSPF)
-21. Overlay Transport Virtual Circuit (OTVC)
+
+20. 
+21. 
 22. Policy and Control (PnC)
 23. Quality of Service (QoS)
 24. Resource Public Key Infrastructure (RPKI)
