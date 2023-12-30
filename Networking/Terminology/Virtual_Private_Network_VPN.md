@@ -1,6 +1,6 @@
 ---
-title: Service Provider Routing (SPR)
-description: Service Provider Routing (SPR) Description
+title: Virtual Private Network (VPN)
+description: Virtual Private Network (VPN) Description
 published: true
 date: 2023-12-30T02:41:39.777Z
 tags:
@@ -8,7 +8,6 @@ tags:
   - Engineering
   - Tech
   - Cisco
-  - Routing
 editor: markdown
 dateCreated: 2023-12-30T02:41:39.777Z
 ---

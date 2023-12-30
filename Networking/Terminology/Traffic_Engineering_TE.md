@@ -1,6 +1,6 @@
 ---
-title: Shortest Path First (SPF)
-description: Shortest Path First (SPF) Description
+title: Traffic Engineering (TE)
+description: Traffic Engineering (TE) Description
 published: true
 date: 2023-12-30T02:41:39.777Z
 tags:
@@ -8,7 +8,6 @@ tags:
   - Engineering
   - Tech
   - Cisco
-  - Routing
 editor: markdown
 dateCreated: 2023-12-30T02:41:39.777Z
 ---

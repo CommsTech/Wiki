@@ -2,12 +2,8 @@
 
 
 
-25. 
-26. 
-27. 
-28. 
-29. Traffic Engineering (TE)
-30. Virtual Private Network (VPN)
+
+30. 
 31. Weighted Fair Queueing (WFQ)
 32. Weighted Random Early Detection (WRED)
 33. Border Gateway Protocol (BGP)

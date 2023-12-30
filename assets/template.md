@@ -1,7 +1,11 @@
 ---
-title: {{title}}
-date: {{date}}
-tags: #{{tag}}
+title:
+  "{ title }": 
+description: 
+date:
+  "{ date }": 
+tags: 
+dateCreated:
 ---
 
 # {{title}}
