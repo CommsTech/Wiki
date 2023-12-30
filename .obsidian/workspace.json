@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Cisco/Cisco_IOS_Upgrades.md",
+                "file": "Networking/Subnetting.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Cisco/Cisco_IOS_Upgrades.md",
+                "file": "Networking/Subnetting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Cisco/Cisco_IOS_Upgrades.md",
+                "file": "Networking/Subnetting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Cisco/Cisco_IOS_Upgrades.md"
+                "file": "Networking/Subnetting.md"
               }
             }
           },
@@ -197,8 +197,10 @@
   },
   "active": "b044faeaf4d67745",
   "lastOpenFiles": [
-    "Uncategorized/DOXXING_Article.md",
+    "Networking/Cisco/home.md",
+    "Networking/Cisco/3850_Running_Config.md",
     "Networking/Cisco/Cisco_IOS_Upgrades.md",
+    "Uncategorized/DOXXING_Article.md",
     "How_to_Markdown.md",
     "Applications/Desktop_Applications/Browsers/Brave.md",
     "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
@@ -225,9 +227,7 @@
     "note.md",
     "Programming/Golang/Working_with_GO.md",
     "Programming/Powershell",
-    "Programming/Java/Mastering_Java.md",
     "Programming/Golang",
-    "Programming/Rust/Unleashing_Rust.md",
     "Programming/Java",
     "Programming/Rust",
     "Programming/Python",
