@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terminology/Service_Provider_Firewall_SPF.md",
+                "file": "Terminology/Shortest_Path_First_SPF.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Terminology/Service_Provider_Firewall_SPF.md",
+                "file": "Terminology/Shortest_Path_First_SPF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Terminology/Service_Provider_Firewall_SPF.md",
+                "file": "Terminology/Shortest_Path_First_SPF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Terminology/Service_Provider_Firewall_SPF.md"
+                "file": "Terminology/Shortest_Path_First_SPF.md"
               }
             }
           },
@@ -203,10 +203,11 @@
   },
   "active": "aafb5e77799119d1",
   "lastOpenFiles": [
-    "Terminology/Service_Provider_Routing_SPR.md",
     "Terminology/Terms.md",
-    "Terminology/Routing_Information_Protocol_RIP.md",
+    "Terminology/Shortest_Path_First_SPF.md",
     "Terminology/Service_Provider_Firewall_SPF.md",
+    "Terminology/Service_Provider_Routing_SPR.md",
+    "Terminology/Routing_Information_Protocol_RIP.md",
     "Terminology/Resource_Public_Key_Infrastructure_RPKI.md",
     "Terminology/Quality_of_Service_QoS.md",
     "Terminology/Policy_and_Control_PnC.md",
@@ -229,7 +230,6 @@
     "Terminology/Multiprotocol_Label_Switching_MPLS.md",
     "Lightweight_Extensible_Markup_Language_XLM.md",
     "Terminology/Link_State_Update_LSUpdate.md",
-    "Terminology/Link_State_Database_LSDB.md",
     "Terminology",
     "Excalidraw",
     "Life/Nutrition",
