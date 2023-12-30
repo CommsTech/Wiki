@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lightweight_Extensible_Markup_Language_XLM.md",
+                "file": "Terminology/Multiprotocol_Label_Switching_MPLS.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lightweight_Extensible_Markup_Language_XLM.md",
+                "file": "Terminology/Multiprotocol_Label_Switching_MPLS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lightweight_Extensible_Markup_Language_XLM.md",
+                "file": "Terminology/Multiprotocol_Label_Switching_MPLS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lightweight_Extensible_Markup_Language_XLM.md"
+                "file": "Terminology/Multiprotocol_Label_Switching_MPLS.md"
               }
             }
           },
@@ -204,6 +204,7 @@
   "active": "aafb5e77799119d1",
   "lastOpenFiles": [
     "Terminology/Terms.md",
+    "Terminology/Multiprotocol_Label_Switching_MPLS.md",
     "Lightweight_Extensible_Markup_Language_XLM.md",
     "Terminology/Link_State_Update_LSUpdate.md",
     "Terminology/Congestion_Avoidance.md",
@@ -228,7 +229,6 @@
     "Terminology/Forwarding_Information_Base_FIB.md",
     "Terminology/Excess_Burst_Size_Be.md",
     "Networking/create-dkim-keypair.md",
-    "assets/template.md",
     "Terminology",
     "Excalidraw",
     "Life/Nutrition",
