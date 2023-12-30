@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Terminology/Multicast_VPN_MVPN.md",
+                "file": "Networking/Terminology/Terms.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Terminology/Multicast_VPN_MVPN.md",
+                "file": "Networking/Terminology/Terms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Terminology/Multicast_VPN_MVPN.md",
+                "file": "Networking/Terminology/Terms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Terminology/Multicast_VPN_MVPN.md"
+                "file": "Networking/Terminology/Terms.md"
               }
             }
           },
@@ -201,12 +201,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "73ee420029073090",
+  "active": "aafb5e77799119d1",
   "lastOpenFiles": [
-    "Networking/Terminology/Label_Distribution_Protocol_LDP.md",
+    "Networking/Terminology/Resource_Reservation_Protocol_RSVP.md",
+    "Networking/Terminology/Open_Shortest_Path_First_Interior_Gateway_Routing_Protocol_OSPF-IGP.md",
     "Networking/Terminology/Terms.md",
-    "Networking/Terminology/Border_Gateway_Protocol_BGP.md",
+    "Networking/Terminology/Label_Distribution_Protocol_LDP.md",
     "Networking/Terminology/Multicast_VPN_MVPN.md",
+    "Networking/Terminology/Border_Gateway_Protocol_BGP.md",
     "Networking/Terminology/Weighted_Random_Early_Detection_WRED.md",
     "Networking/Terminology/Weighted_Fair_Queueing_WFQ.md",
     "Networking/Terminology/Virtual_Private_Network_VPN.md",
@@ -227,8 +229,6 @@
     "Networking/Terminology/Committed_Information_Rate_CIR.md",
     "Networking/Terminology/CISCO_SPCORE.md",
     "Networking/Terminology/Carrier_Ethernet.md",
-    "Networking/Terminology/Best_Path_Selection_BPS.md",
-    "Networking/Terminology/Bandwidth_Broker.md",
     "Electronics_Repair",
     "Networking/Terminology",
     "Excalidraw",
