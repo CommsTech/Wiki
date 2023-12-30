@@ -183,6 +183,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "templater-obsidian:Templater": false,
       "vantage-obsidian:Vantage - Advanced search builder": false,
       "flashcards-obsidian:Generate flashcards": false,
       "switcher:Open quick switcher": false,

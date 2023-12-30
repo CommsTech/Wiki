@@ -12,5 +12,7 @@
   "flashcards-obsidian",
   "obsidian-qrcode-plugin",
   "rss-reader",
-  "obsidian-languagetool-plugin"
+  "obsidian-languagetool-plugin",
+  "templater-obsidian",
+  "obsidian-linter"
 ]
