@@ -1,3 +1,4 @@
+# Committed Information Rate (CIR)
 The correct formula for determining the Committed Information Rate (CIR) in a traffic policing context is:
 
 ```markdown

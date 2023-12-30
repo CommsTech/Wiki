@@ -1,0 +1,38 @@
+
+3. Bandwidth Broker
+4. Best Path Selection (BPS)
+5. Carrier Ethernet
+6. Committed Information Rate (CIR)
+7. Congestion Avoidance
+8. Excess Burst Size (Be)
+9. Forwarding Information Base (FIB)
+10. Global System for Mobile Communications (GSM)
+11. High-Level Signaling Protocol (HLSP)
+12. Internet Engineering Task Force (IETF)
+13. IP Multicast
+14. Label Switched Path (LSP)
+15. Link State Database (LSDB)
+16. Link State Update (LSUpdate)
+17. Layer 2 Tunneling Protocol (L2TP)
+18. Lightweight Extensible Markup Language (XLM)
+19. Multiprotocol Label Switching (MPLS)
+20. Open Shortest Path First (OSPF)
+21. Overlay Transport Virtual Circuit (OTVC)
+22. Policy and Control (PnC)
+23. Quality of Service (QoS)
+24. Resource Public Key Infrastructure (RPKI)
+25. Routing Information Protocol (RIP)
+26. Service Provider Firewall (SPF)
+27. Service Provider Routing (SPR)
+28. Shortest Path First (SPF)
+29. Traffic Engineering (TE)
+30. Virtual Private Network (VPN)
+31. Weighted Fair Queueing (WFQ)
+32. Weighted Random Early Detection (WRED)
+33. Border Gateway Protocol (BGP)
+34. Multicast VPN (MVPN)
+35. Label Distribution Protocol (LDP)
+36. Resource Reservation Protocol (RSVP)
+37. Open Shortest Path First Interior Gateway Routing Protocol (OSPF-IGP)
+38. Bidirectional Forwarding Detection (BFD)
+

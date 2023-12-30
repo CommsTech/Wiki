@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terminology/CIR.md",
+                "file": "Terminology/Bandwidth_Broker.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Terminology/CIR.md",
+                "file": "Terminology/Bandwidth_Broker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Terminology/CIR.md",
+                "file": "Terminology/Bandwidth_Broker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Terminology/CIR.md"
+                "file": "Terminology/Bandwidth_Broker.md"
               }
             }
           },
@@ -197,8 +197,17 @@
   },
   "active": "b044faeaf4d67745",
   "lastOpenFiles": [
+    "Terminology/Terms.md",
+    "Terminology/Bandwidth_Broker.md",
+    "Terminology/Automatic_Route_Convergence_Damping_ARC.md",
+    "Terminology/Access_Point_Name_APN.md",
+    "Terminology/Measurement_Interval_Tc.md",
+    "Terminology/CISCO_SPCORE.md",
+    "Terminology/Modular_Design.md",
+    "Terminology/Committed_Information_Rate_CIR.md",
+    "Terminology/Excess_Burst_Size_Be.md",
+    "Terminology/Traffic_Policing.md",
     "Networking/Subnetting.md",
-    "Terminology/CIR.md",
     "Terminology",
     "Networking/Cisco/home.md",
     "Networking/Cisco/3850_Running_Config.md",
@@ -216,17 +225,8 @@
     "Excalidraw/Drawing 2023-12-28 15.01.05.excalidraw.md",
     "Excalidraw",
     "Privacy/Awesome Privacy's Tools.md",
-    "Privacy/Guide_to_Online_Anonymity.md",
-    "Privacy/osint.md",
-    "Privacy/privacy opt out tools.md",
-    "Privacy/home.md",
-    "Privacy/Data_Removal_Guide.md",
-    "Life/Nutrition/Honey.md",
     "Life/Nutrition",
     "Life",
-    "Applications/Server_Applications/ucaresystem-core.md",
-    "Ansible_for_windows.md",
-    "Programming/Powershell/Mastering_Automation_with_Powershell.md",
     "Programming/Powershell",
     "Programming/Golang",
     "Programming/Java",
