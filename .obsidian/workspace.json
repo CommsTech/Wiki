@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terminology/IP_Multicast.md",
+                "file": "Terminology/Terms.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aafb5e77799119d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lightweight_Extensible_Markup_Language_XLM.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Terminology/IP_Multicast.md",
+                "file": "Lightweight_Extensible_Markup_Language_XLM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Terminology/IP_Multicast.md",
+                "file": "Lightweight_Extensible_Markup_Language_XLM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Terminology/IP_Multicast.md"
+                "file": "Lightweight_Extensible_Markup_Language_XLM.md"
               }
             }
           },
@@ -165,17 +179,9 @@
                 "searchQuery": ""
               }
             }
-          },
-          {
-            "id": "0094dfea1f211a34",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -195,9 +201,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b938732276e1cd35",
+  "active": "aafb5e77799119d1",
   "lastOpenFiles": [
     "Terminology/Terms.md",
+    "Lightweight_Extensible_Markup_Language_XLM.md",
+    "Terminology/Link_State_Update_LSUpdate.md",
+    "Terminology/Congestion_Avoidance.md",
+    "Terminology/Committed_Information_Rate_CIR.md",
+    "Terminology/CISCO_SPCORE.md",
+    "Terminology/Carrier_Ethernet.md",
+    "Terminology/Best_Path_Selection_BPS.md",
+    "Terminology/Bandwidth_Broker.md",
+    "Terminology/Automatic_Route_Convergence_Damping_ARC.md",
+    "Terminology/Access_Point_Name_APN.md",
+    "Terminology/Layer_2_Tunneling_Protocol_L2TP.md",
+    "Terminology/Link_State_Database_LSDB.md",
+    "Terminology/Label_Switched_Path_LSP.md",
     "Terminology/IP_Multicast.md",
     "Terminology/Internet_Engineering_Task_Force_IETF.md",
     "About_Me.md",
@@ -208,22 +227,9 @@
     "Terminology/Measurement_Interval_Tc.md",
     "Terminology/Forwarding_Information_Base_FIB.md",
     "Terminology/Excess_Burst_Size_Be.md",
-    "Terminology/Congestion_Avoidance.md",
-    "Terminology/Committed_Information_Rate_CIR.md",
-    "Terminology/CISCO_SPCORE.md",
-    "Terminology/Carrier_Ethernet.md",
-    "Terminology/Best_Path_Selection_BPS.md",
-    "Terminology/Bandwidth_Broker.md",
-    "Terminology/Automatic_Route_Convergence_Damping_ARC.md",
-    "Terminology/Access_Point_Name_APN.md",
     "Networking/create-dkim-keypair.md",
     "assets/template.md",
-    "Networking/Subnetting.md",
     "Terminology",
-    "Networking/Cisco/home.md",
-    "Networking/Cisco/3850_Running_Config.md",
-    "Networking/Cisco/Cisco_IOS_Upgrades.md",
-    "Uncategorized/DOXXING_Article.md",
     "Excalidraw",
     "Life/Nutrition",
     "Life",

@@ -1,3 +1,16 @@
+---
+title: Carrier Ethernet
+description: Carrier Ethernet Description
+published: true
+date: 2023-12-30T02:41:39.777Z
+tags:
+  - networking
+  - Engineering
+  - Tech
+  - Cisco
+editor: markdown
+dateCreated: 2023-12-30T02:41:39.777Z
+---
 # Carrier Ethernet
 
 **Carrier Ethernet** is a telecommunications technology that provides WAN connectivity using Ethernet protocols over traditional circuit-switched networks, such as SONET or SDH. It offers several advantages over traditional WAN technologies like T1/T3 and Frame Relay by providing higher bandwidth, lower latency, and improved scalability. Carrier Ethernet is designed to meet the requirements of enterprise and service provider networks for high-speed connectivity, reliability, and Quality of Service (QoS).

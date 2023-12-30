@@ -1,16 +1,8 @@
 
 
-
-9. 
-10. 
-11. 
-12. 
-13. 
-14. Label Switched Path (LSP)
-15. Link State Database (LSDB)
-16. Link State Update (LSUpdate)
-17. Layer 2 Tunneling Protocol (L2TP)
-18. Lightweight Extensible Markup Language (XLM)
+16. 
+17. 
+18. 
 19. Multiprotocol Label Switching (MPLS)
 20. Open Shortest Path First (OSPF)
 21. Overlay Transport Virtual Circuit (OTVC)
