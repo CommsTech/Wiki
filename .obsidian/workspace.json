@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d56522a998c8f851",
+        "id": "3c9ad57cc52bb971",
         "type": "tabs",
         "children": [
           {
-            "id": "b044faeaf4d67745",
+            "id": "b938732276e1cd35",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terminology/Access_Point_Name_APN.md",
+                "file": "Terminology/High-Level_Signaling_Protocol_HLSP.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Terminology/Access_Point_Name_APN.md",
+                "file": "Terminology/High-Level_Signaling_Protocol_HLSP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Terminology/Access_Point_Name_APN.md",
+                "file": "Terminology/High-Level_Signaling_Protocol_HLSP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Terminology/Access_Point_Name_APN.md"
+                "file": "Terminology/High-Level_Signaling_Protocol_HLSP.md"
               }
             }
           },
@@ -195,23 +195,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b044faeaf4d67745",
+  "active": "b938732276e1cd35",
   "lastOpenFiles": [
-    "Networking/create-dkim-keypair.md",
     "Terminology/Terms.md",
+    "Terminology/High-Level_Signaling_Protocol_HLSP.md",
+    "Terminology/Global_System_for_Mobile_Communications_GSM.md",
+    "Terminology/Traffic_Policing.md",
+    "Terminology/Modular_Design.md",
+    "Terminology/Measurement_Interval_Tc.md",
+    "Terminology/Forwarding_Information_Base_FIB.md",
+    "Terminology/Excess_Burst_Size_Be.md",
     "Terminology/Congestion_Avoidance.md",
-    "assets/template.md",
+    "Terminology/Committed_Information_Rate_CIR.md",
+    "Terminology/CISCO_SPCORE.md",
     "Terminology/Carrier_Ethernet.md",
     "Terminology/Best_Path_Selection_BPS.md",
     "Terminology/Bandwidth_Broker.md",
     "Terminology/Automatic_Route_Convergence_Damping_ARC.md",
     "Terminology/Access_Point_Name_APN.md",
-    "Terminology/Measurement_Interval_Tc.md",
-    "Terminology/CISCO_SPCORE.md",
-    "Terminology/Modular_Design.md",
-    "Terminology/Committed_Information_Rate_CIR.md",
-    "Terminology/Excess_Burst_Size_Be.md",
-    "Terminology/Traffic_Policing.md",
+    "Networking/create-dkim-keypair.md",
+    "assets/template.md",
     "Networking/Subnetting.md",
     "Terminology",
     "Networking/Cisco/home.md",
@@ -221,9 +224,6 @@
     "How_to_Markdown.md",
     "Applications/Desktop_Applications/Browsers/Brave.md",
     "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
-    "Operating_Systems/Linux/Extend_LVM_Ubuntu.md",
-    "Hardware/Servers/nvidia_Server_Drivers_K80.md",
-    "Hardware/Servers/Nvidia_Cuda_11_4_2_Ubuntu.md",
     "Excalidraw",
     "Life/Nutrition",
     "Life",

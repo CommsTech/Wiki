@@ -1,9 +1,9 @@
 
 
 
-9. Forwarding Information Base (FIB)
-10. Global System for Mobile Communications (GSM)
-11. High-Level Signaling Protocol (HLSP)
+9. 
+10. 
+11. 
 12. Internet Engineering Task Force (IETF)
 13. IP Multicast
 14. Label Switched Path (LSP)

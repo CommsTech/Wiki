@@ -1,4 +1,4 @@
-## Congestion Avoidance
+# Congestion Avoidance
 
 **Congestion Avoidance** is a set of techniques used in computer networking to prevent or minimize network congestion by controlling the rate at which data is transmitted into a network link or router buffer. The primary goal of congestion avoidance is to maintain optimal network performance, reduce packet loss, and minimize latency.
 
