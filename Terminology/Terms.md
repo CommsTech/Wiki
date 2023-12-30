@@ -1,5 +1,4 @@
 
-4. Best Path Selection (BPS)
 5. Carrier Ethernet
 6. Committed Information Rate (CIR)
 7. Congestion Avoidance
