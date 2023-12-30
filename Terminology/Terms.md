@@ -3,8 +3,8 @@
 
 
 25. 
-26. Service Provider Firewall (SPF)
-27. Service Provider Routing (SPR)
+26. 
+27. 
 28. Shortest Path First (SPF)
 29. Traffic Engineering (TE)
 30. Virtual Private Network (VPN)

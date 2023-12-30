@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terminology/Routing_Information_Protocol_RIP.md",
+                "file": "Terminology/Service_Provider_Firewall_SPF.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Terminology/Routing_Information_Protocol_RIP.md",
+                "file": "Terminology/Service_Provider_Firewall_SPF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Terminology/Routing_Information_Protocol_RIP.md",
+                "file": "Terminology/Service_Provider_Firewall_SPF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Terminology/Routing_Information_Protocol_RIP.md"
+                "file": "Terminology/Service_Provider_Firewall_SPF.md"
               }
             }
           },
@@ -203,10 +203,12 @@
   },
   "active": "aafb5e77799119d1",
   "lastOpenFiles": [
+    "Terminology/Service_Provider_Routing_SPR.md",
     "Terminology/Terms.md",
     "Terminology/Routing_Information_Protocol_RIP.md",
-    "Terminology/Quality_of_Service_QoS.md",
+    "Terminology/Service_Provider_Firewall_SPF.md",
     "Terminology/Resource_Public_Key_Infrastructure_RPKI.md",
+    "Terminology/Quality_of_Service_QoS.md",
     "Terminology/Policy_and_Control_PnC.md",
     "Electronics_Repair/Capacitors.md",
     "Electronics_Repair/Diodes.md",
@@ -228,8 +230,6 @@
     "Lightweight_Extensible_Markup_Language_XLM.md",
     "Terminology/Link_State_Update_LSUpdate.md",
     "Terminology/Link_State_Database_LSDB.md",
-    "Terminology/Label_Switched_Path_LSP.md",
-    "Terminology/IP_Multicast.md",
     "Terminology",
     "Excalidraw",
     "Life/Nutrition",
