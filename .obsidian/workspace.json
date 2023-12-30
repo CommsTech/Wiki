@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terminology/High-Level_Signaling_Protocol_HLSP.md",
+                "file": "Terminology/Terms.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Terminology/High-Level_Signaling_Protocol_HLSP.md",
+                "file": "Terminology/Terms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Terminology/High-Level_Signaling_Protocol_HLSP.md",
+                "file": "Terminology/Terms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Terminology/High-Level_Signaling_Protocol_HLSP.md"
+                "file": "Terminology/Terms.md"
               }
             }
           },
@@ -197,7 +197,10 @@
   },
   "active": "b938732276e1cd35",
   "lastOpenFiles": [
+    "Terminology/IP_Multicast.md",
     "Terminology/Terms.md",
+    "Terminology/Internet_Engineering_Task_Force_IETF.md",
+    "About_Me.md",
     "Terminology/High-Level_Signaling_Protocol_HLSP.md",
     "Terminology/Global_System_for_Mobile_Communications_GSM.md",
     "Terminology/Traffic_Policing.md",
@@ -221,9 +224,6 @@
     "Networking/Cisco/3850_Running_Config.md",
     "Networking/Cisco/Cisco_IOS_Upgrades.md",
     "Uncategorized/DOXXING_Article.md",
-    "How_to_Markdown.md",
-    "Applications/Desktop_Applications/Browsers/Brave.md",
-    "Applications/Server_Applications/MeshCentral_Install_Ubuntu.md",
     "Excalidraw",
     "Life/Nutrition",
     "Life",
