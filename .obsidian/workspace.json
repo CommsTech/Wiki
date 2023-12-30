@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terminology/Bandwidth_Broker.md",
+                "file": "Terminology/Terms.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Terminology/Bandwidth_Broker.md",
+                "file": "Terminology/Terms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Terminology/Bandwidth_Broker.md",
+                "file": "Terminology/Terms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Terminology/Bandwidth_Broker.md"
+                "file": "Terminology/Terms.md"
               }
             }
           },
@@ -195,10 +195,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b044faeaf4d67745",
+  "active": "73ee420029073090",
   "lastOpenFiles": [
-    "Terminology/Terms.md",
     "Terminology/Bandwidth_Broker.md",
+    "Terminology/Terms.md",
     "Terminology/Automatic_Route_Convergence_Damping_ARC.md",
     "Terminology/Access_Point_Name_APN.md",
     "Terminology/Measurement_Interval_Tc.md",
