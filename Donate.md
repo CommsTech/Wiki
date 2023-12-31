@@ -1,10 +1,12 @@
 ---
 title: Donate
-description: Donate
+description: This note provides information about making a donation or contribution to Commsnet Wiki or other Commsnet projects. It may include details on accepted payment methods, donation levels, and benefits for different donation amounts."
 dateCreated: 2022-05-09T13:37:26.768Z
 published: true
 editor: markdown
-tags: Donate
+tags:
+  - Donate
+  - Funding
 dateModified: 
 ---
 # Donate

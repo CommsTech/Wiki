@@ -1,10 +1,12 @@
 ---
 title: Driftnet
-description: 
+description: Driftnet, an organization or project related to internet measurement and analysis. It may include details on their methods, findings, and any relevant data or statistics related to internet usage and traffic patterns.
 dateCreated: 2022-05-21T15:28:21.146Z
 published: true
 editor: markdown
-tags: 
+tags:
+  - Measurement
+  - Internet
 dateModified: 
 ---
 # Driftnet
