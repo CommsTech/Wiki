@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Terminology/Terms.md",
+                "file": "Networking/Terminology/Bidirectional_Forwarding_Detection_BFD.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Terminology/Terms.md",
+                "file": "Networking/Terminology/Bidirectional_Forwarding_Detection_BFD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Terminology/Terms.md",
+                "file": "Networking/Terminology/Bidirectional_Forwarding_Detection_BFD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Terminology/Terms.md"
+                "file": "Networking/Terminology/Bidirectional_Forwarding_Detection_BFD.md"
               }
             }
           },
@@ -203,9 +203,10 @@
   },
   "active": "aafb5e77799119d1",
   "lastOpenFiles": [
-    "Networking/Terminology/Resource_Reservation_Protocol_RSVP.md",
     "Networking/Terminology/Open_Shortest_Path_First_Interior_Gateway_Routing_Protocol_OSPF-IGP.md",
+    "Networking/Terminology/Bidirectional_Forwarding_Detection_BFD.md",
     "Networking/Terminology/Terms.md",
+    "Networking/Terminology/Resource_Reservation_Protocol_RSVP.md",
     "Networking/Terminology/Label_Distribution_Protocol_LDP.md",
     "Networking/Terminology/Multicast_VPN_MVPN.md",
     "Networking/Terminology/Border_Gateway_Protocol_BGP.md",
@@ -228,7 +229,6 @@
     "Networking/Terminology/Congestion_Avoidance.md",
     "Networking/Terminology/Committed_Information_Rate_CIR.md",
     "Networking/Terminology/CISCO_SPCORE.md",
-    "Networking/Terminology/Carrier_Ethernet.md",
     "Electronics_Repair",
     "Networking/Terminology",
     "Excalidraw",
