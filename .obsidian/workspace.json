@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/AI/RAG_Formatting_and_Information.md",
+                "file": "Networking/SteelHead/Untitled.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/AI/RAG_Formatting_and_Information.md",
+                "file": "Networking/SteelHead/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/AI/RAG_Formatting_and_Information.md",
+                "file": "Networking/SteelHead/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/AI/RAG_Formatting_and_Information.md"
+                "file": "Networking/SteelHead/Untitled.md"
               }
             }
           },
@@ -191,8 +191,16 @@
   },
   "active": "81b69151463c744c",
   "lastOpenFiles": [
-    "Applications/Server_Applications/AI/PrivateGPT.md",
+    "Applications/Desktop_Applications/Wireshark.md",
+    "Networking/SteelHead/Untitled.md",
+    "Networking/SteelHead",
     "Applications/Server_Applications/AI/RAG_Formatting_and_Information.md",
+    "Applications/Server_Applications/AI/RAG_Concepts_and_LangChain.md",
+    "Applications/Server_Applications/AI/RAG_101.md",
+    "Applications/Server_Applications/AI/PrivateGPT.md",
+    "Applications/Server_Applications/AI/Memory_Cache.md",
+    "Applications/Server_Applications/AI/Harnessing_RAG_for_Text.md",
+    "Applications/Server_Applications/AI/Building_RAG.md",
     "Applications/Server_Applications/AI/AI_Home.md",
     "Programming/Rust/Unleashing_Rust.md",
     "Networking/Terminology/Lightweight_Extensible_Markup_Language_XLM.md",
@@ -210,13 +218,6 @@
     "Networking/Terminology/Internet_Engineering_Task_Force_IETF.md",
     "Networking/Terminology/High-Level_Signaling_Protocol_HLSP.md",
     "Networking/Terminology/Forwarding_Information_Base_FIB.md",
-    "Networking/Terminology/Weighted_Random_Early_Detection_WRED.md",
-    "Networking/Terminology/Weighted_Fair_Queueing_WFQ.md",
-    "Networking/Terminology/Virtual_Private_Network_VPN.md",
-    "Networking/Terminology/Traffic_Policing.md",
-    "Networking/Terminology/Traffic_Engineering_TE.md",
-    "Networking/Terminology/Shortest_Path_First_SPF.md",
-    "Networking/Terminology/Terms.md",
     "Networking/DNS",
     "New Text Document.txt",
     "Privacy/OSINT",
@@ -227,7 +228,6 @@
     "Excalidraw",
     "Life/Nutrition",
     "Life",
-    "Programming/Powershell",
     "assets/images/Pasted image 20231130184644.png",
     "assets/images/Pasted image 20230923143931.png",
     "Assets/images/Pasted image 20230821211119.png",
