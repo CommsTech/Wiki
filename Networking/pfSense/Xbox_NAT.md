@@ -1,12 +1,13 @@
 ---
 title: Xbox NAT
 description: 
-published: true
-date: 2022-07-25T13:15:54.706Z
-tags: 
-editor: markdown
 dateCreated: 2022-05-21T15:28:21.146Z
+published: true
+editor: markdown
+tags: 
+dateModified: 
 ---
+# Xbox_NAT
 ## pfSense – How to fix STRICT NAT
 
 There are several ways to fix the STRICT NAT situation.
@@ -39,7 +40,7 @@ Since I use DHCP for my network, I decided to use the most obvious: tell my DHCP
 
 ### Determine an IP Address for your XBox One
 
-_Note_: I assume that your LAN connection is called “LAN” in your pfSense enviroment.
+_Note_: I assume that your LAN connection is called “LAN” in your pfSense environment.
 
 In pfSense go to **Services**  **DHCP Server**  **LAN**.
 

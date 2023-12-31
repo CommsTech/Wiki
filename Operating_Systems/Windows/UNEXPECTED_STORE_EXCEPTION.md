@@ -1,11 +1,11 @@
 ---
 title: Unexpected Store Exception
-description: 
-published: true
-date: 2022-07-25T13:15:54.706Z
-tags: 
-editor: markdown
+description: Windows error Debug
 dateCreated: 2022-05-21T15:28:21.146Z
+published: true
+editor: markdown
+tags: 
+dateModified: 
 ---
 # Unexpected Store Exception
 ## What Is the “Unexpected Store Exception” Error in Windows?

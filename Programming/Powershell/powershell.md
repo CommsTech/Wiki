@@ -1,13 +1,12 @@
 ---
-dateModified:
 title: Powershell
 description: 
+dateCreated: 2022-05-21T15:28:21.146Z
 published: true
-date: 2022-07-25T13:15:54.706Z
 editor: markdown
 tags:
   - Coding
-dateCreated: 2022-05-21T15:28:21.146Z
+dateModified: 
 ---
 # PowerShell Cheat-Sheet
 PowerShell is a task automation and configuration management program from Microsoft, consisting of a command-line shell and the associated scripting language.
