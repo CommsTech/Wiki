@@ -1,9 +1,13 @@
 ---
-title: WGU
+title: WGU Home
 description: WGU
 published: true
 date: 2022-07-25T13:49:57.277Z
-tags: College, Information Technologies, Networking
+tags:
+  - College
+  - Information
+  - Technologies
+  - Networking
 editor: markdown
 dateCreated: 2022-05-09T04:33:51.250Z
 ---

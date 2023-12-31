@@ -1,3 +1,11 @@
+---
+title: Data Removal Guide
+description: 
+published: 
+tags:
+  - Privacy
+  - Anonymity
+---
 # Extreme Privacy
 
 ## What It Takes to Disappear: Fourth Edition

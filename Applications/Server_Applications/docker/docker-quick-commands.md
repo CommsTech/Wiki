@@ -2,7 +2,12 @@
 title: Docker Quick Commands
 description: This note compiles a collection of frequently used Docker commands for easy access and reference within an Obsidian Markdown vault, ensuring efficient management and deployment of containerized applications
 published: 
-tags: 
+tags:
+  - Docker
+  - Containers
+  - Containerization
+  - Productivity
+  - Reference
 aliases:
 ---
 # [Docker Guide](https://christitus.com/docker-guide/ "See on original website")

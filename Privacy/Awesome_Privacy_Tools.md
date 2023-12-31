@@ -1,3 +1,10 @@
+---
+title: Awesome Privacy Tools
+description: 
+published: 
+tags:
+---
+# Awesome Privacy's Tools
 Awesome Privacy's Tools
 
 <p align="center"><img src="icon.svg" with="75" height="75" alt="Awesome Privacy Icon"></p>

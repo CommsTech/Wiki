@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WGU/C182.md",
+                "file": "Privacy/Guide_to_Online_Anonymity.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WGU/C182.md",
+                "file": "Privacy/Guide_to_Online_Anonymity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WGU/C182.md",
+                "file": "Privacy/Guide_to_Online_Anonymity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WGU/C182.md"
+                "file": "Privacy/Guide_to_Online_Anonymity.md"
               }
             }
           },
@@ -189,18 +189,23 @@
   },
   "active": "aafb5e77799119d1",
   "lastOpenFiles": [
-    "WGU/C393.md",
-    "WGU/C394.md",
+    "Privacy/Data_Removal_Guide.md",
+    "Privacy/Awesome_Privacy_Tools.md",
+    "assets/images/Pasted image 20230923143719.png",
+    "home.md",
+    "Donate.md",
+    "About_Me.md",
+    "WGU/WGU_home.md",
+    "Applications/Server_Applications/docker/docker-networking.md",
     "Applications/Server_Applications/docker/docker-quick-commands.md",
     "WGU/C182.md",
+    "WGU/C393.md",
+    "WGU/C394.md",
     "WGU/C176.md",
     "WGU/c175.md",
     "WGU/C100.md",
     "WGU/c165.md",
     "Applications/Server_Applications/Ansible/Ansible_for_windows.md",
-    "About_Me.md",
-    "Donate.md",
-    "home.md",
     "How_to_Markdown.md",
     "note.md",
     "README.md",
@@ -211,10 +216,6 @@
     "Networking/Cisco/3850_Running_Config.md",
     "Networking/Cisco/Cisco_IOS_Upgrades.md",
     "Networking/Cisco/Cisco_Networking_Home.md",
-    "Life/Nutrition/Honey.md",
-    "Hardware/Hardware_Home.md",
-    "Applications/Server_Applications/docker/docker-compose.md",
-    "Hardware/Amazon_Fire_Tablet.md",
     "Electronics_Repair",
     "Networking/Terminology",
     "Excalidraw",
@@ -225,9 +226,8 @@
     "Programming/Java",
     "Programming/Rust",
     "Programming/Python",
-    "Pasted image 20231130184644.png",
-    "Pasted image 20230923143931.png",
-    "Pasted image 20230923143719.png",
+    "assets/images/Pasted image 20231130184644.png",
+    "assets/images/Pasted image 20230923143931.png",
     "Assets/images/Pasted image 20230821211119.png",
     "Assets/images/Pasted image 20230821220127.png",
     "Assets/images/Pasted image 20230821215836.png",
