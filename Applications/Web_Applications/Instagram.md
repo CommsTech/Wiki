@@ -9,7 +9,7 @@ tags:
   - SocialMedia
   - OnlinePrivacy
   - ThirdPartyServices
-dateModified:
+dateModified: 
 ---
 # Instagram
 This note provides information about accessing and viewing Instagram posts without having an Instagram account, specifically by using a free third-party web-based service called Imginn. It covers the process of searching for and downloading people's Instagram posts, videos, and reels on this site, as well as the drawbacks of dealing with intrusive ads.
