@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Privacy/Guide_to_Online_Anonymity.md",
+                "file": "Applications/Server_Applications/AI/PrivateGPT.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -74,8 +74,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Privacy/Guide_to_Online_Anonymity.md",
+                "file": "Applications/Server_Applications/AI/PrivateGPT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Privacy/Guide_to_Online_Anonymity.md",
+                "file": "Applications/Server_Applications/AI/PrivateGPT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Privacy/Guide_to_Online_Anonymity.md"
+                "file": "Applications/Server_Applications/AI/PrivateGPT.md"
               }
             }
           },
@@ -176,8 +175,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "44984e271aedb61f",
+  "active": "73ee420029073090",
   "lastOpenFiles": [
+    "Applications/Server_Applications/AI/Memory_Cache.md",
+    "Applications/Server_Applications/AI/PrivateGPT.md",
+    "Applications/Server_Applications/AI/Building_RAG.md",
+    "Applications/Server_Applications/AI/Untitled.md",
+    "Privacy/Guide_to_Online_Anonymity.md",
     "New Text Document.txt",
     "Others/Hacking_Resources.md",
     "Hardware/Hardware_Home.md",
@@ -200,10 +204,6 @@
     "Army/Cyber_Awareness_Training.md",
     "Others/Cryptocurrency/cryptomining.md",
     "Networking/create-dkim-keypair.md",
-    "Operating_Systems/Windows/Corrupted_OS_Repair.md",
-    "Networking/Terminology/Congestion_Avoidance.md",
-    "Virtual_Infrastructure/AWS/CloudFront.md",
-    "Certifications/comptia/Cloudplus.md",
     "Privacy/OSINT",
     "Applications/Server_Applications/AI",
     "assets/images/Pasted image 20230923143719.png",
@@ -214,7 +214,6 @@
     "Life",
     "Programming/Powershell",
     "Programming/Golang",
-    "Programming/Java",
     "assets/images/Pasted image 20231130184644.png",
     "assets/images/Pasted image 20230923143931.png",
     "Assets/images/Pasted image 20230821211119.png",
