@@ -14,5 +14,6 @@
   "rss-reader",
   "obsidian-languagetool-plugin",
   "templater-obsidian",
-  "obsidian-linter"
+  "obsidian-linter",
+  "find-unlinked-files"
 ]

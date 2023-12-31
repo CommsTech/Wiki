@@ -3,9 +3,15 @@ title: Nextcloud
 description: Nextcloud information
 published: true
 date: 2022-08-30T04:38:46.749Z
-tags: Server, Media Management, Storage, Collaberation
+tags:
+  - Server
+  - Media
+  - Management
+  - Storage
+  - Collaberation
 editor: markdown
 dateCreated: 2022-08-30T04:27:17.152Z
+aliases:
 ---
 # Nextcloud
 
@@ -72,7 +78,7 @@ To map a drive using the Microsoft Windows Explorer:
 
 |   |   |
 |---|---|
-|[6]|Input LDAP server's information to connect.  <br>Like this example to use OpenLDAP on Ubuntu Server, it's OK to input server's hostname or IP addreess and Base DN only.  <br>Click [Test Base DN] button and if [Configuration OK] message is displayed like follows, that's OK, Click [Continue] to proceed.<br><br>For [User DN] and its [Password] fields, generally input a LDAP user account to bind LDAP server. However, OpenLDAP on Ubuntu server, anonymous bind is enabled by default as following setting, so it does not need to input them.  <br>⇒ olcAccess: {0}to attrs=userPassword by self write by anonymous auth by * none|
+|[6]|Input LDAP server's information to connect.  <br>Like this example to use OpenLDAP on Ubuntu Server, it's OK to input server's hostname or IP address and Base DN only.  <br>Click [Test Base DN] button and if [Configuration OK] message is displayed like follows, that's OK, Click [Continue] to proceed.<br><br>For [User DN] and its [Password] fields, generally input a LDAP user account to bind LDAP server. However, OpenLDAP on Ubuntu server, anonymous bind is enabled by default as following setting, so it does not need to input them.  <br>⇒ olcAccess: {0}to attrs=userPassword by self write by anonymous auth by * none|
 
 |   |
 |---|

@@ -1,3 +1,9 @@
+---
+title: Secure Cloud and Network Analytics
+description: 
+published: 
+tags:
+---
 
 # Secure Cloud Analytics - Your Security Roadmap for the cloud
 ## Lesson 1

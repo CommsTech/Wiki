@@ -1,3 +1,10 @@
+---
+title: Microsoft Network Policy Server (NPS)
+description: 
+published: 
+aliases: 
+tags:
+---
                                                         1---
 title: Microsoft NPS
 description: 
@@ -158,7 +165,7 @@ Published [25th February 2019](https://www.expertnetworkconsultant.com/2019/02/
 
 IEEE 802.1X Authentication and Dynamic VLAN Assignment with NPS Radius Server is an important element to networking in the real world. User location cannot be predicted as they may be at and out of a desk and up and about should they need to do so. Tying them to a local VLAN may only be helpful if they are bound to desks in those locations, although the most ideal outcome, it is not the most practical.
 
-It is only wise to incorporate IEEE 802.1X Authentication and Dynamic VLAN Assignment with NPS Radius Server in areas where you expect different teams to come to. Meeting rooms could for a moment have the accounting group or the development group meeting there and based on the intelligent and dynamic vlan assignmnet with 802.1x authentication, users port-access are defined their appropriate vlans for their respective access to resources on the network.
+It is only wise to incorporate IEEE 802.1X Authentication and Dynamic VLAN Assignment with NPS Radius Server in areas where you expect different teams to come to. Meeting rooms could for a moment have the accounting group or the development group meeting there and based on the intelligent and dynamic vlan assignment with 802.1x authentication, users port-access are defined their appropriate vlans for their respective access to resources on the network.
 
 **Open Lounge with IEEE 802.1X Authentication with Dynamic VLAN for all users to function as if they were at their own desks**
 

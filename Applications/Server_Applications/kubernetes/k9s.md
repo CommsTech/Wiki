@@ -1,3 +1,11 @@
+---
+title: K9S
+published: 
+tags:
+  - Kubernetes
+  - Virtualization
+aliases:
+---
 # K9s
 K9s is a command line interface to easy up managing Kubernetes([[kubernetes]]) clusters.
 
@@ -42,7 +50,7 @@ sudo install -o root -g root -m 0755 k9s /usr/local/bin/k9s
 As soon as you've started k9s, you can use a bunch of commands to interact with your selected
 cluster (which is the context you have selected in you current shell environment).
 
-You can everytime change the cluster you want to work with by typing `:context`. A list of
+You can every time change the cluster you want to work with by typing `:context`. A list of
 available cluster configurations appear, you can select the cluster to connect to with the
 arrow keys and select the context to be used by pressing enter.
 
@@ -67,7 +75,7 @@ always shows all namespaces.
 
 ### Useful shortcuts and commands
 
-| Command     | Comment                                                                        | Compareable kubectl command                                               |
+| Command     | Comment                                                                        | Comparable kubectl command                                               |
 |-------------|--------------------------------------------------------------------------------|---------------------------------------------------------------------------|
 | `:pod`      | Switches to the pod screen, where you can see all pods on the current cluster. | `kubectl get pods --all-namespaces`                                       |
 | `:services` | Switches to the service screen, where you can see all services.                | `kubectl get services --all-namespaces`                                   |

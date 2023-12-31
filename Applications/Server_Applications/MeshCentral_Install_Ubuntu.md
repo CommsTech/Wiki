@@ -6,6 +6,7 @@ date: 2022-07-25T13:15:54.706Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-21T15:28:21.146Z
+aliases:
 ---
 # MeshCentral Install on Ubuntu
 
@@ -42,7 +43,7 @@ start meshcentral
 ./node_modules/meshcentral
 ```
 
-to get the server to boot automatically everytime they server restarts do the following
+to get the server to boot automatically every time they server restarts do the following
 
 ```
 sudo nano /etc/systemd/system/meshcentral.service

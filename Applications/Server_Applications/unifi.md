@@ -3,9 +3,14 @@ title: Unifi-Controller
 description: Unifi network systems monitoring and management
 published: true
 date: 2022-07-18T02:41:39.777Z
-tags: Networking, Monitoring, Server, Unifi
+tags:
+  - Networking
+  - Monitoring
+  - Server
+  - Unifi
 editor: markdown
 dateCreated: 2022-07-18T02:41:39.777Z
+aliases:
 ---
 # Unifi Controller
 

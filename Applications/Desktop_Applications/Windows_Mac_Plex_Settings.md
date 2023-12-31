@@ -1,9 +1,13 @@
 ---
-title: OS Plex Settings
-description: Windows and Mac Plex app best streaming settings
+aliases: 
+title: "Plex on Windows and Mac: Configuration Guide"
+description: Detailed instructions for installing and configuring Plex Media Server on Windows and Mac operating systems. Covers setting up libraries, managing user accounts, and troubleshooting common issues.
 published: true
 date: 2022-07-25T13:15:14.635Z
-tags: plex, streaming
+tags:
+  - plex
+  - streaming
+  - Media_Server
 editor: markdown
 dateCreated: 2022-05-09T14:14:37.574Z
 ---

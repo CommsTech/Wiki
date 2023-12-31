@@ -3,9 +3,14 @@ title: Plex
 description: Plex
 published: true
 date: 2022-08-30T04:38:46.749Z
-tags: Server, Media Management, Streaming
+tags:
+  - Server
+  - Media
+  - Management
+  - Streaming
 editor: markdown
 dateCreated: 2022-08-30T04:27:17.152Z
+aliases:
 ---
 # Plex
 

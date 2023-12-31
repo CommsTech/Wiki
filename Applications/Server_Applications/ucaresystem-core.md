@@ -1,3 +1,11 @@
+---
+title:
+description:
+published:
+aliases: 
+tags: 
+---
+# ucaresystem-core
 #### 1. Install uCareSystem Core using PPA
 
 I tested this PPA on Ubuntu 16.04, however It might work on older Ubuntu versions, and Ubuntu derivatives such as Linux Mint.

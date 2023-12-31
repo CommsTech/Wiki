@@ -1,3 +1,11 @@
+---
+title: Kubernetes Docker
+description: 
+tags:
+  - Kubernetes
+  - Virtualization
+aliases:
+---
 # Installing docker on ubuntu server
 ## [Prerequisites](https://docs.docker.com/engine/install/ubuntu/#prerequisites) 
 

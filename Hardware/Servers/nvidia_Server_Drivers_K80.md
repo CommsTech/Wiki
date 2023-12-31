@@ -1,3 +1,9 @@
+---
+title: Nvidia Server Driver Install Tesla K80
+description: 
+published: 
+tags:
+---
 # How to Install Drivers on Ubuntu for the NVIDIA Tesla K80
 
 Posted on  [December 11, 2022](https://www.zb-c.tech/2022/12/11/how-to-install-drivers-on-ubuntu-for-the-nvidia-tesla-k80/) by [tyler.lindberg](https://www.zb-c.tech/author/tyler-lindberg/)

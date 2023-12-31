@@ -1,3 +1,9 @@
+---
+title: ElasticSearch
+description: 
+tags: 
+aliases:
+---
 ## Install on Ubuntu
 # How To Install and Configure Elasticsearch on Ubuntu 22.04
 

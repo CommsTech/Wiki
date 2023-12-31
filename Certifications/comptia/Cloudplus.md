@@ -62,7 +62,7 @@ SFC - System File checker
 
 Vertical Scaling (Scale up)- physical Hardware upgrade / scaling
 
-Horizonal scaling (Scale Out) - adding cloud or more VMs to expand (virtual) / scale
+Horizontal scaling (Scale Out) - adding cloud or more VMs to expand (virtual) / scale
 
 Refactoring code - rewriting app code
 

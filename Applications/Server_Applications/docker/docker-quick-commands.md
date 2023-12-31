@@ -1,3 +1,10 @@
+---
+title: Docker Quick Commands
+description: This note compiles a collection of frequently used Docker commands for easy access and reference within an Obsidian Markdown vault, ensuring efficient management and deployment of containerized applications
+published: 
+tags: 
+aliases:
+---
 # [Docker Guide](https://christitus.com/docker-guide/ "See on original website")
 
 [![✇](https://freshrss.commsnet.org/f.php?e35a1391)Linux on Chris Titus Tech | Tech Content Creator](https://freshrss.commsnet.org/i/?get=f_7 "Filter") 

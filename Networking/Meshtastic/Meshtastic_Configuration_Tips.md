@@ -1,3 +1,9 @@
+---
+title: Meshtastic Configurations Tips
+description: 
+published: 
+tags:
+---
 # Configuration Tips
 
 ## Roles[​](https://meshtastic.org/docs/configuration/tips#roles "Direct link to Roles")

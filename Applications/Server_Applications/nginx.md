@@ -6,6 +6,7 @@ date: 2022-07-25T13:15:54.706Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-21T15:28:21.146Z
+aliases:
 ---
 # Nginx
 Open source web and application server.
@@ -34,7 +35,7 @@ listen <port> <options>
         listen 443 http3 reuseport; (this is experimental!)
 ```
 
-header modifcations:
+header modifications:
 ```nginx
 add_header <header> <values>
         add_header Alt-svc '$http3=":<port>"; ma=<value>'; (this is experimental!)

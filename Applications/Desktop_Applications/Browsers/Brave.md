@@ -1,4 +1,5 @@
 ---
+aliases: 
 title: Brave
 description: Brave - a privacy-focused web browser that blocks trackers and intrusive ads while browsing the web. This note may include information on its features, benefits, and usage.
 published: true

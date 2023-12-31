@@ -551,7 +551,7 @@ Social security number: 123-45-6789
 
 Select the information on the data sheet that is protected health information (PHI)
 
-Jane has been Dr…ect patient..ect.
+Jane has been Dr…etc patient..etc.
 
 *PHYSICAL SECURITY*  
 At which Cyberspace Protection Condition (CPCON) is the priority focus on critical and essential functions?

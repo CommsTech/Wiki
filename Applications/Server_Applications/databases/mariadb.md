@@ -1,3 +1,15 @@
+---
+title: MariaDB
+description: A guide to using MariaDB, an open-source relational database management system. It may include instructions on how to install, configure, and manage databases, users, and permissions, as well as best practices for securing and optimizing the database server.
+tags:
+  - MariaDB
+  - Database_Management_System
+  - SQL
+  - Database
+  - MySQL
+  - Data_Management
+aliases:
+---
 # MariaDB Cheat-Sheet
 
 ## Install MariaDB on Ubuntu 20.04 LTS

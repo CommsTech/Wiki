@@ -3,9 +3,14 @@ title: Jellyfin
 description: Jellyfin Streaming
 published: true
 date: 2022-07-18T02:41:39.777Z
-tags: networking, Streaming, Media, Server
+tags:
+  - networking
+  - Streaming
+  - Media
+  - Server
 editor: markdown
 dateCreated: 2022-07-18T02:41:39.777Z
+aliases:
 ---
 # Jellyfin
 
@@ -16,7 +21,7 @@ Mine  is hosted at https://jellyfin.commsnet.org
 
 ## Restoring Jellyfin admin for ubuntu
 **note if your using the jellyfin truecharts container the process might require an external application known as [sqlitebrowser](https://sqlitebrowser.org/dl/) we will go through this process later
-accidently overwrote my admin user with authentik login... heres how to recover
+accidentally overwrote my admin user with authentik login... heres how to recover
 
 ### Step 1 - ssh into the jellyfin server
 

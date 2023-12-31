@@ -1,3 +1,11 @@
+---
+title:
+description:
+published:
+aliases: 
+tags: 
+---
+# Local-AI
 curl http://localhost:8080/models/available | jq '.[] | select(.name | contains("llama2"))'
 
 curl http://localhost:8080/models/apply -H "Content-Type: application/json" -d '{

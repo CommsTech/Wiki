@@ -6,6 +6,7 @@ date: 2022-07-25T13:15:54.706Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-21T15:28:21.146Z
+aliases:
 ---
 # Argo CD
 **Argo CD** is a declarative, GitOps continuous delivery tool for **Kubernetes ([[kubernetes]])**. It allows application definitions, configurations, and environments should be declarative and version controlled. Application deployment and lifecycle management should be automated, auditable, and easy to understand.

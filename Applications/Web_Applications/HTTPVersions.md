@@ -6,6 +6,7 @@ date: 2022-09-03T14:01:16.921Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-30T17:27:35.492Z
+aliases:
 ---
 # HTTP Versions
 ![[htttp_Versions.png]]

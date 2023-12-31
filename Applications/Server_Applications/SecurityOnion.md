@@ -3,9 +3,12 @@ title: Security Onion
 description: Security Onion
 published: true
 date: 2022-08-30T04:38:46.749Z
-tags: Server, SEIM
+tags:
+  - Server
+  - SEIM
 editor: markdown
 dateCreated: 2022-08-30T04:27:17.152Z
+aliases:
 ---
 # [Security Onion](https://securityonionsolutions.com/)
 
@@ -41,7 +44,7 @@ run the below command and see the container location and ports
 *Note* By default the filebeat container is not open to port 2055 so we will have to change that
 cd into the local salt stack directory
 `cd /opt/so/saltstack/local/salt/filebeat`
-Copy the default directory to the local directory as changes done in default are not persistant
+Copy the default directory to the local directory as changes done in default are not persistent
 `sudo cp /opt/so/saltstack/default/salt/filebeat/init.sls /opt/so/saltstack/local/salt/filebeat/init.sls`
 Change the owner of init.sls to socore
 `sudo chown socore:socore /opt/so/saltstack/local/salt/filebeat/init.sls`
@@ -174,7 +177,7 @@ Run the script:
 
 ![[SecurityOnion-Screenshot_setup_Alienvault.png]]
 ![[Alienvault_SecurityOnion_Setup_1.png]]
-I recieved an error for Zeek not starting. I did a restart and It came right up. The error message indicated to check `/nsm/zeek/logs/current/reporter.log` for clues
+I received an error for Zeek not starting. I did a restart and It came right up. The error message indicated to check `/nsm/zeek/logs/current/reporter.log` for clues
 
 I did this by `cat /nsm/zeek/logs/current/reporter.log`
 
@@ -493,7 +496,7 @@ Security Onion packages the Wazuh Agent and provides it for download from the SO
 
 ### 5. Run the Wazuh Agent MSI
 
-Once you’ve transfered the MSI to your target machine, run it by right clicking it and selecting “run as administrator.” The Wazuh Installation Wizard will then run. Ensure that you select the option to run the configuration utility after installation.  In the Agent-Manage configuration utility GUI you will enter the Security Onion IP address AND the key you extracted and copied into the note document earlier. The “manage” drop down menu contains the options “start, stop, restart and status” After you’ve entered the Security Onion IP and the agent key, select “start” from the “manage” drop down menu.   If you’d ever need to return to the agent-manager utility you can open it by running C:\Program files (x86)\ossec-agent\win32ui.exe
+Once you’ve transferred the MSI to your target machine, run it by right clicking it and selecting “run as administrator.” The Wazuh Installation Wizard will then run. Ensure that you select the option to run the configuration utility after installation.  In the Agent-Manage configuration utility GUI you will enter the Security Onion IP address AND the key you extracted and copied into the note document earlier. The “manage” drop down menu contains the options “start, stop, restart and status” After you’ve entered the Security Onion IP and the agent key, select “start” from the “manage” drop down menu.   If you’d ever need to return to the agent-manager utility you can open it by running C:\Program files (x86)\ossec-agent\win32ui.exe
 
 [![](https://noctedefensor.com/wp-content/uploads/2021/07/WazuhAgentManager-1.png)](https://noctedefensor.com/wp-content/uploads/2021/07/WazuhAgentManager-1.png)
 

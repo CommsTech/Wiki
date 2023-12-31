@@ -1,3 +1,14 @@
+---
+title: Docker Cleanup
+description: A guide to cleaning up unused Docker images and containers to optimize disk space and improve system performance. It may include instructions on how to identify and remove unused images, containers, volumes, and networks using various Docker commands, as well as best practices for automating the cleanup process.
+tags:
+  - Docker
+  - Containerization
+  - Disk_Space_Optimization
+  - Performance_Optimization
+  - DevOps
+aliases:
+---
 # [Cleanup Docker](https://christitus.com/cleanup-docker/ "See on original website")
 
 [![✇](https://freshrss.commsnet.org/f.php?e35a1391)Linux on Chris Titus Tech | Tech Content Creator](https://freshrss.commsnet.org/i/?get=f_7 "Filter") 

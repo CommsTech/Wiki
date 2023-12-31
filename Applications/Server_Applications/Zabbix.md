@@ -3,9 +3,14 @@ title: Zabbix
 description: Zabbix Network Monitoring Service
 published: true
 date: 2022-07-25T13:10:25.579Z
-tags: ubuntu, networking, routing, snmp
+tags:
+  - ubuntu
+  - networking
+  - routing
+  - snmp
 editor: markdown
 dateCreated: 2022-05-16T14:46:52.356Z
+aliases:
 ---
 
 ## Install Zabbix Server on Ubuntu 20.04|18.04

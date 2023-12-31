@@ -16,7 +16,7 @@
     },
     "format-yaml-array": {
       "enabled": false,
-      "alias-key": true,
+      "alias-key": false,
       "tag-key": true,
       "default-array-style": "single-line",
       "default-array-keys": true,
@@ -25,7 +25,7 @@
     },
     "insert-yaml-attributes": {
       "enabled": true,
-      "text-to-insert": "aliases: \ntags: "
+      "text-to-insert": "title:\ndescription:\npublished:\ntags: "
     },
     "move-tags-to-yaml": {
       "enabled": false,
@@ -246,7 +246,7 @@
   "lintOnSave": true,
   "recordLintOnSaveLogs": false,
   "displayChanged": true,
-  "lintOnFileChange": false,
+  "lintOnFileChange": true,
   "displayLintOnFileChangeNotice": false,
   "settingsConvertedToConfigKeyValues": true,
   "foldersToIgnore": [],

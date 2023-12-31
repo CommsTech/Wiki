@@ -3,9 +3,12 @@ title: GitTea
 description: host your own git server with gittea
 published: true
 date: 2022-08-30T04:38:46.749Z
-tags: Server, Git
+tags:
+  - Server
+  - Git
 editor: markdown
 dateCreated: 2022-08-30T04:27:17.152Z
+aliases:
 ---
 # gittea
 
@@ -356,7 +359,7 @@ The following configuration set `Content-Type: application/vnd.android.package-
     
 -   `SSH_SERVER_MACS`: **[hmac-sha2-256-etm@openssh.com](mailto:hmac-sha2-256-etm@openssh.com), hmac-sha2-256, hmac-sha1**: For the built-in SSH server, choose the MACs to support for SSH connections, for system SSH this setting has no effect
     
--   `SSH_SERVER_HOST_KEYS`: **ssh/gitea.rsa, ssh/gogs.rsa**: For the built-in SSH server, choose the keypairs to offer as the host key. The private key should be at `SSH_SERVER_HOST_KEY` and the public `SSH_SERVER_HOST_KEY.pub`. Relative paths are made absolute relative to the `APP_DATA_PATH`. If no key exists a 4096 bit RSA key will be created for you.
+-   `SSH_SERVER_HOST_KEYS`: **ssh/gitea.rsa, ssh/gogs.rsa**: For the built-in SSH server, choose the key pairs to offer as the host key. The private key should be at `SSH_SERVER_HOST_KEY` and the public `SSH_SERVER_HOST_KEY.pub`. Relative paths are made absolute relative to the `APP_DATA_PATH`. If no key exists a 4096 bit RSA key will be created for you.
     
 -   `SSH_KEY_TEST_PATH`: **/tmp**: Directory to create temporary files in when testing public keys using ssh-keygen, default is the system temporary directory.
     

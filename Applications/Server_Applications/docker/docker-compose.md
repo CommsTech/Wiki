@@ -1,3 +1,12 @@
+---
+published:
+title: Docker Compose
+description: 
+tags:
+  - Docker
+  - Virtualization
+aliases:
+---
 # Docker-Compose
 ...
 
@@ -37,3 +46,8 @@ services:
 ```
 
 These volumes are stored in `/var/lib/docker/volumes`.
+
+
+Note: It's worth noting that regular cleanup of unused Docker images and containers is important for maintaining a clean and efficient Docker environment.
+
+Note: The tags include "DiskSpaceOptimization" and "PerformanceOptimization" as cleaning up unused Docker resources can help free up disk space and improve system performance.

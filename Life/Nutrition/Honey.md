@@ -1,3 +1,10 @@
+---
+title: Honey
+description: 
+published: 
+tags:
+---
+# Honey
 Honey has no vitamins or minerals or fats. 
 the only benefits are that its antibacterial and can soothe a sore throat and reduce coughing
 

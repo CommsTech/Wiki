@@ -7,6 +7,7 @@ tags:
 editor: markdown
 dateCreated: 2022-05-21T15:28:21.146Z
 ---
+# Amazon_Fire_Tablet
 ## How to Speed Up Your Amazon Fire Tablet
 
 [](https://christitus.com/author/)| Jul 21, 2020| [Android](https://christitus.com/categories/android)

@@ -1,3 +1,10 @@
+---
+title: SSH over Meshtastic
+description: 
+published: 
+tags:
+---
+# SSH_Over_Meshtastic
 You need 2 linux-powered devices and 2 meshtastic-capable devices. You are going to make them communicate with each other through a remote connection over LoRa powered by the meshtastic network.  
 _Well, you could still self-connect a computer over SSH. That would require you only 1 device. But if you understand this, you probably already know what’s written in this guide and you’re wasting your time here. Also, it wouldn’t really make much sense. It defeats the purpose of SSH except probably for testing if the SSH daemon is correctly listening to connections on the PC you are working on._
 
@@ -11,7 +18,7 @@ _Well, you could still self-connect a computer over SSH. That would require you 
     
 3. Make sure you have the `meshtastic` python cli and the `pytap2` module installed on both A and B. Guide for it [here 50](https://github.com/meshtastic/Meshtastic-python) (it’s in the README, scroll down).
     
-4. Open a terminal window and, as a privileged user, run `meshtastic --tunnel` on both A and B. Keep this terminal open for as long as you want to use a connection between A and B. This command will do all the network heavy lifting. It will create a software network interface and assing a IP address to each of your computers. By default the IP subnet that meshtastic creates for you is in the `10.155.0.0/16` range. You are not exactly required to know this, but you need to take note of the IPs that `meshtastic` assign to A and B. In my case it was **`10.115.91.76`** for **A** and **`10.115.208.212`** for **B**, but as far as I’m aware it could be 2 random IPs in the `10.155.0.0/16` address space.
+4. Open a terminal window and, as a privileged user, run `meshtastic --tunnel` on both A and B. Keep this terminal open for as long as you want to use a connection between A and B. This command will do all the network heavy lifting. It will create a software network interface and assign a IP address to each of your computers. By default the IP subnet that meshtastic creates for you is in the `10.155.0.0/16` range. You are not exactly required to know this, but you need to take note of the IPs that `meshtastic` assign to A and B. In my case it was **`10.115.91.76`** for **A** and **`10.115.208.212`** for **B**, but as far as I’m aware it could be 2 random IPs in the `10.155.0.0/16` address space.
     
 5. Once you reached this stage, you just need to get back to the ssh guides and come out with something like `ssh USERNAME@10.115.208.76` from a new terminal of computer B in order to connect to A. If you have issues with the permissions, check whether the SSH `PasswordAuthentication` is allowed or not from the SSH configuration files and/or you copy-pasted the SSH keys correctly if you followed the more secure passwordless authentication route.  
     In order to leverage the greater stability offered by mosh make sure mosh is installed on both the computers. The command then becomes `mosh USERNAME@10.115.208.76` from computer B. The meshtastic software network and the meshtastic node will take care of the magic required for it to work. It takes a while for the connection to establish in the `shortfast` preset and a huge time for the `longslow` preset if you don’t hit some TCP or SSH handshake timeout first. I suggest you to try it out in the `shortfast` mode as it has much more throughput and less latency overall (at the expense of the range of course, no free lunch here).

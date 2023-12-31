@@ -1,3 +1,11 @@
+---
+title: K3S Install HA with External Database
+description: 
+tags:
+  - Kubernetes
+  - Virtualization
+aliases:
+---
 # Install K3S in High Availability Mode
 ## Install Database
 Install MariaDB ([[mariadb]]).

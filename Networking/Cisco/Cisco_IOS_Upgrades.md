@@ -1,3 +1,10 @@
+---
+title: Cisco IOS Upgrades
+description: 
+published: 
+tags:
+---
+# Cisco_IOS_Upgrades
 
 Title: Cisco IOS Upgrade: Accessing the Embedded Switch Module on 3945e & 2951 Routers
 

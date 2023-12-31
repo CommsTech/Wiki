@@ -1,11 +1,15 @@
 ---
 title: Ansible
-description: 
+description: A guide to using Ansible, an open-source configuration management and automation tool. It may include instructions on how to install, configure, and use Ansible for managing IT infrastructure and deploying applications.
 published: true
 date: 2022-07-25T13:15:54.706Z
-tags: 
+tags:
+  - Ansible
+  - Configuration_Management
+  - IT_Infrastructure
 editor: markdown
 dateCreated: 2022-05-21T15:28:21.146Z
+aliases:
 ---
 # Ansible
 Ansible is an open source community project sponsored by Red Hat, it's the simplest way to automate IT. Ansible is the only automation language that can be used across entire IT teams from systems and network administrators to developers and managers
@@ -157,7 +161,7 @@ Once you get a `"pong"` reply back from a host, it means you’re ready to run
 **Note**: If you are unable to get a successful response back from your servers, check our [Ansible Cheat Sheet Guide](https://www.digitalocean.com/community/tutorials/how-to-use-ansible-cheat-sheet-guide) for more information on how to run Ansible commands with different connection options.
 
 
-### Step 4 - SSH Keypair Setup (Optional)
+### Step 4 - SSH Key pair Setup (Optional)
 run the following command
 
 ` ls -la .ssh `
@@ -226,7 +230,7 @@ drwxr-xr-x 12 commstech commstech 4096 Feb 19 05:34 ..
 lets add this key to a server
 
 ` ssh-copy-id -i ~/.ssh/ansible.pub 192.168.255.7 `
-so thats copy from /.ssh to the host at 192.168.255.7
+so that's copy from /.ssh to the host at 192.168.255.7
 
 ```
 commstech@clustermgr:~$ ssh-copy-id -i ~/.ssh/id_ed25519.pub 192.168.255.7
@@ -848,7 +852,7 @@ Home_Switch#wr mem
 ```
 
 
-a sucessful connection will result in some facts like the following
+a successful connection will result in some facts like the following
 
 ```
 commstech@clustermgr:/etc/ansible/playbooks$ ansible-playbook gather_facts.yml 
@@ -972,7 +976,7 @@ commstech@clustermgr:/etc/ansible$ ssh ansible@192.168.2.56
 ansible@192.168.2.56's password: 
 ```
 
-should look like this if you were sucessful
+should look like this if you were successful
 ```
 Microsoft Windows [Version 10.0.22621.2134]
 (c) Microsoft Corporation. All rights reserved.

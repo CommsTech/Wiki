@@ -1,3 +1,11 @@
+---
+title: Kubectl
+description: 
+tags:
+  - Kubernetes
+  - Virtualization
+aliases:
+---
 # Kubectl
 Kubectl is a command line tool for communicating with a Kubernetes ([[kubernetes]]) cluster's control pane, using the Kubernetes API.
 

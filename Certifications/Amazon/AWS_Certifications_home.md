@@ -1,9 +1,11 @@
 ---
-title: AWS Certifications
+title: AWS Certifications Home
 description: AWS Certifications Home page
 published: true
 date: 2022-07-25T13:07:59.218Z
-tags: networking, amazon
+tags:
+  - networking
+  - amazon
 editor: markdown
 dateCreated: 2022-05-16T14:22:22.830Z
 ---

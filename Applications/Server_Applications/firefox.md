@@ -3,9 +3,13 @@ title: Firefox
 description: Firefox web browser specifically docker hosted instance
 published: true
 date: 2022-08-30T04:38:46.749Z
-tags: Server, Docker, Truenas
+tags:
+  - Server
+  - Docker
+  - Truenas
 editor: markdown
 dateCreated: 2022-08-30T04:27:17.152Z
+aliases:
 ---
 # firefox
 

@@ -12,4 +12,4 @@ I have 18 years in information technologies. 12 of which are directly related to
 
 I built this wiki to expand my knowledge of systems and document my experiences. I hope this help others in the field, My goal is to save others the headache I have learned in my past experiences. 
 
-Please feel free to contribute and commnet or contact me directly at commstech@commsnet.org
+Please feel free to contribute and comment or contact me directly at commstech@commsnet.org

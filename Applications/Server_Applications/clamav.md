@@ -3,9 +3,12 @@ title: ClamAV
 description: ClamAV antivirus scanning
 published: true
 date: 2022-07-18T02:41:39.777Z
-tags: Antivirus, Scanning
+tags:
+  - Antivirus
+  - Scanning
 editor: markdown
 dateCreated: 2022-07-18T02:41:39.777Z
+aliases:
 ---
 # clamav
 
@@ -18,7 +21,7 @@ dateCreated: 2022-07-18T02:41:39.777Z
 
 # How to Install and Use ClamAV on Ubuntu
 
-**Clam AntiVirus** (ClamAV) is a free and open source command line interface antivirus software program. It is used to detect trojans and malicious softwares including viruses. It can scan files quickly and can scan over one million viruses and trojans. One of its main uses is to scan emails on mail gateways. **ClamAV** is supported by the following Linux Operating Systems Ubuntu (16.04, 18.04), Debian (7,8), CentOS (6,7). In this blog we will discuss how to install and use **ClamAV** in Ubuntu.
+**Clam AntiVirus** (ClamAV) is a free and open source command line interface antivirus software program. It is used to detect trojans and malicious software including viruses. It can scan files quickly and can scan over one million viruses and trojans. One of its main uses is to scan emails on mail gateways. **ClamAV** is supported by the following Linux Operating Systems Ubuntu (16.04, 18.04), Debian (7,8), CentOS (6,7). In this blog we will discuss how to install and use **ClamAV** in Ubuntu.
 
 ### Does Ubuntu Need AntiVirus?
 
@@ -155,6 +158,6 @@ Now **ClamAV** and **ClamTK** have been removed completely from your system.
 
 ### Conclusion
 
-**ClamAV** is an antivirus program which can be used to detect and remove trojans, malicious softwares including viruses from your system. In this blog, we have discussed how to install **ClamAV** in ubuntu. After this we discussed how to update the **ClamAV** signature database and how to use **ClamAV** using the command line interface to scan a directory. After this we discussed how to install **ClamTK** which gives a graphical user interface and makes it easier to use. Then we compared the performance of these packages. At the end we learnet how to remove these two packages completely from your system.
+**ClamAV** is an antivirus program which can be used to detect and remove trojans, malicious software including viruses from your system. In this blog, we have discussed how to install **ClamAV** in ubuntu. After this we discussed how to update the **ClamAV** signature database and how to use **ClamAV** using the command line interface to scan a directory. After this we discussed how to install **ClamTK** which gives a graphical user interface and makes it easier to use. Then we compared the performance of these packages. At the end we learnet how to remove these two packages completely from your system.
 
 After reading this blog, you will be able to use **ClamAV** and **ClamTK** easily. I have explained everything in detail and hope you will find this blog useful.

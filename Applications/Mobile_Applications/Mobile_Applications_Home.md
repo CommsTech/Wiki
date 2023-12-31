@@ -1,4 +1,5 @@
 ---
+aliases: 
 title: Mobile Applications
 description: 
 published: true

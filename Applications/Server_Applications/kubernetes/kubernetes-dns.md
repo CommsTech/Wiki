@@ -1,3 +1,11 @@
+---
+title: Kubernetes DNS
+description: 
+tags:
+  - Kubernetes
+  - Virtualization
+aliases:
+---
 # Kubernetes DNS
 
 ## Custom DNS Settings

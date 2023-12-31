@@ -1,6 +1,16 @@
+---
+title: Authentik
+description: 
+tags:
+  - Authentication
+  - LDAP
+  - SAML
+  - OIDC
+aliases:
+---
 # Authentik
 
-## Accidently deleted the akadmin
+## Accidentally deleted the akadmin
 from the cli
 ```
 ak shell
@@ -14,7 +24,7 @@ User.objects.create(username="akadmin")
 
 then you can follow [https://goauthentik.io/docs/troubleshooting/missing_admin_group](https://goauthentik.io/docs/troubleshooting/missing_admin_group) to make that user admin and the recovery key command above to login as that user
 
-## Accidently disabled the akadmin account
+## Accidentally disabled the akadmin account
 
 for this example we will create another admin with the username helpme.
 from the cli

@@ -1,3 +1,11 @@
+---
+title:
+description:
+published:
+aliases: 
+tags: 
+---
+# ntopNG
 ## Configuring ntopng for Monitoring Network Interfaces
 
 Once installed and running, delve deeper into ensuring it keeps an eye on your network traffic. You will create a custom ntopng configuration for monitoring network interfaces.

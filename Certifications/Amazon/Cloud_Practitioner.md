@@ -2944,7 +2944,7 @@ others underutilized. So, Amazon solves the problem by displaying the AZs out of
 ## Availability Zone Networking
 
 You’ll only get the full value out of the resources you run within an AWS Region by prop-  
-erly organizing them into network segments (or _subnets_ ). You might, for instance, want to
+early organizing them into network segments (or _subnets_ ). You might, for instance, want to
 
 **56** Chapter 4 ■ Understanding the AWS Environment
 
@@ -4080,7 +4080,7 @@ services of one sort or another.
 **Know how to provide (federated) access to your AWS resources based on third-party  
 authentication systems like Google.** Using standards such as SAML 2.0 and Microsoft’s  
 Active Directory, you can incorporate external authentication into your AWS infrastruc-  
-ture, making it easy, for instance, for users of your mobile application to retrieve data from  
+true, making it easy, for instance, for users of your mobile application to retrieve data from  
 a DynamoDB database.
 
 **Be aware that AWS Key Management Service (KMS) manages encryption keys.** KMS-managed  
@@ -5176,7 +5176,7 @@ CloudTrail 107
 
 Alternatively, you can create a schedule to automatically perform actions at regular  
 intervals. For example, to save money you might create a schedule to shut down develop-  
-ment instances every day at 7 p.m., after the developers have ideally stopped working!
+meant instances every day at 7 p.m., after the developers have ideally stopped working!
 
 ## CloudTrail
 
@@ -6010,7 +6010,7 @@ terms are always available.
 As it turns out, when you go shopping for a reservation, you’re not actually purchasing  
 an instance of any sort. Instead, you’re paying AWS—or other AWS customers who are  
 selling reservations they’re no longer using—for the _right_ to run an EC2 instance at a speci-  
-fied cost during the reservation term. Once you have your reservation, it will automatically  
+field cost during the reservation term. Once you have your reservation, it will automatically  
 be applied against any instance you launch in the specified AWS Region that matches the  
 reservation instance type.  
 Reserved instances are paid for using an _All Upfront_ , _Partial Upfront_ , or _No Upfront_  
@@ -9635,7 +9635,7 @@ OpsWorks is a set of three different services that let you take a declarative ap
 to configuration management. As explained earlier in this chapter, using a declarative  
 approach requires some intelligence to translate declarative code into imperative operations.  
 OpsWorks uses two popular configuration management platforms that fulfill this require-  
-ment: Chef (https://www.chef.io) and Puppet Enterprise (https://puppet.com).  
+meant: Chef (https://www.chef.io) and Puppet Enterprise (https://puppet.com).  
 Puppet and Chef are popular configuration management platforms that can configure  
 operating systems, deploy applications, create databases, and perform just about any con-  
 figuration task you can dream of, all using code. Both Puppet and Chef are widely used  

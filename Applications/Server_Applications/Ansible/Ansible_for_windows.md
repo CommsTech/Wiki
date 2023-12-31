@@ -1,3 +1,9 @@
+---
+title: Ansible for Windows
+description: 
+published: 
+tags:
+---
 # How to Manage Remote Windows Host using Ansible
 
 Last Updated: August 17, 2021 by [James Kiarie](https://www.linuxtechi.com/author/james/ "View all posts by James Kiarie")

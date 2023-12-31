@@ -1,3 +1,10 @@
+---
+title: 
+description: 
+tags: 
+aliases:
+---
+# HAProxy_Authentik
 PFSENSE HAPROXY Authentik
 
 ![[Pasted image 20230923143719.png]]

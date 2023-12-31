@@ -3,9 +3,14 @@ title: IDRAC 6
 description: Idrac Version 6 settings to get access to kvm
 published: true
 date: 2022-07-18T02:41:39.777Z
-tags: networking, proxy, Server, IPMI
+tags:
+  - networking
+  - proxy
+  - Server
+  - IPMI
 editor: markdown
 dateCreated: 2022-07-18T02:41:39.777Z
+aliases:
 ---
 # IDRAC 6
 

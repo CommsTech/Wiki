@@ -24,5 +24,5 @@ dateCreated: 2022-09-09T04:44:01.149Z
 - [Project+ (Same as WGU C176)](https://wiki.commsnet.org/en/WGU/C176)
 
 
-## Studing Products
+## Studying Products
 - [Nextcloud Folder](https://nextcloud.commsnet.org/index.php/s/4an9cgM4mX38mzF)

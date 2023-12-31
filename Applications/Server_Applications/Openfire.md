@@ -1,3 +1,10 @@
+---
+title:
+description:
+published:
+aliases: 
+tags: 
+---
 Openfire is a powerful instant messaging (IM) and chat server that implements the XMPP protocol. This document will guide you through installing Openfire. For a full list of features and more information, please visit the Openfire website: [http://www.igniterealtime.org/projects/openfire/](http://www.igniterealtime.org/projects/openfire/)
 
 ## Installation
@@ -71,4 +78,4 @@ If port 8180 is in use elsewhere then this needs to be changed. Use the Network 
 
 If you want to allow regular telephone users to join a conference from a home or office telephone, you would need to set up the SIP Gateway to a telephone provider. You would need to script an IVR (interective response) which will allow the caller to use the phone buttons/touch tones to select their destination meeting and convert that into a room name in the SIP header that Jigasi will use to route the call to the appropriate meeting room. For an example, see [https://voximplant.com/docs/tutorials/jigasi-setup](https://voximplant.com/docs/tutorials/jigasi-setup)
 
-The alternative is much simpler if you already have FreeSWITCH with working phones and trunks setup with an external telephone line provider. You enable the Pade to connect to FreeSWITCH via ESL (external socket libary) and Pade will start to monitor every meeting. When the focus user joins, it will create a FreeSWITCH audio conference and initiate a call from the audio conference to Jigasi adding a SIP header with the name of the meeting room. You can now update your FreeSWITCH dial plan with internal and external telephone numbers that can be used by your users to to join the FreeSWITCH audio conference that is bridged to the Jitsi meeting.
+The alternative is much simpler if you already have FreeSWITCH with working phones and trunks setup with an external telephone line provider. You enable the Pade to connect to FreeSWITCH via ESL (external socket library) and Pade will start to monitor every meeting. When the focus user joins, it will create a FreeSWITCH audio conference and initiate a call from the audio conference to Jigasi adding a SIP header with the name of the meeting room. You can now update your FreeSWITCH dial plan with internal and external telephone numbers that can be used by your users to to join the FreeSWITCH audio conference that is bridged to the Jitsi meeting.

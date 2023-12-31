@@ -1,4 +1,5 @@
 ---
+aliases: 
 title: IOS OS Basic Settings
 description: IOS Settings to improve privacy and security
 published: true

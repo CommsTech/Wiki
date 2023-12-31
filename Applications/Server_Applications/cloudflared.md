@@ -3,9 +3,15 @@ title: Cloudflared
 description: Cloudflare proxy tunnels
 published: true
 date: 2022-07-18T02:41:39.777Z
-tags: Networking, Proxy, Argo Tunnel, VPN
+tags:
+  - Networking
+  - Proxy
+  - Argo
+  - Tunnel
+  - VPN
 editor: markdown
 dateCreated: 2022-07-18T02:41:39.777Z
+aliases:
 ---
 # Cloudflared
 

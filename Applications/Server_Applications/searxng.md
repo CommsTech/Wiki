@@ -3,10 +3,16 @@ title: Searxng
 description: Searxng
 published: true
 date: 2022-07-18T02:41:39.777Z
-tags: networking, Search Engine, Server
+tags:
+  - networking
+  - Search
+  - Engine
+  - Server
 editor: markdown
 dateCreated: 2022-07-18T02:41:39.777Z
+aliases:
 ---
+# searxng
 Searxng
 
 Privacy-respecting, hackable [metasearch engine](https://en.wikipedia.org/wiki/Metasearch_engine)

@@ -1,3 +1,13 @@
+---
+title: Postgres
+description: A guide to using PostgreSQL, an advanced open-source relational database management system. It may include instructions on how to install, configure, and manage databases, users, and permissions, as well as best practices for securing and optimizing the database server. It may also cover advanced features such as indexing, data types, and query optimization.
+tags:
+  - Database
+  - Database_Management_System
+  - Data_Management
+  - SQL
+aliases:
+---
 # PostgreSQL Cheat-Sheet
 PostgreSQL or also known as Postgres, is a free and open-source relational database management system. PostgreSQL features transactions with Atomicity, Consistency, Isolation, Durability (ACID) properties automatically updatable views, materialized views, triggers, foreign keys, and stored procedures. It is designed to handle a range of workloads, from single machines to data warehouses or web services with many concurrent users.
 

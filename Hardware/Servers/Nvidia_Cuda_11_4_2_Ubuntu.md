@@ -1,3 +1,9 @@
+---
+title: Nvidia Cuda 11.4.2 Ubuntu Install
+description: 
+published: 
+tags:
+---
 # [Installing CUDA Toolkit v11.4.2 on Ubuntu](https://curiousstuff.eu/post/installing-cuda-toolkit-v11.4.2-on-ubuntu/)
 
 Steps on how to install CUDA Toolkit v11.4.2 on Linux

@@ -3,9 +3,12 @@ title: Home Assistant
 description: 
 published: true
 date: 2022-05-26T18:22:22.787Z
-tags: Home Automation
+tags:
+  - Home
+  - Automation
 editor: markdown
 dateCreated: 2022-05-26T18:22:22.787Z
+aliases:
 ---
 # Home Assistant
 My Default Home Assistant config

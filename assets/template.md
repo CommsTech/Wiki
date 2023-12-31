@@ -1,13 +1,13 @@
 ---
-title:
-  "{ title }": 
+title: 
 description: 
-date:
-  "{ date }": 
+dateCreated: 2022-05-21T15:28:21.146Z
+published: true
+date: 2022-07-25T13:15:54.706Z
+editor: markdown
 tags: 
-dateCreated:
+aliases:
 ---
-
 # {{title}}
 *Created on {{date}}*
 

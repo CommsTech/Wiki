@@ -1,9 +1,13 @@
 ---
+aliases: 
 title: Wireshark
-description: network packet capture and analyzer
+description: Learn how to install, configure, and use Wireshark for packet analysis on various platforms. Understand the basics of packet capture filters and decoding protocols like HTTP, DNS, TCP/IP, and more.
 published: true
 date: 2022-07-25T13:15:14.635Z
-tags: Networking, Analyzer, Troubleshooting
+tags:
+  - Networking
+  - Analyzer
+  - Troubleshooting
 editor: markdown
 dateCreated: 2022-05-09T14:14:37.574Z
 ---
