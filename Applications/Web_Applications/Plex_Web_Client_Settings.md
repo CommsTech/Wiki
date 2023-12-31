@@ -1,5 +1,5 @@
 ---
-title: Plex
+title: Plex Web Client Settings
 description: Plex Client Settings
 dateCreated: 2022-08-30T04:27:17.152Z
 published: true

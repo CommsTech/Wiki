@@ -1,6 +1,6 @@
 ---
-title: Plex
-description: Plex
+title: Plex - Media Server and Streaming Platform
+description: A comprehensive note on Plex, a popular media server and streaming platform that allows users to access their personal media collections from any device. This note covers features, setup instructions, and troubleshooting tips for using Plex in various browsers like Firefox, Brave, Chrome, and Safari.
 dateCreated: 2022-08-30T04:27:17.152Z
 published: true
 editor: markdown

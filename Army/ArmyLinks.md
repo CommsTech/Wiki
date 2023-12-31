@@ -7,7 +7,10 @@ editor: markdown
 tags:
   - Army
   - Bookmarks
-dateModified:
+  - Military
+  - networking
+  - Links
+dateModified: 
 ---
 # Army Links
 
