@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/AI/PrivateGPT.md",
+                "file": "Networking/dns-encryption.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/AI/PrivateGPT.md",
+                "file": "Networking/dns-encryption.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/AI/PrivateGPT.md",
+                "file": "Networking/dns-encryption.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/AI/PrivateGPT.md"
+                "file": "Networking/dns-encryption.md"
               }
             }
           },
@@ -175,10 +175,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "73ee420029073090",
+  "active": "aafb5e77799119d1",
   "lastOpenFiles": [
-    "Applications/Server_Applications/AI/Memory_Cache.md",
+    "Networking/dns-over-https.md",
+    "Networking/dns-over-tls.md",
+    "Networking/MPTCP.md",
+    "Networking/Network_Optimization_Guidelines.md",
+    "Networking/Palo-Alto.md",
     "Applications/Server_Applications/AI/PrivateGPT.md",
+    "Applications/Server_Applications/AI/Memory_Cache.md",
     "Applications/Server_Applications/AI/Building_RAG.md",
     "Applications/Server_Applications/AI/Untitled.md",
     "Privacy/Guide_to_Online_Anonymity.md",
@@ -197,13 +202,8 @@
     "Applications/Desktop_Applications/Desktop_Applications_Home.md",
     "Certifications/comptia/Comptia_Home.md",
     "Networking/dns-record-mailserver.md",
-    "Networking/dns-over-tls.md",
-    "Networking/dns-over-https.md",
     "Networking/dns-encryption.md",
     "Hardware/Tablets/Dell_Venue_11_Pro.md",
-    "Army/Cyber_Awareness_Training.md",
-    "Others/Cryptocurrency/cryptomining.md",
-    "Networking/create-dkim-keypair.md",
     "Privacy/OSINT",
     "Applications/Server_Applications/AI",
     "assets/images/Pasted image 20230923143719.png",
