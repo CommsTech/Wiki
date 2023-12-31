@@ -1,11 +1,13 @@
 ---
-title: Army Links
-description: 
+title: ArmyLink - Collection of Useful Military Network Links
+description: A curated collection of essential military network links, organized for quick access and reference in Obsidian. This note includes links to various military networks, resources, and documentation, ensuring efficient navigation and effective knowledge management within the context of a military network environment.
 dateCreated: 2022-09-20T11:47:50.259Z
 published: true
 editor: markdown
-tags: Army, Bookmarks
-dateModified: 
+tags:
+  - Army
+  - Bookmarks
+dateModified:
 ---
 # Army Links
 

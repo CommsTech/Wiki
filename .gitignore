@@ -88,3 +88,5 @@ cython_debug/
 .stignore
 .nextcloudsync.log
 info.json
+/*sync/
+
