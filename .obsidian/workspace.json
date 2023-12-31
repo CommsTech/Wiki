@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WGU/C779.md",
+                "file": "Privacy/Guide_to_Online_Anonymity.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"date\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +88,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -108,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WGU/C779.md",
+                "file": "Privacy/Guide_to_Online_Anonymity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WGU/C779.md",
+                "file": "Privacy/Guide_to_Online_Anonymity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WGU/C779.md"
+                "file": "Privacy/Guide_to_Online_Anonymity.md"
               }
             }
           },
@@ -173,7 +174,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -191,32 +192,32 @@
   },
   "active": "81b69151463c744c",
   "lastOpenFiles": [
-    "WGU/C838.md",
-    "WGU/c839.md",
-    "WGU/c846.md",
-    "WGU/c849.md",
-    "WGU/c851.md",
-    "WGU/c924.md",
-    "WGU/c963.md",
-    "WGU/c955.md",
-    "WGU/WGU_home.md",
-    "Applications/Server_Applications/Plex_Server.md",
-    "Applications/Web_Applications/Plex_Web_Client_Settings.md",
-    "Applications/Web_Applications/pdftomd.md",
-    "Applications/Web_Applications/HTTPVersions.md",
-    "Army/Cyber_Awareness_Training.md",
-    "Army/ArmyLinks.md",
-    "Applications/Web_Applications/Web_Applications_Home.md",
-    "Applications/Web_Applications/Search_Engines.md",
-    "WGU/C176.md",
-    "WGU/c175.md",
-    "WGU/c165.md",
-    "WGU/C100.md",
-    "Applications/Web_Applications/Instagram.md",
-    "Applications/Web_Applications/HTMLtoMD.md",
-    "Applications/Web_Applications/Driftnet.md",
-    "Applications/Applications_Home.md",
-    "Applications/Raspberry_pi_Applications/Raspberry_Pi_Power_Monitor.md",
+    "TV_Streaming_Devices/LG_TV_WebOS.md",
+    "Certifications/PMI/pmi_acp.md",
+    "Applications/Desktop_Applications/notepadplusplus.md",
+    "Applications/Desktop_Applications/PrivaZer.md",
+    "Programming/Powershell/powershell-remote.md",
+    "Applications/Desktop_Applications/portmaster.md",
+    "Certifications/PMI/PMI_Home.md",
+    "Applications/Desktop_Applications/Note_Taking/Obsidian.md",
+    "Applications/Desktop_Applications/Note_Taking/Note_Taking_Home.md",
+    "Hardware/Laptops/Laptop_Power_Management.md",
+    "Certifications/ITIL/ITIL_Home.md",
+    "Operating_Systems/OS_Home.md",
+    "Networking/pfSense/pfSense_Schedules.md",
+    "Operating_Systems/Linux/NIX.md",
+    "Operating_Systems/MacOS/MacOS_Home.md",
+    "Networking/Unifi/Unifi_Home.md",
+    "Networking/pfSense/pfBlockerNG/pfBlockerNG_home.md",
+    "Operating_Systems/Linux/Kali_Home.md",
+    "Networking/pfSense/pfBlockerNG/DNSBL/DNSBL_Home.md",
+    "Operating_Systems/Apple_IOS/Apple_IOS_Home.md",
+    "Networking/pfSense/pfSense_home.md",
+    "Operating_Systems/Truenas_Scale/TrueNas_Scale_Home.md",
+    "Operating_Systems/Linux/Linux_Distro_Home.md",
+    "Operating_Systems/Windows/Windows_Home.md",
+    "Others/Others_Home.md",
+    "WGU/C779.md",
     "Networking/SteelHead",
     "Networking/DNS",
     "New Text Document.txt",

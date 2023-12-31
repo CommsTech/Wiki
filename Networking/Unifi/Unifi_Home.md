@@ -1,11 +1,11 @@
 ---
 title: Unifi
 description: Unifi Stuff
-published: true
-date: 2022-07-25T13:10:25.579Z
-tags: controller, networking, routing
-editor: markdown
 dateCreated: 2022-05-16T14:46:52.356Z
+published: true
+editor: markdown
+tags: controller, networking, routing
+dateModified: 
 ---
 # UNIFI
 ##### Associate UniFi devices

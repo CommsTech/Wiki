@@ -1,12 +1,11 @@
 ---
-dateModified:
 title: LG / WebOS
 description: Settings for a LG television smart App, webOS.
-published: true
-date: 2022-08-30T04:44:54.804Z
-tags: LG, Plex, Media
-editor: markdown
 dateCreated: 2022-08-30T04:44:28.207Z
+published: true
+editor: markdown
+tags: LG, Plex, Media
+dateModified: 
 ---
 # LG Television / WebOS
 

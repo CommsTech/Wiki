@@ -1,11 +1,11 @@
 ---
 title: Note Taking Home
 description: All things Note taking
-published: true
-date: 2022-08-30T04:38:46.749Z
-tags: Notes, Software
-editor: markdown
 dateCreated: 2022-08-30T04:27:17.152Z
+published: true
+editor: markdown
+tags: Notes, Software
+dateModified: 
 ---
 # Note Taking
 

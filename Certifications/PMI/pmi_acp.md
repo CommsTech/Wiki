@@ -1,11 +1,11 @@
 ---
 title: PMI - Agile
 description: PMI-ACP
-published: true
-date: 2022-07-25T13:54:21.068Z
-tags: Agile, PMI, Certification
-editor: markdown
 dateCreated: 2022-05-24T02:47:11.785Z
+published: true
+editor: markdown
+tags: Agile, PMI, Certification
+dateModified: 
 ---
 # PMI-ACP (Agile)
 ###### Apologies this page needs to be cleaned up

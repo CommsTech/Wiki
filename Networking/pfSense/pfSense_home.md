@@ -1,11 +1,11 @@
 ---
 title: pfSense
 description: pfsense
-published: true
-date: 2022-07-25T13:08:39.586Z
-tags: pfsense, networking, firewall
-editor: markdown
 dateCreated: 2022-05-16T14:33:14.193Z
+published: true
+editor: markdown
+tags: pfsense, networking, firewall
+dateModified: 
 ---
 # pfsense
 
@@ -36,7 +36,7 @@ entries: 4
 scheme: MBR
 Providers:
 1. Name: ad0s1
-In the example above, ad0 is the name of the physical disk and ad0s1 is the name of the partition on the disk. We will now need to create a parition scheme and partition on our new drive (This will be ad1 in a typical setup).
+In the example above, ad0 is the name of the physical disk and ad0s1 is the name of the partition on the disk. We will now need to create a partition scheme and partition on our new drive (This will be ad1 in a typical setup).
 `gpart create -s GPT ad1`
 `gpart add -t freebsd-ufs ad1`
 We will now need to make a filesystem in the new partition:
@@ -47,7 +47,7 @@ And add the following line (The headers at the top of the file should explain wh
 `/dev/ad1p1 /media/squid ufs rw 2 2`
 You can now mount the disk manually without having to reboot by running the below – Alternatively reboot your system to confirm your fstab line works as required.
 `mount /media/squid`
-Confirm the disk is mounted by running the mount command and ensuring you can see your new parition mounted in the required location
+Confirm the disk is mounted by running the mount command and ensuring you can see your new partition mounted in the required location
 `mount`
 /dev/ad1p1 on /media/squid (ufs, local, soft-updates)
 This entry was posted in Tech Guides. Bookmark the permalink.
@@ -113,7 +113,7 @@ Skip feeding /dev/random from network. Since FreeBSD 11:0: By adding harvest_mas
 	• kern.random.sys.harvest.ethernet=0
 	• kern.random.sys.harvest.point_to_point=0
 	• kern.random.sys.harvest.interrupt=0
-Entropy harvest is collecting first 2 bytes of each frame, and doing this under single mutex (fixed in r334450) Some benchs about this impact here Receipt for building a 10Mpps FreeBSD based router.
+Entropy harvest is collecting first 2 bytes of each frame, and doing this under single mutex (fixed in r334450) Some benches about this impact here Receipt for building a 10Mpps FreeBSD based router.
 Sendmsg() cat't send messages more than maxdgram length. Default value causes routing software to fail with OSPF if jumbo frames is turned on.
 	• net.inet.raw.maxdgram=16384
 	• net.inet.raw.recvspace=16384
@@ -153,7 +153,7 @@ IPFW:
 	• Note limit action implicitly calls check-state
 	• ipfw nat is libalias-based, see below
 libalias-based NAT
-NATs based on libalias(3) - ipfw nat, ng_nat, natd - are single-threaded. However, the lock is held per-instance. That means you can workaround this to utilize SMP by using several NAT instances (different ipfw nat's or several ng_nat nodes) which will run in parallel. For example, if you have 8 public adresses and need to NAT 192.168.0.0/24, then you can have 8 instances, one for each address, and send traffic from 192.168.0.0/27 to first instance, 192.168.0.32/27 to second, etc. Using more than 2*CPUs NAT instances will not give you any performance gain.
+NATs based on libalias(3) - ipfw nat, ng_nat, natd - are single-threaded. However, the lock is held per-instance. That means you can workaround this to utilize SMP by using several NAT instances (different ipfw nat's or several ng_nat nodes) which will run in parallel. For example, if you have 8 public addresses and need to NAT 192.168.0.0/24, then you can have 8 instances, one for each address, and send traffic from 192.168.0.0/27 to first instance, 192.168.0.32/27 to second, etc. Using more than 2*CPUs NAT instances will not give you any performance gain.
 Also, you may need to raise hash table size. Open /sys/netinet/libalias/alias_local.h and patch it for the following sizes:
  #define LINK_TABLE_OUT_SIZE        8123 
  #define LINK_TABLE_IN_SIZE         16411
