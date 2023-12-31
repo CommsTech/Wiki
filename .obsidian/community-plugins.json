@@ -1,14 +1,11 @@
 [
   "obsidian-git",
   "obsidian-sortable",
-  "advanced-toolbar",
   "obsidian-dictionary-plugin",
-  "dataview",
   "table-editor-obsidian",
   "note-refactor-obsidian",
   "obsidian-plugin-toc",
   "obsidian-wikipedia",
-  "flashcards-obsidian",
   "rss-reader",
   "find-unlinked-files",
   "obsidian-linter"

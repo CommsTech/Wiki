@@ -1,3 +1,14 @@
+---
+title: XCP-NG Tricks for Ubuntu Disks
+description: 
+dateCreated: 2023-12-30T02:41:39.777Z
+published: 
+editor: markdown
+tags:
+  - XCP-ng
+  - Virtualization
+dateModified: 
+---
 
 # Increase a disk in XCP-ng - OS UBUNTU
 

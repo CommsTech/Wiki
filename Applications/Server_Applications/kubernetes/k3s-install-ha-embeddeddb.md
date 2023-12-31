@@ -1,10 +1,13 @@
 ---
 title: K3S Install HA with Embedded Database
 description: 
+dateCreated: 
+published: 
+editor: markdown
 tags:
   - Kubernetes
   - Virtualization
-aliases:
+dateModified: 
 ---
 # Install K3S in High Availability Mode with an embedded Database
 ## Install first Server

@@ -1,11 +1,11 @@
 ---
 title: Cyber Awareness Training
 description: Cyber Awareness Training
-published: true
-date: 2022-11-25T13:37:12.115Z
-tags: Army, Cyber, Training
-editor: markdown
 dateCreated: 2022-09-09T04:44:01.149Z
+published: true
+editor: markdown
+tags: Army, Cyber, Training
+dateModified: 
 ---
 # [Cyber Awareness Challenge Complete Questions and Answers](https://www.ihatecbts.com/cbts/2019/10/18/cyber-awareness-challenge-complete-questions-and-answers)
 

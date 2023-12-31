@@ -1,11 +1,11 @@
 ---
 title: Desktop Applications Home
 description: All the Desktop application info
-published: true
-date: 2023-03-05T13:47:54.624Z
-tags: 
-editor: markdown
 dateCreated: 2022-08-30T17:27:13.979Z
+published: true
+editor: markdown
+tags: 
+dateModified: 
 ---
 
 # Desktop Applications Table of Contents

@@ -1,9 +1,11 @@
 ---
-title:
-description:
-published:
-aliases: 
+title: 
+description: 
+dateCreated: 
+published: 
+editor: markdown
 tags: 
+dateModified: 
 ---
 # Local-AI
 curl http://localhost:8080/models/available | jq '.[] | select(.name | contains("llama2"))'

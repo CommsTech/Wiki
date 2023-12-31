@@ -1,11 +1,11 @@
 ---
 title: Home
 description: Landing Page
-published: true
-date: 2023-03-05T15:20:31.689Z
-tags: networking, college, tech
-editor: markdown
 dateCreated: 2022-08-30T17:27:40.994Z
+published: true
+editor: markdown
+tags: networking, college, tech
+dateModified: 
 ---
 
 # Commsnet Wiki

@@ -1,11 +1,13 @@
 ---
-published:
 title: Docker Compose
 description: 
+dateCreated: 
+published: 
+editor: markdown
 tags:
   - Docker
   - Virtualization
-aliases:
+dateModified: 
 ---
 # Docker-Compose
 ...

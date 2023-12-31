@@ -1,14 +1,14 @@
 ---
 title: GIMP
 description: GIMP (GNU Image Manipulation Program) – a free, open-source, and cross-platform image editor used for photo retouching, editing, and creating digital art. This note may include information on features, benefits, usage tips, and best practices for effectively utilizing GIMP to edit images, create graphics, and manipulate photographs.
+dateCreated: 2022-05-16T14:22:22.830Z
 published: true
-date: 2022-07-25T13:07:59.218Z
+editor: markdown
 tags:
   - Photography
   - Image_Editing
   - GIMP
-editor: markdown
-dateCreated: 2022-05-16T14:22:22.830Z
+dateModified: 
 ---
 
 # GIMP

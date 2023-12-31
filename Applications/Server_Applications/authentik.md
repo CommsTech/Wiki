@@ -1,12 +1,15 @@
 ---
 title: Authentik
 description: 
+dateCreated: 
+published: 
+editor: markdown
 tags:
   - Authentication
   - LDAP
   - SAML
   - OIDC
-aliases:
+dateModified: 
 ---
 # Authentik
 

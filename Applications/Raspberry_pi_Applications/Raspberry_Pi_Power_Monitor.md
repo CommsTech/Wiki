@@ -1,8 +1,9 @@
 ---
 title: RPI Power Monitor
 description: a guide to setting up and using the Raspberry Pi Power Monitor, a tool for monitoring the power usage of a Raspberry Pi computer. It may include instructions on how to install and configure the software, interpret the data, and troubleshoot common issues.
+dateCreated: 2022-05-21T15:28:21.146Z
 published: true
-date: 2022-07-25T13:15:54.706Z
+editor: markdown
 tags:
   - Power
   - RPI
@@ -10,9 +11,7 @@ tags:
   - Hardware_Monitoring
   - Raspbian
   - Linux
-editor: markdown
-dateCreated: 2022-05-21T15:28:21.146Z
-aliases:
+dateModified: 
 ---
 # RPI Power Monitor
 https://github.com/David00/rpi-power-monitor

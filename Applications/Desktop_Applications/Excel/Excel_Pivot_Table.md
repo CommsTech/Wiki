@@ -1,16 +1,16 @@
 ---
 title: Excel Pivot Tables
 description: Pivot Tables – an essential data analysis tool in Microsoft Excel and other spreadsheet programs for summarizing, aggregating, and analyzing large datasets. This note may include information on creating, formatting, and customizing pivot tables, as well as examples of common use cases and best practices.
+dateCreated: 2022-09-09T04:44:01.149Z
 published: true
-date: 2022-07-25T13:37:12.115Z
+editor: markdown
 tags:
   - Excel
   - Software
   - Spreadsheets
   - Pivot_Tables
   - data_analysis
-editor: markdown
-dateCreated: 2022-09-09T04:44:01.149Z
+dateModified: 
 ---
 
 - PIVOT TABLE

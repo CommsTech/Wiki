@@ -1,11 +1,11 @@
 ---
 title: Army Links
 description: 
-published: true
-date: 2022-09-20T23:32:11.119Z
-tags: Army, Bookmarks
-editor: markdown
 dateCreated: 2022-09-20T11:47:50.259Z
+published: true
+editor: markdown
+tags: Army, Bookmarks
+dateModified: 
 ---
 # Army Links
 

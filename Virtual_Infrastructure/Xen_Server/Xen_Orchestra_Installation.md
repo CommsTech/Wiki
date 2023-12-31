@@ -1,12 +1,13 @@
 ---
 title: Xen Orchestra Installation
 description: Xen Orchestra Installation procedures
-published: true
-date: 2022-08-30T04:38:46.749Z
-tags: XEN, Virtual Management
-editor: markdown
 dateCreated: 2022-08-30T04:27:17.152Z
+published: true
+editor: markdown
+tags: XEN, Virtual Management
+dateModified: 
 ---
+# Xen_Orchestra_Installation
 #### Chris Titus Tech has an amazing walkthrough with a video. Check it out @ [How to Install Xen Orchestra](https://christitus.com/how-to-install-xen-orchestra/ "See on original website")
 
 

@@ -1,6 +1,9 @@
 ---
 title: Docker
 description: A guide to using Docker, an open-source containerization platform. It may include instructions on how to install and configure Docker, create and manage containers, networks, and volumes, as well as best practices for securing and optimizing the Docker environment.
+dateCreated: 
+published: 
+editor: markdown
 tags:
   - Docker
   - Containerization
@@ -8,7 +11,7 @@ tags:
   - Linux
   - DevOps
   - Virtualization
-aliases:
+dateModified: 
 ---
 # Docker
 **Docker** is a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called _containers_. The service has both free and premium tiers. The software that hosts the containers is called **Docker Engine**.

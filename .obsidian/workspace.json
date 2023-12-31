@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Privacy/Guide_to_Online_Anonymity.md",
+                "file": "Applications/Desktop_Applications/gpt4all_finetuning.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"date\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -94,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Privacy/Guide_to_Online_Anonymity.md",
+                "file": "Applications/Desktop_Applications/gpt4all_finetuning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Privacy/Guide_to_Online_Anonymity.md",
+                "file": "Applications/Desktop_Applications/gpt4all_finetuning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Privacy/Guide_to_Online_Anonymity.md"
+                "file": "Applications/Desktop_Applications/gpt4all_finetuning.md"
               }
             }
           },
@@ -175,7 +176,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "flashcards-obsidian:Generate flashcards": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -187,35 +187,35 @@
   },
   "active": "aafb5e77799119d1",
   "lastOpenFiles": [
-    "Privacy/privacy opt out tools.md",
-    "Privacy/Privacy_Home.md",
-    "Privacy/Guide_to_Online_Anonymity.md",
-    "Privacy/Data_Removal_Guide.md",
-    "Privacy/OSINT/OSINT_Home.md",
-    "Privacy/Awesome_Privacy_Tools.md",
-    "Privacy/OSINT/OSINT.md",
-    "Privacy/OSINT/DOXXING_Article.md",
+    "Applications/Desktop_Applications/GIMP.md",
+    "Operating_Systems/Windows/environment-variables.md",
+    "Others/FOSS.md",
+    "Applications/Desktop_Applications/FreeTube.md",
+    "Operating_Systems/Truenas_Scale/Drive_Replacment.md",
+    "Networking/pfSense/pfBlockerNG/DNSBL/DNSBL_Regex_list.md",
+    "Networking/dns-record-types.md",
+    "Applications/Desktop_Applications/Desktop_Applications_Home.md",
+    "Certifications/comptia/Comptia_Home.md",
+    "Networking/dns-record-mailserver.md",
+    "Networking/dns-over-tls.md",
+    "Networking/dns-over-https.md",
+    "Networking/dns-encryption.md",
+    "Hardware/Tablets/Dell_Venue_11_Pro.md",
+    "Army/Cyber_Awareness_Training.md",
+    "Others/Cryptocurrency/cryptomining.md",
+    "Networking/create-dkim-keypair.md",
+    "Operating_Systems/Windows/Corrupted_OS_Repair.md",
+    "Networking/Terminology/Congestion_Avoidance.md",
+    "Virtual_Infrastructure/AWS/CloudFront.md",
+    "Certifications/comptia/Cloudplus.md",
+    "Networking/Terminology/Committed_Information_Rate_CIR.md",
+    "Networking/Cloudflare/Cloudflare_Networking_Home.md",
+    "Certifications/Amazon/Cloud_Practitioner.md",
+    "Networking/Terminology/CISCO_SPCORE.md",
+    "Networking/Cisco/Cisco_Networking_Home.md",
     "Privacy/OSINT",
-    "Applications/Server_Applications/AI/Memory_Cache.md",
-    "Applications/Server_Applications/AI/PrivateGPT.md",
-    "Applications/Server_Applications/AI/AI_Home.md",
-    "Applications/Server_Applications/Ansible/Ansible.md",
     "Applications/Server_Applications/AI",
     "assets/images/Pasted image 20230923143719.png",
-    "home.md",
-    "Donate.md",
-    "About_Me.md",
-    "WGU/WGU_home.md",
-    "Applications/Server_Applications/docker/docker-networking.md",
-    "Applications/Server_Applications/docker/docker-quick-commands.md",
-    "WGU/C182.md",
-    "WGU/C393.md",
-    "WGU/C394.md",
-    "WGU/C176.md",
-    "WGU/c175.md",
-    "WGU/C100.md",
-    "WGU/c165.md",
-    "Applications/Server_Applications/Ansible/Ansible_for_windows.md",
     "Electronics_Repair",
     "Networking/Terminology",
     "Excalidraw",

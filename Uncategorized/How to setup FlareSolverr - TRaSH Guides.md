@@ -1,1 +1,0 @@
-https://trash-guides.info/Prowlarr/prowlarr-setup-flaresolverr/

@@ -1,16 +1,14 @@
 ---
-dateModified:
 title: Ansible
 description: A guide to using Ansible, an open-source configuration management and automation tool. It may include instructions on how to install, configure, and use Ansible for managing IT infrastructure and deploying applications.
+dateCreated: 2022-05-21T15:28:21.146Z
 published: true
-date: 2022-07-25T13:15:54.706Z
+editor: markdown
 tags:
   - Ansible
   - Configuration_Management
   - IT_Infrastructure
-editor: markdown
-dateCreated: 2022-05-21T15:28:21.146Z
-aliases:
+dateModified: 
 ---
 # Ansible
 Ansible is an open source community project sponsored by Red Hat, it's the simplest way to automate IT. Ansible is the only automation language that can be used across entire IT teams from systems and network administrators to developers and managers

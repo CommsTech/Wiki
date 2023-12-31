@@ -1,10 +1,13 @@
 ---
 title: Kubernetes DNS
 description: 
+dateCreated: 
+published: 
+editor: markdown
 tags:
   - Kubernetes
   - Virtualization
-aliases:
+dateModified: 
 ---
 # Kubernetes DNS
 

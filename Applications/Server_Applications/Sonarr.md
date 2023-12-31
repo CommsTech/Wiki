@@ -1,8 +1,9 @@
 ---
 title: Sonarr
 description: Sonarr
+dateCreated: 2022-08-30T04:27:17.152Z
 published: true
-date: 2022-08-30T04:38:46.749Z
+editor: markdown
 tags:
   - Server
   - Docker
@@ -10,9 +11,7 @@ tags:
   - Management
   - TV
   - Shows
-editor: markdown
-dateCreated: 2022-08-30T04:27:17.152Z
-aliases:
+dateModified: 
 ---
 # Sonarr
 

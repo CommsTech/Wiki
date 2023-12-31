@@ -1,14 +1,14 @@
 ---
 title: GPT4all Finetining
 description: A comprehensive note in my Obsidian vault about fine-tuning the GPT4ALL model – a large language model that can be fine-tuned on customized local data to improve its performance and accuracy for specific tasks. This note may include information on benefits, considerations, steps involved, and best practices for fine-tuning the GPT4ALL model using your well-prepared A-Shares stock market data or other specialized datasets.
+dateCreated: 2023-12-30T02:41:39.777Z
 published: true
-date: 2023-12-30T02:41:39.777Z
+editor: markdown
 tags:
   - GPT4ALL
   - Fine_Tuning
   - Machine_Learning
-editor: markdown
-dateCreated: 2023-12-30T02:41:39.777Z
+dateModified: 
 ---
 # GPT4ALL: Train with local data for Fine-tuning
 

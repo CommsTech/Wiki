@@ -1,15 +1,15 @@
 ---
 title: Congestion Avoidance
 description: Congestion Avoidance Description
+dateCreated: 2023-12-30T02:41:39.777Z
 published: true
-date: 2023-12-30T02:41:39.777Z
+editor: markdown
 tags:
   - networking
   - Engineering
   - Tech
   - Cisco
-editor: markdown
-dateCreated: 2023-12-30T02:41:39.777Z
+dateModified: 
 ---
 # Congestion Avoidance
 

@@ -1,8 +1,10 @@
 ---
-published:
 title: Docker Networking
 description: 
+dateCreated: 
+published: 
+editor: markdown
 tags: 
-aliases:
+dateModified: 
 ---
 # docker-networking

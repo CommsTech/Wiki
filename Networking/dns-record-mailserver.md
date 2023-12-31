@@ -1,11 +1,11 @@
 ---
 title: DNS Record Mailserver
 description: 
-published: true
-date: 2022-07-25T13:15:54.706Z
-tags: 
-editor: markdown
 dateCreated: 2022-05-21T15:28:21.146Z
+published: true
+editor: markdown
+tags: 
+dateModified: 
 ---
 # Mail Server DNS Records Cheat-Sheet
 If you want to run a mail server on the public internet, you need to set up your DNS records correctly. While some DNS Records ([[dns-record-types]]) are necessary to send and receive emails, others are recommended to build a good reputation.
@@ -50,7 +50,7 @@ Type | Host | TXT Value | TTL
 ### DKIM Record
 DKIM (Domain Keys Identified Mail) allows the receiving mail server to check that an email was indeed sent by the owner of that domain. The sending mail server adds a digital signature to every mail that is sent. This signature is added as a header and secured with encryption. These signatures are not visible to the end-user.
 
->If you want to add DKIM to your mail server you first need to create a private and a public keypair ([[create-dkim-keypair]])
+>If you want to add DKIM to your mail server you first need to create a private and a public key pair ([[create-dkim-keypair]])
  
 **Recommended Settings:**
 

@@ -1,11 +1,11 @@
 ---
 title: FOSS
 description: FOSS
-published: true
-date: 2022-07-25T13:17:46.729Z
-tags: Open-Source
-editor: markdown
 dateCreated: 2022-05-09T13:59:04.460Z
+published: true
+editor: markdown
+tags: Open-Source
+dateModified: 
 ---
 # FOSS
 # $0.00 or Open Source Creative Software
@@ -1106,7 +1106,7 @@ http://lwjgl.org
 
 [DIY Smart Doorbell](https://www.instructables.com/id/DIY-Smart-Home-Doorbell-for-Less-Than-40/)
 
-#### Not As Focussed On Privacy
+#### Not As Focused On Privacy
 
 [Jasper](https://jasperproject.github.io)
 

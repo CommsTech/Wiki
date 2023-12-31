@@ -1,9 +1,11 @@
 ---
-title:
-description:
-published:
-aliases: 
+title: 
+description: 
+dateCreated: 
+published: 
+editor: markdown
 tags: 
+dateModified: 
 ---
 # ucaresystem-core
 #### 1. Install uCareSystem Core using PPA

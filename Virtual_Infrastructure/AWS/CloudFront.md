@@ -1,11 +1,11 @@
 ---
 title: AWS Cloudfront
 description: Amazon Content Delivery network
-published: true
-date: 2022-07-25T13:07:59.218Z
-tags: networking, amazon
-editor: markdown
 dateCreated: 2022-05-16T14:22:22.830Z
+published: true
+editor: markdown
+tags: networking, amazon
+dateModified: 
 ---
 # AWS CloudFront
 >
@@ -24,4 +24,4 @@ Global content delivery network - Amazon **CloudFront** is a content delivery ne
 
 Amazon CloudFront can be used to cache static content from an S3 Bucket. This helps improve performance for the delivery of static content to the end user. Adding an auto-scaling group to the solution will enable the web servers to scale based on demand
 
-- Leverages edge locations around the world to provide cached content to edge locaions
+- Leverages edge locations around the world to provide cached content to edge locations

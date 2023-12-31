@@ -1,12 +1,11 @@
 ---
-aliases: 
 title: Plex IOS App
 description: 
-published: true
-date: 2022-08-30T04:36:09.620Z
-tags: Plex, IOS
-editor: markdown
 dateCreated: 2022-08-30T04:35:01.472Z
+published: true
+editor: markdown
+tags: Plex, IOS
+dateModified: 
 ---
 # Apple IOS Devices
 

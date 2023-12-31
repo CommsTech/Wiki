@@ -1,11 +1,11 @@
 ---
 title: Change your AppleID and Password
 description: 
-published: true
-date: 2022-07-25T13:12:21.756Z
-tags: IOS, Apple
-editor: markdown
 dateCreated: 2022-05-21T16:04:56.036Z
+published: true
+editor: markdown
+tags: IOS, Apple
+dateModified: 
 ---
 
 # How to change your Apple ID on various platforms

@@ -1,15 +1,15 @@
 ---
 title: Best Path Selection (BPS)
 description: Best Path Selection (BPS) Description
+dateCreated: 2023-12-30T02:41:39.777Z
 published: true
-date: 2023-12-30T02:41:39.777Z
+editor: markdown
 tags:
   - networking
   - Engineering
   - Tech
   - Cisco
-editor: markdown
-dateCreated: 2023-12-30T02:41:39.777Z
+dateModified: 
 ---
 # Best Path Selection (BPS)
 **Best Path Selection (BPS)** is a process used in routing protocols to determine the best path for data transmission between two endpoints based on various metrics, such as hop count, bandwidth, delay, and reliability. The goal of BPS is to find the most efficient and reliable route for data transfer while minimizing latency and maximizing throughput.

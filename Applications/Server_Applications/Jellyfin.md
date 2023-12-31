@@ -1,16 +1,15 @@
 ---
 title: Jellyfin
 description: Jellyfin Streaming
+dateCreated: 2022-07-18T02:41:39.777Z
 published: true
-date: 2022-07-18T02:41:39.777Z
+editor: markdown
 tags:
   - networking
   - Streaming
   - Media
   - Server
-editor: markdown
-dateCreated: 2022-07-18T02:41:39.777Z
-aliases:
+dateModified: 
 ---
 # Jellyfin
 

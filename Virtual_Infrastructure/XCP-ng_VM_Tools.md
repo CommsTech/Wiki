@@ -1,3 +1,13 @@
+---
+title: XCP-ng Tools
+description: 
+dateCreated: 2023-12-30T02:41:39.777Z
+published: 
+editor: markdown
+tags: 
+dateModified: 
+---
+# XCP-ng_VM_Tools
 
 ## Installation for methods for centos
 ## Method 1: Install from the guest tools ISO

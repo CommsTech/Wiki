@@ -1,14 +1,14 @@
 ---
 title: Firefox
 description: A comprehensive note about Mozilla Firefox – a popular open-source web browser known for its privacy features, customizability, and extensive add-on library. This note may include information on its history, key features, benefits, usage tips, and comparisons with other browsers.
+dateCreated: 2022-09-09T04:44:01.149Z
 published: true
-date: 2022-07-25T13:37:12.115Z
+editor: markdown
 tags:
   - Browser
   - Software
   - Firefox
-editor: markdown
-dateCreated: 2022-09-09T04:44:01.149Z
+dateModified: 
 ---
 # [Firefox (Desktop)](https://firefox.com/)
 

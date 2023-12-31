@@ -1,3 +1,13 @@
+---
+title: XCP-NG on ESXi (nested)
+description: 
+dateCreated: 2023-12-30T02:41:39.777Z
+published: 
+editor: markdown
+tags: 
+dateModified: 
+---
+# XCP-NG_on_ESXi
 
 ## XCP-NG in VMware nested virtualization
 

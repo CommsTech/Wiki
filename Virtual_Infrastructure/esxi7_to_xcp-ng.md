@@ -1,3 +1,15 @@
+---
+title: ESXI to XCP-ng importer
+description: 
+dateCreated: 2023-31-12T04:33:51.250Z
+published: 
+editor: markdown
+tags:
+  - Virtualization
+  - Hypervisor
+  - Data_Management
+dateModified: 
+---
 # HOW-TO: CONVERT ESXI 7 VM TO OVA FOR XCP-NG (XEN ORCHESTRA)
 
 ![How-To: Convert ESXI 7 VM to OVA for XCP-NG (XEN Orchestra)](https://jarrodstech.net/wp-content/uploads/2022/10/doneloading-1280x640.jpg)

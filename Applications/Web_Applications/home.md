@@ -1,14 +1,13 @@
 ---
 title: Web Applications Home
 description: 
+dateCreated: 2022-08-30T17:27:35.492Z
 published: true
-date: 2022-09-03T14:01:16.921Z
+editor: markdown
 tags:
   - Web
   - Application
-editor: markdown
-dateCreated: 2022-08-30T17:27:35.492Z
-aliases:
+dateModified: 
 ---
 # Web Applications Table of Contents
 

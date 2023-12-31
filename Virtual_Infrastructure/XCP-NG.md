@@ -1,3 +1,14 @@
+---
+title: XCP-NG
+description: 
+dateCreated: 2023-12-30T02:41:39.777Z
+published: 
+editor: markdown
+tags:
+  - Virtualization
+  - Hypervisor
+dateModified: 
+---
 
 # XCP-NG in VMware nested virtualization
 

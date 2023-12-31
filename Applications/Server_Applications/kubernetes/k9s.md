@@ -1,10 +1,13 @@
 ---
 title: K9S
+description: 
+dateCreated: 
 published: 
+editor: markdown
 tags:
   - Kubernetes
   - Virtualization
-aliases:
+dateModified: 
 ---
 # K9s
 K9s is a command line interface to easy up managing Kubernetes([[kubernetes]]) clusters.

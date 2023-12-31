@@ -3,7 +3,6 @@ title: Ansible for Network Devices
 description: A guide to using Ansible for managing and configuring network devices, such as routers, switches, and firewalls. It may include instructions on how to set up an Ansible inventory, write playbooks, and templates for network device configurations.
 dateCreated: 2022-05-21T15:28:21.146Z
 published: true
-date: 2022-07-25T13:15:54.706Z
 editor: markdown
 tags:
   - Ansible
@@ -11,7 +10,7 @@ tags:
   - networking
   - Configuration_Management
   - IT_Infrastructure
-aliases:
+dateModified: 
 ---
 
 

@@ -1,8 +1,11 @@
 ---
 title: ElasticSearch
 description: 
+dateCreated: 
+published: 
+editor: markdown
 tags: 
-aliases:
+dateModified: 
 ---
 ## Install on Ubuntu
 # How To Install and Configure Elasticsearch on Ubuntu 22.04

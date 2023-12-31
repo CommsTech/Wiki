@@ -1,11 +1,11 @@
 ---
 title: Web Browsers Home
 description: All things Web Browsers
-published: true
-date: 2022-08-30T04:38:46.749Z
-tags: Web Browsers, Internet
-editor: markdown
 dateCreated: 2022-08-30T04:27:17.152Z
+published: true
+editor: markdown
+tags: Web Browsers, Internet
+dateModified: 
 ---
 # Web Browsers
 According to Wikipedia

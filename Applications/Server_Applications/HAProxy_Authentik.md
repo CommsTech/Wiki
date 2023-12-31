@@ -1,8 +1,11 @@
 ---
 title: 
 description: 
+dateCreated: 
+published: 
+editor: markdown
 tags: 
-aliases:
+dateModified: 
 ---
 # HAProxy_Authentik
 PFSENSE HAPROXY Authentik

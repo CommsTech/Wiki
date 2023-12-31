@@ -1,9 +1,12 @@
 ---
 title: Kubernetes Automation
 description: 
+dateCreated: 
+published: 
+editor: markdown
 tags:
   - Kubernetes
   - Virtualization
-aliases:
+dateModified: 
 ---
 # kubernetes-automation

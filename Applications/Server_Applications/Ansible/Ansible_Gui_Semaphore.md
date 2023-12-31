@@ -1,7 +1,9 @@
 ---
 title: Ansible GUI - Semaphore
 description: a guide to using the Semaphore GUI (Graphical User Interface) with Ansible, an open-source configuration management and automation tool. It may include (If i got around to it) instructions on how to set up and use the Semaphore GUI for managing and visualizing Ansible jobs, builds, and deployments.
-aliases: 
+dateCreated: 
+published: 
+editor: markdown
 tags:
   - Ansible
   - Semaphore
@@ -9,6 +11,7 @@ tags:
   - Continuous_Integration
   - Continuous_Delivery
   - DevOps
+dateModified: 
 ---
 # Ansible_Gui_Semaphore
 [Red Hat](https://www.openshift.com/try?utm_content=inline-mention)‘s open source [Ansible](https://www.ansible.com/) is an open source IT automation platform, [written in Python](https://thenewstack.io/an-introduction-to-python-a-language-for-the-ages/), that can configure systems, deploy software, and orchestrate advanced workflows. By default, Ansible is a command-line tool but isn’t terribly complicated to work with.

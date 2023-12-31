@@ -1,13 +1,16 @@
 ---
 title: SQLite
 description: A guide to using SQLite, a popular open-source self-contained relational database management system. It may include instructions on how to create and manage databases, tables, and queries using the SQLite3 shell or other interfaces, as well as best practices for optimizing performance and securing the database.
+dateCreated: 
+published: 
+editor: markdown
 tags:
   - SQL
   - SQLite
   - Database_Management_System
   - Data_Management
   - Lightweight_DBMS
-aliases:
+dateModified: 
 ---
 # SQLite Cheat-Sheet
 

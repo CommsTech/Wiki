@@ -3,10 +3,9 @@ title:
 description: 
 dateCreated: 2022-05-21T15:28:21.146Z
 published: true
-date: 2022-07-25T13:15:54.706Z
 editor: markdown
 tags: 
-aliases:
+dateModified: 
 ---
 # {{title}}
 *Created on {{date}}*

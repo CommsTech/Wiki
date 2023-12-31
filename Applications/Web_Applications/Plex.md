@@ -1,15 +1,14 @@
 ---
 title: Plex
 description: Plex Client Settings
+dateCreated: 2022-08-30T04:27:17.152Z
 published: true
-date: 2022-08-30T04:38:46.749Z
+editor: markdown
 tags:
   - Plex
   - Streaming
   - Client
-editor: markdown
-dateCreated: 2022-08-30T04:27:17.152Z
-aliases:
+dateModified: 
 ---
 # Plex Web Player
 

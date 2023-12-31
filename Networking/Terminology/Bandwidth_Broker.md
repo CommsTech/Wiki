@@ -1,15 +1,15 @@
 ---
 title: Bandwidth Broker
 description: Bandwidth Broker Description
+dateCreated: 2023-12-30T02:41:39.777Z
 published: true
-date: 2023-12-30T02:41:39.777Z
+editor: markdown
 tags:
   - networking
   - Engineering
   - Tech
   - Cisco
-editor: markdown
-dateCreated: 2023-12-30T02:41:39.777Z
+dateModified: 
 ---
 # Bandwidth Broker
 A **Bandwidth Broker** is a network device or software component that manages and allocates available bandwidth among multiple applications, services, or users in a network. It acts as an intermediary between the network elements and the applications or services requesting bandwidth. The primary goal of a Bandwidth Broker is to ensure fair distribution of available bandwidth while maintaining Quality of Service (QoS) requirements for different applications and services.

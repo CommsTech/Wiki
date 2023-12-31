@@ -1,9 +1,12 @@
 ---
 title: K3S Install Single System
 description: 
+dateCreated: 
+published: 
+editor: markdown
 tags:
   - Kubernetes
   - Virtualization
-aliases:
+dateModified: 
 ---
 # k3s-install-single

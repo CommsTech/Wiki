@@ -1,3 +1,12 @@
+---
+title: Spoofing 365
+description: 
+dateCreated: 2023-31-12T04:33:51.250Z
+published: 
+editor: markdown
+tags: 
+dateModified: 
+---
 # Spoofing Microsoft 365 Like its 1995
 https://www.blackhillsinfosec.com/spoofing-microsoft-365-like-its-1995/
 

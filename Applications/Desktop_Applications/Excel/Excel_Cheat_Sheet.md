@@ -1,14 +1,14 @@
 ---
 title: Excel Cheat Sheet
 description: A comprehensive note in my Obsidian vault containing a collection of essential formulas, shortcuts, and techniques for Microsoft Excel – a widely-used spreadsheet program for data organization, analysis, and visualization. This note may include information on common functions, keyboard shortcuts, tips, and tricks to help users work more efficiently and effectively with Excel.
+dateCreated: 2022-09-09T04:44:01.149Z
 published: true
-date: 2022-07-25T13:37:12.115Z
+editor: markdown
 tags:
   - Excel
   - Software
   - Spreadsheets
-editor: markdown
-dateCreated: 2022-09-09T04:44:01.149Z
+dateModified: 
 ---
 
 # Excel Shortcuts Cheat Sheet

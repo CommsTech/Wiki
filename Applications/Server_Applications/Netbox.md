@@ -1,9 +1,11 @@
 ---
 title: Netbox
 description: 
+dateCreated: 
 published: 
-aliases: 
-tags:
+editor: markdown
+tags: 
+dateModified: 
 ---
 
 # How to Install NetBox Network Documentation and Management Tool on Ubuntu 22.04

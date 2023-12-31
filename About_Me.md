@@ -1,11 +1,11 @@
 ---
 title: About Me
 description: Alittle Information about the Host
-published: true
-date: 2022-07-18T02:41:39.777Z
-tags: networking, Engineering, Tech
-editor: markdown
 dateCreated: 2022-07-18T02:41:39.777Z
+published: true
+editor: markdown
+tags: networking, Engineering, Tech
+dateModified: 
 ---
 # About Me
 I have 18 years in information technologies. 12 of which are directly related to electronic systems repair. For the past 6 Years I have been the lead network architect for a fortune 500 Organization. I hold multiple certifications from lean six sigma to aws cloud and all the comptia certs in between. 

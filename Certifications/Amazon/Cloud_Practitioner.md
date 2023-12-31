@@ -1,11 +1,11 @@
 ---
 title: AWS Certified Cloud Practitioner
 description: CLF-C01 Training notes
-published: true
-date: 2022-07-25T13:07:59.218Z
-tags: networking, amazon
-editor: markdown
 dateCreated: 2022-05-16T14:22:22.830Z
+published: true
+editor: markdown
+tags: networking, amazon
+dateModified: 
 ---
 # AWS Certified Cloud Practitioner CLF-C01
 

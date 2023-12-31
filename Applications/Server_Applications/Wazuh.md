@@ -1,16 +1,15 @@
 ---
 title: Wazuh
 description: Wazuh Security Agents and servers
+dateCreated: 2022-07-18T02:41:39.777Z
 published: true
-date: 2022-07-18T02:41:39.777Z
+editor: markdown
 tags:
   - networking
   - Security
   - Server
   - Monitoring
-editor: markdown
-dateCreated: 2022-07-18T02:41:39.777Z
-aliases:
+dateModified: 
 ---
 # Wazuh
 

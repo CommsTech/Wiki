@@ -1,17 +1,16 @@
 ---
 title: HeavyScript
 description: Modular script to manage truenas scale docker/K8s
+dateCreated: 2022-08-30T04:27:17.152Z
 published: true
-date: 2022-08-30T04:38:46.749Z
+editor: markdown
 tags:
   - Server
   - Media
   - Management
   - Script
   - Truenas
-editor: markdown
-dateCreated: 2022-08-30T04:27:17.152Z
-aliases:
+dateModified: 
 ---
 # HeavyScript
 

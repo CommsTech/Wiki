@@ -1,11 +1,11 @@
 ---
 title: Crypto Mining
 description: 
-published: true
-date: 2022-07-25T00:03:04.585Z
-tags: Mining, Crypto
-editor: markdown
 dateCreated: 2022-07-25T00:03:04.585Z
+published: true
+editor: markdown
+tags: Mining, Crypto
+dateModified: 
 ---
 # Crypto Mining
 Here, we will explain how mining works, how NiceHash works, how do you get paid and how can you monitor whether your mining system is fully optimized and working with complete reliability and most importantly, how to read NiceHash charts. It will also quickly teach you how to evaluate other miners and compare them to NiceHash QuickMiner.

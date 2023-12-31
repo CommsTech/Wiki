@@ -1,17 +1,16 @@
 ---
-aliases: 
 title: WinSCP
 description: WinSCP is a free and open-source graphical SFTP (SSH File Transfer Protocol), FTP, and SCP client for Windows. This note covers installation, configuration, and usage of WinSCP for secure file transfers between local and remote servers.
+dateCreated: 2022-05-09T14:14:37.574Z
 published: true
-date: 2022-07-25T13:15:14.635Z
+editor: markdown
 tags:
   - scp
   - sftp
   - ftp
   - File_Transfer
   - WinSCP
-editor: markdown
-dateCreated: 2022-05-09T14:14:37.574Z
+dateModified: 
 ---
 # [WinSCP](https://winscp.net/eng/index.php)
 

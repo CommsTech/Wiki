@@ -1,9 +1,11 @@
 ---
-title:
-description:
-published:
-aliases: 
+title: 
+description: 
+dateCreated: 
+published: 
+editor: markdown
 tags: 
+dateModified: 
 ---
 Openfire is a powerful instant messaging (IM) and chat server that implements the XMPP protocol. This document will guide you through installing Openfire. For a full list of features and more information, please visit the Openfire website: [http://www.igniterealtime.org/projects/openfire/](http://www.igniterealtime.org/projects/openfire/)
 

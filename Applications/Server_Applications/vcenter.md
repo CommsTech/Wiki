@@ -1,16 +1,15 @@
 ---
 title: vcenter
 description: VMwares Virtual Center
+dateCreated: 2022-07-18T02:41:39.777Z
 published: true
-date: 2022-07-18T02:41:39.777Z
+editor: markdown
 tags:
   - networking
   - Virtual
   - Machine
   - Server
-editor: markdown
-dateCreated: 2022-07-18T02:41:39.777Z
-aliases:
+dateModified: 
 ---
 # Vcenter 6.7
 

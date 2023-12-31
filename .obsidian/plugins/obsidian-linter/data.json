@@ -33,21 +33,21 @@
       "tags-to-ignore": ""
     },
     "remove-yaml-keys": {
-      "enabled": false,
+      "enabled": true,
       "yaml-keys-to-remove": "aliases:\ndate:"
     },
     "yaml-key-sort": {
-      "enabled": false,
-      "yaml-key-priority-sort-order": "title:\ndescription:\ndateCreated:\npublished:\neditor: markdown\ntags: \ndateModified:",
+      "enabled": true,
+      "yaml-key-priority-sort-order": "title:\ndescription:\ndateCreated:\npublished:\neditor:\ntags:\ndateModified:",
       "priority-keys-at-start-of-yaml": false,
       "yaml-sort-order-for-other-keys": "None"
     },
     "yaml-timestamp": {
       "enabled": false,
-      "date-created": false,
+      "date-created": true,
       "date-created-key": "date created",
       "force-retention-of-create-value": false,
-      "date-modified": false,
+      "date-modified": true,
       "date-modified-key": "date modified",
       "format": "dddd, MMMM Do YYYY, h:mm:ss a"
     },

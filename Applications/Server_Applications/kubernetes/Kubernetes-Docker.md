@@ -1,10 +1,13 @@
 ---
 title: Kubernetes Docker
 description: 
+dateCreated: 
+published: 
+editor: markdown
 tags:
   - Kubernetes
   - Virtualization
-aliases:
+dateModified: 
 ---
 # Installing docker on ubuntu server
 ## [Prerequisites](https://docs.docker.com/engine/install/ubuntu/#prerequisites) 

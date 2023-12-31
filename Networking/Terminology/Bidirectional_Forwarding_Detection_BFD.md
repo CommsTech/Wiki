@@ -1,12 +1,13 @@
 ---
-title:
-  "{ title }": 
-description: Bidirectional Forwarding Detection (BFD) description
-date:
-  "{ date }": 
+title: 
+description: 
+dateCreated: 
+published: 
+editor: markdown
 tags: 
-dateCreated:
+dateModified: 
 ---
+# Bidirectional_Forwarding_Detection_BFD
 ## Bidirectional Forwarding Detection (BFD
 
 **Bidirectional Forwarding Detection (BFD)** is a protocol designed to provide fast forwarding path failure detection for IP networks. It complements traditional routing protocols like Open Shortest Path First (OSPF) and Border Gateway Protocol (BGP) by providing sub-second detection of link failures, enabling faster convergence times and minimizing the impact of network disruptions.

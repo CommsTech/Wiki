@@ -1,11 +1,11 @@
 ---
 title: Python_Regex_list
 description: # Python Regex blocking list
-published: true
-date: 2022-07-25T13:37:12.115Z
-tags: pfblockerNG, regex, blocklist
-editor: markdown
 dateCreated: 2022-09-09T04:44:01.149Z
+published: true
+editor: markdown
+tags: pfblockerNG, regex, blocklist
+dateModified: 
 ---
 # Python_Regex_list
 # Python Regex blocking list
@@ -13,7 +13,7 @@ dateCreated: 2022-09-09T04:44:01.149Z
 
 ######### ADS and Trackers ###########
 (.*\.|^)((think)?with)?google($|((adservices|static|syndication|tagmanager|tagservices|-analytics)($|\..+)))
-([A-Za-z0-9.-]*\.)?.doubleclick(\.\w{2}\.\w{2}|\.\w{2,4})
+([A-Za-z0-9.-]*\.)?.double-click(\.\w{2}\.\w{2}|\.\w{2,4})
 ([0-9]{6})\.(ortb|artb|xmlfeed(-eu|))\.(adtelligent)(\.net|\.com)
 (10er-tagesticket\.(de|us|ca)\.)([A-Za-z0-9.-]*)(\.data\.adobedc\.net)
 ([A-Za-z0-9.-]*\.)?adnxs(\.\w{2}\.\w{2}|\.\w{2,4})
@@ -49,7 +49,7 @@ dateCreated: 2022-09-09T04:44:01.149Z
 (node-[A-Za-z0-9.-]*-[A-Za-z0-9.-]*\.|)(sitescout)(\.com|\.\w{2}\.\w{2}|\.\w{2,4}) #sitescout
 (zn[A-Za-z0-9.-]*)(-|)([A-Za-z0-9.-]*|)(\.siteintercept\.qualtrics\.com)
 (u[0-9]*)\.(ct\.|[0-9]{2}\.|)(spylog|sendgrid)(\.net|\.com)
-([A-Za-z0-9]*|)([A-Za-z0-9]*|)(-(reserv|news|par|survey|tra)-[0-9]*|\.|)(spartoo)\.(widget\.criteo\.com|com|co\.uk|[A-Za-z]{2}) #spartoo dirty
+([A-Za-z0-9]*|)([A-Za-z0-9]*|)(-(reserve|news|par|survey|tra)-[0-9]*|\.|)(spartoo)\.(widget\.criteo\.com|com|co\.uk|[A-Za-z]{2}) #spartoo dirty
 ([A-Za-z0-9.-]*\.)?surveylink($|/)
 ([A-Za-z0-9.-]*\.)?turn(\.\w{2}\.\w{2}|\.\w{2,4}|\.com)
 ([A-Za-z0-9.-]*\.)?w55c(\.\w{2}\.\w{2}|\.\w{2,4})

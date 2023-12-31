@@ -1,16 +1,15 @@
 ---
 title: Searxng
 description: Searxng
+dateCreated: 2022-07-18T02:41:39.777Z
 published: true
-date: 2022-07-18T02:41:39.777Z
+editor: markdown
 tags:
   - networking
   - Search
   - Engine
   - Server
-editor: markdown
-dateCreated: 2022-07-18T02:41:39.777Z
-aliases:
+dateModified: 
 ---
 # searxng
 Searxng

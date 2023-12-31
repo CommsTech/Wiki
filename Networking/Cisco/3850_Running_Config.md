@@ -1,11 +1,11 @@
 ---
 title: Cisco_3850_Running_Config
 description: Cisco 3850 running config
-published: true
-date: 2022-07-25T13:37:12.115Z
-tags: Cisco, Networking, Config
-editor: markdown
 dateCreated: 2022-09-09T04:44:01.149Z
+published: true
+editor: markdown
+tags: Cisco, Networking, Config
+dateModified: 
 ---
 # Cisco 3850 Running Config
 

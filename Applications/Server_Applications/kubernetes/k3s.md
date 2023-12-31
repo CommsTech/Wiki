@@ -1,10 +1,13 @@
 ---
 title: K3S
 description: 
+dateCreated: 
+published: 
+editor: markdown
 tags:
   - Kubernetes
   - Virtualization
-aliases:
+dateModified: 
 ---
 # K3S
 Lightweight Kubernetes ([[kubernetes]]). Production ready, easy to install, half the memory, all in a binary less than 100 MB.

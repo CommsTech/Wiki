@@ -1,14 +1,13 @@
 ---
 title: Kasm
 description: 
+dateCreated: 2022-05-26T18:23:12.715Z
 published: true
-date: 2022-05-26T18:23:12.715Z
+editor: markdown
 tags:
   - Server
   - Docker
-editor: markdown
-dateCreated: 2022-05-26T18:23:12.715Z
-aliases:
+dateModified: 
 ---
 # KASM
 KASM is an environment where you can run isolated browsers and Operating systems

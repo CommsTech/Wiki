@@ -1,10 +1,13 @@
 ---
 title: K3S Install HA with External Database
 description: 
+dateCreated: 
+published: 
+editor: markdown
 tags:
   - Kubernetes
   - Virtualization
-aliases:
+dateModified: 
 ---
 # Install K3S in High Availability Mode
 ## Install Database
