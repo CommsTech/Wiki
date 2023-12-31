@@ -20,7 +20,7 @@ Encrypting DNS makes it much harder for snoopers to look into your DNS messages,
 
 Two standardized mechanisms exist to secure the DNS transport between you and the resolver, DNS over TLS ([[dns-over-tls]]), and DNS queries over HTTPS ([[dns-over-https]]).
 
-Both are based on Transport Layer Security ([[tls]]) which is also used to secure communication between you and a website using HTTPS.
+Both are based on Transport Layer Security ([[Transport_Layer_Security_tls]]) which is also used to secure communication between you and a website using HTTPS.
 
 As both DoT and DoH are relatively new, they are not universally deployed yet.
 

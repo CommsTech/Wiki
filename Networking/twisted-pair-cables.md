@@ -1,13 +1,31 @@
 ---
 title: Twisted Pair Cables
-description: 
-published: true
-date: 2022-07-25T13:15:54.706Z
-tags: 
-editor: markdown
+description: Twisted pair cables are a type of copper cabling used for transmitting data in local area networks (LANs). They consist of two insulated wires twisted around each other to reduce electromagnetic interference. This document covers the basics of twisted pair cables, their status indicators, and troubleshooting common issues.
 dateCreated: 2022-05-21T15:28:21.146Z
+published: true
+editor: markdown
+tags:
+  - networking
+  - Cabling
+dateModified: 
 ---
 # Twisted Pair Cables Cheat-Sheet
+
+Twisted pair cables are a type of copper cabling used for transmitting data in local area networks (LANs). They consist of two insulated wires twisted around each other to reduce electromagnetic interference. This document covers the basics of twisted pair cables, their status indicators, and troubleshooting common issues.
+## Table of Contents
+
+1. [Introduction to Twisted Pair Cables](http://192.168.255.11:8001/#introduction-to-twisted-pair-cables)
+2. [Twisted Pair Cable Components and Construction](http://192.168.255.11:8001/#twisted-pair-cable-components-and-construction)
+3. [Understanding Twisted Pair Cable Status Indicators](http://192.168.255.11:8001/#understanding-twisted-pair-cable-status-indicators)
+    - [Down](http://192.168.255.11:8001/#down)
+    - [OK](http://192.168.255.11:8001/#ok)
+    - [No](http://192.168.255.11:8001/#no)
+4. [Troubleshooting Twisted Pair Cables](http://192.168.255.11:8001/#troubleshooting-twisted-pair-cables)
+5. [Best Practices for Installing and Maintaining Twisted Pair Cables](http://192.168.255.11:8001/#best-practices-for-installing-and-maintaining-twisted-pair-cables)
+
+## Introduction to Twisted Pair Cables
+
+In this section, we'll discuss the basics of twisted pair cables, their advantages, and common applications in LANs. We will also cover the different types of twisted pair cabling standards, such as UTP (Unshielded Twisted Pair) and STP (Shielded Twisted Pair).
 ## Cable Types
 
 ### Unshielded Twisted Pair (UTP)
@@ -16,7 +34,7 @@ As the title states, a UTP cable has no shielding. This is the most used and mos
 
 ### Shielded Twisted Pair (STP)
 
-STP cables are similar to UTP cables, where the wires are twisted together and then wrapped with a shielding or screening material which consits of foil wrapping or a copper braid jacket.
+STP cables are similar to UTP cables, where the wires are twisted together and then wrapped with a shielding or screening material which consists of foil wrapping or a copper braid jacket.
 
 ### Foil Twisted Pair (FTP)
 

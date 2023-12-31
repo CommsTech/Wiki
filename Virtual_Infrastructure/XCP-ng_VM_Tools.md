@@ -1,13 +1,16 @@
 ---
 title: XCP-ng Tools
-description: 
+description: XCP-ng VM Tools is a set of utilities designed to improve the performance and functionality of virtual machines (VMs) running on the open-source hypervisor XCP-ng. This document covers the installation, configuration, and usage of XCP-ng VM Tools.
 dateCreated: 2023-12-30T02:41:39.777Z
 published: 
 editor: markdown
-tags: 
+tags:
+  - Virtualization
+  - XCP-ng
 dateModified: 
 ---
 # XCP-ng_VM_Tools
+XCP-ng VM Tools is a set of utilities designed to improve the performance and functionality of virtual machines (VMs) running on the open-source hypervisor XCP-ng. This document covers the installation, configuration, and usage of XCP-ng VM Tools.
 
 ## Installation for methods for centos
 ## Method 1: Install from the guest tools ISO

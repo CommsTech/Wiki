@@ -1,12 +1,13 @@
 ---
 title: TLS v2 Handshake
 description: 
-published: true
-date: 2022-07-25T13:15:54.706Z
-tags: 
-editor: markdown
 dateCreated: 2022-05-21T15:28:21.146Z
+published: true
+editor: markdown
+tags: 
+dateModified: 
 ---
+# tlsv2_handshake
 ## TLS V2 Handshake
 In a TLS/SSL handshake, clients and servers exchange SSL certificates, cipher suite requirements, and randomly generated data for creating session keys.
 
