@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Privacy/Guide_to_Online_Anonymity.md",
+                "file": "Applications/Server_Applications/flaresolverr.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,8 +88,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -109,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Privacy/Guide_to_Online_Anonymity.md",
+                "file": "Applications/Server_Applications/flaresolverr.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Privacy/Guide_to_Online_Anonymity.md",
+                "file": "Applications/Server_Applications/flaresolverr.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Privacy/Guide_to_Online_Anonymity.md"
+                "file": "Applications/Server_Applications/flaresolverr.md"
               }
             }
           },
@@ -192,6 +191,13 @@
   },
   "active": "81b69151463c744c",
   "lastOpenFiles": [
+    "Applications/Server_Applications/git.md",
+    "Applications/Server_Applications/flaresolverr.md",
+    "Applications/Server_Applications/FlareSolverr_TRaSH_Guides.md",
+    "Applications/Server_Applications/firefox.md",
+    "Applications/Server_Applications/EmulatorJS.md",
+    "Privacy/Guide_to_Online_Anonymity.md",
+    "Applications/Server_Applications/clamav.md",
     "Certifications/EC_Council/EC_Council_Home.md",
     "Operating_Systems/Quickemu.md",
     "README.md",
@@ -211,13 +217,6 @@
     "Operating_Systems/Linux/Ubuntu.md",
     "Others/Cryptocurrency/Polygon.md",
     "Certifications/SANS/SANS_Home.md",
-    "Privacy/Guide_to_Online_Anonymity.md",
-    "TV_Streaming_Devices/LG_TV_WebOS.md",
-    "Certifications/PMI/pmi_acp.md",
-    "Applications/Desktop_Applications/notepadplusplus.md",
-    "Applications/Desktop_Applications/PrivaZer.md",
-    "Programming/Powershell/powershell-remote.md",
-    "Applications/Desktop_Applications/portmaster.md",
     "Networking/SteelHead",
     "Networking/DNS",
     "New Text Document.txt",

@@ -10,8 +10,8 @@ tags:
   - bypass
 dateModified: 
 ---
-# flaresolverr
+# Flaresolverr
+
 FlareSolverr is a proxy server to bypass Cloudflare and DDoS-GUARD protection.
 
 [github repo](https://github.com/FlareSolverr/FlareSolverr)
-
