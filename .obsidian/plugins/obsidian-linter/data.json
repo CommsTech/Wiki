@@ -25,7 +25,7 @@
     },
     "insert-yaml-attributes": {
       "enabled": true,
-      "text-to-insert": "title:\ndescription:\ndateCreated:\npublished:\neditor: markdown\ntags: \ndateModified:"
+      "text-to-insert": "title:\ndescription:\ndateCreated:\npublished:\neditor: markdown\ntags:\ndateModified:"
     },
     "move-tags-to-yaml": {
       "enabled": false,
@@ -33,7 +33,7 @@
       "tags-to-ignore": ""
     },
     "remove-yaml-keys": {
-      "enabled": true,
+      "enabled": false,
       "yaml-keys-to-remove": "aliases:\ndate:"
     },
     "yaml-key-sort": {
@@ -46,7 +46,7 @@
       "enabled": false,
       "date-created": true,
       "date-created-key": "date created",
-      "force-retention-of-create-value": true,
+      "force-retention-of-create-value": false,
       "date-modified": true,
       "date-modified-key": "date modified",
       "format": "dddd, MMMM Do YYYY, h:mm:ss a"
