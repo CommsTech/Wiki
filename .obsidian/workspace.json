@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"aliases\"]",
+                "query": "[\"cssclasses\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -175,7 +176,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "templater-obsidian:Templater": false,
       "flashcards-obsidian:Generate flashcards": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -186,7 +186,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "73ee420029073090",
+  "active": "44984e271aedb61f",
   "lastOpenFiles": [
     "Applications/Server_Applications/AI",
     "Privacy/Data_Removal_Guide.md",

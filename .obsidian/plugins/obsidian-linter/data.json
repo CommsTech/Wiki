@@ -25,7 +25,7 @@
     },
     "insert-yaml-attributes": {
       "enabled": true,
-      "text-to-insert": "title:\ndescription:\npublished:\ntags: "
+      "text-to-insert": "title:\ndescription:\ndateCreated:\npublished:\neditor: markdown\ntags: \ndateModified:"
     },
     "move-tags-to-yaml": {
       "enabled": false,
@@ -33,7 +33,7 @@
       "tags-to-ignore": ""
     },
     "remove-yaml-keys": {
-      "enabled": false,
+      "enabled": true,
       "yaml-keys-to-remove": ""
     },
     "yaml-key-sort": {
@@ -108,7 +108,7 @@
       "default-language": ""
     },
     "emphasis-style": {
-      "enabled": false,
+      "enabled": true,
       "style": "consistent"
     },
     "no-bare-urls": {
