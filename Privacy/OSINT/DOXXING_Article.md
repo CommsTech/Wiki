@@ -1,3 +1,13 @@
+---
+title: DOXXING Article
+description: 
+dateCreated: date created
+published: 
+editor: markdown
+tags: 
+dateModified:
+  date modified:
+---
 # Doxxing: The Dark Side of Online Information Gathering
 
 ## Introduction

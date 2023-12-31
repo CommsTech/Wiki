@@ -1,4 +1,7 @@
 ---
+dateCreated: date created
+editor: markdown
+dateModified: {date modified}
 title: Awesome Privacy Tools
 description: 
 published: 

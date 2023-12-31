@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Privacy/Guide_to_Online_Anonymity.md",
+                "file": "Privacy/home.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"cssclasses\"]",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Privacy/Guide_to_Online_Anonymity.md",
+                "file": "Privacy/home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Privacy/Guide_to_Online_Anonymity.md",
+                "file": "Privacy/home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Privacy/Guide_to_Online_Anonymity.md"
+                "file": "Privacy/home.md"
               }
             }
           },
@@ -186,11 +185,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "44984e271aedb61f",
+  "active": "73ee420029073090",
   "lastOpenFiles": [
-    "Applications/Server_Applications/AI",
+    "Privacy/Guide_to_Online_Anonymity.md",
     "Privacy/Data_Removal_Guide.md",
+    "Privacy/OSINT/OSINT_Home.md",
     "Privacy/Awesome_Privacy_Tools.md",
+    "Privacy/OSINT/OSINT.md",
+    "Privacy/OSINT/DOXXING_Article.md",
+    "Privacy/OSINT",
+    "Applications/Server_Applications/AI/Memory_Cache.md",
+    "Applications/Server_Applications/AI/PrivateGPT.md",
+    "Applications/Server_Applications/AI/AI_Home.md",
+    "Applications/Server_Applications/Ansible/Ansible.md",
+    "Applications/Server_Applications/AI",
     "assets/images/Pasted image 20230923143719.png",
     "home.md",
     "Donate.md",
@@ -208,13 +216,6 @@
     "Applications/Server_Applications/Ansible/Ansible_for_windows.md",
     "How_to_Markdown.md",
     "note.md",
-    "README.md",
-    "Networking/Meshtastic/Meshtastic_web_gui_over_Bluetooth.md",
-    "Networking/Meshtastic/SSH_Over_Meshtastic.md",
-    "Networking/Meshtastic/Meshtastic_Configuration_Tips.md",
-    "Networking/Cloudflare/Cloudflare_Networking_Home.md",
-    "Networking/Cisco/3850_Running_Config.md",
-    "Networking/Cisco/Cisco_IOS_Upgrades.md",
     "Electronics_Repair",
     "Networking/Terminology",
     "Excalidraw",
@@ -223,8 +224,6 @@
     "Programming/Powershell",
     "Programming/Golang",
     "Programming/Java",
-    "Programming/Rust",
-    "Programming/Python",
     "assets/images/Pasted image 20231130184644.png",
     "assets/images/Pasted image 20230923143931.png",
     "Assets/images/Pasted image 20230821211119.png",

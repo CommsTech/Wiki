@@ -2,10 +2,11 @@
 title: OSINT Tools
 description: Tools
 published: true
-date: 2022-07-25T03:38:25.531Z
-tags: OSINT
+tags:
+  - OSINT
 editor: markdown
 dateCreated: 2022-05-09T04:58:47.010Z
+dateModified:
 ---
 
 # OSINT Tools
