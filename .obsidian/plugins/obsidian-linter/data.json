@@ -38,16 +38,16 @@
     },
     "yaml-key-sort": {
       "enabled": false,
-      "yaml-key-priority-sort-order": "title:\ndescription:\ndateCreated: date created\npublished:\neditor: markdown\ntags: \ndateModified: date modified",
+      "yaml-key-priority-sort-order": "title:\ndescription:\ndateCreated:\npublished:\neditor: markdown\ntags: \ndateModified:",
       "priority-keys-at-start-of-yaml": false,
       "yaml-sort-order-for-other-keys": "None"
     },
     "yaml-timestamp": {
       "enabled": false,
-      "date-created": true,
+      "date-created": false,
       "date-created-key": "date created",
       "force-retention-of-create-value": false,
-      "date-modified": true,
+      "date-modified": false,
       "date-modified-key": "date modified",
       "format": "dddd, MMMM Do YYYY, h:mm:ss a"
     },
