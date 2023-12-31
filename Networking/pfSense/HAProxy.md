@@ -1,11 +1,11 @@
 ---
 title: HAProxy
 description: HAProxy
-published: true
-date: 2022-07-25T13:08:39.586Z
-tags: pfsense, networking, Reverse Proxy, Loadbalacing
-editor: markdown
 dateCreated: 2022-05-16T14:33:14.193Z
+published: true
+editor: markdown
+tags: pfsense, networking, Reverse Proxy, Loadbalacing
+dateModified: 
 ---
 # Accelerate Your APIs by Using the HAProxy Cache
 
@@ -127,7 +127,7 @@ http-response set-header X-Cache-Status MISS if { srv_id -m found }
 
 HAProxy will set the _X-Cache-Status_ header to _HIT_ if the item was found in the cache, or to _MISS_ otherwise.
 
-## *PFSENSE*
+## _PFSENSE_
 To verify if cache is working try running on a ssh/console this command:
 
 ```

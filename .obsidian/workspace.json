@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Desktop_Applications/gpt4all_finetuning.md",
+                "file": "Privacy/Guide_to_Online_Anonymity.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Desktop_Applications/gpt4all_finetuning.md",
+                "file": "Privacy/Guide_to_Online_Anonymity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Desktop_Applications/gpt4all_finetuning.md",
+                "file": "Privacy/Guide_to_Online_Anonymity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Desktop_Applications/gpt4all_finetuning.md"
+                "file": "Privacy/Guide_to_Online_Anonymity.md"
               }
             }
           },
@@ -187,6 +187,10 @@
   },
   "active": "aafb5e77799119d1",
   "lastOpenFiles": [
+    "Others/Hacking_Resources.md",
+    "Hardware/Hardware_Home.md",
+    "Networking/pfSense/HAProxy.md",
+    "Applications/Desktop_Applications/gpt4all_finetuning.md",
     "Applications/Desktop_Applications/GIMP.md",
     "Operating_Systems/Windows/environment-variables.md",
     "Others/FOSS.md",
@@ -209,10 +213,6 @@
     "Virtual_Infrastructure/AWS/CloudFront.md",
     "Certifications/comptia/Cloudplus.md",
     "Networking/Terminology/Committed_Information_Rate_CIR.md",
-    "Networking/Cloudflare/Cloudflare_Networking_Home.md",
-    "Certifications/Amazon/Cloud_Practitioner.md",
-    "Networking/Terminology/CISCO_SPCORE.md",
-    "Networking/Cisco/Cisco_Networking_Home.md",
     "Privacy/OSINT",
     "Applications/Server_Applications/AI",
     "assets/images/Pasted image 20230923143719.png",
