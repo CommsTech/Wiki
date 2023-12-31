@@ -1,9 +1,13 @@
 ---
 title: Obsidian
-description: Opensource note taking software
+description: Obsidian – a popular, open-source, and versatile personal knowledge base software for taking notes, managing projects, and organizing information using a local folder of plain text Markdown files. This note may include information on features, benefits, usage tips, and best practices for effectively utilizing Obsidian to create a second brain or personal knowledge base.
 published: true
 date: 2022-07-25T13:07:59.218Z
-tags: notes
+tags:
+  - Obsidian
+  - Notes
+  - Knowledge_Base
+  - Second_Brain
 editor: markdown
 dateCreated: 2022-05-16T14:22:22.830Z
 ---

@@ -1,9 +1,12 @@
 ---
 title: Browser_addons_to_Bypass_Paywalls
-description: 
+description: A note in my Obsidian vault about browser add-ons that help users bypass paywalls and improve their web browsing experience by eliminating ads and other unwanted content. This note may include a list of recommended add-ons, their features, installation instructions, and usage tips.
 published: true
 date: 2023-03-01T02:14:09.456Z
-tags: 
+tags:
+  - Browser
+  - Addons
+  - Paywalls
 editor: markdown
 dateCreated: 2023-01-03T11:51:42.422Z
 ---

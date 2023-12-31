@@ -1,5 +1,5 @@
 ---
-title: Desktop Applications
+title: Desktop Applications Home
 description: All the Desktop application info
 published: true
 date: 2023-03-05T13:47:54.624Z

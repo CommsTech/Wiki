@@ -1,9 +1,12 @@
 ---
 title: Notepad ++
-description: Notepad ++
+description: Notepad++ – a free, open-source, and versatile text editor for Windows that supports multiple programming languages, syntax highlighting, and advanced features like auto-completion and macros. This note may include information on its history, key features, usage tips, and comparisons with other text editors.
 published: true
 date: 2022-07-25T13:15:14.635Z
-tags: Notes
+tags:
+  - Notes
+  - Text_Editor
+  - Notepad_Alternative
 editor: markdown
 dateCreated: 2022-05-09T14:14:37.574Z
 ---

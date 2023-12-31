@@ -1,4 +1,17 @@
-#### xtension-based Configuration: I2PChrome.js(Experimental, additional configuration)
+---
+title: i2p Extension Chrome
+description: I2P extension for Chrome – an experimental configuration process that allows users to access the Invisible Internet Project (I2P) network through Google Chrome. This note may include instructions on creating a new profile, installing the extension, and configuring it for secure and private browsing using the I2P network.
+published: true
+date: 2023-12-30T02:41:39.777Z
+tags:
+  - Browser
+  - Privacy
+  - Security
+  - i2p
+editor: markdown
+dateCreated: 2023-12-30T02:41:39.777Z
+---
+# xtension-based Configuration: I2PChrome.js(Experimental, additional configuration)
 
 An experimental, partially-automated configuration process for Chrome is available. In order to configure it, create a new _Profile_ especially for your I2P browsing, separate from the default profile. Then install this [_Extension_](https://chrome.google.com/webstore/detail/i2pchromejs/ikdjcmomgldfciocnpekfndklkfgglpe) in your newly-created profile. This profile is now configured to use I2P. Highly detailed instructions are available at the [homepage.](https://eyedeekay.github.io/I2P-Configuration-For-Chromium)
 

@@ -1,9 +1,13 @@
 ---
 title: TOR Browser
-description: The Onion Router Browser
+description: A comprehensive note about The Tor Browser – a free and open-source web browser designed for privacy and anonymity, which routes internet traffic through the Tor network using onion routing to conceal users' location and usage from network surveillance or traffic analysis. This note may include information on its features, benefits, installation instructions, usage tips, and comparisons with other browsers.
 published: true
 date: 2022-07-25T13:37:12.115Z
-tags: Browser, Software
+tags:
+  - Browser
+  - "#Privacy"
+  - Anonymity
+  - TOR
 editor: markdown
 dateCreated: 2022-09-09T04:44:01.149Z
 ---

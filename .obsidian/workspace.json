@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Desktop_Applications/Browsers/Brave.md",
+                "file": "Applications/Desktop_Applications/Ventoy.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Desktop_Applications/Browsers/Brave.md",
+                "file": "Applications/Desktop_Applications/Ventoy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Desktop_Applications/Browsers/Brave.md",
+                "file": "Applications/Desktop_Applications/Ventoy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Desktop_Applications/Browsers/Brave.md"
+                "file": "Applications/Desktop_Applications/Ventoy.md"
               }
             }
           },
@@ -203,32 +203,32 @@
   },
   "active": "aafb5e77799119d1",
   "lastOpenFiles": [
+    "Applications/Desktop_Applications/PrivaZer.md",
+    "Applications/Desktop_Applications/portmaster.md",
+    "Applications/Desktop_Applications/notepadplusplus.md",
+    "Applications/Desktop_Applications/gpt4all_finetuning.md",
+    "Networking/Terminology/Lightweight_Extensible_Markup_Language_XLM 1.md",
+    "Applications/Desktop_Applications/GIMP.md",
+    "Applications/Desktop_Applications/FreeTube.md",
+    "Applications/Desktop_Applications/Desktop_Applications_Home.md",
+    "Applications/Desktop_Applications/Browsers/Browsers_Home.md",
+    "Applications/Desktop_Applications/Excel/Excel_Home.md",
+    "Applications/Desktop_Applications/Note_Taking/Note_Taking_Home.md",
+    "Applications/Desktop_Applications/Note_Taking/Obsidian.md",
+    "Applications/Desktop_Applications/Excel/Excel_Pivot_Table.md",
+    "Applications/Desktop_Applications/Excel/Excel_Cheat_Sheet.md",
+    "Applications/Desktop_Applications/Excel/Excel_Formulas_Cheat_Sheet.md",
+    "Applications/Desktop_Applications/Excel/DAX.md",
+    "Applications/Desktop_Applications/Browsers/Tor_Browser.md",
+    "Applications/Desktop_Applications/Browsers/i2p_Extenstion_chrome.md",
+    "Applications/Desktop_Applications/Browsers/Firefox.md",
+    "Applications/Desktop_Applications/Browsers/Browser_addons_to_Bypass_Paywalls.md",
+    "Applications/Desktop_Applications/Browsers/Brave.md",
     "Networking/Terminology/Bidirectional_Forwarding_Detection_BFD.md",
     "Networking/Terminology/Best_Path_Selection_BPS.md",
     "Networking/Terminology/Open_Shortest_Path_First_Interior_Gateway_Routing_Protocol_OSPF-IGP.md",
     "Networking/Terminology/Terms.md",
     "Networking/Terminology/Resource_Reservation_Protocol_RSVP.md",
-    "Networking/Terminology/Label_Distribution_Protocol_LDP.md",
-    "Networking/Terminology/Multicast_VPN_MVPN.md",
-    "Networking/Terminology/Border_Gateway_Protocol_BGP.md",
-    "Networking/Terminology/Weighted_Random_Early_Detection_WRED.md",
-    "Networking/Terminology/Weighted_Fair_Queueing_WFQ.md",
-    "Networking/Terminology/Virtual_Private_Network_VPN.md",
-    "Networking/Terminology/Traffic_Engineering_TE.md",
-    "Networking/Terminology/Shortest_Path_First_SPF.md",
-    "assets/template.md",
-    "Networking/Terminology/Service_Provider_Routing_SPR.md",
-    "Networking/Terminology/Service_Provider_Firewall_SPF.md",
-    "Networking/Terminology/Routing_Information_Protocol_RIP.md",
-    "Networking/Terminology/Resource_Public_Key_Infrastructure_RPKI.md",
-    "Networking/Terminology/Quality_of_Service_QoS.md",
-    "Networking/Terminology/Policy_and_Control_PnC.md",
-    "Electronics_Repair/Capacitors.md",
-    "Electronics_Repair/Diodes.md",
-    "Networking/Terminology/Overlay_Transport_Virtual_Circuit_OTVC.md",
-    "Networking/Terminology/Excess_Burst_Size_Be.md",
-    "Networking/Terminology/Congestion_Avoidance.md",
-    "Networking/Terminology/Committed_Information_Rate_CIR.md",
     "Electronics_Repair",
     "Networking/Terminology",
     "Excalidraw",

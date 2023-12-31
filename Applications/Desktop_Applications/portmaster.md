@@ -1,9 +1,12 @@
 ---
 title: Portmaster
-description: Portmaster
+description: Portmaster – a versatile network security application designed to manage and control various aspects of your computer's internet connection, including blocking applications from accessing the Internet, managing P2P connections, and filtering traffic based on specific rules. This note may include information on features, benefits, installation instructions, and usage tips for securing and customizing Portmaster settings according to individual needs.
 published: true
 date: 2022-07-25T13:37:12.115Z
-tags: Software
+tags:
+  - Software
+  - Network_Security
+  - Portmaster
 editor: markdown
 dateCreated: 2022-09-09T04:44:01.149Z
 ---

@@ -1,9 +1,12 @@
 ---
 title: Excel Formulas Cheat Sheet
-description: Excel Formulas
+description: A comprehensive note in my Obsidian vault containing a collection of essential formulas and their usage examples for Microsoft Excel – a widely-used spreadsheet program for data organization, analysis, and visualization. This note may include information on various formula categories (arithmetic, logical, text, lookup, etc.), syntax, and tips to help users work more efficiently and effectively with Excel formulas.
 published: true
 date: 2022-07-25T13:37:12.115Z
-tags: Excel, Software, Spredsheets
+tags:
+  - Excel
+  - Spreadsheets
+  - Formulas
 editor: markdown
 dateCreated: 2022-09-09T04:44:01.149Z
 ---

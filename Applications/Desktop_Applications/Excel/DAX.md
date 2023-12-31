@@ -1,9 +1,11 @@
 ---
 title: DAX
-description: DAX
+description: Data Analysis Expressions (DAX) – a formula language used in Microsoft Power BI and other business intelligence tools to manipulate, transform, and calculate data within the data model. This note may include information on DAX syntax, functions, examples, and best practices for creating efficient and effective queries.
 published: true
 date: 2022-07-25T13:37:12.115Z
-tags: Excel, Software, Spredsheets
+tags:
+  - data_analysis
+  - DAX
 editor: markdown
 dateCreated: 2022-09-09T04:44:01.149Z
 ---
@@ -25,8 +27,8 @@ available in a format that helps the decision makers take required action at the
 
 Microsoft Excel has a powerful tool called as Power Pivot that was available as an add-in in the
 prior versions of Excel and is built-in feature in Excel 2016. The database of Power Pivot, called
-the data model and the formula language that works on the data model, called DAX ( **D** ata
-**A** nalysis **E** xpressions) enables an Excel user to perform tasks such as data modeling and analysis
+the data model and the formula language that works on the data model, called DAX ( Data
+Analysis Expressions) enables an Excel user to perform tasks such as data modeling and analysis
 in no time.
 
 In this tutorial, you will learn data modeling and analysis using DAX, based on the Power Pivot

@@ -1,38 +1,16 @@
+---
+title: GPT4all Finetining
+description: A comprehensive note in my Obsidian vault about fine-tuning the GPT4ALL model – a large language model that can be fine-tuned on customized local data to improve its performance and accuracy for specific tasks. This note may include information on benefits, considerations, steps involved, and best practices for fine-tuning the GPT4ALL model using your well-prepared A-Shares stock market data or other specialized datasets.
+published: true
+date: 2023-12-30T02:41:39.777Z
+tags:
+  - GPT4ALL
+  - Fine_Tuning
+  - Machine_Learning
+editor: markdown
+dateCreated: 2023-12-30T02:41:39.777Z
+---
 # GPT4ALL: Train with local data for Fine-tuning
-
-[(https://medium.com/@xiucat?source=post_page-----6efefb07c101--------------------------------)
-
-[Mark Zhou](https://medium.com/@xiucat?source=post_page-----6efefb07c101--------------------------------)
-
-·
-
-[Follow](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fsubscribe%2Fuser%2F5a851b6549ab&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40xiucat%2Fgpt4all-train-with-local-data-for-fine-tuning-6efefb07c101&user=Mark+Zhou&userId=5a851b6549ab&source=post_page-5a851b6549ab----6efefb07c101---------------------post_header-----------)
-
-4 min read
-
-·
-
-Jun 20
-
-[
-
-](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F6efefb07c101&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40xiucat%2Fgpt4all-train-with-local-data-for-fine-tuning-6efefb07c101&user=Mark+Zhou&userId=5a851b6549ab&source=-----6efefb07c101---------------------clap_footer-----------)
-
-71
-
-2
-
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F6efefb07c101&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40xiucat%2Fgpt4all-train-with-local-data-for-fine-tuning-6efefb07c101&source=-----6efefb07c101---------------------bookmark_footer-----------)
-
-[
-
-](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2Fplans%3Fdimension%3Dpost_audio_button%26postId%3D6efefb07c101&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40xiucat%2Fgpt4all-train-with-local-data-for-fine-tuning-6efefb07c101&source=-----6efefb07c101---------------------post_audio_button-----------)
-
-![](https://miro.medium.com/v2/resize:fit:700/0*jKQntlTSFmKtqIVD)
-
-Photo by [Google DeepMind](https://unsplash.com/@deepmind?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)
-
-My forked version: [https://github.com/qingxuantang/gpt4all_finetuned](https://github.com/qingxuantang/gpt4all_finetuned)
 
 Fine-tuning large language models like GPT (Generative Pre-trained Transformer) has revolutionized natural language processing tasks. While pre-training on massive amounts of data enables these models to learn general language patterns, fine-tuning with specific data can further enhance their performance on specialized tasks.
 
@@ -40,10 +18,6 @@ This article explores the process of training with customized local data for GPT
 
 Fine-tuning with customized local data allows GPT models to leverage domain-specific knowledge, resulting in better performance and more accurate outputs for specific tasks. For my use case, I’ve got well-prepared A-Shares stock market data(for Openai fine-tuning purposes originally). It seems these datasets can be transferred to train a GPT4ALL model as well with some minor tuning of the code.
 
-Basically, I followed this [Closed Issue](https://github.com/nomic-ai/gpt4all/issues/220) on Github by Cocobeach. Here is my .yaml file:
-
-#device_placement: "cpu"  
-  
 # model/tokenizer  
 model_name: "decapoda-research/llama-7b-hf" # add model here  
 tokenizer_name: "gpt2" # add model here  
