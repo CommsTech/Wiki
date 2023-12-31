@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WGU/c955.md",
+                "file": "WGU/C779.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WGU/c955.md",
+                "file": "WGU/C779.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WGU/c955.md",
+                "file": "WGU/C779.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WGU/c955.md"
+                "file": "WGU/C779.md"
               }
             }
           },
@@ -191,7 +191,14 @@
   },
   "active": "81b69151463c744c",
   "lastOpenFiles": [
+    "WGU/C838.md",
+    "WGU/c839.md",
+    "WGU/c846.md",
+    "WGU/c849.md",
+    "WGU/c851.md",
+    "WGU/c924.md",
     "WGU/c963.md",
+    "WGU/c955.md",
     "WGU/WGU_home.md",
     "Applications/Server_Applications/Plex_Server.md",
     "Applications/Web_Applications/Plex_Web_Client_Settings.md",
@@ -210,13 +217,6 @@
     "Applications/Web_Applications/Driftnet.md",
     "Applications/Applications_Home.md",
     "Applications/Raspberry_pi_Applications/Raspberry_Pi_Power_Monitor.md",
-    "Applications/Mobile_Applications/Mobile_Applications_Home.md",
-    "Applications/Desktop_Applications/Wireshark.md",
-    "Applications/Desktop_Applications/FreeTube.md",
-    "How_to_Markdown.md",
-    "home.md",
-    "Donate.md",
-    "WGU/c849.md",
     "Networking/SteelHead",
     "Networking/DNS",
     "New Text Document.txt",
