@@ -1,17 +1,17 @@
 ---
 title: Internet Engineering Task Force (IETF)
 description: Internet Engineering Task Force information
+dateCreated: 2023-12-30T02:41:39.777Z
 published: true
-date: 2023-12-30T02:41:39.777Z
+editor: markdown
 tags:
   - networking
   - Engineering
   - Tech
   - Cisco
-editor: markdown
-dateCreated: 2023-12-30T02:41:39.777Z
+dateModified: 
 ---
-## Internet Engineering Task Force (IETF)
+# Internet Engineering Task Force (IETF)
 
 The **Internet Engineering Task Force** (**IETF**) is a large open international organization responsible for developing and maintaining the technical standards that drive the evolution of the internet. IETF is a working group of engineers, researchers, and other interested individuals who collaborate on various aspects of the internet's architecture, operation, and technology development.
 

@@ -1,17 +1,17 @@
 ---
 title: Open Shortest Path First Interior Gateway Routing Protocol (OSPF-IGP)
 description: Open Shortest Path First Interior Gateway Routing Protocol (OSPF-IGP) Description
+dateCreated: 2023-12-30T02:41:39.777Z
 published: true
-date: 2023-12-30T02:41:39.777Z
+editor: markdown
 tags:
   - networking
   - Engineering
   - Tech
   - Cisco
-editor: markdown
-dateCreated: 2023-12-30T02:41:39.777Z
+dateModified: 
 ---
-## Open Shortest Path First Interior Gateway Routing Protocol (OSPF-IGP)
+# Open Shortest Path First Interior Gateway Routing Protocol (OSPF-IGP)
 
 **Open Shortest Path First Interior Gateway Routing Protocol (OSPF-IGP)** is a link-state, hierarchical routing protocol designed for use in large and complex Internet Protocol (IP) networks. It is an interior gateway protocol, meaning it operates within an autonomous system or domain. OSPF-IGP uses the Shortest Path First (SPF) algorithm to determine the shortest path between routers based on metrics such as hop count, bandwidth, and cost.
 

@@ -1,17 +1,17 @@
 ---
 title: Weighted Fair Queueing (WFQ)
 description: Weighted Fair Queueing (WFQ) Description
+dateCreated: 2023-12-30T02:41:39.777Z
 published: true
-date: 2023-12-30T02:41:39.777Z
+editor: markdown
 tags:
   - networking
   - Engineering
   - Tech
   - Cisco
-editor: markdown
-dateCreated: 2023-12-30T02:41:39.777Z
+dateModified: 
 ---
-## Weighted Fair Queuing (WFQ)
+# Weighted Fair Queuing (WFQ)
 
 **Weighted Fair Queueing (WFQ)** is a queuing algorithm used in computer networking to provide fair bandwidth allocation among multiple traffic classes or flows. WFQ ensures that each flow receives a fair share of the available bandwidth, preventing any single flow from monopolizing the network resources. It does this by assigning weights to different flows based on their priority levels.
 

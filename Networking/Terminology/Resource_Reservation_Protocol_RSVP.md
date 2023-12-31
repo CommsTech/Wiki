@@ -1,17 +1,17 @@
 ---
 title: Resource Reservation Protocol (RSVP)
 description: Resource Reservation Protocol (RSVP) Description
+dateCreated: 2023-12-30T02:41:39.777Z
 published: true
-date: 2023-12-30T02:41:39.777Z
+editor: markdown
 tags:
   - networking
   - Engineering
   - Tech
   - Cisco
-editor: markdown
-dateCreated: 2023-12-30T02:41:39.777Z
+dateModified: 
 ---
-## Resource Reservation Protocol (RSVP)
+# Resource Reservation Protocol (RSVP)
 
 **Resource Reservation Protocol (RSVP)** is a signaling protocol used in IP networks to provide end-to-end reservation of resources for real-time and other sensitive applications. It enables the setup of multicast or unicast sessions between multiple communicating nodes, allowing them to reserve bandwidth, buffer space, and other network resources along the path between them.
 

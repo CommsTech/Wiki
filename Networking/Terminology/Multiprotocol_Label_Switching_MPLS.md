@@ -1,8 +1,9 @@
 ---
 title: Multiprotocol Label Switching (MPLS)
 description: Multiprotocol Label Switching (MPLS) Description
+dateCreated: 2023-12-30T02:41:39.777Z
 published: true
-date: 2023-12-30T02:41:39.777Z
+editor: markdown
 tags:
   - networking
   - Engineering
@@ -10,10 +11,9 @@ tags:
   - Cisco
   - routing
   - Switching
-editor: markdown
-dateCreated: 2023-12-30T02:41:39.777Z
+dateModified: 
 ---
-## Multiprotocol Label Switching (MPLS)
+# Multiprotocol Label Switching (MPLS)
 
 **Multiprotocol Label Switching (MPLS)** is a data-carrying mechanism for forwarding packets based on labels instead of routing them based on their destination IP addresses. MPLS enables service providers to build scalable, efficient, and flexible networks that support multiple network protocols, including IPv4, IPv6, and Layer 2 VPNs.
 

@@ -1,17 +1,17 @@
 ---
 title: Layer 2 Tunneling Protocol (L2TP)
 description: Layer 2 Tunneling Protocol (L2TP) Description
+dateCreated: 2023-12-30T02:41:39.777Z
 published: true
-date: 2023-12-30T02:41:39.777Z
+editor: markdown
 tags:
   - networking
   - Engineering
   - Tech
   - Cisco
-editor: markdown
-dateCreated: 2023-12-30T02:41:39.777Z
+dateModified: 
 ---
-## Layer 2 Tunneling Protocol (L2TP)
+# Layer 2 Tunneling Protocol (L2TP)
 
 **Layer 2 Tunneling Protocol (L2TP)** is a protocol used for encapsulating and transporting Layer 2 frames over IP networks. It was developed as a combination of Point-to-Point Tunneling Protocol (PPTP) and Cisco's Layer 2 Forwarding Protocol (L2F). L2TP allows the extension of Layer 2 services, such as Virtual Private Networks (VPNs), across wide area networks (WANs) or the Internet.
 

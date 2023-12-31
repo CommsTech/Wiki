@@ -1,17 +1,17 @@
 ---
 title: Resource Public Key Infrastructure (RPKI)
 description: Resource Public Key Infrastructure (RPKI) Description
+dateCreated: 2023-12-30T02:41:39.777Z
 published: true
-date: 2023-12-30T02:41:39.777Z
+editor: markdown
 tags:
   - networking
   - Engineering
   - Tech
   - Cisco
-editor: markdown
-dateCreated: 2023-12-30T02:41:39.777Z
+dateModified: 
 ---
-## Resource Public Key Infrastructure (RPKI)
+# Resource Public Key Infrastructure (RPKI)
 
 **Resource Public Key Infrastructure (RPKI)** is a system used to manage, distribute, and validate digital certificates for IP address space and Autonomous System Numbers (ASNs). RPKI extends the traditional Public Key Infrastructure (PKI) concept to the Internet routing domain. It provides a secure way to verify the authenticity of routing information by digitally signing routing data with cryptographic keys.
 

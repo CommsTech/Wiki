@@ -1,18 +1,18 @@
 ---
 title: Routing Information Protocol (RIP)
 description: Routing Information Protocol (RIP) Description
+dateCreated: 2023-12-30T02:41:39.777Z
 published: true
-date: 2023-12-30T02:41:39.777Z
+editor: markdown
 tags:
   - networking
   - Engineering
   - Tech
   - Cisco
   - Routing
-editor: markdown
-dateCreated: 2023-12-30T02:41:39.777Z
+dateModified: 
 ---
-## Routing Information Protocol (RIP)
+# Routing Information Protocol (RIP)
 
 **Routing Information Protocol (RIP)** is a distance-vector routing protocol that was first introduced in 1988 for IP networks. It uses hop count as its primary metric to determine the shortest path between two routers. RIP is a classful routing protocol, meaning it does not support Variable Length Subnet Masks (VLSMs) or subnetting directly.
 

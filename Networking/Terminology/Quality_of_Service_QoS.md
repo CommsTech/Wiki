@@ -1,17 +1,17 @@
 ---
 title: Quality of Service (QoS)
 description: Quality of Service (QoS) Description
+dateCreated: 2023-12-30T02:41:39.777Z
 published: true
-date: 2023-12-30T02:41:39.777Z
+editor: markdown
 tags:
   - networking
   - Engineering
   - Tech
   - Cisco
-editor: markdown
-dateCreated: 2023-12-30T02:41:39.777Z
+dateModified: 
 ---
-## Quality of Service (QoS)
+# Quality of Service (QoS)
 
 **Quality of Service (QoS)** refers to the ability of a network to provide better handling and prioritization for specific types of traffic based on their importance or requirements. QoS is essential in networks where multiple applications and services compete for limited resources, such as bandwidth and processing power. The primary goal of QoS is to ensure that critical applications receive the required level of performance while minimizing contention and congestion within the network.
 

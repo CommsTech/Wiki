@@ -1,17 +1,17 @@
 ---
 title: Link State Database (LSDB)
 description: Link State Database (LSDB) Description
+dateCreated: 2023-12-30T02:41:39.777Z
 published: true
-date: 2023-12-30T02:41:39.777Z
+editor: markdown
 tags:
   - networking
   - Engineering
   - Tech
   - Cisco
-editor: markdown
-dateCreated: 2023-12-30T02:41:39.777Z
+dateModified: 
 ---
-## Link State Database (LSDB)
+# Link State Database (LSDB)
 
 A **Link State Database (LSDB)** is a data structure used in link state routing protocols like Open Shortest Path First (OSPF), Intermediate System-to-Intermediate System (IS-IS), and the Border Gateway Protocol (BGP). The LSDB stores the complete topology information of a network, including all routers, links, and their respective states.
 

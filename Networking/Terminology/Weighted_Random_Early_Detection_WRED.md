@@ -1,17 +1,17 @@
 ---
 title: Weighted Fair Queueing (WFQ)
 description: Weighted Fair Queueing (WFQ) Description
+dateCreated: 2023-12-30T02:41:39.777Z
 published: true
-date: 2023-12-30T02:41:39.777Z
+editor: markdown
 tags:
   - networking
   - Engineering
   - Tech
   - Cisco
-editor: markdown
-dateCreated: 2023-12-30T02:41:39.777Z
+dateModified: 
 ---
-## Weighted Random Early Detection (WRED)
+# Weighted Random Early Detection (WRED)
 
 **Weighted Random Early Detection (WRED)** is a congestion avoidance mechanism used in networking to manage network congestion by selectively dropping packets based on their priority level. WRED extends the basic Random Early Deflection (RED) algorithm by using the IP Precedence or Differentiated Services Code Point (DSCP) bits in the IP packet header to determine which packets should be dropped when the queue is congested.
 

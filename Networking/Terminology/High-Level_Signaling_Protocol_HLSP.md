@@ -1,4 +1,13 @@
-## High-Level Signaling Protocol (HLSP)
+---
+title: High-Level Signaling Protocol (HLSP)
+description: 
+dateCreated: 
+published: 
+editor: markdown
+tags: 
+dateModified: 
+---
+# High-Level Signaling Protocol (HLSP)
 
 **High-Level Signaling Protocol (HLSP)** is a signaling protocol used in Multiprotocol Label Switching (MPLS) networks to establish and maintain label-switched paths (LSPs). HLSP is responsible for exchanging signaling messages between Label Switching Routers (LSRs) to set up, modify, or tear down LSPs.
 

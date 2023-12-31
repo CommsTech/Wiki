@@ -1,3 +1,12 @@
+---
+title: Forwarding Information Base (FIB)
+description: 
+dateCreated: 
+published: 
+editor: markdown
+tags: 
+dateModified: 
+---
 # Forwarding Information Base (FIB)
 
 The **Forwarding Information Base (FIB)** is a data structure used in routing protocols like Open Shortest Path First (OSPF) and Border Gateway Protocol (BGP) to store the results of routing calculations. It is essentially an optimized version of the IP routing table, specifically designed for use by forwarding planes in routers and switches.

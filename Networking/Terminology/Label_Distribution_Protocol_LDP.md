@@ -1,17 +1,17 @@
 ---
 title: Label Distribution Protocol (LDP)
 description: Label Distribution Protocol (LDP) Description
+dateCreated: 2023-12-30T02:41:39.777Z
 published: true
-date: 2023-12-30T02:41:39.777Z
+editor: markdown
 tags:
   - networking
   - Engineering
   - Tech
   - Cisco
-editor: markdown
-dateCreated: 2023-12-30T02:41:39.777Z
+dateModified: 
 ---
-## Label Distribution Protocol (LDP
+# Label Distribution Protocol (LDP
 
 **Label Distribution Protocol (LDP)** is a signaling protocol used in Multiprotocol Label Switching (MPLS) networks to exchange and distribute labels between routers. LDP enables routers to establish and maintain Label Switched Paths (LSPs), which are used for forwarding packets based on labels instead of routing based on IP addresses.
 

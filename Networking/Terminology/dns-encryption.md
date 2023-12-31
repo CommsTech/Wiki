@@ -1,10 +1,14 @@
 ---
-title: DNS-Encryption
-description: 
+title: DNS Encryption
+description: Learn about DNS encryption, its role in securing your network, and the practical steps for implementing it with Oblivious DNS, Encrypted DNS, and other methods.
 dateCreated: 2022-05-21T15:28:21.146Z
 published: true
 editor: markdown
-tags: 
+tags:
+  - DNS
+  - Encryption
+  - Security
+  - Privacy
 dateModified: 
 ---
 # DNS Encryption

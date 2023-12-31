@@ -1,17 +1,17 @@
 ---
 title: Link State Update (LSUpdate)
 description: Link State Update (LSUpdate) Description
+dateCreated: 2023-12-30T02:41:39.777Z
 published: true
-date: 2023-12-30T02:41:39.777Z
+editor: markdown
 tags:
   - networking
   - Engineering
   - Tech
   - Cisco
-editor: markdown
-dateCreated: 2023-12-30T02:41:39.777Z
+dateModified: 
 ---
-## Link State Update (LSU)
+# Link State Update (LSU)
 
 A **Link State Update (LSU)** is a message sent in link state routing protocols, such as Open Shortest Path First (OSPF), to disseminate updated information about the network topology and link states to all routers within an Autonomous System or Area. LSUpdates are generated when there is a change in the network topology, such as a new router joining the network, a link going down, or a change in the cost of a link.
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/dns-encryption.md",
+                "file": "Programming/Rust/Unleashing_Rust.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/dns-encryption.md",
+                "file": "Programming/Rust/Unleashing_Rust.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/dns-encryption.md",
+                "file": "Programming/Rust/Unleashing_Rust.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/dns-encryption.md"
+                "file": "Programming/Rust/Unleashing_Rust.md"
               }
             }
           },
@@ -177,33 +177,34 @@
   },
   "active": "aafb5e77799119d1",
   "lastOpenFiles": [
-    "Networking/dns-over-https.md",
-    "Networking/dns-over-tls.md",
-    "Networking/MPTCP.md",
-    "Networking/Network_Optimization_Guidelines.md",
-    "Networking/Palo-Alto.md",
-    "Applications/Server_Applications/AI/PrivateGPT.md",
-    "Applications/Server_Applications/AI/Memory_Cache.md",
-    "Applications/Server_Applications/AI/Building_RAG.md",
-    "Applications/Server_Applications/AI/Untitled.md",
-    "Privacy/Guide_to_Online_Anonymity.md",
+    "Networking/Terminology/Lightweight_Extensible_Markup_Language_XLM.md",
+    "Networking/Terminology/Global_System_for_Mobile_Communications_GSM.md",
+    "Networking/Terminology/dns-encryption.md",
+    "Networking/Terminology/Congestion_Avoidance.md",
+    "Networking/Terminology/Committed_Information_Rate_CIR.md",
+    "Networking/Terminology/CISCO_SPCORE.md",
+    "Networking/Terminology/Carrier_Ethernet.md",
+    "Networking/Terminology/Border_Gateway_Protocol_BGP.md",
+    "Networking/Terminology/Bidirectional_Forwarding_Detection_BFD.md",
+    "Networking/Terminology/Label_Switched_Path_LSP.md",
+    "Networking/Terminology/Label_Distribution_Protocol_LDP.md",
+    "Networking/Terminology/IP_Multicast.md",
+    "Networking/Terminology/Internet_Engineering_Task_Force_IETF.md",
+    "Networking/Terminology/High-Level_Signaling_Protocol_HLSP.md",
+    "Networking/Terminology/Forwarding_Information_Base_FIB.md",
+    "Networking/Terminology/Weighted_Random_Early_Detection_WRED.md",
+    "Networking/Terminology/Weighted_Fair_Queueing_WFQ.md",
+    "Networking/Terminology/Virtual_Private_Network_VPN.md",
+    "Networking/Terminology/Traffic_Policing.md",
+    "Networking/Terminology/Traffic_Engineering_TE.md",
+    "Networking/Terminology/Shortest_Path_First_SPF.md",
+    "Networking/Terminology/Terms.md",
+    "Networking/Terminology/Service_Provider_Routing_SPR.md",
+    "Networking/Terminology/Service_Provider_Firewall_SPF.md",
+    "Networking/Terminology/Routing_Information_Protocol_RIP.md",
+    "Networking/Terminology/Resource_Reservation_Protocol_RSVP.md",
+    "Networking/DNS",
     "New Text Document.txt",
-    "Others/Hacking_Resources.md",
-    "Hardware/Hardware_Home.md",
-    "Networking/pfSense/HAProxy.md",
-    "Applications/Desktop_Applications/gpt4all_finetuning.md",
-    "Applications/Desktop_Applications/GIMP.md",
-    "Operating_Systems/Windows/environment-variables.md",
-    "Others/FOSS.md",
-    "Applications/Desktop_Applications/FreeTube.md",
-    "Operating_Systems/Truenas_Scale/Drive_Replacment.md",
-    "Networking/pfSense/pfBlockerNG/DNSBL/DNSBL_Regex_list.md",
-    "Networking/dns-record-types.md",
-    "Applications/Desktop_Applications/Desktop_Applications_Home.md",
-    "Certifications/comptia/Comptia_Home.md",
-    "Networking/dns-record-mailserver.md",
-    "Networking/dns-encryption.md",
-    "Hardware/Tablets/Dell_Venue_11_Pro.md",
     "Privacy/OSINT",
     "Applications/Server_Applications/AI",
     "assets/images/Pasted image 20230923143719.png",
@@ -213,7 +214,6 @@
     "Life/Nutrition",
     "Life",
     "Programming/Powershell",
-    "Programming/Golang",
     "assets/images/Pasted image 20231130184644.png",
     "assets/images/Pasted image 20230923143931.png",
     "Assets/images/Pasted image 20230821211119.png",

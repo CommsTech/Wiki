@@ -1,18 +1,18 @@
 ---
 title: Overlay Transport Virtual Circuit (OTVC)
 description: Overlay Transport Virtual Circuit (OTVC) Description
+dateCreated: 2023-12-30T02:41:39.777Z
 published: true
-date: 2023-12-30T02:41:39.777Z
+editor: markdown
 tags:
   - networking
   - Engineering
   - Tech
   - Cisco
   - routing
-editor: markdown
-dateCreated: 2023-12-30T02:41:39.777Z
+dateModified: 
 ---
-## Overlay Transport Virtual Circuit (OTVC)
+# Overlay Transport Virtual Circuit (OTVC)
 
 **Overlay Transport Virtual Circuit (OTVC)** is a technique used in Carrier Ethernet networks to provide Layer 2 connectivity across multiple physical links or sites. OTVC allows the creation of virtual circuits that span multiple physical connections, enabling seamless extension of Layer 2 domains over WANs and MPLS networks.
 

@@ -1,10 +1,13 @@
 ---
-title: 
-description: 
+title: "Bidirectional Forwarding Detection (BFD): Fast Failover and Convergence"
+description: Learn about Bidirectional Forwarding Detection (BFD), a protocol designed for fast forwarding path failure detection in IP networks. Understand how it complements traditional routing protocols, its benefits, and implementation methods to ensure high availability and minimize network disruptions.
 dateCreated: 
 published: 
 editor: markdown
-tags: 
+tags:
+  - networking
+  - Protocol
+  - Convergence
 dateModified: 
 ---
 # Bidirectional_Forwarding_Detection_BFD

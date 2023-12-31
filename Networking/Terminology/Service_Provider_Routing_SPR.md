@@ -1,18 +1,18 @@
 ---
 title: Service Provider Routing (SPR)
 description: Service Provider Routing (SPR) Description
+dateCreated: 2023-12-30T02:41:39.777Z
 published: true
-date: 2023-12-30T02:41:39.777Z
+editor: markdown
 tags:
   - networking
   - Engineering
   - Tech
   - Cisco
   - Routing
-editor: markdown
-dateCreated: 2023-12-30T02:41:39.777Z
+dateModified: 
 ---
-## Service Provider Routing (SPR)
+# Service Provider Routing (SPR)
 
 **Service Provider Routing (SPR)** refers to routing protocols and technologies used in service provider networks to exchange routing information between autonomous systems, enabling efficient inter-domain routing and interconnectivity. SPR plays a crucial role in ensuring the scalability, reliability, and security of large-scale service provider networks by providing advanced features like Multi Protocol Label Switching (MPLS), Virtual Private Networks (VPN), and traffic engineering.
 

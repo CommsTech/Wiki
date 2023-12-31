@@ -1,18 +1,18 @@
 ---
 title: Policy and Control (PnC)
 description: Policy and Control (PnC) Description
+dateCreated: 2023-12-30T02:41:39.777Z
 published: true
-date: 2023-12-30T02:41:39.777Z
+editor: markdown
 tags:
   - networking
   - Engineering
   - Tech
   - Cisco
   - Policy
-editor: markdown
-dateCreated: 2023-12-30T02:41:39.777Z
+dateModified: 
 ---
-## Policy and Control (PnC)
+# Policy and Control (PnC)
 
 **Policy and Control (PnC)** refers to the process of managing network traffic based on predefined policies that determine how data should be handled as it traverses a network. PnC systems enable network administrators to enforce security, quality of service (QoS), and other requirements for specific applications, services, or users.
 

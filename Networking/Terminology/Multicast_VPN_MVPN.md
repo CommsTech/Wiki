@@ -1,17 +1,17 @@
 ---
 title: Multicast VPN (MVPN)
 description: Multicast VPN (MVPN) Description
+dateCreated: 2023-12-30T02:41:39.777Z
 published: true
-date: 2023-12-30T02:41:39.777Z
+editor: markdown
 tags:
   - networking
   - Engineering
   - Tech
   - Cisco
-editor: markdown
-dateCreated: 2023-12-30T02:41:39.777Z
+dateModified: 
 ---
-## Multicast Virtual Private Network (MVPN)
+# Multicast Virtual Private Network (MVPN)
 
 **Multicast Virtual Private Network (MVPN)** is a type of Virtual Private Network (VPN) technology that enables secure multicast communication between multiple sites over the Internet or a public network. In traditional VPNs, each site establishes a separate point-to-point connection to the VPN concentrator or hub site, which can lead to increased complexity and cost when dealing with large numbers of sites.
 

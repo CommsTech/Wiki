@@ -1,17 +1,17 @@
 ---
 title: IP Multicast
 description: IP Multicast Description
+dateCreated: 2023-12-30T02:41:39.777Z
 published: true
-date: 2023-12-30T02:41:39.777Z
+editor: markdown
 tags:
   - networking
   - Engineering
   - Tech
   - Cisco
-editor: markdown
-dateCreated: 2023-12-30T02:41:39.777Z
+dateModified: 
 ---
-## IP Multicast
+# IP Multicast
 
 **IP Multicast** is a communication method in Internet Protocol (IP) networking where a single source sends data to multiple destinations simultaneously using a single IP address instead of sending individual unicast packets to each destination. This technique reduces the number of required transmissions and bandwidth usage, making it more efficient for one-to-many communications, such as multimedia streaming, video conferencing, and content distribution.
 

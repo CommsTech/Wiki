@@ -1,17 +1,17 @@
 ---
 title: Label Switched Path (LSP)
 description: Label Switched Path (LSP) Description
+dateCreated: 2023-12-30T02:41:39.777Z
 published: true
-date: 2023-12-30T02:41:39.777Z
+editor: markdown
 tags:
   - networking
   - Engineering
   - Tech
   - Cisco
-editor: markdown
-dateCreated: 2023-12-30T02:41:39.777Z
+dateModified: 
 ---
-## Label Switched Path (LSP)
+# Label Switched Path (LSP)
 
 A **Label Switched Path (LSP)** is a dedicated path in a network that carries traffic between two endpoints using a label-switched routing technique. In MPLS networks, LSPs are established and maintained by signaling protocols like Label Distribution Protocol (LDP), Resource Reservation Protocol (RSVP), or Multiprotocol Border Gateway Protocol (MBGP).
 

@@ -1,18 +1,18 @@
 ---
 title: Shortest Path First (SPF)
 description: Shortest Path First (SPF) Description
+dateCreated: 2023-12-30T02:41:39.777Z
 published: true
-date: 2023-12-30T02:41:39.777Z
+editor: markdown
 tags:
   - networking
   - Engineering
   - Tech
   - Cisco
   - Routing
-editor: markdown
-dateCreated: 2023-12-30T02:41:39.777Z
+dateModified: 
 ---
-## Shortest Path First (SPF)
+# Shortest Path First (SPF)
 
 **Shortest Path First (SPF)** is a routing algorithm used in link-state and distance-vector routing protocols to determine the shortest path between two nodes in a network based on various metrics, such as hop count, bandwidth, delay, or cost. The primary goal of SPF algorithms is to find the most efficient and reliable route for data transfer while minimizing latency and maximizing throughput.
 

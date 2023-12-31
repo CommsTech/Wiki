@@ -1,17 +1,17 @@
 ---
 title: Virtual Private Network (VPN)
 description: Virtual Private Network (VPN) Description
+dateCreated: 2023-12-30T02:41:39.777Z
 published: true
-date: 2023-12-30T02:41:39.777Z
+editor: markdown
 tags:
   - networking
   - Engineering
   - Tech
   - Cisco
-editor: markdown
-dateCreated: 2023-12-30T02:41:39.777Z
+dateModified: 
 ---
-## Virtual Private Network (VPN)
+# Virtual Private Network (VPN)
 
 A **Virtual Private Network** (VPN) is a secure and encrypted network connection that extends a private network over a public infrastructure, such as the Internet. VPNs enable users to access resources on a remote or geographically dispersed network as if they were directly connected to it. This technology provides several benefits, including increased security, cost savings, and flexibility.
 

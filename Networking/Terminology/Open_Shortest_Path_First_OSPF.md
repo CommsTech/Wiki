@@ -1,18 +1,18 @@
 ---
 title: Open Shortest Path First (OSPF)
 description: Open Shortest Path First (OSPF) Description
+dateCreated: 2023-12-30T02:41:39.777Z
 published: true
-date: 2023-12-30T02:41:39.777Z
+editor: markdown
 tags:
   - networking
   - Engineering
   - Tech
   - Cisco
   - routing
-editor: markdown
-dateCreated: 2023-12-30T02:41:39.777Z
+dateModified: 
 ---
-## Open Shortest Path First (OSPF)
+# Open Shortest Path First (OSPF)
 
 **Open Shortest Path First (OSPF)** is a link-state routing protocol that uses the Dijkstra's Shortest Path First (SPF) algorithm to determine the shortest path between two nodes in an Internet Protocol (IP) network. OSPF was developed by the Internet Engineering Task Force (IETF) and is widely used for routing within an autonomous system or a single area in large IP networks.
 

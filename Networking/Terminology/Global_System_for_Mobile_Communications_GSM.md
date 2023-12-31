@@ -1,4 +1,13 @@
-## Global System for Mobile Communications (GSM)
+---
+title: Global System for Mobile Communications (GSM)
+description: 
+dateCreated: 
+published: 
+editor: markdown
+tags: 
+dateModified: 
+---
+# Global System for Mobile Communications (GSM)
 
 **Global System for Mobile Communications (GSM)** is a widely used digital cellular communication standard developed by the European Telecommunications Standards Institute (ETSI). GSM was first deployed in Europe in 1992 and has since become the most popular mobile communication system worldwide. It supports both circuit-switched and packet-switched services, including voice calls, SMS, MMS, and data services like GPRS, EDGE, and 3G.
 
