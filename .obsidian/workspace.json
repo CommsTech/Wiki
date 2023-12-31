@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Privacy/home.md",
+                "file": "Privacy/Guide_to_Online_Anonymity.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Privacy/home.md",
+                "file": "Privacy/Guide_to_Online_Anonymity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Privacy/home.md",
+                "file": "Privacy/Guide_to_Online_Anonymity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Privacy/home.md"
+                "file": "Privacy/Guide_to_Online_Anonymity.md"
               }
             }
           },
@@ -185,8 +185,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "73ee420029073090",
+  "active": "aafb5e77799119d1",
   "lastOpenFiles": [
+    "Privacy/privacy opt out tools.md",
+    "Privacy/Privacy_Home.md",
     "Privacy/Guide_to_Online_Anonymity.md",
     "Privacy/Data_Removal_Guide.md",
     "Privacy/OSINT/OSINT_Home.md",
@@ -214,8 +216,6 @@
     "WGU/C100.md",
     "WGU/c165.md",
     "Applications/Server_Applications/Ansible/Ansible_for_windows.md",
-    "How_to_Markdown.md",
-    "note.md",
     "Electronics_Repair",
     "Networking/Terminology",
     "Excalidraw",

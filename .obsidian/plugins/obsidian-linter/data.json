@@ -25,7 +25,7 @@
     },
     "insert-yaml-attributes": {
       "enabled": true,
-      "text-to-insert": "title:\ndescription:\ndateCreated: date created\npublished:\neditor: markdown\ntags: \ndateModified: {date modified}"
+      "text-to-insert": "title:\ndescription:\ndateCreated:\npublished:\neditor: markdown\ntags: \ndateModified:"
     },
     "move-tags-to-yaml": {
       "enabled": false,
@@ -58,9 +58,9 @@
     },
     "yaml-title-alias": {
       "enabled": false,
-      "preserve-existing-alias-section-style": true,
+      "preserve-existing-alias-section-style": false,
       "keep-alias-that-matches-the-filename": false,
-      "use-yaml-key-to-keep-track-of-old-filename-or-heading": true
+      "use-yaml-key-to-keep-track-of-old-filename-or-heading": false
     },
     "capitalize-headings": {
       "enabled": false,
