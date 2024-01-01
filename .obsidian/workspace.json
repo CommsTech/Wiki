@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Privacy/Guide_to_Online_Anonymity.md",
+                "file": "Privacy/Privacy_Home.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Privacy/Guide_to_Online_Anonymity.md",
+                "file": "Privacy/Privacy_Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Privacy/Guide_to_Online_Anonymity.md",
+                "file": "Privacy/Privacy_Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Privacy/Guide_to_Online_Anonymity.md"
+                "file": "Privacy/Privacy_Home.md"
               }
             }
           },
@@ -191,8 +191,11 @@
   },
   "active": "81b69151463c744c",
   "lastOpenFiles": [
-    "Privacy/privacy_opt_out_tools.md",
+    "Privacy/Guide_to_Online_Anonymity.md",
     "Privacy/Awesome_Privacy_Tools.md",
+    "Privacy/Data_Removal_Guide.md",
+    "Privacy/OSINT/OSINT_Home.md",
+    "Privacy/privacy_opt_out_tools.md",
     "Operating_Systems/Windows/windows-dns-server.md",
     "Operating_Systems/Linux/mount.md",
     "Networking/smtp.md",
@@ -215,9 +218,6 @@
     "Networking/Terminology/Traffic_Policing.md",
     "QoS.md",
     "Networking/Terminology/Virtual_Private_Network_VPN.md",
-    "Networking/Terminology/Multiprotocol_Label_Switching_MPLS.md",
-    "Networking/Terminology/Multicast_VPN_MVPN.md",
-    "Networking/Terminology/Modular_Design.md",
     "Networking/SteelHead",
     "Networking/DNS",
     "New Text Document.txt",

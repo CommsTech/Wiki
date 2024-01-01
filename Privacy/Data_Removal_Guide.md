@@ -1,13 +1,13 @@
 ---
-dateCreated: date created
-editor: markdown
-dateModified: {date modified}
 title: Data Removal Guide
 description: 
+dateCreated: date created
 published: 
+editor: markdown
 tags:
   - Privacy
   - Anonymity
+dateModified: {date modified}
 ---
 # Extreme Privacy
 
@@ -35,7 +35,7 @@ additional guides <https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-Lis
 - <https://www.privacyrights.org/data-brokers> - Probably the largest list of data brokers, but many are essentially clones of one another, and some links are dead.
 - <https://www.abine.com/optouts.php> - "free DIY" guide offered by a scrubbing service.
 
-#### Data Removal Resources
+### Data Removal Resources
 
 ---
 
