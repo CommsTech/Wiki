@@ -12,7 +12,9 @@ dateModified:
 Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML).
 
 Documentation: [Markdown Docs](https://daringfireball.net/projects/markdown/)
+
 RFC: [RFC 7763](https://www.rfc-editor.org/rfc/rfc7763)
+
 GitHub Documentation: [Writing Markdown on GitHub](https://docs.github.com/en/get-started/writing-on-github)
 
 ---
@@ -103,6 +105,7 @@ But let's throw in a <b>tag</b>.
 ### Tables
 
 There must be at least 3 dashes separating each header cell.
+
 The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily.
 
 ```markdown
@@ -115,7 +118,9 @@ The outer pipes (|) are optional, and you don't need to make the raw Markdown li
 ### Task list
 
 To create a taksk lsit start line with square brackets with an empty space.
+
 Ex: [ <space> ] and add text for task.
+
 To check the task replace the space between the bracket with "x".
 
 ```markdown

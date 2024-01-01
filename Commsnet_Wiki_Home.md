@@ -1,10 +1,13 @@
 ---
-title: Home
+title: Commsnet Wiki Home
 description: Landing Page
 dateCreated: 2022-08-30T17:27:40.994Z
 published: true
 editor: markdown
-tags: networking, college, tech
+tags:
+  - networking
+  - college
+  - tech
 dateModified: 
 ---
 
@@ -33,12 +36,15 @@ This Wiki is built on [Obsidian Note Taking software]() as the backend. Gittea s
 
 
 ## Other Services provided by CommsNet
+
 Networking
+
 - [Uptime-Kuma](https://status.commsnet.org)
 - [librespeed](https://speedtest.commsnet.org)
 - [Unifi-Controller]()
 
 File Storage and Collaboration
+
 - [Nextcloud](https://nextcloud.commsnet.org)
 - [gittea](https://git.commsnet.org)
 - [wiki.js](https://wikijs.commsnet.org)
@@ -47,36 +53,45 @@ File Storage and Collaboration
 - [commento](https://commento.commsnet.org)
 
 Games
+
 - [EmulatorJS](https://games.commsnet.org)
 - [Minecraft Server (Bedrock)](myst.commsnet.org:19132)
 
 Search Engine
+
 - [whoogle](!https://whoogle.commsnet.org)- Discontinued in favor of SearXNG ([Guide to setup as default Search Engine])
 - [SearXNG](https://search.commsnet.org)
 
 Dashboard
+
 - [Organizr](!https://organizr.commsnet.org) - Discontinued use 
 
 Media
+
 - [Ombi](https://ombi.commsnet.org)
 - [Plex](https://blackrifle.commsnet.org)
 - [Jellyfin](https://jellyfin.commsnet.org)
 
 Support
+
 - [MeshCentral]()
 
 Analytics
+
 - [Matomo](!https://matomo.commsnet.org) -Discontinued use as the Analytics gathered were not useful
 
 Security
+
 - [AlienVault]()
 - [SecurityOnion]()
 - [CyberChef](https://cyberchef.commsnet.org) - Discontinued as no one ever used it
 
 Home Automations
+
 - [HomeAssistant (Docker)]()
 
 ### Privacy Notice
+
 Rest assured, no analytics are collected on this site. If you notice any trackers or unwanted elements, please let us know so we can address them promptly. We're excited to have you on board and look forward to your contributions and engagement!
 
 [Join our Community](https://wiki.commsnet.org/register) | [Contribute](https://wiki.commsnet.org/en/Donate) | [Contact Us](#)

@@ -1,3 +1,12 @@
+---
+title: Linux Basics
+description: 
+dateCreated: 
+published: 
+editor: markdown
+tags: 
+dateModified: 
+---
 # Linux Basics
 
 ## Change Hostname
@@ -25,7 +34,7 @@ network:
 netplay apply
 ```
 ## Change IP Address in Ubuntu 22.04 LTS
-### gateway4 has been depricated in ubuntu 22.04 release and routes is used instead!
+### gateway4 has been deprecated in ubuntu 22.04 release and routes is used instead
 1. Create a new file `/etc/netplan/01-netcfg.yaml`
 ```yaml
 network:

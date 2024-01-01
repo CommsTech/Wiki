@@ -10,7 +10,6 @@ dateModified:
 
 # Dell Venue 11 Pro
 
-
 Original Article located at https://www.dell.com/community/Tablets-Mobile-Devices/Venue-11-pro-i5-4300y-Throttling/m-p/4404025#M24903
 
 Download the custom boot file bootx64.efi and then copy it to X:\\efi\\boot\\ then place in a USB thumb drive.

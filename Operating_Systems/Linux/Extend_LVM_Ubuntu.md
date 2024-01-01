@@ -1,3 +1,12 @@
+---
+title: Extend LVM in Ubuntu
+description: 
+dateCreated: 
+published: 
+editor: markdown
+tags: 
+dateModified: 
+---
 # How to Extend the Default Ubuntu LVM Partition
 
 [John W Kerns](https://packetpushers.net/author/john-w-kerns/)November 12, 2021
@@ -70,6 +79,7 @@ Select your /dev/sda3 partition from the list and then select “**Resize**”
 Select “**Write**” from the bottom menu, type **yes** to confirm, and hit **ENTER**. Then use “**q**” to exit the program.
 
 Now that the LVM partition backing the  /dev/sda3 Physical Volume (PV) has been extended, we need to extend the PV itself. Run
+
 ```
 pvresize /dev/sda3
 ```
@@ -83,17 +93,21 @@ As you can see above, my PV has been increased from 98.5GB to 198.5GB. Now let�
 ![Ubuntu LVM: check vg space vgdisplay](https://packetpushers.net/wp-content/uploads/2021/11/12-ubuntu-lvm-check-vg-space-vgdisplay.jpg)
 
 We can see above that the VG has 100GB of free space. Now let’s check the size of our upstream Logical Volume (LV) using lvdisplay, extend the LV to use up all the VG’s free space with 
+
 ```
 lvextend -l +100%FREE /dev/ubuntu-vg/ubuntu-lv
 ```
+
 , and then check the LV one more time with lvdisplay to make sure it has been extended.
 
 ![Ubuntu LVM: check LV size lvdisplay](https://packetpushers.net/wp-content/uploads/2021/11/13-ubuntu-lvm-check-lv-size-lvdisplay.jpg)
 
 At this point, the block volume underpinning our root filesystem has been extended, but the filesystem itself has not been resized to fit that new volume. To do this, run df -h to check the current size of the file system, then run 
+
 ```
 resize2fs /dev/mapper/ubuntu--vg-ubuntu--lv
 ```
+
 to resize it, and df -h one more time to check the new file system available space.
 
 ![Ubuntu LVM: extend filesystem resize2fs](https://packetpushers.net/wp-content/uploads/2021/11/14-ubuntu-lvm-extend-filesystem-resize2fs.jpg)

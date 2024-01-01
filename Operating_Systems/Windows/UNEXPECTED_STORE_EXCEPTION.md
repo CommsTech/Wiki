@@ -69,6 +69,7 @@ WinDbg, the official Windows debugger, can be [downloaded from this link](https
 10.  The output will be shown in the [Notepad window](https://www.maketecheasier.com/add-open-with-notepad-to-context-menu-windows/). Below is a symbol search path that tells WinDbg where to look for symbol (PDB) files.
 
 Symbol search path is: srv*
+
 Expanded Symbol search path is: cache*;SRV
 
 ![Unexpected Store Windbg Command Line Output Sympath Srv Command](https://www.maketecheasier.com/assets/uploads/2022/11/Unexpected-Store-WinDbg-Command-Line-Output-Sympath-Srv-Command.jpg)
@@ -101,6 +102,7 @@ After downloading and installing WinDbg, use “Crash mode” analysis to solve 
 8.  Go back to the WinDbg command line and enter the following to create a user mode dump file.
 
 .dump [options] FileName
+
 .dump /?
 
 You can also operate it as a kernel mode dump, but the procedure is different and unnecessary.
@@ -122,6 +124,7 @@ To find the root cause of a “Store Exception” error, you can use another Win
 1.  Go back to the WinDbg command line and copy-paste the following:
 
 !analyze [-v] [-f | -hang] [-D BucketID]
+
 !analyze -c [-load KnownIssuesFile | -unload | -help ]
 
 ![Unexpected Store Analyze Command User Mode Entered](https://www.maketecheasier.com/assets/uploads/2022/05/Unexpected-Store-Analyze-Command-User-Mode-Entered.jpg)

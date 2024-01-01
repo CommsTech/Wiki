@@ -1,5 +1,5 @@
 ---
-title: Xbox_Console
+title: Plex Settings for Xbox Consoles
 description: All things Xbox
 dateCreated: 2022-05-21T15:28:21.146Z
 published: true
@@ -15,7 +15,7 @@ dateModified:
 
 ## Plex Settings
 
-### In order to change the Plex video quality settings on the Microsoft Xbox Console, simply find the settings menu hidden under your username in the home screen in Plex.
+### In order to change the Plex video quality settings on the Microsoft Xbox Console, simply find the settings menu hidden under your username in the home screen in Plex
 
 ![](https://mediaclients.wiki/client%20screen%20shots/xbox/xboxmenu.png)
 

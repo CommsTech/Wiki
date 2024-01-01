@@ -1,3 +1,13 @@
+---
+title: SSH Keys
+description: 
+dateCreated: 
+published: 
+editor: markdown
+tags: 
+dateModified: 
+---
+# SSH_Keys
 ```
 commstech@clustermgr:~$ ssh-keygen -t rsa -b 4096
 Generating public/private rsa key pair.
@@ -24,6 +34,7 @@ commstech@clustermgr:~$ ls -l .ssh
 ```
 
 Copy to another server
+
 ```
 commstech@clustermgr:~$ ssh-copy-id -i /home/commstech/.ssh/ansible commstech@192.168.255.8
 /usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/commstech/.ssh/ansible.pub"

@@ -12,7 +12,6 @@ tags:
 dateModified: 
 ---
 # Border_Gateway_Protocol_BGP
-## Border Gateway Protocol (BGP)
 
 **Border Gateway Protocol (BGP)** is a routing protocol designed for use in large-scale Internet Service Provider networks to exchange routing information between different autonomous systems. It is the primary protocol used for inter-domain routing on the internet, enabling efficient and scalable routing between different ISPs and their customers.
 

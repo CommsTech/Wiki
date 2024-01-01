@@ -1,8 +1,11 @@
 ---
 title: Nvidia Cuda 11.4.2 Ubuntu Install
 description: 
+dateCreated: 
 published: 
-tags:
+editor: markdown
+tags: 
+dateModified: 
 ---
 # [Installing CUDA Toolkit v11.4.2 on Ubuntu](https://curiousstuff.eu/post/installing-cuda-toolkit-v11.4.2-on-ubuntu/)
 
@@ -119,7 +122,7 @@ Copy
 
 The NVIDIA CUDA Toolkit is available at [https://developer.nvidia.com/cuda-downloads](https://developer.nvidia.com/cuda-downloads).
 
-### Handle conflicting installation methods.
+### Handle conflicting installation methods
 
 Before installing CUDA, any previously installations that could conflict should be uninstalled. This will not affect systems which have not had CUDA installed previously, or systems where the installation method has been preserved
 
@@ -168,6 +171,7 @@ Copy
 Regenerate the kernel initramfs
 
 |```bash 
+
 sudo update-initramfs -u```|
 
 Copy

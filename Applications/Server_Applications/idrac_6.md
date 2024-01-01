@@ -14,11 +14,15 @@ dateModified:
 # IDRAC 6
 
 if you get the following error message. watch [this](https://www.youtube.com/watch?v=drhSo9Xl9M0) video for the solution
+
 ![[Idrac_security_application_error_idrac6.png]]
 
 Here is an example of a modified java file for idrac access on windows 10
+
 File is located @ C:\Program Files\Java\jre1.8.0_331\lib\security
+
 java.security
+
 ```
 # tryLast
 #    KDCs in the blacklist are always tried after those not on the list.

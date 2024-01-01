@@ -1,4 +1,14 @@
+---
+title: AWK
+description: 
+dateCreated: 
+published: 
+editor: markdown
+tags: 
+dateModified: 
+---
 # AWK
+
 AWK (awk) is a domain-specific language designed for text processing and typically used as a data extraction and reporting tool. Similar to the **[Sed](sed)** and **[Grep](grep)** commands, it is a filter, and is a standard feature of most Unix-like operating systems, like **[Linux](linux)**.
 
 ## Awk Cheat Sheet
@@ -23,19 +33,29 @@ awk "/pattern/ {print \"$1\"}"  # GnuWin32, UnxUtils, Mingw
 ```
 
 Note that the DJGPP compilation (for DOS or Windows-32) permits an awk
+
 script to follow Unix quoting syntax `'/like/ {"this"}'`. HOWEVER, if the
+
 command interpreter is `CMD.EXE` or `COMMAND.COM`, single quotes will not
+
 protect the redirection arrows `(<, >)` nor do they protect pipes `(|)`.
+
 These are special symbols which require "double quotes" to protect them
+
 from interpretation as operating system directives. If the command
+
 interpreter is bash, ksh, zsh or another Unix shell, then single and double
+
 quotes will follow the standard Unix usage.
 
 Users of MS-DOS or Microsoft Windows must remember that the percent
+
 sign `(%)` is used to indicate environment variables, so this symbol must
+
 be doubled `(%%)` to yield a single percent sign visible to awk.
 
 To conserve space, use `'1'` instead of `'{print}'` to print each line.
+
 Either one will work.
 
 ## Handy one-line Awk scripts
@@ -308,26 +328,37 @@ Either one will work.
 ## References
 
 For additional syntax instructions, including the way to apply editing
+
 commands from a disk file instead of the command line, consult:
 
   "sed & awk, 2nd Edition," by Dale Dougherty and Arnold Robbins
+
   (O'Reilly, 1997)
 
   "UNIX Text Processing," by Dale Dougherty and Tim O'Reilly (Hayden
+
   Books, 1987)
 
   "GAWK: Effective awk Programming," 3d edition, by Arnold D. Robbins
+
   (O'Reilly, 2003) or at http://www.gnu.org/software/gawk/manual/
 
 To fully exploit the power of awk, one must understand "regular
+
 expressions." For detailed discussion of regular expressions, see
+
 "Mastering Regular Expressions, 3d edition" by Jeffrey Friedl (O'Reilly,
+
 2006).
 
 The info and manual ("man") pages on Unix systems may be helpful (try
+
 "man awk", "man nawk", "man gawk", "man regexp", or the section on
+
 regular expressions in "man ed").
 
 USE OF '\t' IN awk SCRIPTS: For clarity in documentation, I have used
+
 '\t' to indicate a tab character (0x09) in the scripts.  All versions of
+
 awk should recognize this abbreviation.

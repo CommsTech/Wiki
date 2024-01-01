@@ -12,6 +12,7 @@ dateModified:
 # Twisted Pair Cables Cheat-Sheet
 
 Twisted pair cables are a type of copper cabling used for transmitting data in local area networks (LANs). They consist of two insulated wires twisted around each other to reduce electromagnetic interference. This document covers the basics of twisted pair cables, their status indicators, and troubleshooting common issues.
+
 ## Table of Contents
 
 1. [Introduction to Twisted Pair Cables](http://192.168.255.11:8001/#introduction-to-twisted-pair-cables)
@@ -26,6 +27,7 @@ Twisted pair cables are a type of copper cabling used for transmitting data in l
 ## Introduction to Twisted Pair Cables
 
 In this section, we'll discuss the basics of twisted pair cables, their advantages, and common applications in LANs. We will also cover the different types of twisted pair cabling standards, such as UTP (Unshielded Twisted Pair) and STP (Shielded Twisted Pair).
+
 ## Cable Types
 
 ### Unshielded Twisted Pair (UTP)
@@ -47,6 +49,7 @@ A cable that is classified as S/FTP or Shielded Foil Twisted Pair is a combinati
 ## Wiring
 
 ### TIA/EIA 568A Wiring
+
 PIN | COLOR | COLOR-TEXT
 ---|---|---
 1 | <span style="color:green">█</span>█<span style="color:green">█</span>█<span style="color:green">█</span>█ | White and Green
@@ -57,7 +60,9 @@ PIN | COLOR | COLOR-TEXT
 6 | <span style="color:orange">██████</span> | Orange
 7 | <span style="color:brown">█</span>█<span style="color:brown">█</span>█<span style="color:brown">█</span>█ | White and Brown
 8 | <span style="color:brown">██████</span> | Brown
+
 ### TIA/EIA 568B Wiring
+
 PIN | COLOR | COLOR-TEXT
 ---|---|---
 1 | <span style="color:orange">█</span>█<span style="color:orange">█</span>█<span style="color:orange">█</span>█ | White and Orange

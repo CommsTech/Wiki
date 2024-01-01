@@ -10,6 +10,7 @@ dateModified:
 # iTerm2
 
 ## Tabs and Windows
+
 Shortcut | Description
 ---|---
 `[⌘ Command] + [T]` | New Tab
@@ -25,6 +26,7 @@ Shortcut | Description
 `[⇧ Shift] + [⌘ Command] + [↵ Enter]` | Maximize
 
 ## Cursor and selection
+
 Shortcut | Description
 ---|---
 `[˄ Control] + [B]` | Move back one character
@@ -33,4 +35,3 @@ Shortcut | Description
 `[˄ Control] + [W]` | Delete previous word (in shell)
 `[˄ Control] + [A]` | Move to the start of line
 `[˄ Control] + [E]` | Move to the end of line
-

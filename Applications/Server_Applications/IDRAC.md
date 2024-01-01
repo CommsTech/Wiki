@@ -7,11 +7,7 @@ editor: markdown
 tags: 
 dateModified: 
 ---
-# [iDrac Dell Server (Off-Band Remote Access)](https://christitus.com/idrac-dell-server/ "See on original website")
-
-[![✇](https://freshrss.commsnet.org/f.php?c590a1d4)Hardware on Chris Titus Tech | Tech Content Creator](https://freshrss.commsnet.org/i/?get=f_6 "Filter") 
-
-March 24th 2015 at 2:43 pm
+# iDrac Dell Server (Out-Of-Band Remote Access)
 
 I recently had a server freeze up when I wasn’t on-site and needed to power cycle it. I had configured iDrac before but it was not responsive. Here are some useful commands that can configure, reboot, and reset the iDrac function on Dell Servers. The commands below are run from a command prompt on the server (unless otherwise stated) in the (C:\Program Files\Dell\SysMgt\idrac) path.
 

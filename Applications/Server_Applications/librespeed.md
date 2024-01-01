@@ -12,6 +12,6 @@ dateModified:
 ---
 # librespeed
 
-### Free and Open Source Speedtest. No Flash, No Java, No Websocket, No Bullshit.
+## Free and Open Source Speedtest. No Flash, No Java, No Websocket, No Bullshit
 
 [LibreSpeeds GIT](https://github.com/librespeed/speedtest)

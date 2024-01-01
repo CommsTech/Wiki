@@ -9,12 +9,6 @@ dateModified:
 ---
 # [Quickemu](https://christitus.com/quickemu/ "See on original website")
 
-[![✇](https://freshrss.commsnet.org/f.php?e35a1391)Linux on Chris Titus Tech | Tech Content Creator](https://freshrss.commsnet.org/i/?get=f_7 "Filter") 
-
-December 20th 2022 at 7:00 pm
-
-This is a GitHub project that installs virtual machines for more than 300+ spins of Linux, Windows, and macOS!
-
 ## The Project
 
 Source: [https://github.com/quickemu-project/quickemu](https://github.com/quickemu-project/quickemu)

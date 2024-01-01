@@ -12,10 +12,10 @@ dateModified:
 
 # XCP-NG in VMware nested virtualization
 
-
 ![XCP NG in VMware nested virtualization](https://www.virtualizationhowto.com/wp-content/uploads/2022/07/XCP-NG-in-VMware-nested-virtualization-640x470.png)
 
  XCP NG
+
 ## What is XCP-NG?
 
 First of all, what is XCP-NG? XCP-NG is a virtualization platform based on the Xen Project hosted in the Linux Foundation. Being based on XenServer, it is a collaboration between individuals and businesses looking to deliver an open-source virtualization project that can meet the challenges of the enterprise today.

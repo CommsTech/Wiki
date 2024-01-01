@@ -1,10 +1,15 @@
-# [Clearing out Orphaned Shadow Copies](https://christitus.com/orphaned-shadow-copies/ "See on original website")
+---
+title: Remove Orphaned Shadow Copies
+description: 
+dateCreated: 
+published: 
+editor: markdown
+tags: 
+dateModified: 
+---
+# Remove Orphaned Shadow Copies
 
-[![✇](http://192.168.255.25:10010/f.php?8ebc292a)Windows Server on Chris Titus Tech | Tech Content Creator](http://192.168.255.25:10010/i/?get=f_11 "Filter") 
-
-October 25th 2018 at 11:34 am
-
-In this article, I go over how to get rid of Orphaned Shadow Copies that do not get cleared out by issuing: `vssadmin shadows delete /all`
+get rid of Orphaned Shadow Copies that do not get cleared out by issuing: `vssadmin shadows delete /all`
 
 ## Steps to clear out all orphaned shadow copies
 

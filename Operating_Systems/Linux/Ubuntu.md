@@ -15,11 +15,11 @@ In Ubuntu, while installing an application or updating the repository we might c
 
 ## How To Fix Lock /var/lib/apt/lists/lock Error [Solved]
 
-#### **At first, You Need To Locate The _`Lock`_ Directory**
+### **At first, You Need To Locate The _`Lock`_ Directory**
 
 In simple terms, the director has been locked or the Debian package is not available in the system. Or the apt lock list that is placed in the var directory is unavailable. It’s like removing your USB drive while copying files. This error appears when you remove a directory or repository from the Ubuntu filesystem when that file is in use.
 
-#### **Now Fix Lock Issues Through CLI**
+### **Now Fix Lock Issues Through CLI**
 
 Most often, the issue gets resolved with a simple reboot. However, if you can’t solve the issue with a restart then run the following commands to fix Lock /var/lib/apt/lists/lock error.
 
@@ -30,6 +30,7 @@ sudo rm /var/lib/apt/lists/lock
 Now, remove the dpkg lock file from the library.
 
 sudo rm /var/lib/dpkg/lock
+
 sudo rm /var/lib/dpkg/lock-frontend
 
 Now, remove the cache file of apt archives with the following command.

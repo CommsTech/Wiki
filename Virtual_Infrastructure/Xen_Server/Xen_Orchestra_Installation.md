@@ -8,10 +8,10 @@ tags: XEN, Virtual Management
 dateModified: 
 ---
 # Xen_Orchestra_Installation
-#### Chris Titus Tech has an amazing walkthrough with a video. Check it out @ [How to Install Xen Orchestra](https://christitus.com/how-to-install-xen-orchestra/ "See on original website")
+## Chris Titus Tech has an amazing walkthrough with a video. Check it out @ [How to Install Xen Orchestra](https://christitus.com/how-to-install-xen-orchestra/ "See on original website")
 
 
-## Step-by-Step Guide
+# Step-by-Step Guide
 
 1.  SSH into XenServer 
 

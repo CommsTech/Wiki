@@ -8,6 +8,7 @@ tags:
 dateModified: 
 ---
 # HAProxy_Authentik
+
 PFSENSE HAPROXY Authentik
 
 ![[Pasted image 20230923143719.png]]
@@ -40,4 +41,3 @@ name: X-Original-URL
 ```
 
 ![[Pasted image 20230923143931.png]]
-

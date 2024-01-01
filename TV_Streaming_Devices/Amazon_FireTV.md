@@ -11,11 +11,11 @@ dateModified:
 
 
 ## Plex Settings
-#### In order to change the Plex video quality settings on your Amazon FireTV device, simply find the **“Settings”** menu option at the bottom of the home screen in Plex.
+### In order to change the Plex video quality settings on your Amazon FireTV device, simply find the **“Settings”** menu option at the bottom of the home screen in Plex
 
 ![](https://mediaclients.wiki/firetvsettingsmu.png)
 
-### Settings > Video Quality >
+## Settings > Video Quality >
 
 -   Adjust automatically > OFF
 -   Home streaming > **Maximum**

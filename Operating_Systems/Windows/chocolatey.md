@@ -8,6 +8,7 @@ tags:
 dateModified: 
 ---
 # Chocolatey
+
 Chocolatey is a machine-level, command-line package manager and installer for Windows software.
 
 Project Homepage: [Chocolatey Homepage](https://chocolatey.org)

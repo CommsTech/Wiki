@@ -1,3 +1,13 @@
+---
+title: Multiuse Drives in Truenas Scale
+description: 
+dateCreated: 
+published: 
+editor: markdown
+tags: 
+dateModified: 
+---
+# Multiuse_drives
 
 How to use a single NVMe as boot, cache and slog device
 
@@ -23,7 +33,9 @@ Installation[](https://docs.ibracorp.io/truenas-scale#installation)
 
 -   1.
     
+
     Boot from the ISO
+
     
 
 ![](https://4057985046-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F8cuRHmSwh1ziTpD8S2Wz%2Fuploads%2FP8M1SRDks3FPElBbMIxZ%2FTrueNAS%20Scale%20001.png?alt=media&token=3c3529ec-75a5-415e-bae0-65b3a1a5bc43)

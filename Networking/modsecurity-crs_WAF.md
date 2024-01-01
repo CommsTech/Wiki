@@ -1,3 +1,14 @@
+---
+title: ModSecurity-crs Web Application Firewall (WAF)
+description: 
+dateCreated: 
+published: 
+editor: markdown
+tags: 
+dateModified: 
+---
+# modsecurity-crs_WAF
+
  I used the modsecurity WAF which I setup in a docker node running behind the firewall based on https://github.com/jcmoraisjr/modsecurity-spoa.
 
 The tricky part was using the pfSense GUI to configure the HAProxy frontend.
@@ -25,15 +36,22 @@ The setup works but I should add deploying a WAF this way may not be the best of
 
 I tested this using this: https://github.com/wallarm/gotestwaf. The default rules of the modsecurity setup mentioned earlier doesn't score perfectly but shows pfSense interface to the WAF works and that its time to tune :)
 
-### Kill Switch
+## Kill Switch
+
 If you would like to implement a kill switch the following changes will be required
+
 The following changes were made which results in a 403 error protecting the backend application if the WAF container is not running.
 
 [![963b85c5-b8a9-48af-b0be-e37a02dbf526-image.png](https://forum.netgate.com/assets/uploads/files/1631615854530-963b85c5-b8a9-48af-b0be-e37a02dbf526-image.png)](https://forum.netgate.com/assets/uploads/files/1631615854530-963b85c5-b8a9-48af-b0be-e37a02dbf526-image.png)
 
 Additional Resources 
+
 https://www.netnea.com/cms/apache-tutorial-6_embedding-modsecurity/
+
 https://hub.docker.com/r/owasp/modsecurity-crs/
+
 https://coreruleset.org/videos/
+
 https://forum.netgate.com/topic/164410/haproxy-with-an-external-modsecurity-filter/8
+
 https://owasp.org/www-project-modsecurity-core-rule-set/

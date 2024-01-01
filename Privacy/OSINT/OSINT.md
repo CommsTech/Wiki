@@ -1,12 +1,12 @@
 ---
 title: OSINT Tools
 description: Tools
+dateCreated: 2022-05-09T04:58:47.010Z
 published: true
+editor: markdown
 tags:
   - OSINT
-editor: markdown
-dateCreated: 2022-05-09T04:58:47.010Z
-dateModified:
+dateModified: 
 ---
 
 # OSINT Tools
@@ -19,7 +19,7 @@ Compilation of Resources from TCM's OSINT Course
 
 TCM-Security:  <https://tcm-sec.com/>
 
-## Links to Course:
+## Links to Course
 
 - Udemy:  <https://www.udemy.com/course/osint-fundamentals/>
 - TCM-Academy:  <https://academy.tcm-sec.com/p/osint-fundamentals>
@@ -161,6 +161,7 @@ https://www.usapeopledata.com/remove.php
 https://information.com/people/
 
 https://infotracer.com/
+
 ## Social Media OSINT
 
 Twitter Advanced Search -  <https://twitter.com/search-advanced>

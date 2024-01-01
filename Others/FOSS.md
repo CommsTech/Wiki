@@ -9,10 +9,10 @@ dateModified:
 ---
 # FOSS
 # $0.00 or Open Source Creative Software
-##### Original Source Https://cryptpad.fr/pad/#/2/pad/view/LCPzkPZYgqUYgB3wRXd4vcER6ExZy1Fpm-WLOfSIyZM/   Thank you for all the hard work!
+## Original Source Https://cryptpad.fr/pad/#/2/pad/view/LCPzkPZYgqUYgB3wRXd4vcER6ExZy1Fpm-WLOfSIyZM/   Thank you for all the hard work
 
 
-## Version Control (Can Be Used For Non-Programming Projects)
+# Version Control (Can Be Used For Non-Programming Projects)
 
 [Git](https://git-scm.com)
 
@@ -24,10 +24,9 @@ dateModified:
 
 [Github](https://github.com) ([Tutorial](https://www.youtube.com/watch?v=RvnM6EEwp1I), [Tutorial 2](https://www.youtube.com/watch?v=nhNq2kIvi9s), [$Tutorial](https://www.udemy.com/course/git-and-github-masterclass/))
 
+# Planning/ Brainstorming
 
-## Planning/ Brainstorming
-
-#### Mind Mappers
+# Mind Mappers
 
 [FreePlane](https://www.freeplane.org/wiki/index.php/Home)  
 
@@ -39,8 +38,7 @@ dateModified:
 
 [Diagram](https://www.diagrams.net/) 
 
-
-#### AGILE Boards
+# AGILE Boards
 
 [Phacility](https://phacility.com/phabricator/)  
 
@@ -56,8 +54,7 @@ dateModified:
 
 [ZenKit](https://zenkit.com)  
 
-
-#### Project Planners
+# Project Planners
 
 [Project Libre](http://www.projectlibre.com/product/projectlibre-open-source)  
 
@@ -65,9 +62,9 @@ dateModified:
 
 [Calligra Plan](https://www.calligra.org/plan/)
 
-## Productivity
+# Productivity
 
-#### Timers
+# Timers
 
 [Mater](https://github.com/jasonlong/mater/releases)  
 
@@ -89,8 +86,7 @@ dateModified:
 
 [Stretchly](https://hovancik.net/stretchly/)  
 
-
-#### To Do Lists
+# To Do Lists
 
 [Todour](https://nerdur.com/todour-pl/)  
 
@@ -102,9 +98,9 @@ dateModified:
 
   
 
-## Communication/ Team Chat 
+# Communication/ Team Chat 
 
-#### Group Chat
+# Group Chat
 
 [Element](https://element.io/)
 
@@ -136,7 +132,7 @@ dateModified:
 
 [Slack](https://slack.com)  
 
-#### Instant Messaging 
+# Instant Messaging 
 
 [Signal](https://signal.org/en/)[](https://telegram.org/)  
 
@@ -146,8 +142,7 @@ dateModified:
 
 [Tox Chat](https://tox.chat)  
 
-
-## E-Mail
+# E-Mail
 
 [Tutanota](https://tutanota.com)
 
@@ -157,7 +152,8 @@ dateModified:
 
   
 
-## Social Media  
+# Social Media  
+
 [Okuna](https://www.okuna.io/)  
 
 [Diaspora](https://diasporafoundation.org)
@@ -172,13 +168,13 @@ dateModified:
 
   
 
-## Online Storage
+# Online Storage
 
 [NextCloud](https://nextcloud.com/)  
 
   
 
-## Fonts  
+# Fonts  
 
 [BirdFont](https://birdfont.org) ([BF Tutorials](https://birdfont.org/doku/doku.php/tutorials))
 
@@ -188,7 +184,7 @@ dateModified:
 
   
 
-## Document Formatting
+# Document Formatting
 
 [LibreOffice](https://www.libreoffice.org)
 
@@ -216,7 +212,8 @@ dateModified:
 
   
 
-## File Conversion  
+# File Conversion  
+
 [HandBrake](https://handbrake.fr/downloads.php)
 
 [fre:ac](https://www.freac.org/downloads-mainmenu-33)  
@@ -227,7 +224,7 @@ dateModified:
 
   
 
-## Writing
+# Writing
 
 [UltraOutliner](https://ultraoutliner.com/) ([UltraOutliner demo](https://www.youtube.com/watch?v=p31I2I2Jshs))
 
@@ -247,7 +244,7 @@ dateModified:
 
   
 
-## Dictionary/Thesaurus
+# Dictionary/Thesaurus
 
 [GoldenDict](http://goldendict.org/)  
 
@@ -255,7 +252,7 @@ dateModified:
 
   
 
-## Audio
+# Audio
 
 [Ardour](https://community.ardour.org/download) ([Manual](https://manual.ardour.org/toc/))  
 
@@ -273,7 +270,8 @@ dateModified:
 
   
 
-## Podcasting  
+# Podcasting  
+
 [PodSheets](https://www.podsheets.com/)  
 
 [PodcastGenerator](http://www.podcastgenerator.net)
@@ -288,7 +286,7 @@ dateModified:
 
   
 
-## Music
+# Music
 
 [LMMS](https://lmms.io/) ([Manual](https://docs.lmms.io/user-manual/), [YT Tutorials](https://www.youtube.com/watch?v=TrMTlpeSw8Y&list=PLqazFFzUAPc4K1To5JTtR3cskcdRifM1M), [Tutorials 2](https://www.youtube.com/watch?v=QFm2rYYTATE&list=PLvuy9nLHreItjDLjzLrCKktZ8W_7t_JB4), [Tutorials 3](https://www.youtube.com/watch?v=--hyM4LKI8A&list=PL0AWM0ehQi5tuxUloNlXP64BSRde0QsqP), [Tutorials 4](http://lmms.io/wiki/index.php?title=Video_tutorials), [How To Use LMMS](https://www.youtube.com/watch?v=3qfa9hGJzoY),  [$Tutorial](https://www.udemy.com/course/lmms-music-production/))
 
@@ -324,7 +322,7 @@ dateModified:
 
   
 
-## Digital Painting/Photo Manipulation  
+# Digital Painting/Photo Manipulation  
 
 [Krita](https://krita.org/en/) ([Manual](https://docs.krita.org/en/), [Tutorials](https://www.youtube.com/watch?v=Uc5H1ZjuQ4w&list=PLhqJJNjsQ7KEtFciikafqWU-OeU4SEejC), [Tutorials 2](https://www.youtube.com/watch?v=8FfVnEIkA3I&list=PLaGRTLvEbVzybijtYZRy4EoGrx6Bq_xOG), [Tutorials 3](https://www.youtube.com/watch?v=9u8_gewIRks&list=PLGKIkAXk1OeSRZ7_xhz_TvUgudrL8_yJt), [Tutorials 4](https://www.youtube.com/watch?v=3dxRuXmRChs&list=PLBZfJUa5uZijev1mj1K4AqWqKTEYBo4H3), [$Tutorial](https://www.udemy.com/course/krita-basic-to-advanced-digital-painting/), [$Tutorial 2](https://www.udemy.com/course/get-started-digital-painting-with-krita/))  
 
@@ -372,7 +370,7 @@ dateModified:
 
   
 
-## Photography  
+# Photography  
 
 [Darktable](https://www.darktable.org) ([Resources](https://www.darktable.org/resources/), [Tutorials](https://www.youtube.com/watch?v=xi4x2qQkG8c&list=PLy01z3xJ2KuqLf8z4B-bldkf5hKcqnRJh), [Tutorials 2](https://www.youtube.com/watch?v=NMcA6MIhg0Q&list=PLqazFFzUAPc6ZUGNzA0cHEm0M06SsMYx7), [Tutorials 3](https://www.youtube.com/watch?v=s41rmYxOQ0g&list=PLlYWvzmJQTrRq7JrYdD7k3-8-v-uHnhK_))
 
@@ -392,7 +390,7 @@ dateModified:
 
   
 
-## 3D Modelling  
+# 3D Modelling  
 
 [Blender](https://www.blender.org/) ([BlenderGuru Tutorials](https://www.youtube.com/playlist?list=PLjEaoINr3zgEq0u2MzVgAaHEBt--xLB6U), [Tutorials](https://www.youtube.com/watch?v=S2aPl_BSRU8&list=PLXZuwfpQtPosBoBxc0gNC7VCSc6Lf3eTj), [Tutorials 2](https://www.youtube.com/playlist?list=PL3UWN2F2M2C8-zUjbFlbgtWPQa0NXBsp0), [Channel](https://www.youtube.com/user/jayanamgames/playlists?view=1&sort=dd&shelf_id=0), [$Tutorial](https://www.udemy.com/course/blendertutorial/), [$BlenderEnvironment](https://www.udemy.com/course/blenderenvironment/))  
 
@@ -430,7 +428,7 @@ dateModified:
 
   
 
-## Video Editing  
+# Video Editing  
 
 [Shotcut](https://shotcut.org) ([YT Tutorials](https://www.youtube.com/watch?v=bpDkYrWMjbw&list=PLqazFFzUAPc7tJwr4opBVx0-AIAAweDHh), [Tutorials](https://shotcut.org/tutorials/), [$Tutorial](https://www.udemy.com/course/video-editing-for-beginners-complete-shotcut-masterclass/))  
 
@@ -466,7 +464,7 @@ dateModified:
 
   
 
-## Misc Filmmaking
+# Misc Filmmaking
 
 [Fountain](https://fountain.io) ([HowTo](https://fountain.io/howto))
 
@@ -488,7 +486,8 @@ dateModified:
 
   
 
-## Animation
+# Animation
+
 ([12 Principles of Animation](https://www.youtube.com/playlist?list=PL-bOh8btec4CXd2ya1NmSKpi92U_l6ZJd))
 
 [Tahoma2D](https://tahoma2d.org/)  
@@ -519,7 +518,7 @@ dateModified:
 
   
 
-## Game Dev  
+# Game Dev  
 
 [Twine](https://twinery.org) ([Wiki](https://twinery.org/wiki/), [$Tutorial](https://www.udemy.com/course/twine-2-basics/))  
 
@@ -577,7 +576,7 @@ http://lwjgl.org
 
   
 
-## Virtual/Mixed/Augmented Reality 
+# Virtual/Mixed/Augmented Reality 
 
 [ArgonJS](https://www.argonjs.io)  
 
@@ -611,7 +610,7 @@ http://lwjgl.org
 
   
 
-## Broadcasting/ Streaming
+# Broadcasting/ Streaming
 
 [OBS](https://obsproject.com) ([Wiki](https://obsproject.com/wiki/), [Tutorials](https://www.youtube.com/watch?v=RX0vimAuNuU&list=PLzo7l8HTJNK8q5jOJJyKa7fIIvdRUch-P), [Tutorials 2](https://www.youtube.com/watch?v=0hkhWPKSIdw&list=PLyH-qXFkNSxkR7GAjc85XSn4HBeULVTCQ), [Tutorials 3](https://www.youtube.com/watch?v=r7teWxV5BCE&list=PLyH-qXFkNSxkv8uo5O5Fa-Uk-JwX59iXv), [$Tutorial](https://www.udemy.com/course/obs-live-streaming-course/))
 
@@ -619,7 +618,8 @@ http://lwjgl.org
 
   
 
-## Media Hosting  
+# Media Hosting  
+
 [PeerTube](https://joinpeertube.org)
 
 [NodeTube](https://nodetube.live)
@@ -630,7 +630,7 @@ http://lwjgl.org
 
   
 
-## Media Players
+# Media Players
 
 [VLC](https://www.videolan.org/vlc/index.html)
 
@@ -662,7 +662,7 @@ http://lwjgl.org
 
   
 
-## Crowdfunding
+# Crowdfunding
 
 [OpenCollective](https://opencollective.com/)  
 [LiberaPay](https://en.liberapay.com)  
@@ -681,7 +681,8 @@ http://lwjgl.org
 
   
 
-## eCommerce  
+# eCommerce  
+
 [OSCommerce](http://www.oscommerce.com)
 
 [PrestaShop](https://www.prestashop.com/en)
@@ -712,9 +713,9 @@ http://lwjgl.org
 
   
 
-## Content Hosting
+# Content Hosting
 
-#### Site Builders  
+# Site Builders  
 
 [Silex](https://www.silex.me)  
 
@@ -736,7 +737,7 @@ http://lwjgl.org
 
 [Write.as](https://write.as)  
 
-#### Static Site Builders  
+# Static Site Builders  
 
 [Jekyll](https://jekyllrb.com/)  
 
@@ -758,7 +759,7 @@ http://lwjgl.org
 
 [Primo](https://primo.af/)  
 
-#### CMSs
+# CMSs
 
 [Drupal](https://www.drupal.org)
 
@@ -774,7 +775,7 @@ http://lwjgl.org
 
 [YouDontNeedWP](https://www.youdontneedwp.com)  
 
-#### Web Hosting
+# Web Hosting
 
 [ZeroNet](https://zeronet.io)  
 
@@ -812,7 +813,7 @@ http://lwjgl.org
 
   
 
-## Web Browsers 
+# Web Browsers 
 
 [Bold](https://github.com/BoldBrowser/bold-browser)  
 
@@ -822,7 +823,7 @@ http://lwjgl.org
 
   
 
-## Misc Resources
+# Misc Resources
 
 [r/OpenSource](https://www.reddit.com/r/opensource/)
 
@@ -874,11 +875,11 @@ http://lwjgl.org
 
 [Lichess](https://lichess.org/)  
 
-## STEM Stuff
+# STEM Stuff
 
-## Programming 
+# Programming 
 
-## Dev Tools
+# Dev Tools
 
 [Atom](https://atom.io)
 
@@ -926,7 +927,7 @@ http://lwjgl.org
 
   
 
-## Software Project Planning
+# Software Project Planning
 
 [PlantUML](https://plantuml.com/)
 
@@ -946,7 +947,7 @@ http://lwjgl.org
 
   
 
-## Virtual Machines
+# Virtual Machines
 
 [VirtualBox](https://www.virtualbox.org)
 
@@ -955,9 +956,10 @@ http://lwjgl.org
 [Qubes OS](https://www.osboxes.org/qubes-os/)  
 [](https://protonmail.com/)  
 
-## Open Source Hardware and/or Maker Projects 
+# Open Source Hardware and/or Maker Projects 
 
-## Maker Sites  
+# Maker Sites  
+
 [Hackaday](https://hackaday.io/projects)  
 
 [Hackster.io](https://www.hackster.io/)  
@@ -974,7 +976,7 @@ http://lwjgl.org
 
   
 
-## Maker/Hardware 101
+# Maker/Hardware 101
 
 [Basic Electronic Components](https://www.instructables.com/id/Basic-Electronic-components/)  
 
@@ -1004,7 +1006,7 @@ http://lwjgl.org
 
   
 
-## CAD
+# CAD
 
 [FreeCad](https://www.freecadweb.org)  
 
@@ -1014,7 +1016,7 @@ http://lwjgl.org
 
   
 
-## Hardware Programming
+# Hardware Programming
 
 [Arduino](https://www.arduino.cc/en/Main/Software)
 
@@ -1022,7 +1024,8 @@ http://lwjgl.org
 
   
 
-## 3D Printing  
+# 3D Printing  
+
 [Ultimaker Cura](https://ultimaker.com/software/ultimaker-cura)  
 
 [MeshLab](http://www.meshlab.net/#download)  
@@ -1031,13 +1034,13 @@ http://lwjgl.org
 
   
 
-## CNC
+# CNC
 
 [Free and Open Source CamCNC Software](https://www.reddit.com/r/CNC/comments/aizatc/free_and_open_source_camcnc_software/)
 
   
 
-## Maker Site Open Source Projects
+# Maker Site Open Source Projects
 
 [Hackaday.io Open Source Projects](https://hackaday.io/search?term=Open%20Source&category=project%20project)  
 
@@ -1055,8 +1058,8 @@ http://lwjgl.org
 
   
 
-## Open Source Hardware Projects
-#### 3D Printing
+# Open Source Hardware Projects
+# 3D Printing
 
 [The RepRap 3D Printer](http://reprap.org/)  
 
@@ -1064,7 +1067,7 @@ http://lwjgl.org
 
 [Nautilus](https://www.hydraresearch3d.com/nautilus)  
 
-#### Building, Gardening, Etc.
+# Building, Gardening, Etc
 
 [Open Desk](https://www.opendesk.cc)  
 
@@ -1074,7 +1077,7 @@ http://lwjgl.org
 
 [AKER Simple Urban Garden Kits](https://akerkits.com)  
 
-#### Drones
+# Drones
 
 [APM:Copter – Open Source Drone](http://copter.ardupilot.com/)  
 
@@ -1090,7 +1093,7 @@ http://lwjgl.org
 
 [PX4 Autopilot](https://px4.io)  
 
-#### Home Assistants
+# Home Assistants
 
 [Gladys](https://gladysassistant.com/en/)  
 
@@ -1106,7 +1109,7 @@ http://lwjgl.org
 
 [DIY Smart Doorbell](https://www.instructables.com/id/DIY-Smart-Home-Doorbell-for-Less-Than-40/)
 
-#### Not As Focused On Privacy
+# Not As Focused On Privacy
 
 [Jasper](https://jasperproject.github.io)
 
@@ -1116,7 +1119,7 @@ http://lwjgl.org
 
 [Mycroft](https://mycroft.ai)  
 
-#### Home Security
+# Home Security
 
 [ZoneMinder](https://zoneminder.com)
 
@@ -1126,7 +1129,7 @@ http://lwjgl.org
 
 [LinuxMCE](http://www.linuxmce.com)  
 
-#### Robots
+# Robots
 
 [The Open Hand Project](http://www.openhandproject.org/)  
 
@@ -1146,7 +1149,7 @@ http://lwjgl.org
 
 [SpotMicro](https://gitlab.com/custom_robots/spotmicro)  
 
-#### VR/AR Devices
+# VR/AR Devices
 
 [Relativty](https://www.relativty.com/)  
 
@@ -1154,7 +1157,7 @@ http://lwjgl.org
 
 [Holokit](https://holokit.io)  
 
-#### Misc
+# Misc
 
 [MNT Reform](https://mntre.com/media/reform_md/2020-05-08-the-much-more-personal-computer.html)
 

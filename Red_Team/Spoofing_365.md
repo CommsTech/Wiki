@@ -8,8 +8,8 @@ tags:
 dateModified: 
 ---
 # Spoofing Microsoft 365 Like its 1995
-https://www.blackhillsinfosec.com/spoofing-microsoft-365-like-its-1995/
 
+https://www.blackhillsinfosec.com/spoofing-microsoft-365-like-its-1995/
 
 [Steve Borosh](https://twitter.com/424f424f) //
 
@@ -167,7 +167,7 @@ At the time of this writing, this finding has been submitted to MSRC and CLOSED 
 
 Special thanks to @ustayready for pointing me down this research path. Check out his handy Python script[7](https://www.blackhillsinfosec.com/spoofing-microsoft-365-like-its-1995/#footnote) for sending spoofed messages as well.
 
-#### REFERENCES
+### REFERENCES
 
 [1](https://www.blackhillsinfosec.com/spoofing-microsoft-365-like-its-1995/#linkback1). [https://www.verizon.com/business/resources/reports/dbir/2021/results-and-analysis/](https://www.verizon.com/business/resources/reports/dbir/2021/results-and-analysis/)
 

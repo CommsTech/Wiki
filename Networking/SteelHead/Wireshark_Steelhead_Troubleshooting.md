@@ -1,5 +1,5 @@
 ---
-title: 
+title: Wireshark Steelhead Troubleshooting
 description: 
 dateCreated: 
 published: 
@@ -23,9 +23,11 @@ This document provides guidance on troubleshooting SteelHead connection issues u
 9. [Generating System Dumps](#system-dumps)
 
 ## Connection History Reports {#connection-history}
+
 If the Lock icon isn’t visible, or is dimmed, click the connection to view a failure reason. This information can be found on page 482 of the SteelHead documentation.
 
 ## SSL and Secure Inner Channel Optimization {#ssl-optimization}
+
 For details on verifying SSL and secure inner channel optimization, refer to page 336 of the SteelHead documentation.
 
 [Configuring Markdown](../Markdown/Markdown.md) | [RFC 7763](../References/RFC_7763.md) | [GitHub Documentation: Writing Markdown on GitHub](../References/Writing-Markdown-on-GitHub.md)
