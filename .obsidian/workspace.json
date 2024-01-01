@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/Ansible/Playbooks/Ansible_Playbook_Ubuntu_Server_Update.md",
+                "file": "Cyber_Security/Terminology/Bots_and_Zombies.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/Ansible/Playbooks/Ansible_Playbook_Ubuntu_Server_Update.md",
+                "file": "Cyber_Security/Terminology/Bots_and_Zombies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/Ansible/Playbooks/Ansible_Playbook_Ubuntu_Server_Update.md",
+                "file": "Cyber_Security/Terminology/Bots_and_Zombies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/Ansible/Playbooks/Ansible_Playbook_Ubuntu_Server_Update.md"
+                "file": "Cyber_Security/Terminology/Bots_and_Zombies.md"
               }
             }
           },
@@ -191,14 +191,14 @@
   },
   "active": "81b69151463c744c",
   "lastOpenFiles": [
-    "Applications/Server_Applications/Ansible/Ansible.md",
-    "Applications/Server_Applications/Ansible/Playbooks/Ansible_Playbook_Ubuntu_Server_Update.md",
-    "Applications/Server_Applications/Ansible/Ansible_Gui_Semaphore.md",
-    "Cyber_Security/Terminology/Command_and_Control_Servers.md",
-    "Applications/Server_Applications/Ansible/Playbooks",
-    "Cyber_Security/Terminology/Bots_and_Zombies.md",
     "Cyber_Security/Terminology/Botmasters.md",
+    "Cyber_Security/Terminology/Bots_and_Zombies.md",
     "Cyber_Security/Terminology/Botnets.md",
+    "Cyber_Security/Terminology/Command_and_Control_Servers.md",
+    "Applications/Server_Applications/Ansible/Playbooks/Ansible_Playbook_Ubuntu_Server_Update.md",
+    "Applications/Server_Applications/Ansible/Ansible.md",
+    "Applications/Server_Applications/Ansible/Ansible_Gui_Semaphore.md",
+    "Applications/Server_Applications/Ansible/Playbooks",
     "Cyber_Security/Terminology",
     "About_Me.md",
     "Privacy/Privacy_Home.md",
