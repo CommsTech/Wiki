@@ -14,6 +14,7 @@ tags:
 dateModified: 
 ---
 # Ansible_Gui_Semaphore
+
 [Red Hat](https://www.openshift.com/try?utm_content=inline-mention)‘s open source [Ansible](https://www.ansible.com/) is an open source IT automation platform, [written in Python](https://thenewstack.io/an-introduction-to-python-a-language-for-the-ages/), that can configure systems, deploy software, and orchestrate advanced workflows. By default, Ansible is a command-line tool but isn’t terribly complicated to work with.
 
 However, there are some who’d much prefer having a graphical user interface (GUI) to make the platform more efficient to use. Thankfully, there’s one particular GUI, called Semaphore, that can help make using Ansible easier for larger environments and organizations.
@@ -34,27 +35,36 @@ The first thing to do is install a database server.  We’re going to go with M
 curl -LsS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | sudo bash -s —
 ```
   
+
 After that command finishes, install both the server and client with:  
 
 ```
 sudo apt install mariadb-server mariadb-client -y
 ```
   
+
 With MariaDB installed, secure it with the command:  
 
 ```
 sudo mariadb-secure-installation
 ```
   
-**Answer n to the first question**
-Switch to unix_socket authentication [Y/n] n
-**and y to the remaining**
-Change the root password? [Y/n] y ( You’ll also be prompted to create and verify a root user password.)
-Remove anonymous users? [Y/n] y
-Disallow root login remotely? [Y/n] y
-Remove test database and access to it? [Y/n] y
-Reload privilege tables now? [Y/n] y
 
+**Answer n to the first question**
+
+Switch to unix_socket authentication [Y/n] n
+
+**and y to the remaining**
+
+Change the root password? [Y/n] y ( You’ll also be prompted to create and verify a root user password.)
+
+Remove anonymous users? [Y/n] y
+
+Disallow root login remotely? [Y/n] y
+
+Remove test database and access to it? [Y/n] y
+
+Reload privilege tables now? [Y/n] y
 
 With the database installed, it’s time to add Semaphore. We’ll first set a variable for the version with the command:  
 
@@ -62,18 +72,21 @@ With the database installed, it’s time to add Semaphore. We’ll first set a v
 VER=$(curl -s https://api.github.com/repos/ansible-semaphore/semaphore/releases/latest|grep tag_name | cut -d '"' -f 4|sed 's/v//g')
 ```
   
+
 We can now use that variable to download the correct version with the command:  
 
 ```
 wget https://github.com/ansible-semaphore/semaphore/releases/download/v${VER}/semaphore_${VER}_linux_amd64.deb
 ```
   
+
 Install Semaphore with:  
 
 ```
 sudo apt install ./semaphore_${VER}_linux_amd64.deb
 ```
   
+
 Boom! Semaphore is installed and ready to be configured.
 
 ## Configure Semaphore
@@ -84,6 +97,7 @@ You don’t just edit a configuration file because none exists yet. To generate 
 sudo semaphore setup
 ```
   
+
 The first section of the configuration looks like this:  (Select 1 (MySQL))
 
 ```
@@ -103,6 +117,7 @@ What database to use:<
 
 
   
+
 Make sure to select MySQL for your database and then configure it accordingly. You can accept the default for everything, but you will have to type the MariaDB root user password you created earlier.
 
 When you get to the Hostname section (which looks like db Hostname (default 127.0.0.1:3306):), make sure to type it in the form:  
@@ -112,6 +127,7 @@ http://ANSIBLE:3000
 ```
 
   
+
 Where ANSIBLE is the IP address of your hosting server.
 
 Example : db Hostname (default 127.0.0.1:3306): http://192.168.255.10:3000
@@ -149,6 +165,7 @@ sudo nano /etc/systemd/system/semaphore.service
 ```
 
   
+
 In that file, paste the following:  
 
 ```
@@ -180,6 +197,7 @@ WantedBy=multi-user.target
 ```
 
   
+
 Save and close the file. (CTL + O then CTL + X)
 
 Reload the systemd daemon with:  
@@ -190,6 +208,7 @@ sudo systemctl start semaphore
 ```
 
   
+
 Start and enable the Semaphore service with:  
 
 ```

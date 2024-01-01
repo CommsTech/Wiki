@@ -11,12 +11,14 @@ tags:
 dateModified: 
 ---
 # Ansible
-Ansible is an open source community project sponsored by Red Hat, it's the simplest way to automate IT. Ansible is the only automation language that can be used across entire IT teams from systems and network administrators to developers and managers
 
+Ansible is an open source community project sponsored by Red Hat, it's the simplest way to automate IT. Ansible is the only automation language that can be used across entire IT teams from systems and network administrators to developers and managers
 
 ## Ansible Cheat-Sheet
 ### Step 1 - Install Ansible on Ubuntu
+
 PIP Method
+
 1. Install PIP
 ```bash
 sudo apt install python3-pip
@@ -51,7 +53,6 @@ sudo apt install ansible
 ```
 
 Your Ansible control node now has all of the software required to administer your hosts. Next, we will go over how to add your hosts to the control node’s inventory file so that it can control them.
-
 
 ### Step 2 — Setting Up the Inventory File
 
@@ -159,11 +160,12 @@ Once you get a `"pong"` reply back from a host, it means you’re ready to run
 
 **Note**: If you are unable to get a successful response back from your servers, check our [Ansible Cheat Sheet Guide](https://www.digitalocean.com/community/tutorials/how-to-use-ansible-cheat-sheet-guide) for more information on how to run Ansible commands with different connection options.
 
-
 ### Step 4 - SSH Key pair Setup (Optional)
+
 run the following command
 
 ` ls -la .ssh `
+
 ```
 commstech@clustermgr:~$ ls -la .ssh
 total 40
@@ -178,8 +180,11 @@ commstech@clustermgr:~$
 ```
 
 Lets make some keys (easy)
+
 ` ssh-keygen -t ed25519 -C "Ansible_SSH_Default" `
+
 -t = Keytype
+
 -C = Comment / name
 
 **note recommended not to put a passphrase**
@@ -212,6 +217,7 @@ commstech@clustermgr:~$
 now make sure its added
 
 ` ls -la .ssh `
+
 ```
 commstech@clustermgr:~$ ls -la .ssh
 total 48
@@ -229,6 +235,7 @@ drwxr-xr-x 12 commstech commstech 4096 Feb 19 05:34 ..
 lets add this key to a server
 
 ` ssh-copy-id -i ~/.ssh/ansible.pub 192.168.255.7 `
+
 so that's copy from /.ssh to the host at 192.168.255.7
 
 ```
@@ -255,13 +262,17 @@ Logged in perfectly !!!
 ### Step 5 - Lets do some installation and Ad-hoc commands
 
 ` sudo apt update `
+
 ` sudo apt install ansible -y `
 
 ** note I use nano so if you would like to follow along run ` sudo apt install nano -y `
 
 ` mkdir .ansible `
+
 ` cd .ansible `
+
 ` sudo nano inventory `
+
 hosts being the name of my inventory file
 
 add ips 1 per line (you can also use FQDN) mark categories with ` [] `
@@ -342,7 +353,6 @@ ok lets test that host file with the ping module (-m)
 
 look like we have some failures due to not sending the ssh key beforehand.
 
-
 lets now create an ansible config file
 
 ` sudo nano ~/.ansible/ansible.cfg `
@@ -366,31 +376,41 @@ now that we are linked properly lets run the gather facts module to inventory th
 ` ansible all -m gather_facts `
 
 that was a big output.... we can reduce the number of devices pulled by running 
+
 ` ansible all -m gather_facts --limit 192.168.255.7`
 
 **Checkout https://watch.thekitty.zone/watch?v=FPU9_KDTa8A for more info
 
 lets try and run some privilege escalated commands
+
 ` ansible all -m apt -a update_cache=true `
 
 it failed,
+
 maybe ill try
+
 ` ansible all -m apt -a update_cache=true --become --ask-become-pass `
 
 now we can install a package on all our servers
+
 how about vim
+
 ` ansible all -m apt -a name=vim-nox --become --ask-become-pass `
 
 now lets install a terminal emulator with tabs
+
 ` ansible all -m apt -a name=tmux --become --ask-become-pass `
 
 we can update a individual package with the following command replacing "snapd" with the package you want to update
+
 `ansible all -m apt -a "name=snapd state=latest" --become --ask-become-pass `
 
  but we can update all the packages with the following command
+
 `ansible all -m apt -a "upgrade=dist" --become --ask-become-pass`
 
 ### Step 6 - Writing our first playbook
+
 `nano install_apache.yml`
 
 ```
@@ -406,9 +426,11 @@ we can update a individual package with the following command replacing "snapd" 
 ```
 
 lets run the play
+
 `ansible-playbook --ask-become-pass install_apache.yml`
 
 or we could setup a maintenance playbook for our ubuntu group
+
 `nano maintenance.yml`
 
 ```
@@ -424,25 +446,30 @@ or we could setup a maintenance playbook for our ubuntu group
         upgrade: 'yes'
 
 ```
+
 **note that hosts: ubuntu[0] ubuntu being the name of the group and 0 being the number to exclude (see chart below)
 
 webservers[0]       # == cobweb
+
 webservers[-1]      # == weber
+
 webservers[0:2]     # == webservers[0],webservers[1]
+
                     # == cobweb,webbing
+
 webservers[1:]      # == webbing,weber
+
 webservers[:3]      # == cobweb,webbing,weber
 
 run the maintenance play
+
 `ansible-playbook --ask-become-pass maintenance.yml`
 
-### Conditional statements "when"
+## Conditional statements "when"
+
 Follow along with learn linux tv @ https://watch.thekitty.zone/watch?v=BF7vIk9no14
 
-
-
-
-## Setting Up Ansible Credentials and Host Files [](https://simeononsecurity.ch/guides/automate-windows-patching-and-updates-with-ansible/#setting-up-ansible-credentials-and-host-files)
+# Setting Up Ansible Credentials and Host Files [](https://simeononsecurity.ch/guides/automate-windows-patching-and-updates-with-ansible/#setting-up-ansible-credentials-and-host-files)
 
 Before we dive into automating Windows updates, let’s first set up the necessary credentials and host files in Ansible.
 
@@ -465,7 +492,7 @@ Copy
 
 ---
 
-## Automating Windows Updates Using Ansible [](https://simeononsecurity.ch/guides/automate-windows-patching-and-updates-with-ansible/#automating-windows-updates-using-ansible)
+# Automating Windows Updates Using Ansible [](https://simeononsecurity.ch/guides/automate-windows-patching-and-updates-with-ansible/#automating-windows-updates-using-ansible)
 
 With the basic setup in place, let’s now explore how to automate Windows updates using Ansible.
 
@@ -533,9 +560,10 @@ Add the following line after you modify it
 
 Copy
 
-
 # Attempt 2 to learn Ansible 
+
 Install ansible... see previous notes
+
 step 2 (following along with https://invidious.commsnet.org/watch?v=NFDNPqSy2ZQ)
 
 ```
@@ -558,17 +586,18 @@ ansible [core 2.15.2]
 commstech@clustermgr:~$ 
 ```
 
-
 cd into /etc/ansible
 
 touch /etc/ansible.cfg
 
 nano /etc/ansible.cfg
+
 ```
 [defaults]
 inventory=/etc/ansible/hosts
 private_key_file = ~/.ssh/ansible
 ```
+
 touch /etc/hosts
 
 nano /etc/hosts
@@ -722,8 +751,8 @@ ansible [core 2.15.2]
   libyaml = True
 ```
 
-
 Video 3
+
 mkdir /etc/ansible/playbooks
 
 cd /etc/ansible/playbooks
@@ -748,17 +777,18 @@ sudo nano gather_facts.yml
         var: ansible_facts
 ```
 
-
 ctl + O
 
 ctl +X
 
 run the play with
+
 ```
 ansible-playbook gather_facts.yml
 ```
 
 note if your output looks like this
+
 ```
 commstech@clustermgr:/etc/ansible/playbooks$ ansible-playbook gather_facts.yml 
 
@@ -773,6 +803,7 @@ Home_Switch                : ok=0    changed=0    unreachable=0    failed=1    s
 ```
 
 youll need to run
+
 ```
 pip install --user ansible-pylibssh
 ```
@@ -850,7 +881,6 @@ Home_Switch(config)#exit
 Home_Switch#wr mem
 ```
 
-
 a successful connection will result in some facts like the following
 
 ```
@@ -919,8 +949,11 @@ commstech@clustermgr:/etc/ansible/playbooks$ sudo nano gather_facts.yml
 
 
 ## Adding Windows Clients
+
 on the windows computer add an ansible user
+
 set a good password
+
 add the ansible user to the administrator group
 
 **note windows Home does not have local users and groups in computer management... youll have to run the following command to add a local admin. win + R
@@ -932,6 +965,7 @@ netplwiz
 open a powershell prompt as admin
 
 Validate if you have both ssh client and server
+
 ```
 Get-WindowsCapability -Online | Where-Object Name -like 'OpenSSH*' 
 ```
@@ -968,14 +1002,15 @@ ansible_ssh_common_args=-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/n
 ansible_ssh_retries=3 ansible_become_method=runas
 ```
 
-
 validate you can ssh into the windows server
+
 ```
 commstech@clustermgr:/etc/ansible$ ssh ansible@192.168.2.56
 ansible@192.168.2.56's password: 
 ```
 
 should look like this if you were successful
+
 ```
 Microsoft Windows [Version 10.0.22621.2134]
 (c) Microsoft Corporation. All rights reserved.

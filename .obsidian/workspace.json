@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cyber_Security/Terminology/Command_and_Control_Servers.md",
+                "file": "Applications/Server_Applications/Ansible/Playbooks/Ansible_Playbook_Ubuntu_Server_Update.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cyber_Security/Terminology/Command_and_Control_Servers.md",
+                "file": "Applications/Server_Applications/Ansible/Playbooks/Ansible_Playbook_Ubuntu_Server_Update.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cyber_Security/Terminology/Command_and_Control_Servers.md",
+                "file": "Applications/Server_Applications/Ansible/Playbooks/Ansible_Playbook_Ubuntu_Server_Update.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cyber_Security/Terminology/Command_and_Control_Servers.md"
+                "file": "Applications/Server_Applications/Ansible/Playbooks/Ansible_Playbook_Ubuntu_Server_Update.md"
               }
             }
           },
@@ -191,9 +191,13 @@
   },
   "active": "81b69151463c744c",
   "lastOpenFiles": [
+    "Applications/Server_Applications/Ansible/Ansible.md",
+    "Applications/Server_Applications/Ansible/Playbooks/Ansible_Playbook_Ubuntu_Server_Update.md",
+    "Applications/Server_Applications/Ansible/Ansible_Gui_Semaphore.md",
+    "Cyber_Security/Terminology/Command_and_Control_Servers.md",
+    "Applications/Server_Applications/Ansible/Playbooks",
     "Cyber_Security/Terminology/Bots_and_Zombies.md",
     "Cyber_Security/Terminology/Botmasters.md",
-    "Cyber_Security/Terminology/Command_and_Control_Servers.md",
     "Cyber_Security/Terminology/Botnets.md",
     "Cyber_Security/Terminology",
     "About_Me.md",
@@ -216,10 +220,7 @@
     "Applications/Desktop_Applications/WinSCP.md",
     "Applications/Desktop_Applications/Wireshark.md",
     "Applications/Server_Applications/Plex_Server.md",
-    "Virtual_Infrastructure/XCP-NG/XCP-NG.md",
     "Virtual_Infrastructure/XCP-NG",
-    "Hardware/Tablets/Amazon_Fire_Tablet.md",
-    "Networking/Terminology/Quality_of_Service_QoS.md",
     "Networking/SteelHead",
     "Networking/DNS",
     "New Text Document.txt",
@@ -227,7 +228,6 @@
     "Applications/Server_Applications/AI",
     "assets/images/Pasted image 20230923143719.png",
     "Electronics_Repair",
-    "Networking/Terminology",
     "assets/images/Pasted image 20231130184644.png",
     "assets/images/Pasted image 20230923143931.png",
     "Assets/images/Pasted image 20230821211119.png",
