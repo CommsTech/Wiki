@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cyber_Security/Terminology/Bots_and_Zombies.md",
+                "file": "Cyber_Security/Terminology/Botmasters.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cyber_Security/Terminology/Bots_and_Zombies.md",
+                "file": "Cyber_Security/Terminology/Botmasters.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cyber_Security/Terminology/Bots_and_Zombies.md",
+                "file": "Cyber_Security/Terminology/Botmasters.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cyber_Security/Terminology/Bots_and_Zombies.md"
+                "file": "Cyber_Security/Terminology/Botmasters.md"
               }
             }
           },
@@ -191,6 +191,10 @@
   },
   "active": "81b69151463c744c",
   "lastOpenFiles": [
+    "Cyber_Security/Terminology/Botnets.md",
+    "Cyber_Security/Terminology/Bots_and_Zombies.md",
+    "Cyber_Security/Terminology/Command_and_Control_Servers.md",
+    "Cyber_Security/Terminology/Botmasters.md",
     "Applications/Server_Applications/AI/GPT_Prompts/want_and_need.md",
     "Applications/Server_Applications/AI/GPT_Prompts/thesaurus.md",
     "Applications/Server_Applications/AI/GPT_Prompts/systematic_word_finder.md",
@@ -213,10 +217,6 @@
     "Applications/Server_Applications/AI/GPT_Prompts/chapter_plotter_fiction.md",
     "Applications/Server_Applications/AI/GPT_Prompts/anxiety_teacher.md",
     "Applications/Server_Applications/AI/GPT_Prompts/Captain_Picard.md",
-    "Applications/Server_Applications/AI/GPT_Prompts/academic_copy_reviser.md",
-    "Applications/Server_Applications/AI/PrivateGPT.md",
-    "Applications/Server_Applications/AI/GPT_Prompts/Untitled.md",
-    "Applications/Server_Applications/AI/GPT_Prompts/README.md",
     "Applications/Server_Applications/AI/GPT_Prompts",
     "Applications/Server_Applications/Ansible/Playbooks",
     "Cyber_Security/Terminology",
