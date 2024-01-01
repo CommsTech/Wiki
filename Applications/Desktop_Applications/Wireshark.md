@@ -12,7 +12,6 @@ dateModified:
 ---
 # [Wireshark](https://www.wireshark.org/)
 
-
 [**Wireshark**](https://www.wireshark.org/) is the world’s foremost and widely-used network protocol analyzer. It lets you see what’s happening on your network at a microscopic level and is the de facto (and often de jure) standard across many commercial and non-profit enterprises, government agencies, and educational institutions. Wireshark development thrives thanks to the volunteer contributions of networking experts around the globe and is the continuation of a project started by Gerald Combs in 1998.
 
 [**Wireshark**](https://www.wireshark.org/) has a rich feature set which includes the following:
@@ -30,3 +29,7 @@ dateModified:
 -   Decryption support for many protocols, including IPsec, ISAKMP, Kerberos, SNMPv3, SSL/TLS, WEP, and WPA/WPA2
 -   Coloring rules can be applied to the packet list for quick, intuitive analysis
 -   Output can be exported to XML, PostScript®, CSV, or plain text
+
+
+## Wireshark Use Cases
+- [[[Wireshark_Steelhead_Troubleshooting]]]

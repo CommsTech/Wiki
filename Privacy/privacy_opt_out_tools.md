@@ -1,13 +1,15 @@
 ---
-title:
-description:
+title: Privacy Opt Out Tools
+description: 
 dateCreated: date created
-published:
+published: 
 editor: markdown
 tags: 
-dateModified: {date modified}
+dateModified:
+  date modified:
 ---
 # privacy opt out tools
+
 privacy opt out tools
 
 <https://github.com/topics/privacy-tools?o=desc&s=updated>

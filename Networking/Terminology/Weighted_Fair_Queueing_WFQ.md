@@ -17,6 +17,6 @@ dateModified:
 
 WFQ divides the total available bandwidth into equal parts for each flow and maintains separate queues for each flow. When data arrives at a router or switch, it is sorted into the appropriate queue based on its flow identifier (e.g., IP address, port number, or VLAN ID). The router then services each queue in proportion to their respective weights, ensuring that high-priority flows receive more bandwidth than low-priority ones.
 
-Weighted Fair Queueing is widely used in service provider networks and other environments where multiple traffic classes need to be prioritized based on their importance or requirements. It helps maintain Quality of Service (QoS) and ensures that critical applications and services receive the necessary resources while minimizing contention and congestion within the network.
+Weighted Fair Queueing is widely used in service provider networks and other environments where multiple traffic classes need to be prioritized based on their importance or requirements. It helps maintain [[Quality_of_Service_QoS |Quality of Service (QoS)]] and ensures that critical applications and services receive the necessary resources while minimizing contention and congestion within the network.
 
 WFQ is an improvement over traditional First-In-First-Out (FIFO) queuing, as it provides more control and fairness in handling multiple traffic classes or flows.

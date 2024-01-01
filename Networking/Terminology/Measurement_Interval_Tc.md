@@ -1,5 +1,5 @@
 ---
-title: 
+title: Measurement Interval (Tc)
 description: 
 dateCreated: 
 published: 

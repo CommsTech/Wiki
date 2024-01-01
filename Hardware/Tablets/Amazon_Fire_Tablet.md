@@ -10,8 +10,6 @@ dateModified:
 # Amazon_Fire_Tablet
 ## How to Speed Up Your Amazon Fire Tablet
 
-[](https://christitus.com/author/)| Jul 21, 2020| [Android](https://christitus.com/categories/android)
-
 This Guide goes over over debloating amazon fire tablets and getting Google Store and regular tablet functionality out of them.
 
 ## Tools and Sources Used

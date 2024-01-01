@@ -12,7 +12,7 @@ dateModified:
 
 ## Troubleshooting
 
-### TLS
+### [[Transport_Layer_Security_tls|Transport Layer Security (TLS)]]
 
 1. Prepare encoded strings for your mail username and password
 

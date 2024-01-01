@@ -14,7 +14,7 @@ dateCreated: 2022-09-09T04:44:01.149Z
 
 ### [https://anonymousplanet-ng.org/](https://anonymousplanet-ng.org/)
 
-This guide is a non-profit open-source initiative, licensed under Creative Commons **Attribution-NonCommercial** 4.0 International ([cc-by-nc-4.0](https://creativecommons.org/licenses/by-nc/4.0/) ^[\[Archive.org\]](https://web.archive.org/web/https://creativecommons.org/licenses/by-nc/4.0/)^).
+This guide is a non-profit open-source initiative, licensed under Creative Commons **Attribution-NonCommercial** 4.0 International ([cc-by-nc-4.0](https://creativecommons.org/licenses/by-nc/4.0/) [\[Archive.org\]](https://web.archive.org/web/https://creativecommons.org/licenses/by-nc/4.0/)).
 
 -   For mirrors see [Appendix A6: Mirrors](#appendix-a6-mirrors)
     
@@ -603,28 +603,22 @@ In addition to limited browser support, only Web Services and CDNs^[\[45\]](#fn4
     
 -   GitHub
     
--   …
+-  etc
     
 
-Some countries like Russia^[\[47\]](#fn47)^ and China^[\[48\]](#fn48)^ might (unverified despite the articles) block ECH/eSNI handshakes at the network level to allow snooping and prevent bypassing censorship. Meaning you will not be able to establish an HTTPS connection with a service if you do not allow them to see what it was.
+Some countries like Russia and China might (unverified despite the articles) block ECH/eSNI handshakes at the network level to allow snooping and prevent bypassing censorship. Meaning you will not be able to establish an HTTPS connection with a service if you do not allow them to see what it was.
 
-The issues do not end here. Part of the HTTPS TLS validation is called OCSP^[\[49\]](#fn49)^ and this protocol used by Firefox-based browsers will leak metadata in the form of the serial number of the certificate of the website you are visiting. An adversary can then easily find which website you are visiting by matching the certificate number^[\[50\]](#fn50)^. This issue can be mitigated by using OCSP stapling^[\[51\]](#fn51)^. Unfortunately, this is enabled but not enforced by default in Firefox/Tor Browser. But the website you are visiting must also be supporting it and not all do. Chromium-based browsers on the other hand use a different system called CRLSets^[\[52\]](#fn52)^’^[\[53\]](#fn53)^ which is arguably better.
+The issues do not end here. Part of the HTTPS TLS validation is called OCSP and this protocol used by Firefox-based browsers will leak metadata in the form of the serial number of the certificate of the website you are visiting. An adversary can then easily find which website you are visiting by matching the certificate number. This issue can be mitigated by using OCSP stapling. Unfortunately, this is enabled but not enforced by default in Firefox/Tor Browser. But the website you are visiting must also be supporting it and not all do. Chromium-based browsers on the other hand use a different system called CRLSets which is arguably better.
 
 Here is a list of how various browsers behave with OCSP: [https://www.ssl.com/blogs/how-do-browsers-handle-revoked-ssl-tls-certificates/](https://www.ssl.com/blogs/how-do-browsers-handle-revoked-ssl-tls-certificates/) ^[\[Archive.org\]](https://web.archive.org/web/https://www.ssl.com/blogs/how-do-browsers-handle-revoked-ssl-tls-certificates/)^
 
 Here is an illustration of the issue you could encounter on Firefox-based browsers:
 
-![](media/image5.jpeg)
+Finally, even if you use a custom encrypted DNS server (DoH or DoT) with ECH/eSNI support and OCSP stapling, it might still not be enough as traffic analysis studies have shown it is still possible to reliably fingerprint and block unwanted requests. Only DNS over Tor was able to show efficient DNS Privacy in recent studies but even that can still be defeated by other means (see [Your Anonymized Tor/VPN traffic](#your-anonymized-torvpn-traffic)).
 
-Finally, even if you use a custom encrypted DNS server (DoH or DoT) with ECH/eSNI support and OCSP stapling, it might still not be enough as traffic analysis studies^[\[54\]](#fn54)^ have shown it is still possible to reliably fingerprint and block unwanted requests. Only DNS over Tor was able to show efficient DNS Privacy in recent studies but even that can still be defeated by other means (see [Your Anonymized Tor/VPN traffic](#your-anonymized-torvpn-traffic)).
-
-One could also decide to use a Tor Hidden DNS Service or ODoH (Oblivious DNS over HTTPS^[\[55\]](#fn55)^) to further increase privacy/anonymity but **unfortunately**, as far as I know, these methods are only provided by Cloudflare as of this writing ([https://blog.cloudflare.com/welcome-hidden-resolver/](https://blog.cloudflare.com/welcome-hidden-resolver/) ^[\[Archive.org\]](https://web.archive.org/web/https://blog.cloudflare.com/welcome-hidden-resolver/)^, [https://blog.cloudflare.com/oblivious-dns/](https://blog.cloudflare.com/oblivious-dns/) ^[\[Archive.org\]](https://web.archive.org/web/https://blog.cloudflare.com/oblivious-dns/)^). These are workable and reasonably secure technical options but there is also a moral choice if you want to use Cloudflare or not (despite the risk posed by some researchers^[\[56\]](#fn56)^).
+One could also decide to use a Tor Hidden DNS Service or ODoH (Oblivious [[dns-over-https|DNS over HTTPS]]) to further increase privacy/anonymity but **unfortunately**, as far as I know, these methods are only provided by Cloudflare as of this writing ([https://blog.cloudflare.com/welcome-hidden-resolver/](https://blog.cloudflare.com/welcome-hidden-resolver/) ^[\[Archive.org\]](https://web.archive.org/web/https://blog.cloudflare.com/welcome-hidden-resolver/)^, [https://blog.cloudflare.com/oblivious-dns/](https://blog.cloudflare.com/oblivious-dns/) ^[\[Archive.org\]](https://web.archive.org/web/https://blog.cloudflare.com/oblivious-dns/)^). These are workable and reasonably secure technical options but there is also a moral choice if you want to use Cloudflare or not (despite the risk posed by some researchers^[\[56\]](#fn56)^).
 
 Lastly, there is also this new possibility called DoHoT which stands for DNS over HTTPS over Tor which could also further increase your privacy/anonymity and which you could consider if you are more skilled with Linux. See [https://github.com/alecmuffett/dohot](https://github.com/alecmuffett/dohot) ^[\[Archive.org\]](https://web.archive.org/web/https://github.com/alecmuffett/dohot)^. This guide will not help you with this one at this stage, but it might be coming soon.
-
-Here is an illustration showing the current state of DNS and HTTPS privacy based on my current knowledge.
-
-![](media/image6.jpeg)
 
 As for your normal daily use (non-sensitive), remember that only Firefox-based browsers support ECH (formerly eSNI) so far and that it is only useful with websites hosted behind Cloudflare CDN at this stage. If you prefer a Chrome-based version (which is understandable for some due to some better-integrated features like on-the-fly Translation), then I would recommend the use of Brave instead which supports all Chrome extensions and offers much better privacy than Chrome.
 
@@ -634,28 +628,26 @@ Therefore, to mitigate all these issues (as much as possible and as best as we c
 
 ### Your RFID enabled devices:
 
-RFID stands for Radio-frequency identification^[\[57\]](#fn57)^, it is the technology used for instance for contactless payments and various identification systems. Of course, your smartphone is among those devices and has RFID contactless payment capabilities through NFC^[\[58\]](#fn58)^. As with everything else, such capabilities can be used for tracking by various actors.
+RFID stands for Radio-frequency identification, it is the technology used for instance for contactless payments and various identification systems. Of course, your smartphone is among those devices and has RFID contactless payment capabilities through NFC. As with everything else, such capabilities can be used for tracking by various actors.
 
 But unfortunately, this is not limited to your smartphone, and you also probably carry some amount of RFID enabled device with you all the time such as:
 
 -   Your contactless-enabled credit/debit cards
-    
+   
 -   Your store loyalty cards
-    
+   
 -   Your transportation payment cards
-    
+   
 -   Your work-related access cards
-    
+   
 -   Your car keys
-    
+   
 -   Your national ID or driver license
-    
+   
 -   Your passport
-    
+   
 -   The price/anti-theft tags on object/clothing
-    
--   …
-    
+
 
 While all these cannot be used to de-anonymize you from a remote online adversary, they can be used to narrow down a search if your approximate location at a certain time is known. For instance, you cannot rule out that some stores will effectively scan (and log) all RFID chips passing through the door. They might be looking for their loyalty cards but are also logging others along the way. Such RFID tags could be traced to your identity and allow for de-anonymization.
 
@@ -675,13 +667,12 @@ This allows them to provide accurate locations even when GPS is off, but it also
 
 Note: If you have an Android smartphone, Google probably knows where it is no matter what you do. You cannot really trust the settings. The whole operating system is built by a company that wants your data. Remember that if it is free then you are the product.
 
-But that is not what all those Wi-Fi access points can do. Recently developed techs could even allow someone to track your movements accurately just based on radio interferences. What this means is that it is possible to track your movement inside a room/building based on the radio signals passing through. This might seem like a tinfoil hat conspiracy theory claim but here are the references^[\[65\]](#fn65)^ with demonstrations showing this tech in action: [http://rfpose.csail.mit.edu/](http://rfpose.csail.mit.edu/) ^[\[Archive.org\]](https://web.archive.org/web/http://rfpose.csail.mit.edu/)^ and the video here: [https://www.youtube.com/watch?v=HgDdaMy8KNE](https://www.youtube.com/watch?v=HgDdaMy8KNE) ^[\[Invidious\]](https://yewtu.be/watch?v=HgDdaMy8KNE)^
+But that is not what all those Wi-Fi access points can do. Recently developed techs could even allow someone to track your movements accurately just based on radio interferences. What this means is that it is possible to track your movement inside a room/building based on the radio signals passing through. This might seem like a tinfoil hat conspiracy theory claim but here are the references with demonstrations showing this tech in action: [http://rfpose.csail.mit.edu/](http://rfpose.csail.mit.edu/) ^[\[Archive.org\]](https://web.archive.org/web/http://rfpose.csail.mit.edu/)^ and the video here: [https://www.youtube.com/watch?v=HgDdaMy8KNE](https://www.youtube.com/watch?v=HgDdaMy8KNE) ^[\[Invidious\]](https://yewtu.be/watch?v=HgDdaMy8KNE)^
 
 Other researchers have found a way to count the people in a defined space using only Wi-Fi, see [https://www.news.ucsb.edu/2021/020392/dont-fidget-wifi-will-count-you](https://www.news.ucsb.edu/2021/020392/dont-fidget-wifi-will-count-you) ^[\[Archive.org\]](https://web.archive.org/web/https://www.news.ucsb.edu/2021/020392/dont-fidget-wifi-will-count-you)^
 
 You could therefore imagine many use cases for such technologies like recording who enters specific buildings/offices (hotels, hospitals, or embassies for instance) and then discover who meets who and thereby tracking them from outside. Even if they have no smartphone on them.
 
-![](media/image7.jpeg)
 
 Again, such an issue could only be mitigated by being in a room/building that would act as a Faraday cage.
 
@@ -702,9 +693,9 @@ Here are some videos explaining more about the topic:
 -   YouTube, Hak5, Wi-Fi Pineapple Mark VII [https://www.youtube.com/watch?v=7v3JR4Wlw4Q](https://www.youtube.com/watch?v=7v3JR4Wlw4Q) ^[\[Invidious\]](https://yewtu.be/watch?v=7v3JR4Wlw4Q)^
     
 
-These devices can fit in a small bag and can take over the Wi-Fi environment of any place within their range. For instance, a Bar/Restaurant/Café/Hotel Lobby. These devices can force Wi-Fi clients to disconnect from their current Wi-Fi (using de-authentication, disassociation attacks^[\[68\]](#fn68)^) while spoofing the normal Wi-Fi networks at the same location. They will continue to perform this attack until your computer, or you decide to try to connect to the rogue AP.
+These devices can fit in a small bag and can take over the Wi-Fi environment of any place within their range. For instance, a Bar/Restaurant/Café/Hotel Lobby. These devices can force Wi-Fi clients to disconnect from their current Wi-Fi (using de-authentication, disassociation attacks) while spoofing the normal Wi-Fi networks at the same location. They will continue to perform this attack until your computer, or you decide to try to connect to the rogue AP.
 
-These devices can then mimic a captive portal^[\[69\]](#fn69)^ with the exact same layout as the Wi-Fi you are trying to access (for instance an Airport Wi-Fi registration portal). Or they could just give you unrestricted access internet that they will themselves get from the same place.
+These devices can then mimic a captive porta with the exact same layout as the Wi-Fi you are trying to access (for instance an Airport Wi-Fi registration portal). Or they could just give you unrestricted access internet that they will themselves get from the same place.
 
 Once you are connected through the Rogue AP, this AP will be able to execute various man-in-the-middle attacks to perform analysis on your traffic. These could be malicious redirections or simple traffic sniffing. These can then easily identify any client that would for instance try to connect to a VPN server or the Tor Network.
 
@@ -722,13 +713,10 @@ Tor and VPNs are not silver bullets. Many advanced techniques have been develope
 
 ![](media/image8.jpeg)
 
--   **Correlation Timing Attacks:** As illustrated (simplified) below, an adversary that has access to network connection logs (IP or DNS for instance, remember that most VPN servers and most Tor nodes are known and publicly listed) at the source and the destination could correlate the timings to de-anonymize you without requiring any access to the Tor or VPN network in between. A real use case of this technique was done by the FBI in 2013 to de-anonymize^[\[75\]](#fn75)^ a bomb threat hoax at Harvard University.
-
-![](media/image9.jpeg)
+-   **Correlation Timing Attacks:** As illustrated (simplified) below, an adversary that has access to network connection logs (IP or DNS for instance, remember that most VPN servers and most Tor nodes are known and publicly listed) at the source and the destination could correlate the timings to de-anonymize you without requiring any access to the Tor or VPN network in between. A real use case of this technique was done by the FBI in 2013 to de-anonymize a bomb threat hoax at Harvard University.
 
 -   **Correlation Counting Attacks:** As illustrated (simplified) below, an adversary that has no access to detailed connection logs (cannot see that you used Tor or Netflix) but has access to data counting logs could see that you have downloaded 600MB on a specific time/date that matches the 600MB upload at the destination. This correlation can then be used to de-anonymize you over time.
 
-![](media/image10.jpeg)
 
 There are ways to mitigate these such as:
 
@@ -739,7 +727,7 @@ There are ways to mitigate these such as:
 -   Consider the use of multiple layers (such as what will be recommended in this guide later: VPN over Tor) so that an adversary might be able to see that someone connected to the service through Tor but will not be able to see that it was you because you were connected to a VPN and not the Tor Network.
     
 
-Be aware again that this might not be enough against a motivated global adversary^[\[76\]](#fn76)^ with wide access to global mass surveillance. Such an adversary might have access to logs no matter where you are and could use those to de-anonymize you. Usually, these attacks are part of what is called a Sybil Attack^[\[77\]](#fn77)^. **These adversaries are out of the scope of this guide.**
+Be aware again that this might not be enough against a motivated global adversary with wide access to global mass surveillance. Such an adversary might have access to logs no matter where you are and could use those to de-anonymize you. Usually, these attacks are part of what is called a Sybil Attack. **These adversaries are out of the scope of this guide.**
 
 Be also aware that all the other methods described in this guide such as Behavioral analysis can also be used to deanonymize Tor users indirectly (see further [Your Digital Fingerprint, Footprint, and Online Behavior](#your-digital-fingerprint-footprint-and-online-behavior)).
 
@@ -749,7 +737,7 @@ As well as this great series of blog posts: [https://www.hackerfactor.com/blog/i
 
 Recently, one of these attacks was attempted on the Tor Network with more information here: [https://arstechnica.com/information-technology/2014/07/active-attack-on-tor-network-tried-to-decloak-users-for-five-months/](https://arstechnica.com/information-technology/2014/07/active-attack-on-tor-network-tried-to-decloak-users-for-five-months/) ^[\[Archive.org\]](https://web.archive.org/web/https://arstechnica.com/information-technology/2014/07/active-attack-on-tor-network-tried-to-decloak-users-for-five-months/)^
 
-Lastly, do remember that using Tor can already be considered suspicious activity^[\[78\]](#fn78)^, and its use could be considered malicious by some^[\[79\]](#fn79)^.
+Lastly, do remember that using Tor can already be considered suspicious activity, and its use could be considered malicious by some.
 
 This guide will later propose some mitigations to such attacks by changing your origin from the start (using public wi-fi’s for instance). Remember that such attacks are usually carried by highly skilled, highly resourceful, and motivated adversaries and are out of scope from this guide.
 
@@ -759,14 +747,14 @@ This guide will later propose some mitigations to such attacks by changing your 
 
 You have seen this in action/spy/Sci-Fi movies and shows, the protagonists always remove the battery of their phones to make sure it cannot be used. Most people would think that’s overkill. Well, unfortunately, no, this is now becoming true at least for some devices:
 
--   iPhones and iPads (IOS 13 and above)^[\[80\]](#fn80)^’^[\[81\]](#fn81)^
+-   iPhones and iPads (IOS 13 and above)
     
--   Samsung Phones (Android 10 and above)^[\[82\]](#fn82)^
+-   Samsung Phones (Android 10 and above)
     
--   MacBooks (macOS 10.15 and above)^[\[83\]](#fn83)^
+-   MacBooks (macOS 10.15 and above)
     
 
-Such devices will continue to broadcast identity information to nearby devices even when offline using Bluetooth Low-Energy^[\[84\]](#fn84)^. They do not have access to the devices directly (which are not connected to the internet) but instead use BLE to find them through other nearby devices^[\[85\]](#fn85)^. They are using peer-to-peer short-range Bluetooth communication to broadcast their status through nearby online devices.
+Such devices will continue to broadcast identity information to nearby devices even when offline using Bluetooth Low-Energy. They do not have access to the devices directly (which are not connected to the internet) but instead use BLE to find them through other nearby devices. They are using peer-to-peer short-range Bluetooth communication to broadcast their status through nearby online devices.
 
 They could now find such devices and keep the location in some database that could then be used by third parties or themselves for various purposes (including analytics, advertising, or evidence/intelligence gathering).
 
@@ -778,9 +766,9 @@ TLDR: Do not take such devices with you when conducting sensitive activities.
 
 ### Your IMEI and IMSI (and by extension, your phone number):
 
-The IMEI (International Mobile Equipment Identity^[\[86\]](#fn86)^) and the IMSI (International Mobile Subscriber Identity^[\[87\]](#fn87)^) are unique numbers created by cell phone manufacturers and cell phone operators.
+The IMEI (International Mobile Equipment Identity) and the IMSI (International Mobile Subscriber Identity) are unique numbers created by cell phone manufacturers and cell phone operators.
 
-The IMEI is tied directly to the phone you are using. This number is known and tracked by the cell phone operators and known by the manufacturers. Every time your phone connects to the mobile network, it will register the IMEI on the network along with the IMSI (if a SIM card is inserted but that is not even needed). It is also used by many applications (Banking apps abusing the phone permission on Android for instance^[\[88\]](#fn88)^) and smartphone Operating Systems (Android/IOS) for identification of the device^[\[89\]](#fn89)^. It is possible but difficult (and not illegal in many jurisdictions^[\[90\]](#fn90)^) to change the IMEI on a phone but it is probably easier and cheaper to just find and buy some old (working) Burner phone for a few Euros (this guide is for Germany remember) at a flea market or some random small shop.
+The IMEI is tied directly to the phone you are using. This number is known and tracked by the cell phone operators and known by the manufacturers. Every time your phone connects to the mobile network, it will register the IMEI on the network along with the IMSI (if a SIM card is inserted but that is not even needed). It is also used by many applications (Banking apps abusing the phone permission on Android for instance) and smartphone Operating Systems (Android/IOS) for identification of the device. It is possible but difficult (and not illegal in many jurisdictions) to change the IMEI on a phone but it is probably easier and cheaper to just find and buy some old (working) Burner phone for a few Euros (this guide is for Germany remember) at a flea market or some random small shop.
 
 The IMSI is tied directly to the mobile subscription or pre-paid plan you are using and is tied to your phone number by your mobile provider. The IMSI is hardcoded directly on the SIM card and cannot be changed. Remember that every time your phone connects to the mobile network, it will also register the IMSI on the network along with the IMEI. Like the IMEI, the IMSI is also being used by some applications and smartphone Operating systems for identification and is being tracked. Some countries in the EU for instance maintain a database of IMEI/IMSI associations for easy querying by Law Enforcement.
 
@@ -790,15 +778,15 @@ The IMEI and IMSI can be traced back to you in at least six ways:
 
 -   The mobile operator subscriber logs will usually store the IMEI along with the IMSI and their subscriber information database. If you use a prepaid anonymous SIM (anonymous IMSI but with a known IMEI), they could see this cell belongs to you if you used that cell phone before with a different SIM card (different anonymous IMSI but same known IMEI).
     
--   The mobile operator antenna logs will conveniently keep a log of which IMEI. IMSI also keep some connection data. They know and log for instance that a phone with this IMEI/IMSI combination connected to a set of mobile antennas and how powerful the signal to each of those antennas were, allowing easy triangulation/geolocation of the signal. They also know which other phones (your real one for instance) connected at the same time to the same antennas with the same signal. This makes it possible to know precisely that this “burner phone” was always connected at the same place/time than this other “known phone” which shows up every time the burner phone is being used. This information can/is used by various third parties to geolocate/track you quite precisely^[\[91\]](#fn91)^’^[\[92\]](#fn92)^.
+-   The mobile operator antenna logs will conveniently keep a log of which IMEI. IMSI also keep some connection data. They know and log for instance that a phone with this IMEI/IMSI combination connected to a set of mobile antennas and how powerful the signal to each of those antennas were, allowing easy triangulation/geolocation of the signal. They also know which other phones (your real one for instance) connected at the same time to the same antennas with the same signal. This makes it possible to know precisely that this “burner phone” was always connected at the same place/time than this other “known phone” which shows up every time the burner phone is being used. This information can/is used by various third parties to geolocate/track you quite precisely.
     
--   The manufacturer of the Phone can trace back the sale of the phone using the IMEI if that phone was bought in a non-anonymous way. Indeed, they will have logs of each phone sale (including serial number and IMEI), to which shop/person to whom it was sold. And if you are using a phone that you bought online (or from someone that knows you). It can be traced to you using that information. Even if they do not find you on CCTV^[\[93\]](#fn93)^ and you bought the phone using cash, they can still find what other phone (your real one in your pocket) was there (in that shop) at that time/date by using the antenna logs.
+-   The manufacturer of the Phone can trace back the sale of the phone using the IMEI if that phone was bought in a non-anonymous way. Indeed, they will have logs of each phone sale (including serial number and IMEI), to which shop/person to whom it was sold. And if you are using a phone that you bought online (or from someone that knows you). It can be traced to you using that information. Even if they do not find you on CCTV and you bought the phone using cash, they can still find what other phone (your real one in your pocket) was there (in that shop) at that time/date by using the antenna logs.
     
 -   The IMSI alone can be used to find you as well because most countries now require customers to provide an ID when buying a SIM card (subscription or pre-paid). The IMSI is then tied to the identity of the buyer of the card. In the countries where the SIM can still be bought with cash (like the UK), they still know where (which shop) it was bought and when. This information can then be used to retrieve information from the shop itself (such as CCTV footage as for the IMEI case). Or again the antenna logs can also be used to figure out which other phone was there at the moment of the sale.
     
--   The smartphone OS makers (Google/Apple for Android/IOs) also keep logs of IMEI/IMSI identifications tied to Google/Apple accounts and which user has been using them. They too can trace back the history of the phone and to which accounts it was tied in the past^[\[94\]](#fn94)^.
+-   The smartphone OS makers (Google/Apple for Android/IOs) also keep logs of IMEI/IMSI identifications tied to Google/Apple accounts and which user has been using them. They too can trace back the history of the phone and to which accounts it was tied in the past.
     
--   Government agencies around the world interested in your phone number can and do use^[\[95\]](#fn95)^ special devices called “IMSI catchers”^[\[96\]](#fn96)^ like the Stingray^[\[97\]](#fn97)^ or more recently the Nyxcell^[\[98\]](#fn98)^. These devices can impersonate (to spoof) a cell phone Antenna and force a specific IMSI (your phone) to connect to it to access the cell network. Once they do, they will be able to use various MITM^[\[35:1\]](#fn35)^ (Man-In-The-Middle Attacks) that will allow them to:
+-   Government agencies around the world interested in your phone number can and do use special devices called “IMSI catchers” like the Stingray or more recently the Nyxcell. These devices can impersonate (to spoof) a cell phone Antenna and force a specific IMSI (your phone) to connect to it to access the cell network. Once they do, they will be able to use various MITM (Man-In-The-Middle Attacks) that will allow them to:
     
     -   Tap your phone (voice calls and SMS).
         
@@ -813,7 +801,7 @@ Here is also a good YouTube video on this topic: DEFCON Safe Mode - Cooper Quint
 
 **For these reasons, it is crucial to get dedicated an anonymous phone number and/or an anonymous burner phone with an anonymous pre-paid sim card that is not tied to you in any way (past or present) for conducting sensitive activities (See more practical guidance in [Getting an anonymous Phone number](#getting-an-anonymous-phone-number) section).**
 
-While there are some smartphones manufacturers like Purism with their Librem series^[\[99\]](#fn99)^ who claim to have your privacy in mind, they still do not allow IMEI randomization which I believe is a key anti-tracking feature that should be provided by such manufacturers. While this measure will not prevent IMSI tracking within the SIM card, it would at least allow you to keep the same “burner phone” and only switch SIM cards instead of having to switch both for privacy.
+While there are some smartphones manufacturers like Purism with their Librem series who claim to have your privacy in mind, they still do not allow IMEI randomization which I believe is a key anti-tracking feature that should be provided by such manufacturers. While this measure will not prevent IMSI tracking within the SIM card, it would at least allow you to keep the same “burner phone” and only switch SIM cards instead of having to switch both for privacy.
 
 See [Appendix N: Warning about smartphones and smart devices](#appendix-n-warning-about-smartphones-and-smart-devices)
 
@@ -825,7 +813,7 @@ Operating Systems makers (Google/Microsoft/Apple) will also keep logs of devices
 
 Your home router/Wi-Fi access point keeps logs of devices that are registered on the Wi-Fi, and these can be accessed too to find out who has been using your Wi-Fi. Sometimes this can be done remotely (and silently) by the ISP depending on if that router/Wi-Fi access point is being “managed” remotely by the ISP (which is often the case when they provide the router to their customers).
 
-Some commercial devices will keep a record of MAC addresses roaming around for various purposes such as road congestion^[\[101\]](#fn101)^.
+Some commercial devices will keep a record of MAC addresses roaming around for various purposes such as road congestion.
 
 **So, it is important again not to bring your phone along when/where you conduct sensitive activities. If you use your own laptop, then it is crucial to hide that MAC address (and Bluetooth address) anywhere you use it and be extra careful not to leak any information. Thankfully many recent OSes now feature or allow the possibility to randomize MAC addresses (Android, IOS, Linux, and Windows 10)** with the notable exception of macOS which does not support this feature even in its latest Big Sur version.
 
@@ -835,7 +823,7 @@ See [Appendix N: Warning about smartphones and smart devices](#appendix-n-warnin
 
 Your Bluetooth MAC is like the earlier MAC address except it is for Bluetooth. Again, it can be used to track you as manufacturers and operating system makers keep logs of such information. It could be tied to a sale place/time/date or accounts and then could be used to track you with such information, the shop billing information, the CCTV, or the mobile antenna logs in correlation.
 
-Operating systems have protections in place to randomize those addresses but are still subject to vulnerabilities^[\[102\]](#fn102)^.
+Operating systems have protections in place to randomize those addresses but are still subject to vulnerabilities.
 
 For this reason, and unless you really need those, you should just disable Bluetooth completely in the BIOS/UEFI settings if possible or in the Operating System otherwise.
 
@@ -847,17 +835,17 @@ See [Appendix N: Warning about smartphones and smart devices](#appendix-n-warnin
 
 ## Your CPU:
 
-All modern CPUs^[\[103\]](#fn103)^ are now integrating hidden management platforms such as the now infamous Intel Management Engine^[\[104\]](#fn104)^ and the AMD Platform Security Processor^[\[105\]](#fn105)^.
+All modern CPUs are now integrating hidden management platforms such as the now infamous Intel Management Engine and the AMD Platform Security Processor.
 
 Those management platforms are small operating systems running directly on your CPU as long as they have power. These systems have full access to your computer’s network and could be accessed by an adversary to de-anonymize you in various ways (using direct access or using malware for instance) as shown in this enlightening video: BlackHat, How to Hack a Turned-Off Computer, or Running Unsigned Code in Intel Management Engine [https://www.youtube.com/watch?v=9fhNokIgBMU](https://www.youtube.com/watch?v=9fhNokIgBMU) ^[\[Invidious\]](https://yewtu.be/watch?v=mYsTBPqbya8)^.
 
-These have already been affected by several security vulnerabilities in the past^[\[106\]](#fn106)^ that allowed malware to gain control of target systems. These are also accused by many privacy actors including the EFF and Libreboot of being a backdoor into any system^[\[107\]](#fn107)^.
+These have already been affected by several security vulnerabilities in the past that allowed malware to gain control of target systems. These are also accused by many privacy actors including the EFF and Libreboot of being a backdoor into any system.
 
-There are some not so straightforward ways^[\[108\]](#fn108)^ to disable the Intel IME on some CPUs and you should do so if you can. For some AMD laptops, you can disable it within the BIOS settings by disabling PSP.
+There are some not so straightforward ways to disable the Intel IME on some CPUs and you should do so if you can. For some AMD laptops, you can disable it within the BIOS settings by disabling PSP.
 
 Note that to AMD’s defense, so far and AFAIK, there were no security vulnerabilities found for ASP and no backdoors either: See [https://www.youtube.com/watch?v=bKH5nGLgi08&t=2834s](https://www.youtube.com/watch?v=bKH5nGLgi08&t=2834s) ^[\[Invidious\]](https://yewtu.be/watch?v=bKH5nGLgi08&t=2834s)^. In addition, AMD PSP does not provide any remote management capabilities contrary to Intel IME.
 
-If you are feeling a bit more adventurous, you could install your own BIOS using Libreboot or Coreboot ^[\[109\]](#fn109)^ if your laptop supports it (be aware that Coreboot does contain some propriety code unlike its fork Libreboot).
+If you are feeling a bit more adventurous, you could install your own BIOS using Libreboot or Coreboot  if your laptop supports it (be aware that Coreboot does contain some propriety code unlike its fork Libreboot).
 
 In addition, some CPUs have unfixable flaws (especially Intel CPUs) that could be exploited by various malware. Here is a good current list of such vulnerabilities affecting recent widespread CPUs: [https://en.wikipedia.org/wiki/Transient\_execution\_CPU\_vulnerability](https://en.wikipedia.org/wiki/Transient_execution_CPU_vulnerability) ^[\[Wikiless\]](https://wikiless.org/wiki/Transient_execution_CPU_vulnerability)^ ^[\[Archive.org\]](https://web.archive.org/web/https://en.wikipedia.org/wiki/Transient_execution_CPU_vulnerability)^
 
@@ -868,7 +856,7 @@ Check yourself:
 -   If you are using Windows, you can check the vulnerability status of your CPU using inSpectre [https://www.grc.com/inspectre.htm](https://www.grc.com/inspectre.htm) ^[\[Archive.org\]](https://web.archive.org/web/https://www.grc.com/inspectre.htm)^
     
 
-Some of these can be avoided using Virtualization Software settings that can mitigate such exploits. See this guide for more information [https://www.whonix.org/wiki/Spectre\_Meltdown](https://www.whonix.org/wiki/Spectre_Meltdown) ^[\[Archive.org\]](https://web.archive.org/web/https://www.whonix.org/wiki/Spectre_Meltdown)^ (warning: these can severely impact the performance of your VMs).
+Some of these can be avoided using Virtualization Software settings that can mitigate such exploits. See this guide for more information [https://www.whonix.org/wiki/Spectre\_Meltdown](https://www.whonix.org/wiki/Spectre_Meltdown) [\[Archive.org\]](https://web.archive.org/web/https://www.whonix.org/wiki/Spectre_Meltdown) (warning: these can severely impact the performance of your VMs).
 
 I will therefore mitigate some of these issues in this guide by recommending the use of virtual machines on a dedicated anonymous laptop for your sensitive activities that will only be used from an anonymous public network.
 
@@ -876,7 +864,7 @@ I will therefore mitigate some of these issues in this guide by recommending the
 
 ## Your Operating Systems and Apps telemetry services:
 
-Whether it is Android, iOS, Windows, macOS, or even Ubuntu. Most popular Operating Systems now collect telemetry information by default even if you never opt-in or opted-out^[\[110\]](#fn110)^ from the start. Some like Windows will not even allow disabling telemetry completely without some technical tweaks. This information collection can be extensive and include a staggering number of details (metadata and data) on your devices and their usage.
+Whether it is Android, iOS, Windows, macOS, or even Ubuntu. Most popular Operating Systems now collect telemetry information by default even if you never opt-in or opted-out from the start. Some like Windows will not even allow disabling telemetry completely without some technical tweaks. This information collection can be extensive and include a staggering number of details (metadata and data) on your devices and their usage.
 
 Here are good overviews of what is being collected by those five popular OSes in their last versions:
 
@@ -890,28 +878,28 @@ Here are good overviews of what is being collected by those five popular OSes in
     
     -   More information at [https://www.apple.com/legal/privacy/en-ww/](https://www.apple.com/legal/privacy/en-ww/) ^[\[Archive.org\]](https://web.archive.org/web/https://www.apple.com/legal/privacy/en-ww/)^ and [https://support.apple.com/en-us/HT202100](https://support.apple.com/en-us/HT202100) ^[\[Archive.org\]](https://web.archive.org/web/https://support.apple.com/en-us/HT202100)^
         
-    -   School of Computer Science & Statistics, Trinity College Dublin, Ireland Mobile Handset Privacy: Measuring The Data iOS and Android Send to Apple And Google [https://www.scss.tcd.ie/doug.leith/apple\_google.pdf](https://www.scss.tcd.ie/doug.leith/apple_google.pdf) ^[\[Archive.org\]](https://web.archive.org/web/https://www.scss.tcd.ie/doug.leith/apple_google.pdf)^
+    -   School of Computer Science & Statistics, Trinity College Dublin, Ireland Mobile Handset Privacy: Measuring The Data iOS and Android Send to Apple And Google [https://www.scss.tcd.ie/doug.leith/apple\_google.pdf](https://www.scss.tcd.ie/doug.leith/apple_google.pdf) [\[Archive.org\]](https://web.archive.org/web/https://www.scss.tcd.ie/doug.leith/apple_google.pdf)
         
-    -   Apple does claim^[\[111\]](#fn111)^ that they anonymize this data using differential privacy^[\[112\]](#fn112)^ but you will have to trust them on that.
+    -   Apple does claim that they anonymize this data using differential privacy but you will have to trust them on that.
         
 -   Windows/Microsoft:
     
-    -   Full list of required diagnostic data: [https://docs.microsoft.com/en-us/windows/privacy/required-windows-diagnostic-data-events-and-fields-2004](https://docs.microsoft.com/en-us/windows/privacy/required-windows-diagnostic-data-events-and-fields-2004) ^[\[Archive.org\]](https://web.archive.org/web/https://docs.microsoft.com/en-us/windows/privacy/required-windows-diagnostic-data-events-and-fields-2004)^
+    -   Full list of required diagnostic data: [https://docs.microsoft.com/en-us/windows/privacy/required-windows-diagnostic-data-events-and-fields-2004](https://docs.microsoft.com/en-us/windows/privacy/required-windows-diagnostic-data-events-and-fields-2004) [\[Archive.org\]](https://web.archive.org/web/https://docs.microsoft.com/en-us/windows/privacy/required-windows-diagnostic-data-events-and-fields-2004)
         
-    -   Full list of optional diagnostic data: [https://docs.microsoft.com/en-us/windows/privacy/windows-diagnostic-data](https://docs.microsoft.com/en-us/windows/privacy/windows-diagnostic-data) ^[\[Archive.org\]](https://web.archive.org/web/https://docs.microsoft.com/en-us/windows/privacy/windows-diagnostic-data)^
+    -   Full list of optional diagnostic data: [https://docs.microsoft.com/en-us/windows/privacy/windows-diagnostic-data](https://docs.microsoft.com/en-us/windows/privacy/windows-diagnostic-data) [\[Archive.org\]](https://web.archive.org/web/https://docs.microsoft.com/en-us/windows/privacy/windows-diagnostic-data)
         
 -   macOS:
     
-    -   More details on [https://support.apple.com/guide/mac-help/share-analytics-information-mac-apple-mh27990/mac](https://support.apple.com/guide/mac-help/share-analytics-information-mac-apple-mh27990/mac) ^[\[Archive.org\]](https://web.archive.org/web/https://support.apple.com/guide/mac-help/share-analytics-information-mac-apple-mh27990/mac)^
+    -   More details on [https://support.apple.com/guide/mac-help/share-analytics-information-mac-apple-mh27990/mac](https://support.apple.com/guide/mac-help/share-analytics-information-mac-apple-mh27990/mac) [\[Archive.org\]](https://web.archive.org/web/https://support.apple.com/guide/mac-help/share-analytics-information-mac-apple-mh27990/mac)
 -   Ubuntu:
     
-    -   Ubuntu despite being a Linux distribution also collects Telemetry Data nowadays. This data however is quite limited compared to the others. More details on [https://ubuntu.com/desktop/statistics](https://ubuntu.com/desktop/statistics) ^[\[Archive.org\]](https://web.archive.org/web/https://ubuntu.com/desktop/statistics)^
+    -   Ubuntu despite being a Linux distribution also collects Telemetry Data nowadays. This data however is quite limited compared to the others. More details on [https://ubuntu.com/desktop/statistics](https://ubuntu.com/desktop/statistics) [\[Archive.org\]](https://web.archive.org/web/https://ubuntu.com/desktop/statistics)
 
 Not only are Operating Systems gathering telemetry services but so are Apps themselves like Browsers, Mail Clients, and Social Networking Apps installed on your system.
 
 It is important to understand that this telemetry data can be tied to your device and help de-anonymizing you and later can be used against you by an adversary that would get access to this data.
 
-This does not mean for example that Apple devices are terrible choices for good Privacy (tho this might be changing^[\[113\]](#fn113)^), but they are certainly not the best choices for (relative) Anonymity. They might protect you from third parties knowing what you are doing but not from themselves. In all likelihood, they certainly know who you are.
+This does not mean for example that Apple devices are terrible choices for good Privacy (tho this might be changing), but they are certainly not the best choices for (relative) Anonymity. They might protect you from third parties knowing what you are doing but not from themselves. In all likelihood, they certainly know who you are.
 
 Later in this guide, we will use all the means at our disposal to disable and block as much telemetry as possible to mitigate this attack vector in the Operating Systems supported in this guide. These will include Windows, macOS, and even Linux in some regard.
 
@@ -936,21 +924,21 @@ You got it; your smartphone is an advanced spying/tracking device that:
 -   Has most likely access to most of your known accounts including social media, messaging, and financial accounts.
     
 
-Data is being transmitted even if you opt-out^[\[110:1\]](#fn110)^, processed, and stored indefinitely (most likely unencrypted^[\[114\]](#fn114)^) by various third parties^[\[115\]](#fn115)^.
+Data is being transmitted even if you opt-out, processed, and stored indefinitely (most likely unencrypted) by various third parties.
 
 But that is not all, this section is not called “Smartphones” but “Smart devices” because it is not only your smartphone spying on you. It is also every other smart device you could have:
 
 -   Your Smart Watch? (Apple Watch, Android Smartwatch …)
     
--   Your Fitness Devices and Apps^[\[116\]](#fn116)^’^[\[117\]](#fn117)^? (Strava^[\[118\]](#fn118)^’^[\[119\]](#fn119)^, Fitbit^[\[120\]](#fn120)^, Garmin, Polar^[\[121\]](#fn121)^, …)
+-   Your Fitness Devices and Apps? (Strava, Fitbit, Garmin, Polar …)
     
--   Your Smart Speaker? (Amazon Alexa^[\[122\]](#fn122)^, Google Echo, Apple Homepod …)
+-   Your Smart Speaker? (Amazon Alexa, Google Echo, Apple Homepod …)
     
 -   Your Smart Transportation? (Car? Scooter?)
     
 -   Your Smart Tags? (Apple AirTag, Galaxy SmartTag, Tile…)
     
--   Your Car? (Yes, most modern cars have advanced logging/tracking features these days^[\[123\]](#fn123)^)
+-   Your Car? (Yes, most modern cars have advanced logging/tracking features these days)
     
 -   Any other Smart device? There are even convenient search engines dedicated to finding them online:
     
@@ -969,33 +957,33 @@ Conclusion: Do not bring your smart devices with you when conducting sensitive a
 
 ### Your Metadata including your Geo-Location:
 
-Your metadata is all the information about your activities without the actual content of those activities. For instance, it is like knowing you had a call from an oncologist before then calling your family and friends successively. You do not know what was said during the conversation, but you can guess what it was just from the metadata^[\[124\]](#fn124)^.
+Your metadata is all the information about your activities without the actual content of those activities. For instance, it is like knowing you had a call from an oncologist before then calling your family and friends successively. You do not know what was said during the conversation, but you can guess what it was just from the metadata.
 
-This metadata will also often include your location that is being harvested by Smartphones, Operating Systems (Android^[\[125\]](#fn125)^/IOS), Browsers, Apps, Websites. Odds are several companies are knowing exactly where you are at any time^[\[126\]](#fn126)^ because of your smartphone^[\[127\]](#fn127)^.
+This metadata will also often include your location that is being harvested by Smartphones, Operating Systems (Android/IOS), Browsers, Apps, Websites. Odds are several companies are knowing exactly where you are at any time because of your smartphone.
 
-This location data has been used in many judicial cases^[\[128\]](#fn128)^ already as part of “geofencing warrants” ^[\[129\]](#fn129)^ that allow law enforcement to ask companies (such as Google/Apple) a list of all devices present at a certain location at a certain time. In addition, this location data is even sold by private companies to the military who can then use it conveniently^[\[130\]](#fn130)^. These warrants are becoming widely used by law enforcement^[\[131\]](#fn131)^’^[\[132\]](#fn132)^'^[\[133\]](#fn133)^.
+This location data has been used in many judicial cases already as part of “geofencing warrants”  that allow law enforcement to ask companies (such as Google/Apple) a list of all devices present at a certain location at a certain time. In addition, this location data is even sold by private companies to the military who can then use it conveniently. These warrants are becoming widely used by law enforcement.
 
 If you want to experience yourself what a “geofencing warrant” would look like, here is an example: [https://wigle.net/](https://wigle.net/).
 
 Now let us say you are using a VPN to hide your IP. The social media platform knows you were active on that account on November 4th from 8 am to 1 pm with that VPN IP. The VPN allegedly keeps no logs and cannot trace back that VPN IP to your IP. Your ISP however knows (or at least can know) you were connected to that same VPN provider on November 4th from 7:30 am to 2 pm but does not know what you were doing with it.
 
-The question is: Is there someone somewhere that would have both pieces of information available^[\[134\]](#fn134)^ for correlation in a convenient database?
+The question is: Is there someone somewhere that would have both pieces of information available for correlation in a convenient database?
 
-Have you heard of Edward Snowden^[\[135\]](#fn135)^? Now is the time to google him and read his book^[\[136\]](#fn136)^. Also read about XKEYSCORE^[\[137\]](#fn137)^’^[\[138\]](#fn138)^, MUSCULAR^[\[139\]](#fn139)^, SORM^[\[140\]](#fn140)^, Tempora^[\[141\]](#fn141)^ , and PRISM^[\[142\]](#fn142)^.
+Have you heard of Edward Snowden? Now is the time to google him and read his book. Also read about XKEYSCORE, MUSCULAR, SORM, Tempora , and PRISM.
 
-See “We kill people based on Metadata”^[\[143\]](#fn143)^ or this famous tweet from the IDF [https://twitter.com/idf/status/1125066395010699264](https://twitter.com/idf/status/1125066395010699264) ^[\[Archive.org\]](https://web.archive.org/web/https://twitter.com/idf/status/1125066395010699264)^ ^[\[Nitter\]](https://nitter.net/idf/status/1125066395010699264)^.
+See “We kill people based on Metadata” or this famous tweet from the IDF [https://twitter.com/idf/status/1125066395010699264](https://twitter.com/idf/status/1125066395010699264) [\[Archive.org\]](https://web.archive.org/web/https://twitter.com/idf/status/1125066395010699264) [\[Nitter\]](https://nitter.net/idf/status/1125066395010699264).
 
 See [Appendix N: Warning about smartphones and smart devices](#appendix-n-warning-about-smartphones-and-smart-devices)
 
 ### Your Digital Fingerprint, Footprint, and Online Behavior:
 
-This is the part where you should watch the documentary “The Social Dilemma”^[\[144\]](#fn144)^ on Netflix as they cover this topic much better than anyone else IMHO.
+This is the part where you should watch the documentary “The Social Dilemma” on Netflix as they cover this topic much better than anyone else IMHO.
 
-This includes is the way you write (stylometry) ^[\[145\]](#fn145)^‘^[\[146\]](#fn146)^, the way you behave^[\[147\]](#fn147)^’^[\[148\]](#fn148)^. The way you click. The way you browse. The fonts you use on your browser^[\[149\]](#fn149)^. Fingerprinting is being used to guess who someone is by the way that user is behaving. You might be using specific pedantic words or making specific spelling mistakes that could give you away using a simple Google search for similar features because you typed comparably on some Reddit post 5 years ago using a not so anonymous Reddit account^[\[150\]](#fn150)^. The words you type in a search engine alone can be used against you as the authorities now have warrants to find users who used specific keywords in search engines^[\[151\]](#fn151)^.
+This includes is the way you write (stylometry) , the way you behave. The way you click. The way you browse. The fonts you use on your browser. Fingerprinting is being used to guess who someone is by the way that user is behaving. You might be using specific pedantic words or making specific spelling mistakes that could give you away using a simple Google search for similar features because you typed comparably on some Reddit post 5 years ago using a not so anonymous Reddit account. The words you type in a search engine alone can be used against you as the authorities now have warrants to find users who used specific keywords in search engines.
 
 Social Media platforms such as Facebook/Google can go a step further and can register your behavior in the browser itself. For instance, they can register everything you type even if you do not send it / save it. Think of when you draft an e-mail in Gmail. It is saved automatically as you type. They can register your clicks and cursor movements as well.
 
-All they need to achieve this in most cases is Javascript enabled in your browser (which is the case in most Browsers including Tor Browser by default). Even with Javascript disabled, there are still ways to fingerprint you^[\[152\]](#fn152)^.
+All they need to achieve this in most cases is Javascript enabled in your browser (which is the case in most Browsers including Tor Browser by default). Even with Javascript disabled, there are still ways to fingerprint you.
 
 While these methods are usually used for marketing purposes and advertising, they can also be a useful tool for fingerprinting users. This is because your behavior is unique or unique enough that over time, you could be de-anonymized.
 
@@ -1003,9 +991,9 @@ Here are some examples:
 
 -   Specialized companies are selling to, for example, law enforcement agencies products for analyzing social network activities such as [https://mediasonar.com/](https://mediasonar.com/) ^[\[Archive.org\]](https://web.archive.org/web/https://mediasonar.com/)^
     
--   For example, as a basis of authentication, a user’s typing speed, keystroke depressions, patterns of error (say accidentally hitting an “l” instead of a “k” on three out of every seven transactions) and mouse movements establish that person’s unique pattern of behavior^[\[153\]](#fn153)^. Some commercial services such as TypingDNA ([https://www.typingdna.com/](https://www.typingdna.com/) ^[\[Archive.org\]](https://web.archive.org/web/https://www.typingdna.com/)^) even offer such analysis as a replacement for two-factor authentications.
+-   For example, as a basis of authentication, a user’s typing speed, keystroke depressions, patterns of error (say accidentally hitting an “l” instead of a “k” on three out of every seven transactions) and mouse movements establish that person’s unique pattern of behavior. Some commercial services such as TypingDNA ([https://www.typingdna.com/](https://www.typingdna.com/) [\[Archive.org\]](https://web.archive.org/web/https://www.typingdna.com/)) even offer such analysis as a replacement for two-factor authentications.
     
--   This technology is also widely used in CAPTCHAS^[\[154\]](#fn154)^ services to verify that you are “human” and can be used to fingerprint a user.
+-   This technology is also widely used in CAPTCHAS services to verify that you are “human” and can be used to fingerprint a user.
     
 -   See [Appendix A4: Counteracting Forensic Linguistics](#appendix-a4-counteracting-forensic-linguistics).
     
@@ -1018,15 +1006,15 @@ Here is also a recent example just showing what Google Chrome collects on you: [
 
 Here are some other resources on the topic if you cannot see this documentary:
 
--   2017, Behavior Analysis in Social Networks, [https://link.springer.com/10.1007/978-1-4614-7163-9\_110198-1](https://link.springer.com/10.1007/978-1-4614-7163-9_110198-1) ^[\[Archive.org\]](https://web.archive.org/web/https://link.springer.com/10.1007/978-1-4614-7163-9_110198-1)^
+-   2017, Behavior Analysis in Social Networks, [https://link.springer.com/10.1007/978-1-4614-7163-9\_110198-1](https://link.springer.com/10.1007/978-1-4614-7163-9_110198-1) [\[Archive.org\]](https://web.archive.org/web/https://link.springer.com/10.1007/978-1-4614-7163-9_110198-1)
     
--   2017, Social Networks and Positive and Negative Affect [https://www.sciencedirect.com/science/article/pii/S1877042811013747/pdf?md5=253d8f1bb615d5dee195d353dc077d46&pid=1-s2.0-S1877042811013747-main.pdf](https://www.sciencedirect.com/science/article/pii/S1877042811013747/pdf?md5=253d8f1bb615d5dee195d353dc077d46&pid=1-s2.0-S1877042811013747-main.pdf) ^[\[Archive.org\]](https://web.archive.org/web/https://www.sciencedirect.com/science/article/pii/S1877042811013747/pdf?md5=253d8f1bb615d5dee195d353dc077d46&pid=1-s2.0-S1877042811013747-main.pdf)^
+-   2017, Social Networks and Positive and Negative Affect [https://www.sciencedirect.com/science/article/pii/S1877042811013747/pdf?md5=253d8f1bb615d5dee195d353dc077d46&pid=1-s2.0-S1877042811013747-main.pdf](https://www.sciencedirect.com/science/article/pii/S1877042811013747/pdf?md5=253d8f1bb615d5dee195d353dc077d46&pid=1-s2.0-S1877042811013747-main.pdf) [\[Archive.org\]](https://web.archive.org/web/https://www.sciencedirect.com/science/article/pii/S1877042811013747/pdf?md5=253d8f1bb615d5dee195d353dc077d46&pid=1-s2.0-S1877042811013747-main.pdf)
     
--   2015, Using Social Networks Data for Behavior and Sentiment Analysis [https://www.researchgate.net/publication/300562034\_Using\_Social\_Networks\_Data\_for\_Behavior\_and\_Sentiment\_Analysis](https://www.researchgate.net/publication/300562034_Using_Social_Networks_Data_for_Behavior_and_Sentiment_Analysis) ^[\[Archive.org\]](https://web.archive.org/web/https://www.researchgate.net/publication/300562034_Using_Social_Networks_Data_for_Behavior_and_Sentiment_Analysis)^
+-   2015, Using Social Networks Data for Behavior and Sentiment Analysis [https://www.researchgate.net/publication/300562034\_Using\_Social\_Networks\_Data\_for\_Behavior\_and\_Sentiment\_Analysis](https://www.researchgate.net/publication/300562034_Using_Social_Networks_Data_for_Behavior_and_Sentiment_Analysis) [\[Archive.org\]](https://web.archive.org/web/https://www.researchgate.net/publication/300562034_Using_Social_Networks_Data_for_Behavior_and_Sentiment_Analysis)
     
--   2016, A Survey on User Behavior Analysis in Social Networks [https://www.academia.edu/30936118/A\_Survey\_on\_User\_Behaviour\_Analysis\_in\_Social\_Networks](https://www.academia.edu/30936118/A_Survey_on_User_Behaviour_Analysis_in_Social_Networks) ^[\[Archive.org\]](https://web.archive.org/web/https://www.academia.edu/30936118/A_Survey_on_User_Behaviour_Analysis_in_Social_Networks)^
+-   2016, A Survey on User Behavior Analysis in Social Networks [https://www.academia.edu/30936118/A\_Survey\_on\_User\_Behaviour\_Analysis\_in\_Social\_Networks](https://www.academia.edu/30936118/A_Survey_on_User_Behaviour_Analysis_in_Social_Networks) [\[Archive.org\]](https://web.archive.org/web/https://www.academia.edu/30936118/A_Survey_on_User_Behaviour_Analysis_in_Social_Networks)
     
--   2019, Influence and Behavior Analysis in Social Networks and Social Media [https://sci-hub.se/10.1007/978-3-030-02592-2](https://sci-hub.se/10.1007/978-3-030-02592-2) ^[\[Archive.org\]](https://web.archive.org/web/https://web.archive.org/web/https://sci-hub.se/10.1007/978-3-030-02592-2)^
+-   2019, Influence and Behavior Analysis in Social Networks and Social Media [https://sci-hub.se/10.1007/978-3-030-02592-2](https://sci-hub.se/10.1007/978-3-030-02592-2) [\[Archive.org\]](https://web.archive.org/web/https://web.archive.org/web/https://sci-hub.se/10.1007/978-3-030-02592-2)
     
 
 So, how can you mitigate these?
@@ -1036,17 +1024,16 @@ So, how can you mitigate these?
 -   You should apply common sense and try to find your own patterns in your behavior and behave differently when using anonymous identities. This includes:
     
     -   The way you type (speed, accuracy…).
-        
+
     -   The words you use (be careful with your usual expressions).
-        
+    
     -   The type of response you use (if you are sarcastic by default, try to have a different approach with your identities).
-        
+    
     -   The way you use your mouse and click (try to solve the Captchas differently than your usual way)
-        
+    
     -   The habits you have when using some Apps or visiting some Websites (do not always use the same menus/buttons/links to reach your content).
-        
-    -   …
-        
+    
+     
 
 You need to act and fully adopt a role as an actor would do for a performance. You need to become a different person, think, and act like that person. This is not a technical mitigation but a human one. You can only rely on yourself for that.
 
@@ -1056,13 +1043,13 @@ Ultimately, it is mostly up to you to fool those algorithms by adopting new habi
 
 These are clues you might give over time that could point to your real identity. You might be talking to someone or posting on some board/forum/Reddit. In those posts, you might over time leak some information about your real life. These might be memories, experiences, or clues you shared that could then allow a motivated adversary to build a profile to narrow their search.
 
-A real use and well-documented case of this was the arrest of the hacker Jeremy Hammond^[\[155\]](#fn155)^ who shared over time several details about his past and was later discovered.
+A real use and well-documented case of this was the arrest of the hacker Jeremy Hammond who shared over time several details about his past and was later discovered.
 
-There are also a few cases involving OSINT at Bellingcat^[\[156\]](#fn156)^. Have a look at their very informative (but slightly outdated) toolkit here: [https://docs.google.com/spreadsheets/d/18rtqh8EG2q1xBo2cLNyhIDuK9jrPGwYr9DI2UncoqJQ/edit#gid=930747607](https://docs.google.com/spreadsheets/d/18rtqh8EG2q1xBo2cLNyhIDuK9jrPGwYr9DI2UncoqJQ/edit#gid=930747607) ^[\[Archive.org\]](https://web.archive.org/web/https://docs.google.com/spreadsheets/d/18rtqh8EG2q1xBo2cLNyhIDuK9jrPGwYr9DI2UncoqJQ/edit)^
+There are also a few cases involving OSINT at Bellingcat. Have a look at their very informative (but slightly outdated) toolkit here: [https://docs.google.com/spreadsheets/d/18rtqh8EG2q1xBo2cLNyhIDuK9jrPGwYr9DI2UncoqJQ/edit#gid=930747607](https://docs.google.com/spreadsheets/d/18rtqh8EG2q1xBo2cLNyhIDuK9jrPGwYr9DI2UncoqJQ/edit#gid=930747607) [\[Archive.org\]](https://web.archive.org/web/https://docs.google.com/spreadsheets/d/18rtqh8EG2q1xBo2cLNyhIDuK9jrPGwYr9DI2UncoqJQ/edit)
 
 You can also view some convenient lists of some available OSINT tools here if you want to try them on yourself for example:
 
--   [https://github.com/jivoi/awesome-osint](https://github.com/jivoi/awesome-osint) ^[\[Archive.org\]](https://web.archive.org/web/https://github.com/jivoi/awesome-osint)^
+-   [https://github.com/jivoi/awesome-osint](https://github.com/jivoi/awesome-osint) [\[Archive.org\]](https://web.archive.org/web/https://github.com/jivoi/awesome-osint)
     
 -   [https://web.archive.org/web/20210426041234/https://jakecreps.com/tag/osint-tools/](https://web.archive.org/web/20210426041234/https://jakecreps.com/tag/osint-tools/)
     
@@ -1071,7 +1058,7 @@ You can also view some convenient lists of some available OSINT tools here if yo
 -   [https://recontool.org](https://recontool.org)
     
 
-As well as this interesting Playlist on YouTube: [https://www.youtube.com/playlist?list=PLrFPX1Vfqk3ehZKSFeb9pVIHqxqrNW8Sy](https://www.youtube.com/playlist?list=PLrFPX1Vfqk3ehZKSFeb9pVIHqxqrNW8Sy) ^[\[Invidious\]](https://yewtu.be/playlist?list=PLrFPX1Vfqk3ehZKSFeb9pVIHqxqrNW8Sy)^
+As well as this interesting Playlist on YouTube: [https://www.youtube.com/playlist?list=PLrFPX1Vfqk3ehZKSFeb9pVIHqxqrNW8Sy](https://www.youtube.com/playlist?list=PLrFPX1Vfqk3ehZKSFeb9pVIHqxqrNW8Sy) [\[Invidious\]](https://yewtu.be/playlist?list=PLrFPX1Vfqk3ehZKSFeb9pVIHqxqrNW8Sy)
 
 As well as those interesting podcasts:
 
@@ -1083,54 +1070,50 @@ You should never share real individual experiences/details using your anonymous 
 
 “Hell is other people”, even if you evade every method listed above, you are not out of the woods yet thanks to the widespread use of advanced Face recognition by everyone.
 
-Companies like Facebook have used advanced face recognition for years^[\[157\]](#fn157)^’^[\[158\]](#fn158)^ and have been using other means (Satellite imagery) to create maps of “people” around the world^[\[159\]](#fn159)^. This evolution has been going on for years to the point we can now say “We lost control of our faces”^[\[160\]](#fn160)^.
+Companies like Facebook have used advanced face recognition for years and have been using other means (Satellite imagery) to create maps of “people” around the world. This evolution has been going on for years to the point we can now say “We lost control of our faces”.
 
-If you are walking in a touristy place, you will most likely appear in someone’s selfie within minutes without knowing it. That person could then go ahead and upload that selfie to various platforms (Twitter, Google Photos, Instagram, Facebook, Snapchat …). Those platforms will then apply face recognition algorithms to those pictures under the pretext of allowing better/easier tagging or to better organize your photo library. In addition to this, the same picture will provide a precise timestamp and in most cases geolocation of where it was taken. Even if the person does not provide a timestamp and geolocation, it can still be guessed with other means^[\[161\]](#fn161)^’^[\[162\]](#fn162)^.
+If you are walking in a touristy place, you will most likely appear in someone’s selfie within minutes without knowing it. That person could then go ahead and upload that selfie to various platforms (Twitter, Google Photos, Instagram, Facebook, Snapchat …). Those platforms will then apply face recognition algorithms to those pictures under the pretext of allowing better/easier tagging or to better organize your photo library. In addition to this, the same picture will provide a precise timestamp and in most cases geolocation of where it was taken. Even if the person does not provide a timestamp and geolocation, it can still be guessed with other means.
 
 Here are a few resources for even trying this yourself:
 
--   Bellingcat, Guide To Using Reverse Image Search For Investigations: [https://www.bellingcat.com/resources/how-tos/2019/12/26/guide-to-using-reverse-image-search-for-investigations/](https://www.bellingcat.com/resources/how-tos/2019/12/26/guide-to-using-reverse-image-search-for-investigations/) ^[\[Archive.org\]](https://web.archive.org/web/https://www.bellingcat.com/resources/how-tos/2019/12/26/guide-to-using-reverse-image-search-for-investigations/)^
+-   Bellingcat, Guide To Using Reverse Image Search For Investigations: [https://www.bellingcat.com/resources/how-tos/2019/12/26/guide-to-using-reverse-image-search-for-investigations/](https://www.bellingcat.com/resources/how-tos/2019/12/26/guide-to-using-reverse-image-search-for-investigations/) [\[Archive.org\]](https://web.archive.org/web/https://www.bellingcat.com/resources/how-tos/2019/12/26/guide-to-using-reverse-image-search-for-investigations/)
     
--   Bellingcat, Using the New Russian Facial Recognition Site SearchFace [https://www.bellingcat.com/resources/how-tos/2019/02/19/using-the-new-russian-facial-recognition-site-searchface-ru/](https://www.bellingcat.com/resources/how-tos/2019/02/19/using-the-new-russian-facial-recognition-site-searchface-ru/) ^[\[Archive.org\]](https://web.archive.org/web/https://www.bellingcat.com/resources/how-tos/2019/02/19/using-the-new-russian-facial-recognition-site-searchface-ru/)^
+-   Bellingcat, Using the New Russian Facial Recognition Site SearchFace [https://www.bellingcat.com/resources/how-tos/2019/02/19/using-the-new-russian-facial-recognition-site-searchface-ru/](https://www.bellingcat.com/resources/how-tos/2019/02/19/using-the-new-russian-facial-recognition-site-searchface-ru/) [\[Archive.org\]](https://web.archive.org/web/https://www.bellingcat.com/resources/how-tos/2019/02/19/using-the-new-russian-facial-recognition-site-searchface-ru/)
     
--   Bellingcat, Dali, Warhol, Boshirov: Determining the Time of an Alleged Photograph from Skripal Suspect Chepiga [https://www.bellingcat.com/resources/how-tos/2018/10/24/dali-warhol-boshirov-determining-time-alleged-photograph-skripal-suspect-chepiga/](https://www.bellingcat.com/resources/how-tos/2018/10/24/dali-warhol-boshirov-determining-time-alleged-photograph-skripal-suspect-chepiga/) ^[\[Archive.org\]](https://web.archive.org/web/https://www.bellingcat.com/resources/how-tos/2018/10/24/dali-warhol-boshirov-determining-time-alleged-photograph-skripal-suspect-chepiga/)^
+-   Bellingcat, Dali, Warhol, Boshirov: Determining the Time of an Alleged Photograph from Skripal Suspect Chepiga [https://www.bellingcat.com/resources/how-tos/2018/10/24/dali-warhol-boshirov-determining-time-alleged-photograph-skripal-suspect-chepiga/](https://www.bellingcat.com/resources/how-tos/2018/10/24/dali-warhol-boshirov-determining-time-alleged-photograph-skripal-suspect-chepiga/) [\[Archive.org\]](https://web.archive.org/web/https://www.bellingcat.com/resources/how-tos/2018/10/24/dali-warhol-boshirov-determining-time-alleged-photograph-skripal-suspect-chepiga/)
     
--   Bellingcat, Advanced Guide on Verifying Video Content [https://www.bellingcat.com/resources/how-tos/2017/06/30/advanced-guide-verifying-video-content/](https://www.bellingcat.com/resources/how-tos/2017/06/30/advanced-guide-verifying-video-content/) ^[\[Archive.org\]](https://web.archive.org/web/https://www.bellingcat.com/resources/how-tos/2017/06/30/advanced-guide-verifying-video-content/)^
+-   Bellingcat, Advanced Guide on Verifying Video Content [https://www.bellingcat.com/resources/how-tos/2017/06/30/advanced-guide-verifying-video-content/](https://www.bellingcat.com/resources/how-tos/2017/06/30/advanced-guide-verifying-video-content/) [\[Archive.org\]](https://web.archive.org/web/https://www.bellingcat.com/resources/how-tos/2017/06/30/advanced-guide-verifying-video-content/)
     
--   Bellingcat, Using the Sun and the Shadows for Geolocation [https://www.bellingcat.com/resources/2020/12/03/using-the-sun-and-the-shadows-for-geolocation/](https://www.bellingcat.com/resources/2020/12/03/using-the-sun-and-the-shadows-for-geolocation/) ^[\[Archive.org\]](https://web.archive.org/web/https://www.bellingcat.com/resources/2020/12/03/using-the-sun-and-the-shadows-for-geolocation/)^
+-   Bellingcat, Using the Sun and the Shadows for Geolocation [https://www.bellingcat.com/resources/2020/12/03/using-the-sun-and-the-shadows-for-geolocation/](https://www.bellingcat.com/resources/2020/12/03/using-the-sun-and-the-shadows-for-geolocation/) [\[Archive.org\]](https://web.archive.org/web/https://www.bellingcat.com/resources/2020/12/03/using-the-sun-and-the-shadows-for-geolocation/)
     
--   Bellingcat, Navalny Poison Squad Implicated in Murders of Three Russian Activists [https://www.bellingcat.com/news/uk-and-europe/2021/01/27/navalny-poison-squad-implicated-in-murders-of-three-russian-activists/](https://www.bellingcat.com/news/uk-and-europe/2021/01/27/navalny-poison-squad-implicated-in-murders-of-three-russian-activists/) ^[\[Archive.org\]](https://web.archive.org/web/https://www.bellingcat.com/news/uk-and-europe/2021/01/27/navalny-poison-squad-implicated-in-murders-of-three-russian-activists/)^
+-   Bellingcat, Navalny Poison Squad Implicated in Murders of Three Russian Activists [https://www.bellingcat.com/news/uk-and-europe/2021/01/27/navalny-poison-squad-implicated-in-murders-of-three-russian-activists/](https://www.bellingcat.com/news/uk-and-europe/2021/01/27/navalny-poison-squad-implicated-in-murders-of-three-russian-activists/) [\[Archive.org\]](https://web.archive.org/web/https://www.bellingcat.com/news/uk-and-europe/2021/01/27/navalny-poison-squad-implicated-in-murders-of-three-russian-activists/)
     
--   Bellingcat, Berlin Assassination: New Evidence on Suspected FSB Hitman Passed to German Investigators [https://www.bellingcat.com/news/2021/03/19/berlin-assassination-new-evidence-on-suspected-fsb-hitman-passed-to-german-investigators/](https://www.bellingcat.com/news/2021/03/19/berlin-assassination-new-evidence-on-suspected-fsb-hitman-passed-to-german-investigators/) ^[\[Archive.org\]](https://web.archive.org/web/https://www.bellingcat.com/news/2021/03/19/berlin-assassination-new-evidence-on-suspected-fsb-hitman-passed-to-german-investigators/)^
+-   Bellingcat, Berlin Assassination: New Evidence on Suspected FSB Hitman Passed to German Investigators [https://www.bellingcat.com/news/2021/03/19/berlin-assassination-new-evidence-on-suspected-fsb-hitman-passed-to-german-investigators/](https://www.bellingcat.com/news/2021/03/19/berlin-assassination-new-evidence-on-suspected-fsb-hitman-passed-to-german-investigators/) [\[Archive.org\]](https://web.archive.org/web/https://www.bellingcat.com/news/2021/03/19/berlin-assassination-new-evidence-on-suspected-fsb-hitman-passed-to-german-investigators/)
     
--   Bellingcat, Digital Research Tutorial: Investigating a Saudi-Led Coalition Bombing of a Yemen Hospital [https://www.youtube.com/watch?v=cAVZaPiVArA](https://www.youtube.com/watch?v=cAVZaPiVArA) ^[\[Invidious\]](https://yewtu.be/watch?v=cAVZaPiVArA)^
+-   Bellingcat, Digital Research Tutorial: Investigating a Saudi-Led Coalition Bombing of a Yemen Hospital [https://www.youtube.com/watch?v=cAVZaPiVArA](https://www.youtube.com/watch?v=cAVZaPiVArA) [\[Invidious\]](https://yewtu.be/watch?v=cAVZaPiVArA)
     
--   Bellingcat, Digital Research Tutorial: Using Facial Recognition in Investigations [https://www.youtube.com/watch?v=awY87q2Mr0E](https://www.youtube.com/watch?v=awY87q2Mr0E) ^[\[Invidious\]](https://yewtu.be/watch?v=awY87q2Mr0E)^
+-   Bellingcat, Digital Research Tutorial: Using Facial Recognition in Investigations [https://www.youtube.com/watch?v=awY87q2Mr0E](https://www.youtube.com/watch?v=awY87q2Mr0E) [\[Invidious\]](https://yewtu.be/watch?v=awY87q2Mr0E)
     
--   Bellingcat, Digital Research Tutorial: Geolocating (Allegedly) Corrupt Venezuelan Officials in Europe [https://www.youtube.com/watch?v=bS6gYWM4kzY](https://www.youtube.com/watch?v=bS6gYWM4kzY) ^[\[Invidious\]](https://yewtu.be/watch?v=bS6gYWM4kzY)^
+-   Bellingcat, Digital Research Tutorial: Geolocating (Allegedly) Corrupt Venezuelan Officials in Europe [https://www.youtube.com/watch?v=bS6gYWM4kzY](https://www.youtube.com/watch?v=bS6gYWM4kzY) [\[Invidious\]](https://yewtu.be/watch?v=bS6gYWM4kzY)
     
 
 ### Gait Recognition and Other Long-Range Biometrics
 
-Even if you are not looking at the camera, they can still figure out who you are^[\[163\]](#fn163)^, make out your emotions^[\[164\]](#fn164)^, analyze your gait^[\[165\]](#fn165)^’^[\[166\]](#fn166)^‘^[\[167\]](#fn167)^, read your lips^[\[168\]](#fn168)^, analyze the behavior of your eyes^[\[169\]](#fn169)^, and probably guess your political affiliation^[\[170\]](#fn170)^’^[\[171\]](#fn171)^.
+Even if you are not looking at the camera, they can still figure out who you are, make out your emotions, analyze your gait, read your lips, analyze the behavior of your eyes, and probably guess your political affiliation.
 
 Contrary to popular belief and pop culture, modern gait recognition systems aren’t fooled by simply changing how you walk (ex. with something uncomfortable in your shoe), as they analyze the way your body’s muscles move across your entire body, as you perform certain actions. The best way to fool modern gait recognition is to wear loose clothes that obscure the way your muscles move as you perform actions.
 
 Other things than can be used to identify you include your earlobes, which are actually more identifiable than fingerprints, or even the shape of your skull. As such, soft headcoverings such as balaclavas are not recommendable for obscuring your identity - they make you look incredibly suspicious, while also conforming to the shape of your skull.
 
-![](media/image11.jpeg)
+(Illustration from [https://www.nature.com/articles/s41598-020-79310-1](https://www.nature.com/articles/s41598-020-79310-1) [\[Archive.org\]](https://web.archive.org/web/https://www.nature.com/articles/s41598-020-79310-1.pdf))
 
-(Illustration from [https://www.nature.com/articles/s41598-020-79310-1](https://www.nature.com/articles/s41598-020-79310-1) ^[\[Archive.org\]](https://web.archive.org/web/https://www.nature.com/articles/s41598-020-79310-1.pdf)^)
-
-![](media/image12.jpeg)
-
-(illustration from [https://rd.springer.com/chapter/10.1007/978-3-030-42504-3\_15](https://rd.springer.com/chapter/10.1007/978-3-030-42504-3_15) ^[\[Archive.org\]](https://web.archive.org/web/https://rd.springer.com/chapter/10.1007/978-3-030-42504-3_15)^)
+(illustration from [https://rd.springer.com/chapter/10.1007/978-3-030-42504-3\_15](https://rd.springer.com/chapter/10.1007/978-3-030-42504-3_15) [\[Archive.org\]](https://web.archive.org/web/https://rd.springer.com/chapter/10.1007/978-3-030-42504-3_15))
 
 Those platforms (Google/Facebook) already know who you are for a few reasons:
 
 -   Because you have or had a profile with them, and you identified yourself.
     
--   Even if you never made a profile on those platforms, you still have one without even knowing it^[\[172\]](#fn172)^’^[\[173\]](#fn173)^‘^[\[174\]](#fn174)^’^[\[175\]](#fn175)^'^[\[176\]](#fn176)^.
+-   Even if you never made a profile on those platforms, you still have one without even knowing it.
     
 -   Because other people have tagged you or identified you in their holidays/party pictures.
     
@@ -1139,40 +1122,40 @@ Those platforms (Google/Facebook) already know who you are for a few reasons:
 
 Here is also an insightful demo of Microsoft Azure you can try for yourself at [https://azure.microsoft.com/en-us/services/cognitive-services/face/#demo](https://azure.microsoft.com/en-us/services/cognitive-services/face/#demo) where you can detect emotions and compare faces from different pictures.
 
-Governments already know who you are because they have your ID/Passport/Driving License pictures and often added biometrics (Fingerprints) in their database. Those same governments are integrating those technologies (often provided by private companies such as the Israeli Oosto^[\[177\]](#fn177)^, Clearview AI^[\[178\]](#fn178)^’^[\[179\]](#fn179)^, or NEC^[\[180\]](#fn180)^) in their CCTV networks to look for “persons of interest”^[\[181\]](#fn181)^. And some heavily surveilled states like China have implemented widespread use of Facial Recognition for various purposes^[\[182\]](#fn182)^’^[\[183\]](#fn183)^ including possibly identifying ethnic minorities^[\[184\]](#fn184)^. A simple face recognition error by some algorithm can ruin your life^[\[185\]](#fn185)^’^[\[186\]](#fn186)^.
+Governments already know who you are because they have your ID/Passport/Driving License pictures and often added biometrics (Fingerprints) in their database. Those same governments are integrating those technologies (often provided by private companies such as the Israeli Oosto, Clearview AI, or NEC) in their CCTV networks to look for “persons of interest”. And some heavily surveilled states like China have implemented widespread use of Facial Recognition for various purposes including possibly identifying ethnic minorities. A simple face recognition error by some algorithm can ruin your life.
 
 Here are some resources detailing some techniques used by Law Enforcement today:
 
--   CCC video explaining current Law Enforcement surveillance capabilities: [https://media.ccc.de/v/rc3-11406-spot\_the\_surveillance#t=761](https://media.ccc.de/v/rc3-11406-spot_the_surveillance#t=761) ^[\[Archive.org\]](https://web.archive.org/web/https://media.ccc.de/v/rc3-11406-spot_the_surveillance)^
+-   CCC video explaining current Law Enforcement surveillance capabilities: [https://media.ccc.de/v/rc3-11406-spot\_the\_surveillance#t=761](https://media.ccc.de/v/rc3-11406-spot_the_surveillance#t=761) [\[Archive.org\]](https://web.archive.org/web/https://media.ccc.de/v/rc3-11406-spot_the_surveillance)
     
--   EFF SLS: [https://www.eff.org/sls](https://www.eff.org/sls) ^[\[Archive.org\]](https://web.archive.org/web/https://www.eff.org/sls)^
+-   EFF SLS: [https://www.eff.org/sls](https://www.eff.org/sls) [\[Archive.org\]](https://web.archive.org/web/https://www.eff.org/sls)
     
 
 Apple is making FaceID mainstream and pushing its use to log you into many services including the Banking systems.
 
-The same goes with fingerprint authentication being mainstreamed by many smartphone makers to authenticate yourself. A simple picture where your fingers appear can be used to de-anonymize you^[\[187\]](#fn187)^’^[\[188\]](#fn188)^‘^[\[189\]](#fn189)^’^[\[190\]](#fn190)^.
+The same goes with fingerprint authentication being mainstreamed by many smartphone makers to authenticate yourself. A simple picture where your fingers appear can be used to de-anonymize you.
 
-The same goes with your voice which can be analyzed for various purposes as shown in the recent Spotify patent^[\[191\]](#fn191)^.
+The same goes with your voice which can be analyzed for various purposes as shown in the recent Spotify patent.
 
-Even your iris can be used for identification in some places^[\[192\]](#fn192)^.
+Even your iris can be used for identification in some places.
 
-We can safely imagine a near future where you will not be able to create accounts or sign in anywhere without providing unique biometrics (A suitable time to re-watch Gattaca^[\[193\]](#fn193)^, Person of Interest^[\[194\]](#fn194)^ , and Minority Report^[\[195\]](#fn195)^). And you can safely imagine how useful these large biometrics databases could be to some interested third parties.
+We can safely imagine a near future where you will not be able to create accounts or sign in anywhere without providing unique biometrics (A suitable time to re-watch Gattaca, Person of Interest , and Minority Report). And you can safely imagine how useful these large biometrics databases could be to some interested third parties.
 
-In addition, all this information can also be used against you (if you are already de-anonymized) using deepfake^[\[196\]](#fn196)^ by crafting false information (Pictures, Videos, Voice Recordings^[\[197\]](#fn197)^…) and have already been used for such purposes^[\[198\]](#fn198)^’^[\[199\]](#fn199)^. There are even commercial services for this readily available such as [https://www.respeecher.com/](https://www.respeecher.com/) ^[\[Archive.org\]](https://web.archive.org/web/https://www.respeecher.com/)^ and [https://www.descript.com/overdub](https://www.descript.com/overdub) ^[\[Archive.org\]](https://web.archive.org/web/https://www.descript.com/overdub)^.
+In addition, all this information can also be used against you (if you are already de-anonymized) using deepfake by crafting false information (Pictures, Videos, Voice Recordings…) and have already been used for such purposes. There are even commercial services for this readily available such as [https://www.respeecher.com/](https://www.respeecher.com/) [\[Archive.org\]](https://web.archive.org/web/https://www.respeecher.com/) and [https://www.descript.com/overdub](https://www.descript.com/overdub) [\[Archive.org\]](https://web.archive.org/web/https://www.descript.com/overdub).
 
-See this demo: [https://www.youtube.com/watch?v=t5yw5cR79VA](https://www.youtube.com/watch?v=t5yw5cR79VA) ^[\[Invidious\]](https://yewtu.be/watch?v=t5yw5cR79VA)^
+See this demo: [https://www.youtube.com/watch?v=t5yw5cR79VA](https://www.youtube.com/watch?v=t5yw5cR79VA) [\[Invidious\]](https://yewtu.be/watch?v=t5yw5cR79VA)
 
-At this time, there are a few steps^[\[200\]](#fn200)^ you can use to mitigate (and only mitigate) face recognition when conducting sensitive activities where CCTV might be present:
+At this time, there are a few steps you can use to mitigate (and only mitigate) face recognition when conducting sensitive activities where CCTV might be present:
 
--   Wear a facemask as they have been proven to defeat some face recognition technologies^[\[201\]](#fn201)^ but not all^[\[202\]](#fn202)^.
+-   Wear a facemask as they have been proven to defeat some face recognition technologies but not all.
     
 -   Wear a baseball cap or hat to mitigate identification from high-angle CCTVs (filming from above) from recording your face. Remember this will not help against front-facing cameras.
     
 -   Wear sunglasses in addition to the facemask and baseball cap to mitigate identification from your eye’s features.
     
--   Consider wearing special sunglasses (expensive, unfortunately) called “Reflectacles” [https://www.reflectacles.com/](https://www.reflectacles.com/) ^[\[Archive.org\]](https://web.archive.org/web/https://www.reflectacles.com/)^. There was a small study showing their efficiency against IBM and Amazon facial recognition^[\[203\]](#fn203)^.
+-   Consider wearing special sunglasses (expensive, unfortunately) called “Reflectacles” [https://www.reflectacles.com/](https://www.reflectacles.com/) [\[Archive.org\]](https://web.archive.org/web/https://www.reflectacles.com/). There was a small study showing their efficiency against IBM and Amazon facial recognition.
     
--   All that might still be useless because of gait recognition mentioned earlier but there might be hope here if you have a 3D Printer: [https://gitlab.com/FG-01/fg-01](https://gitlab.com/FG-01/fg-01) ^[\[Archive.org\]](https://web.archive.org/web/https://gitlab.com/FG-01/fg-01)^
+-   All that might still be useless because of gait recognition mentioned earlier but there might be hope here if you have a 3D Printer: [https://gitlab.com/FG-01/fg-01](https://gitlab.com/FG-01/fg-01) [\[Archive.org\]](https://web.archive.org/web/https://gitlab.com/FG-01/fg-01)
     
 
 (see \[Gait Recognition and Other Long-Range Biometrics\])
@@ -1181,15 +1164,15 @@ At this time, there are a few steps^[\[200\]](#fn200)^ you can use to mitigate (
 
 ### Phishing and Social Engineering:
 
-Phishing^[\[204\]](#fn204)^ is a social engineering^[\[205\]](#fn205)^ type of attack where an adversary could try to extract information from you by pretending or impersonating something/someone else.
+Phishing is a social engineering type of attack where an adversary could try to extract information from you by pretending or impersonating something/someone else.
 
-A typical case is an adversary using a man-in-the-middle^[\[35:2\]](#fn35)^ attack or a fake e-mail/call to ask for your credential for a service. This could for example be through e-mail or through impersonating financial services.
+A typical case is an adversary using a man-in-the-middle attack or a fake e-mail/call to ask for your credential for a service. This could for example be through e-mail or through impersonating financial services.
 
 Such attacks can also be used to de-anonymize someone by tricking them into downloading malware or revealing personal information over time. The only defense against those is not to fall for them and common sense.
 
-These have been used countless times since the early days of the internet and the usual one is called the “419 scam” (see [https://en.wikipedia.org/wiki/Advance-fee\_scam](https://en.wikipedia.org/wiki/Advance-fee_scam) ^[\[Wikiless\]](https://wikiless.org/wiki/Advance-fee_scam)^ ^[\[Archive.org\]](https://web.archive.org/web/https://en.wikipedia.org/wiki/Advance-fee_scam)^).
+These have been used countless times since the early days of the internet and the usual one is called the “419 scam” (see [https://en.wikipedia.org/wiki/Advance-fee\_scam](https://en.wikipedia.org/wiki/Advance-fee_scam) [\[Wikiless\]](https://wikiless.org/wiki/Advance-fee_scam) [\[Archive.org\]](https://web.archive.org/web/https://en.wikipedia.org/wiki/Advance-fee_scam)).
 
-Here is a good video if you want to learn a bit more about phishing types: Black Hat, Ichthyology: Phishing as a Science [https://www.youtube.com/watch?v=Z20XNp-luNA](https://www.youtube.com/watch?v=Z20XNp-luNA) ^[\[Invidious\]](https://yewtu.be/watch?v=Z20XNp-luNA)^.
+Here is a good video if you want to learn a bit more about phishing types: Black Hat, Ichthyology: Phishing as a Science [https://www.youtube.com/watch?v=Z20XNp-luNA](https://www.youtube.com/watch?v=Z20XNp-luNA) [\[Invidious\]](https://yewtu.be/watch?v=Z20XNp-luNA).
 
 ## Malware, exploits, and viruses:
 
@@ -1199,15 +1182,15 @@ Using steganography or other techniques, it is easy to embed malware into common
 
 These can be as simple as HTML tracking links or complex targeted malware.
 
-These could be simple pixel-sized images^[\[206\]](#fn206)^ hidden in your e-mails that would call a remote server to try and get your IP address.
+These could be simple pixel-sized images hidden in your e-mails that would call a remote server to try and get your IP address.
 
-These could be exploiting a vulnerability in an outdated format or an outdated reader^[\[207\]](#fn207)^. Such exploits could then be used to compromise your system.
+These could be exploiting a vulnerability in an outdated format or an outdated reader. Such exploits could then be used to compromise your system.
 
 See these good videos for more explanations on the matter:
 
--   What is a File Format? [https://www.youtube.com/watch?v=VVdmmN0su6E](https://www.youtube.com/watch?v=VVdmmN0su6E) ^[\[Invidious\]](https://yewtu.be/watch?v=VVdmmN0su6E)^
+-   What is a File Format? [https://www.youtube.com/watch?v=VVdmmN0su6E](https://www.youtube.com/watch?v=VVdmmN0su6E) [\[Invidious\]](https://yewtu.be/watch?v=VVdmmN0su6E)
     
--   Ange Albertini: Funky File Formats: [https://www.youtube.com/watch?v=hdCs6bPM4is](https://www.youtube.com/watch?v=hdCs6bPM4is) ^[\[Invidious\]](https://yewtu.be/watch?v=hdCs6bPM4is)^
+-   Ange Albertini: Funky File Formats: [https://www.youtube.com/watch?v=hdCs6bPM4is](https://www.youtube.com/watch?v=hdCs6bPM4is) [\[Invidious\]](https://yewtu.be/watch?v=hdCs6bPM4is)
     
 
 You should always use extreme caution. To mitigate these attacks, this guide will later recommend the use of virtualization (See [Appendix W: Virtualization](#appendix-v1-hardening-your-browsers)) to mitigate leaking any information even in case of opening such a malicious file.
@@ -1216,11 +1199,11 @@ If you want to learn how to try detecting such malware, see [Appendix T: Checkin
 
 ### Malware and Exploits in your apps and services:
 
-So, you are using Tor Browser or Brave Browser over Tor. You could be using those over a VPN for added security. But you should keep in mind that there are exploits^[\[208\]](#fn208)^ (hacks) that could be known by an adversary (but unknown to the App/Browser provider). Such exploits could be used to compromise your system and reveal details to de-anonymize you such as your IP address or other details.
+So, you are using Tor Browser or Brave Browser over Tor. You could be using those over a VPN for added security. But you should keep in mind that there are exploits (hacks) that could be known by an adversary (but unknown to the App/Browser provider). Such exploits could be used to compromise your system and reveal details to de-anonymize you such as your IP address or other details.
 
-A real use case of this technique was the Freedom Hosting^[\[209\]](#fn209)^ case in 2013 where the FBI inserted malware^[\[210\]](#fn210)^ using a Firefox browser exploit on a Tor website. This exploit allowed them to reveal details of some users. More recently, there was the notable SolarWinds^[\[211\]](#fn211)^ hack that breached several US government institutions by inserting malware into an official software update server.
+A real use case of this technique was the Freedom Hosting case in 2013 where the FBI inserted malware using a Firefox browser exploit on a Tor website. This exploit allowed them to reveal details of some users. More recently, there was the notable SolarWinds hack that breached several US government institutions by inserting malware into an official software update server.
 
-In some countries, Malware is just mandatory and/or distributed by the state itself. This is the case for instance in China with WeChat^[\[212\]](#fn212)^ which can then be used in combination with other data for state surveillance^[\[213\]](#fn213)^.
+In some countries, Malware is just mandatory and/or distributed by the state itself. This is the case for instance in China with WeChat which can then be used in combination with other data for state surveillance.
 
 There are countless examples of malicious browser extensions, smartphone apps, and various apps that have been infiltrated with malware over the years.
 
@@ -1233,24 +1216,24 @@ Here are some steps to mitigate this type of attack:
 -   You should not use such apps directly from a hardware system but instead, use a Virtual Machine for compartmentalization.
     
 
-To reflect these recommendations, this guide will therefore later guide you in the use of Virtualization (See [Appendix W: Virtualization](#appendix-v1-hardening-your-browsers)) so that even if your Browser/Apps get compromised by a skilled adversary, that adversary will find himself stuck in a sandbox^[\[214\]](#fn214)^ without being able to access identifying information or compromise your system.
+To reflect these recommendations, this guide will therefore later guide you in the use of Virtualization (See [Appendix W: Virtualization](#appendix-v1-hardening-your-browsers)) so that even if your Browser/Apps get compromised by a skilled adversary, that adversary will find himself stuck in a sandbox without being able to access identifying information or compromise your system.
 
 ### Malicious USB devices:
 
-There are readily available commercial and cheap “badUSB” ^[\[215\]](#fn215)^devices that can take deploy malware, log your typing, geolocate you, listen to you or gain control of your laptop just by plugging them in. Here are some examples that you can already buy yourself:
+There are readily available commercial and cheap “badUSB” devices that can take deploy malware, log your typing, geolocate you, listen to you or gain control of your laptop just by plugging them in. Here are some examples that you can already buy yourself:
 
--   Hak5, USB Rubber Ducky [https://shop.hak5.org/products/usb-rubber-ducky-deluxe](https://shop.hak5.org/products/usb-rubber-ducky-deluxe) ^[\[Archive.org\]](https://web.archive.org/web/https://shop.hak5.org/products/usb-rubber-ducky-deluxe)^
+-   Hak5, USB Rubber Ducky [https://shop.hak5.org/products/usb-rubber-ducky-deluxe](https://shop.hak5.org/products/usb-rubber-ducky-deluxe) [\[Archive.org\]](https://web.archive.org/web/https://shop.hak5.org/products/usb-rubber-ducky-deluxe)
     
--   Hak5, [O.MG](http://O.MG) Cable [https://www.youtube.com/watch?v=V5mBJHotZv0](https://www.youtube.com/watch?v=V5mBJHotZv0) ^[\[Invidious\]](https://yewtu.be/watch?v=V5mBJHotZv0)^
+-   Hak5, [O.MG](http://O.MG) Cable [https://www.youtube.com/watch?v=V5mBJHotZv0](https://www.youtube.com/watch?v=V5mBJHotZv0) [\[Invidious\]](https://yewtu.be/watch?v=V5mBJHotZv0)
     
--   Keelog [https://www.keelog.com/](https://www.keelog.com/) ^[\[Archive.org\]](https://web.archive.org/web/https://www.keelog.com/)^
+-   Keelog [https://www.keelog.com/](https://www.keelog.com/) [\[Archive.org\]](https://web.archive.org/web/https://www.keelog.com/)
     
--   AliExpress [https://www.aliexpress.com/i/4000710369016.html](https://www.aliexpress.com/i/4000710369016.html) ^[\[Archive.org\]](https://web.archive.org/web/https://www.aliexpress.com/i/4000710369016.html)^
+-   AliExpress [https://www.aliexpress.com/i/4000710369016.html](https://www.aliexpress.com/i/4000710369016.html) [\[Archive.org\]](https://web.archive.org/web/https://www.aliexpress.com/i/4000710369016.html)
     
 
-Such devices can be implanted anywhere (charging cable, mouse, keyboard, USB key …) by an adversary and can be used to track you or compromise your computer or smartphone. The most notable example of such attacks is probably Stuxnet^[\[216\]](#fn216)^ in 2005.
+Such devices can be implanted anywhere (charging cable, mouse, keyboard, USB key …) by an adversary and can be used to track you or compromise your computer or smartphone. The most notable example of such attacks is probably Stuxnet in 2005.
 
-While you could inspect a USB key physically, scan it with various utilities, check the various components to see if they are genuine, you will most likely never be able to discover complex malware embedded in genuine parts of a genuine USB key by a skilled adversary without advanced forensics equipment^[\[217\]](#fn217)^.
+While you could inspect a USB key physically, scan it with various utilities, check the various components to see if they are genuine, you will most likely never be able to discover complex malware embedded in genuine parts of a genuine USB key by a skilled adversary without advanced forensics equipment.
 
 To mitigate this, you should never trust such devices and plug them into sensitive equipment. If you use a charging device, you should consider the use of a USB data blocking device that will only allow charging but not any data transfer. Such data blocking devices are now readily available in many online shops. You should also consider disabling USB ports completely within the BIOS of your computer unless you need them (if you can).
 
@@ -1258,11 +1241,11 @@ To mitigate this, you should never trust such devices and plug them into sensiti
 
 This might sound a bit familiar as this was already partially covered previously in the [Your CPU](#your-cpu) section.
 
-Malware and backdoors can be embedded directly into your hardware components. Sometimes those backdoors are implemented by the manufacturer itself such as the IME in the case of Intel CPUs. And in other cases, such backdoors can be implemented by a third party that places itself between orders of new hardware and customer delivery^[\[218\]](#fn218)^.
+Malware and backdoors can be embedded directly into your hardware components. Sometimes those backdoors are implemented by the manufacturer itself such as the IME in the case of Intel CPUs. And in other cases, such backdoors can be implemented by a third party that places itself between orders of new hardware and customer delivery.
 
-Such malware and backdoors can also be deployed by an adversary using software exploits. Many of those are called rootkits^[\[219\]](#fn219)^ within the tech world. Usually, these types of malware are harder to detect and mitigate as they are implemented at a lower level than the userspace^[\[220\]](#fn220)^ and often in the firmware^[\[221\]](#fn221)^ of hardware components itself.
+Such malware and backdoors can also be deployed by an adversary using software exploits. Many of those are called rootkits within the tech world. Usually, these types of malware are harder to detect and mitigate as they are implemented at a lower level than the userspace and often in the firmware of hardware components itself.
 
-What is firmware? Firmware is a low-level operating system for devices. Each component in your computer probably has firmware including for instance your disk drives. The BIOS^[\[222\]](#fn222)^/UEFI^[\[223\]](#fn223)^ system of your machine for instance is a type of firmware.
+What is firmware? Firmware is a low-level operating system for devices. Each component in your computer probably has firmware including for instance your disk drives. The BIOS/UEFI system of your machine for instance is a type of firmware.
 
 These can allow remote management and are capable of enabling full control of a target system silently and stealthily.
 
@@ -1272,15 +1255,10 @@ As mentioned previously, these are harder to detect by users but some limited st
 
 ### Properties and Metadata:
 
-This can be obvious to many but not to all. Most files have metadata attached to them. Good examples are pictures that store EXIF^[\[224\]](#fn224)^ information which can hold a lot of information such as GPS coordinates, which camera/phone model took it, and when it was taken precisely. While this information might not directly give out who you are, it could tell exactly where you were at a certain moment which could allow others to use various sources to find you (CCTV or other footage taken at the same place at the same time during a protest for instance). You must verify any file you would put on those platforms for any properties that might hold any information that might lead back to you.
+This can be obvious to many but not to all. Most files have metadata attached to them. Good examples are pictures that store EXIF information which can hold a lot of information such as GPS coordinates, which camera/phone model took it, and when it was taken precisely. While this information might not directly give out who you are, it could tell exactly where you were at a certain moment which could allow others to use various sources to find you (CCTV or other footage taken at the same place at the same time during a protest for instance). You must verify any file you would put on those platforms for any properties that might hold any information that might lead back to you.
 
-Here is an example of EXIF data that could be on a picture:
 
-![](media/image13.jpeg)
-
-(Illustration from Wikipedia)
-
-This also works for videos. Yes, videos too have geo-tagging, and many are very unaware of this. Here Is for instance a very convenient tool to geo-locate YouTube videos: [https://mattw.io/youtube-geofind/location](https://mattw.io/youtube-geofind/location) ^[\[Archive.org\]](https://web.archive.org/web/https://mattw.io/youtube-geofind/location)^
+This also works for videos. Yes, videos too have geo-tagging, and many are very unaware of this. Here Is for instance a very convenient tool to geo-locate YouTube videos: [https://mattw.io/youtube-geofind/location](https://mattw.io/youtube-geofind/location) [\[Archive.org\]](https://web.archive.org/web/https://mattw.io/youtube-geofind/location)
 
 For this reason, you will always have to be incredibly careful when uploading files using your anonymous identities and check the metadata of those files.
 
@@ -1292,15 +1270,15 @@ For this reason, you will always have to be incredibly careful when uploading fi
 
 Pictures/Videos often contain visible watermarks indicating who is the owner/creator but there are also invisible watermarks in various products aiming at identifying the viewer itself.
 
-So, if you are a whistleblower and thinking about leaking some picture/audio/video file. Think twice. There are chances that those might contain invisible watermarking within them that would include information about you as a viewer. Such watermarks can be enabled with a simple switch in like Zoom (Video^[\[225\]](#fn225)^ or Audio^[\[226\]](#fn226)^) or with extensions^[\[227\]](#fn227)^ for popular apps such as Adobe Premiere Pro. These can be inserted by various content management systems.
+So, if you are a whistleblower and thinking about leaking some picture/audio/video file. Think twice. There are chances that those might contain invisible watermarking within them that would include information about you as a viewer. Such watermarks can be enabled with a simple switch in like Zoom (Video or Audio) or with extensions for popular apps such as Adobe Premiere Pro. These can be inserted by various content management systems.
 
-For a recent example where someone leaking a Zoom meeting recording was caught because it was watermarked: [https://theintercept.com/2021/01/18/leak-zoom-meeting/](https://theintercept.com/2021/01/18/leak-zoom-meeting/) ^[\[Tor Mirror\]](https://27m3p2uv7igmj6kvd4ql3cct5h3sdwrsajovkkndeufumzyfhlfev4qd.onion/2021/01/18/leak-zoom-meeting/)^ ^[\[Archive.org\]](https://web.archive.org/web/https://theintercept.com/2021/01/18/leak-zoom-meeting/)^
+For a recent example where someone leaking a Zoom meeting recording was caught because it was watermarked: [https://theintercept.com/2021/01/18/leak-zoom-meeting/](https://theintercept.com/2021/01/18/leak-zoom-meeting/) [\[Tor Mirror\]](https://27m3p2uv7igmj6kvd4ql3cct5h3sdwrsajovkkndeufumzyfhlfev4qd.onion/2021/01/18/leak-zoom-meeting/)[\[Archive.org\]](https://web.archive.org/web/https://theintercept.com/2021/01/18/leak-zoom-meeting/)
 
-Such watermarks can be inserted by various products^[\[228\]](#fn228)^’^[\[229\]](#fn229)^‘^[\[230\]](#fn230)^’^[\[231\]](#fn231)^ using Steganography^[\[232\]](#fn232)^ and can resist compression^[\[233\]](#fn233)^ and re-encoding^[\[234\]](#fn234)^’^[\[235\]](#fn235)^.
+Such watermarks can be inserted by various products using Steganography and can resist compression and re-encoding.
 
 These watermarks are not easily detectable and could allow identification of the source despite all efforts.
 
-In addition to watermarks, the camera used for filming (and therefore the device used for filming) a video can also be identified using various techniques such as lens identification^[\[236\]](#fn236)^ which could lead to de-anonymization.
+In addition to watermarks, the camera used for filming (and therefore the device used for filming) a video can also be identified using various techniques such as lens identification which could lead to de-anonymization.
 
 Be extremely careful when publishing videos/pictures/audio files from known commercial platforms as they might contain such invisible watermarks in addition to details in the images themselves. There is no guaranteed 100% protection against those. You will have to use common sense.
 
@@ -1308,17 +1286,17 @@ Be extremely careful when publishing videos/pictures/audio files from known comm
 
 Did you know your printer is most likely spying on you too? Even if it is not connected to any network? This is usually a known fact by many people in the IT community but few outside people.
 
-Yes … Your printers can be used to de-anonymize you as well as explained by the EFF here [https://www.eff.org/issues/printers](https://www.eff.org/issues/printers) ^[\[Archive.org\]](https://web.archive.org/web/https://www.eff.org/issues/printers)^
+Yes … Your printers can be used to de-anonymize you as well as explained by the EFF here [https://www.eff.org/issues/printers](https://www.eff.org/issues/printers) [\[Archive.org\]](https://web.archive.org/web/https://www.eff.org/issues/printers)
 
-With this (old but still relevant) video explaining how from the EFF as well: [https://www.youtube.com/watch?v=izMGMsIZK4U](https://www.youtube.com/watch?v=izMGMsIZK4U) ^[\[Invidious\]](https://yewtu.be/watch?v=izMGMsIZK4U)^
+With this (old but still relevant) video explaining how from the EFF as well: [https://www.youtube.com/watch?v=izMGMsIZK4U](https://www.youtube.com/watch?v=izMGMsIZK4U) [\[Invidious\]](https://yewtu.be/watch?v=izMGMsIZK4U)
 
-Many printers will print an invisible watermark allowing for identification of the printer on every printed page. This is called Printer Steganography^[\[237\]](#fn237)^. There is no tangible way to mitigate this but to inform yourself on your printer and make sure it does not print any invisible watermark. This is important if you intend to print anonymously.
+Many printers will print an invisible watermark allowing for identification of the printer on every printed page. This is called Printer Steganography. There is no tangible way to mitigate this but to inform yourself on your printer and make sure it does not print any invisible watermark. This is important if you intend to print anonymously.
 
-Here is an (old but still relevant) list of printers and brands who do not print such tracking dots provided by the EFF [https://www.eff.org/pages/list-printers-which-do-or-do-not-display-tracking-dots](https://www.eff.org/pages/list-printers-which-do-or-do-not-display-tracking-dots) ^[\[Archive.org\]](https://web.archive.org/web/https://www.eff.org/pages/list-printers-which-do-or-do-not-display-tracking-dots)^
+Here is an (old but still relevant) list of printers and brands who do not print such tracking dots provided by the EFF [https://www.eff.org/pages/list-printers-which-do-or-do-not-display-tracking-dots](https://www.eff.org/pages/list-printers-which-do-or-do-not-display-tracking-dots) [\[Archive.org\]](https://web.archive.org/web/https://www.eff.org/pages/list-printers-which-do-or-do-not-display-tracking-dots)
 
-Here are also some tips from the Whonix documentation ([https://www.whonix.org/wiki/Printing\_and\_Scanning](https://www.whonix.org/wiki/Printing_and_Scanning) ^[\[Archive.org\]](https://web.archive.org/web/https://www.whonix.org/wiki/Printing_and_Scanning)^):
+Here are also some tips from the Whonix documentation ([https://www.whonix.org/wiki/Printing\_and\_Scanning](https://www.whonix.org/wiki/Printing_and_Scanning) [\[Archive.org\]](https://web.archive.org/web/https://www.whonix.org/wiki/Printing_and_Scanning)):
 
-**Do not ever print in Color, usually, watermarks are not present without color toners/cartridges**^[\[238\]](#fn238)^**.**
+**Do not ever print in Color, usually, watermarks are not present without color toners/cartridges.**
 
 ### Pixelized or Blurred Information:
 
@@ -1326,25 +1304,18 @@ Did you ever see a document with blurred text? Did you ever make fun of those mo
 
 Well, there are techniques for recovering information from such documents, videos, and pictures.
 
-Here is for example an open-source project you could use yourself for recovering text from some blurred images yourself: [https://github.com/beurtschipper/Depix](https://github.com/beurtschipper/Depix) ^[\[Archive.org\]](https://web.archive.org/web/https://github.com/beurtschipper/Depix)^
-
-![](media/image14.jpeg)
+Here is for example an open-source project you could use yourself for recovering text from some blurred images yourself: [https://github.com/beurtschipper/Depix](https://github.com/beurtschipper/Depix) [\[Archive.org\]](https://web.archive.org/web/https://github.com/beurtschipper/Depix)
 
 This is of course an open-source project available for all to use. But you can imagine that such techniques have probably been used before by other adversaries. These could be used to reveal blurred information from published documents that could then be used to de-anonymize you.
 
-There are also tutorials for using such techniques using Photo Editing tools such as GIMP such as [https://medium.com/@somdevsangwan/unblurring-images-for-osint-and-more-part-1-5ee36db6a70b](https://medium.com/@somdevsangwan/unblurring-images-for-osint-and-more-part-1-5ee36db6a70b) ^[\[Archive.org\]](https://web.archive.org/web/https://medium.com/@somdevsangwan/unblurring-images-for-osint-and-more-part-1-5ee36db6a70b)^ followed by [https://medium.com/@somdevsangwan/deblurring-images-for-osint-part-2-ba564af8eb5d](https://medium.com/@somdevsangwan/deblurring-images-for-osint-part-2-ba564af8eb5d) ^[\[Scribe.rip\]](https://scribe.rip/@somdevsangwan/deblurring-images-for-osint-part-2-ba564af8eb5d)^ ^[\[Archive.org\]](https://web.archive.org/web/https://medium.com/@somdevsangwan/deblurring-images-for-osint-part-2-ba564af8eb5d)^
+There are also tutorials for using such techniques using Photo Editing tools such as GIMP such as [https://medium.com/@somdevsangwan/unblurring-images-for-osint-and-more-part-1-5ee36db6a70b](https://medium.com/@somdevsangwan/unblurring-images-for-osint-and-more-part-1-5ee36db6a70b) [\[Archive.org\]](https://web.archive.org/web/https://medium.com/@somdevsangwan/unblurring-images-for-osint-and-more-part-1-5ee36db6a70b) followed by [https://medium.com/@somdevsangwan/deblurring-images-for-osint-part-2-ba564af8eb5d](https://medium.com/@somdevsangwan/deblurring-images-for-osint-part-2-ba564af8eb5d) [\[Scribe.rip\]](https://scribe.rip/@somdevsangwan/deblurring-images-for-osint-part-2-ba564af8eb5d) [\[Archive.org\]](https://web.archive.org/web/https://medium.com/@somdevsangwan/deblurring-images-for-osint-part-2-ba564af8eb5d)
 
-![](media/image15.jpeg)
-
-Finally, you will find plenty of deblurring resources here: [https://github.com/subeeshvasu/Awesome-Deblurring](https://github.com/subeeshvasu/Awesome-Deblurring) ^[\[Archive.org\]](https://web.archive.org/web/https://github.com/subeeshvasu/Awesome-Deblurring)^
+Finally, you will find plenty of deblurring resources here: [https://github.com/subeeshvasu/Awesome-Deblurring](https://github.com/subeeshvasu/Awesome-Deblurring) [\[Archive.org\]](https://web.archive.org/web/https://github.com/subeeshvasu/Awesome-Deblurring)
 
 Some online services could even help you do this automatically to some extent like [MyHeritage.com](http://MyHeritage.com) enhance tool:
 
-[https://www.myheritage.com/photo-enhancer](https://www.myheritage.com/photo-enhancer) ^[\[Archive.org\]](https://web.archive.org/web/https://www.myheritage.com/photo-enhancer)^
+[https://www.myheritage.com/photo-enhancer](https://www.myheritage.com/photo-enhancer) [\[Archive.org\]](https://web.archive.org/web/https://www.myheritage.com/photo-enhancer)
 
-Here is the result of the above image:
-
-![](media/image16.jpeg)
 
 Of course, this tool is more like “guessing” than really deblurring at this point, but it could be enough to find you using various reverse image searching services.
 
@@ -1352,15 +1323,15 @@ For this reason, it is always extremely important that you correctly redact and 
 
 ## Your Cryptocurrencies transactions:
 
-Contrary to widespread belief, Crypto transactions (such as Bitcoin and Ethereum) are not anonymous^[\[239\]](#fn239)^. Most cryptocurrencies can be tracked accurately through various methods^[\[240\]](#fn240)^’^[\[241\]](#fn241)^.
+Contrary to widespread belief, Crypto transactions (such as Bitcoin and Ethereum) are not anonymous. Most cryptocurrencies can be tracked accurately through various methods.
 
-Remember what they say on their page: [https://bitcoin.org/en/you-need-to-know](https://bitcoin.org/en/you-need-to-know) ^[\[Archive.org\]](https://web.archive.org/web/https://bitcoin.org/en/you-need-to-know)^ and [https://bitcoin.org/en/protect-your-privacy](https://bitcoin.org/en/protect-your-privacy) ^[\[Archive.org\]](https://web.archive.org/web/https://bitcoin.org/en/protect-your-privacy)^: “Bitcoin is not anonymous”
+Remember what they say on their page: [https://bitcoin.org/en/you-need-to-know](https://bitcoin.org/en/you-need-to-know) [\[Archive.org\]](https://web.archive.org/web/https://bitcoin.org/en/you-need-to-know) and [https://bitcoin.org/en/protect-your-privacy](https://bitcoin.org/en/protect-your-privacy) [\[Archive.org\]](https://web.archive.org/web/https://bitcoin.org/en/protect-your-privacy): “Bitcoin is not anonymous”
 
-The main issue is not setting up a random Crypto wallet to receive some currency behind a VPN/Tor address (at this point, the wallet is anonymous). The issue is mainly when you want to convert Fiat money (Euros, Dollars …) to Crypto and then when you want to cash in your Crypto. You will have few realistic options but to transfer those to an exchange (such as Coinbase/Kraken/Bitstamp/Binance). Those exchanges have known wallet addresses and will keep detailed logs (due to KYC^[\[242\]](#fn242)^ financial regulations) and can then trace back those crypto transactions to you using the financial system^[\[243\]](#fn243)^.
+The main issue is not setting up a random Crypto wallet to receive some currency behind a VPN/Tor address (at this point, the wallet is anonymous). The issue is mainly when you want to convert Fiat money (Euros, Dollars …) to Crypto and then when you want to cash in your Crypto. You will have few realistic options but to transfer those to an exchange (such as Coinbase/Kraken/Bitstamp/Binance). Those exchanges have known wallet addresses and will keep detailed logs (due to KYC financial regulations) and can then trace back those crypto transactions to you using the financial system.
 
-There are some cryptocurrencies with privacy/anonymity in mind like Monero but even those have some and warnings to consider^[\[244\]](#fn244)^’^[\[245\]](#fn245)^.
+There are some cryptocurrencies with privacy/anonymity in mind like Monero but even those have some and warnings to consider.
 
-Even if you use Mixers or Tumblers^[\[246\]](#fn246)^ (services that specialize in “anonymizing” cryptocurrencies by “mixing them”), keep in mind this is only obfuscation^[\[247\]](#fn247)^ and not actual anonymity^[\[248\]](#fn248)^. Not only are they only obfuscation but they could also put you in trouble as you might end up exchanging your crypto against “dirty” crypto that was used in various questionable contexts^[\[249\]](#fn249)^.
+Even if you use Mixers or Tumblers (services that specialize in “anonymizing” cryptocurrencies by “mixing them”), keep in mind this is only obfuscation and not actual anonymity. Not only are they only obfuscation but they could also put you in trouble as you might end up exchanging your crypto against “dirty” crypto that was used in various questionable contexts.
 
 This does not mean you cannot use Bitcoin anonymously at all. You can actually use Bitcoin anonymously as long as you do not convert it to actual currency and use a Bitcoin wallet from a safe anonymous network. Meaning you should avoid KYC/AML regulations by various exchanges and avoid using the Bitcoin network from any known IP address. See [Appendix Z: Paying anonymously online with BTC (or any other cryptocurrency)](#appendix-z-online-anonymous-payments-using-cryptocurrencies).
 
@@ -1376,39 +1347,39 @@ But what about your backups? Those automated iCloud/Google Drive backups you hav
 
 Well, you should know that most of those backups are not fully end-to-end encrypted and will hold some of your information readily available for a third party. You will see their claims that data is encrypted at rest and safe from anyone … Except they usually do keep a key to access some of the data themselves. These keys are used for them indexing your content, recover your account, collecting various analytics.
 
-There are specialized commercial forensics solutions available (Magnet Axiom^[\[250\]](#fn250)^, Cellebrite Cloud^[\[251\]](#fn251)^) that will help an adversary analyze your cloud data with ease.
+There are specialized commercial forensics solutions available (Magnet Axiom, Cellebrite Cloud) that will help an adversary analyze your cloud data with ease.
 
 Notable Examples:
 
--   Apple iCloud: [https://support.apple.com/en-us/HT202303](https://support.apple.com/en-us/HT202303) ^[\[Archive.org\]](https://web.archive.org/web/https://support.apple.com/en-us/HT202303)^ : "Messages in iCloud also uses end-to-end encryption. If you have iCloud Backup turned on\*\*, your backup includes a copy of the key protecting your Messages\*\*. This ensures you can recover your Messages if you lose access to iCloud Keychain and your trusted devices. ".
+-   Apple iCloud: [https://support.apple.com/en-us/HT202303](https://support.apple.com/en-us/HT202303) [\[Archive.org\]](https://web.archive.org/web/https://support.apple.com/en-us/HT202303) : "Messages in iCloud also uses end-to-end encryption. If you have iCloud Backup turned on\*\*, your backup includes a copy of the key protecting your Messages\*\*. This ensures you can recover your Messages if you lose access to iCloud Keychain and your trusted devices. ".
     
--   Google Drive and WhatsApp: [https://faq.whatsapp.com/android/chats/about-google-drive-backups/](https://faq.whatsapp.com/android/chats/about-google-drive-backups/) ^[\[Archive.org\]](https://web.archive.org/web/https://faq.whatsapp.com/android/chats/about-google-drive-backups/)^: "**Media and messages you back up aren’t protected by WhatsApp end-to-end encryption while in Google Drive**. ". Do however note that Facebook/Whatsapp have announced the rollout of encrypted backups on October 14^th^ 2021 ([https://about.fb.com/news/2021/10/end-to-end-encrypted-backups-on-whatsapp/](https://about.fb.com/news/2021/10/end-to-end-encrypted-backups-on-whatsapp/) ^[\[Archive.org\]](https://web.archive.org/web/https://about.fb.com/news/2021/10/end-to-end-encrypted-backups-on-whatsapp/)^) which should solve this issue.
+-   Google Drive and WhatsApp: [https://faq.whatsapp.com/android/chats/about-google-drive-backups/](https://faq.whatsapp.com/android/chats/about-google-drive-backups/) [\[Archive.org\]](https://web.archive.org/web/https://faq.whatsapp.com/android/chats/about-google-drive-backups/): "**Media and messages you back up aren’t protected by WhatsApp end-to-end encryption while in Google Drive**. ". Do however note that Facebook/Whatsapp have announced the rollout of encrypted backups on October 14th 2021 ([https://about.fb.com/news/2021/10/end-to-end-encrypted-backups-on-whatsapp/](https://about.fb.com/news/2021/10/end-to-end-encrypted-backups-on-whatsapp/) [\[Archive.org\]](https://web.archive.org/web/https://about.fb.com/news/2021/10/end-to-end-encrypted-backups-on-whatsapp/)) which should solve this issue.
     
--   Dropbox: [https://www.dropbox.com/privacy#terms](https://www.dropbox.com/privacy#terms) ^[\[Archive.org\]](https://web.archive.org/web/https://www.dropbox.com/privacy)^ “To provide these and other features, **Dropbox accesses, stores, and scans Your Stuff**. You give us permission to do those things, and this permission extends to our affiliates and trusted third parties we work with”.
+-   Dropbox: [https://www.dropbox.com/privacy#terms](https://www.dropbox.com/privacy#terms) [\[Archive.org\]](https://web.archive.org/web/https://www.dropbox.com/privacy) “To provide these and other features, **Dropbox accesses, stores, and scans Your Stuff**. You give us permission to do those things, and this permission extends to our affiliates and trusted third parties we work with”.
     
--   Microsoft OneDrive: [https://privacy.microsoft.com/en-us/privacystatement](https://privacy.microsoft.com/en-us/privacystatement) ^[\[Archive.org\]](https://web.archive.org/web/https://privacy.microsoft.com/en-us/privacystatement)^: Productivity and communications products, “When you use OneDrive, we collect data about your usage of the service, as well as the content you store, to provide, improve, and protect the services. **Examples include indexing the contents of your OneDrive documents so that you can search for them later and using location information to enable you to search for photos based on where the photo was taken**”.
+-   Microsoft OneDrive: [https://privacy.microsoft.com/en-us/privacystatement](https://privacy.microsoft.com/en-us/privacystatement) [\[Archive.org\]](https://web.archive.org/web/https://privacy.microsoft.com/en-us/privacystatement): Productivity and communications products, “When you use OneDrive, we collect data about your usage of the service, as well as the content you store, to provide, improve, and protect the services. **Examples include indexing the contents of your OneDrive documents so that you can search for them later and using location information to enable you to search for photos based on where the photo was taken**”.
     
 
-You should not trust cloud providers with your (not previously and locally encrypted) sensitive data and you should be wary of their privacy claims. In most cases, they can access your data and provide it to a third party if they want to^[\[252\]](#fn252)^.
+You should not trust cloud providers with your (not previously and locally encrypted) sensitive data and you should be wary of their privacy claims. In most cases, they can access your data and provide it to a third party if they want to.
 
 The only way to mitigate this is to encrypt your data on your side and then only upload it to such services **or just not use them at all.**
 
 ## Your Browser and Device Fingerprints:
 
-Your Browser and Device Fingerprints^[\[253\]](#fn253)^ are set of properties/capabilities of your System/Browser. These are used on most websites for invisible user tracking but also to adapt the website user experience depending on their browser. For instance, websites will be able to provide a “mobile experience” if you are using a mobile browser or propose a specific language/geographic version depending on your fingerprint. Most of those techniques work with recent Browsers like Chromium-based^[\[254\]](#fn254)^ browsers (such as Chrome/Edge) or Firefox^[\[255\]](#fn255)^ unless taking specific measures.
+Your Browser and Device Fingerprints are set of properties/capabilities of your System/Browser. These are used on most websites for invisible user tracking but also to adapt the website user experience depending on their browser. For instance, websites will be able to provide a “mobile experience” if you are using a mobile browser or propose a specific language/geographic version depending on your fingerprint. Most of those techniques work with recent Browsers like Chromium-based browsers (such as Chrome/Edge) or Firefox unless taking specific measures.
 
 You can find a lot of detailed information and publications about this on these resources:
 
--   [https://amiunique.org/links](https://amiunique.org/links) ^[\[Archive.org\]](https://web.archive.org/web/https://amiunique.org/links)^
+-   [https://amiunique.org/links](https://amiunique.org/links) [\[Archive.org\]](https://web.archive.org/web/https://amiunique.org/links)
     
--   [https://brave.com/brave-fingerprinting-and-privacy-budgets/](https://brave.com/brave-fingerprinting-and-privacy-budgets/) ^[\[Archive.org\]](https://web.archive.org/web/https://brave.com/brave-fingerprinting-and-privacy-budgets/)^
+-   [https://brave.com/brave-fingerprinting-and-privacy-budgets/](https://brave.com/brave-fingerprinting-and-privacy-budgets/) [\[Archive.org\]](https://web.archive.org/web/https://brave.com/brave-fingerprinting-and-privacy-budgets/)
     
 
 Most of the time, those fingerprints will, unfortunately, be unique or nearly unique to your Browser/System. This means that even If you log out from a website and then log back in using a different username, your fingerprint might remain the same if you did not take precautionary measures.
 
 An adversary could then use such fingerprints to track you across multiple services even if you have no account on any of them and are using adblocking. These fingerprints could in turn be used to de-anonymize you if you keep the same fingerprint between services.
 
-It should also be noted that while some browsers and extensions will offer some fingerprint resistance, this resistance in itself can also be used to fingerprint you as explained here [https://palant.info/2020/12/10/how-anti-fingerprinting-extensions-tend-to-make-fingerprinting-easier/](https://palant.info/2020/12/10/how-anti-fingerprinting-extensions-tend-to-make-fingerprinting-easier/) ^[\[Archive.org\]](https://web.archive.org/web/https://palant.info/2020/12/10/how-anti-fingerprinting-extensions-tend-to-make-fingerprinting-easier/)^
+It should also be noted that while some browsers and extensions will offer some fingerprint resistance, this resistance in itself can also be used to fingerprint you as explained here [https://palant.info/2020/12/10/how-anti-fingerprinting-extensions-tend-to-make-fingerprinting-easier/](https://palant.info/2020/12/10/how-anti-fingerprinting-extensions-tend-to-make-fingerprinting-easier/) [\[Archive.org\]](https://web.archive.org/web/https://palant.info/2020/12/10/how-anti-fingerprinting-extensions-tend-to-make-fingerprinting-easier/)
 
 This guide will mitigate these issues by mitigating, obfuscating, and randomizing many of those fingerprinting identifiers by using Virtualization (See [Appendix W: Virtualization](#appendix-v1-hardening-your-browsers)), using specific recommendations (See [Appendix A5: Additional browser precautions with JavaScript enabled](#appendix-a5-additional-browser-precautions-with-javascript-enabled) and [Appendix V1: Hardening your Browsers](#appendix-v1-hardening-your-browsers)) and using by fingerprinting resistant Browsers (Brave and Tor Browser).
 
@@ -1422,23 +1393,23 @@ Forensics techniques are now very advanced and can reveal a staggering amount of
 
 Here are some recent resources you should read about your smartphone:
 
--   UpTurn, The Widespread Power of U.S. Law Enforcement to Search Mobile Phones [https://www.upturn.org/reports/2020/mass-extraction/](https://www.upturn.org/reports/2020/mass-extraction/) ^[\[Archive.org\]](https://web.archive.org/web/https://www.upturn.org/reports/2020/mass-extraction/)^
+-   UpTurn, The Widespread Power of U.S. Law Enforcement to Search Mobile Phones [https://www.upturn.org/reports/2020/mass-extraction/](https://www.upturn.org/reports/2020/mass-extraction/) [\[Archive.org\]](https://web.archive.org/web/https://www.upturn.org/reports/2020/mass-extraction/)
     
--   New-York Times, The Police Can Probably Break Into Your Phone [https://www.nytimes.com/2020/10/21/technology/iphone-encryption-police.html](https://www.nytimes.com/2020/10/21/technology/iphone-encryption-police.html) ^[\[Archive.org\]](https://web.archive.org/web/https://www.nytimes.com/2020/10/21/technology/iphone-encryption-police.html)^
+-   New-York Times, The Police Can Probably Break Into Your Phone [https://www.nytimes.com/2020/10/21/technology/iphone-encryption-police.html](https://www.nytimes.com/2020/10/21/technology/iphone-encryption-police.html) [\[Archive.org\]](https://web.archive.org/web/https://www.nytimes.com/2020/10/21/technology/iphone-encryption-police.html)
     
--   Vice, Cops Around the Country Can Now Unlock iPhones, Records Show [https://www.vice.com/en/article/vbxxxd/unlock-iphone-ios11-graykey-grayshift-police](https://www.vice.com/en/article/vbxxxd/unlock-iphone-ios11-graykey-grayshift-police) ^[\[Archive.org\]](https://web.archive.org/web/https://www.vice.com/en/article/vbxxxd/unlock-iphone-ios11-graykey-grayshift-police)^
+-   Vice, Cops Around the Country Can Now Unlock iPhones, Records Show [https://www.vice.com/en/article/vbxxxd/unlock-iphone-ios11-graykey-grayshift-police](https://www.vice.com/en/article/vbxxxd/unlock-iphone-ios11-graykey-grayshift-police) [\[Archive.org\]](https://web.archive.org/web/https://www.vice.com/en/article/vbxxxd/unlock-iphone-ios11-graykey-grayshift-police)
     
 
 I also highly recommend that you read some documents from a forensics examiner perspective such as:
 
--   EnCase Forensic User Guide, [http://encase-docs.opentext.com/documentation/encase/forensic/8.07/Content/Resources/External Files/EnCase Forensic v8.07 User Guide.pdf](http://encase-docs.opentext.com/documentation/encase/forensic/8.07/Content/Resources/External%20Files/EnCase%20Forensic%20v8.07%20User%20Guide.pdf) ^[\[Archive.org\]](https://web.archive.org/web/http://encase-docs.opentext.com/documentation/encase/forensic/8.07/Content/Resources/External%20Files/EnCase%20Forensic%20v8.07%20User%20Guide.pdf)^
+-   EnCase Forensic User Guide, [http://encase-docs.opentext.com/documentation/encase/forensic/8.07/Content/Resources/External Files/EnCase Forensic v8.07 User Guide.pdf](http://encase-docs.opentext.com/documentation/encase/forensic/8.07/Content/Resources/External%20Files/EnCase%20Forensic%20v8.07%20User%20Guide.pdf) [\[Archive.org\]](https://web.archive.org/web/http://encase-docs.opentext.com/documentation/encase/forensic/8.07/Content/Resources/External%20Files/EnCase%20Forensic%20v8.07%20User%20Guide.pdf)
     
--   FTK Forensic Toolkit, [https://accessdata.com/products-services/forensic-toolkit-ftk](https://accessdata.com/products-services/forensic-toolkit-ftk) ^[\[Archive.org\]](https://web.archive.org/web/https://accessdata.com/products-services/forensic-toolkit-ftk)^
+-   FTK Forensic Toolkit, [https://accessdata.com/products-services/forensic-toolkit-ftk](https://accessdata.com/products-services/forensic-toolkit-ftk) [\[Archive.org\]](https://web.archive.org/web/https://accessdata.com/products-services/forensic-toolkit-ftk)
     
 -   SANS Digital Forensics and Incident Response Videos, [https://www.youtube.com/c/SANSDigitalForensics/videos](https://www.youtube.com/c/SANSDigitalForensics/videos)
     
 
-And finally, here is this very instructive detailed paper on the current state of IOS/Android security from the John Hopkins University: [https://securephones.io/main.html](https://securephones.io/main.html)^[\[257\]](#fn257)^.
+And finally, here is this very instructive detailed paper on the current state of IOS/Android security from the John Hopkins University: [https://securephones.io/main.html](https://securephones.io/main.html).
 
 When it comes to your laptop, the forensics techniques are many and widespread. Many of those issues can be mitigated by using full disk encryption, virtualization (See [Appendix W: Virtualization](#appendix-v1-hardening-your-browsers)), and compartmentalization. This guide will later detail such threats and techniques to mitigate them.
 
@@ -1446,7 +1417,7 @@ When it comes to your laptop, the forensics techniques are many and widespread. 
 
 There is a frequent adage among the infosec community: “Don’t roll your own crypto!”.
 
-And there are reasons^[\[258\]](#fn258)^’^[\[259\]](#fn259)^‘^[\[260\]](#fn260)^’^[\[261\]](#fn261)^ for that:
+And there are reasons for that:
 
 I would not want people discouraged from studying and innovating in the crypto field because of that adage. So instead, I would recommend people to be cautious with “Roll your own crypto” because it is not necessarily good crypto:
 
@@ -1469,22 +1440,22 @@ Yet, this is not stopping some from doing it anyway and publishing various produ
     
 -   You should be wary of Apps/Services using a “modified” or proprietary cryptographic method^[\[262\]](#fn262)^.
     
--   By default, you should not trust any “Roll your own crypto” until it was audited, peer-reviewed, vetted, and accepted by the cryptography community^[\[263\]](#fn263)^’^[\[264\]](#fn264)^.
+-   By default, you should not trust any “Roll your own crypto” until it was audited, peer-reviewed, vetted, and accepted by the cryptography community.
     
--   There is no such thing as “military-grade crypto”^[\[265\]](#fn265)^‘^[\[266\]](#fn266)^’^[\[267\]](#fn267)^.
+-   There is no such thing as “military-grade crypto”.
     
 
 Cryptography is a complex topic and bad cryptography could easily lead to your de-anonymization.
 
 In the context of this guide, I recommend sticking to Apps/Services using well-established, published, and peer-reviewed methods.
 
-So, what to prefer and what to avoid as of 2021? You will have to look up for yourself to get the technical details of each app and see if they are using “bad crypto” or “good crypto”. Once you get the technical details, you could check this page for seeing what it is worth: [https://latacora.micro.blog/2018/04/03/cryptographic-right-answers.html](https://latacora.micro.blog/2018/04/03/cryptographic-right-answers.html) ^[\[Archive.org\]](https://web.archive.org/web/https://latacora.micro.blog/2018/04/03/cryptographic-right-answers.html)^
+So, what to prefer and what to avoid as of 2021? You will have to look up for yourself to get the technical details of each app and see if they are using “bad crypto” or “good crypto”. Once you get the technical details, you could check this page for seeing what it is worth: [https://latacora.micro.blog/2018/04/03/cryptographic-right-answers.html](https://latacora.micro.blog/2018/04/03/cryptographic-right-answers.html) [\[Archive.org\]](https://web.archive.org/web/https://latacora.micro.blog/2018/04/03/cryptographic-right-answers.html)
 
 Here are some examples:
 
 -   Hashes:
     
-    -   Prefer: SHA-3 or BLAKE2^[\[268\]](#fn268)^
+    -   Prefer: SHA-3 or BLAKE2
         
     -   Still relatively ok to use: SHA-2 (such as the widely used SHA-256 or SHA-512)
         
@@ -1494,15 +1465,15 @@ Here are some examples:
     
     -   Prefer:
         
-        -   Hardware Accelerated^[\[269\]](#fn269)^: AES (Rijndael) 256 Bits with HMAC-SHA-2 or HMAC-SHA-3 (This is what Veracrypt, Bitlocker, Filevault 2, KeepassXC, and LUKS use by default). Prefer SHA-3.
+        -   Hardware Accelerated: AES (Rijndael) 256 Bits with HMAC-SHA-2 or HMAC-SHA-3 (This is what Veracrypt, Bitlocker, Filevault 2, KeepassXC, and LUKS use by default). Prefer SHA-3.
             
         -   Non-Hardware Accelerated: Same as accelerated above or if available consider:
             
-            -   ChaCha20^[\[270\]](#fn270)^ or XChaCha20 (You can use ChaCha20 with Kryptor [https://www.kryptor.co.uk](https://www.kryptor.co.uk), unfortunately, it is not available with Veracrypt).
+            -   ChaCha20 or XChaCha20 (You can use ChaCha20 with Kryptor [https://www.kryptor.co.uk](https://www.kryptor.co.uk), unfortunately, it is not available with Veracrypt).
                 
-            -   Serpent^[\[271\]](#fn271)^
+            -   Serpent
                 
-            -   TwoFish^[\[272\]](#fn272)^
+            -   TwoFish
                 
     -   Avoid: Pretty much anything else
         
@@ -1526,7 +1497,7 @@ Here are some examples:
     
     -   Prefer ECDSA (ed25519)+ECDH (ec25519) or RSA 4096 Bits\*
         
-        -   **Consider a more modern**^[\[273\]](#fn273)^ **alternative to PGP/GPG: Minisign [https://jedisct1.github.io/minisign/](https://jedisct1.github.io/minisign/)** ^[\[Archive.org\]](https://web.archive.org/web/https://jedisct1.github.io/minisign/)^
+        -   **Consider a more modern** **alternative to PGP/GPG: Minisign [https://jedisct1.github.io/minisign/](https://jedisct1.github.io/minisign/)** [\[Archive.org\]](https://web.archive.org/web/https://jedisct1.github.io/minisign/)
     -   Avoid: RSA 2048 bits
         
 -   SSH keys:
@@ -1540,13 +1511,13 @@ Here are some examples:
 
 Here are some real cases of issues bad cryptography:
 
--   Telegram: [https://democratic-europe.eu/2021/07/20/cryptographers-uncover-four-vulnerabilities-in-telegram/](https://democratic-europe.eu/2021/07/20/cryptographers-uncover-four-vulnerabilities-in-telegram/) ^[\[Archive.org\]](https://web.archive.org/web/https://democratic-europe.eu/2021/07/20/cryptographers-uncover-four-vulnerabilities-in-telegram/)^
+-   Telegram: [https://democratic-europe.eu/2021/07/20/cryptographers-uncover-four-vulnerabilities-in-telegram/](https://democratic-europe.eu/2021/07/20/cryptographers-uncover-four-vulnerabilities-in-telegram/) [\[Archive.org\]](https://web.archive.org/web/https://democratic-europe.eu/2021/07/20/cryptographers-uncover-four-vulnerabilities-in-telegram/)
     
--   Telegram: [https://buttondown.email/cryptography-dispatches/archive/cryptography-dispatches-the-most-backdoor-looking/](https://buttondown.email/cryptography-dispatches/archive/cryptography-dispatches-the-most-backdoor-looking/) ^[\[Archive.org\]](https://web.archive.org/web/https://buttondown.email/cryptography-dispatches/archive/cryptography-dispatches-the-most-backdoor-looking/)^
+-   Telegram: [https://buttondown.email/cryptography-dispatches/archive/cryptography-dispatches-the-most-backdoor-looking/](https://buttondown.email/cryptography-dispatches/archive/cryptography-dispatches-the-most-backdoor-looking/) [\[Archive.org\]](https://web.archive.org/web/https://buttondown.email/cryptography-dispatches/archive/cryptography-dispatches-the-most-backdoor-looking/)
     
 -   Cryptocat: [https://web.archive.org/web/20130705051050/https://blog.crypto.cat/2013/07/new-critical-vulnerability-in-cryptocat-details/](https://web.archive.org/web/20130705051050/https://blog.crypto.cat/2013/07/new-critical-vulnerability-in-cryptocat-details/)
     
--   Some other examples can be found here: [https://www.cryptofails.com/](https://www.cryptofails.com/) ^[\[Archive.org\]](https://web.archive.org/web/https://www.cryptofails.com/)^
+-   Some other examples can be found here: [https://www.cryptofails.com/](https://www.cryptofails.com/) [\[Archive.org\]](https://web.archive.org/web/https://www.cryptofails.com/)
     
 
 Later this guide will not recommend “bad cryptography” and that should hopefully be enough to protect you?
@@ -1555,30 +1526,30 @@ Later this guide will not recommend “bad cryptography” and that should hopef
 
 Many people have the idea that privacy-oriented services such as VPN or E-Mail providers are safe due to their no-logging policies or their encryption schemes. Unfortunately, many of those same people forget that all those providers are legal commercial entities subject to the laws of the countries in which they operate.
 
-Any of those providers can be forced to silently (without your knowing (using for example a court order with a gag order^[\[275\]](#fn275)^ or a national security letter^[\[276\]](#fn276)^) log your activity to de-anonymize you. There have been several recent examples of those:
+Any of those providers can be forced to silently (without your knowing (using for example a court order with a gag order or a national security letter) log your activity to de-anonymize you. There have been several recent examples of those:
 
--   2021, ProtonMail, ProtonMail logged IP address of French activist after an order by Swiss authorities^[\[277\]](#fn277)^.
+-   2021, ProtonMail, ProtonMail logged IP address of French activist after an order by Swiss authorities.
     
--   2021, WindScribe, Servers were not encrypted as they should have been allowing MITM attacks by authorities^[\[278\]](#fn278)^.
+-   2021, WindScribe, Servers were not encrypted as they should have been allowing MITM attacks by authorities.
     
--   2021, DoubleVPN servers, logs, and account info seized by law enforcement^[\[279\]](#fn279)^.
+-   2021, DoubleVPN servers, logs, and account info seized by law enforcement.
     
--   2021, The Germany-based mail provider Tutanota was forced to monitor specific accounts for 3 months^[\[280\]](#fn280)^.
+-   2021, The Germany-based mail provider Tutanota was forced to monitor specific accounts for 3 months.
     
--   2020, The Germany-based mail provider Tutanota was forced to implement a backdoor to intercept and save copies of the unencrypted e-mails of one user^[\[281\]](#fn281)^ (they did not decrypt the stored e-mail).
+-   2020, The Germany-based mail provider Tutanota was forced to implement a backdoor to intercept and save copies of the unencrypted e-mails of one user (they did not decrypt the stored e-mail).
     
--   2017, PureVPN was forced to disclose information of one user to the FBI^[\[282\]](#fn282)^.
+-   2017, PureVPN was forced to disclose information of one user to the FBI.
     
--   2014, an EarthVPN user was arrested based on logs provider to the Dutch Police^[\[283\]](#fn283)^.
+-   2014, an EarthVPN user was arrested based on logs provider to the Dutch Police.
     
--   2013, Secure E-Mail provider Lavabit shuts down after fighting a secret gag order^[\[284\]](#fn284)^.
+-   2013, Secure E-Mail provider Lavabit shuts down after fighting a secret gag order.
     
--   2011, HideMyAss user was de-anonymized, and logs were provided to the FBI^[\[285\]](#fn285)^.
+-   2011, HideMyAss user was de-anonymized, and logs were provided to the FBI.
     
 
-Some providers have implemented the use of a Warrant Canary^[\[286\]](#fn286)^ that would allow their users to find out if they have been compromised by such orders, but this has not been tested yet as far as I know.
+Some providers have implemented the use of a Warrant Canary that would allow their users to find out if they have been compromised by such orders, but this has not been tested yet as far as I know.
 
-Finally, it is now well known that some companies might be sponsored front ends for some state adversaries (see the Crypto AG story^[\[287\]](#fn287)^ and Omnisec story^[\[288\]](#fn288)^).
+Finally, it is now well known that some companies might be sponsored front ends for some state adversaries (see the Crypto AG story and Omnisec story).
 
 For these reasons, you mustn’t trust such providers for your privacy despite all their claims. In most cases, you will be the last person to know if any of your accounts were targeted by such orders and you might never know at all.
 
@@ -1588,29 +1559,27 @@ If the VPN provider knows nothing about you, it should mitigate any issue due to
 
 ## Some Advanced targeted techniques:
 
-![](media/image17.jpeg)
+(Illustration: an excellent movie I highly recommend: Das Leben der Anderen)
 
-(Illustration: an excellent movie I highly recommend: Das Leben der Anderen^[\[289\]](#fn289)^)
-
-Many advanced techniques can be used by skilled adversaries^[\[290\]](#fn290)^ to bypass your security measures provided they already know where your devices are. Many of those techniques are detailed here [https://cyber.bgu.ac.il/advanced-cyber/airgap](https://cyber.bgu.ac.il/advanced-cyber/airgap) ^[\[Archive.org\]](https://web.archive.org/web/https://cyber.bgu.ac.il/advanced-cyber/airgap)^ (Air-Gap Research Page, Cyber-Security Research Center, Ben-Gurion University of the Negev, Israel) but also in this report [https://www.welivesecurity.com/wp-content/uploads/2021/12/eset\_jumping\_the\_air\_gap\_wp.pdf](https://www.welivesecurity.com/wp-content/uploads/2021/12/eset_jumping_the_air_gap_wp.pdf) ^[\[Archive.org\]](https://web.archive.org/web/https://www.welivesecurity.com/wp-content/uploads/2021/12/eset_jumping_the_air_gap_wp.pdf)^ (ESET, JUMPING
+Many advanced techniques can be used by skilled adversaries to bypass your security measures provided they already know where your devices are. Many of those techniques are detailed here [https://cyber.bgu.ac.il/advanced-cyber/airgap](https://cyber.bgu.ac.il/advanced-cyber/airgap) [\[Archive.org\]](https://web.archive.org/web/https://cyber.bgu.ac.il/advanced-cyber/airgap) (Air-Gap Research Page, Cyber-Security Research Center, Ben-Gurion University of the Negev, Israel) but also in this report [https://www.welivesecurity.com/wp-content/uploads/2021/12/eset\_jumping\_the\_air\_gap\_wp.pdf](https://www.welivesecurity.com/wp-content/uploads/2021/12/eset_jumping_the_air_gap_wp.pdf) [\[Archive.org\]](https://web.archive.org/web/https://www.welivesecurity.com/wp-content/uploads/2021/12/eset_jumping_the_air_gap_wp.pdf) (ESET, JUMPING
 
 THE AIR GAP: 15 years of nation-state effort) and include:
 
 -   Attacks requiring malware implants:
     
-    -   Exfiltration of Data through a Malware infected Router: [https://www.youtube.com/watch?v=mSNt4h7EDKo](https://www.youtube.com/watch?v=mSNt4h7EDKo) ^[\[Invidious\]](https://yewtu.be/watch?v=mSNt4h7EDKo)^
+    -   Exfiltration of Data through a Malware infected Router: [https://www.youtube.com/watch?v=mSNt4h7EDKo](https://www.youtube.com/watch?v=mSNt4h7EDKo) [\[Invidious\]](https://yewtu.be/watch?v=mSNt4h7EDKo)
         
-    -   Exfiltration of Data through observation of Light variation in a Backlit keyboard with a compromised camera: [https://www.youtube.com/watch?v=1kBGDHVr7x0](https://www.youtube.com/watch?v=1kBGDHVr7x0) ^[\[Invidious\]](https://yewtu.be/watch?v=1kBGDHVr7x0)^
+    -   Exfiltration of Data through observation of Light variation in a Backlit keyboard with a compromised camera: [https://www.youtube.com/watch?v=1kBGDHVr7x0](https://www.youtube.com/watch?v=1kBGDHVr7x0) [\[Invidious\]](https://yewtu.be/watch?v=1kBGDHVr7x0)
         
-        -   Exfiltration of Data through a compromised Security Camera (that could first use the previous attack) [https://www.youtube.com/watch?v=om5fNqKjj2M](https://www.youtube.com/watch?v=om5fNqKjj2M) ^[\[Invidious\]](https://yewtu.be/watch?v=om5fNqKjj2M)^
+        -   Exfiltration of Data through a compromised Security Camera (that could first use the previous attack) [https://www.youtube.com/watch?v=om5fNqKjj2M](https://www.youtube.com/watch?v=om5fNqKjj2M) [\[Invidious\]](https://yewtu.be/watch?v=om5fNqKjj2M)
             
-        -   Communication from outsider to compromised Security Cameras through IR light signals: [https://www.youtube.com/watch?v=auoYKSzdOj4](https://www.youtube.com/watch?v=auoYKSzdOj4) ^[\[Invidious\]](https://yewtu.be/watch?v=auoYKSzdOj4)^
+        -   Communication from outsider to compromised Security Cameras through IR light signals: [https://www.youtube.com/watch?v=auoYKSzdOj4](https://www.youtube.com/watch?v=auoYKSzdOj4) [\[Invidious\]](https://yewtu.be/watch?v=auoYKSzdOj4)
             
-    -   Exfiltration of data from a compromised air-gapped computer through acoustic analysis of the FAN noises with a smartphone [https://www.youtube.com/watch?v=v2\_sZIfZkDQ](https://www.youtube.com/watch?v=v2_sZIfZkDQ) ^[\[Invidious\]](https://yewtu.be/watch?v=v2_sZIfZkDQ)^
+    -   Exfiltration of data from a compromised air-gapped computer through acoustic analysis of the FAN noises with a smartphone [https://www.youtube.com/watch?v=v2\_sZIfZkDQ](https://www.youtube.com/watch?v=v2_sZIfZkDQ) [\[Invidious\]](https://yewtu.be/watch?v=v2_sZIfZkDQ)
         
-    -   Exfiltration of data from a malware-infected air-gapped computer through HD LEDs with a Drone [https://www.youtube.com/watch?v=4vIu8ld68fc](https://www.youtube.com/watch?v=4vIu8ld68fc) ^[\[Invidious\]](https://yewtu.be/watch?v=4vIu8ld68fc)^
+    -   Exfiltration of data from a malware-infected air-gapped computer through HD LEDs with a Drone [https://www.youtube.com/watch?v=4vIu8ld68fc](https://www.youtube.com/watch?v=4vIu8ld68fc) [\[Invidious\]](https://yewtu.be/watch?v=4vIu8ld68fc)
         
-    -   Exfiltration of data from a USB malware on an air-gapped computer through electromagnetic interferences [https://www.youtube.com/watch?v=E28V1t-k8Hk](https://www.youtube.com/watch?v=E28V1t-k8Hk) ^[\[Invidious\]](https://yewtu.be/watch?v=E28V1t-k8Hk)^
+    -   Exfiltration of data from a USB malware on an air-gapped computer through electromagnetic interferences [https://www.youtube.com/watch?v=E28V1t-k8Hk](https://www.youtube.com/watch?v=E28V1t-k8Hk) [\[Invidious\]](https://yewtu.be/watch?v=E28V1t-k8Hk)
         
     -   Exfiltration of data from a malware-infected HDD drive through covert acoustic noise [https://www.youtube.com/watch?v=H7lQXmSLiP8](https://www.youtube.com/watch?v=H7lQXmSLiP8) ^[\[Invidious\]](https://yewtu.be/watch?v=H7lQXmSLiP8)^
         
@@ -11399,49 +11368,44 @@ You can find some introduction on these on these projects:
 
 ---
 
-1.  English translation of German Telemedia Act [https://www.huntonprivacyblog.com/wp-content/uploads/sites/28/2016/02/Telemedia\_Act\_\_TMA\_.pdf](https://www.huntonprivacyblog.com/wp-content/uploads/sites/28/2016/02/Telemedia_Act__TMA_.pdf) ^[\[Archive.org\]](https://web.archive.org/web/https://www.huntonprivacyblog.com/wp-content/uploads/sites/28/2016/02/Telemedia_Act__TMA_.pdf)^. Section 13, Article 6, "The service provider must enable the use of Telemedia and payment for them to occur anonymously or via a pseudonym where this is technically possible and reasonable. The recipient of the service is to be informed about this possibility. ". [↩︎](#fnref1) [↩︎](#fnref1:1)
+1.  English translation of German Telemedia Act [https://www.huntonprivacyblog.com/wp-content/uploads/sites/28/2016/02/Telemedia\_Act\_\_TMA\_.pdf](https://www.huntonprivacyblog.com/wp-content/uploads/sites/28/2016/02/Telemedia_Act__TMA_.pdf) [\[Archive.org\]](https://web.archive.org/web/https://www.huntonprivacyblog.com/wp-content/uploads/sites/28/2016/02/Telemedia_Act__TMA_.pdf). Section 13, Article 6, "The service provider must enable the use of Telemedia and payment for them to occur anonymously or via a pseudonym where this is technically possible and reasonable. The recipient of the service is to be informed about this possibility. ".
     
-2.  Wikipedia, Real-Name System Germany [https://en.wikipedia.org/wiki/Real-name\_system#Germany](https://en.wikipedia.org/wiki/Real-name_system#Germany) ^[\[Wikiless\]](https://wikiless.org/wiki/Real-name_system)^ ^[\[Archive.org\]](https://web.archive.org/web/https://en.wikipedia.org/wiki/Real-name_system)^ [↩︎](#fnref2) [↩︎](#fnref2:1)
+2.  Wikipedia, Real-Name System Germany [https://en.wikipedia.org/wiki/Real-name\_system#Germany](https://en.wikipedia.org/wiki/Real-name_system#Germany) [\[Wikiless\]](https://wikiless.org/wiki/Real-name_system) [\[Archive.org\]](https://web.archive.org/web/https://en.wikipedia.org/wiki/Real-name_system)
     
-3.  Wikipedia, Don’t be evil [https://en.wikipedia.org/wiki/Don’t\_be\_evil](https://en.wikipedia.org/wiki/Don%27t_be_evil) ^[\[Wikiless\]](https://wikiless.org/wiki/Don%27t_be_evil)^ ^[\[Archive.org\]](https://web.archive.org/web/https://en.wikipedia.org/wiki/Don%27t_be_evil)^ [↩︎](#fnref3)
+3.  Wikipedia, Don’t be evil [https://en.wikipedia.org/wiki/Don’t\_be\_evil](https://en.wikipedia.org/wiki/Don%27t_be_evil) [\[Wikiless\]](https://wikiless.org/wiki/Don%27t_be_evil) [\[Archive.org\]](https://web.archive.org/web/https://en.wikipedia.org/wiki/Don%27t_be_evil)
     
-4.  YouTube, WarGames - “The Only Winning Move” [https://www.youtube.com/watch?v=6DGNZnfKYnU](https://www.youtube.com/watch?v=6DGNZnfKYnU) ^[\[Invidious\]](https://yewtu.be/watch?v=6DGNZnfKYnU)^ [↩︎](#fnref4)
+4.  YouTube, WarGames - “The Only Winning Move” [https://www.youtube.com/watch?v=6DGNZnfKYnU](https://www.youtube.com/watch?v=6DGNZnfKYnU) [\[Invidious\]](https://yewtu.be/watch?v=6DGNZnfKYnU)
     
-5.  Wikipedia, OSINT [https://en.wikipedia.org/wiki/Open-source\_intelligence](https://en.wikipedia.org/wiki/Open-source_intelligence) ^[\[Wikiless\]](https://wikiless.org/wiki/Open-source_intelligence)^ ^[\[Archive.org\]](https://web.archive.org/web/https://en.wikipedia.org/wiki/Open-source_intelligence)^ [↩︎](#fnref5)
+5.  Wikipedia, OSINT [https://en.wikipedia.org/wiki/Open-source\_intelligence](https://en.wikipedia.org/wiki/Open-source_intelligence) [\[Wikiless\]](https://wikiless.org/wiki/Open-source_intelligence)[\[Archive.org\]](https://web.archive.org/web/https://en.wikipedia.org/wiki/Open-source_intelligence)
     
-6.  YouTube Internet Historian Playlist, HWNDU [https://www.youtube.com/playlist?list=PLna1KTNJu3y09Tu70U6yPn28sekaNhOMY](https://www.youtube.com/playlist?list=PLna1KTNJu3y09Tu70U6yPn28sekaNhOMY) ^[\[Invidious\]](https://yewtu.be/playlist?list=PLna1KTNJu3y09Tu70U6yPn28sekaNhOMY)^ [↩︎](#fnref6)
+6.  YouTube Internet Historian Playlist, HWNDU [https://www.youtube.com/playlist?list=PLna1KTNJu3y09Tu70U6yPn28sekaNhOMY](https://www.youtube.com/playlist?list=PLna1KTNJu3y09Tu70U6yPn28sekaNhOMY) [\[Invidious\]](https://yewtu.be/playlist?list=PLna1KTNJu3y09Tu70U6yPn28sekaNhOMY)
     
-7.  Wikipedia, 4chan [https://en.wikipedia.org/wiki/4chan](https://en.wikipedia.org/wiki/4chan) ^[\[Wikiless\]](https://wikiless.org/wiki/4chan)^ ^[\[Archive.org\]](https://web.archive.org/web/https://en.wikipedia.org/wiki/4chan)^ [↩︎](#fnref7)
+7.  Wikipedia, 4chan [https://en.wikipedia.org/wiki/4chan](https://en.wikipedia.org/wiki/4chan) [\[Wikiless\]](https://wikiless.org/wiki/4chan)[\[Archive.org\]](https://web.archive.org/web/https://en.wikipedia.org/wiki/4chan)
     
-8.  PIA, See this good article on the matter [https://www.privateinternetaccess.com/blog/how-does-privacy-differ-from-anonymity-and-why-are-both-important/](https://www.privateinternetaccess.com/blog/how-does-privacy-differ-from-anonymity-and-why-are-both-important/) ^[\[Archive.org\]](https://web.archive.org/web/https://www.privateinternetaccess.com/blog/how-does-privacy-differ-from-anonymity-and-why-are-both-important/)^ (disclaimer: this is not an endorsement or recommendation for this commercial service). [↩︎](#fnref8)
+8.  PIA, See this good article on the matter [https://www.privateinternetaccess.com/blog/how-does-privacy-differ-from-anonymity-and-why-are-both-important/](https://www.privateinternetaccess.com/blog/how-does-privacy-differ-from-anonymity-and-why-are-both-important/) [\[Archive.org\]](https://web.archive.org/web/https://www.privateinternetaccess.com/blog/how-does-privacy-differ-from-anonymity-and-why-are-both-important/) (disclaimer: this is not an endorsement or recommendation for this commercial service).  
+9.  [Medium.com](http://Medium.com), Privacy, Blockchain and Onion Routing [https://medium.com/unitychain/privacy-blockchain-and-onion-routing-d5609c611841](https://medium.com/unitychain/privacy-blockchain-and-onion-routing-d5609c611841) [\[Scribe.rip\]](https://scribe.rip/unitychain/privacy-blockchain-and-onion-routing-d5609c611841)[\[Archive.org\]](https://web.archive.org/web/https://medium.com/unitychain/privacy-blockchain-and-onion-routing-d5609c611841)
     
-9.  [Medium.com](http://Medium.com), Privacy, Blockchain and Onion Routing [https://medium.com/unitychain/privacy-blockchain-and-onion-routing-d5609c611841](https://medium.com/unitychain/privacy-blockchain-and-onion-routing-d5609c611841) ^[\[Scribe.rip\]](https://scribe.rip/unitychain/privacy-blockchain-and-onion-routing-d5609c611841)^ ^[\[Archive.org\]](https://web.archive.org/web/https://medium.com/unitychain/privacy-blockchain-and-onion-routing-d5609c611841)^ [↩︎](#fnref9)
+10.  This World of Ours, James Mickens [https://scholar.harvard.edu/files/mickens/files/thisworldofours.pdf](https://scholar.harvard.edu/files/mickens/files/thisworldofours.pdf) [\[Archive.org\]](https://web.archive.org/web/https://scholar.harvard.edu/files/mickens/files/thisworldofours.pdf)
     
-10.  This World of Ours, James Mickens [https://scholar.harvard.edu/files/mickens/files/thisworldofours.pdf](https://scholar.harvard.edu/files/mickens/files/thisworldofours.pdf) ^[\[Archive.org\]](https://web.archive.org/web/https://scholar.harvard.edu/files/mickens/files/thisworldofours.pdf)^ [↩︎](#fnref10) [↩︎](#fnref10:1)
+11.  XKCD, Security [https://xkcd.com/538/](https://xkcd.com/538/) [\[Archive.org\]](https://web.archive.org/web/https://xkcd.com/538/)
     
-11.  XKCD, Security [https://xkcd.com/538/](https://xkcd.com/538/) ^[\[Archive.org\]](https://web.archive.org/web/https://xkcd.com/538/)^ [↩︎](#fnref11) [↩︎](#fnref11:1) [↩︎](#fnref11:2)
+12.  Wikipedia, Threat Model [https://en.wikipedia.org/wiki/Threat\_model](https://en.wikipedia.org/wiki/Threat_model) [\[Wikiless\]](https://wikiless.org/wiki/Threat_model)^ ^[\[Archive.org\]](https://web.archive.org/web/https://en.wikipedia.org/wiki/Threat_model)
+13.   Bellingcat [https://www.bellingcat.com/](https://www.bellingcat.com/) [\[Archive.org\]](https://web.archive.org/web/https://www.bellingcat.com/)
     
-12.  Wikipedia, Threat Model [https://en.wikipedia.org/wiki/Threat\_model](https://en.wikipedia.org/wiki/Threat_model) ^[\[Wikiless\]](https://wikiless.org/wiki/Threat_model)^ ^[\[Archive.org\]](https://web.archive.org/web/https://en.wikipedia.org/wiki/Threat_model)^ [↩︎](#fnref12)
+14.  Wikipedia, Doxing [https://en.wikipedia.org/wiki/Doxing](https://en.wikipedia.org/wiki/Doxing) [\[Wikiless\]](https://wikiless.org/wiki/Doxing)[\[Archive.org\]](https://web.archive.org/web/https://en.wikipedia.org/wiki/Doxing)](#fnref14)
     
-13.  Bellingcat [https://www.bellingcat.com/](https://www.bellingcat.com/) ^[\[Archive.org\]](https://web.archive.org/web/https://www.bellingcat.com/)^ [↩︎](#fnref13)
+15.  YouTube, Internet Historian, The Bikelock Fugitive of Berkeley [https://www.youtube.com/watch?v=muoR8Td44UE](https://www.youtube.com/watch?v=muoR8Td44UE) [\[Invidious\]](https://yewtu.be/watch?v=muoR8Td44UE)
+16.  BBC News, Tor Mirror [https://www.bbc.com/news/technology-50150981](https://www.bbc.com/news/technology-50150981) [\[Archive.org\]](https://web.archive.org/web/https://www.bbc.com/news/technology-50150981)
     
-14.  Wikipedia, Doxing [https://en.wikipedia.org/wiki/Doxing](https://en.wikipedia.org/wiki/Doxing) ^[\[Wikiless\]](https://wikiless.org/wiki/Doxing)^ ^[\[Archive.org\]](https://web.archive.org/web/https://en.wikipedia.org/wiki/Doxing)^ [↩︎](#fnref14)
+17.  GitHub, Real World Onion websites [https://github.com/alecmuffett/real-world-onion-sites](https://github.com/alecmuffett/real-world-onion-sites) [\[Archive.org\]](https://web.archive.org/web/https://github.com/alecmuffett/real-world-onion-sites) (updated extremely often)    
+18.  Tor Project, Who Uses Tor [https://2019.www.torproject.org/about/torusers.html.en](https://2019.www.torproject.org/about/torusers.html.en) [\[Archive.org\]](https://web.archive.org/web/https://2019.www.torproject.org/about/torusers.html.en)
+19.  Whonix Documentation, The importance of Anonymity [https://www.whonix.org/wiki/Anonymity](https://www.whonix.org/wiki/Anonymity) [\[Archive.org\]](https://web.archive.org/web/https://www.whonix.org/wiki/Anonymity)
     
-15.  YouTube, Internet Historian, The Bikelock Fugitive of Berkeley [https://www.youtube.com/watch?v=muoR8Td44UE](https://www.youtube.com/watch?v=muoR8Td44UE) ^[\[Invidious\]](https://yewtu.be/watch?v=muoR8Td44UE)^ [↩︎](#fnref15)
+20.  Geek Feminism [https://geekfeminism.wikia.org/wiki/Who\_is\_harmed\_by\_a\_"Real\_Names"\_policy%3F](https://geekfeminism.wikia.org/wiki/Who_is_harmed_by_a_%22Real_Names%22_policy%3F) [\[Archive.org\]](https://web.archive.org/web/https://geekfeminism.wikia.org/wiki/Who_is_harmed_by_a_%22Real_Names%22_policy%3F)
     
-16.  BBC News, Tor Mirror [https://www.bbc.com/news/technology-50150981](https://www.bbc.com/news/technology-50150981) ^[\[Archive.org\]](https://web.archive.org/web/https://www.bbc.com/news/technology-50150981)^ [↩︎](#fnref16)
+21.  Tor Project, Tor Users [https://2019.www.torproject.org/about/torusers.html.en](https://2019.www.torproject.org/about/torusers.html.en) [\[Archive.org\]](https://web.archive.org/web/https://2019.www.torproject.org/about/torusers.html.en)
     
-17.  GitHub, Real World Onion websites [https://github.com/alecmuffett/real-world-onion-sites](https://github.com/alecmuffett/real-world-onion-sites) ^[\[Archive.org\]](https://web.archive.org/web/https://github.com/alecmuffett/real-world-onion-sites)^ (updated extremely often) [↩︎](#fnref17)
-    
-18.  Tor Project, Who Uses Tor [https://2019.www.torproject.org/about/torusers.html.en](https://2019.www.torproject.org/about/torusers.html.en) ^[\[Archive.org\]](https://web.archive.org/web/https://2019.www.torproject.org/about/torusers.html.en)^ [↩︎](#fnref18)
-    
-19.  Whonix Documentation, The importance of Anonymity [https://www.whonix.org/wiki/Anonymity](https://www.whonix.org/wiki/Anonymity) ^[\[Archive.org\]](https://web.archive.org/web/https://www.whonix.org/wiki/Anonymity)^ [↩︎](#fnref19)
-    
-20.  Geek Feminism [https://geekfeminism.wikia.org/wiki/Who\_is\_harmed\_by\_a\_"Real\_Names"\_policy%3F](https://geekfeminism.wikia.org/wiki/Who_is_harmed_by_a_%22Real_Names%22_policy%3F) ^[\[Archive.org\]](https://web.archive.org/web/https://geekfeminism.wikia.org/wiki/Who_is_harmed_by_a_%22Real_Names%22_policy%3F)^ [↩︎](#fnref20)
-    
-21.  Tor Project, Tor Users [https://2019.www.torproject.org/about/torusers.html.en](https://2019.www.torproject.org/about/torusers.html.en) ^[\[Archive.org\]](https://web.archive.org/web/https://2019.www.torproject.org/about/torusers.html.en)^ [↩︎](#fnref21)
-    
-22.  PrivacyHub, Internet Privacy in the Age of Surveillance [https://www.cyberghostvpn.com/privacyhub/internet-privacy-surveillance/](https://www.cyberghostvpn.com/privacyhub/internet-privacy-surveillance/) ^[\[Archive.org\]](https://web.archive.org/web/https://www.cyberghostvpn.com/privacyhub/internet-privacy-surveillance/)^ [↩︎](#fnref22)
+22.  PrivacyHub, Internet Privacy in the Age of Surveillance [https://www.cyberghostvpn.com/privacyhub/internet-privacy-surveillance/](https://www.cyberghostvpn.com/privacyhub/internet-privacy-surveillance/) [\[Archive.org\]](https://web.archive.org/web/https://www.cyberghostvpn.com/privacyhub/internet-privacy-surveillance/)
     
 23.  PIA Blog, 50 Key Stats About Freedom of the Internet Around the World [https://www.privateinternetaccess.com/blog/internet-freedom-around-the-world-in-50-stats/](https://www.privateinternetaccess.com/blog/internet-freedom-around-the-world-in-50-stats/) ^[\[Archive.org\]](https://web.archive.org/web/https://www.privateinternetaccess.com/blog/internet-freedom-around-the-world-in-50-stats/)^ [↩︎](#fnref23)
     

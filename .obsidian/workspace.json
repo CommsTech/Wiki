@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Privacy/Guide_to_Online_Anonymity.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Privacy/Guide_to_Online_Anonymity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Privacy/Guide_to_Online_Anonymity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Privacy/Guide_to_Online_Anonymity.md"
               }
             }
           },
@@ -191,32 +191,33 @@
   },
   "active": "81b69151463c744c",
   "lastOpenFiles": [
-    "How_to_Markdown.md",
-    "Donate.md",
-    "Commsnet_Wiki_Home.md",
-    "About_Me.md",
-    "WGU/c963.md",
-    "WGU/c955.md",
-    "WGU/c924.md",
-    "WGU/C859.md",
-    "WGU/c851.md",
-    "WGU/c849.md",
-    "WGU/c846.md",
-    "WGU/c839.md",
-    "WGU/C779.md",
-    "WGU/C838.md",
-    "WGU/c769.md",
-    "WGU/c768.md",
-    "WGU/c483.md",
-    "WGU/C394.md",
-    "WGU/C393.md",
-    "WGU/C182.md",
-    "WGU/C176.md",
-    "WGU/c175.md",
-    "WGU/c165.md",
-    "WGU/C100.md",
-    "Virtual_Infrastructure/XCP-ng_VM_Tools.md",
-    "Virtual_Infrastructure/XCP-NG_on_ESXi.md",
+    "Privacy/privacy_opt_out_tools.md",
+    "Privacy/Awesome_Privacy_Tools.md",
+    "Operating_Systems/Windows/windows-dns-server.md",
+    "Operating_Systems/Linux/mount.md",
+    "Networking/smtp.md",
+    "Networking/Troubleshooting.md",
+    "Networking/Transport_Layer_Security_tls.md",
+    "Networking/tlsv2_handshake.md",
+    "Networking/Palo-Alto.md",
+    "Applications/Desktop_Applications/GIMP.md",
+    "Applications/Desktop_Applications/notepadplusplus.md",
+    "Applications/Desktop_Applications/WinSCP.md",
+    "Applications/Desktop_Applications/Wireshark.md",
+    "Applications/Server_Applications/Plex_Server.md",
+    "Virtual_Infrastructure/XCP-NG/XCP-NG.md",
+    "Virtual_Infrastructure/XCP-NG",
+    "Hardware/Tablets/Amazon_Fire_Tablet.md",
+    "Networking/Terminology/Quality_of_Service_QoS.md",
+    "Networking/Terminology/Congestion_Avoidance.md",
+    "Networking/Terminology/Weighted_Random_Early_Detection_WRED.md",
+    "Networking/Terminology/Weighted_Fair_Queueing_WFQ.md",
+    "Networking/Terminology/Traffic_Policing.md",
+    "QoS.md",
+    "Networking/Terminology/Virtual_Private_Network_VPN.md",
+    "Networking/Terminology/Multiprotocol_Label_Switching_MPLS.md",
+    "Networking/Terminology/Multicast_VPN_MVPN.md",
+    "Networking/Terminology/Modular_Design.md",
     "Networking/SteelHead",
     "Networking/DNS",
     "New Text Document.txt",
@@ -227,7 +228,6 @@
     "Networking/Terminology",
     "Excalidraw",
     "Life/Nutrition",
-    "Life",
     "assets/images/Pasted image 20231130184644.png",
     "assets/images/Pasted image 20230923143931.png",
     "Assets/images/Pasted image 20230821211119.png",

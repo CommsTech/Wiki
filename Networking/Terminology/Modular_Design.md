@@ -1,5 +1,5 @@
 ---
-title: 
+title: Modular Design
 description: 
 dateCreated: 
 published: 
