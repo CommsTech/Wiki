@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Privacy/Privacy_Home.md",
+                "file": "Cyber_Security/Terminology/Command_and_Control_Servers.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Privacy/Privacy_Home.md",
+                "file": "Cyber_Security/Terminology/Command_and_Control_Servers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Privacy/Privacy_Home.md",
+                "file": "Cyber_Security/Terminology/Command_and_Control_Servers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Privacy/Privacy_Home.md"
+                "file": "Cyber_Security/Terminology/Command_and_Control_Servers.md"
               }
             }
           },
@@ -191,6 +191,14 @@
   },
   "active": "81b69151463c744c",
   "lastOpenFiles": [
+    "Cyber_Security/Terminology/Botmasters.md",
+    "Cyber_Security/Terminology/Botnets.md",
+    "Cyber_Security/Terminology/Bots_and_Zombies.md",
+    "Cyber_Security/Terminology/Command_and_Control_Servers.md",
+    "Cyber_Security/Terminology",
+    "About_Me.md",
+    "Privacy/Privacy_Home.md",
+    "Cyber_Security",
     "Privacy/Guide_to_Online_Anonymity.md",
     "Privacy/Awesome_Privacy_Tools.md",
     "Privacy/Data_Removal_Guide.md",
@@ -212,12 +220,6 @@
     "Virtual_Infrastructure/XCP-NG",
     "Hardware/Tablets/Amazon_Fire_Tablet.md",
     "Networking/Terminology/Quality_of_Service_QoS.md",
-    "Networking/Terminology/Congestion_Avoidance.md",
-    "Networking/Terminology/Weighted_Random_Early_Detection_WRED.md",
-    "Networking/Terminology/Weighted_Fair_Queueing_WFQ.md",
-    "Networking/Terminology/Traffic_Policing.md",
-    "QoS.md",
-    "Networking/Terminology/Virtual_Private_Network_VPN.md",
     "Networking/SteelHead",
     "Networking/DNS",
     "New Text Document.txt",
@@ -226,8 +228,6 @@
     "assets/images/Pasted image 20230923143719.png",
     "Electronics_Repair",
     "Networking/Terminology",
-    "Excalidraw",
-    "Life/Nutrition",
     "assets/images/Pasted image 20231130184644.png",
     "assets/images/Pasted image 20230923143931.png",
     "Assets/images/Pasted image 20230821211119.png",

@@ -1,12 +1,12 @@
 ---
-dateModified: {date modified}
 title: Privacy Home
 description: 
+dateCreated: 2022-05-19T01:12:58.089Z
 published: true
+editor: markdown
 tags:
   - Privacy
-editor: markdown
-dateCreated: 2022-05-19T01:12:58.089Z
+dateModified: {date modified}
 ---
 # Privacy
 
