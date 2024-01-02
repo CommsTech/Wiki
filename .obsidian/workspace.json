@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red_Team/Red_Team_Home.md",
+                "file": "Certifications/Cisco/Cisco/CCNA.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red_Team/Red_Team_Home.md",
+                "file": "Certifications/Cisco/Cisco/CCNA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red_Team/Red_Team_Home.md",
+                "file": "Certifications/Cisco/Cisco/CCNA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red_Team/Red_Team_Home.md"
+                "file": "Certifications/Cisco/Cisco/CCNA.md"
               }
             }
           },
@@ -171,17 +171,9 @@
                 "searchQuery": ""
               }
             }
-          },
-          {
-            "id": "6abb2fb2786f079d",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -194,11 +186,13 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "6abb2fb2786f079d",
+  "active": "81b69151463c744c",
   "lastOpenFiles": [
+    "Red_Team/Red_Team_Home.md",
     "Cyber_Security/Terminology/Worms.md",
     "Cyber_Security/Terminology/Viruses.md",
     "Networking/pfSense/pfBlockerNG/pfSense_Schedules.md",
@@ -224,7 +218,6 @@
     "Cyber_Security/Terminology/Botmasters.md",
     "Cyber_Security/Terminology/Backdoors.md",
     "Cyber_Security/Terminology/Adware.md",
-    "Cyber_Security/Terminology/Advanced_Persistent_Threats_APT.md",
     "Applications/Server_Applications/AI/GPT_Prompts",
     "Applications/Server_Applications/Ansible/Playbooks",
     "Cyber_Security/Terminology",

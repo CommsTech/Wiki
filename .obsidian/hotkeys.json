@@ -44,5 +44,11 @@
       ],
       "key": "9"
     }
+  ],
+  "obisidian-note-linker:open-note-linker-vault": [
+    {
+      "modifiers": [],
+      "key": "F4"
+    }
   ]
 }
