@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Certifications/Cisco/Cisco/CCNA.md",
+                "file": "Networking/Terminology/High-Level_Signaling_Protocol_HLSP.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Certifications/Cisco/Cisco/CCNA.md",
+                "file": "Networking/Terminology/High-Level_Signaling_Protocol_HLSP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Certifications/Cisco/Cisco/CCNA.md",
+                "file": "Networking/Terminology/High-Level_Signaling_Protocol_HLSP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Certifications/Cisco/Cisco/CCNA.md"
+                "file": "Networking/Terminology/High-Level_Signaling_Protocol_HLSP.md"
               }
             }
           },
@@ -192,6 +192,7 @@
   },
   "active": "81b69151463c744c",
   "lastOpenFiles": [
+    "Certifications/Cisco/Cisco/CCNA.md",
     "Red_Team/Red_Team_Home.md",
     "Cyber_Security/Terminology/Worms.md",
     "Cyber_Security/Terminology/Viruses.md",
@@ -217,7 +218,6 @@
     "Cyber_Security/Terminology/Botnets.md",
     "Cyber_Security/Terminology/Botmasters.md",
     "Cyber_Security/Terminology/Backdoors.md",
-    "Cyber_Security/Terminology/Adware.md",
     "Applications/Server_Applications/AI/GPT_Prompts",
     "Applications/Server_Applications/Ansible/Playbooks",
     "Cyber_Security/Terminology",
