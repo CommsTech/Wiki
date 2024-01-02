@@ -8,6 +8,7 @@ tags:
 dateModified: 
 ---
 # RAG_Formatting_and_Information
+
 How should you format docs for retrieval augmented generation (RAG)?
 
 🔋 Easily readable by a human = ideal for the LLM model.
@@ -30,9 +31,7 @@ Here are 8 must-dos for teams using RAG ⤵️
 
 8️⃣ Include a table of contents for quick navigation through large documents
 
-
-
-Having a large knowledge base in Obsidian and a sizable collection of technical documents, for the last couple of months, I have been trying to build an RAG-based QnA system that would allow effective querying.
+Having a large knowledge base in [[Obsidian]] and a sizable collection of technical documents, for the last couple of months, I have been trying to build an RAG-based QnA system that would allow effective querying.
 
 After the initial implementation using a standard architecture (structure unaware, format agnostic recursive text splitters and cosine similarity for semantic search), the results were a bit underwhelming. Throwing a more powerful LLM at the problem helped, but not by an order of magnitude (the model was able to reason better about the provided context, but if the context wasn't relevant to begin with, obviously it didn't matter).
 

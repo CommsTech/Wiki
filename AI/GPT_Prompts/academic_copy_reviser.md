@@ -4,7 +4,9 @@ description:
 dateCreated: 
 published: 
 editor: markdown
-tags: 
+tags:
+  - Prompts
+  - AI
 dateModified: 
 ---
 # Academic Copy Reviser

@@ -24,7 +24,6 @@ Here is a graph that we will use as a guide to process such documents.
 
 First, let’s import all necessary libraries to our environment
 
-
 ```
 import os  
 import openai  
@@ -52,8 +51,8 @@ from langchain.schema.runnable import RunnablePassthrough, RunnableLambda
   
 from operator import itemgetter
 ```
-We will use Unstructured to parse images, texts, and tables from documents (PDFs), you can run this code directly in this google colab, or download the pdf file from here ,upload it to session storage. and follow steps below.
 
+We will use Unstructured to parse images, texts, and tables from documents (PDFs), you can run this code directly in this google colab, or download the pdf file from here ,upload it to session storage. and follow steps below.
 
 > ( Refer to the installation instructions in google colab to setup your venv before executing the code )
 > 
@@ -79,10 +78,10 @@ path = "/content/"
 file\_name = "wildfire\_stats.pdf"  
 raw\_pdf\_elements = doc\_partition(path,file\_name)
 ```
+
 Once you run the code above, all images included in the file will be extracted and saved in your path. in our case (path = “/content/”)
 
 Next we will append each raw element to its category, (text to texts ,table to tables, for images, *unstructed* has taken care of that already..).
-
 
 ```
 # appending texts and tables from the pdf file  
@@ -99,12 +98,12 @@ def data\_category(raw\_pdf\_elements): # we may use decorator here
 texts = data\_category(raw\_pdf\_elements)[0]  
 tables = data\_category(raw\_pdf\_elements)[1]
 ```
+
 **Step 2 : Image captioning and table summarizing**
 
 For summarizing tables, we will use Langchain and GPT-4. For generating image captions, we will use GPT-4-Vision-Preview. This is because it is the only model that can currently handle multiple images together, which is important for our documents that contain multiple images. For text elements, we will leave them as they are before making them into embeddings.
 
 Get your OpenAI API key ready
-
 
 ```
 os.environ["OPENAI\_API\_KEY"] = 'sk-xxxxxxxxxxxxxxx'  
@@ -127,8 +126,8 @@ def tables\_summarize(data\_category):
 table\_summaries = tables\_summarize(data\_category)  
 text\_summaries = texts
 ```
-For images we need to encode them to base64 format before feeding them to our model for captioning
 
+For images we need to encode them to base64 format before feeding them to our model for captioning
 
 ```
 def encode\_image(image\_path):  
@@ -158,10 +157,10 @@ def image\_captioning(img\_base64,prompt):
  )  
  return msg.content
 ```
+
 Now we can append our list of images\_base64 and summarize them, then we split base64-encoded images and their associated texts.
 
 while running the code below you may get this `RateLimitError` with error code `429`. This error occurs when you’ve exceeded the rate limit for requests per minute (RPM) for the `gpt-4-vision-preview` in your organization, in my case, I have a usage limit of 3 RPM, so after each image captioning, I set 60s as a safety measure and wait for the rate limit to reset.
-
 
 ```
 # Store base64 encoded images  
@@ -200,10 +199,10 @@ def split\_image\_text\_types(docs):
  "texts": text  
  }
 ```
+
 **Step 3** : **Create a Multi-vector retriever and store texts, tables, images and their indexes in a Vector Base**
 
 We have completed the first part, which include document partitioning to raw elements, summarizing tables and images, now we are ready for the second part, where we will create a multi-vector retriever and store our outputs from part one in chromadb along with their ids.
-
 
 > 1. we create a vectorestore to index the child chunks (summary\_texts ,summary\_tables, summary\_img), and use OpenAIEmbeddings() for embeddings,
 > 
@@ -255,12 +254,14 @@ summary\_img = [
 retriever.vectorstore.add\_documents(summary\_img)  
 retriever.docstore.mset(list(zip(img\_ids, img\_base64\_list)))
 ```
+
 **Step 4 : Wrap all the above using langchain RunnableLambda**
 
 * We first compute the context (both “texts” and “images” in this case) and the question (just a RunnablePassthrough here)
-* Then we pass this into our prompt template, which is a custom function that formats the message for the gpt-4-vision-preview model.
-* And finally we parse the output as a string.
 
+* Then we pass this into our prompt template, which is a custom function that formats the message for the gpt-4-vision-preview model.
+
+* And finally we parse the output as a string.
 
 ```
 from operator import itemgetter  
@@ -292,16 +293,16 @@ chain = (
  | StrOutputParser()  
  )
 ```
-Now, we are ready to test our Multi-retrieval Rag
 
+Now, we are ready to test our Multi-retrieval Rag
 
 ```
 chain.invoke(  
  "What is the change in wild fires from 1993 to 2022?"  
 )
 ```
-here is the answer :
 
+here is the answer :
 
 > Based on the provided chart, the number of wildfires has increased from 1993 to 2022. The chart shows a line graph with the number of fires in thousands, which appears to start at a lower point in 1993 and ends at a higher point in 2022. The exact numbers for 1993 are not provided in the text or visible on the chart, but the visual trend indicates an increase.
 > 

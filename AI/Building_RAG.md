@@ -1,6 +1,6 @@
 ---
 title: A beginner's guide to building a Retrieval Augmented Generation (RAG) application from scratch
-description: 
+description: Retrieval Augmented Generation, or RAG, is all the rage these days because it introduces some serious capabilities to large language models like OpenAI's GPT-4 - and that's the ability to use and leverage their own data.
 dateCreated: 
 published: 
 editor: markdown
