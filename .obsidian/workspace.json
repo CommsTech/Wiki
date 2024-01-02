@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "8befb747aeace69c",
+        "id": "a47e2859093ed7fa",
         "type": "tabs",
         "children": [
           {
-            "id": "5cc78eec4f3efa1b",
+            "id": "64d6de79e0095139",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Certifications/PMI/pmi_acp.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -94,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Certifications/PMI/pmi_acp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Certifications/PMI/pmi_acp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Certifications/PMI/pmi_acp.md"
-              }
+              "state": {}
             }
           },
           {
@@ -176,8 +167,9 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "5cc78eec4f3efa1b",
+  "active": "73ee420029073090",
   "lastOpenFiles": [
+    "Certifications/PMI/pmi_acp.md",
     "Cyber_Security/Terminology/Adware.md",
     "Applications/Desktop_Applications/portmaster.md",
     "Applications/Desktop_Applications/Browsers/Tor_Browser.md",
@@ -203,7 +195,6 @@
     "Networking/pfSense/pfBlockerNG/pfSense_Schedules.md",
     "Cyber_Security/Terminology/Two_Factor_Authentication_2FA.md",
     "Cyber_Security/Terminology/Trojans.md",
-    "Cyber_Security/Terminology/Spyware.md",
     "Applications/Server_Applications/AI/GPT_Prompts",
     "Applications/Server_Applications/Ansible/Playbooks",
     "Cyber_Security/Terminology",
