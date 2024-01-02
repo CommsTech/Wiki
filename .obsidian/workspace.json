@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/tcp-vs-udp.md",
+                "file": "Certifications/comptia/CyberSecurity_Analyst_CYSA_Guide.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/tcp-vs-udp.md",
+                "file": "Certifications/comptia/CyberSecurity_Analyst_CYSA_Guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/tcp-vs-udp.md",
+                "file": "Certifications/comptia/CyberSecurity_Analyst_CYSA_Guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/tcp-vs-udp.md"
+                "file": "Certifications/comptia/CyberSecurity_Analyst_CYSA_Guide.md"
               }
             }
           },
@@ -194,14 +194,20 @@
   },
   "active": "262137e2d8490059",
   "lastOpenFiles": [
+    "Cyber_Security/CyberSecurity_Professional_Self_Development.md",
+    "Certifications/comptia/CyberSecurity_Analyst_CYSA_Guide.md",
+    "Hardware/Tablets/Amazon_Fire_Tablet.md",
+    "Networking/Terminology/Simple_Mail_Transport_Protocol_smtp.md",
+    "Networking/modsecurity-crs_WAF.md",
+    "Networking/Virtual_Private_Network_VPN.md",
+    "Networking/tcp-vs-udp.md",
+    "Networking/tlsv2_handshake.md",
+    "Networking/Terminology/Transmission_Control_Protocol_TCP.md",
+    "Networking/Terminology/User_Datagram_Protocol_UDP.md",
     "Networking/Troubleshooting.md",
     "Networking/twisted-pair-cables.md",
-    "Networking/Virtual_Private_Network_VPN.md",
-    "Networking/tlsv2_handshake.md",
-    "Networking/Terminology/Simple_Mail_Transport_Protocol_smtp.md",
     "Applications/Server_Applications/librespeed.md",
     "Networking/Subnetting.md",
-    "Networking/tcp-vs-udp.md",
     "Networking/Transport_Layer_Security_tls.md",
     "Networking/Terminology/DomainKeys_Identified_Mail_DKIM.md",
     "Networking/Terminology/Congestion_Avoidance.md",
@@ -214,12 +220,6 @@
     "Operating_Systems/Quickemu.md",
     "Networking/SteelHead/Wireshark_Steelhead_Troubleshooting.md",
     "Applications/Desktop_Applications/Wireshark.md",
-    "Networking/pfSense/Surricata/ET_Category_Descriptions.md",
-    "Networking/Terminology/Modular_Design.md",
-    "Networking/Terminology/Service_Provider_Firewall_SPF.md",
-    "Networking/Terminology/Service_Provider_Routing_SPR.md",
-    "Operating_Systems/Linux/Extend_LVM_Ubuntu.md",
-    "Operating_Systems/Linux/ufw.md",
     "Applications/Server_Applications/AI/GPT_Prompts",
     "Applications/Server_Applications/Ansible/Playbooks",
     "Cyber_Security/Terminology",
