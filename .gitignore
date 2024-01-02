@@ -90,3 +90,7 @@ cython_debug/
 info.json
 /*sync/
 
+
+
+# Ignore Smart Connections folder because embeddings file is large and updated frequently
+.smart-connections

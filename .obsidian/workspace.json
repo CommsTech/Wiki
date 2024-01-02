@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cyber_Security/Terminology/Viruses.md",
+                "file": "Red_Team/Red_Team_Home.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cyber_Security/Terminology/Viruses.md",
+                "file": "Red_Team/Red_Team_Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cyber_Security/Terminology/Viruses.md",
+                "file": "Red_Team/Red_Team_Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cyber_Security/Terminology/Viruses.md"
+                "file": "Red_Team/Red_Team_Home.md"
               }
             }
           },
@@ -171,9 +171,17 @@
                 "searchQuery": ""
               }
             }
+          },
+          {
+            "id": "6abb2fb2786f079d",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -189,8 +197,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "81b69151463c744c",
+  "active": "6abb2fb2786f079d",
   "lastOpenFiles": [
+    "Cyber_Security/Terminology/Worms.md",
+    "Cyber_Security/Terminology/Viruses.md",
+    "Networking/pfSense/pfBlockerNG/pfSense_Schedules.md",
     "Cyber_Security/Terminology/Two_Factor_Authentication_2FA.md",
     "Cyber_Security/Terminology/Trojans.md",
     "Cyber_Security/Terminology/Spyware.md",
@@ -206,8 +217,6 @@
     "Cyber_Security/Terminology/Firewall.md",
     "Cyber_Security/Terminology/Intrusion_Detection_System_IDS.md",
     "Cyber_Security/Terminology/Malware.md",
-    "Cyber_Security/Terminology/Viruses.md",
-    "Cyber_Security/Terminology/Worms.md",
     "Cyber_Security/Terminology/Untitled.md",
     "Cyber_Security/Terminology/Honeypot.md",
     "Cyber_Security/Terminology/Denial_Of_Service_DOS.md",
@@ -216,7 +225,6 @@
     "Cyber_Security/Terminology/Backdoors.md",
     "Cyber_Security/Terminology/Adware.md",
     "Cyber_Security/Terminology/Advanced_Persistent_Threats_APT.md",
-    "Cyber_Security/Terms.md",
     "Applications/Server_Applications/AI/GPT_Prompts",
     "Applications/Server_Applications/Ansible/Playbooks",
     "Cyber_Security/Terminology",
