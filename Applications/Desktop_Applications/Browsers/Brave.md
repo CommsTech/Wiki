@@ -70,7 +70,7 @@ Chromium addons (good for both chrome and brave.... but use brave!
 
     - A secure and free password manager for all of your devices.
 
-    - https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb
+    - https://chrome.google.com/webstore/detail/[[bitwarden]]-free-password-m/nngceckbapebfimnlniiiahkandclblb
 
 - UBlock Origin
 
@@ -110,7 +110,7 @@ Chromium addons (good for both chrome and brave.... but use brave!
 
     - [Additional information on my implemtation located here](https://github.com/CommsTech/Commsnet/tree/main/additional%20VMs/KASM)
 
-- Firewall Leak Test
+- [[Firewall]] Leak Test
 
     - Not sure what happened to the programmer but Gibson Research has been a great asset to my development. from there spinrite HardDrive recovery software to this.
 
