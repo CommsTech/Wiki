@@ -1,10 +1,11 @@
 ---
 title: Cryptojacking
-description: 
+description: Cryptojacking is the unauthorized use of a victim's computing resources to mine cryptocurrency without their knowledge or consent. Cryptojacking can result in increased electricity usage, decreased system performance, and potential privacy concerns.
 dateCreated: 
 published: 
 editor: markdown
-tags: 
+tags:
+  - CyberSecurity
 dateModified: 
 ---
 # Cryptojacking

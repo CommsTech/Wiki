@@ -4,7 +4,9 @@ description: Adware is a type of software that displays unwanted advertisements 
 dateCreated: 
 published: 
 editor: markdown
-tags: 
+tags:
+  - CyberSecurity
+  - Malware
 dateModified: 
 ---
 # Adware
