@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/RAG_Formatting_and_Information.md",
+                "file": "Applications/Server_Applications/Gluetun.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Libresp",
+                "query": "gluetun",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -94,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/RAG_Formatting_and_Information.md",
+                "file": "Applications/Server_Applications/Gluetun.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/RAG_Formatting_and_Information.md",
+                "file": "Applications/Server_Applications/Gluetun.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/RAG_Formatting_and_Information.md"
+                "file": "Applications/Server_Applications/Gluetun.md"
               }
             }
           },
@@ -194,8 +195,8 @@
   },
   "active": "262137e2d8490059",
   "lastOpenFiles": [
-    "AI/RAG_Concepts_and_LangChain.md",
     "AI/RAG_Formatting_and_Information.md",
+    "AI/RAG_Concepts_and_LangChain.md",
     "AI/GPT_Prompts/want_and_need.md",
     "AI/AI_Home.md",
     "AI/GPT_Prompts/thesaurus.md",

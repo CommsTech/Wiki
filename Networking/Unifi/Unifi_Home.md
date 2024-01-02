@@ -10,7 +10,7 @@ dateModified:
 # UNIFI
 ## Associate UniFi devices
 
-`set-inform http://192.168.5.110:8080/inform` where 192.168.5.110 is your unifi controller IP
+`set-inform http://192.168.5.110:8080/inform` where 192.168.5.110 is your [[unifi]] controller IP
 
 Unifi Wiki 
 

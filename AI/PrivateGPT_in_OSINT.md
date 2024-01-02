@@ -17,7 +17,7 @@ It could be, especially if you have your own database of information that you wi
 
   
 
-**What is PrivateGPT?**
+**What is [[PrivateGPT]]?**
 
   
 
