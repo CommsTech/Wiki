@@ -58,5 +58,13 @@
       "modifiers": [],
       "key": "F4"
     }
+  ],
+  "persistent-links:persistent-links:repair-links-in-file": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "F4"
+    }
   ]
 }
