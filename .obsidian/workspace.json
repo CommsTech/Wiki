@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Certifications/comptia/CyberSecurity_Analyst_CYSA_Guide.md",
+                "file": "Cyber_Security/CyberSecurity_Critical_Tasks.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Certifications/comptia/CyberSecurity_Analyst_CYSA_Guide.md",
+                "file": "Cyber_Security/CyberSecurity_Critical_Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Certifications/comptia/CyberSecurity_Analyst_CYSA_Guide.md",
+                "file": "Cyber_Security/CyberSecurity_Critical_Tasks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Certifications/comptia/CyberSecurity_Analyst_CYSA_Guide.md"
+                "file": "Cyber_Security/CyberSecurity_Critical_Tasks.md"
               }
             }
           },
@@ -195,7 +195,9 @@
   "active": "262137e2d8490059",
   "lastOpenFiles": [
     "Cyber_Security/CyberSecurity_Professional_Self_Development.md",
+    "Cyber_Security/CyberSecurity_Critical_Tasks.md",
     "Certifications/comptia/CyberSecurity_Analyst_CYSA_Guide.md",
+    "Certifications/comptia/Comptia_Home.md",
     "Hardware/Tablets/Amazon_Fire_Tablet.md",
     "Networking/Terminology/Simple_Mail_Transport_Protocol_smtp.md",
     "Networking/modsecurity-crs_WAF.md",
@@ -218,8 +220,6 @@
     "Privacy/Guide_to_Online_Anonymity.md",
     "Privacy/Awesome_Privacy_Tools.md",
     "Operating_Systems/Quickemu.md",
-    "Networking/SteelHead/Wireshark_Steelhead_Troubleshooting.md",
-    "Applications/Desktop_Applications/Wireshark.md",
     "Applications/Server_Applications/AI/GPT_Prompts",
     "Applications/Server_Applications/Ansible/Playbooks",
     "Cyber_Security/Terminology",
