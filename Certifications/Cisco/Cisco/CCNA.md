@@ -8,6 +8,32 @@ tags: Networking, Cisco, Certification
 dateModified: 
 ---
 # CCNA![[CCNA_Notes.pdf]]
+- Externally learned EIGRP couter show up as EX 
+- EIGRP (redistribute state), OSPF (Default information originate) 
+- Three effects of using local span are 
+	· It doubles the load on the Forwarding engine 
+	- It Prevents span destination from using port Security 
+	- If doubles internal switch traffic 
+- Two device classes ved our serial links are DCE and DTE .
+- Autonomous system number and ip are used to identify neighbors in BGP 
+- VLAN's can experience slowness due to duplex mismatch. 
+- RSTP defines new port roles and is compatible with the original 802.10 STP 
+- EIGRP successor routes are used to Formed traffic to adestination and may be backed up by a feasible successor route . 
+- Encapsulation is a Feature that Facilitates the tagging of Frames on specific VLANS 
+- ESP is used when confidentiality is required on a IPsec Link 
+- Discarding and Forwarding are two states of RSTP when the network has converged 
+- Same AS number is required for EIGRP to establish adjacency: 
+-Three benefits of running TACACS are: 
+	device-administration packets are encrypted in their entirety 
+	If allows the users to be authenticated against a remote server
+	It supports access-level authorization for commands 
+- Packet-Loss and Hardware forwarding issues can cause inter-Vlan slowness
+- Cloud Computing requires High Speed broadband 
+- GRE Sends packets in plain text 
+- IGP may use Dijkstra or Bellman-Ford algorithm 
+- ACL APIC-EM Path runs on Layer 4 
+- Aggregated chassis technology reduces Management overhand and repairs only One IP address per VLAN 
+- RADIUS only encrypts the password 
 - Stacked switches reduce management complexity and have a single management interface 
 - Port Filter ACL's are applied first 
 - Link Local addresses must be configured on all IPV 6 interfaces
