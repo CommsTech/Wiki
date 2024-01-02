@@ -11,8 +11,13 @@
             "id": "5cc78eec4f3efa1b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Certifications/PMI/pmi_acp.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"date\"]",
+                "query": "home",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Certifications/PMI/pmi_acp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Certifications/PMI/pmi_acp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Certifications/PMI/pmi_acp.md"
+              }
             }
           },
           {
@@ -169,6 +178,17 @@
   },
   "active": "5cc78eec4f3efa1b",
   "lastOpenFiles": [
+    "Cyber_Security/Terminology/Adware.md",
+    "Applications/Desktop_Applications/portmaster.md",
+    "Applications/Desktop_Applications/Browsers/Tor_Browser.md",
+    "Applications/Desktop_Applications/Note_Taking/Obsidian.md",
+    "Applications/Desktop_Applications/Note_Taking/Note_Taking_Home.md",
+    "Commsnet_Wiki_Home.md",
+    "Certifications/Cisco/Cisco/CCNA.md",
+    "Applications/Desktop_Applications/FreeTube.md",
+    "Applications/Server_Applications/Netbox.md",
+    "Applications/Server_Applications/kubernetes/kubernetes-dns.md",
+    "TV_Streaming_Devices/TV_and_Streaming_Devices_Home.md",
     "Applications/Server_Applications/AI/AI_Home.md",
     "Applications/Desktop_Applications/notepadplusplus.md",
     "Applications/Desktop_Applications/markdown-crawler.md",
@@ -177,7 +197,6 @@
     "Certifications/Certifications_Home.md",
     "Certifications/Cisco/Cisco/Secure_Cloud_and _Network_Analytics.md",
     "Networking/Terminology/High-Level_Signaling_Protocol_HLSP.md",
-    "Certifications/Cisco/Cisco/CCNA.md",
     "Red_Team/Red_Team_Home.md",
     "Cyber_Security/Terminology/Worms.md",
     "Cyber_Security/Terminology/Viruses.md",
@@ -185,16 +204,6 @@
     "Cyber_Security/Terminology/Two_Factor_Authentication_2FA.md",
     "Cyber_Security/Terminology/Trojans.md",
     "Cyber_Security/Terminology/Spyware.md",
-    "Cyber_Security/Terminology/Social_Engineering.md",
-    "Applications/Server_Applications/AI/GPT_Prompts/AI_Chat_Preload_Test.md",
-    "Cyber_Security/Terminology/Rootkit.md",
-    "Cyber_Security/Terminology/Ransomware.md",
-    "Cyber_Security/Terminology/Phishing.md",
-    "Cyber_Security/Terminology/Command_and_Control_Servers.md",
-    "Cyber_Security/Terminology/Cryptojacking.md",
-    "Cyber_Security/Terminology/Encryption.md",
-    "Cyber_Security/Terminology/Firewall.md",
-    "Cyber_Security/Terminology/Intrusion_Detection_System_IDS.md",
     "Applications/Server_Applications/AI/GPT_Prompts",
     "Applications/Server_Applications/Ansible/Playbooks",
     "Cyber_Security/Terminology",
