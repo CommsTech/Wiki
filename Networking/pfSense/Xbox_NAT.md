@@ -24,11 +24,9 @@ The following method should work for the XBox One to get rid of **STRICT NAT**�
 Unfortunately, I do not have other consoles like the Play Station 4 or the Nintendo Switch (nasty thing with money – you can spend only once).  
 From what I have seen; this most likely works with other consoles as well. Your mileage may vary.
 
-
 Just a warning: I’m most certainly **not** a firewall or a pfSense expert.  
 Everything presented here is from what I have read and tested on my own setup.  
 Suggestions, and improvements are most welcome.
-
 
 ## Step 1: Give your XBox One a fixed IP address in pfSense
 
@@ -115,12 +113,11 @@ _Note:_ repeat steps **7** and **8** for each additional XBox One you have.
 
 pfSense – Enable UPnP for your XBox One
 
-
 ## Step 3: Configure Outbound NAT for pfSense
 
 We’re almost done, we just need to modify our NAT settings a little bit.
 
-In pfSense go to **Firewall**  **NAT**  **Outbound**. Don’t forget to click “Outbound”!
+In pfSense go to **[[Firewall]]**  **NAT**  **Outbound**. Don’t forget to click “Outbound”!
 
 First we need to set our outbound NAT to **Hybrid**:
 
@@ -155,7 +152,7 @@ Now this may or may not be required, but I did it anyway.
 2.  Reboot your pfSense Firewall – this may not be required.
 3.  After reboot verify your XBox One Network details – You should have an OPEN NAT now and STRICT NAT should be an issue of the past.
 
-#### Tip: Alternative to rebooting … 
+### Tip: Alternative to rebooting … 
 
 A great tip from Charles (below) as an alternative to rebooting your Firewall:  
 You can just flush the active connections: **Firewall**  **Diagnostics**  **States Reset**.

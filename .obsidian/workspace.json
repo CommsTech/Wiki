@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/SteelHead/Riverbed.md",
+                "file": "Operating_Systems/Linux/NIX.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "riverbe",
+                "query": "nix",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/SteelHead/Riverbed.md",
+                "file": "Operating_Systems/Linux/NIX.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/SteelHead/Riverbed.md",
+                "file": "Operating_Systems/Linux/NIX.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/SteelHead/Riverbed.md"
+                "file": "Operating_Systems/Linux/NIX.md"
               }
             }
           },
@@ -179,6 +179,8 @@
   },
   "active": "64d6de79e0095139",
   "lastOpenFiles": [
+    "Networking/pfSense/Xbox_NAT.md",
+    "Networking/SteelHead/Riverbed.md",
     "Networking/pfSense/pfSense_home.md",
     "Networking/pfSense/pfSense_as_a_VM.md",
     "Networking/pfSense/pfBlockerNG/pfBlockerNG_home.md",
@@ -203,8 +205,6 @@
     "Certifications/Cisco/Cisco/CCNA.md",
     "Applications/Desktop_Applications/FreeTube.md",
     "Applications/Server_Applications/Netbox.md",
-    "Applications/Server_Applications/kubernetes/kubernetes-dns.md",
-    "TV_Streaming_Devices/TV_and_Streaming_Devices_Home.md",
     "Applications/Server_Applications/AI/GPT_Prompts",
     "Applications/Server_Applications/Ansible/Playbooks",
     "Cyber_Security/Terminology",

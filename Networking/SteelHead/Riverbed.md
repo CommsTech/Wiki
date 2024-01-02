@@ -9,7 +9,7 @@ dateModified:
 ---
 # Riverbed: Optimizing Network Performance, Security, and Automation
 
-This document provides a comprehensive guide on optimizing network performance, security, and automation with Riverbed solutions. It covers various topics such as Wireshark troubleshooting, SteelHead configuration, and best practices for using Riverbed's WAN optimization technology.
+This document provides a comprehensive guide on optimizing network performance, security, and automation with Riverbed solutions. It covers various topics such as [[Wireshark]] troubleshooting, SteelHead configuration, and best practices for using Riverbed's WAN optimization technology.
 
 ## Table of Contents
 1. [Getting Started with Riverbed](#getting-started)
