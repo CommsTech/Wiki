@@ -250,7 +250,7 @@ content. You can provide the exact domain name with this Google Dorking command:
 **Info**
 
 Youcanusethiscommandtofindtheinformationrelatedtoaspecificdomainname. It  
-letsyoudeterminethings,suchaspageswiththedomaintext,similaron-sitepages,andthe  
+letsyoudeterminethings,suchaspageswiththedomaintext,similaron-sitepages,and the  
 website’s cache.
 
 For example:
@@ -466,6 +466,7 @@ Restrict access to dynamic URLs that contain ‘?’ symbol:
 
 User-agent: *  
 Disallow: /*?
+
 ## How to Combine Google Search Operators(https://kinsta.com/blog/google-search-operators/#how-to-combine-google-search-operators)
 
 One of the most useful things about Google search operators is that you can combine them for particular use cases.
