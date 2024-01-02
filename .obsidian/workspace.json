@@ -11,8 +11,13 @@
             "id": "64d6de79e0095139",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Networking/modsecurity-crs_WAF.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "home",
+                "query": "modsec",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +74,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -89,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Networking/modsecurity-crs_WAF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Networking/modsecurity-crs_WAF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Networking/modsecurity-crs_WAF.md"
+              }
             }
           },
           {
@@ -167,8 +177,18 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "73ee420029073090",
+  "active": "64d6de79e0095139",
   "lastOpenFiles": [
+    "Networking/Network_Optimization_Guidelines.md",
+    "Virtual_Infrastructure/AWS/opensearch.md",
+    "Virtual_Infrastructure/XCP-NG/XCP-ng_VM_Tools.md",
+    "Virtual_Infrastructure/XCP-NG/XCP-NG_OS_UBUNTU_Disks.md",
+    "Virtual_Infrastructure/XCP-NG/XCP-NG_on_ESXi.md",
+    "Virtual_Infrastructure/XCP-NG/XCP-NG.md",
+    "WGU/C394.md",
+    "WGU/C838.md",
+    "WGU/c851.md",
+    "WGU/c924.md",
     "Certifications/PMI/pmi_acp.md",
     "Cyber_Security/Terminology/Adware.md",
     "Applications/Desktop_Applications/portmaster.md",
@@ -185,16 +205,6 @@
     "Applications/Desktop_Applications/notepadplusplus.md",
     "Applications/Desktop_Applications/markdown-crawler.md",
     "Cyber_Security/Terminology/Malware.md",
-    "Cyber_Security/Terminology/Bots_and_Zombies.md",
-    "Certifications/Certifications_Home.md",
-    "Certifications/Cisco/Cisco/Secure_Cloud_and _Network_Analytics.md",
-    "Networking/Terminology/High-Level_Signaling_Protocol_HLSP.md",
-    "Red_Team/Red_Team_Home.md",
-    "Cyber_Security/Terminology/Worms.md",
-    "Cyber_Security/Terminology/Viruses.md",
-    "Networking/pfSense/pfBlockerNG/pfSense_Schedules.md",
-    "Cyber_Security/Terminology/Two_Factor_Authentication_2FA.md",
-    "Cyber_Security/Terminology/Trojans.md",
     "Applications/Server_Applications/AI/GPT_Prompts",
     "Applications/Server_Applications/Ansible/Playbooks",
     "Cyber_Security/Terminology",

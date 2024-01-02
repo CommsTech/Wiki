@@ -17,7 +17,7 @@ Title: **Optimizing Network Performance: A Comprehensive Guide for New Engineer
     
     - Definition and importance
     - Key performance indicators (KPIs)
-2. **Troubleshooting Common Network Issues**
+2. **[[Troubleshooting]] Common Network Issues**
     
     - Identifying bottlenecks
     - Diagnosing connectivity problems
@@ -26,7 +26,7 @@ Title: **Optimizing Network Performance: A Comprehensive Guide for New Engineer
     
     - Router settings
     - Switch configurations
-    - Firewall optimization
+    - [[Firewall]] optimization
 4. **Ensuring Network Safety and Stability**
     
     - Implementing security best practices
@@ -42,4 +42,4 @@ Title: **Optimizing Network Performance: A Comprehensive Guide for New Engineer
     - Recommended tools for network monitoring, analysis, and optimization
     - Useful websites, blogs, and communities
 
-By following this guide, new engineers will gain a solid understanding of network performance optimization, learn how to troubleshoot common issues, and configure network devices for optimal safety and stability. This markdown note is optimized for indexing by Obsidian, wiki.js, and PrivateGPT.
+By following this guide, new engineers will gain a solid understanding of network performance optimization, learn how to troubleshoot common issues, and configure network devices for optimal safety and stability. 

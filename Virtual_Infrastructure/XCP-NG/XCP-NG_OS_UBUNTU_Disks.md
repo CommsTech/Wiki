@@ -12,7 +12,7 @@ dateModified:
 
 # Increase a disk in XCP-ng - OS UBUNTU
 
-Only works if Ubuntu is setup to use LVM!
+Only works if [[Ubuntu]] is setup to use LVM!
 
 Steps to follow:
 

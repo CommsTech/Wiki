@@ -60,7 +60,7 @@ OpenSearch integrates with open-source tools including:
 
 -   Logstash.
 -   OpenTelemetry.
--   ElasticSearch APIs.
+-   [[ElasticSearch]] APIs.
 
 ## OpenSearch in an Amazon VPC
 
@@ -98,9 +98,9 @@ OpenSearch Service domains offer encryption of data at rest.
 
 Uses AWS KMS for storage and management of encryption keys.
 
-Encryption uses AES-256.
+[[Encryption]] uses AES-256.
 
-Encryption also encrypts node-to-node communications using TLS 1.2.
+[[Encryption]] also encrypts node-to-node communications using TLS 1.2.
 
 Node-to-node encryption is optional and can be enabled through the console, CLI, or API.
 

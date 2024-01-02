@@ -24,7 +24,7 @@ From XCP-ng Center console select the instance you wan to install VM Tools on. T
 
 ![](https://techviewleo.com/wp-content/uploads/2021/04/Install-XCP-ng-VM-Tools-CentOS-AlmaLinux-01.png?ezimgfmt=rs:696x374/rscb7/ng:webp/ngcb7)
 
-In the next screen use “**Install XCP-ng VM Tools**” button to mount the disk on the VM.
+In the next screen use “**Install XCP-ng VM Tools**” button to [[mount]] the disk on the VM.
 
 ![](https://techviewleo.com/wp-content/uploads/2021/04/Install-XCP-ng-VM-Tools-CentOS-AlmaLinux-02.png?ezimgfmt=rs:696x200/rscb7/ng:webp/ngcb7)
 
@@ -32,7 +32,7 @@ The disk mapping should be visible in the VM console.
 
 ![](https://techviewleo.com/wp-content/uploads/2021/04/Install-XCP-ng-VM-Tools-CentOS-AlmaLinux-03.png?ezimgfmt=rs:696x77/rscb7/ng:webp/ngcb7)
 
-Login to the instance from the console or SSH and run the commands to mount guest tools ISO inside the VM:
+Login to the instance from the console or SSH and run the commands to [[mount]] guest tools ISO inside the VM:
 
 ```
 sudo mount /dev/cdrom /mnt

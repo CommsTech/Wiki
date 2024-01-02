@@ -11,7 +11,7 @@ dateModified:
 
 ## XCP-NG in VMware nested virtualization
 
-Let’s take a look at installing XCP-NG in VMware and see how you can do this with VMware nested virtualization, installing the XCP-NG hypervisor in your [VMware vSphere](https://www.virtualizationhowto.com/2022/06/vmware-vsphere-and-vsan-announced-new-features/) environment is as simple as creating a new VMWare vSphere VM, enabling the CPU settings for nested virtualization and installing XCP-NG. Let’s see what that looks like.
+Let’s take a look at installing [[XCP-NG]] in VMware and see how you can do this with VMware nested virtualization, installing the XCP-NG hypervisor in your [VMware vSphere](https://www.virtualizationhowto.com/2022/06/vmware-vsphere-and-vsan-announced-new-features/) environment is as simple as creating a new VMWare vSphere VM, enabling the CPU settings for nested virtualization and installing XCP-NG. Let’s see what that looks like.
 
 [![Enable nested virtualization for your XCP NG virtual machine](https://www.virtualizationhowto.com/wp-content/uploads/2022/07/Enable-nested-virtualization-for-your-XCP-NG-virtual-machine.png)](https://www.virtualizationhowto.com/wp-content/uploads/2022/07/Enable-nested-virtualization-for-your-XCP-NG-virtual-machine.png)
 
@@ -147,7 +147,7 @@ Viewing running virtual machines using Xen Orchestra
 
 - **What is XCP-NG?** XCP-NG is an open-source hypervisor that allows easily spinning up workloads using the solution with a nice UI, live migration capabilities, and other features. It is free to download, along with the management platform – Xen Orchestra.
 - **What is Xen Orchestra?** Xen Orchestra is a free, open-source management platform for your XCP-NG servers. It provides many management capabilities from a modern web UI and allows configuring VMs, hosts, and even backups for your XCP-NG environment.
-- **How do you install XCP-NG in VMware?** As we have shown in the post, it is fairly easy. You just need to create a new VM with nested virtualization (Exposed hardware-assisted virtualization) enabled, mount the XCP-NG ISO, and begin the installation. There are several screens to configure your way through, but all-in-all, it is straightforward to get XCP-NG along with Xen Orchestra up and running.
+- **How do you install XCP-NG in VMware?** As we have shown in the post, it is fairly easy. You just need to create a new VM with nested virtualization (Exposed hardware-assisted virtualization) enabled, [[mount]] the XCP-NG ISO, and begin the installation. There are several screens to configure your way through, but all-in-all, it is straightforward to get XCP-NG along with Xen Orchestra up and running.
 
 ## Final Notes
 
