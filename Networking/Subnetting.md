@@ -1,10 +1,12 @@
 ---
-title: 
+title: Subnetting
 description: 
 dateCreated: 
 published: 
 editor: markdown
-tags: 
+tags:
+  - networking
+  - Subnetting
 dateModified: 
 ---
 [[CCNA]]---

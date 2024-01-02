@@ -11,8 +11,13 @@
             "id": "262137e2d8490059",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Networking/Terminology/smtp.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Networking/Terminology/smtp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Networking/Terminology/smtp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Networking/Terminology/smtp.md"
+              }
             }
           },
           {
@@ -156,9 +165,17 @@
               "type": "copilot-chat-view",
               "state": {}
             }
+          },
+          {
+            "id": "7a4d9cbdebac3886",
+            "type": "leaf",
+            "state": {
+              "type": "custom-frames-privategpt",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -175,15 +192,22 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "88c0f4a340a277ce",
+  "active": "73ee420029073090",
   "lastOpenFiles": [
+    "Networking/Subnetting.md",
+    "Networking/tcp-vs-udp.md",
+    "Networking/Transport_Layer_Security_tls.md",
+    "Networking/tlsv2_handshake.md",
+    "Networking/Terminology/smtp.md",
+    "Networking/Terminology/DomainKeys_Identified_Mail_DKIM.md",
+    "Networking/Terminology/Congestion_Avoidance.md",
+    "Networking/create-dkim-keypair.md",
+    "Networking/SteelHead/Riverbed.md",
     "Applications/Web_Applications/Plex_Web_Client_Settings.md",
     "Commsnet_Wiki_Home.md",
     "Applications/Server_Applications/librespeed.md",
-    "Networking/SteelHead/Riverbed.md",
     "Privacy/Guide_to_Online_Anonymity.md",
     "Privacy/Awesome_Privacy_Tools.md",
-    "Networking/Subnetting.md",
     "Operating_Systems/Quickemu.md",
     "Networking/SteelHead/Wireshark_Steelhead_Troubleshooting.md",
     "Applications/Desktop_Applications/Wireshark.md",
@@ -196,13 +220,6 @@
     "Operating_Systems/Linux/NIX.md",
     "Networking/pfSense/Xbox_NAT.md",
     "Networking/pfSense/pfSense_home.md",
-    "Networking/pfSense/pfSense_as_a_VM.md",
-    "Networking/pfSense/pfBlockerNG/pfBlockerNG_home.md",
-    "Networking/modsecurity-crs_WAF.md",
-    "Networking/Network_Optimization_Guidelines.md",
-    "Virtual_Infrastructure/AWS/opensearch.md",
-    "Virtual_Infrastructure/XCP-NG/XCP-ng_VM_Tools.md",
-    "Virtual_Infrastructure/XCP-NG/XCP-NG_OS_UBUNTU_Disks.md",
     "Applications/Server_Applications/AI/GPT_Prompts",
     "Applications/Server_Applications/Ansible/Playbooks",
     "Cyber_Security/Terminology",
