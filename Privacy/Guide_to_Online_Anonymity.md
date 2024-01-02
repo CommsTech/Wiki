@@ -8,7 +8,7 @@ tags:
 dateModified: 
 ---
 
-[[OSINT]][[Ubuntu]][[Encryption]][[Phishing]][[Malware]][[Brave]][[Applications/Server_Applications/firefox|firefox]][[linux]][[vpn]]---
+[[OSINT]][[Ubuntu]][[Encryption]][[Phishing]][[Malware]][[Brave]][[Applications/Server_Applications/firefox|firefox]][[linux]][[Networking/Virtual_Private_Network_VPN]]---
 
 title: Guide to Online Anonymity
 
