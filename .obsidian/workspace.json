@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cyber_Security/CyberSecurity_Critical_Tasks.md",
+                "file": "Applications/Server_Applications/AI/How_to_Make_AI_Undetectable.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cyber_Security/CyberSecurity_Critical_Tasks.md",
+                "file": "Applications/Server_Applications/AI/How_to_Make_AI_Undetectable.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cyber_Security/CyberSecurity_Critical_Tasks.md",
+                "file": "Applications/Server_Applications/AI/How_to_Make_AI_Undetectable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cyber_Security/CyberSecurity_Critical_Tasks.md"
+                "file": "Applications/Server_Applications/AI/How_to_Make_AI_Undetectable.md"
               }
             }
           },
@@ -194,8 +194,14 @@
   },
   "active": "262137e2d8490059",
   "lastOpenFiles": [
-    "Cyber_Security/CyberSecurity_Professional_Self_Development.md",
+    "Applications/Server_Applications/AI/GPT_Prompts/anxiety_teacher.md",
+    "Applications/Server_Applications/AI/How_to_Make_AI_Undetectable.md",
+    "Applications/Server_Applications/AI/PrivateGPT_in_OSINT.md",
+    "Applications/Server_Applications/AI/GPT_Prompts/midjourney_prompt.md",
+    "Applications/Server_Applications/AI/PrivateGPT.md",
+    "Certifications/SANS/SANS_Home.md",
     "Cyber_Security/CyberSecurity_Critical_Tasks.md",
+    "Cyber_Security/CyberSecurity_Professional_Self_Development.md",
     "Certifications/comptia/CyberSecurity_Analyst_CYSA_Guide.md",
     "Certifications/comptia/Comptia_Home.md",
     "Hardware/Tablets/Amazon_Fire_Tablet.md",
@@ -214,12 +220,6 @@
     "Networking/Terminology/DomainKeys_Identified_Mail_DKIM.md",
     "Networking/Terminology/Congestion_Avoidance.md",
     "Networking/create-dkim-keypair.md",
-    "Networking/SteelHead/Riverbed.md",
-    "Applications/Web_Applications/Plex_Web_Client_Settings.md",
-    "Commsnet_Wiki_Home.md",
-    "Privacy/Guide_to_Online_Anonymity.md",
-    "Privacy/Awesome_Privacy_Tools.md",
-    "Operating_Systems/Quickemu.md",
     "Applications/Server_Applications/AI/GPT_Prompts",
     "Applications/Server_Applications/Ansible/Playbooks",
     "Cyber_Security/Terminology",
