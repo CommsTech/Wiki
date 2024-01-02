@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/modsecurity-crs_WAF.md",
+                "file": "Networking/SteelHead/Riverbed.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "modsec",
+                "query": "riverbe",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/modsecurity-crs_WAF.md",
+                "file": "Networking/SteelHead/Riverbed.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/modsecurity-crs_WAF.md",
+                "file": "Networking/SteelHead/Riverbed.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/modsecurity-crs_WAF.md"
+                "file": "Networking/SteelHead/Riverbed.md"
               }
             }
           },
@@ -179,6 +179,10 @@
   },
   "active": "64d6de79e0095139",
   "lastOpenFiles": [
+    "Networking/pfSense/pfSense_home.md",
+    "Networking/pfSense/pfSense_as_a_VM.md",
+    "Networking/pfSense/pfBlockerNG/pfBlockerNG_home.md",
+    "Networking/modsecurity-crs_WAF.md",
     "Networking/Network_Optimization_Guidelines.md",
     "Virtual_Infrastructure/AWS/opensearch.md",
     "Virtual_Infrastructure/XCP-NG/XCP-ng_VM_Tools.md",
@@ -201,10 +205,6 @@
     "Applications/Server_Applications/Netbox.md",
     "Applications/Server_Applications/kubernetes/kubernetes-dns.md",
     "TV_Streaming_Devices/TV_and_Streaming_Devices_Home.md",
-    "Applications/Server_Applications/AI/AI_Home.md",
-    "Applications/Desktop_Applications/notepadplusplus.md",
-    "Applications/Desktop_Applications/markdown-crawler.md",
-    "Cyber_Security/Terminology/Malware.md",
     "Applications/Server_Applications/AI/GPT_Prompts",
     "Applications/Server_Applications/Ansible/Playbooks",
     "Cyber_Security/Terminology",

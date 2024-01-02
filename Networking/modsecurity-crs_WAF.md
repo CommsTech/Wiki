@@ -9,9 +9,9 @@ dateModified:
 ---
 # modsecurity-crs_WAF
 
- I used the modsecurity WAF which I setup in a docker node running behind the firewall based on https://github.com/jcmoraisjr/modsecurity-spoa.
+ I used the modsecurity WAF which I setup in a [[docker]] node running behind the firewall based on https://github.com/jcmoraisjr/modsecurity-spoa.
 
-The tricky part was using the pfSense GUI to configure the HAProxy frontend.
+The tricky part was using the pfSense GUI to configure the [[HAProxy]] frontend.
 
 [![ae0367c9-73e7-499e-949b-a28002ccff4b-image.png](https://forum.netgate.com/assets/uploads/files/1623680173334-ae0367c9-73e7-499e-949b-a28002ccff4b-image.png)](https://forum.netgate.com/assets/uploads/files/1623680173334-ae0367c9-73e7-499e-949b-a28002ccff4b-image.png)  
 Important to note here is the "dummy" frontend entry that is there only to ensure that the modsecurity spoe backend is included. The port 33780 is just an arbitrary choice which is never intended to be actually used.

@@ -1,5 +1,13 @@
+---
+title: 
+description: 
+dateCreated: 
+published: 
+editor: markdown
+tags: 
+dateModified: 
+---
 # How to install pfSense in a VM
-
 
 Today we'll go over installing and running pfSense as a VM in [XCP-ng](https://xcp-ng.org/?ref=xcp-ng.org). This will be the first in a series of articles helping you to get the most out of XCP-ng, the turnkey and open source hypervisor.
 

@@ -1,4 +1,13 @@
 ---
+title: 
+description: 
+dateCreated: 
+published: 
+editor: markdown
+tags: 
+dateModified: 
+---
+[[Phishing]][[Malware]]---
 title: pfBlockerNG
 description: pfBlockerNG Home
 dateCreated: 2022-09-09T04:44:01.149Z
@@ -8,6 +17,7 @@ tags: pfblockerNG
 dateModified: 
 ---
 # pfBlockerNG
+
 pfBlockerNG is created, designed, developed, supported and maintained by: BBcan177
 
 -   [http://pfblockerng.com/](http://pfblockerng.com/)
@@ -24,7 +34,6 @@ I have an extensive block list as you will see. you do not need to be as granula
 
 [![pfBlocker_1](https://user-images.githubusercontent.com/12887622/134786449-3e6b49d2-a18b-44e8-96d2-906dea00115f.JPG)](https://user-images.githubusercontent.com/12887622/134786449-3e6b49d2-a18b-44e8-96d2-906dea00115f.JPG)
 
-
 # [pfBlockerNG Guide by sunnyvalley](https://www.sunnyvalley.io/docs/network-security-tutorials/pfblockerng)
 
 `pfBlockerNG` is an excellent Free and Open Source package developed for pfSense® software that provides advertisement blocking and malicious content blocking, as well as geo-blocking capabilities.
@@ -33,7 +42,7 @@ By installing pfBlockerNG, you can not only block ads but also web tracking, mal
 
 TIP
 
-If you want to also add **Next Generation Firewall** capabilities to your **open source firewall**, check out [Zenarmor (previously Sensei)](https://www.sunnyvalley.io/product). Zenarmor is a plug-in that upgrades your open source firewall to a NGFW _in a matter of seconds_.
+If you want to also add **Next Generation [[Firewall]]** capabilities to your **open source firewall**, check out [Zenarmor (previously Sensei)](https://www.sunnyvalley.io/product). Zenarmor is a plug-in that upgrades your open source firewall to a NGFW _in a matter of seconds_.
 
 Some of the available features are: _[Application](https://www.sunnyvalley.io/docs/policies/application-control-rules)/[User based blocking](https://www.sunnyvalley.io/docs/guides/user-based-filtering-using-opnsense-captive-portal), [Web/Content Filtering](https://www.sunnyvalley.io/docs/policies/web-control-rules), Enterprise-grade Network Analytics, Policy-based filtering, Ad Blocking, Real-time [Cloud Threat Intelligence](https://www.sunnyvalley.io/docs/opnsense/configuring/cloud-threat-intelligence), [Active Directory Integration](https://www.sunnyvalley.io/docs/opnsense/configuring/ad-integration), Cloud-managed central policies_ and many more.
 
@@ -109,7 +118,7 @@ If you want a domain not to be blocked, pfBlockerNG allows you to add it to the 
 
 ### SafeSearch[​](https://www.sunnyvalley.io/docs/network-security-tutorials/pfblockerng#safesearch "Direct link to heading")
 
-SafeSearch can be configured for the most popular search engines. You can also use Firefox to block DNS over HTTPS and set YouTube restrictions.
+SafeSearch can be configured for the most popular search engines. You can also use [[Applications/Desktop_Applications/Browsers/Firefox|Firefox]] to block DNS over HTTPS and set YouTube restrictions.
 
 ## How to Install and Configure pfBlockerNG[​](https://www.sunnyvalley.io/docs/network-security-tutorials/pfblockerng#how-to-install-and-configure-pfblockerng "Direct link to heading")
 
@@ -232,7 +241,7 @@ Even if the firewall is not configured with open internet facing ports, local us
 
 In this section, we'll explain how to enable the IP feed (PRI1-PR5 groups) on pfBlockerNG and set up a firewall rule to prevent outbound traffic from accessing any addresses in that group.
 
-#### IP Configuration[​](https://www.sunnyvalley.io/docs/network-security-tutorials/pfblockerng#ip-configuration "Direct link to heading")
+### IP Configuration[​](https://www.sunnyvalley.io/docs/network-security-tutorials/pfblockerng#ip-configuration "Direct link to heading")
 
 You should navigate to the `Firewall`-> `pfBlockerNG ->` IP`and ensure the following settings on`IP Configuration` pane.
 
@@ -247,7 +256,7 @@ You should navigate to the `Firewall`-> `pfBlockerNG ->` IP`and ensure the fo
 
 5.  Click `Save IP Settings` button at the end of the page
 
-#### MaxMind GeoIP configuration[​](https://www.sunnyvalley.io/docs/network-security-tutorials/pfblockerng#maxmind-geoip-configuration "Direct link to heading")
+### MaxMind GeoIP configuration[​](https://www.sunnyvalley.io/docs/network-security-tutorials/pfblockerng#maxmind-geoip-configuration "Direct link to heading")
 
 With pfBlockerNG's GeoIP feature, you can filter traffic to and from entire countries or continents. pfBlockerNG accomplishes this by utilizing the MaxMind GeoIP database, which requires a license key. This license key is completely free. The MaxMind License Key field description includes a link to the MaxMind registration page.
 
@@ -279,7 +288,7 @@ Also, you may disable the MaxMind monthly CSV GeoIP database cron update.
 
 **Figure 19.** _MaxMind GeoIP configuration_
 
-#### IPv4 Suppression List[​](https://www.sunnyvalley.io/docs/network-security-tutorials/pfblockerng#ipv4-suppression-list "Direct link to heading")
+### IPv4 Suppression List[​](https://www.sunnyvalley.io/docs/network-security-tutorials/pfblockerng#ipv4-suppression-list "Direct link to heading")
 
 pfBlockerNG allows you to add the IP addresses (only for /32 or /24) that should never be blocked to the suppression list. You can add one IP address per line. You must run `Force Reload-IP` after manually adding an IP address to this list, for changes to take effect.
 
@@ -287,7 +296,7 @@ pfBlockerNG allows you to add the IP addresses (only for /32 or /24) that should
 
 **Figure 20.** _IPv4 Suppression list_
 
-#### IP Interface/Rules Configuration[​](https://www.sunnyvalley.io/docs/network-security-tutorials/pfblockerng#ip-interfacerules-configuration "Direct link to heading")
+### IP Interface/Rules Configuration[​](https://www.sunnyvalley.io/docs/network-security-tutorials/pfblockerng#ip-interfacerules-configuration "Direct link to heading")
 
 According to the settings in the `IP Interface/Rules Configuration` pane, pfBlockerNG defines firewall rules automatically. In this pane, you can specify which inbound and outbound interface(s) pfBlockerNG's IPv4, IPv6, and GeoIP filtering apply to. To determine the inbound and outbound interfaces you may follow the next instructions.
 
@@ -302,7 +311,7 @@ According to the settings in the `IP Interface/Rules Configuration` pane, pfBl
 
 **Figure 21.** _IP Interface/Rules Configuration on pfBlockerNG_
 
-### Enabling IPv4 Filtering[​](https://www.sunnyvalley.io/docs/network-security-tutorials/pfblockerng#enabling-ipv4-filtering "Direct link to heading")
+## Enabling IPv4 Filtering[​](https://www.sunnyvalley.io/docs/network-security-tutorials/pfblockerng#enabling-ipv4-filtering "Direct link to heading")
 
 On pfBlockerNG PRI1 feed is enabled by default. Feeds are publicly available blocklists that pfBlockerNG is configured to synchronize with on a regular basis. To view the list of enabled IPv4 feeds, navigate to the `Firewall` -> `pfBlockerNG` -> `IP` -> `IPv4`.
 
@@ -336,7 +345,7 @@ DNSBL
 
 **Table 1.** _Number of Feeds per Category Type_
 
-IPv4 Category feeds are divided into five groups(PRI1-5). These PRI groups are Known Ransomware, malware, botnets, Command & Control (C&C) servers, [bots](https://www.sunnyvalley.io/docs/network-security-tutorials/what-is-malware#8--bots), web scripts, [phishing](https://www.sunnyvalley.io/docs/network-security-tutorials/what-are-phishing-attacks) & compromised servers, malicious IP's found attacking SSH, SMTP, IMAP, TELNET, FTP endpoints and other known originators of malicious behavior. In general, the lower the number, the more pfBlockerNG tries to avoid false positives. Therefore you should be prepared for some websites to be unreachable unexpectedly if you enable the more restrictive lists (PRI3 and above). In such cases, some troubleshooting and possibly whitelisting of false positives will be required. There are also a variety of feed groups aimed at blocking specific types of malicious or undesirable traffic such as:
+IPv4 Category feeds are divided into five groups(PRI1-5). These PRI groups are Known [[Ransomware]], malware, botnets, Command & Control (C&C) servers, [bots](https://www.sunnyvalley.io/docs/network-security-tutorials/what-is-malware#8--bots), web scripts, [phishing](https://www.sunnyvalley.io/docs/network-security-tutorials/what-are-phishing-attacks) & compromised servers, malicious IP's found attacking SSH, SMTP, IMAP, TELNET, FTP endpoints and other known originators of malicious behavior. In general, the lower the number, the more pfBlockerNG tries to avoid false positives. Therefore you should be prepared for some websites to be unreachable unexpectedly if you enable the more restrictive lists (PRI3 and above). In such cases, some troubleshooting and possibly whitelisting of false positives will be required. There are also a variety of feed groups aimed at blocking specific types of malicious or undesirable traffic such as:
 
 -   Scanner (Internet Storm Center)
 -   Mail (Known sources of spam; useful for protecting mail servers)
@@ -388,7 +397,7 @@ You may enable IPv4 category PRI3 group feeds on your pfBlockerNG by following t
 
 You can follow the similar steps given above for enabling other PRI groups, IPv6 and DNS blocklists, just add the alias group, select the lists you want to enable, and choose the action to be taken when an item is matched. However, be aware that there is a memory and processing impact with each list enabled and you may overload your hardware.
 
-### Verifying IPv4 Filtering[​](https://www.sunnyvalley.io/docs/network-security-tutorials/pfblockerng#verifying-ipv4-filtering "Direct link to heading")
+## Verifying IPv4 Filtering[​](https://www.sunnyvalley.io/docs/network-security-tutorials/pfblockerng#verifying-ipv4-filtering "Direct link to heading")
 
 By following the given steps below you may verify IPv4 filtering on your pfBlockerNG. Before starting to test IPv4 filtering you should ensure that pfBlockerNG settings are updated. If it is not, you may Force Update by clicking on the `Run` button in the `Update Settings` under `Update` tab of the pfBlockerNG.
 
@@ -634,7 +643,7 @@ You may add your custom pfBlockerNG block web pages to `/usr/local/www/pfblocke
 
 **Figure 52.** _nslookup for dnsbltest.com returns VIP of DNSBL server on pfBlockerNG_
 
-##### Ad-Blocking Verification[​](https://www.sunnyvalley.io/docs/network-security-tutorials/pfblockerng#ad-blocking-verification "Direct link to heading")
+#### Ad-Blocking Verification[​](https://www.sunnyvalley.io/docs/network-security-tutorials/pfblockerng#ad-blocking-verification "Direct link to heading")
 
 To verify the ad-blocking feature of the pfBlockerNG, you may connect to the `yahoo.com` website on your favorite browser. You should see empty spaces in the place of advertisements on the page as given below.
 
@@ -717,13 +726,10 @@ When you need to whitelist something on pfBlockerNG, you can follow the next ste
 
 **Figure 60.** _Whitelisting completed successfully_
 
+### Notable Mentions
 
-
-
-#### Notable Mentions
 https://avoidthehack.com/best-pihole-blocklists
 
 https://zeltser.com/malicious-ip-blocklists/
-
 
 https://github.com/mmotti/pihole-regex/blob/master/regex.list
