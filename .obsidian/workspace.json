@@ -11,8 +11,13 @@
             "id": "e28e54cbdeaa7c5f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Commsnet_Wiki_Home.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Awesome",
+                "query": "Libresp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +74,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -89,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Commsnet_Wiki_Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Commsnet_Wiki_Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Commsnet_Wiki_Home.md"
+              }
             }
           },
           {
@@ -172,18 +182,18 @@
       "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obisidian-note-linker:Note Linker": false,
-      "copilot:Copilot Chat": false
+      "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "88c0f4a340a277ce",
+  "active": "e28e54cbdeaa7c5f",
   "lastOpenFiles": [
+    "Applications/Server_Applications/librespeed.md",
+    "Networking/SteelHead/Riverbed.md",
     "Privacy/Guide_to_Online_Anonymity.md",
     "Privacy/Awesome_Privacy_Tools.md",
     "Networking/Subnetting.md",
     "Operating_Systems/Quickemu.md",
     "Networking/SteelHead/Wireshark_Steelhead_Troubleshooting.md",
-    "Networking/SteelHead/Riverbed.md",
     "Applications/Desktop_Applications/Wireshark.md",
     "Networking/pfSense/Surricata/ET_Category_Descriptions.md",
     "Networking/Terminology/Modular_Design.md",
@@ -203,7 +213,6 @@
     "Virtual_Infrastructure/XCP-NG/XCP-NG_OS_UBUNTU_Disks.md",
     "Virtual_Infrastructure/XCP-NG/XCP-NG_on_ESXi.md",
     "Virtual_Infrastructure/XCP-NG/XCP-NG.md",
-    "WGU/C394.md",
     "Applications/Server_Applications/AI/GPT_Prompts",
     "Applications/Server_Applications/Ansible/Playbooks",
     "Cyber_Security/Terminology",
