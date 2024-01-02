@@ -47,6 +47,14 @@
   ],
   "obisidian-note-linker:open-note-linker-vault": [
     {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "F4"
+    }
+  ],
+  "obisidian-note-linker:open-note-linker-note": [
+    {
       "modifiers": [],
       "key": "F4"
     }

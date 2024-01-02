@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Terminology/High-Level_Signaling_Protocol_HLSP.md",
+                "file": "Cyber_Security/Terminology/Malware.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Terminology/High-Level_Signaling_Protocol_HLSP.md",
+                "file": "Cyber_Security/Terminology/Malware.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Terminology/High-Level_Signaling_Protocol_HLSP.md",
+                "file": "Cyber_Security/Terminology/Malware.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Terminology/High-Level_Signaling_Protocol_HLSP.md"
+                "file": "Cyber_Security/Terminology/Malware.md"
               }
             }
           },
@@ -192,6 +192,10 @@
   },
   "active": "81b69151463c744c",
   "lastOpenFiles": [
+    "Cyber_Security/Terminology/Bots_and_Zombies.md",
+    "Certifications/Certifications_Home.md",
+    "Certifications/Cisco/Cisco/Secure_Cloud_and _Network_Analytics.md",
+    "Networking/Terminology/High-Level_Signaling_Protocol_HLSP.md",
     "Certifications/Cisco/Cisco/CCNA.md",
     "Red_Team/Red_Team_Home.md",
     "Cyber_Security/Terminology/Worms.md",
@@ -206,7 +210,6 @@
     "Cyber_Security/Terminology/Ransomware.md",
     "Cyber_Security/Terminology/Phishing.md",
     "Cyber_Security/Terminology/Command_and_Control_Servers.md",
-    "Cyber_Security/Terminology/Bots_and_Zombies.md",
     "Cyber_Security/Terminology/Cryptojacking.md",
     "Cyber_Security/Terminology/Encryption.md",
     "Cyber_Security/Terminology/Firewall.md",
@@ -215,9 +218,6 @@
     "Cyber_Security/Terminology/Untitled.md",
     "Cyber_Security/Terminology/Honeypot.md",
     "Cyber_Security/Terminology/Denial_Of_Service_DOS.md",
-    "Cyber_Security/Terminology/Botnets.md",
-    "Cyber_Security/Terminology/Botmasters.md",
-    "Cyber_Security/Terminology/Backdoors.md",
     "Applications/Server_Applications/AI/GPT_Prompts",
     "Applications/Server_Applications/Ansible/Playbooks",
     "Cyber_Security/Terminology",
