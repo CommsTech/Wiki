@@ -38,10 +38,3 @@ Detecting and mitigating botmasters is crucial for preventing the spread of botn
 
 1. **Network Traffic Analysis**: Monitoring network traffic for unusual patterns or communication with known botnet C&C servers can help identify potential threats.
 2. **Blacklists**: Maintaining a list of known botmaster IP addresses and domains can aid in blocking their
-
- Sources: 
-
-1. Network_Optimization_Guidelines.md (page -)
-
-
-2. Obsidian.md (page -)

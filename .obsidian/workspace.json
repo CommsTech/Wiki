@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red_Team/Red_Team_Home.md",
+                "file": "Others/Google_Search_Operators.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red_Team/Red_Team_Home.md",
+                "file": "Others/Google_Search_Operators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red_Team/Red_Team_Home.md",
+                "file": "Others/Google_Search_Operators.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red_Team/Red_Team_Home.md"
+                "file": "Others/Google_Search_Operators.md"
               }
             }
           },
@@ -191,14 +191,16 @@
   },
   "active": "81b69151463c744c",
   "lastOpenFiles": [
-    "Cyber_Security/Terminology/Advanced_Persistent_Threats_APT.md",
+    "Cyber_Security/Terminology/Adware.md",
+    "Cyber_Security/Terminology/Botmasters.md",
     "Cyber_Security/Terminology/Command_and_Control_Servers.md",
+    "Cyber_Security/Terminology/Bots_and_Zombies.md",
+    "Cyber_Security/Terminology/Botnets.md",
+    "Cyber_Security/Terminology/Advanced_Persistent_Threats_APT.md",
+    "Red_Team/Red_Team_Home.md",
     "Cyber_Security/Terms.md",
     "Others/Google_Search_Operators.md",
     "Others/Hacking_Resources.md",
-    "Cyber_Security/Terminology/Botmasters.md",
-    "Cyber_Security/Terminology/Botnets.md",
-    "Cyber_Security/Terminology/Bots_and_Zombies.md",
     "Applications/Server_Applications/AI/GPT_Prompts/want_and_need.md",
     "Applications/Server_Applications/AI/GPT_Prompts/thesaurus.md",
     "Applications/Server_Applications/AI/GPT_Prompts/systematic_word_finder.md",
@@ -215,8 +217,6 @@
     "Applications/Server_Applications/AI/GPT_Prompts/emotional_investigation.md",
     "Applications/Server_Applications/AI/GPT_Prompts/diplomatic_email.md",
     "Applications/Server_Applications/AI/GPT_Prompts/default_instructions.md",
-    "Applications/Server_Applications/AI/GPT_Prompts/creative_writing_partner.md",
-    "Applications/Server_Applications/AI/GPT_Prompts/chatgpt_SYSTEM_prompt_writer.md",
     "Applications/Server_Applications/AI/GPT_Prompts",
     "Applications/Server_Applications/Ansible/Playbooks",
     "Cyber_Security/Terminology",
