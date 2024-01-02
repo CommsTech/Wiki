@@ -1,4 +1,13 @@
 ---
+title: 
+description: 
+dateCreated: 
+published: 
+editor: markdown
+tags: 
+dateModified: 
+---
+[[FOSS]]---
 title: Awesome Privacy Tools
 description: 
 dateCreated: date created
@@ -209,7 +218,7 @@ Awesome Privacy's Tools
 
 * [Firefox](https://www.mozilla.org/en-US/firefox/) – An open source web browser that respects your privacy ([see here](https://www.privacytools.io/browsers/#about_config) to harden it).
 
-* [Tor Browser](https://www.torproject.org) – A modified version of Firefox ESR with privacy add-ons, encryption, and an advanced proxy.
+* [Tor Browser](https://www.torproject.org) – A modified version of [[Applications/Desktop_Applications/Browsers/Firefox|Firefox]] ESR with privacy add-ons, encryption, and an advanced proxy.
 
 * [Ungoogled Chromium](https://github.com/Eloston/ungoogled-chromium) – Chromium without its built-in Google services or background processes.
 
@@ -351,7 +360,7 @@ Awesome Privacy's Tools
 
 * [Fedora Workstation](https://getfedora.org/en/workstation) – A reliable, user-friendly, and powerful operating system.
 
-* [Linux Mint](https://linuxmint.com) – A modern, elegant and easy to use Linux distribution based on Ubuntu.
+* [Linux Mint](https://linuxmint.com) – A modern, elegant and easy to use Linux distribution based on [[Ubuntu]].
 
 * [Manjaro](https://manjaro.org) – An accessible, friendly, open-source operating system.
 
@@ -475,7 +484,7 @@ Awesome Privacy's Tools
 
 — Clients
 
-* [Barinsta](https://barinsta.austinhuang.me) – An open source, and privacy-friendly alternative Instagram client for Android.
+* [Barinsta](https://barinsta.austinhuang.me) – An open source, and privacy-friendly alternative [[Instagram]] client for Android.
 
 * [Bibliogram](https://bibliogram.art) – A fast, private and ad-free Instagram front-end.
 
@@ -643,7 +652,7 @@ Awesome Privacy's Tools
 
 * [Simple Calendar](https://www.simplemobiletools.com/calendar/) – A flexible calendar with many event related options.
 
-* [Nextcloud Calendar](https://apps.nextcloud.com/apps/calendar) – A user interface for Nextcloud's CalDAV server.
+* [Nextcloud Calendar](https://apps.nextcloud.com/apps/calendar) – A user interface for [[Nextcloud]]'s CalDAV server.
 
 * [KOrganizer](https://apps.kde.org/en/korganizer) – The calendar and scheduling component of Kontact.
 
@@ -815,7 +824,7 @@ Awesome Privacy's Tools
 
 * [Git](https://git-scm.com) – A free and open source distributed version control system.
 
-* [GitLab](https://about.gitlab.com) – A web-based git repository management with wiki, code reviews, issue-tracking…
+* [GitLab](https://about.gitlab.com) – A web-based [[git]] repository management with wiki, code reviews, issue-tracking…
 
 * [Gogs](https://gogs.io) – A painless self-hosted Git service written in Go.
 

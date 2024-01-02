@@ -27,7 +27,7 @@ I’d recommend using their website to find packages to install, but make sure t
 
 [https://search.nixos.org/packages](https://search.nixos.org/packages)
 
-Or from terminal you can list all packages with `nix-env -qaP` then just grep what you are looking for. Example: `nix-env -qaP | grep hugo`
+Or from terminal you can list all packages with `nix-env -qaP` then just [[grep]] what you are looking for. Example: `nix-env -qaP | grep hugo`
 
 ## Usage
 

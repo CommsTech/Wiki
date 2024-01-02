@@ -15,7 +15,7 @@ dateModified:
 
 **POV:** You’re a sysadmin who set up a one-off Linux machine for an app you needed, and now it’s out of disk space.
 
-You originally spun up a VM, installed a recent Ubuntu OS, and just hit _Next, Next, Finish_ through the guided install. Linux is not your bread and butter, you usually deal in Windows, and you just need to get this done.
+You originally spun up a VM, installed a recent [[Ubuntu]] OS, and just hit _Next, Next, Finish_ through the guided install. Linux is not your bread and butter, you usually deal in Windows, and you just need to get this done.
 
 **Approx Reading Time:** 10 minutes
 

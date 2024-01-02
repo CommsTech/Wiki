@@ -9,5 +9,7 @@
   "find-unlinked-files",
   "obsidian-linter",
   "obisidian-note-linker",
-  "persistent-links"
+  "persistent-links",
+  "obsidian-auto-link-title",
+  "copilot"
 ]

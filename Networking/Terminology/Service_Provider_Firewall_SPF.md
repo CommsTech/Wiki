@@ -14,7 +14,7 @@ dateModified:
 ---
 # Service Provider Firewall (SPF)
 
-A **Service Provider Firewall (SPF)** is a security solution designed specifically for use in service provider networks to protect their infrastructure and customers from various cyber threats. SPFs provide advanced security features beyond traditional firewalls, such as:
+A **Service Provider [[Firewall]] (SPF)** is a security solution designed specifically for use in service provider networks to protect their infrastructure and customers from various cyber threats. SPFs provide advanced security features beyond traditional firewalls, such as:
 
 1. Stateful inspection: Analyzing the context of network connections and maintaining state information about active sessions.
 2. Deep packet inspection: Examining the data payload of packets to identify malicious traffic.

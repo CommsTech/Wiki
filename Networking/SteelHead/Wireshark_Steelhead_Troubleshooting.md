@@ -9,7 +9,7 @@ dateModified:
 ---
 # Wireshark Troubleshooting: SteelHead Connection Issues
 
-This document provides guidance on troubleshooting SteelHead connection issues using Wireshark. If the Lock icon is not visible or dimmed, or if there's a red protocol error, follow these steps to resolve the issue.
+This document provides guidance on troubleshooting SteelHead connection issues using [[Wireshark]]. If the Lock icon is not visible or dimmed, or if there's a red protocol error, follow these steps to resolve the issue.
 
 ## Table of Contents
 1. [Viewing Connection History Reports](#connection-history)

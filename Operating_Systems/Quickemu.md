@@ -21,7 +21,7 @@ Dependency requirements:
 sudo apt install qemu bash coreutils ovmf grep jq lsb procps python3 genisoimage usbutils util-linux sed spice-client-gtk swtpm wget xdg-user-dirs zsync unzip
 ```
 
-Install for Ubuntu
+Install for [[Ubuntu]]
 
 ```
 sudo apt-add-repository ppa:flexiondotorg/quickemu
