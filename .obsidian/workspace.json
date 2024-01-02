@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Army/Cyber_Awareness_Training.md",
+                "file": "AI/Harnessing_RAG_for_Text.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Army/Cyber_Awareness_Training.md",
+                "file": "AI/Harnessing_RAG_for_Text.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Army/Cyber_Awareness_Training.md",
+                "file": "AI/Harnessing_RAG_for_Text.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Army/Cyber_Awareness_Training.md"
+                "file": "AI/Harnessing_RAG_for_Text.md"
               }
             }
           },
@@ -194,8 +194,9 @@
   },
   "active": "262137e2d8490059",
   "lastOpenFiles": [
-    "Army/ArmyLinks.md",
+    "AI/AI_Home.md",
     "Army/Cyber_Awareness_Training.md",
+    "Army/ArmyLinks.md",
     "Virtual_Infrastructure/Virtual_Infrastructure_Home.md",
     "Virtual_Infrastructure/esxi7_to_xcp-ng.md",
     "Virtual_Infrastructure/XCP-NG/XCP-NG.md",
@@ -209,7 +210,6 @@
     "AI/RAG_Formatting_and_Information.md",
     "AI/RAG_Concepts_and_LangChain.md",
     "AI/GPT_Prompts/want_and_need.md",
-    "AI/AI_Home.md",
     "AI/GPT_Prompts/thesaurus.md",
     "AI/GPT_Prompts/systematic_word_finder.md",
     "AI/GPT_Prompts/slide_deck_maker.md",
