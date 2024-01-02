@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/Gluetun.md",
+                "file": "Army/Cyber_Awareness_Training.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "gluetun",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/Gluetun.md",
+                "file": "Army/Cyber_Awareness_Training.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/Gluetun.md",
+                "file": "Army/Cyber_Awareness_Training.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/Gluetun.md"
+                "file": "Army/Cyber_Awareness_Training.md"
               }
             }
           },
@@ -195,6 +194,18 @@
   },
   "active": "262137e2d8490059",
   "lastOpenFiles": [
+    "Army/ArmyLinks.md",
+    "Army/Cyber_Awareness_Training.md",
+    "Virtual_Infrastructure/Virtual_Infrastructure_Home.md",
+    "Virtual_Infrastructure/esxi7_to_xcp-ng.md",
+    "Virtual_Infrastructure/XCP-NG/XCP-NG.md",
+    "Hardware/Tablets/Dell_Venue_11_Pro.md",
+    "Applications/Server_Applications/ntfy.md",
+    "assets/documents/security-guidance-v4-final-feb27-18.pdf",
+    "assets/documents/Cloud+_CV0-002_objectives.pdf",
+    "assets/documents/AWS-Certified-SysOps-Administrator-Associate_Sample-Questions.pdf",
+    "assets/documents/database_management_-_c175.pdf",
+    "Applications/Server_Applications/Gluetun.md",
     "AI/RAG_Formatting_and_Information.md",
     "AI/RAG_Concepts_and_LangChain.md",
     "AI/GPT_Prompts/want_and_need.md",
@@ -213,24 +224,12 @@
     "AI/GPT_Prompts/creative_writing_partner.md",
     "AI/GPT_Prompts/chatgpt_SYSTEM_prompt_writer.md",
     "AI/GPT_Prompts/chapter_plotter_fiction.md",
-    "AI/GPT_Prompts/anxiety_teacher.md",
-    "AI/GPT_Prompts/AI_Chat_Preload_Test.md",
-    "AI/GPT_Prompts/academic_copy_reviser.md",
-    "AI/Harnessing_RAG_for_Text.md",
-    "AI/How_to_Make_AI_Undetectable.md",
-    "AI/PrivateGPT.md",
-    "AI/Building_RAG.md",
-    "AI/PrivateGPT_in_OSINT.md",
     "AI/GPT_Prompts",
     "Applications/Server_Applications/Ansible/Playbooks",
     "Cyber_Security/Terminology",
     "Cyber_Security",
     "Virtual_Infrastructure/XCP-NG",
     "Networking/SteelHead",
-    "Networking/DNS",
-    "New Text Document.txt",
-    "Privacy/OSINT",
-    "AI",
     "assets/images/Pasted image 20230923143719.png",
     "assets/images/Pasted image 20231130184644.png",
     "assets/images/Pasted image 20230923143931.png",

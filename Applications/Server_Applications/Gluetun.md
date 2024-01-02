@@ -83,8 +83,6 @@ Easiest way to verify after it deploys (the app will fail if your credentials do
 
 ![VPN Gluetun 2](https://docs.dasnipe.com/assets/images/Gluetun-VPN3-7db287e39e37ef0d7a2fef40489cfb6a.png)
 
-
-
 ## ProtonVPN Info
 
 # ProtonVPN
