@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cyber_Security/Terminology/Advanced_Persistent_Threats_APT.md",
+                "file": "Red_Team/Red_Team_Home.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cyber_Security/Terminology/Advanced_Persistent_Threats_APT.md",
+                "file": "Red_Team/Red_Team_Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cyber_Security/Terminology/Advanced_Persistent_Threats_APT.md",
+                "file": "Red_Team/Red_Team_Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cyber_Security/Terminology/Advanced_Persistent_Threats_APT.md"
+                "file": "Red_Team/Red_Team_Home.md"
               }
             }
           },
@@ -191,8 +191,8 @@
   },
   "active": "81b69151463c744c",
   "lastOpenFiles": [
-    "Cyber_Security/Terminology/Command_and_Control_Servers.md",
     "Cyber_Security/Terminology/Advanced_Persistent_Threats_APT.md",
+    "Cyber_Security/Terminology/Command_and_Control_Servers.md",
     "Cyber_Security/Terms.md",
     "Others/Google_Search_Operators.md",
     "Others/Hacking_Resources.md",
