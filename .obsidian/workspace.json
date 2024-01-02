@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "994acf2e980b722e",
+        "id": "9cfdadbf3255993f",
         "type": "tabs",
         "children": [
           {
-            "id": "e28e54cbdeaa7c5f",
+            "id": "262137e2d8490059",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Commsnet_Wiki_Home.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -74,8 +69,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -95,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Commsnet_Wiki_Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Commsnet_Wiki_Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Commsnet_Wiki_Home.md"
-              }
+              "state": {}
             }
           },
           {
@@ -185,8 +175,10 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "e28e54cbdeaa7c5f",
+  "active": "88c0f4a340a277ce",
   "lastOpenFiles": [
+    "Applications/Web_Applications/Plex_Web_Client_Settings.md",
+    "Commsnet_Wiki_Home.md",
     "Applications/Server_Applications/librespeed.md",
     "Networking/SteelHead/Riverbed.md",
     "Privacy/Guide_to_Online_Anonymity.md",
@@ -211,8 +203,6 @@
     "Virtual_Infrastructure/AWS/opensearch.md",
     "Virtual_Infrastructure/XCP-NG/XCP-ng_VM_Tools.md",
     "Virtual_Infrastructure/XCP-NG/XCP-NG_OS_UBUNTU_Disks.md",
-    "Virtual_Infrastructure/XCP-NG/XCP-NG_on_ESXi.md",
-    "Virtual_Infrastructure/XCP-NG/XCP-NG.md",
     "Applications/Server_Applications/AI/GPT_Prompts",
     "Applications/Server_Applications/Ansible/Playbooks",
     "Cyber_Security/Terminology",
