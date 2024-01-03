@@ -26,3 +26,19 @@ Apologies for the truncation in my previous response. Here's the continuation of
 | Palantir         | Threat detection and situational awareness                | Paid      | [www.palantir.com](http://www.palantir.com)       |
 | SymphonyAI       | Threat detection and situational awareness                | Paid      | [www.symphonyai.com](http://www.symphonyai.com)     |
 | Recorded Future   | Threat intelligence and prediction                        | Paid      | [www.recordedfuture.com](https://www.recordedfuture.com
+Apologies for any confusion earlier. Here's the continuation of the chart with the remaining AI tools from the context:
+
+| AI Tool          | Description                                                   | Free/Paid | Website                                             |
+|------------------|---------------------------------------------------------------|-----------|----------------------------------------------------|
+| DetectorThreat   | Threat detection and situational awareness                | No pricing | [contentatscale.ai](https://nocontentatscale.ai)    |
+| Palantir         | Threat detection and situational awareness                | Paid      | [www.palantir.com](http://www.palantir.com)       |
+| SymphonyAI       | Threat detection and situational awareness                | Paid      | [www.symphonyai.com](http://www.symphonyai.com)     |
+| Recorded Future   | Threat intelligence and prediction                        | Paid      | [www.recordedfuture.com](https://www.recordedfuture.com)  |
+| FireEye          | Threat detection and response                            | Paid      | [www.fireeye.com](http://www.fireeye.com)         |
+| Perplexity       | NLP model for text generation                            | Free      | [perplexity.ai](https://www.perplexity.ai/)        |
+| Midjourney       | AI-assisted content creation                             | Paid      | [www.midjourney.com/](http://www.midjourney.com/)   |
+| AskSage          | NLP model for text generation                            | Free      | asksage.ai                                         |
+| Studio D ID       | AI-assisted content creation                             | Paid      | [studio.d-id.com/editor](https://studio.d-id.com/editor) |
+| Dante            | Chatbot for generating text                              | Free      | [chat.dante-ai.com](https://chat.dante-ai.com/)    |
+| Claude           | AI model for text generation                             | Paid      | [claude.ai/chats](https://claude.ai/chats)         |
+| Bard             | Text generation and response                
