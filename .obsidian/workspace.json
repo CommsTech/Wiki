@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/BGP_Troubleshooting_Guide.md",
+                "file": "Networking/Troubleshooting.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/BGP_Troubleshooting_Guide.md",
+                "file": "Networking/Troubleshooting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/BGP_Troubleshooting_Guide.md",
+                "file": "Networking/Troubleshooting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/BGP_Troubleshooting_Guide.md"
+                "file": "Networking/Troubleshooting.md"
               }
             }
           },
@@ -194,8 +194,9 @@
   },
   "active": "262137e2d8490059",
   "lastOpenFiles": [
-    "Networking/OSPF_Troubleshooting_Guide.md",
+    "Networking/create-dkim-keypair.md",
     "Networking/BGP_Troubleshooting_Guide.md",
+    "Networking/OSPF_Troubleshooting_Guide.md",
     "Networking/Troubleshooting.md",
     "Networking/Networking_Home.md",
     "AI/Harnessing_RAG_for_Text.md",
@@ -223,7 +224,6 @@
     "AI/GPT_Prompts/nonfiction_chapter_feedback.md",
     "AI/GPT_Prompts/scottish_barkeep.md",
     "AI/GPT_Prompts/nonfiction_chapter_aid.md",
-    "AI/GPT_Prompts/librarian.md",
     "AI/GPT_Prompts",
     "Applications/Server_Applications/Ansible/Playbooks",
     "Cyber_Security/Terminology",

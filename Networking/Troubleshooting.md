@@ -9,7 +9,7 @@ dateModified:
 ---
 # Troubleshooting
 
-Heres a list of a few tools i utilize to troubleshoot my connections and website access.
+Heres a list of a few tools I utilize to troubleshoot my connections and website access.
 
 - TCPView
 	- https://docs.microsoft.com/en-us/sysinternals/downloads/tcpview
