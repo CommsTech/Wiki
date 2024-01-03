@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Untitled.md",
+                "file": "Networking/BGP_Troubleshooting_Guide.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Untitled.md",
+                "file": "Networking/BGP_Troubleshooting_Guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Untitled.md",
+                "file": "Networking/BGP_Troubleshooting_Guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Untitled.md"
+                "file": "Networking/BGP_Troubleshooting_Guide.md"
               }
             }
           },
@@ -195,7 +195,7 @@
   "active": "262137e2d8490059",
   "lastOpenFiles": [
     "Networking/OSPF_Troubleshooting_Guide.md",
-    "Networking/Untitled.md",
+    "Networking/BGP_Troubleshooting_Guide.md",
     "Networking/Troubleshooting.md",
     "Networking/Networking_Home.md",
     "AI/Harnessing_RAG_for_Text.md",
