@@ -5,13 +5,13 @@ dateCreated:
 published: 
 editor: markdown
 tags: 
-dateModified:
+dateModified: 
 ---
 # OSPF Troubleshooting Guide
 
-## Description:
-Open Shortest Path First (OSPF) is a popular routing protocol used to exchange routing information between routers in an IP network. However, even with its robust design, issues can still arise that require troubleshooting. In this OSPF Troubleshooting Guide, we'll cover common problems and their solutions to help you quickly identify and resolve OSPF-related issues in your network.
+## Description
 
+Open Shortest Path First (OSPF) is a popular routing protocol used to exchange routing information between routers in an IP network. However, even with its robust design, issues can still arise that require troubleshooting. In this OSPF [[Troubleshooting]] Guide, we'll cover common problems and their solutions to help you quickly identify and resolve OSPF-related issues in your network.
 
 Table of Contents:
 ------------------
@@ -79,6 +79,10 @@ Table of Contents:
 	- Juniper Networks OSPF Troubleshooting Guide
 	- RFC 2328 - OSPF Version 2 Specification.
 
-By following this OSPF Troubleshooting Guide,
+By following this OSPF Troubleshooting Guide, you'll be able to identify and resolve common issues related to Open Shortest Path First (OSPF) routing protocol in your network. For further information and troubleshooting, refer to the following resources:
 
+- Cisco OSPF Troubleshooting Guide: This comprehensive guide from Cisco provides detailed steps for diagnosing and resolving OSPF issues on their networking equipment.
+- Juniper Networks OSPF Troubleshooting Guide: This guide from Juniper Networks covers common OSPF problems and solutions specific to their devices, making it an invaluable resource for Juniper users.
+- RFC 2328 - OSPF Version 2 Specification: The official specification of the Open Shortest Path First protocol provides a deep understanding of its inner workings and can be used as a reference when troubleshooting complex issues.
 
+By utilizing these resources, you'll have a solid foundation for diagnosing and resolving OSPF-related problems in your network, ensuring optimal performance and reliability.
