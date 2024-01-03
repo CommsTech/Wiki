@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Harnessing_RAG_for_Text.md",
+                "file": "Networking/OSPF_Troubleshooting_Guide.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/Harnessing_RAG_for_Text.md",
+                "file": "Networking/OSPF_Troubleshooting_Guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/Harnessing_RAG_for_Text.md",
+                "file": "Networking/OSPF_Troubleshooting_Guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/Harnessing_RAG_for_Text.md"
+                "file": "Networking/OSPF_Troubleshooting_Guide.md"
               }
             }
           },
@@ -194,6 +194,9 @@
   },
   "active": "262137e2d8490059",
   "lastOpenFiles": [
+    "Networking/Networking_Home.md",
+    "Networking/OSPF_Troubleshooting_Guide.md",
+    "AI/Harnessing_RAG_for_Text.md",
     "AI/AI_Home.md",
     "Army/Cyber_Awareness_Training.md",
     "Army/ArmyLinks.md",
@@ -221,9 +224,6 @@
     "AI/GPT_Prompts/librarian.md",
     "AI/GPT_Prompts/emotional_investigation.md",
     "AI/GPT_Prompts/default_instructions.md",
-    "AI/GPT_Prompts/creative_writing_partner.md",
-    "AI/GPT_Prompts/chatgpt_SYSTEM_prompt_writer.md",
-    "AI/GPT_Prompts/chapter_plotter_fiction.md",
     "AI/GPT_Prompts",
     "Applications/Server_Applications/Ansible/Playbooks",
     "Cyber_Security/Terminology",
