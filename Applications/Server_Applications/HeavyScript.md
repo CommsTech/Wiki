@@ -20,8 +20,7 @@ HeavyScript is a script created by Heavy, with the idea of being modular, it inc
 
 **DISCLAIMER TrueCharts now recommends the TRUETOOL script instead of the HeavyScript tool
 
-
-### Why This Script?
+## Why This Script?
 
 Some other scripts are derived from this one, a lot of my logic, a lot of my regex etc.
 
@@ -29,7 +28,7 @@ So I do not see the point in using someone else's script when you can get the la
 
 > However, it would be unfair to say that I came up with this all on my own, I did not, some of the ideas were taken from other projects, I just would like to _think_ I implemented them better, but I guess that's up to you to decide
 
-#### Focuses
+### Focuses
 
 - Stability
 > Everything is tested first on my Virtual Machine(running nightlies), then tested on my main server, and then finally after a while it is pushed to main, for everyone.
@@ -39,10 +38,9 @@ So I do not see the point in using someone else's script when you can get the la
 >> Self script updates are optional, Rolling back applications is optional, etc
 
 
-## The Menu
+# The Menu
 
 The menu is a nice shortcut to any HeavyScript utilities you could need
-
 
 ![!Menu: Overview](images/menu_overview.png)
 
@@ -75,7 +73,7 @@ All of the options do just what you would expect
 <br >
 <br >
 
-## Listing DNS Names
+# Listing DNS Names
 
 This is useful for when you cannot figure out the internal DNS, and port that you need to use when linking applications together
 
@@ -100,7 +98,7 @@ bash heavy_script.sh
 <br >
 <br >
 
-## Mounting PVC
+# Mounting PVC
 
 Finally, an easy to use mounting feature, so you don't have to do that long process yourself
 
@@ -111,6 +109,7 @@ If you don't know, lots of applications use containerized storage, which is unac
 The first menu appears like this:
 
 ![!Mount Overview](images/mount1.png)
+
 > If you choose `1`, it will list all of your applications, and their volumes as shown below
 
 > If you choose `2`, it will unmount ALL of the volumes that were mounted with the script
@@ -120,6 +119,7 @@ The first menu appears like this:
 And the second menu:
 
 ![!Mount Overview](images/mount2.png)
+
 > Type the number associated with the volume you wish to mount, it will:
 >> 1. Shutdown that application
 >> 2. Mount it under `/mnt/heavyscript/`
@@ -127,6 +127,7 @@ And the second menu:
 <br >
 
 To unmount, simply open the menu again and choose option 2 to unmount everything
+
 > You NEED to do this before attempting to start the application
 
 __Get to this by either using __
@@ -146,17 +147,17 @@ bash heavy_script.sh
 <br >
 
 
-## Restoring Backup
+# Restoring Backup
 
 This is useful for when you absolutely destroyed all of your applications, or messed up your kubernetes cluster
 
 ![!Restore: Overview](images/restore.png)
+
 > Lists out each backup from newest to oldest
 
 > After selecting a backup by typing the number to the left of it and pressing enter, HeavyScript will prompt you to confirm your decision before actually restoring that backup
 
 This process takes a long time, so just be patient
-
 
 __Get to this by either using __
 
@@ -173,10 +174,9 @@ bash heavy_script.sh
 <br >
 <br >
 
-## Deleting Backup
+# Deleting Backup
 
 This is useful for when you need to delete backups one by one, from other scripts, or if you simply just have too many backups
-
 
 ![!Delete: Overview](images/delete.png)
 
@@ -199,7 +199,7 @@ bash heavy_script.sh
 <br >
 <br >
 
-## Updating Applications
+# Updating Applications
 
 This is something I am very proud of, it allows you to create a `bash heavy_script.sh` update with interactive options
 
@@ -208,6 +208,7 @@ This is something I am very proud of, it allows you to create a `bash heavy_scri
 The first Menu:
 
 ![!Update: Overview](images/update1.png)
+
 > Type the number associated with the option you want
 
 <br >
@@ -215,6 +216,7 @@ The first Menu:
 It will then ask how many applications you would like to update at once 
 
 ![!Update: Overview](images/update2.png)
+
 > Type a number greater than 0
 
 <br >
@@ -222,6 +224,7 @@ It will then ask how many applications you would like to update at once
 Finally, you can make your selections
 
 ![!Update: Overview](images/update3.png)
+
 > After you make a selection, it will appear under `Current Choices`
 
 > After you finish up, you can type `00` and the update with your options will begin!
@@ -237,28 +240,38 @@ bash heavy_script.sh
 ```
 
 
-#### Flag Table
-
+## Flag Table
 
 | Flag 	| Example                	| Parameter       	| Description                                                                                                                                                                                                                	|
+
 |------	|------------------------	|-----------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
+
 | -U   	| -U <br>-U 5            	| None or Integer 	| Update applications, ignoring major version changes<br>_Optionally, you can supply a number after the argument to update multiple applications at once_                                                                    	|
+
 | -u   	| -u<br>-u 5             	| None or Integer 	| Update applications, do NOT update if there was a major version change<br>_Optionally, you can supply a number after the argument to update multiple applications at once_                                                 	|
+
 | -b   	| -b 14                  	| Integer         	| Backup `ix-appliactions` dataset<br>_Creates backups up to the number you've chosen_                                                                                                                                       	|
+
 | -i   	| -i nextcloud -i sonarr 	| String          	| Applications listed will be ignored during updating<br>_List one application after another as shown in the example_                                                                                                        	|
+
 | -r   	| -r                     	| None            	| Monitors applications after they update<br>If the app does not become "ACTIVE" after either:<br>The custom Timeout, or Default Timeout,<br>rollback the application.                                                       	|
+
 | -v   	| -v                     	| None            	| Verbose Output<br>_Look at the bottom of this page for an example_                                                                                                                                                         	|
+
 | -S   	| -S                     	| None            	| Shutdown the application prior to updating it                                                                                                                                                                              	|
+
 | -t   	| -t 150                 	| Integer         	| Set a custom timeout to be used with either:<br>`-m` <br>_Time the script will wait for application to be "STOPPED"_<br>or<br>`-(u\|U)` <br>_Time the script will wait for application to be either "STOPPED" or "ACTIVE"_ 	|
+
 | -s   	| -s                     	| None            	| Sync Catalogs prior to updating                                                                                                                                                                                            	|
+
 | -p   	| -p                     	| None            	| Prune old/unused docker images                                                                                                                                                                                             	|
 
 <br >
 <br >
 
-## Further Explanation
+# Further Explanation
 
-### Update Options
+# Update Options
 
 There are two options for updating
 
@@ -267,6 +280,7 @@ There are two options for updating
 ```
 
 This option does not care about major version changes, and will update even if there is one
+
 > A major version change example:
 >> `3.14.2` ---> `4.14.2` 
 
@@ -277,12 +291,13 @@ This option does not care about major version changes, and will update even if t
 ```
 
 This option will NOT update if there was a major version change
+
 > `3.14.2` ---> `4.14.2` 
 >> In this case, this application would NOT update, this is useful because a lot of the time, major version changes include breaking changes
 
 <br >
 
-#### Asynchronous Updates
+## Asynchronous Updates
 
 Both of the update options have the ability to update multiple applications at one time
 
@@ -321,7 +336,7 @@ or
 <br >
 <br >
 
-### Backing Up
+# Backing Up
 
 This does NOT backup individual applications (this is already taken care of when updating your app, a snapshot is taken, this is what allows you to rollback applications)
 
@@ -339,21 +354,24 @@ You can backup your dataset prior to updating by:
 > You can use any whole number after `-b` besides 0
 
 The number you choose is the __MAXIMUM__ number of `HeavyScript` backups that will be on your system
+
 > It is important to not have this number be so high, if you have too many backups your system will slow down
 
 <br >
 
 Any number of backups that EXCEEDS the number you choose will be deleted
+
 > If you started with 18 backups, and run `-b 14`, the 5 oldest backups will be deleted, because they exceed 14
 
 <br >
 <br >
 
-### Ignoring
+# Ignoring
 
 If you have an application that seems to break after every update, add it to the ignore list
 
 Adding an application to the ignore list will completely ignore it when it comes to updating, neither `-u` or `-U` will update that application
+
 > Just make sure you spell it right, capitalization does not matter however. 
 
 <br >
@@ -373,7 +391,7 @@ _Note: The name you type after `-i` is the exact name YOU gave the application w
 <br >
 <br >
 
-### Rolling Back
+# Rolling Back
 
 This is by far one of my favorite features, especially since a lot of the updates that have been pushed lately seem to fail, this has saved me a ton of time
 
@@ -384,19 +402,20 @@ This is by far one of my favorite features, especially since a lot of the update
 Will rollback an application to its previous version if it does not become active after your timeout
 
 Example:
+
 > Nextcloud is going from `3.1.14` to `3.1.15`, it fails to come back up for whatever reason, it will be rolled back to `3.1.14`
 
 <br >
 <br >
 
-### Verbose
+# Verbose
 
 Sounds just as it is, it will produce more of an output when updating apps
 
 <br >
 <br >
 
-### Shutdown Before Update
+# Shutdown Before Update
 
 This will shutdown the individual application before it sends it the update command
 
@@ -407,13 +426,14 @@ Some people think this is a safer way to update applications, so I have it as an
 ```
 
 Example:
+
 > Jackett has an update, it is `active`, before updating Jackett the script will send it the shutdown command and wait for it to be fully `stopped` before continuing with the update
 
 
 <br >
 <br >
 
-### Timeout
+# Timeout
 
 This is used in two places in the script
 
@@ -425,6 +445,7 @@ This is used in two places in the script
 <br >
 
 Example:
+
 ```
 -t 400
 ```
@@ -437,9 +458,10 @@ Example:
 <br >
 <br >
 
-### Sync
+# Sync
 
 This just syncs the catalog prior to updating
+
 > Syncing the catalog will ensure the latest application versions are being pulled down from the repository
 
 
@@ -447,15 +469,17 @@ This just syncs the catalog prior to updating
 <br >
 
 
-### Prune
+# Prune
 
 Prunes Old/Unused docker images
+
 > If this is not done regularly, you can waste a lot of space with old images
 
 
 <br >
 
-### Source Code
+# Source Code
+
 The source code is, and always will be free and open source
 
 [Github Link](https://github.com/Heavybullets8/heavy_script)

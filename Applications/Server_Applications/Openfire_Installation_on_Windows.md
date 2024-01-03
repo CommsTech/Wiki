@@ -1,5 +1,5 @@
 ---
-title: 
+title: OpenFire Installation on Windows
 description: 
 dateCreated: 
 published: 
@@ -7,11 +7,12 @@ editor: markdown
 tags: 
 dateModified: 
 ---
+
 Openfire is a powerful instant messaging (IM) and chat server that implements the XMPP protocol. This document will guide you through installing Openfire. For a full list of features and more information, please visit the Openfire website: [http://www.igniterealtime.org/projects/openfire/](http://www.igniterealtime.org/projects/openfire/)
 
-## Installation
+# Installation
 
-### Windows
+## Windows
 
 Select Openfire installer that is better suiting you (with or without Java JRE, x86 or x64). Run the installer. The application will be installed to C:\Program Files\Openfire by default.
 
@@ -19,7 +20,7 @@ Select Openfire installer that is better suiting you (with or without Java JRE, 
 
 **Since 4.1.5 Openfire installs and runs the service automatically (also opens the browser and loads the web setup page). The launcher (if you want to use it) is also made to run in elevated mode, you don't need to run it as administrator manually. But you shouldn't use the launcher, if the service is running. Because this will create a conflict.**
 
-## pade plugin
+# pade plugin
 # Pade Readme
 
 This project provides a web-based unified communication solution for Openfire.

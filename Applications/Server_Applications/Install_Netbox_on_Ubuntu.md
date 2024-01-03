@@ -1,5 +1,5 @@
 ---
-title: Netbox
+title: Install Netbox on Ubuntu
 description: 
 dateCreated: 
 published: 

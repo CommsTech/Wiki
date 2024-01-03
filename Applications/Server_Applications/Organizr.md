@@ -17,22 +17,6 @@ dateModified:
 
 ![OrganizrHeader](https://github.com/causefx/Organizr/raw/v2-develop/plugins/images/organizr/logo-wide.png)
 
-[![Percentage of issues still open](http://isitmaintained.com/badge/open/causefx/Organizr.svg)](http://isitmaintained.com/project/causefx/Organizr "Percentage of issues still open")
-
-[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/causefx/Organizr.svg)](http://isitmaintained.com/project/causefx/Organizr "Average time to resolve an issue")
-
-[![GitHub stars](https://img.shields.io/github/stars/causefx/Organizr.svg)](https://github.com/causefx/Organizr/stargazers)
-
-[![GitHub forks](https://img.shields.io/github/forks/causefx/Organizr.svg)](https://github.com/causefx/Organizr/network)
-
-[![Docker pulls](https://img.shields.io/docker/pulls/organizr/organizr.svg)](https://hub.docker.com/r/organizr/organizr)
-
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/causefx)
-
-[![Beerpay](https://beerpay.io/causefx/Organizr/badge.svg?style=beer-square)](https://beerpay.io/causefx/Organizr)
-
-[![Beerpay](https://beerpay.io/causefx/Organizr/make-wish.svg?style=flat-square)](https://beerpay.io/causefx/Organizr?focus=wish)
-
 ![OrganizrAbout](https://user-images.githubusercontent.com/16184466/53614282-a91e9e00-3b96-11e9-9b3e-d249775ecaa1.png)
 
 Do you have quite a bit of services running on your computer or server? Do you have a lot of bookmarks or have to memorize a bunch of ip's and ports? Well, Organizr is here to help with that. Organizr allows you to setup "Tabs" that will be loaded all in one webpage. You can then work on your server with ease. Want to give users access to some Tabs? No problem, just enable user support and have them make an account. Want guests to be able to visit too? Enable Guest support for those tabs.

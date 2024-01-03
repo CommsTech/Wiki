@@ -1,5 +1,5 @@
 ---
-title: Vagrant
+title: Vagrant Cheat Sheet
 description: 
 dateCreated: 2022-05-21T15:28:21.146Z
 published: true
@@ -9,6 +9,7 @@ dateModified:
 ---
 # Vagrant Cheat-Sheet
 ## General Management
+
 COMMAND | DESCRIPTION
 ---|---
 `vagrant status` | Outputs status of the vagrant machine
@@ -16,6 +17,7 @@ COMMAND | DESCRIPTION
 `vagrant global-status --prune` | Same as above, but prunes invalid entries
 
 ## Managing VMs
+
 COMMAND | DESCRIPTION
 ---|---
 `vagrant init` | Initialize Vagrant with a Vagrantfile and ./.vagrant directory, using no specified base image. Before you can do vagrant up, you'll need to specify a base image in the Vagrantfile.
@@ -29,6 +31,7 @@ COMMAND | DESCRIPTION
 `vagrant destroy -f` | Same as above, without confirmation
 
 ## Provisioning VMs
+
 COMMAND | DESCRIPTION
 ---|---
 `vagrant provision` |  Forces reprovisioning of the vagrant machine
@@ -36,6 +39,7 @@ COMMAND | DESCRIPTION
 `vagrant up --provision | tee provision.log` | Runs `vagrant up`, forces provisioning and logs all output to a file
 
 ## Manage Boxes
+
 COMMAND | DESCRIPTION
 ---|---
 `vagrant box list` | See a list of all installed boxes on your computer

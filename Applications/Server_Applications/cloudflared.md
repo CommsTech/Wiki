@@ -22,5 +22,4 @@ You can also use `cloudflared` to access Tunnel origins (that are protected wi
 
 You can instead use [WARP client](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/configuration/private-networks) to access private origins behind Tunnels for Layer 4 traffic without requiring `cloudflared access` commands on the client side.
 
-
 ## Github Link https://github.com/cloudflare/cloudflared

@@ -1,5 +1,5 @@
 ---
-title: IDRAC 6
+title: Iconfig DRAC 6 for newer Java
 description: Idrac Version 6 settings to get access to kvm
 dateCreated: 2022-07-18T02:41:39.777Z
 published: true

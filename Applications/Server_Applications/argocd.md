@@ -8,6 +8,7 @@ tags:
 dateModified: 
 ---
 # Argo CD
+
 **Argo CD** is a declarative, GitOps continuous delivery tool for **Kubernetes ([[kubernetes]])**. It allows application definitions, configurations, and environments should be declarative and version controlled. Application deployment and lifecycle management should be automated, auditable, and easy to understand.
 
 Documentation & Project Homepage: [Argo CD Docs](https://argo-cd.readthedocs.io/en/stable/)
@@ -94,14 +95,21 @@ stringData:
 ### Declarative Application and ApplicationSet
 
 Apart from using the WebUI to add managed apps to ArgoCD, you can configure `Application`
+
 and `ApplicationSet` resources. This enables you to define not only ArgoCD and your apps
+
 as code, but also the definition which application you want to manage.
+
 With apps defined as YAML via an `Application`, you can e.g. deploy the app within a CI/CD
+
 pipeline that deploys your Argo instance.
 
 There are two types of resources. `Application` and `ApplicationSet`. The main difference is,
+
 that you can specify so called inline generators which allow you to template your Application
+
 definition. If you manage multiple clusters with ArgoCD and you want to get an `Application`
+
 deployed with cluster specific parameters you want to use an `ApplicationSet`.
 
 Below, you find an example for an `Application` and an `ApplicationSet`.

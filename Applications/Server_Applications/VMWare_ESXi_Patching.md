@@ -1,5 +1,5 @@
 ---
-title: ESXi
+title: Patching ESXi
 description: Virtual Machine Hypervisor
 dateCreated: 2022-09-09T04:44:01.149Z
 published: true
@@ -115,7 +115,6 @@ esxi-host            Connected       PoweredOn       2         150        7002  
 Both methods will then show that Host is running the new build:
 
 ![HPE Image](https://www.vgemba.net/assets/images/Build-Number-02.png)
-
 
 ### SNMP Setup
 #### Enabling SSH Access on ESXi

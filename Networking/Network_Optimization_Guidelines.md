@@ -17,7 +17,7 @@ Title: **Optimizing Network Performance: A Comprehensive Guide for New Engineer
     
     - Definition and importance
     - Key performance indicators (KPIs)
-2. **[[Troubleshooting]] Common Network Issues**
+2. **[[Network_Troubleshooting_Guide]] Common Network Issues**
     
     - Identifying bottlenecks
     - Diagnosing connectivity problems

@@ -1,5 +1,5 @@
 ---
-title: 
+title: LocalAI
 description: 
 dateCreated: 
 published: 

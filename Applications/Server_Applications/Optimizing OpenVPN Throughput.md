@@ -1,5 +1,5 @@
 ---
-title: OpenVPN
+title: Optimizing OpenVPN Throughput
 description: OpenVPN
 dateCreated: 2022-09-09T04:44:01.149Z
 published: true
@@ -10,12 +10,6 @@ tags:
 dateModified: 
 ---
 # Optimizing OpenVPN Throughput
-
-[Hamy](https://hamy.io/author/hamy/)
-
-Last updated on Jan 18, 2019  9 min read  [11 Comments](https://hamy.io/post/0003/optimizing-openvpn-throughput/#disqus_thread)  [Blog](https://hamy.io/categories/blog/)
-
-In the [previous post](https://hamy.io/post/0002/openvpn-tcp-or-udp-tunneling/), I talked about OpenVPN TCP and UDP tunnels and why you should not be using TCP. In this post, I’m going to talk about optimizing the said tunnels to get the most out of them.
 
 Believe it or not, the default OpenVPN configuration is likely not optimized for your link. It probably works but its throughput could possibly be improved if you take the time to optimize it.
 

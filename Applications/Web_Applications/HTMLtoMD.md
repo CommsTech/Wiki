@@ -8,4 +8,7 @@ tags:
 dateModified: 
 ---
 # HTML to MD
+
+convert regular HTML sites to MD for RAG
+
 [Convert HTML Sites to MD](https://htmltomd.com/)

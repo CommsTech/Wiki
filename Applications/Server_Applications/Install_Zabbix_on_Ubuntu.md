@@ -1,5 +1,5 @@
 ---
-title: Zabbix
+title: Install Zabbix on Ubuntu
 description: Zabbix Network Monitoring Service
 dateCreated: 2022-05-16T14:46:52.356Z
 published: true
@@ -12,7 +12,7 @@ tags:
 dateModified: 
 ---
 
-## Install Zabbix Server on Ubuntu 20.04|18.04
+# Install Zabbix Server on Ubuntu 20.04|18.04
 
 
 - MySQL/ MariaDB database server
@@ -21,18 +21,17 @@ MySQL or MariaDB can be a remote server, but php and httpd need to be installed 
 
 # Install and configure Zabbix on Ubuntu 22.04
 
-### Step 1: Install Zabbix repository
+## Step 1: Install Zabbix repository
 
 [Documentation](https://www.zabbix.com/documentation/6.4/manual/installation/install_from_packages)
 
 `# wget https://repo.zabbix.com/zabbix/6.4/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.4-1+ubuntu22.04_all.deb   # dpkg -i zabbix-release_6.4-1+ubuntu22.04_all.deb   # apt update`
 
-### Step 2: Install Zabbix server, frontend, agent
+## Step 2: Install Zabbix server, frontend, agent
 
 `# apt install zabbix-server-mysql zabbix-frontend-php zabbix-apache-conf zabbix-sql-scripts zabbix-agent   `
 
-
-### Step 3: Install MariaDB Database Server
+## Step 3: Install MariaDB Database Server
 
 Run the commands below to install MariaDB database server:
 
@@ -61,7 +60,7 @@ FLUSH PRIVILEGES;
 QUIT 
 ```
 
-### Step 4: Configure and Start Zabbix Server
+## Step 4: Configure and Start Zabbix Server
 
 Zabbix configuration file is located under  _**/etc/zabbix/zabbix_server.conf**_. Ensure the following lines are configured correctly.
 
@@ -84,7 +83,7 @@ $ sudo vim /etc/zabbix/zabbix_agentd.conf
 Hostname=zabbix-server.commstech.org
 ```
 
-#### Step 4: Optional Configure Firewall
+### Step 4: Optional Configure Firewall
 
 If you have ufw firewall installed and running on your system, ensure you allow port 5000 and port 5001
 
@@ -92,7 +91,7 @@ If you have ufw firewall installed and running on your system, ensure you allow 
 sudo ufw allow proto tcp from any to any port 10050,10051
 ```
 
-### Step 5: Perform Zabbix initial setup
+## Step 5: Perform Zabbix initial setup
 
 Access “**http://(Zabbix server’s hostname or IP address)/zabbix/**”  to begin Zabbix initial setup.
 
@@ -133,7 +132,7 @@ Default dashboard page is as below:
 
 [![zabbix setup 08](https://computingforgeeks.com/wp-content/uploads/2018/06/zabbix-setup-08.png?ezimgfmt=rs:696x328/rscb23/ng:webp/ngcb23 "Install Zabbix Server on Ubuntu 18.04 8")](https://computingforgeeks.com/wp-content/uploads/2018/06/zabbix-setup-08.png)
 
-### Step 6: Change Admin Password
+## Step 6: Change Admin Password
 
 Login to Zabbix admin dashboard with **admin** user and password **zabbix.** You need to change the password for admin user after the first login for security reasons.
 
@@ -143,7 +142,7 @@ Navigate to **Administration > Users > Admin > Password > Change Password**
 
 Enter the new password twice then click on the Update button to change.
 
-### Step 7: Configure Monitoring Target host
+## Step 7: Configure Monitoring Target host
 
 Now that we have our Zabbix server ready for monitoring, let’s configure first monitoring target host – This is Zabbix server monitoring itself.
 
@@ -159,26 +158,32 @@ After few minutes, monitoring data will start flowing in, to check host graphs g
 
 [![zabbix setup 11](https://computingforgeeks.com/wp-content/uploads/2018/06/zabbix-setup-11.png?ezimgfmt=rs:696x344/rscb23/ng:webp/ngcb23 "Install Zabbix Server on Ubuntu 18.04 12")](https://computingforgeeks.com/wp-content/uploads/2018/06/zabbix-setup-11.png)
 
-
-##### Some of my screenshots
+### Some of my screenshots
 
 ![[Pasted_image_20230729162412.png]]
 
-
 mysql -uroot -p
+
 asdasHJGGJ687i_hkjHG^
+
 create database zabbix character set utf8mb4 collate utf8mb4_bin;
+
 create user zabbix@commsnet.org identified by 'asdasHJGGJ687i_hkjHG^';
-grant all privileges on zabbix.* to zabbix@commsnet.org;
-set global log_bin_trust_function_creators = 1;
-quit;
 
+grant all privileges on zabbix.* to zabbix@commsnet.org;
+
+set global log_bin_trust_function_creators = 1;
+
+quit;
 
 create database zabbix character set utf8mb4 collate utf8mb4_bin;
-create user zabbix@localhost identified by 'asdasHJGGJ687i_hkjHG^';
-grant all privileges on zabbix.* to zabbix@localhost;
-set global log_bin_trust_function_creators = 1;
-quit;
 
+create user zabbix@localhost identified by 'asdasHJGGJ687i_hkjHG^';
+
+grant all privileges on zabbix.* to zabbix@localhost;
+
+set global log_bin_trust_function_creators = 1;
+
+quit;
 
 mysqldump -h localhost -u'root' -p'asdasHJGGJ687i_hkjHG^' --single-transaction 'zabbix' | gzip > /opt/zabbix_backup/db_files/zabbix_backup.sql.gz

@@ -11,7 +11,7 @@ dateModified:
 
 ## Description
 
-Open Shortest Path First (OSPF) is a popular routing protocol used to exchange routing information between routers in an IP network. However, even with its robust design, issues can still arise that require troubleshooting. In this OSPF [[Troubleshooting]] Guide, we'll cover common problems and their solutions to help you quickly identify and resolve OSPF-related issues in your network.
+Open Shortest Path First (OSPF) is a popular routing protocol used to exchange routing information between routers in an IP network. However, even with its robust design, issues can still arise that require troubleshooting. In this OSPF [[Network_Troubleshooting_Guide]] Guide, we'll cover common problems and their solutions to help you quickly identify and resolve OSPF-related issues in your network.
 
 Table of Contents:
 ------------------

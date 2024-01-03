@@ -1,13 +1,19 @@
 ---
-title: Troubleshooting
-description: information on network troubleshooting
+title: Network Troubleshooting Guide
+description: This document provides a collection of troubleshooting guides for various networking protocols and technologies used in our organization's network infrastructure.
 dateCreated: 2022-05-26T18:27:33.428Z
 published: true
 editor: markdown
-tags: networking
+tags:
+  - networking
 dateModified: 
 ---
-# Troubleshooting
+# Network Troubleshooting Guide
+
+This document provides a collection of troubleshooting guides for various networking protocols and technologies used in our organization's network infrastructure.
+
+## [[OSPF_Troubleshooting_Guide|OSPF Troubleshooting Guide]]
+## [[BGP_Troubleshooting_Guide|BGP Troubleshooting Guide]]
 
 Heres a list of a few tools I utilize to troubleshoot my connections and website access.
 

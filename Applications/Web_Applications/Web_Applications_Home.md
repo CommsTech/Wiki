@@ -18,15 +18,7 @@ dateModified:
 
 for guides on  Sonarr/Radarr/Bazarr/Plex  https://trash-guides.info/
 
-
-
-
-
-
-
-
-
-##### Navigation Information
+## Navigation Information
 ```
 Label: Web Applications
 Icon: mdi-earth

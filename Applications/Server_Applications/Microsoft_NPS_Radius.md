@@ -1,5 +1,5 @@
 ---
-title: Microsoft Network Policy Server (NPS)
+title: Microsoft Network Policy Server (NPS) Radius Config
 description: 
 dateCreated: 
 published: 
@@ -7,24 +7,15 @@ editor: markdown
 tags: 
 dateModified: 
 ---
-                                                        1---
-title: Microsoft NPS
-description: 
-published: true
-date: 2023-07-26T18:23:12.715Z
-tags: Server, Radius, Networking, Microsoft
-editor: markdown
-dateCreated: 2023-05-22T18:23:12.715Z
----
 # Configuring Microsoft NPS for MAC-Based RADIUS - MS Switches
 
 *-1. Last updated8
+
     
     Oct 5, 2020
     
 2. [Save as PDF](https://documentation.meraki.com/@api/deki/pages/916/pdf/Configuring%2bMicrosoft%2bNPS%2bfor%2bMAC-Based%2bRADIUS%2b-%2bMS%2bSwitches.pdf?stylesheet=default "Export page as a PDF")
  
-
 
 Network Administrators can use port based access control to prevent unauthorized access to the corporate LAN. MAC-Based RADIUS is one method for providing this type of security. This article discusses the benefits of MAC-Based RADIUS and how to configure it in Microsoft NPS and Dashboard. 
 
@@ -68,7 +59,7 @@ In some environments it is critical to control which devices can access the wire
 
 ![888915b6-1ec7-49c1-a533-7d37064ff85b](https://documentation.meraki.com/@api/deki/files/5331/888915b6-1ec7-49c1-a533-7d37064ff85b?revision=1)
 
-## Configuring a NPS Connection Request Policy.
+## Configuring a NPS Connection Request Policy
 
 1) In the **NPS Server Console**, navigate to **NPS (Local) > Policies > Connection Request Policies**. 
 
@@ -125,7 +116,7 @@ In some environments it is critical to control which devices can access the wire
 **Figure 7.**  
 ![14397e84-3bd5-4f7e-87e2-8a444841afc0](https://documentation.meraki.com/@api/deki/files/2334/14397e84-3bd5-4f7e-87e2-8a444841afc0?revision=1)
 
-## Creating a MAC-Based RADIUS Access Policy in Dashboard.
+## Creating a MAC-Based RADIUS Access Policy in Dashboard
 
 1) On the Dashboard navigate to **Configure > Access Policies.**
 
@@ -151,8 +142,6 @@ In some environments it is critical to control which devices can access the wire
 
 **Figure 9.**   
 ![2017-07-12 16_20_58-Switch ports.png](https://documentation.meraki.com/@api/deki/files/3193/2017-07-12_16_20_58-Switch_ports.png?revision=1&size=bestfit&width=495&height=578)
-
-
 
 # Dynamic Author
 # IEEE 802.1X Authentication and Dynamic VLAN Assignment with NPS Radius Server
@@ -190,7 +179,7 @@ The laptop computer must therefore act in a supplicant role. Message exchanges t
 3. Authentication Server: Microsoft NPS (Network Policy Server) running on Windows Server 2012 R2.
 4. User Database : Active Directory
 
-### For Windows Infrastructure
+## For Windows Infrastructure
 
 1. Create NPS Server – Add Role on Windows Server 2012 R2
 2. Create DHCP Scopes for VLANS
@@ -269,7 +258,7 @@ The other elements that need to be returned by the NPS Server are as follows:
 **Create Network Policy Settings for Tunnel-Type for VLAN 200**  
 [![Create Network Policy Settings for Tunnel-Type for VLAN 200](http://www.expertnetworkconsultant.com/wp-content/uploads/2019/02/Create-Network-Policy-Settings-for-Tunnel-Type-for-VLAN-200.png)](http://www.expertnetworkconsultant.com/wp-content/uploads/2019/02/Create-Network-Policy-Settings-for-Tunnel-Type-for-VLAN-200.png)
 
-### For Client Infrastructure
+## For Client Infrastructure
 
 **On the Supplicant, Windows 7 or 10 configure the following steps on the Ethernet Adapter to enable IEEE 802.1X Authentication**
 
@@ -288,45 +277,61 @@ The other elements that need to be returned by the NPS Server are as follows:
 **IEEE 802.1X Authentication EAP-MSCHAPv2 Properties**  
 [![](http://www.expertnetworkconsultant.com/wp-content/uploads/2019/02/IEEE-802.1X-Authentication-EAP-MSCHAPv2-Properties.png)](http://www.expertnetworkconsultant.com/wp-content/uploads/2019/02/IEEE-802.1X-Authentication-EAP-MSCHAPv2-Properties.png)
 
-### For Network Infrastructure
+## For Network Infrastructure
 
 **Connect Server Infrastructure to VLAN 400**
 
 vlan 400
+
    name "Server Infrastructure"
+
    untagged 47-48
+
    ip address 10.10.10.1 255.255.255.0
+
    exit
 
 **Create VLAN for Accounting Group**
 
 vlan 200
+
    name "Accounting Group"
+
    ip address 172.16.70.254 255.255.255.0
+
    ip helper-address 10.10.10.40
+
    exit
 
 **Create VLAN for Development Group**
 
 vlan 100
+
    name "Development Group"
+
    ip address 172.16.80.254 255.255.255.0
+
    ip helper-address 10.10.10.40
+
    exit
 
 **Create AAA Configuration on Switch for Radius Authentication**
 
 hostname "Edge Switch Aruba 2920"
+
 radius-server host 10.10.10.10 key "secret12"
+
 aaa authentication port-access eap-radius
+
 aaa port-access authenticator 1-24
+
 aaa port-access authenticator active
 
 **Download the Switch Configuration:**
 
 **[802.1 x wireless authentication step by step - Download the 802.1 x wired authentication step by step configuration sample](http://www.expertnetworkconsultant.com/wp-content/uploads/2019/02/802.1-x-wireless-authentication-step-by-step.txt)**
 
-### Test the IEEE 802.1X Authentication and Dynamic VLAN Assignment with NPS Radius Server
+## Test the IEEE 802.1X Authentication and Dynamic VLAN Assignment with NPS Radius Server
 
 Verify Port-Access with the following user groups – VLAN 100 and VLAN 200
 
@@ -335,22 +340,37 @@ MacAuth(config)# show port-access authenticator
  Port Access Authenticator Status
 
   Port-access authenticator activated [No] : Yes
+
   Allow RADIUS-assigned dynamic (GVRP) VLANs [No] : No
 
        Auths/  Unauth  Untagged Tagged           % In  RADIUS Cntrl
+
   Port Guests  Clients VLAN     VLANs  Port COS  Limit ACL    Dir   Port Mode
+
   ---- ------- ------- -------- ------ --------- ----- ------ ----- ----------
+
   **1    1/0     0       200      No     No        No    No     both  1000FDx**
+
   2    0/0     0       None     No     No        No    No     both  1000FDx
+
   3    0/0     0       None     No     No        No    No     both  1000FDx
+
   4    0/0     0       None     No     No        No    No     both  1000FDx
+
   5    0/0     0       None     No     No        No    No     both  1000FDx
+
   6    0/0     0       None     No     No        No    No     both  1000FDx
+
   7    0/0     1       None     No     No        No    No     both  1000FDx
+
   8    0/0     0       None     No     No        No    No     both  1000FDx
+
   9    0/0     0       None     No     No        No    No     both  1000FDx
+
   10   0/0     0       None     No     No        No    No     both  1000FDx
+
   11   0/0     0       None     No     No        No    No     both  1000FDx
+
   12   0/0     0       None     No     No        No    No     both  1000FDx
 
 MacAuth(config)# show port-access authenticator
@@ -358,22 +378,37 @@ MacAuth(config)# show port-access authenticator
  Port Access Authenticator Status
 
   Port-access authenticator activated [No] : Yes
+
   Allow RADIUS-assigned dynamic (GVRP) VLANs [No] : No
 
        Auths/  Unauth  Untagged Tagged           % In  RADIUS Cntrl
+
   Port Guests  Clients VLAN     VLANs  Port COS  Limit ACL    Dir   Port Mode
+
   ---- ------- ------- -------- ------ --------- ----- ------ ----- ----------
+
   1    0/0     0       None     No     No        No    No     both  1000FDx
+
   2    0/0     0       None     No     No        No    No     both  1000FDx
+
   3    0/0     0       None     No     No        No    No     both  1000FDx
+
   4    0/0     0       None     No     No        No    No     both  1000FDx
+
   5    0/0     0       None     No     No        No    No     both  1000FDx
+
   6    0/0     0       None     No     No        No    No     both  1000FDx
+
   **7    1/0     0        100    No        No    No     No     both  1000FDx**
+
   8    0/0     0       None     No     No        No    No     both  1000FDx
+
   9    0/0     0       None     No     No        No    No     both  1000FDx
+
   10   0/0     0       None     No     No        No    No     both  1000FDx
+
   11   0/0     0       None     No     No        No    No     both  1000FDx
+
   12   0/0     0       None     No     No        No    No     both  1000FDx
 
 Think of what other clever things you can do from the information below;
@@ -381,24 +416,31 @@ Think of what other clever things you can do from the information below;
 **Breakdown of Commands for RADIUS Authentication**
 
 #Define authentication host and pre-shared key.
+
 radius-server host 10.10.10.10 key "SpecifiedSharedSecretKey"
 
 #Enable processing of Disconnect and Change of Authorization messages from authentication server
+
 radius-server host 10.10.10.10 dyn-authorization
 
 #Set selected authentication mode
+
 aaa authentication port-access eap-radius
 
 #Configure specified ports for authentication
+
 aaa port-access authenticator 1-24
 
 #Assign authenticated client VLAN to authenticator ports
+
 aaa port-access authenticator 1-24 auth-vid 200
 
 #Assign unauthenticated client VLAN to authenticator ports
+
 aaa port-access authenticator 1-24 unauth-vid 999
 
 #Activate authentication on assigned ports with configured options
+
 aaa port-access authenticator active
 
 exit
@@ -406,11 +448,15 @@ exit
 **Verification Commands**
 
 VERIFICATION
+
 A number of CLI commands are available to verify authentication server and port access configuration, including:
 
 show port-access authenticator [port-list] [config | statistics | session-counters | vlan | clients [detailed]]
+
 show authentication
+
 show radius authentication
+
 show radius [host IP]
 
 Thanks for reading. Please share your thoughts in the comment box below;

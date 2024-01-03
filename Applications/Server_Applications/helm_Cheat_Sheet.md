@@ -9,12 +9,14 @@ dateModified:
 ---
 # Helm Cheat-Sheet
 ## Repository Management
+
 COMMAND | DESCRIPTION
 ---|---
 `helm repo list` | List Helm repositories
 `helm repo update` | Update list of Helm charts from repositories
 
 ## Chart Management
+
 COMMAND | DESCRIPTION
 ---|---
 `helm search` | List all installed charts
@@ -25,6 +27,7 @@ COMMAND | DESCRIPTION
 `helm inspect values <REPO>/<CHART>` | Inspect the variables in a chart
 
 ## Install/Delete Helm Charts
+
 COMMAND | DESCRIPTION
 ---|---
 `helm install --name <NAME> <REPO>/<CHART>` | Install a Helm chart
@@ -33,6 +36,7 @@ COMMAND | DESCRIPTION
 `helm delete --purge <NAME>` | Delete a Helm chart
 
 ## Upgrading Helm Charts
+
 COMMAND | DESCRIPTION
 ---|---
 `helm get values <NAME>` | Return the variables for a release
@@ -41,6 +45,7 @@ COMMAND | DESCRIPTION
 `helm rollback <NAME> 1` | Rollback to a previous release number
 
 ## Creating Helm Charts
+
 COMMAND | DESCRIPTION
 ---|---
 `helm create <NAME>` | Create a blank chart

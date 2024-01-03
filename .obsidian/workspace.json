@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Troubleshooting.md",
+                "file": "Applications/Applications_Home.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Troubleshooting.md",
+                "file": "Applications/Applications_Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Troubleshooting.md",
+                "file": "Applications/Applications_Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Troubleshooting.md"
+                "file": "Applications/Applications_Home.md"
               }
             }
           },
@@ -194,36 +194,36 @@
   },
   "active": "262137e2d8490059",
   "lastOpenFiles": [
-    "Networking/create-dkim-keypair.md",
-    "Networking/BGP_Troubleshooting_Guide.md",
-    "Networking/OSPF_Troubleshooting_Guide.md",
-    "Networking/Troubleshooting.md",
-    "Networking/Networking_Home.md",
-    "AI/Harnessing_RAG_for_Text.md",
-    "AI/AI_Home.md",
-    "Army/Cyber_Awareness_Training.md",
-    "Army/ArmyLinks.md",
-    "Virtual_Infrastructure/Virtual_Infrastructure_Home.md",
-    "Virtual_Infrastructure/esxi7_to_xcp-ng.md",
-    "Virtual_Infrastructure/XCP-NG/XCP-NG.md",
-    "Hardware/Tablets/Dell_Venue_11_Pro.md",
-    "Applications/Server_Applications/ntfy.md",
+    "Applications/Web_Applications/Web_Applications_Home.md",
+    "Applications/Web_Applications/Search_Engines.md",
+    "Applications/Web_Applications/Plex_Web_Client_Settings.md",
+    "Applications/Web_Applications/pdftomd.md",
+    "Applications/Web_Applications/Instagram.md",
+    "Applications/Web_Applications/HTTPVersions.md",
+    "Applications/Web_Applications/HTMLtoMD.md",
+    "Applications/Web_Applications/Driftnet.md",
+    "Applications/Server_Applications/wsl_cheat_sheet.md",
+    "Applications/Server_Applications/wireguard.md",
+    "Applications/Server_Applications/Wiki_JS.md",
+    "Applications/Server_Applications/Wazuh_on_Security_Onion.md",
+    "Applications/Server_Applications/Whoogle.md",
+    "Applications/Server_Applications/Wazuh.md",
+    "Applications/Server_Applications/VMWare_ESXi_Patching.md",
+    "Applications/Server_Applications/vscode.md",
+    "Applications/Server_Applications/VM_Filetypes.md",
+    "Applications/Server_Applications/vcenter_Troubleshooting.md",
+    "Applications/Server_Applications/vagrant_Cheat_Sheet.md",
+    "Applications/Server_Applications/Tdarr.md",
+    "Applications/Server_Applications/uptime-kuma.md",
+    "Applications/Server_Applications/install_ucaresystem-core_Ubuntu.md",
+    "Applications/Server_Applications/unifi.md",
+    "Applications/Server_Applications/terraform.md",
+    "Applications/Server_Applications/TvHeadend.md",
+    "Applications/Server_Applications/traefik.md",
     "assets/documents/security-guidance-v4-final-feb27-18.pdf",
     "assets/documents/Cloud+_CV0-002_objectives.pdf",
     "assets/documents/AWS-Certified-SysOps-Administrator-Associate_Sample-Questions.pdf",
     "assets/documents/database_management_-_c175.pdf",
-    "Applications/Server_Applications/Gluetun.md",
-    "AI/RAG_Formatting_and_Information.md",
-    "AI/RAG_Concepts_and_LangChain.md",
-    "AI/GPT_Prompts/want_and_need.md",
-    "AI/GPT_Prompts/thesaurus.md",
-    "AI/GPT_Prompts/systematic_word_finder.md",
-    "AI/GPT_Prompts/slide_deck_maker.md",
-    "AI/GPT_Prompts/stock_image_description.md",
-    "AI/GPT_Prompts/sparse_priming_representation.md",
-    "AI/GPT_Prompts/nonfiction_chapter_feedback.md",
-    "AI/GPT_Prompts/scottish_barkeep.md",
-    "AI/GPT_Prompts/nonfiction_chapter_aid.md",
     "AI/GPT_Prompts",
     "Applications/Server_Applications/Ansible/Playbooks",
     "Cyber_Security/Terminology",

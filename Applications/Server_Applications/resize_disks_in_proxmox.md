@@ -1,5 +1,5 @@
 ---
-title: Proxmox
+title: Resize Disks in Proxmox
 description: 
 dateCreated: 2022-05-21T15:28:21.146Z
 published: true
@@ -7,10 +7,12 @@ editor: markdown
 tags: 
 dateModified: 
 ---
-# Proxmox Cheat-Sheets
+# Resize Disks in Proxmox
 ## Resize Disk
 ### Increase disk size
+
 Increase disk size in the GUI or with the following command
+
 ```
 qm resize 100 virtio0 +5G
 ```

@@ -13,7 +13,7 @@ Title: BGP Troubleshooting Guide
 
 Description:
 
-Border Gateway Protocol (BGP) is a critical routing protocol used to exchange routing information between autonomous systems on the internet. Despite its robust design, issues can still arise that require troubleshooting. In this BGP [[Troubleshooting]] Guide, we'll cover common problems and their solutions to help you quickly identify and resolve BGP-related issues in your network.
+Border Gateway Protocol (BGP) is a critical routing protocol used to exchange routing information between autonomous systems on the internet. Despite its robust design, issues can still arise that require troubleshooting. In this BGP [[Network_Troubleshooting_Guide]] Guide, we'll cover common problems and their solutions to help you quickly identify and resolve BGP-related issues in your network.
 
 Table of Contents:
 ------------------

@@ -1,5 +1,5 @@
 ---
-title: 
+title: Get HAProxy and Authentik to work nicely together
 description: 
 dateCreated: 
 published: 
@@ -8,6 +8,8 @@ tags:
 dateModified: 
 ---
 # HAProxy_Authentik
+
+Get HAProxy and Authentik to work nicely together
 
 PFSENSE HAPROXY Authentik
 

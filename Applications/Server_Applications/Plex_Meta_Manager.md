@@ -22,6 +22,7 @@ Plex Meta Manager is an open source Python 3 project that has been designed to e
 
 Docker Compose File:
 
+```
 version: "3"
 
 services:

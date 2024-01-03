@@ -8,9 +8,11 @@ tags:
 dateModified: 
 ---
 # Nginx
+
 Open source web and application server.
 
 Project Homepage: [Nginx Homepage](https://www.nginx.com/)
+
 Documentation: [Nginx Unit Docs](https://unit.nginx.org/)
 
 ---
@@ -35,6 +37,7 @@ listen <port> <options>
 ```
 
 header modifications:
+
 ```nginx
 add_header <header> <values>
         add_header Alt-svc '$http3=":<port>"; ma=<value>'; (this is experimental!)

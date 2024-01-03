@@ -1,5 +1,5 @@
 ---
-title: OpenSSH
+title: OpenSSH Cheat Sheet
 description: 
 dateCreated: 2022-05-21T15:28:21.146Z
 published: true
@@ -12,14 +12,17 @@ dateModified:
 ## Known Hosts
 
 Remove Entry from the Known-Hosts File.
+
 ```bash
 ssh-keygen -R hostname
 ```
 
 ## Using the SSH Config File
+
 If you are regularly connecting to multiple remote systems over SSH, you can configure your remote servers with the `.ssh/config` file.
 
 **Example:***
+
 ```ini
 Host dev
     HostName dev.your-domain

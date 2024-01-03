@@ -1,5 +1,5 @@
 ---
-title: vcenter
+title: vcenter troubleshooting
 description: VMwares Virtual Center
 dateCreated: 2022-07-18T02:41:39.777Z
 published: true
@@ -14,9 +14,9 @@ dateModified:
 # Vcenter 6.7
 
 
-#### Error # 503 Service Unavailable (Failed to connect to endpoint: [N7Vmacore4Http20NamedPipeServiceSpecE:0x00007f2e3401aa80] _serverNamespace = / action = Allow _pipeName =/var/run/vmware/vpxd-webserver-pipe)
+## Error # 503 Service Unavailable (Failed to connect to endpoint: [N7Vmacore4Http20NamedPipeServiceSpecE:0x00007f2e3401aa80] _serverNamespace = / action = Allow _pipeName =/var/run/vmware/vpxd-webserver-pipe)
 
- #### Solution:
+ ## Solution
 
 1.  SSH into the vCSA and login as root and execute the **“shell”** command to get shell access.
 2.  Run the **“df -h”** command and verify the **“/storage/archive”** mount is at 90+% of use.
@@ -27,6 +27,7 @@ dateModified:
 7.  Verify the vCenter Server Appliance VAMI Health Status for Storage is **“Good”** .
 
 **You can also try the following Shell script**
+
 ```
 #!/bin/bash
 cd /etc/ssl/certs

@@ -30,9 +30,11 @@ sudo ln -s /mnt/c/Users/lempa/.ssh ~/.ssh
 ```
 
 ## File Permissions
+
 Advanced settings configuration in WSL: [WSL Config Parameters](https://docs.microsoft.com/en-us/windows/wsl/wsl-config)
 
 **Example wsl.conf**
+
 ```
 [automount]
 enabled = true
@@ -46,12 +48,15 @@ appendWindowsPath = false
 
 ## Networking
 ### Port Forwarding
+
 **Find IP Address**
+
 ```powershell
 bash.exe -c "ifconfig eth0 | grep 'inet '"
 ```
 
 **Add PortForwarding**
+
 ```powershell
 $port = 8080
 $remoteaddr = 0.0.0.0
@@ -62,6 +67,7 @@ netsh advfirewall firewall add rule name=$port dir=in action=allow protocol=TCP 
 ```
 
 **Delete PortForwarding**
+
 ```PowerShell
 $port = 8080
 
@@ -71,6 +77,7 @@ netsh advfirewall firewall delete rule name=$port
 ```
 
 **Show PortForwardings**
+
 ```powershell
 netsh interface portproxy show v4tov4
 ```

@@ -52,6 +52,7 @@ WAZUH_MANAGER="192.168.your.ip" apt-get install wazuh-agent
 2. Enable and start the Wazuh agent service.
 
 `systemctl daemon-reload`
+
 ### systemctl enable wazuh-agent
 ```
 systemctl daemon-reload

@@ -1,5 +1,5 @@
 ---
-title: ElasticSearch
+title: ElasticSearch installation on Ubuntu
 description: 
 dateCreated: 
 published: 
@@ -7,7 +7,7 @@ editor: markdown
 tags: 
 dateModified: 
 ---
-## Install on Ubuntu
+# Install on Ubuntu
 # How To Install and Configure Elasticsearch on Ubuntu 22.04
 
 Published on April 25, 2022
@@ -24,19 +24,19 @@ Senior DevOps Technical Writer
 
 ![How To Install and Configure Elasticsearch on Ubuntu 22.04](https://www.digitalocean.com/_next/static/media/intro-to-cloud.d49bc5f7.jpeg "How To Install and Configure Elasticsearch on Ubuntu 22.04")
 
-##### Not using Ubuntu 22.04?Choose a different version or distribution.
+## Not using Ubuntu 22.04?Choose a different version or distribution
 
 Ubuntu 22.04
 
 _A previous version of this article was written by_ [_Toli_](https://www.digitalocean.com/community/users/tollodim).
 
-### [Introduction](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-ubuntu-22-04#introduction)[](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-ubuntu-22-04#introduction)
+# [Introduction](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-ubuntu-22-04#introduction)[](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-ubuntu-22-04#introduction)
 
 [Elasticsearch](http://www.elasticsearch.org/) is a platform for distributed search and analysis of data in real time. It is a popular choice due to its usability, powerful features, and scalability.
 
 This article will guide you through installing Elasticsearch, configuring it for your use case, securing your installation, and beginning to work with your Elasticsearch server.
 
-## [Prerequisites](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-ubuntu-22-04#prerequisites)[](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-ubuntu-22-04#prerequisites)
+# [Prerequisites](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-ubuntu-22-04#prerequisites)[](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-ubuntu-22-04#prerequisites)
 
 Before following this tutorial, you will need:
 
@@ -44,7 +44,7 @@ Before following this tutorial, you will need:
 
 For this tutorial, we will work with the minimum amount of CPU and RAM required to run Elasticsearch. Note that the amount of CPU, RAM, and storage that your Elasticsearch server will require depends on the volume of logs that you expect.
 
-## [Step 1 — Installing and Configuring Elasticsearch](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-ubuntu-22-04#step-1-installing-and-configuring-elasticsearch)[](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-ubuntu-22-04#step-1-installing-and-configuring-elasticsearch)
+# [Step 1 — Installing and Configuring Elasticsearch](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-ubuntu-22-04#step-1-installing-and-configuring-elasticsearch)[](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-ubuntu-22-04#step-1-installing-and-configuring-elasticsearch)
 
 The Elasticsearch components are not available in Ubuntu’s default package repositories. They can, however, be installed with APT after adding Elastic’s package source list.
 
@@ -86,7 +86,7 @@ Copy
 
 Press `Y` when prompted to confirm installation. If you are prompted to restart any services, press `ENTER` to accept the defaults and continue. Elasticsearch is now installed and ready to be configured.
 
-## [Step 2 — Configuring Elasticsearch](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-ubuntu-22-04#step-2-configuring-elasticsearch)[](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-ubuntu-22-04#step-2-configuring-elasticsearch)
+# [Step 2 — Configuring Elasticsearch](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-ubuntu-22-04#step-2-configuring-elasticsearch)[](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-ubuntu-22-04#step-2-configuring-elasticsearch)
 
 To configure Elasticsearch, we will edit its main configuration file `elasticsearch.yml` where most of its configuration options are stored. This file is located in the `/etc/elasticsearch` directory.
 
@@ -138,7 +138,7 @@ Copy
 
 With Elasticsearch enabled upon startup, let’s move on to the next step to discuss security.
 
-## [Step 3 — Securing Elasticsearch](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-ubuntu-22-04#step-3-securing-elasticsearch)[](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-ubuntu-22-04#step-3-securing-elasticsearch)
+# [Step 3 — Securing Elasticsearch](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-ubuntu-22-04#step-3-securing-elasticsearch)[](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-ubuntu-22-04#step-3-securing-elasticsearch)
 
 By default, Elasticsearch can be controlled by anyone who can access the HTTP API. This is not always a security risk because Elasticsearch listens only on the loopback interface (that is, `127.0.0.1`), which can only be accessed locally. Thus, no public access is possible and as long as all server users are trusted, security may not be a major concern.
 
@@ -184,7 +184,7 @@ The UFW should now be enabled and set up to protect Elasticsearch port 9200.
 
 If you want to invest in additional protection, Elasticsearch offers the commercial [Shield plugin](https://www.elastic.co/downloads/shield) for purchase.
 
-## [Step 4 — Testing Elasticsearch](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-ubuntu-22-04#step-4-testing-elasticsearch)[](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-ubuntu-22-04#step-4-testing-elasticsearch)
+# [Step 4 — Testing Elasticsearch](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-ubuntu-22-04#step-4-testing-elasticsearch)[](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-ubuntu-22-04#step-4-testing-elasticsearch)
 
 By now, Elasticsearch should be running on port 9200. You can test it with cURL and a GET request.
 
@@ -229,7 +229,7 @@ Copy
 
 In the output from the above command you can verify all the current settings for the node, cluster, application paths, modules, and more.
 
-## [Step 5 — Using Elasticsearch](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-ubuntu-22-04#step-5-using-elasticsearch)[](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-ubuntu-22-04#step-5-using-elasticsearch)
+# [Step 5 — Using Elasticsearch](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-ubuntu-22-04#step-5-using-elasticsearch)[](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-ubuntu-22-04#step-5-using-elasticsearch)
 
 To start using Elasticsearch, let’s first add some data. Elasticsearch uses a RESTful API, which responds to the usual CRUD commands: **c**reate, **r**ead, **u**pdate, and **d**elete. To work with it, we’ll use the cURL command again.
 
@@ -329,6 +329,6 @@ Output{
 
 We have now added and queried data in Elasticsearch. To learn about the other operations please check [the API documentation](https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html).
 
-## [Conclusion](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-ubuntu-22-04#conclusion)[](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-ubuntu-22-04#conclusion)
+# [Conclusion](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-ubuntu-22-04#conclusion)[](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-ubuntu-22-04#conclusion)
 
 You have now installed, configured, and begun to use Elasticsearch. To further explore Elasticsearch’s functionality, please refer to the official [Elasticsearch documentation](https://www.elastic.co/guide/en/elasticsearch/reference/7.17/index.html).

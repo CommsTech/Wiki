@@ -8,22 +8,30 @@ tags:
 dateModified: 
 ---
 # Terraform
+
 Terraform is a free and open-source infrastructure as code automation tool, to provision, change, and version resources on any environment.
 
 Project Homepage: [Terraform by HashiCorp](https://www.terraform.io/)
+
 Documentation: [Documentation | Terraform by HashiCorp](https://www.terraform.io/docs)
+
 TF Registry: [Terraform Registry](https://registry.terraform.io/)
 
 ## Format and Validate
+
 COMMAND | DESCRIPTION
 ---|---
 `terraform fmt` | Reformat your configuration in the standard style
 `terraform validate` | Check whether the configuration is valid
+
 ## Initialize Working Directory
+
 COMMAND | DESCRIPTION
 ---|---
 `terraform init` | Prepare your working directory for other commands
+
 ## Plan, Deploy and Cleanup
+
 COMMAND | DESCRIPTION
 ---|---
 `terraform apply --auto-approve` | Create or update infrastructure without confirmation prompt
@@ -38,13 +46,17 @@ COMMAND | DESCRIPTION
 `terraform apply --parallelism=5` | Number of simultaneous resource operations
 `terraform refresh` | Reconcile the state in Terraform state file with real-world resources
 `terraform providers` | Get informatino about providers used in the current configuration
+
 ## Workspaces
+
 COMMAND | DESCRIPTION
 ---|---
 `terraform workspace new myworkspace` | Create a new workspace
 `terraform workspace select default` | Change to a workspace
 `terraform workspace list` | List all workspaces
+
 ## State Manipulation
+
 COMMAND | DESCRIPTION
 ---|---
 `terraform state show aws_instance.myinstance` | Show details stored in the Terraform state file
@@ -53,14 +65,18 @@ COMMAND | DESCRIPTION
 `terraform state replace-provider hashicorp/aws registry.custom.com/aws` | Replace an existing provider with another
 `terraform state list` | List all resources tracked in the Terraform state file
 `terraform state rm aws_instance.myinstance` | Unmanage a resource, delete it from the Terraform state file
+
 ## Import and Outputs
+
 COMMAND | DESCRIPTION
 ---|---
 `terraform import resourcetype.myresource <id>` | Import a Resource
 `terraform output` | List all outputs
 `terraform output <output>` | List a specific output
 `terraform output -json` | List all outputs in JSON format
+
 ## Terraform Cloud
+
 COMMAND | DESCRIPTION
 ---|---
 `terraform login` | Login to Terraform Cloud with an API token

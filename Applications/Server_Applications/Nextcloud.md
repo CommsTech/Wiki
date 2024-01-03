@@ -16,11 +16,9 @@ dateModified:
 
 [Source Website](https://nextcloud.com/)
 
-
-
 Setup WEBDAV drive mapping
 
-### Mapping drives with Windows Explorer[](https://docs.nextcloud.com/server/latest/user_manual/en/files/access_webdav.html#mapping-drives-with-windows-explorer "Permalink to this heading")
+## Mapping drives with Windows Explorer[](https://docs.nextcloud.com/server/latest/user_manual/en/files/access_webdav.html#mapping-drives-with-windows-explorer "Permalink to this heading")
 
 To map a drive using the Microsoft Windows Explorer:
 
@@ -39,7 +37,7 @@ To map a drive using the Microsoft Windows Explorer:
 
 
 
-### LDAP Integration in Nextcloud
+## LDAP Integration in Nextcloud
 
 |   |   |
 |---|---|
@@ -119,14 +117,14 @@ To map a drive using the Microsoft Windows Explorer:
 |---|---|
 |[11]|If configuration OK, it's possbile to login to NextCloud with LDAP users like follows.|
 
-### Fixing the Chuck upload issues
-### Fix:
+## Fixing the Chuck upload issues
+## Fix
 
  I found simply setting the maximum chunk size to 50 MB (half of Cloudflare's 100 MB upload size limit) worked to resolve this issue.
 
 I put together a short guide to fix this issue with the latest stable release ([3.4.4](https://github.com/nextcloud/desktop/releases/tag/v3.4.4), but should work on any client v3.4+). I tried to make it as accessible as possible to follow.
 
-### Windows Fix
+## Windows Fix
 
 Press `Win+R` on your keyboard to open the `Run` application. Past the following in the dialog box:
 
@@ -140,7 +138,7 @@ Add the following line under the `[General]` section:
 
 Save the file, quit Nextcloud desktop, and start it again.
 
-### MacOS Fix
+## MacOS Fix
 
 Open a Finder window and press `Command+Shift+G` on your keyboard. This will bring up a 'Go to folder' window. Paste the following in the dialog box:
 
@@ -154,7 +152,7 @@ Add the following line under the `[General]` section:
 
 Save the file, quit Nextcloud desktop, and start it again.
 
-### Linux Fix
+## Linux Fix
 
 Open a terminal window and edit the following file:
 
@@ -166,12 +164,11 @@ Add the following line under the `[General]` section:
 
 Save the file (`Ctl+o`, `Ctl+x`), then quit Nextcloud desktop, and start it again.
 
-
 # NEXTCLOUD + CLAMAV ANTIVIRUS
 
  Wed, Jul 21, 2021  17-minute read
 
-### Table of Contents
+## Table of Contents
 
 - [Requirements](https://rair.dev/nextcloud-clamav-antivirus/#0-requirements-)
 - [Overview](https://rair.dev/nextcloud-clamav-antivirus/#1-overview-)
@@ -206,14 +203,14 @@ Thank you for visiting my site and checking out this post! I hope you find it he
 
 ---
 
-## Requirements
+# Requirements
 
 - A working Nextcloud instance (via Docker or Bare Metal)
 - Root access to your server
 - Basic familiarity with Linux command line
 - **Minimum** 2GB of RAM (not required but highly recommended)
 
-## Overview
+# Overview
 
 The screenshots and commands are from a Ubuntu 20.04 server since it is one of the most commonly deployed, but will work on just about any server. You may notice the requirement of 2GB of RAM. While normally Nextcloud can run on as little as 512MB, the ClamAV scanner loads the virus database into RAM and will occupy **1-1.3GB of RAM**! If you are running on a very low RAM machine, there is an alternative which [I discuss below](https://rair.dev/nextcloud-clamav-antivirus/#15-option-for-low-memory-systems-), but is generally not recommended as it will severely impact performance.
 
@@ -221,7 +218,7 @@ Like many Nextcloud Apps, the one you install via Nextcloud Hub is only a _conn
 
 Once the ClamAV packages and ClamAV for Nextcloud app is installed, we will use the 4 [EICAR test files](https://www.eicar.org/?page_id=3950) to make sure the antivirus software is working and behaving as expected. Note that these files are industry-standard test files that contain no actual viruses in them.
 
-### Docker vs. Bare Metal
+## Docker vs. Bare Metal
 
 If you’ve seen any of my other posts, you will probably note that I prefer to use Docker when running Nextcloud. This is primarily to handle dependencies that can get out of hand when you want to run multiple micro-services on the same server. The good news is, my preferred way to integrate ClamAV is actually identical no matter how you have Nextcloud installed.
 
@@ -229,7 +226,7 @@ I prefer to install ClamAV directly on the host instead of using a Docker contai
 
 I will also show how to run ClamAV in a Docker container if that is the route you wish to pursue.
 
-## Preparation
+# Preparation
 
 To give you an idea of how the antivirus scanner works, I have created a new Nextcloud environment (v22) and uploaded one of the EICAR test files. The file uploaded just fine:
 
@@ -237,7 +234,7 @@ To give you an idea of how the antivirus scanner works, I have created a new Nex
 
 One of the EICAR test files uploaded to my Nextcloud.
 
-## Install ClamAV on the Host Machine (Recommended method)
+# Install ClamAV on the Host Machine (Recommended method)
 
 This first approach, I believe, gives the most flexibility to use the antivirus scanner within Docker and outside if you so wish. Let’s begin by grabbing the 3 required packages:
 
@@ -252,11 +249,11 @@ $ sudo apt install clamav clamav-daemon clamav-freshclam
 > - **clamav-daemon** – The `systemd` unit that runs ClamAV in the background. This is what allows Nextcloud to run frequent filesystem scans as well as scanning files when they are uploaded. To use otherwise, use the command `clamdscan`.
 > - **clamav-freshclam** – The `systemd` unit that runs the virus definition update in the background. By default it will check for updates every 30 minutes.
 
-### Check Virus Database and Daemon Status
+## Check Virus Database and Daemon Status
 
 Before we jump straight in, we should make sure that the virus database has loaded correctly and that the `systemd` unit has started correctly.
 
-#### Virus Database Status
+### Virus Database Status
 
 Once installed, be patient as it will likely take a few minutes for the initial virus database to download. You can have a look at the progress with:
 
@@ -268,7 +265,7 @@ $ sudo cat /var/log/clamav/freshclam.log
 
 We see `freshclam` updating our virus definitions.
 
-#### Background Virus Scanner Service
+### Background Virus Scanner Service
 
 Let’s see if the `clamav-daemon` started by using:
 
@@ -296,7 +293,7 @@ I got no output from the above command, but checking the status again gives me a
 
 Over half the machine’s memory used (for a good cause)!
 
-### Prepare Nextcloud (Docker)
+## Prepare Nextcloud (Docker)
 
 If you have installed Nextcloud via Docker, read on. Otherwise, [skip to the section below.](https://rair.dev/nextcloud-clamav-antivirus/#9-install-nextcloud-antivirus-for-files-app-)
 
@@ -322,7 +319,7 @@ version: 'X.X'
 
 Docker Run
 
-### Install Nextcloud ‘Antivirus for files’ App
+## Install Nextcloud ‘Antivirus for files’ App
 
 As a Nextcloud admin, head to your Apps hub and click the magnifying glass in the top corner. Search for “Antivirus” and you should see the correct App show up. As of writing this, it is at version 3.2.1:
 
@@ -332,7 +329,7 @@ Nextcloud Antivirus connector App.
 
 Click ‘**Download and enable**‘, followed by your admin password.
 
-#### Configure Antivirus App for Daemon (Socket) Mode
+### Configure Antivirus App for Daemon (Socket) Mode
 
 Head to your ‘**Settings**‘ panel by clicking your profile picture in the top right corner. Down in the ‘**Administration**‘ section, you will find a ‘**Security**‘ category.
 
@@ -354,11 +351,11 @@ There is also an advanced section, but there really shouldn’t be anything to c
 
 Move on to the [Test the System](https://rair.dev/nextcloud-clamav-antivirus/#19-test-the-system-) section.
 
-## Install ClamAV via Docker
+# Install ClamAV via Docker
 
 Some may prefer this method, but it limits the availability of ClamAV to containers it shares a network with. It also makes it difficult to run ClamAV on the host machine (but not impossible). This was the way I started and it worked great, but I prefer the above option. [More info from ClamAV.](https://docs.clamav.net/manual/Installing/Docker.html)
 
-### Add ClamAV Container to Nextcloud Network
+## Add ClamAV Container to Nextcloud Network
 
 Docker-compose
 
@@ -393,11 +390,11 @@ Docker Run
 
 Once the container is up and running, it might need a minute or two to fully finish starting up.
 
-### Install Nextcloud “Antivirus for files” App
+## Install Nextcloud “Antivirus for files” App
 
 [Follow the instructions above](https://rair.dev/nextcloud-clamav-antivirus/#9-install-nextcloud-antivirus-for-files-app-), return here once installed.
 
-#### Configure Antivirus App for Daemon Mode
+### Configure Antivirus App for Daemon Mode
 
 Head to your ‘**Settings**‘ panel by clicking your profile picture in the top right corner. Down in the ‘**Administration**‘ section, you will find a ‘**Security**‘ section.
 
@@ -420,22 +417,22 @@ There is also an advanced section, but there really shouldn’t be anything to c
 
 Move on to the [Test the System](https://rair.dev/nextcloud-clamav-antivirus/#19-test-the-system-) section below.
 
-## Option for Low-Memory systems
+# Option for Low-Memory systems
 
 This option will not ultimately lower the requirements for ClamAV. Instead of having the constant overhead of the 1+GB virus definition library loaded into memory, it will only load the definitions on demand. This might seem like a benefit to most, but uploading files and background scans are slow and still require memory.
 
 > **Warning:**  
 > This won’t work for a Dockerized Nextcloud instance. To use the ClamAV scanning program (binary) `clamscan`, we also need access to the libraries which it depends on. Mounting all of them into your Nextcloud container is not advised/feasible.
 
-### Install ClamAV on the Host Machine
+## Install ClamAV on the Host Machine
 
 [Follow the instructions above](https://rair.dev/nextcloud-clamav-antivirus/#4-install-clamav-on-the-host-machine-recommended-) to install the required ClamAV packages on your host machine. The ClamAV `systemd` unit does not need to be started.
 
-### Install Nextcloud “Antivirus for files” App
+## Install Nextcloud “Antivirus for files” App
 
 [Follow the instructions above](https://rair.dev/nextcloud-clamav-antivirus/#9-install-nextcloud-antivirus-for-files-app-), return here once installed.
 
-#### Configure Antivirus App for Executable Mode
+### Configure Antivirus App for Executable Mode
 
 Head to your ‘**Settings**‘ panel by clicking your profile picture in the top right corner. Down in the ‘**Administration**‘ section, you will find a ‘**Security**‘ section.
 
@@ -456,13 +453,13 @@ Complete the following:
 
 There is also an advanced section, but there really shouldn’t be anything to change there.
 
-## Test the System
+# Test the System
 
 As always, it’s best to test the system to ensure everything is working and any bad files are detected. If you recall from the introduction, I uploaded an EICAR test file (**infected.zip**) to my Nextcloud. This should be picked up by the background scanning service.
 
 As far as I can tell, it is run in conjunction with `cron` jobs. So make sure you have [cron setup and working correctly](https://rair.dev/nextcloud-cron/). My test instance was initially using **AJAX** and did not run the background scan to detect the file. It appears that on larger installations, the background scanner picks a handful of files to scan at a time and eventually works its way through your entire Nextcloud file system.
 
-### Upload the EICAR Test Files
+## Upload the EICAR Test Files
 
 While waiting for background scans, I decided to try and upload the 4 test files from EICAR (see link in [Overview](https://rair.dev/nextcloud-clamav-antivirus/#1-overview-) section) to my Nextcloud. I was greeted with a warning message in the top right of the screen, and lots of error messages in the Nextcloud Log.
 
@@ -476,7 +473,7 @@ Antivirus hits are easy to spot in the logs.
 
 This looks good, the scanner is effectively checking files as I upload them and ensuring they don’t even make it to Nextcloud.
 
-### Check Background Scans
+## Check Background Scans
 
 The background scan eventually ran and caught the **infected.zip** file. I was given a notification in the ‘**Activities**‘ App. Looking in my ‘**Activities**‘ App, the ‘**Antivirus**‘ section at the bottom filters the other activities out.
 
@@ -489,11 +486,11 @@ Two things to note:
 1. The virus was detected and logged, but the file was **not deleted**. I like to keep it this way, so I can see what is infected and decide what to do with it. Part of the reason is because occasionally there are **false positives**:
 2. While testing the size limits of the scanner, I uploaded a large RAW image I was working on. For some reason, the scanner decided it also had the same EICAR test virus in it as well. This is definitely not the case, and upon deleting and uploading again, the file is fine, no false detection.
 
-## Bonus Extras
+# Bonus Extras
 
 The above should get you started and provide a good amount of protection against viruses and potential threats. But I wanted to share a few tips I learned from using ClamAV with Nextcloud.
 
-### Add Push Notifications
+## Add Push Notifications
 
 By default, there are no push notifications. Head to your ‘**Settings**‘ –> ‘**Administration**‘ –> ‘**Activity**’, and scroll to the bottom under ‘**Other Activities**‘. You will see a checkbox for push notifications under ‘**Antivirus detected a virus**‘. Here you can also optionally set email notifications if you have an email service setup.
 
@@ -501,13 +498,13 @@ By default, there are no push notifications. Head to your ‘**Settings**‘ –
 
 Enable push notifications to see threats immediately.
 
-### ClamAV Tweaks
+## ClamAV Tweaks
 
 The below settings primarily live in your `/etc/clamav/clamd.conf` file. Below are a few of my preferred settings, but you can also have a look through all of the options available by using the `man clamd.conf` command.
 
 Open with your favorite editor and change the following:
 
-#### Change Socket Permissions
+### Change Socket Permissions
 
 For some reason the default is a world read-write accessible socket. Definitely not a good idea. Let’s change that to remove the permissions for ‘other’ users.
 
@@ -515,7 +512,7 @@ For some reason the default is a world read-write accessible socket. Definitely 
 LocalSocketMode 660
 ```
 
-#### Alert When File Too Large
+### Alert When File Too Large
 
 When background scanning, you can use this setting to alert you if a file was not scanned. By default, we set our ‘**Stream Length**‘ to scan files up to 25MiB in size, and no limit on the background scanner. However many files larger than 25MiB were still skipped.
 
@@ -526,7 +523,7 @@ AlertExceedsMax true
 > **Warning:**  
 > This will mark files as detected infections, with the `Heuristics.Exceeds.Limit` infection. This is not an infection at all, just warning you that it was not scanned fully. If you see this error constantly, see the tweak below. Once you’ve increased the file scan size, this can safely be set to `false`.
 
-#### Scanning Larger Files
+### Scanning Larger Files
 
 I would occasionally get an error in my Nextcloud logs that there was a problem with ‘Stream Max Size’. Digging further, I realized that setting things like `MaxFileSize`, `MaxScanSize`, etc. did not affect it. This is because of how Nextcloud utilizes the ClamAV daemon by ‘streaming’ a file to it. We instead need to change the `StreamMaxLength`. See above to know how big to change it to.
 
@@ -536,7 +533,7 @@ StreamMaxLength 200M
 
 I also upped the ‘**Stream Length**‘ setting in my Antivirus App to a larger size (104857600 bytes or 100 MiB).
 
-#### Detect Potentially Unwanted Applications (PUA)
+### Detect Potentially Unwanted Applications (PUA)
 
 [See the documentation](https://docs.clamav.net/faq/faq-pua.html) on this as it appears to be a big topic. I’ve been using it for a while now with not many false positives. The short version is that it is a new library to detect bad programs across a multitude of platforms (Android, Windows, etc.)
 
@@ -544,7 +541,7 @@ I also upped the ‘**Stream Length**‘ setting in my Antivirus App to a larger
 DetectPUA true
 ```
 
-#### Log File Max Size
+### Log File Max Size
 
 Log files can be super valuable, but can also grow to massive size and take up valuable space on your drives. Best to limit them so they are rotated regularly.
 
@@ -552,7 +549,7 @@ Log files can be super valuable, but can also grow to massive size and take up v
 LogFileMaxSize 10M
 ```
 
-#### Restart the ClamAV Daemon
+### Restart the ClamAV Daemon
 
 After making any of the changes above, we will need to restart the `systemd` unit.
 
@@ -564,7 +561,7 @@ $ sudo systemctl restart clamav-daemon.service
 
 ClamAV on Docker
 
-## What do I do when an infected file is found?
+# What do I do when an infected file is found?
 
 ![false positives depend on settings](https://rair.dev/nextcloud-clamav-antivirus/14-false-positives.png)
 
@@ -578,14 +575,14 @@ Ask yourself: Where did this file come from? Do I trust the source? How critical
 
 When in doubt, [make a backup](https://rair.dev/nextcloud-backup-pt-1/) and delete the file, or scan with another virus scanning software.
 
-## Conclusion
+# Conclusion
 
 Viruses and malware are most commonly distributed via emails and unsolicited links. But occasionally we may receive a file from a friend who unknowingly is passing around an infected file (insert your favorite COVID reference here). Integrating it into Nextcloud is relatively painless and if you have a bit of RAM to spare, can be useful for some added protection.
 
 The ClamAV program is not a full fledged antivirus suite, but does a great job in detecting many threats to our digital lives. It might not be as intuitive as the big names like McAfee, BitDefender, Avira, Malwarebytes, etc. But at least it won’t be pushing you to upgrade to ‘Premium’ constantly.
 
+# Troubleshooting
 
-## Troubleshooting
 There are some warnings regarding your setup.
 
 - The PHP module "imagick" is not enabled although the theming app is. For favicon generation to work correctly, you need to install and enable this module.

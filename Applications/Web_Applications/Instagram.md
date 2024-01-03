@@ -12,7 +12,9 @@ tags:
 dateModified: 
 ---
 # Instagram
+
 This note provides information about accessing and viewing Instagram posts without having an Instagram account, specifically by using a free third-party web-based service called Imginn. It covers the process of searching for and downloading people's Instagram posts, videos, and reels on this site, as well as the drawbacks of dealing with intrusive ads.
+
 ## [How to View Instagram Posts Without an Account](https://www.howtogeek.com/847968/how-to-view-instagram-posts-without-an-account/ "See on original website")
 
 [![Instagram logo.](https://www.howtogeek.com/wp-content/uploads/2021/11/Instagram-logo.png?width=1198&trim=1,1&bg-color=000&pad=1,1)

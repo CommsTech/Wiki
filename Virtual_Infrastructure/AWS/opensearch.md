@@ -60,7 +60,7 @@ OpenSearch integrates with open-source tools including:
 
 -   Logstash.
 -   OpenTelemetry.
--   [[ElasticSearch]] APIs.
+-   [[Install_ElasticSearch_on_Ubuntu]] APIs.
 
 ## OpenSearch in an Amazon VPC
 
