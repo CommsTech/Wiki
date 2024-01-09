@@ -1,4 +1,14 @@
+---
+title: 
+description: 
+dateCreated: 
+published: 
+editor: markdown
+tags: 
+dateModified: 
+---
 # AI Tools Chart
+
 | AI Tool          | Description                                                   | Free/Paid | Website                                             |
 |------------------|---------------------------------------------------------------|-----------|----------------------------------------------------|
 | Weka              | Machine learning builds and deploys models                     | Free      | [www.cs.waikato.ac.nz/ml/weka/](http://www.cs.waikato.ac.nz/ml/weka/) |
@@ -10,6 +20,7 @@
 | Metaphor          | Web search engine with NLP                              | Free      | [Nometaphor.systems](https://nometaphor.systems)     |
 | Datalang         | Query databases in plain language for non-expert users    | From $19/mo | [nodatalang.io](https://nodatalang.io)             |
 | Noeva            | N/A                                                      | Free      | free.noeva.circul.us                              |
+
 Apologies for the truncation in my previous response. Here's the continuation of the chart:
 
 | AI Tool          | Description                                                   | Free/Paid | Website                                             |
@@ -26,6 +37,7 @@ Apologies for the truncation in my previous response. Here's the continuation of
 | Palantir         | Threat detection and situational awareness                | Paid      | [www.palantir.com](http://www.palantir.com)       |
 | SymphonyAI       | Threat detection and situational awareness                | Paid      | [www.symphonyai.com](http://www.symphonyai.com)     |
 | Recorded Future   | Threat intelligence and prediction                        | Paid      | [www.recordedfuture.com](https://www.recordedfuture.com
+
 Apologies for any confusion earlier. Here's the continuation of the chart with the remaining AI tools from the context:
 
 | AI Tool          | Description                                                   | Free/Paid | Website                                             |

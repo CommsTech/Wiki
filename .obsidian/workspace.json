@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/AI_Tools.md",
+                "file": "TV_Streaming_Devices/Amazon_FireTV.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "plex",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -94,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/AI_Tools.md",
+                "file": "TV_Streaming_Devices/Amazon_FireTV.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/AI_Tools.md",
+                "file": "TV_Streaming_Devices/Amazon_FireTV.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/AI_Tools.md"
+                "file": "TV_Streaming_Devices/Amazon_FireTV.md"
               }
             }
           },
@@ -194,8 +195,8 @@
   },
   "active": "262137e2d8490059",
   "lastOpenFiles": [
-    "Applications/Applications_Home.md",
     "AI/AI_Tools.md",
+    "Applications/Applications_Home.md",
     "Applications/Web_Applications/Web_Applications_Home.md",
     "Applications/Web_Applications/Search_Engines.md",
     "Applications/Web_Applications/Plex_Web_Client_Settings.md",
