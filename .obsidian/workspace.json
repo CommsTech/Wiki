@@ -174,9 +174,17 @@
               "type": "custom-frames-privategpt",
               "state": {}
             }
+          },
+          {
+            "id": "4cd703e8013ef57b",
+            "type": "leaf",
+            "state": {
+              "type": "pieces-snippet-list",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -193,8 +201,10 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "262137e2d8490059",
+  "active": "4cd703e8013ef57b",
   "lastOpenFiles": [
+    "piecesdb.json",
+    "TV_Streaming_Devices/Amazon_FireTV.md",
     "AI/AI_Tools.md",
     "Applications/Applications_Home.md",
     "Applications/Web_Applications/Web_Applications_Home.md",
@@ -219,8 +229,6 @@
     "Applications/Server_Applications/Tdarr.md",
     "Applications/Server_Applications/uptime-kuma.md",
     "Applications/Server_Applications/install_ucaresystem-core_Ubuntu.md",
-    "Applications/Server_Applications/unifi.md",
-    "Applications/Server_Applications/terraform.md",
     "assets/documents/security-guidance-v4-final-feb27-18.pdf",
     "assets/documents/Cloud+_CV0-002_objectives.pdf",
     "assets/documents/AWS-Certified-SysOps-Administrator-Associate_Sample-Questions.pdf",
