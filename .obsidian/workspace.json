@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Certifications/VMWare/VMWare_Certified_Professional_6.md",
+                "file": "Applications/Server_Applications/Ansible/Ansible_Vault.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "plex",
+                "query": "ansible",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Certifications/VMWare/VMWare_Certified_Professional_6.md",
+                "file": "Applications/Server_Applications/Ansible/Ansible_Vault.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Certifications/VMWare/VMWare_Certified_Professional_6.md",
+                "file": "Applications/Server_Applications/Ansible/Ansible_Vault.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Certifications/VMWare/VMWare_Certified_Professional_6.md"
+                "file": "Applications/Server_Applications/Ansible/Ansible_Vault.md"
               }
             }
           },
@@ -202,8 +202,10 @@
   },
   "active": "262137e2d8490059",
   "lastOpenFiles": [
-    "Certifications/VMWare/VMWare_Home.md",
+    "Applications/Server_Applications/Ansible/Ansible.md",
+    "Applications/Server_Applications/Ansible/Ansible_Vault.md",
     "Certifications/VMWare/VMWare_Certified_Professional_6.md",
+    "Certifications/VMWare/VMWare_Home.md",
     "Certifications/VMWare",
     "piecesdb.json",
     "TV_Streaming_Devices/Amazon_FireTV.md",
@@ -228,8 +230,6 @@
     "Applications/Server_Applications/VM_Filetypes.md",
     "Applications/Server_Applications/vcenter_Troubleshooting.md",
     "Applications/Server_Applications/vagrant_Cheat_Sheet.md",
-    "Applications/Server_Applications/Tdarr.md",
-    "Applications/Server_Applications/uptime-kuma.md",
     "assets/documents/security-guidance-v4-final-feb27-18.pdf",
     "assets/documents/Cloud+_CV0-002_objectives.pdf",
     "assets/documents/AWS-Certified-SysOps-Administrator-Associate_Sample-Questions.pdf",
