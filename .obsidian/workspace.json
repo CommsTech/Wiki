@@ -19,8 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "357647df0a59e8f4",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.8"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -191,6 +202,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "chat-cbt:ChatCBT": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -200,7 +212,7 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "262137e2d8490059",
+  "active": "357647df0a59e8f4",
   "lastOpenFiles": [
     "Applications/Server_Applications/Ansible/Ansible.md",
     "Applications/Server_Applications/Ansible/Ansible_Vault.md",
