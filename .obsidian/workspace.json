@@ -24,9 +24,12 @@
             "id": "357647df0a59e8f4",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.5.8"
+                "file": "Applications/Server_Applications/Ansible/Ansible_for_cisco_ios_yetiops.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -105,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/Ansible/Ansible_Vault.md",
+                "file": "Applications/Server_Applications/Ansible/Ansible_for_cisco_ios_yetiops.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/Ansible/Ansible_Vault.md",
+                "file": "Applications/Server_Applications/Ansible/Ansible_for_cisco_ios_yetiops.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/Ansible/Ansible_Vault.md"
+                "file": "Applications/Server_Applications/Ansible/Ansible_for_cisco_ios_yetiops.md"
               }
             }
           },
@@ -214,6 +217,7 @@
   },
   "active": "357647df0a59e8f4",
   "lastOpenFiles": [
+    "Applications/Server_Applications/Ansible/Ansible_for_cisco_ios_yetiops.md",
     "Applications/Server_Applications/Ansible/Ansible.md",
     "Applications/Server_Applications/Ansible/Ansible_Vault.md",
     "Certifications/VMWare/VMWare_Certified_Professional_6.md",
@@ -241,7 +245,6 @@
     "Applications/Server_Applications/vscode.md",
     "Applications/Server_Applications/VM_Filetypes.md",
     "Applications/Server_Applications/vcenter_Troubleshooting.md",
-    "Applications/Server_Applications/vagrant_Cheat_Sheet.md",
     "assets/documents/security-guidance-v4-final-feb27-18.pdf",
     "assets/documents/Cloud+_CV0-002_objectives.pdf",
     "assets/documents/AWS-Certified-SysOps-Administrator-Associate_Sample-Questions.pdf",
