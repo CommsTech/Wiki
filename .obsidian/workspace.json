@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating_Systems/Windows/Windows_Domain_Controller_Domain_Rename.md",
+                "file": "Virtual_Infrastructure/VMware/vmware_convert_Thick_to_Thin.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating_Systems/Windows/Windows_Domain_Controller_Domain_Rename.md",
+                "file": "Virtual_Infrastructure/VMware/vmware_convert_Thick_to_Thin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating_Systems/Windows/Windows_Domain_Controller_Domain_Rename.md",
+                "file": "Virtual_Infrastructure/VMware/vmware_convert_Thick_to_Thin.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating_Systems/Windows/Windows_Domain_Controller_Domain_Rename.md"
+                "file": "Virtual_Infrastructure/VMware/vmware_convert_Thick_to_Thin.md"
               }
             }
           },
@@ -215,11 +215,12 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "73ee420029073090",
+  "active": "357647df0a59e8f4",
   "lastOpenFiles": [
+    "Operating_Systems/Windows/Windows_Domain_Controller_Domain_Rename.md",
+    "Virtual_Infrastructure/VMware/vmware_convert_Thick_to_Thin.md",
     "Virtual_Infrastructure/VMware",
     "Applications/Server_Applications/Ansible/Ansible_for_cisco_ios_yetiops.md",
-    "Operating_Systems/Windows/Windows_Domain_Controller_Domain_Rename.md",
     "Applications/Server_Applications/Ansible/Ansible.md",
     "Applications/Server_Applications/Ansible/Ansible_Vault.md",
     "Certifications/VMWare/VMWare_Certified_Professional_6.md",
@@ -252,7 +253,6 @@
     "AI/GPT_Prompts",
     "Applications/Server_Applications/Ansible/Playbooks",
     "Cyber_Security/Terminology",
-    "Cyber_Security",
     "assets/images/Pasted image 20230923143719.png",
     "assets/images/Pasted image 20231130184644.png",
     "assets/images/Pasted image 20230923143931.png",
