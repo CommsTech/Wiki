@@ -1,4 +1,13 @@
-# OW TO CONVERT THICK PROVISION LAZY ZEROED DISK TO THIN ON VMWARE ESXI?
+---
+title: 
+description: 
+dateCreated: 
+published: 
+editor: markdown
+tags: 
+dateModified: 
+---
+# HOW TO CONVERT THICK PROVISION LAZY ZEROED DISK TO THIN ON VMWARE ESXI?
 
 written by [Cyril Kardashevsky](https://theitbros.com/author/administrator/) May 18, 2023
 
@@ -156,7 +165,7 @@ Using VMware Converter, you can convert a VM to a new VM on the same ESXi host, 
 
 ![convert vmdk to thin provision](https://theitbros.com/wp-content/uploads/2020/11/convert-thick-provisioned-to-thin-vmware.png "convert vmdk to thin provision")
 
-## FAQs Section:
+## FAQs Section
 
 1. **What are the different types of virtual disks that VMWare uses?** VMWare uses three types of disks: Thick Provision Lazy Zeroed, Thick Provision Eager Zeroed, and Thin Provision.
 2. **What’s the difference between Thick Provision Lazy Zeroed, Thick Provision Eager Zeroed, and Thin Provision?** The Thick Provision Lazy Zeroed format allocates all virtual disk space upon creation, but the blocks aren’t cleared of earlier data. Thick Provision Eager Zeroed also allocates all space at creation but clears all storage blocks of the data that was there earlier. Thin Provision, on the other hand, starts with minimum size and grows as they fill up with data.
