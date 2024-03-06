@@ -1,3 +1,12 @@
+---
+title: 
+description: 
+dateCreated: 
+published: 
+editor: markdown
+tags: 
+dateModified: 
+---
 # from yetiops.net
 
 # [Ansible for Networking - Part 3: Cisco IOS](https://yetiops.net/posts/ansible-for-networking-part-3-cisco-ios/)
@@ -884,7 +893,7 @@ The main playbook looks like the below: -
 
 YAML
 
-There aren’t many tasks here, but thats because I have separated out OSPF, OSPFv3 and BGP into their own playbooks, and include them as part of the main playbook. This helps for readability of the individual playbooks, rather than one big playbook with lots of tasks.
+There aren’t many tasks here, but that's because I have separated out OSPF, OSPFv3 and BGP into their own playbooks, and include them as part of the main playbook. This helps for readability of the individual playbooks, rather than one big playbook with lots of tasks.
 
 #### OSPF Playbook
 
