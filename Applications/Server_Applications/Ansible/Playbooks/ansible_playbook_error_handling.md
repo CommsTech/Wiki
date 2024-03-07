@@ -1,3 +1,14 @@
+---
+title: 
+description: 
+dateCreated: 
+published: 
+editor: markdown
+tags: 
+dateModified: 
+---
+# ansible_playbook_error_handling
+
 Ansible is a very powerful tool that allows you to automate a huge variety of platforms across servers, clouds, networks, containers, and more.
 
 Often you will be able to automate what you want by simply reusing existing [roles](https://docs.ansible.com/ansible/latest/user_guide/playbooks_reuse_roles.html) and [collections](https://docs.ansible.com/ansible/latest/user_guide/collections_using.html).
@@ -311,7 +322,6 @@ PLAY RECAP *********************************************************************
 
 localhost : ok=1 changed=0 unreachable=0 failed=0 skipped=0 rescued=0 ignored=0  
 ```
-
 
 What happened here:
 

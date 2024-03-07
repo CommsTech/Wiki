@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/Ansible/Playbooks/ansible_playbook_error_handling.md",
+                "file": "Applications/Server_Applications/Ansible/ansible_ad-hoc.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/Ansible/Playbooks/ansible_playbook_error_handling.md",
+                "file": "Applications/Server_Applications/Ansible/ansible_ad-hoc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/Ansible/Playbooks/ansible_playbook_error_handling.md",
+                "file": "Applications/Server_Applications/Ansible/ansible_ad-hoc.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/Ansible/Playbooks/ansible_playbook_error_handling.md"
+                "file": "Applications/Server_Applications/Ansible/ansible_ad-hoc.md"
               }
             }
           },
@@ -217,8 +217,9 @@
   },
   "active": "357647df0a59e8f4",
   "lastOpenFiles": [
-    "Applications/Server_Applications/Netbox/Netbox_Home.md",
     "Applications/Server_Applications/Ansible/Playbooks/ansible_playbook_error_handling.md",
+    "Applications/Server_Applications/Ansible/ansible_ad-hoc.md",
+    "Applications/Server_Applications/Netbox/Netbox_Home.md",
     "Applications/Server_Applications/Netbox/Netbox_Cisco_PnP.md",
     "Applications/Server_Applications/Skydrive.md",
     "Applications/Server_Applications/Netbox",
@@ -246,7 +247,6 @@
     "Applications/Server_Applications/wsl_cheat_sheet.md",
     "Applications/Server_Applications/wireguard.md",
     "Applications/Server_Applications/Wiki_JS.md",
-    "Applications/Server_Applications/Wazuh_on_Security_Onion.md",
     "assets/documents/security-guidance-v4-final-feb27-18.pdf",
     "assets/documents/Cloud+_CV0-002_objectives.pdf",
     "assets/documents/AWS-Certified-SysOps-Administrator-Associate_Sample-Questions.pdf",
