@@ -1,3 +1,13 @@
+---
+title: 
+description: 
+dateCreated: 
+published: 
+editor: markdown
+tags: 
+dateModified: 
+---
+# ansible_ad-hoc
 ## Introduction
 
 Ansible, a powerful automation tool, provides two primary ways to perform tasks on remote machines: playbooks and ad-hoc commands. This article focuses on the latter.
