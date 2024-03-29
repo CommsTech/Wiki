@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ansible",
+                "query": "frigate",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +88,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -215,7 +216,7 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "357647df0a59e8f4",
+  "active": "44984e271aedb61f",
   "lastOpenFiles": [
     "Applications/Server_Applications/Ansible/Playbooks/ansible_playbook_error_handling.md",
     "Applications/Server_Applications/Ansible/ansible_ad-hoc.md",
