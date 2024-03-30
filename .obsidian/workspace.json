@@ -26,7 +26,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/gittea.md",
+                "file": "Applications/Server_Applications/Home_Assistant.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "de537c54b47ccbfe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home_Assistant_Chores.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -63,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "gittea",
+                "query": "frigate",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,8 +101,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -109,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/gittea.md",
+                "file": "Home_Assistant_Chores.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/gittea.md",
+                "file": "Home_Assistant_Chores.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/gittea.md"
+                "file": "Home_Assistant_Chores.md"
               }
             }
           },
@@ -216,8 +228,11 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "357647df0a59e8f4",
+  "active": "de537c54b47ccbfe",
   "lastOpenFiles": [
+    "Applications/Server_Applications/Home_Assistant.md",
+    "Home_Assistant_Chores.md",
+    "Applications/Server_Applications/gittea.md",
     "Applications/Server_Applications/Ansible/ansible_ad-hoc.md",
     "Applications/Server_Applications/Ansible/Playbooks/ansible_playbook_error_handling.md",
     "Applications/Server_Applications/Netbox/Netbox_Home.md",
@@ -245,9 +260,6 @@
     "Applications/Web_Applications/HTTPVersions.md",
     "Applications/Web_Applications/HTMLtoMD.md",
     "Applications/Web_Applications/Driftnet.md",
-    "Applications/Server_Applications/wsl_cheat_sheet.md",
-    "Applications/Server_Applications/wireguard.md",
-    "Applications/Server_Applications/Wiki_JS.md",
     "assets/documents/security-guidance-v4-final-feb27-18.pdf",
     "assets/documents/Cloud+_CV0-002_objectives.pdf",
     "assets/documents/AWS-Certified-SysOps-Administrator-Associate_Sample-Questions.pdf",

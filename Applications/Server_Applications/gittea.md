@@ -14,13 +14,16 @@ dateModified:
 Modifications to Truecharts Base Config
 
 I kept getting this error
+
 ```
 Your ROOT_URL in app.ini is http://192.168.255.25/ but you are visiting https://git.commsnet.org/ You should set ROOT_URL correctly, otherwise the web may not work correctly.
 ```
-![[Capture.png]]
-You have to make the following change
-![[gitea_server_settings_screenshot.png]]
 
+![[Capture.png]]
+
+You have to make the following change
+
+![[gitea_server_settings_screenshot.png]]
 
 # Configuration Cheat Sheet
 
