@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home_Assistant_Chores.md",
+                "file": "Applications/Raspberry_pi_Applications/Raspberry_pi_7inch_Screen.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -76,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "frigate",
+                "query": "invidious",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home_Assistant_Chores.md",
+                "file": "Applications/Raspberry_pi_Applications/Raspberry_pi_7inch_Screen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home_Assistant_Chores.md",
+                "file": "Applications/Raspberry_pi_Applications/Raspberry_pi_7inch_Screen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home_Assistant_Chores.md"
+                "file": "Applications/Raspberry_pi_Applications/Raspberry_pi_7inch_Screen.md"
               }
             }
           },
@@ -230,8 +230,9 @@
   },
   "active": "de537c54b47ccbfe",
   "lastOpenFiles": [
-    "Applications/Server_Applications/Home_Assistant.md",
     "Home_Assistant_Chores.md",
+    "Applications/Raspberry_pi_Applications/Raspberry_pi_7inch_Screen.md",
+    "Applications/Server_Applications/Home_Assistant.md",
     "Applications/Server_Applications/gittea.md",
     "Applications/Server_Applications/Ansible/ansible_ad-hoc.md",
     "Applications/Server_Applications/Ansible/Playbooks/ansible_playbook_error_handling.md",
@@ -259,7 +260,6 @@
     "Applications/Web_Applications/Instagram.md",
     "Applications/Web_Applications/HTTPVersions.md",
     "Applications/Web_Applications/HTMLtoMD.md",
-    "Applications/Web_Applications/Driftnet.md",
     "assets/documents/security-guidance-v4-final-feb27-18.pdf",
     "assets/documents/Cloud+_CV0-002_objectives.pdf",
     "assets/documents/AWS-Certified-SysOps-Administrator-Associate_Sample-Questions.pdf",

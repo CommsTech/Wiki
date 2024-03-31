@@ -1,0 +1,8 @@
+modify the boot config.txt file located at /boot/config.txt
+```
+hdmi_group = 2
+hdmi_mode = 1
+hdmi_mode = 87
+hdmi_cut 1024 600 60 6 0 0 0
+max_usb_current = 1
+```

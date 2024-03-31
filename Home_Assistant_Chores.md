@@ -1,5 +1,16 @@
+---
+title: 
+description: 
+dateCreated: 
+published: 
+editor: markdown
+tags: 
+dateModified: 
+---
+# Home_Assistant_Chores
 
 Original Article [Chore Tracking with Point System in Home Assistant - Smart Home Pursuits](https://smarthomepursuits.com/chore-tracking-with-point-system-in-home-assistant/)
+
 **In this guide, I’m going to show you how to create your own chore or task tracker within Home Assistant, using only default Home Assistant features** – no third-party products or additional addons/integrations are needed. You can optionally assign a point value to each chore, allowing your kids to earn “points” for completing their tasks. I consider this setup to be similar to a sticker chart or reward system.
 
 This setup has several moving parts, but I will document each step in detail so you can recreate it yourself. We will be creating Home Assistant Scripts, Helpers, Automations, and using Counters for this.
@@ -91,7 +102,7 @@ Under Sequence, choose **call service** and **counter.increment**.
 
 Name: Remove 1 Point
 
-Icon: hass:minus-thick
+Icon: hash:minus-thick
 
 Under Sequence, choose **call service** and **counter.decrement**.
 
@@ -101,7 +112,7 @@ Under Sequence, choose **call service** and **counter.decrement**.
 
 Name: Reset Points
 
-Icon: hass:backup-restore
+Icon: hash:backup-restore
 
 Under Sequence, choose **call service** and **counter.reset**.
 
@@ -336,11 +347,11 @@ mode: single
 
 ![](https://smarthomepursuits.com/wp-content/uploads/2021/08/image-247.png)
 
-### Home Week Gauge:
+### Home Week Gauge
 
 ![](https://smarthomepursuits.com/wp-content/uploads/2021/08/image-245.png)
 
-### Away Week Gauge:
+### Away Week Gauge
 
 ![](https://smarthomepursuits.com/wp-content/uploads/2021/08/image-246.png)
 
