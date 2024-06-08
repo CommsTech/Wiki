@@ -50,9 +50,12 @@
             "id": "e56846343f61aa8c",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.5.12"
+                "file": "Operating_Systems/Truenas_Scale/Multiuse_drives_in_truenas_scale.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -86,7 +89,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "invidious",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -131,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Raspberry_pi_Applications/Raspberry_pi_7inch_Screen.md",
+                "file": "Operating_Systems/Truenas_Scale/Multiuse_drives_in_truenas_scale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Raspberry_pi_Applications/Raspberry_pi_7inch_Screen.md",
+                "file": "Operating_Systems/Truenas_Scale/Multiuse_drives_in_truenas_scale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Raspberry_pi_Applications/Raspberry_pi_7inch_Screen.md"
+                "file": "Operating_Systems/Truenas_Scale/Multiuse_drives_in_truenas_scale.md"
               }
             }
           },
@@ -240,6 +243,8 @@
   },
   "active": "e56846343f61aa8c",
   "lastOpenFiles": [
+    "Operating_Systems/Truenas_Scale/TrueNas_Scale_Home.md",
+    "Operating_Systems/Truenas_Scale/Home.md",
     "Home_Assistant_Chores.md",
     "Applications/Raspberry_pi_Applications/Raspberry_pi_7inch_Screen.md",
     "Applications/Server_Applications/Home_Assistant.md",
@@ -268,8 +273,6 @@
     "Applications/Web_Applications/Plex_Web_Client_Settings.md",
     "Applications/Web_Applications/pdftomd.md",
     "Applications/Web_Applications/Instagram.md",
-    "Applications/Web_Applications/HTTPVersions.md",
-    "Applications/Web_Applications/HTMLtoMD.md",
     "assets/documents/security-guidance-v4-final-feb27-18.pdf",
     "assets/documents/Cloud+_CV0-002_objectives.pdf",
     "assets/documents/AWS-Certified-SysOps-Administrator-Associate_Sample-Questions.pdf",
