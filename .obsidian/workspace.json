@@ -45,9 +45,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e56846343f61aa8c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -228,7 +238,7 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "de537c54b47ccbfe",
+  "active": "e56846343f61aa8c",
   "lastOpenFiles": [
     "Home_Assistant_Chores.md",
     "Applications/Raspberry_pi_Applications/Raspberry_pi_7inch_Screen.md",
