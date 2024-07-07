@@ -65,15 +65,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating_Systems/Linux/Extend_LVM_Ubuntu.md",
+                "file": "Applications/Server_Applications/idrac7_Upgrade.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
+          },
+          {
+            "id": "50db9b69c5c5f56d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.5"
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -102,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Extend_LVM",
+                "query": "idrac",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -148,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating_Systems/Linux/Extend_LVM_Ubuntu.md",
+                "file": "Applications/Server_Applications/idrac7_Upgrade.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating_Systems/Linux/Extend_LVM_Ubuntu.md",
+                "file": "Applications/Server_Applications/idrac7_Upgrade.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating_Systems/Linux/Extend_LVM_Ubuntu.md"
+                "file": "Applications/Server_Applications/idrac7_Upgrade.md"
               }
             }
           },
@@ -255,8 +265,11 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "73f541fdf434e58d",
+  "active": "50db9b69c5c5f56d",
   "lastOpenFiles": [
+    "Applications/Server_Applications/IDRAC.md",
+    "Networking/Cisco/3850_Running_Config.md",
+    "Operating_Systems/Linux/Extend_LVM_Ubuntu.md",
     "Operating_Systems/Truenas_Scale/TrueNas_Scale_Home.md",
     "Operating_Systems/Truenas_Scale/Home.md",
     "Home_Assistant_Chores.md",
@@ -284,9 +297,6 @@
     "Applications/Applications_Home.md",
     "Applications/Web_Applications/Web_Applications_Home.md",
     "Applications/Web_Applications/Search_Engines.md",
-    "Applications/Web_Applications/Plex_Web_Client_Settings.md",
-    "Applications/Web_Applications/pdftomd.md",
-    "Applications/Web_Applications/Instagram.md",
     "assets/documents/security-guidance-v4-final-feb27-18.pdf",
     "assets/documents/Cloud+_CV0-002_objectives.pdf",
     "assets/documents/AWS-Certified-SysOps-Administrator-Associate_Sample-Questions.pdf",
