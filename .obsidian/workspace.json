@@ -19,71 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "357647df0a59e8f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Applications/Server_Applications/Home_Assistant.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "de537c54b47ccbfe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Applications/Raspberry_pi_Applications/Raspberry_pi_7inch_Screen.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e56846343f61aa8c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Operating_Systems/Truenas_Scale/Multiuse_drives_in_truenas_scale.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "73f541fdf434e58d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Applications/Server_Applications/idrac7_Upgrade.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "50db9b69c5c5f56d",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.5"
-              }
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "idrac",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -137,8 +74,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -158,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/idrac7_Upgrade.md",
+                "file": "Applications/Server_Applications/Ansible/Ansible_Vault.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/idrac7_Upgrade.md",
+                "file": "Applications/Server_Applications/Ansible/Ansible_Vault.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/idrac7_Upgrade.md"
+                "file": "Applications/Server_Applications/Ansible/Ansible_Vault.md"
               }
             }
           },
@@ -245,9 +181,25 @@
               "type": "pieces-snippet-list",
               "state": {}
             }
+          },
+          {
+            "id": "a44354878022460a",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "dc573e8a26c425ff",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-chat-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 10
       }
     ],
     "direction": "horizontal",
@@ -262,19 +214,24 @@
       "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obisidian-note-linker:Note Linker": false
+      "obisidian-note-linker:Note Linker": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "50db9b69c5c5f56d",
+  "active": "262137e2d8490059",
   "lastOpenFiles": [
+    "Applications/Server_Applications/Home_Assistant.md",
+    "Applications/Raspberry_pi_Applications/Raspberry_pi_7inch_Screen.md",
+    "Operating_Systems/Truenas_Scale/Multiuse_drives_in_truenas_scale.md",
+    "Applications/Server_Applications/idrac7_Upgrade.md",
+    "smart-chats",
     "Applications/Server_Applications/IDRAC.md",
     "Networking/Cisco/3850_Running_Config.md",
     "Operating_Systems/Linux/Extend_LVM_Ubuntu.md",
     "Operating_Systems/Truenas_Scale/TrueNas_Scale_Home.md",
     "Operating_Systems/Truenas_Scale/Home.md",
     "Home_Assistant_Chores.md",
-    "Applications/Raspberry_pi_Applications/Raspberry_pi_7inch_Screen.md",
-    "Applications/Server_Applications/Home_Assistant.md",
     "Applications/Server_Applications/gittea.md",
     "Applications/Server_Applications/Ansible/ansible_ad-hoc.md",
     "Applications/Server_Applications/Ansible/Playbooks/ansible_playbook_error_handling.md",
@@ -295,14 +252,11 @@
     "TV_Streaming_Devices/Amazon_FireTV.md",
     "AI/AI_Tools.md",
     "Applications/Applications_Home.md",
-    "Applications/Web_Applications/Web_Applications_Home.md",
-    "Applications/Web_Applications/Search_Engines.md",
     "assets/documents/security-guidance-v4-final-feb27-18.pdf",
     "assets/documents/Cloud+_CV0-002_objectives.pdf",
     "assets/documents/AWS-Certified-SysOps-Administrator-Associate_Sample-Questions.pdf",
     "assets/documents/database_management_-_c175.pdf",
     "AI/GPT_Prompts",
-    "Applications/Server_Applications/Ansible/Playbooks",
     "assets/images/Pasted image 20230923143719.png",
     "assets/images/Pasted image 20231130184644.png",
     "assets/images/Pasted image 20230923143931.png",
