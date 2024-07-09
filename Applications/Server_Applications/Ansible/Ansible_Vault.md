@@ -1,3 +1,13 @@
+---
+title: 
+description: 
+dateCreated: 
+published: 
+editor: markdown
+tags: 
+dateModified: 
+---
+# Ansible_Vault
 ## Introducing Ansible Vault
 
 Ansible Vault can be used to encrypt any file, or variables themselves, from within a playbook. By default AES is used which is a shared-secret based encryption. Both file and variable encryption methods have their benefits and drawbacks.

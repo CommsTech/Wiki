@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Server_Applications/Ansible/Ansible_Vault.md",
+                "file": "Applications/Server_Applications/clamav.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "dax",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Server_Applications/Ansible/Ansible_Vault.md",
+                "file": "Applications/Server_Applications/clamav.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Server_Applications/Ansible/Ansible_Vault.md",
+                "file": "Applications/Server_Applications/clamav.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Server_Applications/Ansible/Ansible_Vault.md"
+                "file": "Applications/Server_Applications/clamav.md"
               }
             }
           },
@@ -157,49 +157,9 @@
                 "searchQuery": ""
               }
             }
-          },
-          {
-            "id": "88c0f4a340a277ce",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "7a4d9cbdebac3886",
-            "type": "leaf",
-            "state": {
-              "type": "custom-frames-privategpt",
-              "state": {}
-            }
-          },
-          {
-            "id": "4cd703e8013ef57b",
-            "type": "leaf",
-            "state": {
-              "type": "pieces-snippet-list",
-              "state": {}
-            }
-          },
-          {
-            "id": "a44354878022460a",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "dc573e8a26c425ff",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-chat-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -219,6 +179,11 @@
   },
   "active": "262137e2d8490059",
   "lastOpenFiles": [
+    "fern/docs/assets",
+    "fern/docs",
+    "fern",
+    "Applications/Desktop_Applications/Excel/DAX.md",
+    "Applications/Server_Applications/Ansible/Ansible_Vault.md",
     "Applications/Server_Applications/Home_Assistant.md",
     "Applications/Raspberry_pi_Applications/Raspberry_pi_7inch_Screen.md",
     "Operating_Systems/Truenas_Scale/Multiuse_drives_in_truenas_scale.md",
@@ -242,19 +207,14 @@
     "Virtual_Infrastructure/VMware",
     "Applications/Server_Applications/Ansible/Ansible_for_cisco_ios_yetiops.md",
     "Applications/Server_Applications/Ansible/Ansible.md",
-    "Applications/Server_Applications/Ansible/Ansible_Vault.md",
     "Certifications/VMWare/VMWare_Certified_Professional_6.md",
     "Certifications/VMWare/VMWare_Home.md",
     "Certifications/VMWare",
     "piecesdb.json",
     "TV_Streaming_Devices/Amazon_FireTV.md",
-    "AI/AI_Tools.md",
-    "Applications/Applications_Home.md",
     "assets/documents/security-guidance-v4-final-feb27-18.pdf",
     "assets/documents/Cloud+_CV0-002_objectives.pdf",
     "assets/documents/AWS-Certified-SysOps-Administrator-Associate_Sample-Questions.pdf",
-    "assets/documents/database_management_-_c175.pdf",
-    "AI/GPT_Prompts",
     "assets/images/Pasted image 20230923143719.png",
     "assets/images/Pasted image 20231130184644.png",
     "assets/images/Pasted image 20230923143931.png",
